@@ -1,1717 +1,330 @@
 <!DOCTYPE html>
-<html lang="es" id="html-root">
-
+<html lang="en" class="theme-dark">
 <head>
   <meta charset="UTF-8">
-  <title>Nestor Fleitas | DevOps & DevSecOps Consultant</title>
-  <meta name="description" content="Nestor Fleitas, especialista en DevOps y DevSecOps, con experiencia en AWS, GCP, Docker, Kubernetes y automatización de infraestructuras seguras.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Néstor D. Fleitas | Senior DevOps Engineer (Security-Focused)</title>
+  <meta name="description" content="DevOps engineer with a security edge. I build secure, automated, and resilient cloud infrastructure for banking and fintech environments.">
+  <meta name="keywords" content="DevSecOps, Cloud Security, DevOps Engineer, AWS, Azure, GCP, Kubernetes, Terraform, CI/CD, Security Automation, Banking Infrastructure">
+  <meta name="author" content="Néstor D. Fleitas">
+  <link rel="canonical" href="https://ndf14685.github.io/">
+  <meta name="theme-color" content="#0b1018">
 
-    <!-- SEO: robots/canonical/theme-color + Open Graph/Twitter -->
-    <meta name="robots" content="index,follow">
-    <meta name="author" content="Néstor Fleitas">
-    <link rel="canonical" href="https://ndf14685.github.io/">
-    <meta name="theme-color" content="#0b0f14">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Nestor Fleitas">
-    <meta property="og:title" content="Néstor Fleitas | DevOps & DevSecOps Consultant">
-    <meta property="og:description" content="Especialista en DevOps y DevSecOps. AWS, GCP, Docker, Kubernetes y automatización de infraestructuras seguras.">
-    <meta property="og:url" content="https://ndf14685.github.io/">
-    <meta property="og:image" content="https://ndf14685.github.io/assets/images/ico/hack-icon-512x512.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Néstor Fleitas | DevOps & DevSecOps Consultant">
-    <meta name="twitter:description" content="Especialista en DevOps y DevSecOps. AWS, GCP, Docker, Kubernetes.">
-    <meta name="twitter:image" content="https://ndf14685.github.io/assets/images/ico/hack-icon-512x512.png">
-    <!-- Security: Content Security Policy -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://code.jquery.com https://cdn.jsdelivr.net https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com data:; connect-src 'self' https://api.countapi.xyz https://ndf14685.goatcounter.com; frame-ancestors 'self'; object-src 'none'; base-uri 'self'; upgrade-insecure-requests">
-    <!-- Bootstrap 5 CSS (with SRI) -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" media="screen" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-	<!-- Font Awesome CSS -->
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
-	<!-- Animate css -->
-  <link href="assets/css/animate.css" rel="stylesheet">
-  <!-- Magnific css -->
-	<link href="assets/css/magnific-popup.css" rel="stylesheet">
-	<!-- Custom styles CSS -->
-	<link href="assets/css/style.css" rel="stylesheet" media="screen">
-  <!-- Accessibility CSS -->
-  <link href="assets/css/accessibility.css" rel="stylesheet" media="screen">
-  <!-- Responsive CSS -->
-  <link href="assets/css/responsive.css" rel="stylesheet">
-  <!-- Modern font -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Néstor D. Fleitas">
+  <meta property="og:title" content="Néstor D. Fleitas | Senior DevOps Engineer">
+  <meta property="og:description" content="DevOps engineer with a security edge. I build secure, automated, and resilient cloud infrastructure for banking and fintech environments.">
+  <meta property="og:url" content="https://ndf14685.github.io/">
+  <meta property="og:image" content="https://ndf14685.github.io/assets/images/ico/hack-icon-512x512.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Néstor D. Fleitas | Senior DevOps Engineer">
+  <meta name="twitter:description" content="DevOps engineer with a security edge. Secure, automated, resilient cloud infrastructure.">
+  <meta name="twitter:image" content="https://ndf14685.github.io/assets/images/ico/hack-icon-512x512.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Néstor Fleitas",
-    "url": "https://ndf14685.github.io/",
-    "jobTitle": "DevOps & DevSecOps Consultant",
-    "sameAs": [
-      "https://www.linkedin.com/in/ndf14685/",
-      "https://github.com/ndf14685",
-      "https://www.instagram.com/nestorfleitas.ar/"
-    ]
-  }
-  </script>
+  <link rel="stylesheet" href="assets/css/portfolio.css">
 
-  <link rel="shortcut icon" href="assets/images/ico/hack-icon-512x512.png">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/favicon.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/favicon2.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/Webalys-Kameleon.pics-Hacker.ico">
-  <link rel="apple-touch-icon-precomposed" href="assets/images/ico/hack2.png">
-
-  
+  <link rel="icon" href="assets/images/ico/hack-icon-512x512.png">
 </head>
-
-
-
-<body class="dark">
-  <a href="#about" class="skip-link">Skip to main content</a>
-  <!-- Language Switcher -->
-  <div class="language-switcher" role="group" aria-label="Language switcher">
-    <img id="flag-es" src="assets/images/argentina-flag.png" alt="Cambiar a español" style="cursor:pointer; width:30px;" tabindex="0">
-    <img id="flag-en" src="assets/images/us-flag.png" alt="Switch to English" style="cursor:pointer; width:30px;" tabindex="0">
-  </div>
-  <!-- Theme Toggle -->
-  <div class="theme-toggle" title="Cambiar tema claro/oscuro">
-    <button id="theme-toggle" aria-label="Cambiar tema" class="btn btn-default btn-sm" tabindex="0">
-      <i class="fa fa-moon-o" aria-hidden="true"></i>
-    </button>
-  </div>
-	<!-- Preloader -->
-	<div id="tt-preloader">
-		<div id="pre-status">
-			<div class="preload-placeholder"></div>
-		</div>
-	</div>
-
-
-<!-- Home Section -->
-<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2" role="banner" aria-label="Sección principal - presentación">
-  <div class="intro">
-    
-    <div class="intro-sub">Nestor Fleitas</div>
-    <h1>DEVOPS - <span> DEVSECOPS </span> Consultant</h1>
-    <div class="social-icons" role="navigation" aria-label="Enlaces a redes sociales">
-      <ul class="list-inline">
-        <li><a target="_blank" href="https://www.facebook.com/ndf14685" aria-label="Visitar mi perfil de Facebook" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-        <li><a target="_blank" href="https://www.linkedin.com/in/ndf14685/" aria-label="Visitar mi perfil de LinkedIn" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-        <li><a target="_blank" href="https://github.com/ndf14685" aria-label="Visitar mi perfil de GitHub" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-        <li><a id="email-icon" href="#" aria-label="Enviarme un email" title="Email"><i class="fa fa-inbox" aria-hidden="true"></i></a></li>
-        <li><a target="_blank" href="https://www.instagram.com/nestorfleitas.ar/" aria-label="Visitar mi perfil de Instagram" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-      </ul>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <div class="brand">
+        <span class="brand-mark">NF</span>
+        <div>
+          <p class="brand-name">Néstor D. Fleitas</p>
+          <p class="brand-role">Senior DevOps Engineer · Security-Focused</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Tech Stack</a>
+        <a href="#experience">Experience</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
-  </div>
+  </header>
 
-  <div class="mouse-icon" aria-hidden="true">
-    <div class="wheel"></div>
-  </div>
-</section>
-<!-- End Home Section -->
-
-
-
-
-	<!-- Navigation -->
-    <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-custom" role="navigation" aria-label="Primary">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">Nestor Fleitas</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#custom-collapse" aria-controls="custom-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="custom-collapse">
-                    <ul class="navbar-nav ms-auto" role="menubar">
-                        <li class="nav-item" role="none"><a class="nav-link" href="#home" role="menuitem" tabindex="0">Home</a></li>
-                        <li class="nav-item" role="none"><a class="nav-link" href="#about" role="menuitem" tabindex="0">About</a></li>
-                        <li class="nav-item" role="none"><a class="nav-link" href="#skills" role="menuitem" tabindex="0">Skills</a></li>
-                        <li class="nav-item" role="none"><a class="nav-link" href="#resume" role="menuitem" tabindex="0">Resume</a></li>
-						<!-- <li><a href="#works">Works</a></li> -->
-						<!-- <li><a href="#blog">Blog</a></li> -->
-            <!-- <li><a href="#contact">Contact</a></li> -->
-					</ul>
-				</div>
-			</div><!-- .container -->
-		</nav>
-	</header><!-- End Navigation -->
-
-
-  <!-- About Section -->
-  <section id="about" class="about-section section-padding" role="main" aria-labelledby="about-title">
-    <div class="container">
-      <h2 id="about-title" class="section-title wow fadeInUp" data-lang="about-title">About Me</h2>
-      <div class="row">
-        <div class="col-md-4 order-md-2">
-          <div class="biography" role="complementary" aria-label="Información personal">
-            <div class="myphoto">
-              <img src="assets/images/myphoto.jpg" alt="Foto de perfil de Nestor Fleitas, consultor DevOps y DevSecOps especializado en infraestructura en la nube">
-            </div>
-            <ul aria-label="Datos personales">
-              <li><strong data-lang="name">Name:</strong> Nestor Fleitas</li>
-              <li><strong data-lang="dob">Date of Birth:</strong> 14/06/1985</li>
-              <li><strong data-lang="address">Address:</strong> Chubut - Argentina</li>
-              <li><strong data-lang="nationality">Nationality:</strong> Argentinian</li>
-              <li>
-                <strong data-lang="phone">Phone:</strong>
-                <a id="whatsapp-link" class="btn btn-success btn-sm" target="_blank" rel="noopener" aria-label="Contactarme por WhatsApp">
-                  <i class="fa fa-whatsapp" aria-hidden="true"></i> <span data-lang="whatsapp-contact">Contactarme por WhatsApp</span>
-                </a>
-              </li>
-              <li>
-                <strong data-lang="email">Email:</strong>
-                <span id="email-inline"></span>
-              </li>
-            </ul>
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">DevOps-first. Security as a strategic advantage.</p>
+          <h1>Building secure, automated, and resilient cloud infrastructure.</h1>
+          <p class="hero-subtitle">
+            I specialize in DevOps for banking and fintech environments, with a strong security focus that hardens
+            cloud platforms, CI/CD, and containerized workloads without slowing delivery.
+          </p>
+          <div class="hero-cta">
+            <a class="btn primary" href="assets/cvingles.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
+            <a class="btn ghost" href="https://www.linkedin.com/in/ndf14685/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+          <div class="hero-meta">
+            <span>Location: Argentina</span>
+            <span>English: B1–B2 (Conversational)</span>
+            <span>Time Zones: EST / CET overlap</span>
           </div>
         </div>
-        <div class="col-md-8 order-md-1">
-          <div class="short-info wow fadeInUp">
-            <h3 data-lang="who-am-i">Who am I?</h3>
-            <p data-lang="who-am-i-text">
-              DevOps and DevSecOps specialist with extensive experience in cloud infrastructure automation (AWS, GCP), software lifecycle security (CI/CD), and container management (Docker, Kubernetes). Passionate about implementing secure and scalable solutions to improve development and operations.            
-            </p>
-            
+        <div class="hero-card">
+          <div class="stat">
+            <h3>6+ Years</h3>
+            <p>Cloud & Infrastructure</p>
           </div>
-          <div class="short-info wow fadeInUp">
-            <h3 data-lang="skills">Skills</h3>
-            <ul class="list-check" aria-label="Lista de habilidades principales">
-              <li data-lang="skill1">DevSecOps</li>
-              <li data-lang="skill2">Cloud Architect (AWS, GCP)</li>
-              <li data-lang="skill3">CI/CD Pipeline Automation</li>
-              <li data-lang="skill4">Kubernetes & Docker Orchestration</li>
-              <li data-lang="skill5">Infraestructure as a Code (Terraform, AWS CDK)</li>
-              <li data-lang="skill6">English Intermediate</li>
-            </ul>
+          <div class="stat">
+            <h3>Banking + Fintech</h3>
+            <p>HSBC · Banco Pichincha · Credicoop</p>
           </div>
-          <div class="short-info wow fadeInUp">
-            <h3 data-lang="tools">Tools and Technologies</h3>
-            <ul class="list-check" aria-label="Lista de herramientas y tecnologías">
-              <li>Docker, Kubernetes, Terraform</li>
-              <li>Jenkins, Gitlab CI</li>
-              <li>AWS, GCP</li>
-              <li>Wazuh, Burp Suite, SonarQube</li>
-              <li>OAuth 2.0, IAM (Identity & Access Management)</li>              
-              <li>Javascript, JQuery</li>
-              <li>Git</li>
-              <li>SQL</li>
-              <li>Java, Python, Shellscripting</li>
-              <li>HTML, CSS</li>
-              <li>Linux</li>
-              <li>Weblogic / Nginx /Tomcat / Jboss</li>
-            </ul>
+          <div class="stat">
+            <h3>Global Brands</h3>
+            <p>Equifax · Allianz</p>
           </div>
-          <div class="download-button" role="group" aria-label="Botones de contacto y descarga">
-            <a id="email-btn" class="btn btn-info btn-lg" href="#" aria-label="Enviarme un email"><i class="fa fa-paper-plane" aria-hidden="true"></i><span data-lang="send-email">Send me an email</span></a>
-            <a class="btn btn-primary btn-lg" href="assets/cv.pdf" download aria-label="Descargar mi CV en español"><i class="fa fa-download" aria-hidden="true"></i><span data-lang="download-cv">Download my CV</span></a>
-            <a class="btn btn-primary btn-lg" href="assets/cvIngles.pdf" download aria-label="Descargar mi Resume en inglés"><i class="fa fa-download" aria-hidden="true"></i><span data-lang="download-resume">Download my Resume</span></a>
+          <div class="stat">
+            <h3>Security Edge</h3>
+            <p>OWASP · NIST · SAST/DAST</p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- End About Section -->
-  
-  <!-- Certifications Section -->
-  <section id="certifications" class="section-padding" role="region" aria-labelledby="cert-title">
-    <div class="container">
-      <h2 id="cert-title" class="section-title wow fadeInUp">Certificaciones</h2>
-      <!-- Fallback SEO-first list (visible sin JS) -->
-      <ul id="cert-fallback" aria-label="Lista de certificaciones">
-        <li>Amazon Web Services — AWS Certified Cloud Practitioner</li>
-        <li>Practical DevSecOps — Certified DevSecOps Professional</li>
-        <li>Cybersec Technician</li>
-      </ul>
-
-      <!-- Carousel: se pobla vía manifest si existe -->
-      <div id="cert-carousel" class="carousel slide cert-carousel" data-bs-ride="carousel" data-bs-interval="4000" role="region" aria-roledescription="carrusel" aria-label="Certificaciones profesionales">
-        <div class="carousel-inner" id="cert-carousel-inner"></div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#cert-carousel" data-bs-slide="prev" aria-label="Certificación anterior">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#cert-carousel" data-bs-slide="next" aria-label="Certificación siguiente">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
-      </div>
-    </div>
-  </section>
-  <!-- End Certifications Section -->
-  
-  <!-- Projects Section -->
-  <section id="projects" class="projects-section section-padding" role="region" aria-labelledby="projects-title">
-    <div class="container">
-      <h2 id="projects-title" class="section-title wow fadeInUp">Proyectos Destacados</h2>
-      <div class="row" role="list" aria-label="Lista de proyectos destacados">
-        <div class="col-md-4" role="listitem">
-          <div class="project-item">
-            <h3>Automatización CI/CD</h3>
-            <p>Implementación de pipelines de integración continua utilizando Jenkins y GitLab CI para despliegue automático en AWS.</p>
-          </div>
-        </div>
-        <div class="col-md-4" role="listitem">
-          <div class="project-item">
-            <h3>Infraestructura Segura en la Nube</h3>
-            <p>Despliegue de microservicios seguros en AWS y Kubernetes, integrando prácticas de DevSecOps y auditorías de seguridad.</p>
-          </div>
-        </div>
-        <div class="col-md-4" role="listitem">
-          <div class="project-item">
-            <h3>Monitorización con Wazuh</h3>
-            <p>Implementación de un SOC utilizando Wazuh para monitorear amenazas en infraestructuras locales y en la nube.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Projects Section -->
-
-    <!-- Hire Section -->
-    <section class="hire-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
-      <div class="hire-section-bg">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <!-- <h2>I'm available for freelance project</h2>
-              <a href="#" class="btn btn-default">Get Hired</a> -->
-            </div><!-- /.col-md-12 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </div><!-- /.hire-section-bg -->
-    </section><!-- End Hire Section -->
-
-    <!-- Video Section -->
-    <!--<section id="video" class="video-section">
-      <div class="tf-bg-overlay">
-        <div class="container">
-          <div class="control">
-            <div class="video-intro text-center">
-              <button type="button" class="play-trigger" data-bs-toggle="modal" data-bs-target="#tour-video"><i class="fa fa-play"></i></button>
-              <h2>Video Introducing</h2>
-            </div>
-              
-            <!-- Video Modal - ->
-            <div class="modal modal-video" id="tour-video">
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Video Tour</h4>
-                  </div>
-                  <div class="modal-body">
-                    <div class="video-container">
-                      <iframe src="http://player.vimeo.com/video/118119037" name="vimeoplayer" id="nofocusvideo" width="500" height="281"></iframe>
-                    </div><!--/.video-container- ->
-                  </div>
-                  <!- -/.modal-body- ->
-                </div>
-                <!--/.modal-content- ->
-              </div>
-              <!--/.modal-dialog- ->
-            </div>
-            <!--/.modal- ->                    
-          </div>
-          <!--/.control- ->
-        </div>
-        <!--/.container- ->
-      </div>
-      <!--/.overlay- ->
     </section>
-    <!-- /.Video Section - -> -->
 
-
-    
-
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills-section section-padding">
-      <div class="container">
-        <h2 class="section-title wow fadeInUp">Skills</h2>
-
-        <!-- Core Skills (DevOps / DevSecOps) -->
-        <div class="skill-category-section mb-5">
-          <h3 class="skill-category-title">Core Skills (DevOps / DevSecOps)</h3>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="skill-progress">
-                <div class="skill-title"><h4>Docker</h4></div> 
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" ><span>70%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-
-              <div class="skill-progress">
-                <div class="skill-title"><h4>Kubernetes</h4></div> 
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" ><span>70%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-
-              <div class="skill-progress">
-                <div class="skill-title"><h4>Terraform</h4></div>  
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-
-              <div class="skill-progress">
-                <div class="skill-title"><h4>Cloud (AWS, GCP, AZURE)</h4></div>  
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" ><span>70%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-
-              <div class="skill-progress">
-                <div class="skill-title"><h4>Linux</h4></div>  
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-
-            </div><!-- /.col-md-6 -->
-
-            <div class="col-md-6">
-
-              <div class="skill-progress">
-                <div class="skill-title"><h4>Jenkins</h4></div> 
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-              
-              <div class="skill-progress">
-                <div class="skill-title"><h4>Ansible</h4></div>  
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" ><span>40%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-
-              <div class="skill-progress">
-                <div class="skill-title"><h4>Git</h4></div>  
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" ><span>85%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-              
-              <div class="skill-progress">
-                <div class="skill-title"><h4>Monitoring (Grafana, Prometheus)</h4></div>  
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" ><span>60%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-              
-              <div class="skill-progress">
-                <div class="skill-title"><h4>Bash Scripting</h4></div>  
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" ><span>70%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-              
-            </div><!-- /.col-md-6 -->
-          </div><!-- /.row -->
-        </div><!-- /.skill-category-section -->
-
-        <!-- Complementarios -->
-        <div class="skill-category-section mb-5">
-          <h3 class="skill-category-title">Complementarios</h3>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="skill-progress">
-                <div class="skill-title"><h4>Python</h4></div> 
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" ><span>70%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-
-              <div class="skill-progress">
-                <div class="skill-title"><h4>Go</h4></div> 
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" ><span>60%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-
-              <div class="skill-progress">
-                <div class="skill-title"><h4>PostgreSQL</h4></div>  
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-
-            </div><!-- /.col-md-6 -->
-
-            <div class="col-md-6">
-
-              <div class="skill-progress">
-                <div class="skill-title"><h4>Redis</h4></div> 
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" ><span>65%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-              
-              <div class="skill-progress">
-                <div class="skill-title"><h4>MongoDB</h4></div>  
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" ><span>60%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-
-              <div class="skill-progress">
-                <div class="skill-title"><h4>Nginx</h4></div>  
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" ><span>70%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-              
-            </div><!-- /.col-md-6 -->
-          </div><!-- /.row -->
-        </div><!-- /.skill-category-section -->
-
-        <!-- Background en Desarrollo -->
-        <div class="skill-category-section mb-5">
-          <h3 class="skill-category-title">Background en Desarrollo</h3>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="skill-progress">
-                <div class="skill-title"><h4>Java</h4></div> 
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" ><span>85%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-
-              <div class="skill-progress">
-                <div class="skill-title"><h4>Spring Framework</h4></div> 
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-
-              <div class="skill-progress">
-                <div class="skill-title"><h4>Node.js</h4></div>  
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" ><span>65%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-
-              <div class="skill-progress">
-                <div class="skill-title"><h4>JavaScript</h4></div>  
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" ><span>70%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-
-            </div><!-- /.col-md-6 -->
-
-            <div class="col-md-6">
-
-              <div class="skill-progress">
-                <div class="skill-title"><h4>Oracle SOA Suite (OSB12c)</h4></div> 
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-              
-              <div class="skill-progress">
-                <div class="skill-title"><h4>HTML/CSS</h4></div>  
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" ><span>70%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-
-              <div class="skill-progress">
-                <div class="skill-title"><h4>React</h4></div>  
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" ><span>55%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-              
-              <div class="skill-progress">
-                <div class="skill-title"><h4>MySQL/MariaDB</h4></div>  
-                <div class="progress">
-                  <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.skill-progress -->
-              
-            </div><!-- /.col-md-6 -->
-          </div><!-- /.row -->
-        </div><!-- /.skill-category-section -->
-
-        <!-- Soft Skills -->
-        <div class="skill-chart text-center">
-          <h3>Soft Skills</h3>
+    <section class="section" id="about">
+      <div class="container split">
+        <div>
+          <h2>About</h2>
+          <p>
+            I am a Senior DevOps Engineer transitioning into a specialized DevSecOps role. My core strength is
+            designing and automating cloud infrastructure with measurable reliability improvements while adding
+            security controls that protect critical banking workloads.
+          </p>
+          <p>
+            Recent focus areas include hardened Kubernetes (EKS/AKS), secure IaC with Terraform and AWS CDK,
+            and CI/CD pipelines with policy enforcement, SAST/DAST, and compliance-ready audit trails.
+          </p>
         </div>
-          
-        <div class="row more-skill text-center">
-          <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="75" data-color="e74c3c">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                      <span>Liderazgo</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="85" data-color="2ecc71">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                      <span>Comunicación</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="70" data-color="3498db">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                      <span>Management</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="75" data-color="3498db">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                      <span>Creatividad</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="75" data-color="3498db">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                      <span>Trabajo en equipo</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="70" data-color="3498db">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                      <span>Proactivo</span>
-                    </div>
-                </div>
-            </div>
+        <div class="highlight-panel">
+          <h3>Signature Impact</h3>
+          <ul class="impact-list">
+            <li>Scaled and secured container orchestration using OpenShift 4 for Tier-1 banking environments.</li>
+            <li>Automated infrastructure provisioning with Terraform to reduce release time and configuration drift.</li>
+            <li>Hardened CI/CD pipelines with security gates (SonarQube, OWASP, secrets scanning).</li>
+            <li>Delivered cloud architectures aligned with NIST and enterprise risk requirements.</li>
+          </ul>
         </div>
-
-      </div><!-- /.container -->
+      </div>
     </section>
-    <!-- End Skills Section - ->
 
-
-    <!-- Works Section - ->
-    <section id="works" class="works-section section-padding">
+    <section class="section" id="skills">
       <div class="container">
-        <h2 class="section-title wow fadeInUp">Works</h2>
-
-        <ul class="list-inline" id="filter">
-            <li><a class="active" data-group="all">All</a></li>
-            <li><a data-group="design">Design</a></li>
-            <li><a data-group="web">Web</a></li>
-            <li><a data-group="interface">Interface</a></li>
-            <li><a data-group="identety">Identity</a></li>
-        </ul>
-
-        <div class="row">
-          <div id="grid">
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "interface"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-1.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links - ->
-                  <img src="assets/images/works/portfolio-1.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info - >
-                </div><!-- /.portfolio - ->
-              </div><!-- /.portfolio-bg - ->
-            </div><!-- /.portfolio-item - ->
-
-
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "web"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-2.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links - ->
-                  <img src="assets/images/works/portfolio-2.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info - ->
-                </div><!-- /.portfolio - ->
-              </div><!-- /.portfolio-bg - ->
-            </div><!-- /.portfolio-item - ->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "interface"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-3.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links - ->
-                  <img src="assets/images/works/portfolio-3.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info - ->
-                </div><!-- /.portfolio - ->
-              </div><!-- /.portfolio-bg - ->
-            </div><!-- /.portfolio-item - ->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-4.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links - ->
-                  <img src="assets/images/works/portfolio-4.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info - ->
-                </div><!-- /.portfolio - ->
-              </div><!-- /.portfolio-bg - ->
-            </div><!-- /.portfolio-item - ->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-5.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links - ->
-                  <img src="assets/images/works/portfolio-5.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info - ->
-                </div><!-- /.portfolio - ->
-              </div><!-- /.portfolio-bg - ->
-            </div><!-- /.portfolio-item - ->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-6.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links - ->
-                  <img src="assets/images/works/portfolio-6.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info - ->
-                </div><!-- /.portfolio - ->
-              </div><!-- /.portfolio-bg - ->
-            </div><!-- /.portfolio-item - ->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "web"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-7.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links - ->
-                  <img src="assets/images/works/portfolio-7.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info - ->
-                </div><!-- /.portfolio - ->
-              </div><!-- /.portfolio-bg - ->
-            </div><!-- /.portfolio-item - ->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "design"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-8.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links - ->
-                  <img src="assets/images/works/portfolio-8.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info - ->
-                </div><!-- /.portfolio - ->
-              </div><!-- /.portfolio-bg - ->
-            </div><!-- /.portfolio-item - ->
-          </div><!-- /#grid - ->
-        </div><!-- /.row - ->
-      </div><!-- /.container - ->
-    </section><!-- End Works Section - ->
-
-
-    <!-- Facts Section - ->
-    <section id="facts" class="facts-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
-      <div class="tt-overlay-bg">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="count-wrap">
-                <div class="col-sm-3 col-xs-6">
-                  <i class="fa fa-flask"></i>
-                  <h3 class="timer">7</h3>
-                  <p>Years of Experience</p>
-                </div>
-                <div class="col-sm-3 col-xs-6"> 
-                  <i class="fa fa-thumbs-up"></i>
-                  <h3 class="timer">651</h3>                
-                  <p>Projects Done</p>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                  <i class="fa fa-users"></i>
-                  <h3 class="timer">251</h3> 
-                  <p>Happy Clients</p>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                  <i class="fa fa-trophy"></i>
-                  <h3 class="timer">5</h3> 
-                  <p>Awards Won</p>
-                </div>
-              </div><!-- /count-wrap - ->
-            </div><!-- /.col-md-12 - ->
-          </div><!-- /.row - ->
-        </div><!-- /.container - ->
-      </div>
-    </section> <!-- End Facts Section - ->
-
-
-    <!-- Blog Section - ->
-    <section id="blog" class="latest-blog-section section-padding">
-      <div class="container">
-        <h2 class="section-title wow fadeInUp">Latest Post</h2>
-
-        <div class="row">
-          <div class="col-sm-4">
-            <article class="blog-post-wrapper">
-              <div class="figure">    
-                <div class="post-thumbnail">
-                  <a href="#"><img src="assets/images/blog/01.jpg" class="img-responsive " alt=""></a>
-                </div>
-                  <i class="fa fa-file-photo-o"></i>
-              </div><!-- /.figure - ->
-              <header class="entry-header">
-                <div class="post-meta">
-                  <span class="the-category"> 
-                    <a href="#">Print Design,</a> <a href="#">Photoshop</a>
-                  </span>
-                </div>
-                <h2 class="entry-title"><a href="blog-single.html" rel="">Common fonts used for newspaper template design</a></h2>
-                <hr>
-                <div class="entry-meta">
-                  <ul class="list-inline">
-                    <li>
-                      <span class="the-author">
-                        <a href="#">Admin</a> 
-                      </span>
-                    </li>
-                    <li>
-                      <span class="the-time">
-                        <a href="#">06 Jan 2015</a>
-                      </span>
-                    </li>
-                    <li>
-                      <span class="the-share">
-                        <a href="#" title="share">30</a>
-                      </span>
-                    </li>
-                    <li>
-                      <span class="the-comments">
-                        <a href="#" title="">05</a>
-                      </span>
-                    </li>
-                  </ul>
-                </div><!-- .entry-meta - ->
-              </header><!-- .entry-header - ->
-            </article>
-          </div><!-- /.col-sm-4 - ->
-          <div class="col-sm-4">
-            <article class="blog-post-wrapper">
-              <div class="figure">    
-                <div class="post-thumbnail">
-                  <a href="#"><img src="assets/images/blog/02.jpg" class="img-responsive " alt=""></a>
-                </div>
-                  <i class="fa fa-file-video-o"></i>
-              </div><!-- /.figure - ->
-              <header class="entry-header">
-                <div class="post-meta">
-                  <span class="the-category"> 
-                    <a href="#">Print Design,</a> <a href="#">Photoshop</a>
-                  </span>
-                </div>
-                <h2 class="entry-title"><a href="blog-single.html" rel="">What is the style of font called that is typically</a></h2>
-                <hr>
-                <div class="entry-meta">
-                  <ul class="list-inline">
-                    <li>
-                      <span class="the-author">
-                        <a href="#">Admin</a> 
-                      </span>
-                    </li>
-                    <li>
-                      <span class="the-time">
-                        <a href="#">06 Jan 2015</a>
-                      </span>
-                    </li>
-                    <li>
-                      <span class="the-share">
-                        <a href="#" title="share">30</a>
-                      </span>
-                    </li>
-                    <li>
-                      <span class="the-comments">
-                        <a href="#" title="">05</a>
-                      </span>
-                    </li>
-                  </ul>
-                </div><!-- .entry-meta - ->
-              </header><!-- .entry-header - ->
-            </article>
-          </div><!-- /.col-sm-4 - ->
-          <div class="col-sm-4">
-            <article class="blog-post-wrapper">
-              <div class="figure">    
-                <div class="post-thumbnail">
-                  <a href="#"><img src="assets/images/blog/03.jpg" class="img-responsive " alt=""></a>
-                </div>
-                  <i class="fa fa-quote-left"></i>
-              </div><!-- /.figure - ->
-              <header class="entry-header">
-                <div class="post-meta">
-                  <span class="the-category"> 
-                    <a href="#">Print Design,</a> <a href="#">Photoshop</a>
-                  </span>
-                </div>
-                <h2 class="entry-title"><a href="blog-single.html" rel="">How to create a print ready brochure using photoshop</a></h2>
-                <hr>
-                <div class="entry-meta">
-                  <ul class="list-inline">
-                    <li>
-                      <span class="the-author">
-                        <a href="#">Admin</a> 
-                      </span>
-                    </li>
-                    <li>
-                      <span class="the-time">
-                        <a href="#">06 Jan 2015</a>
-                      </span>
-                    </li>
-                    <li>
-                      <span class="the-share">
-                        <a href="#" title="share">30</a>
-                      </span>
-                    </li>
-                    <li>
-                      <span class="the-comments">
-                        <a href="#" title="">05</a>
-                      </span>
-                    </li>
-                  </ul>
-                </div><!-- .entry-meta - ->
-              </header><!-- .entry-header - ->
-            </article>
-          </div><!-- /.col-md-4 - ->
-        </div><!-- /.row - ->
-        <div class="blog-more text-center">
-          <a href="#" class="btn btn-primary">View More</a>
+        <h2>Tech Stack Grid</h2>
+        <div class="grid four">
+          <article class="card">
+            <h3>Cloud Platforms</h3>
+            <p>AWS, Azure, GCP</p>
+            <span class="tag">VPC · IAM · Security Hub</span>
+          </article>
+          <article class="card">
+            <h3>Infrastructure as Code</h3>
+            <p>Terraform, AWS CDK</p>
+            <span class="tag">Immutable builds · Policy as code</span>
+          </article>
+          <article class="card">
+            <h3>CI/CD Automation</h3>
+            <p>Jenkins, GitHub Actions, Azure DevOps</p>
+            <span class="tag">Pipeline hardening · secrets management</span>
+          </article>
+          <article class="card">
+            <h3>Security Engineering</h3>
+            <p>OWASP, NIST, SAST/DAST</p>
+            <span class="tag">SonarQube · Wazuh · IAM</span>
+          </article>
         </div>
-        
-      </div><!-- /.container - ->
-    </section><!-- End Blog Section - ->
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume-section section-padding">
-        <div class="container">
-            <h2 class="section-title wow fadeInUp">Resume</h2>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="resume-title">
-                        <h2>Historia Laboral</h2>
-                    </div>
-                    <div class="resume">
-                        <ul class="timeline">
+        <div class="matrix">
+          <div>
+            <h3>DevOps Automation</h3>
+            <ul>
+              <li>CI/CD pipelines (Jenkins, GitHub Actions, Azure DevOps)</li>
+              <li>Kubernetes operations (EKS, AKS, OpenShift 4)</li>
+              <li>Observability and reliability (logging, metrics, alerting)</li>
+              <li>Infrastructure provisioning (Terraform, AWS CDK)</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Security Engineering</h3>
+            <ul>
+              <li>Threat modeling aligned to OWASP and NIST</li>
+              <li>SAST/DAST integration and quality gates</li>
+              <li>IAM hardening and least-privilege enforcement</li>
+              <li>Secrets management and compliance-ready audits</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- BANCO PICHINCHA -->
-
-<li class="timeline-inverted">
-  <div class="posted-date">
-    <span class="month">DIC . 2024 - Actualmente </span>
-  </div><!-- /posted-date -->
-  <div class="timeline-panel wow fadeInUp">
-      <div class="timeline-content">
-          <div class="timeline-heading">
-              <h3>Banco Pichincha </h3>
-              <img src="assets/images/banco-pichincha.png" alt="Logo de Banco Pichincha" style="width: 25%" class="img-thumbnail">
-              <h5>DEVOPS</h5>
-              <span>Ecuador</span>
-          </div><!-- /timeline-heading -->
-
-          <div class="timeline-body">
-              <p><strong>Modalidad:</strong> Contractor</p>
-              <p>Modernización de infraestructura bancaria con tecnologías cloud-native:</p>
-              <ul class="experience-highlights">
-                <li><strong>Cloud Infrastructure:</strong> Azure con Infrastructure as Code (Terraform)</li>
-                <li><strong>Container Platform:</strong> Gestión de contenedores en OpenShift 4</li>
-                <li><strong>CNCF Technologies:</strong> Evaluación de frameworks Cloud Native Computing Foundation</li>
-                <li><strong>DevOps Chapter:</strong> Liderazgo técnico en adopción de mejores prácticas</li>
-                <li><strong>CI/CD Banking:</strong> Optimización de procesos en entornos bancarios regulados</li>
-                <li><strong>Compliance:</strong> Implementación de controles de seguridad financiera</li>
-              </ul>
-              <p><strong>Logros:</strong> Adaptación exitosa a procedimientos bancarios estandarizados y contribución en la modernización de pipelines CI/CD siguiendo templates corporativos establecidos.</p>
-          </div><!-- /timeline-body -->
-      </div> <!-- /timeline-content -->
-  </div> <!-- /timeline-panel -->
-</li>
-
-<!-- ALLIANZ -->
-<li>
-  <div class="posted-date">
-    <span class="month">JUL . 2024 - MAY . 2025</span>
-  </div><!-- /posted-date -->
-
-  <div class="timeline-panel wow fadeInUp">
-      <div class="timeline-content">
-          <div class="timeline-heading">
-              <h3>ALLIANZ - PSS
-              <img src="assets/images/allianz.png" alt="Logo de Allianz" style="width: 25%" class="img-thumbnail">
-              </h3>
-              <h5>DEVSECOPS</h5>
-              
-          </div><!-- /timeline-heading -->
-
-          <div class="timeline-body">
-              <p><strong>Rol:</strong> DevSecOps Engineer</p>
-              <p>Implementación de prácticas de seguridad integradas en el ciclo de desarrollo:</p>
-              <ul class="experience-highlights">
-                <li><strong>Normativas de Seguridad:</strong> OWASP, NIST, ISO compliance</li>
-                <li><strong>Seguridad en CI/CD:</strong> Jenkins con SAST (SonarQube, SolarQueue)</li>
-                <li><strong>Infraestructura AWS:</strong> Microservicios en Kubernetes (EKS)</li>
-                <li><strong>Infrastructure as Code:</strong> Terraform y prácticas DevOps</li>
-                <li><strong>API Security:</strong> Evaluación con OAuth2 y arquitecturas modernas</li>
-                <li><strong>Database Security:</strong> Revisión de SQL y integración segura en backend</li>
-                <li><strong>Coordinación SDLC:</strong> Arquitectura, operaciones y calidad</li>
-                <li><strong>Training:</strong> Capacitación en seguridad para equipos internos y externos</li>
-              </ul>
-              <p><strong>Logros:</strong> Incremento importante en la reducción de vulnerabilidades críticas y implementación de pipeline de seguridad automatizado que procesó +150 deployments mensuales sin incidentes.</p>
-          </div><!-- /timeline-body -->
-      </div> <!-- /timeline-content -->
-  </div><!-- /timeline-panel -->
-</li>
-
-<!-- ARKHO -->
-
-<li class="timeline-inverted">
-  <div class="posted-date">
-    <span class="month">FEB . 2024 - JUL . 2024</span>
-  </div><!-- /posted-date -->
-  <div class="timeline-panel wow fadeInUp">
-      <div class="timeline-content">
-          <div class="timeline-heading">
-              <h3>ARKHO </h3>
-              <img src="assets/images/arkho.png" alt="Logo de ARKHO" style="width: 25%" class="img-thumbnail">
-              <h5>CLOUD Engineer</h5>
-              <span>Chile</span>
-          </div><!-- /timeline-heading -->
-
-          <div class="timeline-body">
-              <p><strong>Modalidad:</strong> Contractor</p>
-              <p>Creación de infraestructura en AWS con arquitectura moderna y escalable:</p>
-              <ul class="experience-highlights">
-                <li><strong>Frontend & CDN:</strong> CloudFront, S3</li>
-                <li><strong>Backend:</strong> Microservicios en Node.js desplegados en clúster EKS</li>
-                <li><strong>Base de datos:</strong> RDS para persistencia de datos</li>
-                <li><strong>DevOps & CI/CD:</strong> CDK, CodeBuild, CodePipeline, CodeCommit</li>
-                <li><strong>Containerización:</strong> Docker y orquestación con EKS</li>
-              </ul>
-              <p><strong>Logros:</strong> Migración exitosa de infraestructura legacy a AWS Cloud con 99.9% de disponibilidad y reducción del 45% en costos operativos mensuales.</p>
-          </div><!-- /timeline-body -->
-      </div> <!-- /timeline-content -->
-  </div> <!-- /timeline-panel -->
-</li>
-
-
-<!-- CLARIN - AGEA -->
-<li>
-  <div class="posted-date">
-    <span class="month">OCT . 2022 - MAR . 2024</span>
-  </div><!-- /posted-date -->
-
-  <div class="timeline-panel wow fadeInUp">
-      <div class="timeline-content">
-          <div class="timeline-heading">
-              <h3>CLARIN - AGEA
-              <img src="assets/images/clarin.png" alt="Logo de Clarín" style="width: 25%" class="img-thumbnail">
-              </h3>
-              <h5>Data & Cloud Engineer</h5>
-              
-          </div><!-- /timeline-heading -->
-
-          <div class="timeline-body">
-              <p><strong>Rol:</strong> Data & Cloud Engineer</p>
-              <p>Integración de plataformas cloud y desarrollo de pipelines de datos:</p>
-              <ul class="experience-highlights">
-                <li><strong>Cloud Integration:</strong> GCP con Elastic Cloud</li>
-                <li><strong>Data Pipeline:</strong> Pubsub, Dataflow, Airflow</li>
-                <li><strong>Containerización:</strong> Docker, Kubernetes</li>
-                <li><strong>Backend Development:</strong> Desarrollo de conector Java</li>
-                <li><strong>AWS Infrastructure:</strong> EKS, VPC, ELB, CDK</li>
-                <li><strong>Microservicios:</strong> Implementación de microservicios Node.js</li>
-              </ul>
-              <p><strong>Logros:</strong> Automatización del procesamiento de 500M+ de eventos diarios y reducción del tiempo de pipeline de datos de 6 horas a 45 minutos.</p>
-          </div><!-- /timeline-body -->
-      </div> <!-- /timeline-content -->
-  </div><!-- /timeline-panel -->
-</li>
-
-<!-- INGENIA -->
-
-                                <li class="timeline-inverted">
-                                  <div class="posted-date">
-                                    <span class="month">MAY . 2022 - JUL . 2022</span>
-                                  </div><!-- /posted-date -->
-
-                                  <div class="timeline-panel wow fadeInUp">
-                                      <div class="timeline-content">
-                                          <div class="timeline-heading">
-                                              <h3>Ingenia</h3>
-                                              <h5>Technology ARCHITECT</h5>
-                                              <span>Lavalle 333 - CABA</span>
-                                          </div><!-- /timeline-heading -->
-
-                                          <div class="timeline-body">
-                                              <p><strong>Rol:</strong> Technology Architect con especialización DevSecOps</p>
-                                              <p>Diseño e implementación de arquitectura tecnológica segura:</p>
-                                              <ul class="experience-highlights">
-                                                <li><strong>DevSecOps Implementation:</strong> Integración de seguridad en pipelines CI/CD</li>
-                                                <li><strong>Infrastructure Automation:</strong> Ansible, Jenkins y Terraform</li>
-                                                <li><strong>Container Orchestration:</strong> Kubernetes pods en Google Cloud</li>
-                                                <li><strong>System Administration:</strong> Linux (Red Hat), Apache Web Server</li>
-                                                <li><strong>Scripting & Automation:</strong> Bash, Python scripting</li>
-                                                <li><strong>Load Balancing:</strong> Nginx, balanceo de carga</li>
-                                              </ul>
-                                              <p><strong>Logros:</strong> Diseño e implementación exitosa de pipeline DevSecOps que automatizó el 80% de las validaciones de seguridad y documentación de arquitectura adoptada por el equipo.</p>
-                                          </div><!-- /timeline-body -->
-                                      </div> <!-- /timeline-content -->
-                                  </div> <!-- /timeline-panel -->
-                              </li>
-
-                          
-<!-- FLUX IT -->
-<li>
-  <div class="posted-date">
-    <span class="month">JUL . 2021 - ABRIL 2022</span>
-  </div><!-- /posted-date -->
-
-  <div class="timeline-panel wow fadeInUp">
-      <div class="timeline-content">
-          <div class="timeline-heading">
-              <h3>FLUX IT
-              <img src="assets/images/logo-FluxIT.png" alt="Logo de Flux IT" style="width: 25%" class="img-thumbnail">
-              </h3>
-              <h5>DEVOPS MOBILE</h5>
-              
-          </div><!-- /timeline-heading -->
-
-          <div class="timeline-body">
-              <p><strong>Rol:</strong> DevOps Mobile Specialist</p>
-              <p>Especialización en CI/CD para aplicaciones móviles multiplataforma:</p>
-              <ul class="experience-highlights">
-                <li><strong>Multi-Cloud:</strong> GCP, AWS, Azure environments</li>
-                <li><strong>Container Technology:</strong> Docker, Jenkins automation</li>
-                <li><strong>Mobile CI/CD:</strong> Azure DevOps para Android y iOS</li>
-                <li><strong>Quality Assurance:</strong> Integración con SonarQube</li>
-                <li><strong>Testing Automation:</strong> Browserstack para testing multi-device</li>
-              </ul>
-              <p><strong>Logros:</strong> Implementación de pipeline CI/CD que redujo el tiempo de release de apps móviles de 2 semanas a 2 días, procesando +50 builds diarios.</p>
-          </div><!-- /timeline-body -->
-      </div> <!-- /timeline-content -->
-  </div><!-- /timeline-panel -->
-</li>
-
-<!-- EQUIFAX -->
-
-                            <li class="timeline-inverted">
-                                <div class="posted-date">
-                                  <span class="month">FEB . 2020 - JUN . 2021</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Equifax</h3>
-                                            <h5>SRE - DevOps</h5>
-                                            <span>Lavalle 333 - CABA</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p><strong>Rol:</strong> Site Reliability Engineer & DevOps</p>
-                                            <p>Gestión de infraestructura crítica y automatización de procesos:</p>
-                                            <ul class="experience-highlights">
-                                              <li><strong>Container Technologies:</strong> Docker, Kubernetes en GCP</li>
-                                              <li><strong>Configuration Management:</strong> Ansible automation</li>
-                                              <li><strong>Web Servers:</strong> Apache HTTP Server, Tomcat 7/8</li>
-                                              <li><strong>Monitoring:</strong> Nagios Core para supervisión 24/7</li>
-                                              <li><strong>System Administration:</strong> Linux (Red Hat), Nginx</li>
-                                              <li><strong>Automation:</strong> Bash, Python scripting, Jenkins, Terraform</li>
-                                            </ul>
-                                            <p><strong>Logros:</strong> Mejora del uptime del 97% al 99.8% mediante implementación de monitoreo proactivo y automatización que redujo incidentes manuales en 80%.</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div> <!-- /timeline-panel -->
-                            </li>
-<!-- TELECOM -->
-                            <li>
-                                <div class="posted-date">
-                                  <span class="month">MAR . 2018 - 2020</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Telecom
-                                            <img src="assets/images/telecom.png" alt="Logo de Telecom Argentina" style="width: 25%" class="img-thumbnail">
-                                            </h3>
-                                            <h5>Desarrollador Java SOA - Area Técnica - Configuration Manager</h5>
-                                            <span>Av. Congreso 3924 – Cap. Fed.</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p><strong>Rol:</strong> Desarrollador Java SOA & Configuration Manager</p>
-                                            <p>Desarrollo e integración de servicios empresariales:</p>
-                                            <ul class="experience-highlights">
-                                              <li><strong>SOA Development:</strong> Oracle Service Bus (OSB12c)</li>
-                                              <li><strong>Integration Platform:</strong> IBM Datapower</li>
-                                              <li><strong>Environment Management:</strong> Administración Linux, OSB12c</li>
-                                              <li><strong>Automation:</strong> Scripts bash, Release Automation</li>
-                                              <li><strong>Development Tools:</strong> Jenkins, Stash(Git), Maven</li>
-                                              <li><strong>Project Management:</strong> Jira, Confluence</li>
-                                              <li><strong>Architecture:</strong> Propuestas de soluciones y toma de decisiones</li>
-                                            </ul>
-                                            <p><strong>Logros:</strong> Reducción del 50% en tiempo de integración de servicios SOA y automatización de deployments que eliminó errores manuales en producción.</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div><!-- /timeline-panel -->
-                            </li>
-<!-- HSBC -->
-                            <li class="timeline-inverted">
-                                <div class="posted-date">
-                                  <span class="month">OCT . 2017 - Jun . 2018</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>HSBC
-                                            <img src="assets/images/hsbc-logo-320x150.png" alt="Logo de HSBC" style="width: 10%" class="img-thumbnail">
-                                            </h3>
-                                            <h5>Analista desarrollador Java Sr Middleware </h5>
-                                            <span>Av. Martin Garcia 464 – Cap. Fed.</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p><strong>Rol:</strong> Analista Desarrollador Java Sr - Middleware Specialist</p>
-                                            <p>Desarrollo y documentación técnica para sistema bancario crítico:</p>
-                                            <ul class="experience-highlights">
-                                              <li><strong>Technical Analysis:</strong> Documentación técnica y funcional</li>
-                                              <li><strong>Java Development:</strong> Programación enterprise en entorno bancario</li>
-                                              <li><strong>SOA Integration:</strong> Servicios orientados a arquitectura</li>
-                                              <li><strong>Development Tools:</strong> RTC, IID (IBM), SoapUI</li>
-                                              <li><strong>Middleware Integration:</strong> Conectores contra ESB (IBM)</li>
-                                              <li><strong>Banking Domain:</strong> Soluciones on-site para HSBC</li>
-                                            </ul>
-                                            <p><strong>Logros:</strong> Desarrollo de 3 módulos críticos de integración bancaria con 100% de confiabilidad y creación de framework de documentación técnica reutilizable.</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div> <!-- /timeline-panel -->
-                            </li>
-<!-- CREDICOOP -->
-                            <li>
-                                <div class="posted-date">
-                                  <span class="month">OCT . 2014 - Sept . 2017</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Banco Credicoop
-                                            <img src="assets/images/Logo-banco-Credicoop.jpg" alt="Logo del Banco Credicoop" style="width: 10%" class="img-thumbnail">
-                                            </h3>
-                                            <h5>Analista desarrollador Java Ssr en Area de Arquitectura</h5>
-                                            <span>Maipu 66 – Cap. Fed.</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p><strong>Rol:</strong> Analista Desarrollador Java Ssr - Área de Arquitectura</p>
-                                            <p>Desarrollo e investigación tecnológica en entorno bancario cooperativo:</p>
-                                            <ul class="experience-highlights">
-                                              <li><strong>Java Development:</strong> Eclipse IDE, documentación técnica y funcional</li>
-                                              <li><strong>Middleware Integration:</strong> Conectores contra ESB (IBM)</li>
-                                              <li><strong>Technology Research:</strong> CouchDB, Node.js, Angular JS</li>
-                                              <li><strong>ELK Stack:</strong> ElasticSearch, Logstash, Kibana</li>
-                                              <li><strong>DevOps Tools:</strong> Jenkins para CI/CD</li>
-                                              <li><strong>Version Migration:</strong> Actualización de sistemas legacy</li>
-                                            </ul>
-                                            <p><strong>Logros:</strong> Lideré adopción de tecnologías open source que redujo costos de licencias en 40% y implementé stack ELK para analytics que mejoró troubleshooting en 60%.</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div><!-- /timeline-panel -->
-                            </li>
-<!-- Telefonica-Movistar -->
-                            <li class="timeline-inverted">
-                                <div class="posted-date">
-                                  <span class="month">AGO . 2013 - OCT . 2014</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Telefonica-Movistar
-                                            <img src="assets/images/telefonica.png" alt="Logo de Telefónica" style="width: 10%" class="img-thumbnail">
-                                            <img src="assets/images/MovistarGreen.png" alt="Logo de Movistar" style="width: 10%" class="img-thumbnail">
-                                            </h3>
-                                            <h5>Consultor JAVA SOA – OSB </h5>
-                                            <span>San Martin 550 – Cap. Fed.</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p><strong>Rol:</strong> Consultor Java SOA - Oracle Service Bus</p>
-                                            <p>Consultoría especializada en integración SOA para telecomunicaciones:</p>
-                                            <ul class="experience-highlights">
-                                              <li><strong>SOA Development:</strong> Oracle Service Bus (OSB), BPel</li>
-                                              <li><strong>Java Platforms:</strong> Eclipse, OEPE, JDeveloper</li>
-                                              <li><strong>Application Servers:</strong> Tomcat, Weblogic</li>
-                                              <li><strong>Integration Technologies:</strong> WebServices, Spring, EJB</li>
-                                              <li><strong>Support & Migration:</strong> Gestión de incidencias</li>
-                                            </ul>
-                                            <p><strong>Logros:</strong> Migración exitosa de 12 servicios críticos a arquitectura SOA sin downtime y optimización de 5 APIs principales con 25% mejora en tiempo de respuesta.</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div> <!-- /timeline-panel -->
-                            </li>
-<!-- Telefonica -->
-                            <li>
-                                <div class="posted-date">
-                                  <span class="month">JUL . 2012 - JUL . 2013</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Telefónica
-                                            <img src="assets/images/telefonica.png" alt="Responsive image" style="width: 10%" class="img-thumbnail">
-                                            <img src="assets/images/MovistarGreen.png" alt="Responsive image" style="width: 10%" class="img-thumbnail">
-                                            </h3>
-                                            <h5>Consultor JAVA</h5>
-                                            <span>Av. Vieytes 1710 – Cap. Fed.</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p><strong>Rol:</strong> Consultor Java Full-Stack</p>
-                                            <p>Desarrollo y customización de aplicaciones de gestión de redes:</p>
-                                            <ul class="experience-highlights">
-                                              <li><strong>Full-Stack Development:</strong> Java, JavaScript, JSP, Android</li>
-                                              <li><strong>Development Environment:</strong> Eclipse, Tomcat, Weblogic</li>
-                                              <li><strong>Network Management:</strong> HDM, CSC, MDM applications</li>
-                                              <li><strong>System Administration:</strong> RedHat Server installation</li>
-                                              <li><strong>Mobile Development:</strong> Android applications</li>
-                                              <li><strong>Integration:</strong> WebServices, SoapUI</li>
-                                              <li><strong>Agile Methodology:</strong> Scrum implementation</li>
-                                            </ul>
-                                            <p><strong>Logros:</strong> Desarrollo de app Android para gestión de red adoptada por 150+ técnicos y customización de 3 módulos HDM que mejoró eficiencia operativa en 20%.</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div><!-- /timeline-panel -->
-                            </li>
-<!-- Telefonica --> 
-                            <li class="timeline-inverted">
-                                <div class="posted-date">
-                                  <span class="month">AGO . 2011 - JUL . 2012</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Telefónica - Movistar
-                                            <img src="assets/images/telefonica.png" alt="Responsive image" style="width: 10%" class="img-thumbnail">
-                                            <img src="assets/images/MovistarGreen.png" alt="Responsive image" style="width: 10%" class="img-thumbnail">
-                                            </h3>
-                                            <h5>Consultor JAVA </h5>
-                                            <span>Av. Martin Garcia 464 – Cap. Fed.</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p>Análisis y desarrollo de documentación técnica y funcional, Programación en lenguaje JAVA, con Herramientas WEB, Hibernate, etc. </p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div> <!-- /timeline-panel -->
-                            </li>
-<!-- Accenture -->
-                            <li>
-                                <div class="posted-date">
-                                  <span class="month">SEPT . 2008 - JUN . 2009</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Accenture S.A.
-                                            <img src="assets/images/accenture.png" alt="Logo de Accenture" style="width: 10%" class="img-thumbnail">
-                                            </h3>
-                                            <h5>Desarrollador Cobol</h5>
-                                            <span>Av. Santa Fe 1047 – Rosario (Sta. Fe)</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p>Realice tareas de programación en lenguaje Cobol en diversos Proyectos asignados; Experiencia con Herramientas Cobol en entorno Mainframe, JCL, DB2;</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div><!-- /timeline-panel -->
-                            </li>
-<!-- Telefonica --> 
-                            <li class="timeline-inverted">
-                                <div class="posted-date">
-                                  <span class="month">MAR . 2007 - MAR . 2008</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>TGV Excelencia en Soluciones Informáticas S.A.
-                                            <img src="assets/images/TGV-Logo-sin-slogan.png" alt="Logo de TGV" style="width: 10%" class="img-thumbnail">
-                                            </h3>
-                                            <h5>Desarrollador Java </h5>
-                                            <span>Av. Rivadavia 413 6º - Capital Federal</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p>Realice tareas de programación en lenguaje Java en diversos Proyectos asignados. Utilización de Herramientas Web, Jsp, Servlets y Struts. Manejo de SQL, Cvs, JavaScript y HTML;  </p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div> <!-- /timeline-panel -->
-                            </li>
-
-
-                        </ul>
-                    </div>
-                </div>
-            </div><!-- /row -->
-            
-            <!-- Divider Section -->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-divider">
-                        <div class="divider-line"></div>
-                        <div class="divider-icon">
-                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                        </div>
-                        <div class="divider-line"></div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Education Section -->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="resume-title education-title">
-                        <h2>Formación Académica</h2>
-                    </div>
-                    <div class="education-section">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="education-item wow fadeInUp">
-                                    <div class="education-year">2013 - ACTUALIDAD</div>
-                                    <div class="education-content">
-                                        <h3>INGENIERÍA INDUSTRIAL</h3>
-                                        <h5>U.T.N. Facultad Regional Buenos Aires</h5>
-                                        <p class="education-status">Cursando 3° Año de la Carrera</p>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4">
-                                <div class="education-item wow fadeInUp" data-wow-delay="0.1s">
-                                    <div class="education-year">2003 - 2007</div>
-                                    <div class="education-content">
-                                        <h3>INGENIERÍA INDUSTRIAL</h3>
-                                        <h5>U.T.N. Facultad Regional Avellaneda</h5>
-                                        <p class="education-status">1º a 3º Año de la Carrera</p>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4">
-                                <div class="education-item wow fadeInUp" data-wow-delay="0.2s">
-                                    <div class="education-year">2002</div>
-                                    <div class="education-content">
-                                        <h3>TÉCNICO EN INFORMÁTICA</h3>
-                                        <h5>E.E.T. Nº 9 Ing. Torcuato Di Tella</h5>
-                                        <p class="education-status">Avellaneda - Título Completo</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- /row -->
-        </div><!-- /.container -->
-    </section><!-- End Resume Section -->
-
-    <!-- Contact Section -->
-    <!--
-    <section id="contact" class="contact-section section-padding">
+    <section class="section" id="experience">
       <div class="container">
-        <h2 class="section-title wow fadeInUp">Get in touch</h2>
-
-        <div class="row">
-          <div class="col-md-6">
-            <div class="contact-form">
-              <strong>Send me a message</strong>
-              <form name="contact-form" method="post" action="assets/php/sendemail.php">
-                <div class="form-group">
-                  <label for="InputName1">Name</label>
-                  <input type="text" name="name" class="form-control" id="InputName1" required="">
-                </div>
-                <div class="form-group">
-                  <label for="InputEmail1">Email</label>
-                  <input type="email" name="email" class="form-control" id="InputEmail1" required="">
-                </div>
-                <div class="form-group">
-                  <label for="InputSubject">Subject</label>
-                  <input type="text" name="subject" class="form-control" id="InputSubject">
-                </div>
-                <div class="form-group">
-                  <label for="InputTextarea">Message</label>
-                  <textarea name="message" class="form-control" id="InputTextarea" rows="5" required=""></textarea>
-                </div>
-
-                <button type="submit" name="submit" class="btn btn-primary">Send Message</button>
-              </form>
+        <h2>Experience Timeline</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-role">
+              <h3>DevOps Engineer</h3>
+              <p>Banco Pichincha</p>
+              <p>Dec 2024 – Present</p>
             </div>
-          </div><!-- /.col-md-6 - ->
-
-          <div class="col-md-6">
-            <div class="row center-xs">
-              <div class="col-sm-6">
-                <i class="fa fa-map-marker"></i>
-                <address>
-                  <strong>Villa del Parque</strong>
-                  Capital Federal<br>
-                  Argentina<br>
-                </address> 
-              </div>
-
-              <div class="col-sm-6">
-                <i class="fa fa-mobile"></i>
-                <div class="contact-number">
-                  <strong>Celular</strong>
-                  (+54) 11 3074-8591<br>
-                  
-                </div>
-              </div>
-            </div>
-
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="location-map">
-                <div id="mapCanvas" class="map-canvas"></div>
-                
-              </div>
+            <div class="timeline-details">
+              <ul>
+                <li>Built Azure infrastructure using Terraform templates for consistent environments.</li>
+                <li>Managed containers on OpenShift 4 with production-ready rollout practices.</li>
+                <li>Optimized CI/CD processes for banking-grade delivery standards.</li>
+              </ul>
             </div>
           </div>
-
+          <div class="timeline-item">
+            <div class="timeline-role">
+              <h3>DevSecOps Engineer</h3>
+              <p>Allianz Argentina</p>
+              <p>Jul 2024 – May 2025</p>
+            </div>
+            <div class="timeline-details">
+              <ul>
+                <li>Defined secure development standards aligned to OWASP, NIST, and ISO.</li>
+                <li>Embedded security into CI/CD with Jenkins and SAST tools (SonarQube).</li>
+                <li>Managed AWS EKS microservices and Terraform IaC pipelines.</li>
+              </ul>
+            </div>
           </div>
-        </div><!-- /.row - ->
-      </div><!-- /.container - ->
-    </section><!-- End Contact Section - -> 
-    -->
-
-
-	<!-- Footer Section -->
-    <footer class="footer-wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="copyright text-center">
-              <p>Desarrollado por <a target="_blank" href="https://www.nestorfleitas.ar">&copy; Néstor Fleitas</a>. DevOps and Security specialist.</p>
-              <div class="visits" aria-label="Contador de visitas">
-                <img id="visits-badge" alt="Visitas (badge)" src="" onerror="this.style.display='none';document.getElementById('visit-count-wrap').style.display='inline-block';" />
-                <span id="visit-count-wrap" style="display:none">Visitas: <span id="visit-count">—</span></span>
-              </div>
+          <div class="timeline-item">
+            <div class="timeline-role">
+              <h3>Cloud Engineer (Contractor)</h3>
+              <p>ARKHO · Chile</p>
+              <p>Feb 2024 – Jul 2024</p>
+            </div>
+            <div class="timeline-details">
+              <ul>
+                <li>Built AWS infrastructure with CloudFront, S3, and RDS for production workloads.</li>
+                <li>Deployed Node.js microservices on EKS using CDK, CodeBuild, and CodePipeline.</li>
+                <li>Standardized container delivery with Docker and EKS.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-role">
+              <h3>Data Engineer / DevOps</h3>
+              <p>AGEA SA</p>
+              <p>Oct 2022 – Mar 2024</p>
+            </div>
+            <div class="timeline-details">
+              <ul>
+                <li>Created AWS infrastructure with Terraform, Docker, and Jenkins.</li>
+                <li>Integrated GCP services (Elastic Cloud, Pub/Sub, Dataflow, Airflow).</li>
+                <li>Supported Kubernetes-based delivery and Java development workflows.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-role">
+              <h3>DevOps Architect</h3>
+              <p>Ingenia</p>
+              <p>Apr 2022 – Sep 2022</p>
+            </div>
+            <div class="timeline-details">
+              <ul>
+                <li>Designed AWS infrastructure with Terraform, Docker, and Jenkins.</li>
+                <li>Improved delivery pipelines for multi-environment deployments.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-role">
+              <h3>CI/CD DevOps Engineer</h3>
+              <p>Flux IT · La Nación</p>
+              <p>Jul 2021 – Feb 2022</p>
+            </div>
+            <div class="timeline-details">
+              <ul>
+                <li>Built CI/CD for mobile apps with Azure DevOps and SonarQube quality gates.</li>
+                <li>Implemented AWS and Azure infrastructure for clients (Geopagos, Mercantil Andina, Frávega).</li>
+                <li>Delivered Kubernetes platforms with Terraform, Istio, Prometheus, and GitLab.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-role">
+              <h3>SRE / DevOps Engineer</h3>
+              <p>Equifax</p>
+              <p>Feb 2020 – Jun 2021</p>
+            </div>
+            <div class="timeline-details">
+              <ul>
+                <li>Managed reliability tooling (Docker, Ansible, Nagios) and Linux automation.</li>
+                <li>Operated Jenkins, Terraform, and Kubernetes on GCP environments.</li>
+                <li>Implemented security tooling including CyberArk for privileged access.</li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-    
-  <!-- End Footer Section -->
+    </section>
 
+    <section class="section" id="certifications">
+      <div class="container">
+        <h2>Cloud Certifications</h2>
+        <p class="section-lead">Official digital badges help recruiters verify expertise quickly.</p>
+        <div class="badge-grid">
+          <div class="badge-card">
+            <img src="assets/certificates/aws-cloud-practitioner.png" alt="AWS Certified Cloud Practitioner badge">
+            <div>
+              <h3>AWS Certified Cloud Practitioner</h3>
+              <p>Foundational cloud certification</p>
+            </div>
+          </div>
+          <div class="badge-card">
+            <img src="assets/certificates/intr_sec.png" alt="Cisco Verified Introduction to Cybersecurity badge">
+            <div>
+              <h3>Cisco Verified</h3>
+              <p>Introduction to Cybersecurity</p>
+            </div>
+          </div>
+          <div class="badge-card">
+            <img src="https://images.credly.com/images/53f37f83-04a1-4935-9b1e-21a99cc6e1b2/CyberOpsAssoc.png" alt="Cisco CyberOps Associate badge">
+            <div>
+              <h3>Cisco CyberOps Associate</h3>
+              <p>Security Operations certification</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<!-- Scroll-up -->
-	<div class="scroll-up">
-		<a href="#home"><i class="fa fa-angle-up"></i></a>
-	</div>
+    <section class="section cta" id="contact">
+      <div class="container cta-grid">
+        <div>
+          <h2>Let’s talk about secure DevOps for regulated systems.</h2>
+          <p>
+            I’m looking for DevOps roles where security is a differentiator. If you need a teammate who can
+            automate delivery while strengthening controls, I’m ready to help.
+          </p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn primary" href="assets/cvingles.pdf" target="_blank" rel="noopener">Download CV</a>
+          <a class="btn ghost" href="mailto:david.fleitas@gmail.com">Email</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-	<!-- Javascript files -->
-	<!-- jQuery 3.x (patched) -->
-	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <!-- Bootstrap 5 Bundle (no jQuery dependency) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <script src="assets/js/jquery.stellar.min.js"></script>
-	<script src="assets/js/jquery.sticky.js"></script>
-  <script src="assets/js/smoothscroll.js"></script>
-	<script src="assets/js/wow.min.js"></script>
-  <script src="assets/js/jquery.countTo.js"></script>
-  <script src="assets/js/jquery.inview.min.js"></script> 
-  <script src="assets/js/jquery.easypiechart.js"></script>
-  <script src="assets/js/jquery.shuffle.min.js"></script>
-  <script src="assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="assets/js/jquery.fitvids.js"></script>
-  <script src="assets/js/certifications.js"></script>
-  <script src="assets/js/resume.js"></script>
-  <script src="assets/js/scripts.js"></script>
-  <script src="assets/js/lang.js"></script>
-  <!-- GoatCounter analytics (free, no cookies) -->
-  <script data-goatcounter="https://ndf14685.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
-  <script>
-    // Configure dynamic visits badge and a fallback counter via CountAPI
-    (function(){
-      var b = document.getElementById('visits-badge');
-      if(b){
-        var u = location.origin + '/';
-        b.src = 'https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=' + encodeURIComponent(u) + '&count_bg=%2368C3A3&title_bg=%231A1E23&icon=&icon_color=%23E7E7E7&title=Visitas&edge_flat=false';
-      }
-      var el = document.getElementById('visit-count');
-      if(el){
-        var endpoint = 'https://api.countapi.xyz/hit/nestorfleitas.ar/visits';
-        fetch(endpoint, {cache:'no-store'}).then(function(r){ return r.json(); }).then(function(d){
-          if(d && typeof d.value === 'number'){
-            el.textContent = d.value.toLocaleString('es-AR');
-          }
-        }).catch(function(){});
-      }
-    })();
-  </script>
-  <!-- Removed Google Maps API without key for security/billing -->
-  <script>
-    // Theme toggle with persistence
-    (function() {
-      var storageKey = 'theme';
-      var body = document.body;
-      function applyTheme(t){
-        if(t === 'dark'){ body.classList.add('dark'); } else { body.classList.remove('dark'); }
-        var icon = document.querySelector('#theme-toggle i');
-        if(icon){ icon.className = (t === 'dark') ? 'fa fa-sun-o' : 'fa fa-moon-o'; }
-      }
-      function getPreferred(){
-        var stored = null; try { stored = localStorage.getItem(storageKey); } catch(e){}
-        if(stored){ return stored; }
-        if(body.classList.contains('dark')) return 'dark';
-        if(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) return 'dark';
-        return 'light';
-      }
-      var initial = getPreferred();
-      applyTheme(initial);
-      var btn = document.getElementById('theme-toggle');
-      if(btn){
-        btn.addEventListener('click', function(){
-          var next = body.classList.contains('dark') ? 'light' : 'dark';
-          try { localStorage.setItem(storageKey, next); } catch(e){}
-          applyTheme(next);
-        });
-      }
-    })();
-  </script>
-  <script>
-    // Contact details (obfuscated at runtime)
-    (function(){
-      var user = "david.fleitas";
-      var domain = "gmail.com";
-      var email = user + "@" + domain;
-      var emailLink = "mailto:" + email;
-      var a1 = document.getElementById('email-icon'); if(a1) a1.setAttribute('href', emailLink);
-      var a2 = document.getElementById('email-btn'); if(a2) a2.setAttribute('href', emailLink);
-      var inline = document.getElementById('email-inline'); if(inline) inline.innerHTML = '<a href="'+emailLink+'">'+email+'</a>';
-
-      // Build WhatsApp link from components without exposing raw number in HTML
-      var countryCode = "+54"; // AR
-      var area = "011";
-      var number = "3074";
-      var suffix = "8591";
-      function digits(s){ return (s||'').replace(/\D+/g,''); }
-      var cc = digits(countryCode); var ar = digits(area).replace(/^0+/, '');
-      var full = cc + ar + digits(number + suffix);
-      var msg = encodeURIComponent('Hola Néstor, te contacto desde tu portfolio.');
-      var wa = 'https://wa.me/' + full + '?text=' + msg;
-      var w = document.getElementById('whatsapp-link'); if(w){ w.setAttribute('href', wa); }
-    })();
-  </script>
-  <script>
-    // Language switching with HTML lang attribute update
-    (function(){
-      var htmlRoot = document.getElementById('html-root');
-      var flagEs = document.getElementById('flag-es');
-      var flagEn = document.getElementById('flag-en');
-      
-      if (flagEs) {
-        flagEs.addEventListener('click', function() {
-          htmlRoot.setAttribute('lang', 'es');
-          // Trigger language change event for other scripts
-          if (typeof changeLanguage === 'function') {
-            changeLanguage('es');
-          }
-        });
-        
-        flagEs.addEventListener('keydown', function(e) {
-          if (e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault();
-            flagEs.click();
-          }
-        });
-      }
-      
-      if (flagEn) {
-        flagEn.addEventListener('click', function() {
-          htmlRoot.setAttribute('lang', 'en');
-          // Trigger language change event for other scripts
-          if (typeof changeLanguage === 'function') {
-            changeLanguage('en');
-          }
-        });
-        
-        flagEn.addEventListener('keydown', function(e) {
-          if (e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault();
-            flagEn.click();
-          }
-        });
-      }
-    })();
-  </script>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© 2026 Néstor D. Fleitas · DevOps Engineer with a Security Edge</p>
+      <div class="footer-links">
+        <a href="https://github.com/ndf14685" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/ndf14685/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
-
