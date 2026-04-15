@@ -5,6 +5,8 @@
 import { writeFileSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import RSSParser from 'rss-parser';
+import axios from 'axios';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -13,9 +15,6 @@ try {
   const { config } = await import('dotenv');
   config({ path: resolve(__dirname, '.env') });
 } catch (_) {}
-
-import RSSParser from 'rss-parser';
-import axios from 'axios';
 
 // --- Configuracion ---
 const RSS_FEEDS = [

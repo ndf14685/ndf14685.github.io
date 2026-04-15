@@ -33,7 +33,7 @@
     });
 
     // --- Nav activo segun seccion visible ---
-    const sections = document.querySelectorAll('section[id]');
+    const sections = document.querySelectorAll('section[id], [data-nav-section][id]');
     const navLinks = document.querySelectorAll('.nav-links a[href^="#"]');
 
     function updateActiveNav() {

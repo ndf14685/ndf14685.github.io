@@ -86,29 +86,58 @@
 
   <!-- HERO -->
   <section id="home" class="hero-section">
-    <div class="hero-prompt">
-      <span class="prompt-user">nestor@fleitas</span>:~$
-      <span class="prompt-cmd">whoami</span>
-      <span class="cursor"></span>
-    </div>
-    <h1>DevOps &amp; <em>DevSecOps</em><br>Consultant</h1>
-    <p class="hero-sub">
-      Nestor Fleitas &nbsp;|&nbsp; Chubut, Argentina &nbsp;|&nbsp;
-      <span class="hero-available" data-lang="hero-available">disponible</span>
-    </p>
-    <div class="hero-badges">
-      <span class="hero-badge green">AWS</span>
-      <span class="hero-badge green">GCP</span>
-      <span class="hero-badge blue">Kubernetes</span>
-      <span class="hero-badge blue">Docker</span>
-      <span class="hero-badge orange">Terraform</span>
-      <span class="hero-badge orange">DevSecOps</span>
-      <span class="hero-badge">CI/CD</span>
-      <span class="hero-badge">Wazuh</span>
-    </div>
-    <div class="hero-cta">
-      <a href="#resume" class="btn-primary-nf">Ver Resume</a>
-      <a href="assets/cv.pdf" class="btn-secondary-nf" download data-lang="btn-cv-es">Descargar CV</a>
+    <div class="container hero-layout">
+      <div class="hero-copy">
+        <div class="hero-prompt">
+          <span class="prompt-user">nestor@fleitas</span>:~$
+          <span class="prompt-cmd">whoami</span>
+          <span class="cursor"></span>
+        </div>
+        <h1>DevOps &amp; <em>DevSecOps</em><br>Consultant</h1>
+        <p class="hero-sub">
+          Nestor Fleitas &nbsp;|&nbsp; Chubut, Argentina &nbsp;|&nbsp;
+          <span class="hero-available" data-lang="hero-available">disponible</span>
+        </p>
+        <div class="hero-badges">
+          <span class="hero-badge green">AWS</span>
+          <span class="hero-badge green">GCP</span>
+          <span class="hero-badge blue">Kubernetes</span>
+          <span class="hero-badge blue">Docker</span>
+          <span class="hero-badge orange">Terraform</span>
+          <span class="hero-badge orange">DevSecOps</span>
+          <span class="hero-badge">CI/CD</span>
+          <span class="hero-badge">Wazuh</span>
+        </div>
+        <div class="hero-cta">
+          <a href="#resume" class="btn-primary-nf">Ver Resume</a>
+          <a href="assets/cv.pdf" class="btn-secondary-nf" download data-lang="btn-cv-es">Descargar CV</a>
+        </div>
+      </div>
+
+      <section id="blog" class="hero-news-panel" data-nav-section>
+        <p class="section-label">// automated daily feed</p>
+        <h2 class="section-title hero-news-title fade-in">Security &amp; DevOps <span data-lang="blog-title">News</span></h2>
+
+        <div class="terminal-window hero-terminal-window">
+          <div class="terminal-titlebar">
+            <div class="t-dot" style="background:#ff5f57"></div>
+            <div class="t-dot" style="background:#febc2e"></div>
+            <div class="t-dot" style="background:#28c840"></div>
+            <span class="terminal-title-text">
+              news.log &mdash; top 3 del dia &mdash;
+              <span class="t-date">cargando...</span>
+            </span>
+          </div>
+          <div class="terminal-body">
+            <div class="terminal-cmd-line">
+              $ <span class="cmd-args">cat assets/data/news.json | jq '.items[]'</span>
+            </div>
+            <div id="news-feed">
+              <!-- blog.js renderiza aqui -->
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
     <span class="scroll-indicator">▼ scroll</span>
   </section>
@@ -449,35 +478,6 @@
         </div>
       </div>
 
-    </div>
-  </section>
-
-  <!-- BLOG / NEWS -->
-  <section id="blog" class="blog-section section-padding">
-    <div class="container">
-      <p class="section-label">// automated daily feed</p>
-      <h2 class="section-title fade-in">Security &amp; DevOps <span data-lang="blog-title">News</span></h2>
-      <hr class="section-hr">
-
-      <div class="terminal-window">
-        <div class="terminal-titlebar">
-          <div class="t-dot" style="background:#ff5f57"></div>
-          <div class="t-dot" style="background:#febc2e"></div>
-          <div class="t-dot" style="background:#28c840"></div>
-          <span class="terminal-title-text">
-            news.log &mdash; top 3 del dia &mdash;
-            <span class="t-date">cargando...</span>
-          </span>
-        </div>
-        <div class="terminal-body">
-          <div class="terminal-cmd-line">
-            $ <span class="cmd-args">cat assets/data/news.json | jq '.items[]'</span>
-          </div>
-          <div id="news-feed">
-            <!-- blog.js renderiza aqui -->
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 
