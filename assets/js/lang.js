@@ -1,45 +1,81 @@
-// lang.js
-const translations = {
-  es: {
-    "about-title": "Sobre Mí",
-    "who-am-i": "¿Quién soy?",
-    "who-am-i-text": "Apasionado por la tecnología. Emprendedor constante. Empático y proactivo. Me considero una persona inquieta por aprender. Facilidad para enseñar, explicar y guiar en el aprendizaje a quien me lo permite. Experimentado en desarrollo Java, actualmente conociendo el mundo Cloud.",
-    "skills": "Aptitudes",
-    "skill1": "Arquitecto de Tecnología - DEVSECOPS",
-    "skill2": "Devops",
-    "skill3": "SysAdmin",
-    "skill4": "Desarrollador SOA",
-    "skill5": "Desarrollador Fullstack Java",
-    "skill6": "Inglés Intermedio",
-    "tools": "Herramientas y Tecnologías",
-    "send-email": "Enviarme un mail",
-    "download-cv": "Descargar mi CV",
-    "download-resume": "Descargar CV en Ingles"
-  },
-  en: {
-    "about-title": "About Me",
-    "who-am-i": "Who am I?",
-    "who-am-i-text": "Passionate about technology. Constant entrepreneur. Empathetic and proactive. I consider myself a person eager to learn. Ease of teaching, explaining and guiding those who allow me. Experienced in Java development, I am currently exploring the Cloud world.",
-    "skills": "Skills",
-    "skill1": "Technology Architect - DEVSECOPS",
-    "skill2": "Devops",
-    "skill3": "SysAdmin",
-    "skill4": "SOA Developer",
-    "skill5": "Java Fullstack Developer",
-    "skill6": "English Intermediate",
-    "tools": "Tools and Technologies",
-    "send-email": "Send me an email",
-    "download-cv": "Download my Spanish Resume",
-    "download-resume": "Download my Resume"
+// lang.js — i18n ES/EN
+(function () {
+  'use strict';
+
+  const translations = {
+    es: {
+      'nav-home':         'home',
+      'nav-about':        'about',
+      'nav-skills':       'skills',
+      'nav-resume':       'resume',
+      'nav-blog':         'blog',
+      'hero-available':   'disponible',
+      'about-title':      'Sobre Mí',
+      'about-who-title':  '// quién soy',
+      'about-who-text':   'Especialista en DevOps y DevSecOps con amplia experiencia en automatización de infraestructura cloud (AWS, GCP), seguridad en el ciclo de vida del software (CI/CD) y gestión de contenedores (Docker, Kubernetes). Apasionado por implementar soluciones seguras y escalables.',
+      'about-skills-title': '// aptitudes',
+      'about-tools-title':  '// herramientas',
+      'btn-email':        'Enviarme un mail',
+      'btn-cv-es':        'Descargar CV',
+      'btn-cv-en':        'Download Resume',
+      'btn-whatsapp':     'WhatsApp',
+      'skills-title':     'Skills',
+      'certif-title':     'Certificaciones',
+      'projects-title':   'Proyectos Destacados',
+      'resume-title':     'Resume',
+      'resume-exp':       '// historia laboral',
+      'resume-edu':       '// formación académica',
+      'blog-title':       'News',
+    },
+    en: {
+      'nav-home':         'home',
+      'nav-about':        'about',
+      'nav-skills':       'skills',
+      'nav-resume':       'resume',
+      'nav-blog':         'blog',
+      'hero-available':   'available',
+      'about-title':      'About Me',
+      'about-who-title':  '// who am i',
+      'about-who-text':   'DevOps and DevSecOps specialist with extensive experience in cloud infrastructure automation (AWS, GCP), software lifecycle security (CI/CD), and container management (Docker, Kubernetes). Passionate about implementing secure and scalable solutions.',
+      'about-skills-title': '// skills',
+      'about-tools-title':  '// tools',
+      'btn-email':        'Send me an email',
+      'btn-cv-es':        'Download CV (ES)',
+      'btn-cv-en':        'Download Resume',
+      'btn-whatsapp':     'WhatsApp',
+      'skills-title':     'Skills',
+      'certif-title':     'Certifications',
+      'projects-title':   'Featured Projects',
+      'resume-title':     'Resume',
+      'resume-exp':       '// work history',
+      'resume-edu':       '// education',
+      'blog-title':       'News',
+    }
+  };
+
+  let currentLang = 'es';
+
+  function setLanguage(lang) {
+    if (!translations[lang]) return;
+    currentLang = lang;
+    document.querySelectorAll('[data-lang]').forEach(function (el) {
+      const key = el.getAttribute('data-lang');
+      if (translations[lang][key] !== undefined) {
+        el.textContent = translations[lang][key];
+      }
+    });
+    try { localStorage.setItem('nf-lang', lang); } catch (e) {}
   }
-};
 
-document.getElementById('flag-es').addEventListener('click', () => setLanguage('es'));
-document.getElementById('flag-en').addEventListener('click', () => setLanguage('en'));
+  document.addEventListener('DOMContentLoaded', function () {
+    const btnEs = document.getElementById('flag-es');
+    const btnEn = document.getElementById('flag-en');
+    if (btnEs) btnEs.addEventListener('click', function () { setLanguage('es'); });
+    if (btnEn) btnEn.addEventListener('click', function () { setLanguage('en'); });
 
-function setLanguage(lang) {
-  document.querySelectorAll('[data-lang]').forEach(el => {
-    const key = el.getAttribute('data-lang');
-    el.textContent = translations[lang][key];
+    // Restaurar idioma guardado
+    let saved = null;
+    try { saved = localStorage.getItem('nf-lang'); } catch (e) {}
+    if (saved === 'en') setLanguage('en');
   });
-}
+})();

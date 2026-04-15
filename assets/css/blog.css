@@ -1,0 +1,188 @@
+/* ==============================================
+   blog.css — Terminal News Feed
+   ============================================== */
+
+.blog-section {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+/* --- Ventana de terminal --- */
+.terminal-window {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+}
+
+.terminal-titlebar {
+  background: var(--bg-elevated);
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.t-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.terminal-title-text {
+  font-family: 'Courier New', Consolas, monospace;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-left: 6px;
+}
+
+.terminal-title-text .t-date {
+  color: var(--accent-green);
+}
+
+.terminal-body {
+  background: var(--bg-primary);
+}
+
+.terminal-cmd-line {
+  font-family: 'Courier New', Consolas, monospace;
+  font-size: 11px;
+  color: var(--accent-green);
+  padding: 10px 20px 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.terminal-cmd-line .cmd-args {
+  color: var(--text-faint);
+}
+
+/* --- Items de noticias --- */
+.news-item {
+  padding: 18px 20px;
+  border-bottom: 1px solid var(--border);
+  display: grid;
+  grid-template-columns: 24px 1fr auto;
+  gap: 14px;
+  align-items: start;
+  transition: background 0.15s;
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-item:hover {
+  background: var(--bg-secondary);
+}
+
+.news-index {
+  font-family: 'Courier New', Consolas, monospace;
+  font-size: 11px;
+  color: var(--accent-green);
+  padding-top: 2px;
+  min-width: 20px;
+}
+
+.news-body {}
+
+.news-cat {
+  display: inline-block;
+  font-family: 'Courier New', Consolas, monospace;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 2px 7px;
+  border-radius: 3px;
+  margin-bottom: 7px;
+}
+
+.news-cat.cat-cybersecurity {
+  background: var(--red-bg);
+  color: var(--accent-red);
+  border: 1px solid var(--red-border);
+}
+
+.news-cat.cat-devops {
+  background: var(--blue-bg);
+  color: var(--accent-blue);
+  border: 1px solid var(--blue-border);
+}
+
+.news-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.4;
+  margin-bottom: 7px;
+}
+
+.news-summary {
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.65;
+  margin-bottom: 8px;
+}
+
+.news-meta {
+  font-family: 'Courier New', Consolas, monospace;
+  font-size: 11px;
+  color: var(--text-faint);
+}
+
+.news-meta a {
+  color: var(--accent-blue);
+  text-decoration: none;
+}
+
+.news-meta a:hover {
+  color: var(--accent-green);
+}
+
+.news-read-link {
+  font-family: 'Courier New', Consolas, monospace;
+  font-size: 12px;
+  color: var(--accent-green);
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 4px 10px;
+  border: 1px solid var(--accent-green);
+  border-radius: 4px;
+  transition: background 0.15s;
+  align-self: start;
+  margin-top: 2px;
+}
+
+.news-read-link:hover {
+  background: var(--green-bg);
+  color: var(--accent-green);
+}
+
+/* --- Estado de error/carga --- */
+.blog-fallback {
+  padding: 32px 20px;
+  text-align: center;
+  font-family: 'Courier New', Consolas, monospace;
+  font-size: 12px;
+  color: var(--text-faint);
+}
+
+.blog-fallback .fallback-icon {
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: var(--accent-orange);
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .news-item {
+    grid-template-columns: 20px 1fr;
+  }
+  .news-read-link {
+    display: none;
+  }
+  .news-title a {
+    color: var(--accent-blue);
+  }
+}

@@ -1,0 +1,65 @@
+/* ==============================================
+   theme.css — Dark / Light mode overrides
+   Variables dark ya definidas en base.css como :root
+   Aqui se sobreescriben para light mode
+   ============================================== */
+
+/* Light mode: sobreescribe las variables de :root */
+body.light {
+  --bg-primary:    #ffffff;
+  --bg-secondary:  #f6f8fa;
+  --bg-card:       #f6f8fa;
+  --bg-elevated:   #eaeef2;
+  --border:        #d0d7de;
+  --border-subtle: #d0d7de;
+  --text-primary:  #1f2328;
+  --text-muted:    #636c76;
+  --text-faint:    #8c959f;
+  --accent-green:  #1a7f37;
+  --accent-blue:   #0969da;
+  --accent-orange: #bc4c00;
+  --accent-red:    #cf222e;
+  --green-bg:      rgba(26, 127, 55, 0.1);
+  --green-border:  rgba(26, 127, 55, 0.3);
+  --red-bg:        rgba(207, 34, 46, 0.1);
+  --red-border:    rgba(207, 34, 46, 0.3);
+  --blue-bg:       rgba(9, 105, 218, 0.1);
+  --blue-border:   rgba(9, 105, 218, 0.3);
+}
+
+/* Ajustes especificos light que no cubren las variables */
+body.light {
+  --nav-bg: rgba(255, 255, 255, 0.95);
+}
+
+body.light .site-nav {
+  background: var(--nav-bg);
+}
+
+body.light .hero-section {
+  background: var(--bg-secondary);
+}
+
+body.light .hero-section::before {
+  background: radial-gradient(ellipse at 50% 65%, rgba(26, 127, 55, 0.05) 0%, transparent 70%);
+}
+
+body.light .terminal-body {
+  background: var(--bg-elevated);
+}
+
+body.light .news-item:hover {
+  background: var(--bg-elevated);
+}
+
+body.light .tl-dot {
+  border-color: var(--bg-primary);
+}
+
+body.light .btn-secondary-nf {
+  color: var(--text-primary);
+}
+
+body.light .soft-card {
+  background: var(--bg-primary);
+}
