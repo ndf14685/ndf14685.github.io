@@ -5,32 +5,32 @@ import assert from 'node:assert/strict';
 // Importamos solo las funciones puras que vamos a testear
 // (el modulo principal no debe tener side-effects al importar)
 import {
-  filterLast24h,
+  filterLast48h,
   selectTop3,
   truncateSummary,
   buildItem,
 } from './fetch-news.js';
 
-// --- filterLast24h ---
+// --- filterLast48h ---
 
-test('filterLast24h: incluye items de las ultimas 24h', function () {
+test('filterLast48h: incluye items de las ultimas 48h', function () {
   const now = new Date();
   const recent = new Date(now - 2 * 60 * 60 * 1000).toISOString(); // hace 2h
   const items = [{ pubDate: recent, title: 'Reciente' }];
-  const result = filterLast24h(items);
+  const result = filterLast48h(items);
   assert.equal(result.length, 1);
 });
 
-test('filterLast24h: excluye items de mas de 24h', function () {
-  const old = new Date(Date.now() - 25 * 60 * 60 * 1000).toISOString(); // hace 25h
+test('filterLast48h: excluye items de mas de 48h', function () {
+  const old = new Date(Date.now() - 49 * 60 * 60 * 1000).toISOString(); // hace 49h
   const items = [{ pubDate: old, title: 'Viejo' }];
-  const result = filterLast24h(items);
+  const result = filterLast48h(items);
   assert.equal(result.length, 0);
 });
 
-test('filterLast24h: maneja items sin pubDate', function () {
+test('filterLast48h: maneja items sin pubDate', function () {
   const items = [{ title: 'Sin fecha' }];
-  const result = filterLast24h(items);
+  const result = filterLast48h(items);
   assert.equal(result.length, 0);
 });
 

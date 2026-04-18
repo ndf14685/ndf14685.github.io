@@ -31,8 +31,8 @@ const OUTPUT_PATH   = resolve(__dirname, process.env.NEWS_JSON_PATH || '../asset
 
 // --- Funciones puras (exportadas para tests) ---
 
-export function filterLast24h(items) {
-  const cutoff = Date.now() - 24 * 60 * 60 * 1000;
+export function filterLast48h(items) {
+  const cutoff = Date.now() - 48 * 60 * 60 * 1000;
   return items.filter(function (item) {
     if (!item.pubDate) return false;
     const d = new Date(item.pubDate);
@@ -107,7 +107,7 @@ async function fetchRSSFeeds() {
     }
   }
 
-  return filterLast24h(allItems);
+  return filterLast48h(allItems);
 }
 
 async function fetchNewsAPI() {
@@ -117,7 +117,7 @@ async function fetchNewsAPI() {
   }
 
   try {
-    const from = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+    const from = new Date(Date.now() - 48 * 60 * 60 * 1000).toISOString().slice(0, 10);
     const res = await axios.get(NEWSAPI_URL, {
       params: {
         q:        NEWSAPI_QUERY,
@@ -143,7 +143,7 @@ async function fetchNewsAPI() {
     });
 
     console.log('[NewsAPI] ' + articles.length + ' articles');
-    return filterLast24h(articles);
+    return filterLast48h(articles);
   } catch (err) {
     console.error('[NewsAPI] Error:', err.message);
     return [];
@@ -160,8 +160,8 @@ async function main() {
     fetchNewsAPI(),
   ]);
 
-  console.log('[fetch-news] Cybersec items last 24h: ' + cybersecItems.length);
-  console.log('[fetch-news] DevOps items last 24h:   ' + devopsItems.length);
+  console.log('[fetch-news] Cybersec items last 48h: ' + cybersecItems.length);
+  console.log('[fetch-news] DevOps items last 48h:   ' + devopsItems.length);
 
   const selected = selectTop3(cybersecItems, devopsItems);
 
