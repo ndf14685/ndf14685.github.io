@@ -16,7 +16,7 @@ TODO:
 
 ## Actualizacion de Noticias
 
-El blog muestra 3 noticias del dia (minimo 1 de ciberseguridad y 1 de DevOps) obtenidas de:
+El blog muestra 3 noticias de las últimas 48h (mínimo 1 de ciberseguridad y 1 de DevOps) obtenidas de:
 
 - **Ciberseguridad** — RSS de The Hacker News, BleepingComputer y Krebs on Security
 - **DevOps** — NewsAPI con terminos: `devops`, `kubernetes`, `terraform`, `CI/CD`, `gitlab`, `jenkins`

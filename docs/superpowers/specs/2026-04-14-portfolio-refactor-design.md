@@ -148,11 +148,11 @@ RSS Feeds (Cybersecurity)          NewsAPI (DevOps)
 
 1. Leer RSS feeds con `rss-parser` (npm)
 2. Consultar NewsAPI con `axios` usando keywords DevOps
-3. Filtrar noticias de las ultimas 24h
+3. Filtrar noticias de las ultimas 48h (para asegurar disponibilidad constante)
 4. Seleccionar top 3: minimo 1 cybersecurity, minimo 1 devops, el tercero el mas reciente de cualquier categoria
 5. Generar resumen: tomar los primeros 200 caracteres del `content` o `description` del feed
 6. Escribir `assets/data/news.json`
-7. Log de resultado a stdout (capturado por cron en `/var/log/fetch-news.log`)
+7. Log de resultado a stdout (capturado por cron en `/home/ndf/fetch-news.log`)
 
 ### Dependencias Node (scripts/package.json)
 

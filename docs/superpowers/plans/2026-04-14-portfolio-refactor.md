@@ -2576,32 +2576,32 @@ import assert from 'node:assert/strict';
 // Importamos solo las funciones puras que vamos a testear
 // (el modulo principal no debe tener side-effects al importar)
 import {
-  filterLast24h,
+  filterLast48h,
   selectTop3,
   truncateSummary,
   buildItem,
 } from './fetch-news.js';
 
-// --- filterLast24h ---
+// --- filterLast48h ---
 
-test('filterLast24h: incluye items de las ultimas 24h', function () {
+test('filterLast48h: incluye items de las ultimas 48h', function () {
   const now = new Date();
   const recent = new Date(now - 2 * 60 * 60 * 1000).toISOString(); // hace 2h
   const items = [{ pubDate: recent, title: 'Reciente' }];
-  const result = filterLast24h(items);
+  const result = filterLast48h(items);
   assert.equal(result.length, 1);
 });
 
-test('filterLast24h: excluye items de mas de 24h', function () {
-  const old = new Date(Date.now() - 25 * 60 * 60 * 1000).toISOString(); // hace 25h
+test('filterLast48h: excluye items de mas de 48h', function () {
+  const old = new Date(Date.now() - 49 * 60 * 60 * 1000).toISOString(); // hace 49h
   const items = [{ pubDate: old, title: 'Viejo' }];
-  const result = filterLast24h(items);
+  const result = filterLast48h(items);
   assert.equal(result.length, 0);
 });
 
-test('filterLast24h: maneja items sin pubDate', function () {
+test('filterLast48h: maneja items sin pubDate', function () {
   const items = [{ title: 'Sin fecha' }];
-  const result = filterLast24h(items);
+  const result = filterLast48h(items);
   assert.equal(result.length, 0);
 });
 
@@ -2726,7 +2726,7 @@ git commit -m "test: add fetch-news tests (TDD — failing until implementation)
 ```javascript
 // fetch-news.js — Daily news fetcher: RSS (cybersec) + NewsAPI (devops)
 // Uso: node fetch-news.js
-// Cron: 0 11 * * * cd /path/to/scripts && node fetch-news.js >> /var/log/fetch-news.log 2>&1
+// Cron: 0 11 * * * cd /path/to/scripts && node fetch-news.js >> /home/ndf/fetch-news.log 2>&1
 
 import { createRequire } from 'module';
 import { readFileSync, writeFileSync } from 'fs';
@@ -2760,8 +2760,8 @@ const OUTPUT_PATH   = resolve(__dirname, process.env.NEWS_JSON_PATH || '../asset
 
 // --- Funciones puras (exportadas para tests) ---
 
-export function filterLast24h(items) {
-  const cutoff = Date.now() - 24 * 60 * 60 * 1000;
+export function filterLast48h(items) {
+  const cutoff = Date.now() - 48 * 60 * 60 * 1000;
   return items.filter(function (item) {
     if (!item.pubDate) return false;
     const d = new Date(item.pubDate);
@@ -2836,7 +2836,7 @@ async function fetchRSSFeeds() {
     }
   }
 
-  return filterLast24h(allItems);
+  return filterLast48h(allItems);
 }
 
 async function fetchNewsAPI() {
@@ -2846,7 +2846,7 @@ async function fetchNewsAPI() {
   }
 
   try {
-    const from = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+    const from = new Date(Date.now() - 48 * 60 * 60 * 1000).toISOString().slice(0, 10);
     const res = await axios.get(NEWSAPI_URL, {
       params: {
         q:        NEWSAPI_QUERY,
@@ -2872,7 +2872,7 @@ async function fetchNewsAPI() {
     });
 
     console.log('[NewsAPI] ' + articles.length + ' articles');
-    return filterLast24h(articles);
+    return filterLast48h(articles);
   } catch (err) {
     console.error('[NewsAPI] Error:', err.message);
     return [];
@@ -2889,8 +2889,8 @@ async function main() {
     fetchNewsAPI(),
   ]);
 
-  console.log('[fetch-news] Cybersec items last 24h: ' + cybersecItems.length);
-  console.log('[fetch-news] DevOps items last 24h:   ' + devopsItems.length);
+  console.log('[fetch-news] Cybersec items last 48h: ' + cybersecItems.length);
+  console.log('[fetch-news] DevOps items last 48h:   ' + devopsItems.length);
 
   const selected = selectTop3(cybersecItems, devopsItems);
 
@@ -2930,8 +2930,8 @@ node --test fetch-news.test.js
 Resultado esperado: todos los tests en verde, sin failures.
 
 ```
-▶ filterLast24h: incluye items de las ultimas 24h
-✓ filterLast24h: incluye items de las ultimas 24h (Xms)
+▶ filterLast48h: incluye items de las ultimas 48h
+✓ filterLast48h: incluye items de las ultimas 48h (Xms)
 ...
 ℹ tests 9
 ℹ pass 9
@@ -2999,13 +2999,13 @@ PASOS:
    crontab -e
 
    Agregar esta linea (8AM hora Argentina = 11:00 UTC):
-   0 11 * * * cd /home/ndf14/nestorfleitas.ar/scripts && node fetch-news.js >> /var/log/fetch-news.log 2>&1
+   0 11 * * * cd /home/ndf14/nestorfleitas.ar/scripts && node fetch-news.js >> /home/ndf/fetch-news.log 2>&1
 
 8. Crear el archivo de log:
-   sudo touch /var/log/fetch-news.log && sudo chown ndf14:ndf14 /var/log/fetch-news.log
+   sudo touch /home/ndf/fetch-news.log && sudo chown ndf14:ndf14 /home/ndf/fetch-news.log
 
 9. Verificar al dia siguiente:
-   tail -50 /var/log/fetch-news.log
+   tail -50 /home/ndf/fetch-news.log
 
 SPEC: docs/superpowers/specs/2026-04-14-portfolio-refactor-design.md
 === FIN HANDOFF ===
@@ -3022,14 +3022,14 @@ node fetch-news.js
 
 ```bash
 crontab -e
-# Agregar: 0 11 * * * cd /path/to/nestorfleitas.ar/scripts && node fetch-news.js >> /var/log/fetch-news.log 2>&1
+# Agregar: 0 11 * * * cd /path/to/nestorfleitas.ar/scripts && node fetch-news.js >> /home/ndf/fetch-news.log 2>&1
 ```
 
 - [ ] **Step 3: Crear archivo de log con permisos correctos**
 
 ```bash
-sudo touch /var/log/fetch-news.log
-sudo chown $USER:$USER /var/log/fetch-news.log
+sudo touch /home/ndf/fetch-news.log
+sudo chown $USER:$USER /home/ndf/fetch-news.log
 ```
 
 - [ ] **Step 4: Commit final**
@@ -3068,7 +3068,7 @@ git commit -m "docs: add implementation plan — portfolio refactor + news autom
 | blog.js fetch + render + fallback | Task 10 |
 | Timestamp relativo ("hace Xh") | Task 10 |
 | "→ leer" en nueva pestaña | Tasks 10, 11 |
-| Filtrado ultimas 24h | Task 13 (test), Task 14 |
+| Filtrado ultimas 48h | Task 13 (test), Task 14 |
 | selectTop3 min 1 de cada cat. | Task 13 (test), Task 14 |
 | .env para NEWS_API_KEY | Tasks 12, 14 |
 | Cron diario 8AM ART | Task 15 |
@@ -3084,4 +3084,4 @@ git commit -m "docs: add implementation plan — portfolio refactor + news autom
 - `#news-feed` — definido en index.html (Task 11) y consultado en blog.js (Task 10). Consistente.
 - `#theme-toggle-btn` — definido en index.html (Task 11) y consultado en theme.js (Task 7). Consistente.
 - `#flag-es` / `#flag-en` — definidos en index.html (Task 11) y consultados en lang.js (Task 8). Consistente.
-- `filterLast24h`, `selectTop3`, `truncateSummary`, `buildItem` — exportados en fetch-news.js (Task 14) e importados en fetch-news.test.js (Task 13). Consistente.
+- `filterLast48h`, `selectTop3`, `truncateSummary`, `buildItem` — exportados en fetch-news.js (Task 14) e importados en fetch-news.test.js (Task 13). Consistente.
