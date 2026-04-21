@@ -241,6 +241,12 @@ a {
   margin-bottom: 32px;
 }
 
+.grid.three {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
 .card {
   background: var(--panel);
   border-radius: 16px;
