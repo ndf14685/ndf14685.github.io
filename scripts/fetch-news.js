@@ -48,6 +48,17 @@ export function truncateSummary(text, maxLen) {
   return clean.slice(0, maxLen).trimEnd() + '...';
 }
 
+const DEVOPS_KEYWORDS = [
+  'devops', 'kubernetes', 'terraform', 'ci/cd', 'gitlab', 'jenkins',
+  'docker', 'helm', 'gitops', 'devsecops', 'pipeline', 'ansible',
+  'infrastructure as code', 'platform engineering', 'sre', 'observability',
+];
+
+export function isRelevantDevOps(item) {
+  const text = ((item.title || '') + ' ' + (item.content || item.contentSnippet || item.description || '')).toLowerCase();
+  return DEVOPS_KEYWORDS.some(function (kw) { return text.includes(kw); });
+}
+
 export function selectTop3(cybersecItems, devopsItems) {
   // Garantizar minimo 1 de cada categoria, el tercero el mas reciente
   const result = [];
@@ -142,8 +153,9 @@ async function fetchNewsAPI() {
       };
     });
 
-    console.log('[NewsAPI] ' + articles.length + ' articles');
-    return filterLast48h(articles);
+    const relevant = articles.filter(isRelevantDevOps);
+    console.log('[NewsAPI] ' + articles.length + ' articles, ' + relevant.length + ' relevant');
+    return filterLast48h(relevant);
   } catch (err) {
     console.error('[NewsAPI] Error:', err.message);
     return [];

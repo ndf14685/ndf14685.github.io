@@ -9,6 +9,7 @@ import {
   selectTop3,
   truncateSummary,
   buildItem,
+  isRelevantDevOps,
 } from './fetch-news.js';
 
 // --- filterLast48h ---
@@ -123,4 +124,24 @@ test('buildItem: rechaza URLs no http/https', function () {
   };
   const item = buildItem(raw, 1);
   assert.equal(item.source_url, '#');
+});
+
+// --- isRelevantDevOps ---
+
+test('isRelevantDevOps: acepta articulo con keyword en titulo', function () {
+  const item = { title: 'New Kubernetes security feature released', content: '' };
+  assert.ok(isRelevantDevOps(item));
+});
+
+test('isRelevantDevOps: acepta articulo con keyword en contenido', function () {
+  const item = { title: 'Cloud news', content: 'The new terraform module improves deployments.' };
+  assert.ok(isRelevantDevOps(item));
+});
+
+test('isRelevantDevOps: rechaza articulo de beisbol sin keywords', function () {
+  const item = {
+    title: 'Top fantasy baseball prospects: Charlie Condon raking in Triple-A',
+    content: 'A look at the top fantasy baseball prospects who can help rosters in 2026 and beyond',
+  };
+  assert.ok(!isRelevantDevOps(item));
 });
