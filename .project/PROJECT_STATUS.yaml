@@ -1,0 +1,29 @@
+schema_version: 1
+project_id: personal-site
+name: nestorfleitas.ar
+stage: active
+priority: medium
+effort: medium
+progress_pct: 75
+health: green
+summary: >-
+  Sitio personal/portfolio vigente con refactor visual, contenido profesional y automatización diaria de noticias de DevOps y ciberseguridad.
+current_focus:
+  - mantener contenido y branding consistentes
+  - revisar calidad del portfolio y noticias automatizadas
+  - sostener visibilidad profesional actualizada
+pending:
+  - ampliar proyectos mostrados si hace falta
+  - revisar detalles de SEO y contenido
+  - iterar sobre UX del portfolio
+next_action: revisar la sección de proyectos y alinear el portfolio con el estado actual del resto de iniciativas
+blockers: []
+needs_decision: false
+can_delegate: true
+quick_win: actualizar la lista de proyectos destacados con el mapa actual del portfolio
+last_human_update: 2026-05-07T02:19:00-03:00
+links:
+  repo: https://github.com/ndf14685/ndf14685.github.io
+notes: >-
+  Este repo debe tratarse como la web principal vigente bajo el dominio
+  nestorfleitas.ar.
