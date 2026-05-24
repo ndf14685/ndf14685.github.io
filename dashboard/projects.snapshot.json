@@ -1,0 +1,918 @@
+{
+  "generated_at": "2026-05-14T13:30:12.125Z",
+  "summary": {
+    "total": 14,
+    "active": 9,
+    "paused": 1,
+    "blocked": 0,
+    "stale": 2,
+    "needs_decision": 3,
+    "high_stale_risk": 5,
+    "warnings": 0,
+    "it_count": 14,
+    "non_it_count": 0,
+    "avg_score": 47.2,
+    "total_estimated_load": 57
+  },
+  "issues": [],
+  "projects": [
+    {
+      "id": "careerops",
+      "name": "CareerOps",
+      "owner": "ndf",
+      "type": "product",
+      "category": "it",
+      "priority": "high",
+      "stage": "active",
+      "effort": "large",
+      "progress_pct": 55,
+      "health": "green",
+      "summary": "MVP funcional de copiloto de búsqueda laboral con backend, frontend e ingesta local; toca consolidar operación diaria y reporting ejecutivo.",
+      "current_focus": [
+        "estabilizar flujo diario de agentes",
+        "consolidar reportes útiles y presupuesto",
+        "mejorar visibilidad ejecutiva del pipeline"
+      ],
+      "pending": [
+        "definir alertas/resúmenes diarios finales",
+        "validar métricas más accionables del dashboard",
+        "endurecer operación de ingestión y scoring"
+      ],
+      "next_action": "conectar el dashboard con reporting diario y priorización visible de vacantes",
+      "blockers": [],
+      "needs_decision": false,
+      "can_delegate": true,
+      "quick_win": "exponer métricas resumidas para seguimiento diario en el dashboard",
+      "links": {
+        "repo": "https://github.com/ndf14685/careerops",
+        "topic": "telegram://topic/1417",
+        "docs": "https://github.com/ndf14685/careerops#readme",
+        "local": "/home/ndf/workspace/careerops"
+      },
+      "topics": [
+        "telegram:-1003958513253/1417"
+      ],
+      "tags": [
+        "careerops",
+        "dashboard",
+        "product"
+      ],
+      "repo_count": 1,
+      "repos": [
+        "careerops"
+      ],
+      "last_human_update": "2026-05-06T03:02:00-03:00",
+      "last_repo_activity_at": "2026-05-12T04:01:21-03:00",
+      "days_since_human_update": 8,
+      "days_since_repo_activity": 2,
+      "freshness": "stale",
+      "temperature": "hot",
+      "stale_risk": "medium",
+      "confidence": 0.95,
+      "score": 52,
+      "reasons": [
+        "última actualización humana hace 8 día(s)",
+        "última actividad de repo hace 2 día(s)",
+        "tiene próxima acción definida"
+      ],
+      "warnings": [],
+      "status_source": {
+        "type": "repo_file",
+        "location": ".project/PROJECT_STATUS.yaml",
+        "found": true
+      }
+    },
+    {
+      "id": "project-dashboard",
+      "name": "Project Dashboard",
+      "owner": "ndf",
+      "type": "infra",
+      "category": "it",
+      "priority": "high",
+      "stage": "active",
+      "effort": "medium",
+      "progress_pct": 35,
+      "health": "green",
+      "summary": "Ya genera snapshot/HTML, valida datos básicos y quedó listo el workflow de publicación a GitHub Pages.",
+      "current_focus": [
+        "formalizar schemas v1",
+        "sumar señales externas opcionales",
+        "probar publicación end-to-end"
+      ],
+      "pending": [
+        "configurar GitHub Pages en el repo remoto",
+        "agregar collector opcional de PRs/issues/CI",
+        "definir reglas de atención y recordatorios"
+      ],
+      "next_action": "validar deploy real en GitHub Pages y cerrar schemas formales",
+      "blockers": [],
+      "needs_decision": false,
+      "can_delegate": true,
+      "quick_win": "conectar el repo remoto real y verificar la URL publicada",
+      "links": {
+        "repo": "https://github.com/ndf14685/project-dashboard",
+        "topic": "telegram://topic/1417",
+        "site": "https://www.nestorfleitas.ar/dashboard/",
+        "local": "/home/ndf/workspace/project-dashboard"
+      },
+      "topics": [
+        "telegram:-1003958513253/1417"
+      ],
+      "tags": [
+        "infra",
+        "reporting",
+        "portfolio"
+      ],
+      "repo_count": 1,
+      "repos": [
+        "project-dashboard"
+      ],
+      "last_human_update": "2026-05-06T02:58:00-03:00",
+      "last_repo_activity_at": "2026-05-11T17:18:27-03:00",
+      "days_since_human_update": 8,
+      "days_since_repo_activity": 2,
+      "freshness": "stale",
+      "temperature": "hot",
+      "stale_risk": "medium",
+      "confidence": 0.95,
+      "score": 52,
+      "reasons": [
+        "última actualización humana hace 8 día(s)",
+        "última actividad de repo hace 2 día(s)",
+        "tiene próxima acción definida"
+      ],
+      "warnings": [],
+      "status_source": {
+        "type": "repo_file",
+        "location": ".project/PROJECT_STATUS.yaml",
+        "found": true
+      }
+    },
+    {
+      "id": "assistant-tech-radar",
+      "name": "Assistant Tech Radar",
+      "owner": "ndf",
+      "type": "infra",
+      "category": "it",
+      "priority": "high",
+      "stage": "active",
+      "effort": "medium",
+      "progress_pct": 40,
+      "health": "yellow",
+      "summary": "Radar tecnológico local para detectar oportunidades de alto valor y convertirlas en reportes, backlog y paquetes SDD reutilizables.",
+      "current_focus": [
+        "validar el wiring real del run diario",
+        "consolidar reportes con señal útil",
+        "cerrar healthcheck y operación segura"
+      ],
+      "pending": [
+        "crear cron operativo real",
+        "probar ciclo completo de reporte y backlog",
+        "definir criterio final para promoción a spec package"
+      ],
+      "next_action": "ejecutar un run real controlado y verificar el output generado de punta a punta",
+      "blockers": [],
+      "needs_decision": false,
+      "can_delegate": true,
+      "quick_win": "correr un dry-run más verificación de artefactos generados",
+      "links": {
+        "docs": "/home/ndf/workspace/assistant-tech-radar/README.md",
+        "local": "/home/ndf/workspace/assistant-tech-radar"
+      },
+      "topics": [],
+      "tags": [
+        "research",
+        "infra",
+        "automation",
+        "radar"
+      ],
+      "repo_count": 1,
+      "repos": [
+        "assistant-tech-radar"
+      ],
+      "last_human_update": "2026-05-07T02:19:00-03:00",
+      "last_repo_activity_at": "2026-05-11T06:08:32-03:00",
+      "days_since_human_update": 7,
+      "days_since_repo_activity": 3,
+      "freshness": "warm",
+      "temperature": "warm",
+      "stale_risk": "medium",
+      "confidence": 0.95,
+      "score": 43,
+      "reasons": [
+        "última actualización humana hace 7 día(s)",
+        "última actividad de repo hace 3 día(s)",
+        "tiene próxima acción definida"
+      ],
+      "warnings": [],
+      "status_source": {
+        "type": "repo_file",
+        "location": ".project/PROJECT_STATUS.yaml",
+        "found": true
+      }
+    },
+    {
+      "id": "ai-effort-planner",
+      "name": "AI Effort Planner",
+      "owner": "ndf",
+      "type": "infra",
+      "category": "it",
+      "priority": "high",
+      "stage": "active",
+      "effort": "medium",
+      "progress_pct": 60,
+      "health": "green",
+      "summary": "Plugin para convertir blueprints en planes de ejecución autónoma diaria con handoff, progreso y runner listos para cron.",
+      "current_focus": [
+        "afinar la experiencia de planificación",
+        "mejorar generación de artefactos operativos",
+        "reforzar claridad de riesgos y timelines"
+      ],
+      "pending": [
+        "validar más casos reales de proyecto",
+        "endurecer documentación y ejemplos",
+        "revisar integración con el flujo diario del agente"
+      ],
+      "next_action": "probar el planner sobre más blueprints reales y ajustar defaults según resultados",
+      "blockers": [],
+      "needs_decision": false,
+      "can_delegate": true,
+      "quick_win": "agregar un ejemplo adicional end-to-end con blueprint y artefactos resultantes",
+      "links": {
+        "docs": "/home/ndf/workspace/ai-effort-planner/README.md",
+        "local": "/home/ndf/workspace/ai-effort-planner"
+      },
+      "topics": [],
+      "tags": [
+        "planning",
+        "automation",
+        "agents",
+        "cron"
+      ],
+      "repo_count": 1,
+      "repos": [
+        "ai-effort-planner"
+      ],
+      "last_human_update": "2026-05-07T02:19:00-03:00",
+      "last_repo_activity_at": "2026-04-27T06:10:17+00:00",
+      "days_since_human_update": 7,
+      "days_since_repo_activity": 17,
+      "freshness": "warm",
+      "temperature": "cold",
+      "stale_risk": "high",
+      "confidence": 0.95,
+      "score": 41,
+      "reasons": [
+        "última actualización humana hace 7 día(s)",
+        "última actividad de repo hace 17 día(s)",
+        "tiene próxima acción definida"
+      ],
+      "warnings": [],
+      "status_source": {
+        "type": "repo_file",
+        "location": ".project/PROJECT_STATUS.yaml",
+        "found": true
+      }
+    },
+    {
+      "id": "cocina-media-center",
+      "name": "Cocina Media Center",
+      "owner": "ndf",
+      "type": "infra",
+      "category": "it",
+      "priority": "medium",
+      "stage": "active",
+      "effort": "large",
+      "progress_pct": 85,
+      "health": "green",
+      "summary": "Media center desplegado en la Raspberry de la cocina con dashboard fullscreen, API local, Spotify, YouTube y reproducción de archivos compartidos.",
+      "current_focus": [
+        "mantener estabilidad del despliegue",
+        "pulir experiencias de control desde OpenClaw",
+        "sostener la operación de fotos y media share"
+      ],
+      "pending": [
+        "revisar mejoras incrementales de UX",
+        "documentar ajustes operativos recurrentes",
+        "evaluar futuras extensiones no críticas"
+      ],
+      "next_action": "verificar periódicamente el estado desplegado y capturar cualquier mejora chica de operabilidad",
+      "blockers": [],
+      "needs_decision": false,
+      "can_delegate": true,
+      "quick_win": "registrar una checklist corta de verificación de salud del sistema desplegado",
+      "links": {
+        "docs": "/home/ndf/workspace/cocina-media-center/README.md",
+        "local": "/home/ndf/workspace/cocina-media-center"
+      },
+      "topics": [],
+      "tags": [
+        "media-center",
+        "home",
+        "raspberry",
+        "automation"
+      ],
+      "repo_count": 1,
+      "repos": [
+        "cocina-media-center"
+      ],
+      "last_human_update": "2026-05-07T02:19:00-03:00",
+      "last_repo_activity_at": "2026-05-03T03:21:24-03:00",
+      "days_since_human_update": 7,
+      "days_since_repo_activity": 11,
+      "freshness": "warm",
+      "temperature": "cold",
+      "stale_risk": "high",
+      "confidence": 0.95,
+      "score": 45,
+      "reasons": [
+        "última actualización humana hace 7 día(s)",
+        "última actividad de repo hace 11 día(s)",
+        "tiene próxima acción definida"
+      ],
+      "warnings": [],
+      "status_source": {
+        "type": "repo_file",
+        "location": ".project/PROJECT_STATUS.yaml",
+        "found": true
+      }
+    },
+    {
+      "id": "nexus-operator",
+      "name": "Nexus Operator",
+      "owner": "ndf",
+      "type": "product",
+      "category": "it",
+      "priority": "high",
+      "stage": "active",
+      "effort": "huge",
+      "progress_pct": 20,
+      "health": "yellow",
+      "summary": "Consola operativa multimodal sobre OpenClaw para observación, chat, voz y acciones seguras con trazabilidad en un entorno técnico personal.",
+      "current_focus": [
+        "bajar el blueprint a un esqueleto técnico real",
+        "definir contratos entre UI, backend y acciones seguras",
+        "priorizar un MVP de utilidad operativa alta"
+      ],
+      "pending": [
+        "crear esqueleto inicial del proyecto",
+        "cablear integración base con OpenClaw",
+        "definir primera capa de acciones seguras"
+      ],
+      "next_action": "implementar el skeleton técnico mínimo del MVP y fijar contratos operativos iniciales",
+      "blockers": [],
+      "needs_decision": false,
+      "can_delegate": true,
+      "quick_win": "materializar la fase 0 en estructura de carpetas y contratos explícitos",
+      "links": {
+        "docs": "/home/ndf/workspace/Groso_modernizado/README.md",
+        "local": "/home/ndf/workspace/Groso_modernizado"
+      },
+      "topics": [],
+      "tags": [
+        "operator",
+        "console",
+        "multimodal",
+        "homelab"
+      ],
+      "repo_count": 1,
+      "repos": [
+        "Groso_modernizado"
+      ],
+      "last_human_update": "2026-05-07T02:19:00-03:00",
+      "last_repo_activity_at": "2026-05-12T20:54:04-03:00",
+      "days_since_human_update": 7,
+      "days_since_repo_activity": 1,
+      "freshness": "warm",
+      "temperature": "hot",
+      "stale_risk": "medium",
+      "confidence": 0.95,
+      "score": 45,
+      "reasons": [
+        "última actualización humana hace 7 día(s)",
+        "última actividad de repo hace 1 día(s)",
+        "tiene próxima acción definida"
+      ],
+      "warnings": [],
+      "status_source": {
+        "type": "repo_file",
+        "location": ".project/PROJECT_STATUS.yaml",
+        "found": true
+      }
+    },
+    {
+      "id": "personal-site",
+      "name": "nestorfleitas.ar",
+      "owner": "ndf",
+      "type": "web",
+      "category": "it",
+      "priority": "medium",
+      "stage": "active",
+      "effort": "medium",
+      "progress_pct": 75,
+      "health": "green",
+      "summary": "Sitio personal/portfolio vigente con refactor visual, contenido profesional y automatización diaria de noticias de DevOps y ciberseguridad.",
+      "current_focus": [
+        "mantener contenido y branding consistentes",
+        "revisar calidad del portfolio y noticias automatizadas",
+        "sostener visibilidad profesional actualizada"
+      ],
+      "pending": [
+        "ampliar proyectos mostrados si hace falta",
+        "revisar detalles de SEO y contenido",
+        "iterar sobre UX del portfolio"
+      ],
+      "next_action": "revisar la sección de proyectos y alinear el portfolio con el estado actual del resto de iniciativas",
+      "blockers": [],
+      "needs_decision": false,
+      "can_delegate": true,
+      "quick_win": "actualizar la lista de proyectos destacados con el mapa actual del portfolio",
+      "links": {
+        "repo": "https://github.com/ndf14685/ndf14685.github.io",
+        "local": "/home/ndf/workspace/ndf14685.github.io"
+      },
+      "topics": [],
+      "tags": [
+        "web",
+        "portfolio",
+        "personal-brand"
+      ],
+      "repo_count": 1,
+      "repos": [
+        "ndf14685.github.io"
+      ],
+      "last_human_update": "2026-05-07T02:19:00-03:00",
+      "last_repo_activity_at": "2026-04-27T10:59:44-03:00",
+      "days_since_human_update": 7,
+      "days_since_repo_activity": 16,
+      "freshness": "warm",
+      "temperature": "cold",
+      "stale_risk": "high",
+      "confidence": 0.95,
+      "score": 41,
+      "reasons": [
+        "última actualización humana hace 7 día(s)",
+        "última actividad de repo hace 16 día(s)",
+        "tiene próxima acción definida"
+      ],
+      "warnings": [],
+      "status_source": {
+        "type": "repo_file",
+        "location": ".project/PROJECT_STATUS.yaml",
+        "found": true
+      }
+    },
+    {
+      "id": "nexus-security",
+      "name": "nexus-ai.lat",
+      "owner": "ndf",
+      "type": "product",
+      "category": "it",
+      "priority": "medium",
+      "stage": "active",
+      "effort": "medium",
+      "progress_pct": 55,
+      "health": "green",
+      "summary": "Landing y presencia comercial enfocada en automatización, seguridad e IA aplicada para empresas de LATAM bajo la marca nexus-ai.lat.",
+      "current_focus": [
+        "afinar posicionamiento comercial del sitio",
+        "sostener coherencia entre mensaje, oferta y activos visuales",
+        "preparar base para evolución comercial futura"
+      ],
+      "pending": [
+        "revisar copy y conversión",
+        "alinear oferta con servicios priorizados",
+        "decidir próximos pasos del embudo comercial"
+      ],
+      "next_action": "auditar el mensaje principal del sitio y priorizar mejoras concretas de conversión",
+      "blockers": [],
+      "needs_decision": false,
+      "can_delegate": true,
+      "quick_win": "revisar hero, CTA y propuesta de valor con criterio de conversión",
+      "links": {
+        "site": "https://nexus-ai.lat/",
+        "local": "/home/ndf/workspace/nexus-security"
+      },
+      "topics": [],
+      "tags": [
+        "security",
+        "consulting",
+        "landing",
+        "ai"
+      ],
+      "repo_count": 1,
+      "repos": [
+        "nexus-security"
+      ],
+      "last_human_update": "2026-05-07T02:19:00-03:00",
+      "last_repo_activity_at": "2026-05-04T04:49:21-03:00",
+      "days_since_human_update": 7,
+      "days_since_repo_activity": 10,
+      "freshness": "warm",
+      "temperature": "cold",
+      "stale_risk": "high",
+      "confidence": 0.95,
+      "score": 46,
+      "reasons": [
+        "última actualización humana hace 7 día(s)",
+        "última actividad de repo hace 10 día(s)",
+        "tiene próxima acción definida"
+      ],
+      "warnings": [],
+      "status_source": {
+        "type": "repo_file",
+        "location": ".project/PROJECT_STATUS.yaml",
+        "found": true
+      }
+    },
+    {
+      "id": "the-architect",
+      "name": "The Architect",
+      "owner": "ndf",
+      "type": "infra",
+      "category": "it",
+      "priority": "high",
+      "stage": "active",
+      "effort": "large",
+      "progress_pct": 70,
+      "health": "green",
+      "summary": "Meta-agente que diseña blueprints de software completos para que otros agentes puedan ejecutar la construcción de punta a punta.",
+      "current_focus": [
+        "seguir mejorando la calidad de blueprints",
+        "reforzar prompts, plantillas y flujo de descubrimiento",
+        "consolidar reutilización en proyectos reales"
+      ],
+      "pending": [
+        "validar más recorridos de generación",
+        "pulir assets y documentación en español/inglés",
+        "revisar huecos entre blueprint y ejecución posterior"
+      ],
+      "next_action": "contrastar blueprints generados contra proyectos reales y cerrar gaps de implementación repetidos",
+      "blockers": [],
+      "needs_decision": false,
+      "can_delegate": true,
+      "quick_win": "documentar patrones recurrentes detectados entre blueprint y build real",
+      "links": {
+        "docs": "/home/ndf/workspace/the-architect/README.md",
+        "local": "/home/ndf/workspace/the-architect"
+      },
+      "topics": [],
+      "tags": [
+        "meta-agent",
+        "blueprints",
+        "architecture",
+        "agents"
+      ],
+      "repo_count": 1,
+      "repos": [
+        "the-architect"
+      ],
+      "last_human_update": "2026-05-07T02:19:00-03:00",
+      "last_repo_activity_at": "2026-04-24T15:19:05+00:00",
+      "days_since_human_update": 7,
+      "days_since_repo_activity": 19,
+      "freshness": "warm",
+      "temperature": "cold",
+      "stale_risk": "high",
+      "confidence": 0.95,
+      "score": 41,
+      "reasons": [
+        "última actualización humana hace 7 día(s)",
+        "última actividad de repo hace 19 día(s)",
+        "tiene próxima acción definida"
+      ],
+      "warnings": [],
+      "status_source": {
+        "type": "repo_file",
+        "location": ".project/PROJECT_STATUS.yaml",
+        "found": true
+      }
+    },
+    {
+      "id": "homelab-config-backup",
+      "name": "Homelab Config Backup",
+      "owner": "ndf",
+      "type": "infra",
+      "category": "it",
+      "priority": "medium",
+      "stage": "maintenance",
+      "effort": "small",
+      "progress_pct": 85,
+      "health": "green",
+      "summary": "Backup sanitizado y versionado de configuraciones de OpenClaw, herramientas IA y shell. El repo muestra backups diarios recientes; resta documentar y probar restore con el mismo nivel de prolijidad.",
+      "current_focus": [
+        "mantener backups regulares sin secretos",
+        "validar que data/raw/ siga excluido",
+        "revisar tarea programada de backup"
+      ],
+      "pending": [
+        "revisar política de retención",
+        "documentar restore de configuraciones",
+        "probar restore en máquina limpia"
+      ],
+      "next_action": "validar que la tarea programada esté corriendo y revisar último backup",
+      "blockers": [],
+      "needs_decision": false,
+      "can_delegate": true,
+      "quick_win": "agregar script de verificación de \"último backup OK\"",
+      "links": {
+        "repo": "https://github.com/ndf14685/homelab-config-backup",
+        "local": "/home/ndf/.openclaw/workspace/github/homelab-config-backup"
+      },
+      "topics": [],
+      "tags": [
+        "infra",
+        "backup",
+        "homelab",
+        "openclaw"
+      ],
+      "repo_count": 1,
+      "repos": [
+        "homelab-config-backup"
+      ],
+      "last_human_update": "2026-05-14T10:10:00-03:00",
+      "last_repo_activity_at": "2026-05-14T10:17:21-03:00",
+      "days_since_human_update": 0,
+      "days_since_repo_activity": 0,
+      "freshness": "fresh",
+      "temperature": "hot",
+      "stale_risk": "low",
+      "confidence": 0.95,
+      "score": 70,
+      "reasons": [
+        "última actualización humana hace 0 día(s)",
+        "última actividad de repo hace 0 día(s)",
+        "tiene próxima acción definida"
+      ],
+      "warnings": [],
+      "status_source": {
+        "type": "repo_file",
+        "location": ".project/PROJECT_STATUS.yaml",
+        "found": true
+      }
+    },
+    {
+      "id": "copiloto-infra-proactivo",
+      "name": "Copiloto Infra Proactivo",
+      "owner": "ndf",
+      "type": "product",
+      "category": "it",
+      "priority": "low",
+      "stage": "idea",
+      "effort": "large",
+      "progress_pct": 0,
+      "health": "yellow",
+      "summary": "Repo creado pero sin commits ni código aún. Idea: copiloto por voz/LAN (estilo Rayban) que monitoree infra de manera proactiva.",
+      "current_focus": [
+        "definir alcance mínimo del MVP",
+        "elegir stack de voz e integración LAN"
+      ],
+      "pending": [
+        "escribir README con visión y alcance",
+        "definir señales de monitoreo iniciales",
+        "elegir hardware/cliente (Rayban, móvil, etc.)"
+      ],
+      "next_action": "redactar README inicial con visión, casos de uso y MVP recortado",
+      "blockers": [
+        "falta decidir si arranca como prototipo voz o como agente LAN puro"
+      ],
+      "needs_decision": true,
+      "can_delegate": false,
+      "quick_win": "bajar la idea a un README de 1 página con el alcance mínimo",
+      "links": {
+        "repo": "https://github.com/ndf14685/copiloto-infra-proactivo",
+        "local": "/home/ndf/.openclaw/workspace/github/copiloto-infra-proactivo"
+      },
+      "topics": [],
+      "tags": [
+        "voice",
+        "infra",
+        "monitoring",
+        "lan",
+        "rayban"
+      ],
+      "repo_count": 1,
+      "repos": [
+        "copiloto-infra-proactivo"
+      ],
+      "last_human_update": "2026-05-14T10:10:00-03:00",
+      "last_repo_activity_at": "2026-05-14T10:16:02-03:00",
+      "days_since_human_update": 0,
+      "days_since_repo_activity": 0,
+      "freshness": "fresh",
+      "temperature": "hot",
+      "stale_risk": "low",
+      "confidence": 0.95,
+      "score": 45,
+      "reasons": [
+        "última actualización humana hace 0 día(s)",
+        "última actividad de repo hace 0 día(s)",
+        "1 bloqueo(s) declarado(s)",
+        "requiere decisión",
+        "tiene próxima acción definida"
+      ],
+      "warnings": [],
+      "status_source": {
+        "type": "repo_file",
+        "location": ".project/PROJECT_STATUS.yaml",
+        "found": true
+      }
+    },
+    {
+      "id": "cursify",
+      "name": "Cursify",
+      "owner": "ndf",
+      "type": "product",
+      "category": "it",
+      "priority": "low",
+      "stage": "paused",
+      "effort": "large",
+      "progress_pct": 20,
+      "health": "yellow",
+      "summary": "MVP inicial de marketplace de cursos LATAM con Next.js, Prisma y Mercado Pago. Sigue con un commit inicial como base del MVP y sin iteración reciente.",
+      "current_focus": [
+        "decidir si se retoma o se archiva",
+        "mantener dependencias mínimamente al día"
+      ],
+      "pending": [
+        "definir propuesta de valor concreta",
+        "validar demanda mínima antes de invertir más esfuerzo",
+        "cerrar checkout end-to-end con Mercado Pago"
+      ],
+      "next_action": "decidir continuar/archivar antes de meter más esfuerzo en el MVP",
+      "blockers": [
+        "falta validación de mercado / demanda inicial"
+      ],
+      "needs_decision": true,
+      "can_delegate": false,
+      "quick_win": "dejar README con estado claro y \"paused\" explícito para futuro yo",
+      "links": {
+        "repo": "https://github.com/ndf14685/cursify",
+        "local": "/home/ndf/.openclaw/workspace/github/cursify"
+      },
+      "topics": [],
+      "tags": [
+        "saas",
+        "courses",
+        "latam",
+        "marketplace",
+        "mercadopago"
+      ],
+      "repo_count": 1,
+      "repos": [
+        "cursify"
+      ],
+      "last_human_update": "2026-05-14T10:10:00-03:00",
+      "last_repo_activity_at": "2026-05-14T10:16:04-03:00",
+      "days_since_human_update": 0,
+      "days_since_repo_activity": 0,
+      "freshness": "fresh",
+      "temperature": "hot",
+      "stale_risk": "low",
+      "confidence": 0.95,
+      "score": 25,
+      "reasons": [
+        "última actualización humana hace 0 día(s)",
+        "última actividad de repo hace 0 día(s)",
+        "1 bloqueo(s) declarado(s)",
+        "requiere decisión",
+        "tiene próxima acción definida"
+      ],
+      "warnings": [],
+      "status_source": {
+        "type": "repo_file",
+        "location": ".project/PROJECT_STATUS.yaml",
+        "found": true
+      }
+    },
+    {
+      "id": "ml-serving-infrastructure",
+      "name": "ML Serving Infrastructure",
+      "owner": "ndf",
+      "type": "showcase",
+      "category": "it",
+      "priority": "low",
+      "stage": "done",
+      "effort": "large",
+      "progress_pct": 95,
+      "health": "green",
+      "summary": "Showcase de DevOps: infraestructura completa para servir un modelo Iris con 3 microservicios, CI, Terraform, Kubernetes y observabilidad. Entregado como take-home; se mantiene en modo vitrina.",
+      "current_focus": [
+        "mantener buen estado público para portfolio",
+        "asegurar que el README quede claro para visitantes técnicos"
+      ],
+      "pending": [
+        "revisar que el CI siga verde",
+        "dejar instrucciones de quickstart probadas"
+      ],
+      "next_action": "revisar README/quickstart y dejarlo en estado \"vitrina\" estable",
+      "blockers": [],
+      "needs_decision": false,
+      "can_delegate": true,
+      "quick_win": "agregar nota en README aclarando que es un take-home cerrado, no producto vivo",
+      "links": {
+        "repo": "https://github.com/ndf14685/ml-serving-infrastructure",
+        "local": "/home/ndf/.openclaw/workspace/github/ml-serving-infrastructure"
+      },
+      "topics": [],
+      "tags": [
+        "devops",
+        "fastapi",
+        "kubernetes",
+        "terraform",
+        "showcase"
+      ],
+      "repo_count": 1,
+      "repos": [
+        "ml-serving-infrastructure"
+      ],
+      "last_human_update": "2026-05-14T10:10:00-03:00",
+      "last_repo_activity_at": "2026-05-14T10:17:45-03:00",
+      "days_since_human_update": 0,
+      "days_since_repo_activity": 0,
+      "freshness": "fresh",
+      "temperature": "hot",
+      "stale_risk": "low",
+      "confidence": 0.95,
+      "score": 70,
+      "reasons": [
+        "última actualización humana hace 0 día(s)",
+        "última actividad de repo hace 0 día(s)",
+        "tiene próxima acción definida"
+      ],
+      "warnings": [],
+      "status_source": {
+        "type": "repo_file",
+        "location": ".project/PROJECT_STATUS.yaml",
+        "found": true
+      }
+    },
+    {
+      "id": "nestor-consulting-web",
+      "name": "Nestor Consulting Web",
+      "owner": "ndf",
+      "type": "web",
+      "category": "it",
+      "priority": "low",
+      "stage": "maintenance",
+      "effort": "small",
+      "progress_pct": 55,
+      "health": "yellow",
+      "summary": "Sitio personal en HTML/JS/Bootstrap usado como CV/landing. Último cambio significativo en 2025; quedó pendiente cierre de TODO histórico (idiomas, SEO, desplegables).",
+      "current_focus": [
+        "mantener el sitio funcionando como CV/landing",
+        "decidir si evoluciona a \"Nestor Consulting\" o sigue como CV personal"
+      ],
+      "pending": [
+        "detectar idioma del navegador y armar versión EN",
+        "agregar SEO mínimo",
+        "resolver desplegables de experiencia/formación"
+      ],
+      "next_action": "definir si el sitio queda como CV o pivotea a sitio de consultoría",
+      "blockers": [
+        {
+          "falta decisión de identidad": "CV personal vs Nestor Consulting"
+        }
+      ],
+      "needs_decision": true,
+      "can_delegate": false,
+      "quick_win": "agregar SEO básico (meta tags, og:image) en una pasada corta",
+      "links": {
+        "repo": "https://github.com/ndf14685/nestorfleitas.ar",
+        "local": "/home/ndf/.openclaw/workspace/github/nestorfleitas.ar"
+      },
+      "topics": [],
+      "tags": [
+        "web",
+        "consulting",
+        "personal-brand"
+      ],
+      "repo_count": 1,
+      "repos": [
+        "nestorfleitas.ar"
+      ],
+      "last_human_update": "2026-05-14T10:10:00-03:00",
+      "last_repo_activity_at": "2026-05-14T10:17:48-03:00",
+      "days_since_human_update": 0,
+      "days_since_repo_activity": 0,
+      "freshness": "fresh",
+      "temperature": "hot",
+      "stale_risk": "low",
+      "confidence": 0.95,
+      "score": 45,
+      "reasons": [
+        "última actualización humana hace 0 día(s)",
+        "última actividad de repo hace 0 día(s)",
+        "1 bloqueo(s) declarado(s)",
+        "requiere decisión",
+        "tiene próxima acción definida"
+      ],
+      "warnings": [],
+      "status_source": {
+        "type": "repo_file",
+        "location": ".project/PROJECT_STATUS.yaml",
+        "found": true
+      }
+    }
+  ]
+}
