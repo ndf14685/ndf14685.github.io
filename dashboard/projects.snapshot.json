@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-05-14T13:30:12.125Z",
+  "generated_at": "2026-05-29T04:34:53.846Z",
   "summary": {
-    "total": 14,
-    "active": 9,
+    "total": 17,
+    "active": 12,
     "paused": 1,
     "blocked": 0,
-    "stale": 2,
-    "needs_decision": 3,
-    "high_stale_risk": 5,
+    "stale": 14,
+    "needs_decision": 2,
+    "high_stale_risk": 14,
     "warnings": 0,
-    "it_count": 14,
+    "it_count": 17,
     "non_it_count": 0,
-    "avg_score": 47.2,
-    "total_estimated_load": 57
+    "avg_score": 29.5,
+    "total_estimated_load": 70
   },
   "issues": [],
   "projects": [
@@ -63,16 +63,16 @@
       ],
       "last_human_update": "2026-05-06T03:02:00-03:00",
       "last_repo_activity_at": "2026-05-12T04:01:21-03:00",
-      "days_since_human_update": 8,
-      "days_since_repo_activity": 2,
+      "days_since_human_update": 22,
+      "days_since_repo_activity": 16,
       "freshness": "stale",
-      "temperature": "hot",
-      "stale_risk": "medium",
+      "temperature": "cold",
+      "stale_risk": "high",
       "confidence": 0.95,
-      "score": 52,
+      "score": 30,
       "reasons": [
-        "última actualización humana hace 8 día(s)",
-        "última actividad de repo hace 2 día(s)",
+        "última actualización humana hace 22 día(s)",
+        "última actividad de repo hace 16 día(s)",
         "tiene próxima acción definida"
       ],
       "warnings": [],
@@ -91,24 +91,24 @@
       "priority": "high",
       "stage": "active",
       "effort": "medium",
-      "progress_pct": 35,
+      "progress_pct": 45,
       "health": "green",
-      "summary": "Ya genera snapshot/HTML, valida datos básicos y quedó listo el workflow de publicación a GitHub Pages.",
+      "summary": "Ya genera snapshot/HTML, valida datos básicos, publica Pages desde dist y mantiene el registry como fuente de verdad del portfolio.",
       "current_focus": [
-        "formalizar schemas v1",
-        "sumar señales externas opcionales",
-        "probar publicación end-to-end"
+        "mantener altas de repos propios recientes",
+        "formalizar automatización recurrente de relevamiento GitHub/local",
+        "sumar señales externas opcionales sin inventar estado de gestión"
       ],
       "pending": [
-        "configurar GitHub Pages en el repo remoto",
+        "crear job recurrente para detectar repos propios no forkeados nuevos",
         "agregar collector opcional de PRs/issues/CI",
         "definir reglas de atención y recordatorios"
       ],
-      "next_action": "validar deploy real en GitHub Pages y cerrar schemas formales",
+      "next_action": "implementar job semanal que releve GitHub/local y proponga altas al registry",
       "blockers": [],
       "needs_decision": false,
       "can_delegate": true,
-      "quick_win": "conectar el repo remoto real y verificar la URL publicada",
+      "quick_win": "correr el relevamiento manual y regenerar dist después de cada alta de repo",
       "links": {
         "repo": "https://github.com/ndf14685/project-dashboard",
         "topic": "telegram://topic/1417",
@@ -127,18 +127,230 @@
       "repos": [
         "project-dashboard"
       ],
-      "last_human_update": "2026-05-06T02:58:00-03:00",
-      "last_repo_activity_at": "2026-05-11T17:18:27-03:00",
-      "days_since_human_update": 8,
-      "days_since_repo_activity": 2,
-      "freshness": "stale",
-      "temperature": "hot",
-      "stale_risk": "medium",
+      "last_human_update": "2026-05-28T21:33:00-03:00",
+      "last_repo_activity_at": "2026-05-15T21:15:12-03:00",
+      "days_since_human_update": 0,
+      "days_since_repo_activity": 13,
+      "freshness": "fresh",
+      "temperature": "cold",
+      "stale_risk": "low",
       "confidence": 0.95,
-      "score": 52,
+      "score": 57,
       "reasons": [
-        "última actualización humana hace 8 día(s)",
-        "última actividad de repo hace 2 día(s)",
+        "última actualización humana hace 0 día(s)",
+        "última actividad de repo hace 13 día(s)",
+        "tiene próxima acción definida"
+      ],
+      "warnings": [],
+      "status_source": {
+        "type": "repo_file",
+        "location": ".project/PROJECT_STATUS.yaml",
+        "found": true
+      }
+    },
+    {
+      "id": "jarvis-openclaw-desktop",
+      "name": "Jarvis OpenClaw Desktop",
+      "owner": "ndf",
+      "type": "product",
+      "category": "it",
+      "priority": "high",
+      "stage": "active",
+      "effort": "large",
+      "progress_pct": 45,
+      "health": "yellow",
+      "summary": "Cliente HUD de escritorio para OpenClaw con voz local, router de acciones locales, fallback SSH/gateway y experiencia tipo asistente siempre disponible.",
+      "current_focus": [
+        "mejorar utilidad real frente al benchmark Telegram/OpenClaw",
+        "estabilizar contexto de proyecto activo y memoria por conversación",
+        "cerrar integración gateway con sesión persistente"
+      ],
+      "pending": [
+        "implementar bridge real por WebSocket/API con sessionKey del proyecto",
+        "validar experiencia en la PC Aorus",
+        "documentar flujo de operación diario y límites de seguridad"
+      ],
+      "next_action": "cablear GatewayOpenClawClient con sesión fija de proyecto y topic/contexto persistente",
+      "blockers": [
+        "las pruebas completas y ejecución visual quedan para la PC Aorus"
+      ],
+      "needs_decision": false,
+      "can_delegate": true,
+      "quick_win": "probar el fallback gateway/SSH con un comando simple y registrar latencia real",
+      "links": {
+        "repo": "https://github.com/ndf14685/jarvis-openclaw-desktop",
+        "docs": "/home/ndf/codex/jarvis-openclaw-desktop/README.md",
+        "local": "/home/ndf/codex/jarvis-openclaw-desktop"
+      },
+      "topics": [
+        "telegram:-1003958513253/1417"
+      ],
+      "tags": [
+        "desktop",
+        "openclaw",
+        "voice",
+        "hud",
+        "local-agent"
+      ],
+      "repo_count": 1,
+      "repos": [
+        "jarvis-openclaw-desktop"
+      ],
+      "last_human_update": "2026-05-28T21:33:00-03:00",
+      "last_repo_activity_at": "2026-05-28T09:18:50-03:00",
+      "days_since_human_update": 0,
+      "days_since_repo_activity": 0,
+      "freshness": "fresh",
+      "temperature": "hot",
+      "stale_risk": "low",
+      "confidence": 0.95,
+      "score": 53,
+      "reasons": [
+        "última actualización humana hace 0 día(s)",
+        "última actividad de repo hace 0 día(s)",
+        "1 bloqueo(s) declarado(s)",
+        "tiene próxima acción definida"
+      ],
+      "warnings": [],
+      "status_source": {
+        "type": "repo_file",
+        "location": ".project/PROJECT_STATUS.yaml",
+        "found": true
+      }
+    },
+    {
+      "id": "groso-bridge",
+      "name": "Groso Bridge",
+      "owner": "ndf",
+      "type": "infra",
+      "category": "it",
+      "priority": "high",
+      "stage": "active",
+      "effort": "medium",
+      "progress_pct": 20,
+      "health": "yellow",
+      "summary": "Puente entre Telegram/OpenClaw y dispositivos reales para ejecutar acciones sobre Android, PC y futuros wearables desde intenciones del asistente.",
+      "current_focus": [
+        "cerrar contrato API de Device Actions v1",
+        "definir permisos y seguridad del Android Agent",
+        "conectar tools de OpenClaw con acciones mínimas verificables"
+      ],
+      "pending": [
+        "implementar set_alarm y set_timer end-to-end",
+        "agregar autenticación local del bridge",
+        "definir pruebas de contrato para server y android-agent"
+      ],
+      "next_action": "implementar el primer flujo real set_alarm desde OpenClaw hasta Android Agent",
+      "blockers": [],
+      "needs_decision": false,
+      "can_delegate": true,
+      "quick_win": "convertir docs/API.md en pruebas de contrato iniciales",
+      "links": {
+        "repo": "https://github.com/ndf14685/groso-bridge",
+        "docs": "/home/ndf/workspace/groso-bridge/README.md",
+        "local": "/home/ndf/workspace/groso-bridge"
+      },
+      "topics": [
+        "telegram:-1003958513253/1417"
+      ],
+      "tags": [
+        "openclaw",
+        "telegram",
+        "devices",
+        "android",
+        "bridge",
+        "automation"
+      ],
+      "repo_count": 1,
+      "repos": [
+        "groso-bridge"
+      ],
+      "last_human_update": "2026-05-28T21:33:00-03:00",
+      "last_repo_activity_at": "2026-05-16T10:29:38-03:00",
+      "days_since_human_update": 0,
+      "days_since_repo_activity": 12,
+      "freshness": "fresh",
+      "temperature": "cold",
+      "stale_risk": "low",
+      "confidence": 0.95,
+      "score": 48,
+      "reasons": [
+        "última actualización humana hace 0 día(s)",
+        "última actividad de repo hace 12 día(s)",
+        "tiene próxima acción definida"
+      ],
+      "warnings": [],
+      "status_source": {
+        "type": "repo_file",
+        "location": ".project/PROJECT_STATUS.yaml",
+        "found": true
+      }
+    },
+    {
+      "id": "agenteit",
+      "name": "AgenteIT",
+      "owner": "ndf",
+      "type": "infra",
+      "category": "it",
+      "priority": "high",
+      "stage": "testing",
+      "effort": "large",
+      "progress_pct": 75,
+      "health": "yellow",
+      "summary": "Infraestructura como codigo para replicar el stack Telegram + OpenClaw + Codex + Claude + Gemini + Ollama en un VPS cloud, con Terraform, Ansible, systemd, Docker Compose para Ollama y documentacion operativa.",
+      "current_focus": [
+        "validar playbooks contra un VPS real",
+        "completar login manual de Codex, Claude y Gemini en el host destino",
+        "ajustar variables por proveedor cloud y politica de exposicion del gateway"
+      ],
+      "pending": [
+        "ejecutar terraform fmt y ansible syntax-check en entorno con herramientas instaladas",
+        "probar deploy end-to-end en VPS limpio",
+        "documentar resultados del primer despliegue real"
+      ],
+      "next_action": "correr el primer deploy controlado en un VPS de testing y capturar hallazgos",
+      "blockers": [
+        "faltan Terraform y Ansible instalados localmente para validacion completa en esta maquina"
+      ],
+      "needs_decision": false,
+      "can_delegate": true,
+      "quick_win": "instalar herramientas locales y correr make lint",
+      "links": {
+        "repo": "https://github.com/ndf14685/AgenteIT",
+        "local": "/home/ndf/workspace/AgenteIT",
+        "docs": "/home/ndf/workspace/AgenteIT/README.md"
+      },
+      "topics": [
+        "telegram:-1003958513253/1417"
+      ],
+      "tags": [
+        "infra",
+        "openclaw",
+        "telegram",
+        "codex",
+        "claude",
+        "gemini",
+        "ollama",
+        "terraform",
+        "ansible"
+      ],
+      "repo_count": 1,
+      "repos": [
+        "AgenteIT"
+      ],
+      "last_human_update": "2026-05-15T21:14:27-03:00",
+      "last_repo_activity_at": "2026-05-15T21:14:55-03:00",
+      "days_since_human_update": 13,
+      "days_since_repo_activity": 13,
+      "freshness": "stale",
+      "temperature": "cold",
+      "stale_risk": "high",
+      "confidence": 0.95,
+      "score": 15,
+      "reasons": [
+        "última actualización humana hace 13 día(s)",
+        "última actividad de repo hace 13 día(s)",
+        "1 bloqueo(s) declarado(s)",
         "tiene próxima acción definida"
       ],
       "warnings": [],
@@ -191,17 +403,17 @@
         "assistant-tech-radar"
       ],
       "last_human_update": "2026-05-07T02:19:00-03:00",
-      "last_repo_activity_at": "2026-05-11T06:08:32-03:00",
-      "days_since_human_update": 7,
-      "days_since_repo_activity": 3,
-      "freshness": "warm",
-      "temperature": "warm",
-      "stale_risk": "medium",
+      "last_repo_activity_at": "2026-05-28T06:06:22-03:00",
+      "days_since_human_update": 21,
+      "days_since_repo_activity": 0,
+      "freshness": "stale",
+      "temperature": "hot",
+      "stale_risk": "high",
       "confidence": 0.95,
-      "score": 43,
+      "score": 35,
       "reasons": [
-        "última actualización humana hace 7 día(s)",
-        "última actividad de repo hace 3 día(s)",
+        "última actualización humana hace 21 día(s)",
+        "última actividad de repo hace 0 día(s)",
         "tiene próxima acción definida"
       ],
       "warnings": [],
@@ -255,16 +467,16 @@
       ],
       "last_human_update": "2026-05-07T02:19:00-03:00",
       "last_repo_activity_at": "2026-04-27T06:10:17+00:00",
-      "days_since_human_update": 7,
-      "days_since_repo_activity": 17,
-      "freshness": "warm",
+      "days_since_human_update": 21,
+      "days_since_repo_activity": 31,
+      "freshness": "stale",
       "temperature": "cold",
       "stale_risk": "high",
       "confidence": 0.95,
-      "score": 41,
+      "score": 30,
       "reasons": [
-        "última actualización humana hace 7 día(s)",
-        "última actividad de repo hace 17 día(s)",
+        "última actualización humana hace 21 día(s)",
+        "última actividad de repo hace 31 día(s)",
         "tiene próxima acción definida"
       ],
       "warnings": [],
@@ -318,16 +530,16 @@
       ],
       "last_human_update": "2026-05-07T02:19:00-03:00",
       "last_repo_activity_at": "2026-05-03T03:21:24-03:00",
-      "days_since_human_update": 7,
-      "days_since_repo_activity": 11,
-      "freshness": "warm",
+      "days_since_human_update": 21,
+      "days_since_repo_activity": 25,
+      "freshness": "stale",
       "temperature": "cold",
       "stale_risk": "high",
       "confidence": 0.95,
-      "score": 45,
+      "score": 30,
       "reasons": [
-        "última actualización humana hace 7 día(s)",
-        "última actividad de repo hace 11 día(s)",
+        "última actualización humana hace 21 día(s)",
+        "última actividad de repo hace 25 día(s)",
         "tiene próxima acción definida"
       ],
       "warnings": [],
@@ -381,16 +593,16 @@
       ],
       "last_human_update": "2026-05-07T02:19:00-03:00",
       "last_repo_activity_at": "2026-05-12T20:54:04-03:00",
-      "days_since_human_update": 7,
-      "days_since_repo_activity": 1,
-      "freshness": "warm",
-      "temperature": "hot",
-      "stale_risk": "medium",
+      "days_since_human_update": 21,
+      "days_since_repo_activity": 16,
+      "freshness": "stale",
+      "temperature": "cold",
+      "stale_risk": "high",
       "confidence": 0.95,
-      "score": 45,
+      "score": 20,
       "reasons": [
-        "última actualización humana hace 7 día(s)",
-        "última actividad de repo hace 1 día(s)",
+        "última actualización humana hace 21 día(s)",
+        "última actividad de repo hace 16 día(s)",
         "tiene próxima acción definida"
       ],
       "warnings": [],
@@ -443,16 +655,16 @@
       ],
       "last_human_update": "2026-05-07T02:19:00-03:00",
       "last_repo_activity_at": "2026-04-27T10:59:44-03:00",
-      "days_since_human_update": 7,
-      "days_since_repo_activity": 16,
-      "freshness": "warm",
+      "days_since_human_update": 21,
+      "days_since_repo_activity": 31,
+      "freshness": "stale",
       "temperature": "cold",
       "stale_risk": "high",
       "confidence": 0.95,
-      "score": 41,
+      "score": 30,
       "reasons": [
-        "última actualización humana hace 7 día(s)",
-        "última actividad de repo hace 16 día(s)",
+        "última actualización humana hace 21 día(s)",
+        "última actividad de repo hace 31 día(s)",
         "tiene próxima acción definida"
       ],
       "warnings": [],
@@ -505,17 +717,17 @@
         "nexus-security"
       ],
       "last_human_update": "2026-05-07T02:19:00-03:00",
-      "last_repo_activity_at": "2026-05-04T04:49:21-03:00",
-      "days_since_human_update": 7,
-      "days_since_repo_activity": 10,
-      "freshness": "warm",
+      "last_repo_activity_at": "2026-05-14T10:32:56-03:00",
+      "days_since_human_update": 21,
+      "days_since_repo_activity": 14,
+      "freshness": "stale",
       "temperature": "cold",
       "stale_risk": "high",
       "confidence": 0.95,
-      "score": 46,
+      "score": 31,
       "reasons": [
-        "última actualización humana hace 7 día(s)",
-        "última actividad de repo hace 10 día(s)",
+        "última actualización humana hace 21 día(s)",
+        "última actividad de repo hace 14 día(s)",
         "tiene próxima acción definida"
       ],
       "warnings": [],
@@ -569,16 +781,16 @@
       ],
       "last_human_update": "2026-05-07T02:19:00-03:00",
       "last_repo_activity_at": "2026-04-24T15:19:05+00:00",
-      "days_since_human_update": 7,
-      "days_since_repo_activity": 19,
-      "freshness": "warm",
+      "days_since_human_update": 21,
+      "days_since_repo_activity": 34,
+      "freshness": "stale",
       "temperature": "cold",
       "stale_risk": "high",
       "confidence": 0.95,
-      "score": 41,
+      "score": 30,
       "reasons": [
-        "última actualización humana hace 7 día(s)",
-        "última actividad de repo hace 19 día(s)",
+        "última actualización humana hace 21 día(s)",
+        "última actividad de repo hace 34 día(s)",
         "tiene próxima acción definida"
       ],
       "warnings": [],
@@ -617,7 +829,7 @@
       "quick_win": "agregar script de verificación de \"último backup OK\"",
       "links": {
         "repo": "https://github.com/ndf14685/homelab-config-backup",
-        "local": "/home/ndf/.openclaw/workspace/github/homelab-config-backup"
+        "local": "/home/ndf/workspace/homelab-config-backup"
       },
       "topics": [],
       "tags": [
@@ -632,16 +844,16 @@
       ],
       "last_human_update": "2026-05-14T10:10:00-03:00",
       "last_repo_activity_at": "2026-05-14T10:17:21-03:00",
-      "days_since_human_update": 0,
-      "days_since_repo_activity": 0,
-      "freshness": "fresh",
-      "temperature": "hot",
-      "stale_risk": "low",
+      "days_since_human_update": 14,
+      "days_since_repo_activity": 14,
+      "freshness": "stale",
+      "temperature": "cold",
+      "stale_risk": "high",
       "confidence": 0.95,
-      "score": 70,
+      "score": 31,
       "reasons": [
-        "última actualización humana hace 0 día(s)",
-        "última actividad de repo hace 0 día(s)",
+        "última actualización humana hace 14 día(s)",
+        "última actividad de repo hace 14 día(s)",
         "tiene próxima acción definida"
       ],
       "warnings": [],
@@ -658,30 +870,33 @@
       "type": "product",
       "category": "it",
       "priority": "low",
-      "stage": "idea",
+      "stage": "active",
       "effort": "large",
-      "progress_pct": 0,
+      "progress_pct": 84,
       "health": "yellow",
-      "summary": "Repo creado pero sin commits ni código aún. Idea: copiloto por voz/LAN (estilo Rayban) que monitoree infra de manera proactiva.",
+      "summary": "Definidas visión y arquitectura candidata del MVP: OpenClaw como backend, Telegram/móvil/lentes como clientes y ejecución de tareas sobre repos con seguimiento. También quedaron documentados el contrato de intención y el modelo de job del MVP. Ya existe un kernel Python con parser, policy, resolución de repo, carga de contexto real, plan derivado del repo, runner incremental bloqueable, adapter de Telegram, storage JSON e idempotencia por request. La primera acción real de edición ya escribe archivos dentro del repo con guardrails. Falta enchufarlo al canal real.",
       "current_focus": [
-        "definir alcance mínimo del MVP",
-        "elegir stack de voz e integración LAN"
+        "conectar el adapter de Telegram al gateway real",
+        "reemplazar verificación simulada por trabajo real"
       ],
       "pending": [
-        "escribir README con visión y alcance",
-        "definir señales de monitoreo iniciales",
-        "elegir hardware/cliente (Rayban, móvil, etc.)"
+        "integrar el flujo con OpenClaw o un bridge de Telegram real",
+        "elegir estrategia STT/TTS para la primera iteración",
+        "validar política de autonomía para commit/push",
+        "decidir si el storage final de jobs será JSON, SQLite o estado del gateway",
+        "convertir reanudación en una acción explícita del canal",
+        "rehidratar request/context/plan desde storage para resume real post-restart"
       ],
-      "next_action": "redactar README inicial con visión, casos de uso y MVP recortado",
+      "next_action": "hacer real running_tests y persistir snapshots operativos completos",
       "blockers": [
-        "falta decidir si arranca como prototipo voz o como agente LAN puro"
+        "falta definir la primera verificación real segura que corra dentro del repo"
       ],
-      "needs_decision": true,
+      "needs_decision": false,
       "can_delegate": false,
-      "quick_win": "bajar la idea a un README de 1 página con el alcance mínimo",
+      "quick_win": "enviar ack + cierre al mismo tópico usando el flujo actual",
       "links": {
         "repo": "https://github.com/ndf14685/copiloto-infra-proactivo",
-        "local": "/home/ndf/.openclaw/workspace/github/copiloto-infra-proactivo"
+        "local": "/home/ndf/workspace/copiloto-infra-proactivo"
       },
       "topics": [],
       "tags": [
@@ -695,20 +910,19 @@
       "repos": [
         "copiloto-infra-proactivo"
       ],
-      "last_human_update": "2026-05-14T10:10:00-03:00",
-      "last_repo_activity_at": "2026-05-14T10:16:02-03:00",
-      "days_since_human_update": 0,
-      "days_since_repo_activity": 0,
-      "freshness": "fresh",
-      "temperature": "hot",
-      "stale_risk": "low",
+      "last_human_update": "2026-05-16T10:12:00-03:00",
+      "last_repo_activity_at": "2026-05-23T21:25:02-03:00",
+      "days_since_human_update": 12,
+      "days_since_repo_activity": 5,
+      "freshness": "stale",
+      "temperature": "warm",
+      "stale_risk": "high",
       "confidence": 0.95,
-      "score": 45,
+      "score": 24,
       "reasons": [
-        "última actualización humana hace 0 día(s)",
-        "última actividad de repo hace 0 día(s)",
+        "última actualización humana hace 12 día(s)",
+        "última actividad de repo hace 5 día(s)",
         "1 bloqueo(s) declarado(s)",
-        "requiere decisión",
         "tiene próxima acción definida"
       ],
       "warnings": [],
@@ -748,7 +962,7 @@
       "quick_win": "dejar README con estado claro y \"paused\" explícito para futuro yo",
       "links": {
         "repo": "https://github.com/ndf14685/cursify",
-        "local": "/home/ndf/.openclaw/workspace/github/cursify"
+        "local": "/home/ndf/workspace/cursify"
       },
       "topics": [],
       "tags": [
@@ -764,16 +978,16 @@
       ],
       "last_human_update": "2026-05-14T10:10:00-03:00",
       "last_repo_activity_at": "2026-05-14T10:16:04-03:00",
-      "days_since_human_update": 0,
-      "days_since_repo_activity": 0,
-      "freshness": "fresh",
-      "temperature": "hot",
-      "stale_risk": "low",
+      "days_since_human_update": 14,
+      "days_since_repo_activity": 14,
+      "freshness": "stale",
+      "temperature": "cold",
+      "stale_risk": "high",
       "confidence": 0.95,
-      "score": 25,
+      "score": 0,
       "reasons": [
-        "última actualización humana hace 0 día(s)",
-        "última actividad de repo hace 0 día(s)",
+        "última actualización humana hace 14 día(s)",
+        "última actividad de repo hace 14 día(s)",
         "1 bloqueo(s) declarado(s)",
         "requiere decisión",
         "tiene próxima acción definida"
@@ -812,7 +1026,7 @@
       "quick_win": "agregar nota en README aclarando que es un take-home cerrado, no producto vivo",
       "links": {
         "repo": "https://github.com/ndf14685/ml-serving-infrastructure",
-        "local": "/home/ndf/.openclaw/workspace/github/ml-serving-infrastructure"
+        "local": "/home/ndf/workspace/ml-serving-infrastructure"
       },
       "topics": [],
       "tags": [
@@ -828,16 +1042,16 @@
       ],
       "last_human_update": "2026-05-14T10:10:00-03:00",
       "last_repo_activity_at": "2026-05-14T10:17:45-03:00",
-      "days_since_human_update": 0,
-      "days_since_repo_activity": 0,
-      "freshness": "fresh",
-      "temperature": "hot",
-      "stale_risk": "low",
+      "days_since_human_update": 14,
+      "days_since_repo_activity": 14,
+      "freshness": "stale",
+      "temperature": "cold",
+      "stale_risk": "high",
       "confidence": 0.95,
-      "score": 70,
+      "score": 31,
       "reasons": [
-        "última actualización humana hace 0 día(s)",
-        "última actividad de repo hace 0 día(s)",
+        "última actualización humana hace 14 día(s)",
+        "última actividad de repo hace 14 día(s)",
         "tiene próxima acción definida"
       ],
       "warnings": [],
@@ -879,7 +1093,7 @@
       "quick_win": "agregar SEO básico (meta tags, og:image) en una pasada corta",
       "links": {
         "repo": "https://github.com/ndf14685/nestorfleitas.ar",
-        "local": "/home/ndf/.openclaw/workspace/github/nestorfleitas.ar"
+        "local": "/home/ndf/workspace/nestorfleitas.ar"
       },
       "topics": [],
       "tags": [
@@ -893,16 +1107,16 @@
       ],
       "last_human_update": "2026-05-14T10:10:00-03:00",
       "last_repo_activity_at": "2026-05-14T10:17:48-03:00",
-      "days_since_human_update": 0,
-      "days_since_repo_activity": 0,
-      "freshness": "fresh",
-      "temperature": "hot",
-      "stale_risk": "low",
+      "days_since_human_update": 14,
+      "days_since_repo_activity": 14,
+      "freshness": "stale",
+      "temperature": "cold",
+      "stale_risk": "high",
       "confidence": 0.95,
-      "score": 45,
+      "score": 6,
       "reasons": [
-        "última actualización humana hace 0 día(s)",
-        "última actividad de repo hace 0 día(s)",
+        "última actualización humana hace 14 día(s)",
+        "última actividad de repo hace 14 día(s)",
         "1 bloqueo(s) declarado(s)",
         "requiere decisión",
         "tiene próxima acción definida"
