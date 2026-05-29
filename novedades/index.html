@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Novedades IA | nestorfleitas.ar</title>
+  <meta name="description" content="Radar de novedades de IA enfocado en OpenClaw, Claude, Codex, ChatGPT, Gemini, DeepSeek e infraestructura de agentes.">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self';
+             script-src 'self' 'unsafe-inline';
+             style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+             img-src 'self' data: https:;
+             font-src 'self' https://fonts.gstatic.com data:;
+             connect-src 'self';
+             frame-ancestors 'self';
+             object-src 'none';
+             base-uri 'self';
+             upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" crossorigin>
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/theme.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/ai-novedades.css">
+  <link rel="shortcut icon" href="../assets/images/ico/hack-icon-512x512.png">
+  <script src="../assets/js/theme.js"></script>
+</head>
+<body class="dark ai-news-page">
+  <nav class="site-nav">
+    <div class="container">
+      <a href="../" class="nav-brand">
+        <span class="nav-brand-path">~/</span>nestorfleitas.ar
+      </a>
+      <div class="nav-links">
+        <a href="../">home</a>
+        <a href="../dashboard/">dashboard</a>
+        <a href="./" class="active">novedades</a>
+      </div>
+      <div class="nav-controls">
+        <button id="theme-toggle-btn" class="nav-theme-btn" aria-label="Cambiar tema">○</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="ai-news-shell">
+    <header class="ai-news-header">
+      <p class="section-label">// radar operativo</p>
+      <h1>Novedades IA</h1>
+      <p>
+        Seguimiento profundo de OpenClaw, Claude, Codex, ChatGPT/OpenAI, Gemini,
+        DeepSeek y tendencias que pueden mejorar agentes, voz, latencia,
+        automatizacion, seguridad o costos de la infraestructura.
+      </p>
+    </header>
+
+    <section class="ai-news-toolbar" aria-label="Estado del radar">
+      <span>actualizado: <strong id="ai-generated-at">cargando...</strong></span>
+      <span id="ai-source-counts">fuentes: cargando...</span>
+      <a href="../assets/data/ai-novedades.json">json</a>
+    </section>
+
+    <div id="ai-news-status" class="ai-news-status">Inicializando radar...</div>
+    <section id="ai-news-list" class="ai-news-list" aria-live="polite"></section>
+  </main>
+
+  <script src="../assets/js/ai-novedades.js"></script>
+</body>
+</html>

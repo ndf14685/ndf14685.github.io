@@ -1,0 +1,67 @@
+name: AI Novedades
+
+on:
+  schedule:
+    # America/Argentina/Buenos_Aires is UTC-3.
+    - cron: '0 9,17,23 * * *'   # 06:00, 14:00, 20:00 ART
+    - cron: '0 12 * * *'        # 09:00 ART Telegram digest
+  workflow_dispatch:
+    inputs:
+      send_digest:
+        description: 'Send Telegram digest after fetching'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: scripts/package-lock.json
+
+      - name: Install dependencies
+        working-directory: scripts
+        run: npm ci
+
+      - name: Fetch AI novedades
+        if: github.event.schedule != '0 12 * * *' || github.event_name == 'workflow_dispatch'
+        working-directory: scripts
+        env:
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AI_RELEASE_REPOS: ${{ vars.AI_RELEASE_REPOS }}
+        run: node fetch-ai-news.js
+
+      - name: Commit and push if changed
+        if: github.event.schedule != '0 12 * * *' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/data/ai-novedades.json
+          if git diff --cached --quiet; then
+            echo "No changes in ai-novedades.json"
+          else
+            git commit -m "chore: update ai novedades [skip ci]"
+            git push origin master
+          fi
+
+      - name: Send Telegram digest
+        if: github.event.schedule == '0 12 * * *' || github.event.inputs.send_digest == 'true'
+        working-directory: scripts
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_TOPIC_ID: ${{ secrets.TELEGRAM_TOPIC_ID }}
+          AI_NEWS_SITE_URL: https://www.nestorfleitas.ar/novedades/
+        run: node send-ai-digest.js

@@ -40,3 +40,49 @@ NEWS_API_KEY=tu_clave_aqui
 Sin esa clave el script igual funciona, pero solo trae noticias de ciberseguridad via RSS (sin costo ni registro).
 
 La clave de NewsAPI en produccion esta configurada como secret `NEWS_API_KEY` en el repositorio de GitHub.
+
+## Novedades IA
+
+La pagina `https://www.nestorfleitas.ar/novedades/` consume
+`assets/data/ai-novedades.json`, generado por `scripts/fetch-ai-news.js`.
+
+El radar combina:
+
+- RSS oficiales y fuentes fuertes de IA: OpenAI, Google AI, Google Developers,
+  The Decoder y VentureBeat AI.
+- Releases de GitHub para herramientas como `openai/codex`,
+  `google-gemini/gemini-cli` y repos DeepSeek.
+- NewsAPI opcional para capturar novedades sin RSS de Claude, ChatGPT,
+  Codex, Gemini, DeepSeek, agentes, MCP, voz, latencia e inferencia.
+
+Cada item se puntua contra el stack real: OpenClaw, Claude, Codex,
+ChatGPT/OpenAI, Gemini, DeepSeek e infraestructura de agentes. El blog muestra
+el score y por que podria beneficiar la infraestructura.
+
+### Automatico
+
+El workflow `.github/workflows/ai-novedades.yml` corre:
+
+- 06:00 ART
+- 14:00 ART
+- 20:00 ART
+
+A las 09:00 ART vuelve a refrescar el feed y envia un resumen por Telegram si
+hay novedades relevantes.
+
+Secrets/variables usados:
+
+- `NEWS_API_KEY` para busqueda profunda opcional.
+- `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` y opcional `TELEGRAM_TOPIC_ID` para
+  el digest.
+- variable `AI_RELEASE_REPOS` para sumar repos propios o privados a monitorear,
+  separados por coma.
+
+### Ejecucion manual
+
+```bash
+cd scripts
+npm install
+npm run fetch:ai
+npm run send:ai-digest
+```

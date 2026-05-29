@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "fetch": "node fetch-news.js",
+    "fetch:ai": "node fetch-ai-news.js",
+    "send:ai-digest": "node send-ai-digest.js",
     "test": "node --test fetch-news.test.js"
   },
   "dependencies": {
