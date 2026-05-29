@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T05:48:42.360Z",
+  "generated_at": "2026-05-29T12:22:55.623Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -11,7 +11,7 @@
     "Infra AI"
   ],
   "source_counts": {
-    "rss": 38,
+    "rss": 40,
     "github": 10,
     "newsapi": 50
   },
@@ -189,7 +189,7 @@
       "summary": "Google has announced the general availability of Gemini Embedding 2, a unified model that maps text, images, video, audio, and documents into a single semantic space. This model allows developers to process interleaved multimodal inputs in a single request, significantly improving performance for tasks like agentic RAG, visual search, and...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/building-with-gemini-embedding-2/",
-      "published_at": "2026-05-29T05:48:39.526Z",
+      "published_at": "2026-05-29T12:22:53.989Z",
       "score": 86,
       "tags": [
         "ChatGPT / OpenAI",
@@ -223,7 +223,7 @@
       "summary": "Integration of Arm Scalable Matrix Extension 2 (SME2) and the Google AI Edge software stack enables high-performance, on-device generative AI by turning the CPU into a powerful matrix-compute accelerator. Using Stability AI’s \"stable-audio-open-small\" model as a case study, it outlines a streamlined \"Convert, Optimize, and Deploy\" pipelin...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/accelerating-on-device-ai-a-look-at-arm-and-google-ai-edge-optimization/",
-      "published_at": "2026-05-29T05:48:39.525Z",
+      "published_at": "2026-05-29T12:22:53.988Z",
       "score": 82,
       "tags": [
         "ChatGPT / OpenAI",
@@ -234,45 +234,13 @@
     },
     {
       "id": 10,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "mcp-memory-service 10.67.1",
-      "summary": "Semantic memory layer for AI applications. REST API + MCP transport + knowledge graph + autonomous consolidation. Works with 14+ AI clients. Self-host, zero cloud cost.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/mcp-memory-service/10.67.1/",
-      "published_at": "2026-05-28T05:31:54.000Z",
-      "score": 80,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 11,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "mcp-memory-service 10.67.0",
-      "summary": "Semantic memory layer for AI applications. REST API + MCP transport + knowledge graph + autonomous consolidation. Works with 14+ AI clients. Self-host, zero cloud cost.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/mcp-memory-service/10.67.0/",
-      "published_at": "2026-05-28T05:25:25.000Z",
-      "score": 80,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 12,
       "kind": "rss",
       "technology": "Gemini",
       "title": "A Smarter Google AI Edge Gallery: MCP integration, notifications, and session continuity",
       "summary": "The Google AI Edge Gallery app has expanded its on-device AI capabilities by introducing experimental support for the open-source Model Context Protocol (MCP) on Android, allowing Gemma 4 to coordinate complex tasks across external data sources like Google Workspace and Google Maps. To enable more proactive and persistent user interaction...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/a-smarter-google-ai-edge-gallery-mcp-integration-notifications-and-session-continuity/",
-      "published_at": "2026-05-29T05:48:39.525Z",
+      "published_at": "2026-05-29T12:22:53.988Z",
       "score": 78,
       "tags": [
         "Gemini",
@@ -282,7 +250,24 @@
       "relevant": true
     },
     {
-      "id": 13,
+      "id": 11,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "tiktok-mcp 0.2.3",
+      "summary": "TikTok MCP server: Display, Marketing, Business Organic, Content Posting APIs for Claude Desktop",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/tiktok-mcp/0.2.3/",
+      "published_at": "2026-05-28T12:16:53.000Z",
+      "score": 78,
+      "tags": [
+        "Claude",
+        "Infra AI"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 12,
       "kind": "rss",
       "technology": "Codex",
       "title": "How Endava builds an agentic organization with Codex",
@@ -299,7 +284,7 @@
       "relevant": true
     },
     {
-      "id": 14,
+      "id": 13,
       "kind": "rss",
       "technology": "Codex",
       "title": "Building self-improving tax agents with Codex",
@@ -316,24 +301,7 @@
       "relevant": true
     },
     {
-      "id": 15,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "harness-maker 0.26.5",
-      "summary": "Per-project AI coding harness for Claude Code · Cursor · Codex. Profiler + 10-dim interview build a different harness for every project.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/harness-maker/0.26.5/",
-      "published_at": "2026-05-28T05:28:28.000Z",
-      "score": 70,
-      "tags": [
-        "Claude",
-        "Codex"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 16,
+      "id": 14,
       "kind": "rss",
       "technology": "Codex",
       "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
@@ -350,7 +318,71 @@
       "relevant": true
     },
     {
+      "id": 15,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "qa-gentic-stlc-agents 1.0.44",
+      "summary": "Six MCP servers for the full QA STLC — test cases, Gherkin BDD, self-healing Playwright code, Helix-QA file writing, Jira Cloud integration, and one-shot migration of existing Playwright projects into the Helix-QA layout. Both ADO and Jira pipelines run: fetc…",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/qa-gentic-stlc-agents/1.0.44/",
+      "published_at": "2026-05-28T12:08:06.000Z",
+      "score": 68,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 16,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "django-admin-mcp-api added to PyPI",
+      "summary": "MCP (Model Context Protocol) adapter for django-admin-rest-api. A wire-protocol-only layer that lets agents reach the existing REST API — no new functionality, permissions, or validation.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/django-admin-mcp-api/",
+      "published_at": "2026-05-28T12:16:54.000Z",
+      "score": 66,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
       "id": 17,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "django-admin-mcp-api 0.1.0a0",
+      "summary": "MCP (Model Context Protocol) adapter for django-admin-rest-api. A wire-protocol-only layer that lets agents reach the existing REST API — no new functionality, permissions, or validation.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/django-admin-mcp-api/0.1.0a0/",
+      "published_at": "2026-05-28T12:16:54.000Z",
+      "score": 66,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 18,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "meridian-cli 0.2.12",
+      "summary": "Orchestrate CLI + MCP server for multi-model agent workflows",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/meridian-cli/0.2.12/",
+      "published_at": "2026-05-28T11:51:14.000Z",
+      "score": 66,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 19,
       "kind": "rss",
       "technology": "Codex",
       "title": "Warp’s big bet on building open source with GPT-5.5",
@@ -367,14 +399,14 @@
       "relevant": true
     },
     {
-      "id": 18,
+      "id": 20,
       "kind": "rss",
       "technology": "Gemini",
       "title": "An important update: Transitioning Gemini CLI to Antigravity CLI",
       "summary": "Google is unifying its AI terminal tools by transitioning the community-focused Gemini CLI into Antigravity CLI, a new agent-first platform built for complex, multi-agent workflows. This new Go-based tool offers faster execution, asynchronous processing, and a unified architecture that syncs with the Antigravity 2.0 desktop application. W...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
-      "published_at": "2026-05-29T05:48:39.525Z",
+      "published_at": "2026-05-29T12:22:53.988Z",
       "score": 62,
       "tags": [
         "Gemini"
@@ -383,46 +415,14 @@
       "relevant": true
     },
     {
-      "id": 19,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "ai-vault-mcp 0.1.8",
-      "summary": "MCP server that gives AI clients direct access to your local filesystem — save, find, and organize files using natural language",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/ai-vault-mcp/0.1.8/",
-      "published_at": "2026-05-28T05:38:45.000Z",
-      "score": 62,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 20,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "ai-vault-mcp 0.1.7",
-      "summary": "MCP server that gives AI clients direct access to your local filesystem — save, find, and organize files using natural language",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/ai-vault-mcp/0.1.7/",
-      "published_at": "2026-05-28T05:35:58.000Z",
-      "score": 62,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
       "id": 21,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "ai-vault-mcp 0.1.6",
-      "summary": "MCP server that gives AI clients direct access to your local filesystem — save, find, and organize files using natural language",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/ai-vault-mcp/0.1.6/",
-      "published_at": "2026-05-28T05:34:25.000Z",
+      "title": "Templafy launches MCP to bring enterprise control to AI-generated documents",
+      "summary": "New integration connects AI platforms with Templafy’s document agents, helping organizations turn AI output into governed, high-quality and business-ready documents NEW YORK, May 28, 2026 (GLOBE NEWSWIRE) — Templafy, the AI-powered document generation platfor…",
+      "source": "Financial Post",
+      "source_url": "https://financialpost.com/globe-newswire/templafy-launches-mcp-to-bring-enterprise-control-to-ai-generated-documents",
+      "published_at": "2026-05-28T12:17:18.000Z",
       "score": 62,
       "tags": [
         "Infra AI"
@@ -434,11 +434,11 @@
       "id": 22,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "ai-vault-mcp 0.1.5",
-      "summary": "MCP server that gives AI clients direct access to your local filesystem — save, find, and organize files using natural language",
+      "title": "django-admin-rest-api 0.1.0a0",
+      "summary": "A JSON REST API for the Django admin — same permissions, same ModelAdmin, no new features. Powers django-admin-react and django-admin-mcp.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/ai-vault-mcp/0.1.5/",
-      "published_at": "2026-05-28T05:31:48.000Z",
+      "source_url": "https://pypi.org/project/django-admin-rest-api/0.1.0a0/",
+      "published_at": "2026-05-28T12:09:26.000Z",
       "score": 62,
       "tags": [
         "Infra AI"
@@ -450,11 +450,11 @@
       "id": 23,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "ai-vault-mcp 0.1.4",
-      "summary": "MCP server that gives AI clients direct access to your local filesystem — save, find, and organize files using natural language",
+      "title": "django-admin-rest-api added to PyPI",
+      "summary": "A JSON REST API for the Django admin — same permissions, same ModelAdmin, no new features. Powers django-admin-react and django-admin-mcp.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/ai-vault-mcp/0.1.4/",
-      "published_at": "2026-05-28T05:24:12.000Z",
+      "source_url": "https://pypi.org/project/django-admin-rest-api/",
+      "published_at": "2026-05-28T12:09:26.000Z",
       "score": 62,
       "tags": [
         "Infra AI"
@@ -464,19 +464,18 @@
     },
     {
       "id": 24,
-      "kind": "newsapi",
-      "technology": "ChatGPT / OpenAI",
-      "title": "simplicio-prompt 1.7.0",
-      "summary": "Tuple-Space + Yool safe-speed runtime kernel: lazy 1,000,000+ subagent batch_spawn, adaptive lane concurrency, and a dependency-free OpenAI-compatible provider client for real subagents on DeepSeek / MiMo / OpenRouter / local LLMs.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/simplicio-prompt/1.7.0/",
-      "published_at": "2026-05-28T05:24:04.000Z",
-      "score": 62,
+      "kind": "rss",
+      "technology": "Gemini",
+      "title": "Supercharge your integration workflow with the Google Pay & Wallet Developer MCP server",
+      "summary": "Google has announced the new Google Pay & Wallet Developer MCP server, an open-standard tool designed to securely connect AI development assistants and IDEs with real-time API and account context. The server allows developers to remain within their development environment to search official documentation, validate Wallet pass definitions,...",
+      "source": "Google Developers Blog",
+      "source_url": "https://developers.googleblog.com/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/",
+      "published_at": "2026-05-29T12:22:53.988Z",
+      "score": 58,
       "tags": [
-        "ChatGPT / OpenAI",
-        "DeepSeek"
+        "Infra AI"
       ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     }
   ]
