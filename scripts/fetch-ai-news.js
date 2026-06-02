@@ -7,6 +7,7 @@ import { dirname, resolve } from 'path';
 import { fileURLToPath } from 'url';
 import RSSParser from 'rss-parser';
 import axios from 'axios';
+import { loadJson, saveJson, mergeArchive } from './ai-archive.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -16,6 +17,8 @@ try {
 } catch (_) {}
 
 const OUTPUT_PATH = resolve(__dirname, process.env.AI_NEWS_JSON_PATH || '../assets/data/ai-novedades.json');
+const ARCHIVE_PATH = resolve(__dirname, process.env.AI_NEWS_ARCHIVE_PATH || '../assets/data/ai-novedades-archive.json');
+const ARCHIVE_YEARS = Number(process.env.AI_NEWS_THROWBACK_YEARS || 3);
 const LOOKBACK_HOURS = Number(process.env.AI_NEWS_LOOKBACK_HOURS || 72);
 const MAX_ITEMS = Number(process.env.AI_NEWS_MAX_ITEMS || 24);
 const MAX_SUMMARY_CHARS = 340;
@@ -347,6 +350,15 @@ async function main() {
   writeFileSync(OUTPUT_PATH, JSON.stringify(output, null, 2) + '\n', 'utf8');
   console.log(`[fetch-ai-news] escrito ${OUTPUT_PATH}`);
   console.log(`[fetch-ai-news] items=${selected.length} relevantes=${output.digest.relevant_count}`);
+
+  // Accumulate every item into the rolling archive (pruned to ARCHIVE_YEARS),
+  // so the digest can resurface old notes when there is no fresh news.
+  const archive = mergeArchive(loadJson(ARCHIVE_PATH, []), selected, {
+    now: Date.now(),
+    maxYears: ARCHIVE_YEARS,
+  });
+  saveJson(ARCHIVE_PATH, archive);
+  console.log(`[fetch-ai-news] archivo historico=${archive.length}`);
 
   if (existsSync(OUTPUT_PATH)) {
     const parsed = JSON.parse(readFileSync(OUTPUT_PATH, 'utf8'));

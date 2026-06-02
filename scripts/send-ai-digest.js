@@ -1,9 +1,13 @@
-// Sends the daily /novedades/ digest to Telegram when relevant items exist.
+// Sends the daily /novedades/ digest to Telegram.
+// If there is no fresh relevant news, it resurfaces old notes (throwback)
+// from the archive instead of staying silent — never repeating a note until
+// every eligible one (up to THROWBACK_YEARS back) has been shown once.
 
 import { readFileSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import axios from 'axios';
+import { loadJson, saveJson, selectThrowback } from './ai-archive.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -13,11 +17,15 @@ try {
 } catch (_) {}
 
 const INPUT_PATH = resolve(__dirname, process.env.AI_NEWS_JSON_PATH || '../assets/data/ai-novedades.json');
+const ARCHIVE_PATH = resolve(__dirname, process.env.AI_NEWS_ARCHIVE_PATH || '../assets/data/ai-novedades-archive.json');
+const SHOWN_PATH = resolve(__dirname, process.env.AI_NEWS_SHOWN_PATH || '../assets/data/ai-novedades-shown.json');
 const SITE_URL = process.env.AI_NEWS_SITE_URL || 'https://www.nestorfleitas.ar/novedades/';
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || '';
 const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID || '';
 const TELEGRAM_TOPIC_ID = process.env.TELEGRAM_TOPIC_ID || '';
 const MIN_SCORE = Number(process.env.AI_NEWS_TELEGRAM_MIN_SCORE || 65);
+const THROWBACK_YEARS = Number(process.env.AI_NEWS_THROWBACK_YEARS || 3);
+const THROWBACK_COUNT = Number(process.env.AI_NEWS_THROWBACK_COUNT || 3);
 
 function escapeTelegram(text) {
   return String(text || '')
@@ -57,6 +65,48 @@ export function buildTelegramMessage(data) {
   return lines.join('\n').trim();
 }
 
+export function buildThrowbackMessage(picked, { cycleReset = false } = {}) {
+  if (!picked || picked.length === 0) return '';
+
+  const lines = [
+    '<b>Sin novedades nuevas — repaso de notas</b>',
+    cycleReset
+      ? 'Ya te mostre todas; arranco una nueva vuelta del archivo.'
+      : 'Notas viejas que tocan el tema (hasta 3 anios atras):',
+    '',
+  ];
+
+  for (const item of picked) {
+    const when = item.published_at
+      ? new Date(item.published_at).toLocaleDateString('es-AR', {
+          timeZone: 'America/Argentina/Buenos_Aires',
+          dateStyle: 'medium',
+        })
+      : '';
+    lines.push(`<b>${escapeTelegram(item.technology)}</b>${when ? ` · ${escapeTelegram(when)}` : ''}`);
+    lines.push(escapeTelegram(item.title));
+    if (item.why_it_matters) lines.push(`Te sirve: ${escapeTelegram(item.why_it_matters)}`);
+    if (item.source_url) lines.push(`<a href="${escapeTelegram(item.source_url)}">Fuente</a>`);
+    lines.push('');
+  }
+
+  lines.push(`<a href="${escapeTelegram(SITE_URL)}">Ver blog completo</a>`);
+  return lines.join('\n').trim();
+}
+
+async function sendTelegram(text) {
+  const payload = {
+    chat_id: TELEGRAM_CHAT_ID,
+    text,
+    parse_mode: 'HTML',
+    disable_web_page_preview: true,
+  };
+  if (TELEGRAM_TOPIC_ID) payload.message_thread_id = TELEGRAM_TOPIC_ID;
+
+  const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
+  await axios.post(url, payload, { timeout: 12000 });
+}
+
 async function main() {
   if (!TELEGRAM_BOT_TOKEN || !TELEGRAM_CHAT_ID) {
     console.warn('[send-ai-digest] TELEGRAM_BOT_TOKEN o TELEGRAM_CHAT_ID no configurado; no se envia mensaje');
@@ -65,25 +115,36 @@ async function main() {
 
   const data = JSON.parse(readFileSync(INPUT_PATH, 'utf8'));
   const text = buildTelegramMessage(data);
-  if (!text) {
-    console.log('[send-ai-digest] Sin novedades relevantes para Telegram');
+
+  if (text) {
+    await sendTelegram(text);
+    console.log('[send-ai-digest] Mensaje enviado (novedades frescas)');
     return;
   }
 
-  const payload = {
-    chat_id: TELEGRAM_CHAT_ID,
-    text,
-    parse_mode: 'HTML',
-    disable_web_page_preview: true,
-  };
+  // No fresh news: resurface old notes without repeating.
+  const archive = loadJson(ARCHIVE_PATH, []);
+  const shownState = loadJson(SHOWN_PATH, { shown: [], cycles: 0 });
+  const { picked, shown, cycleReset } = selectThrowback(archive, shownState.shown, {
+    now: Date.now(),
+    maxYears: THROWBACK_YEARS,
+    count: THROWBACK_COUNT,
+  });
 
-  if (TELEGRAM_TOPIC_ID) {
-    payload.message_thread_id = TELEGRAM_TOPIC_ID;
+  if (picked.length === 0) {
+    console.log('[send-ai-digest] Sin novedades y sin archivo para repasar');
+    return;
   }
 
-  const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
-  await axios.post(url, payload, { timeout: 12000 });
-  console.log('[send-ai-digest] Mensaje enviado');
+  const throwbackText = buildThrowbackMessage(picked, { cycleReset });
+  await sendTelegram(throwbackText);
+
+  saveJson(SHOWN_PATH, {
+    shown,
+    cycles: (shownState.cycles || 0) + (cycleReset ? 1 : 0),
+    updated_at: new Date().toISOString(),
+  });
+  console.log(`[send-ai-digest] Repaso enviado: ${picked.length} nota(s)${cycleReset ? ' (nueva vuelta)' : ''}`);
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
