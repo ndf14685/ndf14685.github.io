@@ -27,11 +27,80 @@ const MIN_SCORE = Number(process.env.AI_NEWS_TELEGRAM_MIN_SCORE || 65);
 const THROWBACK_YEARS = Number(process.env.AI_NEWS_THROWBACK_YEARS || 3);
 const THROWBACK_COUNT = Number(process.env.AI_NEWS_THROWBACK_COUNT || 3);
 
+const ENGLISH_HINTS = /\b(the|with|for|and|from|into|beyond|building|accelerating|update|release|announces?|introduces?|launches?|security|gateway|agentic|multimodal|available|protect|enables?|powered|framework|server|client|tool|tools)\b/i;
+
 function escapeTelegram(text) {
   return String(text || '')
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;');
+}
+
+function cleanTitle(text) {
+  return String(text || '')
+    .replace(/\s+/g, ' ')
+    .replace(/\s*[|–—-]\s*(OpenAI|Google|Google Developers Blog|The Decoder|VentureBeat|GitHub).*$/i, '')
+    .trim();
+}
+
+function productName(item) {
+  const title = cleanTitle(item.title);
+  if (!title) return item.technology || 'IA';
+
+  const repoMatch = String(item.source || '').match(/^GitHub:\s*([^/\s]+\/[^\s]+)$/i);
+  if (repoMatch) return repoMatch[1];
+
+  const versioned = title.match(/^([A-Za-z0-9_.@/-]+)\s+v?\d[\w.-]*$/);
+  if (versioned) return title;
+
+  const colon = title.match(/^([A-Za-z0-9_.@/-]{2,}):\s+/);
+  if (colon) return colon[1];
+
+  const quoted = title.match(/["'`](.+?)["'`]/);
+  if (quoted && quoted[1].length <= 48) return quoted[1];
+
+  const known = title.match(/\b(OpenAI|ChatGPT|Codex|Claude Code|Claude|Gemini CLI|Gemini|DeepSeek|MCP|Ollama|Google AI Edge|Arm|AWS|RAG)\b/i);
+  if (known) return known[0];
+
+  return item.technology || 'IA';
+}
+
+export function spanishDigestLine(item) {
+  const title = cleanTitle(item.title);
+  const text = `${title} ${item.summary || ''}`.toLowerCase();
+  const product = productName(item);
+
+  if (!title) return `Novedad de ${item.technology || 'IA'} para revisar.`;
+
+  if (/^\d[\w.-]*(?:-alpha\.\d+|-beta\.\d+|-rc\.\d+)?$/i.test(title)) {
+    return `Nueva version de ${product}: ${title}.`;
+  }
+  if (item.kind === 'github_release' || /\brelease|version|changelog|update\b/i.test(text)) {
+    return `Actualizacion de ${product} para revisar cambios y compatibilidad.`;
+  }
+  if (/security|vulnerab|protect|guard|firewall|permission|sandbox|supply chain|secret/i.test(text)) {
+    return `Tema de seguridad en ${product}, relevante para proteger agentes y herramientas.`;
+  }
+  if (/gateway|router|routing|provider|passthrough|proxy/i.test(text)) {
+    return `Gateway o ruteo de IA en ${product}, util para coordinar proveedores y agentes.`;
+  }
+  if (/\bmcp\b|model context protocol|tool use|tools/i.test(text)) {
+    return `Integracion MCP o herramientas en ${product}, con posible impacto en automatizaciones.`;
+  }
+  if (/embedding|rag|retrieval|memory|vector|semantic/i.test(text)) {
+    return `Mejora de busqueda, memoria o RAG en ${product}.`;
+  }
+  if (/audio|voice|speech|realtime|latency/i.test(text)) {
+    return `Avance de voz, audio o latencia en ${product}.`;
+  }
+  if (/multimodal|vision|image|video|on-device|edge/i.test(text)) {
+    return `Avance multimodal o en dispositivo en ${product}.`;
+  }
+  if (ENGLISH_HINTS.test(title)) {
+    return `Novedad de ${product} para evaluar en el stack.`;
+  }
+
+  return title;
 }
 
 export function buildTelegramMessage(data) {
@@ -55,7 +124,7 @@ export function buildTelegramMessage(data) {
 
   for (const item of items) {
     lines.push(`<b>${escapeTelegram(item.technology)}</b> · score ${item.score}`);
-    lines.push(escapeTelegram(item.title));
+    lines.push(escapeTelegram(spanishDigestLine(item)));
     lines.push(`Te sirve: ${escapeTelegram(item.why_it_matters)}`);
     lines.push(`<a href="${escapeTelegram(item.source_url)}">Fuente</a>`);
     lines.push('');
@@ -84,7 +153,7 @@ export function buildThrowbackMessage(picked, { cycleReset = false } = {}) {
         })
       : '';
     lines.push(`<b>${escapeTelegram(item.technology)}</b>${when ? ` · ${escapeTelegram(when)}` : ''}`);
-    lines.push(escapeTelegram(item.title));
+    lines.push(escapeTelegram(spanishDigestLine(item)));
     if (item.why_it_matters) lines.push(`Te sirve: ${escapeTelegram(item.why_it_matters)}`);
     if (item.source_url) lines.push(`<a href="${escapeTelegram(item.source_url)}">Fuente</a>`);
     lines.push('');
