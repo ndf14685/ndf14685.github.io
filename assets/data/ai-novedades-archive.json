@@ -1,5 +1,16 @@
 [
   {
+    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.48.0-nightly.20260613.g9e5599c32",
+    "technology": "Gemini",
+    "title": "Release v0.48.0-nightly.20260613.g9e5599c32",
+    "summary": "## What's Changed * fix(core): implement atomic update in MCP tool discovery by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/27619 * Vertex ai model mapping fix by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/27749 * Add documentation and migration commands for Antigravity CLI by @DavidAPierce i...",
+    "source": "GitHub: google-gemini/gemini-cli",
+    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.48.0-nightly.20260613.g9e5599c32",
+    "published_at": "2026-06-13T00:21:21.000Z",
+    "score": 100,
+    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.140.0-alpha.16",
     "technology": "Codex",
     "title": "0.140.0-alpha.16",
@@ -64,6 +75,83 @@
     "published_at": "2026-06-12T01:28:14.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://cryptobriefing.com/openai-codex-trial-access-expansion",
+    "technology": "Codex",
+    "title": "OpenAI expands Codex trial access for Plus and Pro subscribers",
+    "summary": "OpenAI's Codex trial expansion could accelerate AI integration in crypto, reshaping developer tools and potentially altering market dynamics. The post OpenAI expands Codex trial access for Plus and Pro subscribers appeared first on Crypto Briefing.",
+    "source": "Crypto Briefing",
+    "source_url": "https://cryptobriefing.com/openai-codex-trial-access-expansion/",
+    "published_at": "2026-06-12T00:20:12.000Z",
+    "score": 74,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/cirdanops/0.2.1",
+    "technology": "Infra AI",
+    "title": "cirdanops 0.2.1",
+    "summary": "AI infrastructure cartographer and operations daemon — Graphify for live infrastructure. Fingerprints, graphs, and watches Docker/Kubernetes/AWS/IaC for AI agents via CLI + MCP.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/cirdanops/0.2.1/",
+    "published_at": "2026-06-12T00:16:24.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/mcp-server-kaggle/0.1.1",
+    "technology": "Infra AI",
+    "title": "mcp-server-kaggle 0.1.1",
+    "summary": "A Model Context Protocol (MCP) server for the Kaggle API",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcp-server-kaggle/0.1.1/",
+    "published_at": "2026-06-11T23:41:38.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/harnext/1.7.5",
+    "technology": "Claude",
+    "title": "harnext 1.7.5",
+    "summary": "Python SDK for the harnext coding agent — subprocesses the harnext CLI with a Claude Agent SDK-compatible API.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/harnext/1.7.5/",
+    "published_at": "2026-06-11T23:37:56.000Z",
+    "score": 66,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/mcp-server-kaggle",
+    "technology": "Infra AI",
+    "title": "mcp-server-kaggle added to PyPI",
+    "summary": "A Model Context Protocol (MCP) server for the Kaggle API",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcp-server-kaggle/",
+    "published_at": "2026-06-11T23:37:56.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/mcp-server-kaggle/0.1.0",
+    "technology": "Infra AI",
+    "title": "mcp-server-kaggle 0.1.0",
+    "summary": "A Model Context Protocol (MCP) server for the Kaggle API",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcp-server-kaggle/0.1.0/",
+    "published_at": "2026-06-11T23:37:56.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/hevn-cli/0.1.2",
+    "technology": "Infra AI",
+    "title": "hevn-cli 0.1.2",
+    "summary": "Command-line client for the HEVN backend API and MCP transfers.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/hevn-cli/0.1.2/",
+    "published_at": "2026-06-11T23:26:43.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   },
   {
     "key": "https://developers.googleblog.com/gemma-4-12b-the-developer-guide",
