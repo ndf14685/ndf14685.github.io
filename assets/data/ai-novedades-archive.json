@@ -1,5 +1,27 @@
 [
   {
+    "key": "https://the-decoder.com/ai-coding-agents-find-the-right-file-but-miss-the-exact-lines-that-matter-study-shows",
+    "technology": "Claude",
+    "title": "AI coding agents find the right file but miss the exact lines that matter, study shows",
+    "summary": "AI coding agents like Claude Code or Codex reliably find the right file but miss most of the critical lines within it. The new SWE-Explore benchmark is the first to test code search separately from the actual repair, and it shows that without enough context, even the best fix will fail. The article AI coding agents find the right file but...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/ai-coding-agents-find-the-right-file-but-miss-the-exact-lines-that-matter-study-shows/",
+    "published_at": "2026-06-14T08:54:47.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.140.0-alpha.19",
+    "technology": "Codex",
+    "title": "0.140.0-alpha.19",
+    "summary": "Release 0.140.0-alpha.19",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.140.0-alpha.19",
+    "published_at": "2026-06-14T02:03:02.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.140.0-alpha.18",
     "technology": "Codex",
     "title": "0.140.0-alpha.18",
@@ -19,6 +41,105 @@
     "source_url": "https://the-decoder.com/google-researchs-gemini-sql2-tops-text-to-sql-benchmarks-by-a-wide-margin/",
     "published_at": "2026-06-13T12:32:11.000Z",
     "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/mcpscore/0.5.1",
+    "technology": "Infra AI",
+    "title": "mcpscore 0.5.1",
+    "summary": "CLI tool to analyze your MCP server and get a comprehensive report on its quality",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcpscore/0.5.1/",
+    "published_at": "2026-06-13T11:15:55.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/threadkeeper/0.10.0",
+    "technology": "Claude",
+    "title": "threadkeeper 0.10.0",
+    "summary": "Multi-agent shared brain across Claude Code/Desktop, Codex, Gemini, Copilot, VS Code. Cross-session memory, self-improving skill loops, inter-agent signaling — one local MCP server.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/threadkeeper/0.10.0/",
+    "published_at": "2026-06-13T11:08:49.000Z",
+    "score": 100,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/eulerian-marketing-platform/0.3.3",
+    "technology": "Infra AI",
+    "title": "eulerian-marketing-platform 0.3.3",
+    "summary": "MCP server for Eulerian Marketing Platform - enables AI assistants to interact with Eulerian's marketing analytics and campaign management APIs",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/eulerian-marketing-platform/0.3.3/",
+    "published_at": "2026-06-13T11:00:53.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/agit-ai/0.0.1",
+    "technology": "Claude",
+    "title": "agit-ai 0.0.1",
+    "summary": "Interactive agent + git commit orchestration. Requires git and a backend CLI (Claude Code or OpenCode); the GitHub CLI (gh) is optional, used for the dashboard's GitHub-ID committer view.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agit-ai/0.0.1/",
+    "published_at": "2026-06-13T10:37:37.000Z",
+    "score": 62,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/agit-ai",
+    "technology": "Claude",
+    "title": "agit-ai added to PyPI",
+    "summary": "Interactive agent + git commit orchestration. Requires git and a backend CLI (Claude Code or OpenCode); the GitHub CLI (gh) is optional, used for the dashboard's GitHub-ID committer view.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agit-ai/",
+    "published_at": "2026-06-13T10:37:37.000Z",
+    "score": 62,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/authgent/0.3.4",
+    "technology": "Infra AI",
+    "title": "authgent 0.3.4",
+    "summary": "Python SDK for authgent — IETF agent-identity stack: identity-chaining, transaction-tokens, RFC 8693 delegation, DPoP, MCP",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/authgent/0.3.4/",
+    "published_at": "2026-06-13T10:19:41.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/trading-mcp-server/0.1.0",
+    "technology": "Claude",
+    "title": "trading-mcp-server 0.1.0",
+    "summary": "Local MCP server exposing safe trading tools (market data, indicators, risk, paper trading, broker) for AI agents like Claude Code",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/trading-mcp-server/0.1.0/",
+    "published_at": "2026-06-13T10:16:58.000Z",
+    "score": 82,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/trading-mcp-server",
+    "technology": "Claude",
+    "title": "trading-mcp-server added to PyPI",
+    "summary": "Local MCP server exposing safe trading tools (market data, indicators, risk, paper trading, broker) for AI agents like Claude Code",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/trading-mcp-server/",
+    "published_at": "2026-06-13T10:16:58.000Z",
+    "score": 82,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/cli-bridge-mcp/0.1.4",
+    "technology": "Claude",
+    "title": "cli-bridge-mcp 0.1.4",
+    "summary": "Consult a council of AI CLIs (Gemini, GPT, Claude, Mistral, Qwen, Copilot, OpenCode…) from inside any MCP client — free and ban-safe.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/cli-bridge-mcp/0.1.4/",
+    "published_at": "2026-06-13T10:15:52.000Z",
+    "score": 98,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   },
   {
