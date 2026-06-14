@@ -32,3 +32,27 @@ test('buildTelegramMessage does not expose raw English titles as the digest head
   assert.match(message, /Avance multimodal o en dispositivo en Arm\./);
   assert.doesNotMatch(message, /Accelerating on-device AI/);
 });
+
+test("buildTelegramMessage explains items simply and labels the real source link", () => {
+  const message = buildTelegramMessage({
+    generated_at: "2026-06-14T09:00:00Z",
+    items: [
+      {
+        technology: "OpenClaw",
+        title: "OpenClaw fixes a security vulnerability in agent sandboxing",
+        summary: "Security release with sandbox hardening",
+        why_it_matters: "Security hardening for agents",
+        source_url: "https://example.com/real-news",
+        score: 82,
+        relevant: true,
+      },
+    ],
+  });
+
+  assert.match(message, /Calificacion: 82\/100 \(alta\)/);
+  assert.match(message, /En simple:/);
+  assert.match(message, /Link a la noticia verdadera/);
+  assert.match(message, /https:\/\/example\.com\/real-news/);
+  assert.doesNotMatch(message, /score 82/);
+  assert.doesNotMatch(message, />Fuente</);
+});
