@@ -1,5 +1,49 @@
 [
   {
+    "key": "https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote",
+    "technology": "Gemini",
+    "title": "All the news from the Google I/O 2026 Developer keynote",
+    "summary": "Google announced the transition from assistive AI to independent agents, highlighting the launch of the Gemini 3.5 series and major updates to its Antigravity agent-first development platform. For mobile developers, the post introduces new Android CLI tools, the Android Bench evaluation leaderboard, and an automated Migration agent design...",
+    "source": "Google Developers Blog",
+    "source_url": "https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/",
+    "published_at": "2026-06-16T14:22:49.480Z",
+    "score": 52,
+    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
+  },
+  {
+    "key": "https://the-decoder.com/anthropic-backs-off-unpopular-billing-overhaul-as-price-war-with-openai-looms",
+    "technology": "Claude",
+    "title": "Anthropic backs off unpopular billing overhaul as price war with OpenAI looms",
+    "summary": "Anthropic has pulled back its planned billing change for the Claude Agent SDK just before launch. Instead of separate credits, the SDK and third-party apps will keep drawing from regular subscription limits. The article Anthropic backs off unpopular billing overhaul as price war with OpenAI looms appeared first on The Decoder.",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/anthropic-backs-off-unpopular-billing-overhaul-as-price-war-with-openai-looms/",
+    "published_at": "2026-06-16T09:44:48.000Z",
+    "score": 62,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.3",
+    "technology": "Codex",
+    "title": "0.141.0-alpha.3",
+    "summary": "Release 0.141.0-alpha.3",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.3",
+    "published_at": "2026-06-16T06:07:17.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.2",
+    "technology": "Codex",
+    "title": "0.141.0-alpha.2",
+    "summary": "Release 0.141.0-alpha.2",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.2",
+    "published_at": "2026-06-16T01:48:41.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.1",
     "technology": "Codex",
     "title": "0.141.0-alpha.1",
@@ -53,6 +97,127 @@
     "published_at": "2026-06-15T15:06:48.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/openai-compatible-mcp/0.2.3",
+    "technology": "ChatGPT / OpenAI",
+    "title": "openai-compatible-mcp 0.2.3",
+    "summary": "MCP server that bridges to any OpenAI-compatible chat API (DeepSeek, OpenAI, Azure, local llama.cpp, etc.).",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/openai-compatible-mcp/0.2.3/",
+    "published_at": "2026-06-15T14:21:46.000Z",
+    "score": 100,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://pypi.org/project/qdf-mcp",
+    "technology": "Infra AI",
+    "title": "qdf-mcp 0.1.0",
+    "summary": "QuantDataForge MCP servers — StrategyCreator + Open Cockpit, run locally via uvx with one API token.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/qdf-mcp/",
+    "published_at": "2026-06-15T14:20:36.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/greatminds/2.2.0",
+    "technology": "Claude",
+    "title": "greatminds 2.2.0",
+    "summary": "File-based Claude/Codex agent coordination with queues, driven roles, registered Ansible stand leases, and evidence gates",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/greatminds/2.2.0/",
+    "published_at": "2026-06-15T14:07:00.000Z",
+    "score": 94,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/chronicle-mcp-server/1.1.13",
+    "technology": "Infra AI",
+    "title": "chronicle-mcp-server 1.1.13",
+    "summary": "Local MCP server to sync, clean, and index AI chat logs locally. Saves up to 40% context tokens.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/chronicle-mcp-server/1.1.13/",
+    "published_at": "2026-06-15T14:05:48.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/rogue-live-redteam/1.0.1",
+    "technology": "Infra AI",
+    "title": "rogue-live-redteam 1.0.1",
+    "summary": "Continuous open-web LLM red-team: harvests live jailbreaks from 15+ open-web sources, reproduces them against your model x system-prompt x tools, and serves results over its own MCP server.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/rogue-live-redteam/1.0.1/",
+    "published_at": "2026-06-15T14:02:33.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/hol-guard/2.0.714",
+    "technology": "Claude",
+    "title": "hol-guard 2.0.714",
+    "summary": "Protect local AI harnesses with HOL Guard before tools run in Codex, Claude Code, Cursor, Gemini, and OpenCode.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/hol-guard/2.0.714/",
+    "published_at": "2026-06-15T14:00:35.000Z",
+    "score": 94,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/chronicle-mcp-server/1.1.12",
+    "technology": "Infra AI",
+    "title": "chronicle-mcp-server 1.1.12",
+    "summary": "Local MCP server to sync, clean, and index AI chat logs locally. Saves up to 40% context tokens.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/chronicle-mcp-server/1.1.12/",
+    "published_at": "2026-06-15T13:59:35.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/hol-guard/2.0.713",
+    "technology": "Claude",
+    "title": "hol-guard 2.0.713",
+    "summary": "Protect local AI harnesses with HOL Guard before tools run in Codex, Claude Code, Cursor, Gemini, and OpenCode.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/hol-guard/2.0.713/",
+    "published_at": "2026-06-15T13:51:33.000Z",
+    "score": 94,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/tokenhabit/1.2.1",
+    "technology": "Claude",
+    "title": "tokenhabit 1.2.1",
+    "summary": "Scan your Claude Code logs and find the habits silently burning your tokens. No LLM calls, no dependencies, runs offline.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/tokenhabit/1.2.1/",
+    "published_at": "2026-06-15T13:51:06.000Z",
+    "score": 50,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/plaud-tools/0.4.1",
+    "technology": "Infra AI",
+    "title": "plaud-tools 0.4.1",
+    "summary": "Python rewrite for Plaud CLI and MCP workflows.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/plaud-tools/0.4.1/",
+    "published_at": "2026-06-15T13:47:47.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/cluxion-agentplugin-autoclearmemory/0.3.8",
+    "technology": "Claude",
+    "title": "cluxion-Agentplugin-AutoClearMemory 0.3.8",
+    "summary": "Universal agent memory plugin (ForgetForge): recall-centric retention, tiered forgetting, Rust scoring engine for Hermes, Claude Code, and Codex.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/cluxion-agentplugin-autoclearmemory/0.3.8/",
+    "published_at": "2026-06-15T13:46:58.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   },
   {
     "key": "https://pypi.org/project/sumo-qa/0.48.2",
