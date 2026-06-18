@@ -1,5 +1,60 @@
 [
   {
+    "key": "https://the-decoder.com/googles-gemini-co-lead-noam-shazeer-joins-openai-after-two-year-return-stint",
+    "technology": "Claude",
+    "title": "Google's Gemini co-lead Noam Shazeer joins OpenAI after two-year return stint",
+    "summary": "Noam Shazeer, co-author of the landmark \"Attention Is All You Need\" paper and former co-lead of Google's Gemini models, is joining OpenAI. He only returned to Google from Character.AI in 2024 as part of a $2.7 billion deal. After Karpathy's move to Anthropic, it's the second major AI hiring shake-up this year. The article Google's Gemini...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/googles-gemini-co-lead-noam-shazeer-joins-openai-after-two-year-return-stint/",
+    "published_at": "2026-06-18T07:08:29.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.142.0-alpha.1",
+    "technology": "Codex",
+    "title": "0.142.0-alpha.1",
+    "summary": "Release 0.142.0-alpha.1",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.142.0-alpha.1",
+    "published_at": "2026-06-18T05:51:20.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.141.0",
+    "technology": "Codex",
+    "title": "0.141.0",
+    "summary": "## New Features - Remote executors now use authenticated, end-to-end encrypted Noise relay channels. (#26242, #26245) - Cross-platform remote execution now preserves executor-native working directories and shells, including filesystem permission paths across app-server and exec-server boundaries. (#27819, #27995, #28032, #28122, #28165, #...",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.141.0",
+    "published_at": "2026-06-18T04:43:06.000Z",
+    "score": 86,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0",
+    "technology": "Gemini",
+    "title": "Release v0.47.0",
+    "summary": "## What's Changed * chore(release): bump version to 0.47.0-nightly.20260602.gcfcecebe8 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27644 * Changelog for v0.46.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27641 * Respect backend definitions for 3.5 flash and Update auto m...",
+    "source": "GitHub: google-gemini/gemini-cli",
+    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0",
+    "published_at": "2026-06-18T01:51:23.000Z",
+    "score": 54,
+    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.7",
+    "technology": "Codex",
+    "title": "0.141.0-alpha.7",
+    "summary": "Release 0.141.0-alpha.7",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.7",
+    "published_at": "2026-06-18T01:02:30.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://developers.googleblog.com/a2ui-and-mcp-apps",
     "technology": "Gemini",
     "title": "A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs",
@@ -31,6 +86,116 @@
     "published_at": "2026-06-17T19:52:37.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/pysae-ai-tools/0.1.1331",
+    "technology": "Claude",
+    "title": "pysae-ai-tools 0.1.1331",
+    "summary": "Shared Python tools for Pysae Claude Code skills",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/pysae-ai-tools/0.1.1331/",
+    "published_at": "2026-06-17T12:29:23.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/execkit-mcp/0.6.0",
+    "technology": "Infra AI",
+    "title": "execkit-mcp 0.6.0",
+    "summary": "execkit MCP server - stateful, structured, safe shell sessions for AI agents over local shells, SSH, and Docker.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/execkit-mcp/0.6.0/",
+    "published_at": "2026-06-17T12:26:32.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/openinterp-mcp/0.2.0",
+    "technology": "Infra AI",
+    "title": "openinterp-mcp 0.2.0",
+    "summary": "MCP server + Colab backend for mechanistic interpretability research. Bring-your-own-agent. Privacy-first.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/openinterp-mcp/0.2.0/",
+    "published_at": "2026-06-17T12:17:45.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/helixor/0.2.3",
+    "technology": "Infra AI",
+    "title": "helixor 0.2.3",
+    "summary": "Lightweight Helixor CLI for hub login, companion registration, and MCP endpoint configuration.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/helixor/0.2.3/",
+    "published_at": "2026-06-17T12:17:29.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/helixor",
+    "technology": "Infra AI",
+    "title": "helixor added to PyPI",
+    "summary": "Lightweight Helixor CLI for hub login, companion registration, and MCP endpoint configuration.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/helixor/",
+    "published_at": "2026-06-17T12:17:21.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/trinity-agent/1.0.0",
+    "technology": "Claude",
+    "title": "trinity-agent 1.0.0",
+    "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/trinity-agent/1.0.0/",
+    "published_at": "2026-06-17T12:12:45.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/codex-control-plane-mcp/0.1.2",
+    "technology": "Codex",
+    "title": "codex-control-plane-mcp 0.1.2",
+    "summary": "Durable MCP control plane for long-running Codex Desktop tasks.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/codex-control-plane-mcp/0.1.2/",
+    "published_at": "2026-06-17T12:06:00.000Z",
+    "score": 74,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://www.kdnuggets.com/5-fun-projects-using-openai-codex",
+    "technology": "Codex",
+    "title": "5 Fun Projects Using OpenAI Codex",
+    "summary": "Learn Codex by building small and practical projects step by step.",
+    "source": "Kdnuggets.com",
+    "source_url": "https://www.kdnuggets.com/5-fun-projects-using-openai-codex",
+    "published_at": "2026-06-17T12:00:17.000Z",
+    "score": 70,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://www.prnewswire.com/news-releases/geotab-launches-industry-first-ai-connector-for-fleets-302802746.html",
+    "technology": "Infra AI",
+    "title": "Geotab Launches Industry-First AI Connector for Fleets",
+    "summary": "New Geotab MCP Connector enables organizations to securely access live fleet data, automate workflows and take action from within the AI platforms they already use ATLANTA, June 17, 2026 /PRNewswire/ - Geotab Inc. (\"Geotab\"), a global leader in connected tran…",
+    "source": "PRNewswire",
+    "source_url": "https://www.prnewswire.com/news-releases/geotab-launches-industry-first-ai-connector-for-fleets-302802746.html",
+    "published_at": "2026-06-17T12:00:00.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/noshy/0.2.0",
+    "technology": "Infra AI",
+    "title": "noshy 0.2.0",
+    "summary": "Persistent memory for AI agents — MCP-native, works with any LLM",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/noshy/0.2.0/",
+    "published_at": "2026-06-17T11:54:40.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   },
   {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.5",
