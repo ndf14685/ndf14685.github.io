@@ -1,5 +1,38 @@
 [
   {
+    "key": "https://developers.googleblog.com/a2ui-and-mcp-apps",
+    "technology": "Gemini",
+    "title": "A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs",
+    "summary": "This post introduces three architectural patterns designed to integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI) to solve the tradeoff between highly custom iframe environments and native, declarative rendering. By combining these approaches, developers can serve native-feeling UIs directly over MCP servers, em...",
+    "source": "Google Developers Blog",
+    "source_url": "https://developers.googleblog.com/a2ui-and-mcp-apps/",
+    "published_at": "2026-06-18T00:21:05.018Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.48.0-preview.0",
+    "technology": "Gemini",
+    "title": "Release v0.48.0-preview.0",
+    "summary": "## What's Changed * chore(release): bump version to 0.48.0-nightly.20260609.g3a13b8eeb by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27779 * ci(dependabot): enable cooldown period for npm packages by @ruomengz in https://github.com/google-gemini/gemini-cli/pull/27743 * refactor(core): standardize tool output for...",
+    "source": "GitHub: google-gemini/gemini-cli",
+    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.48.0-preview.0",
+    "published_at": "2026-06-17T22:58:09.000Z",
+    "score": 54,
+    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.6",
+    "technology": "Codex",
+    "title": "0.141.0-alpha.6",
+    "summary": "Release 0.141.0-alpha.6",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.6",
+    "published_at": "2026-06-17T19:52:37.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.5",
     "technology": "Codex",
     "title": "0.141.0-alpha.5",
@@ -20,6 +53,138 @@
     "published_at": "2026-06-17T00:28:20.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/voidcrawl-mcp/0.3.6",
+    "technology": "Claude",
+    "title": "voidcrawl-mcp 0.3.6",
+    "summary": "Stdio MCP server for stealthy headless Chrome via voidcrawl — expose the voidcrawl Chrome pool to Claude Code",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/voidcrawl-mcp/0.3.6/",
+    "published_at": "2026-06-17T00:15:51.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/agentopolis/0.18.1",
+    "technology": "Claude",
+    "title": "agentopolis 0.18.1",
+    "summary": "Agentopolis — Habbo-style visualization of Claude Code agents building your repo as a city",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agentopolis/0.18.1/",
+    "published_at": "2026-06-17T00:12:59.000Z",
+    "score": 54,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/best-cad-mcp",
+    "technology": "Infra AI",
+    "title": "best-cad-mcp added to PyPI",
+    "summary": "Comprehensive Windows AutoCAD MCP server with 260+ specialized tools for drawing, editing, annotation, layouts, plotting, visual verification, metadata indexing, 3D solids, and CAD workflow guidance.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/best-cad-mcp/",
+    "published_at": "2026-06-17T00:10:02.000Z",
+    "score": 54,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/meteologix-mcp",
+    "technology": "Infra AI",
+    "title": "meteologix-mcp added to PyPI",
+    "summary": "MCP server for Meteologix city search and fccompact forecasts",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/meteologix-mcp/",
+    "published_at": "2026-06-17T00:01:47.000Z",
+    "score": 54,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/meteologix-mcp/0.1.0",
+    "technology": "Infra AI",
+    "title": "meteologix-mcp 0.1.0",
+    "summary": "MCP server for Meteologix city search and fccompact forecasts",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/meteologix-mcp/0.1.0/",
+    "published_at": "2026-06-17T00:01:47.000Z",
+    "score": 54,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/hol-guard/2.0.759",
+    "technology": "Claude",
+    "title": "hol-guard 2.0.759",
+    "summary": "Protect local AI harnesses with HOL Guard before tools run in Codex, Claude Code, Cursor, Gemini, and OpenCode.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/hol-guard/2.0.759/",
+    "published_at": "2026-06-16T23:59:23.000Z",
+    "score": 94,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/aos-compliance-validator-mcp/0.1.0",
+    "technology": "Infra AI",
+    "title": "aos-compliance-validator-mcp 0.1.0",
+    "summary": "MCP compliance gate — pass/fail AOS validation. Default advisory; opt-in blocking.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/aos-compliance-validator-mcp/0.1.0/",
+    "published_at": "2026-06-16T23:57:19.000Z",
+    "score": 54,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/aos-compliance-validator-mcp",
+    "technology": "Infra AI",
+    "title": "aos-compliance-validator-mcp added to PyPI",
+    "summary": "MCP compliance gate — pass/fail AOS validation. Default advisory; opt-in blocking.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/aos-compliance-validator-mcp/",
+    "published_at": "2026-06-16T23:57:19.000Z",
+    "score": 54,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/openzim-mcp/2.4.4",
+    "technology": "Infra AI",
+    "title": "openzim-mcp 2.4.4",
+    "summary": "OpenZIM MCP - ZIM MCP Server that enables AI models to access and search ZIM format knowledge bases offline",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/openzim-mcp/2.4.4/",
+    "published_at": "2026-06-16T23:48:51.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/secscan-mcp/0.1.2",
+    "technology": "Infra AI",
+    "title": "secscan-mcp 0.1.2",
+    "summary": "MCP server for codebase security scanning (secrets, SAST, SCA, IaC)",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/secscan-mcp/0.1.2/",
+    "published_at": "2026-06-16T23:47:02.000Z",
+    "score": 68,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/secscan-mcp",
+    "technology": "Infra AI",
+    "title": "secscan-mcp added to PyPI",
+    "summary": "MCP server for codebase security scanning (secrets, SAST, SCA, IaC)",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/secscan-mcp/",
+    "published_at": "2026-06-16T23:46:57.000Z",
+    "score": 68,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/mcp-fuzzer/0.3.5",
+    "technology": "Infra AI",
+    "title": "mcp-fuzzer 0.3.5",
+    "summary": "MCP server fuzzer client and utilities",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcp-fuzzer/0.3.5/",
+    "published_at": "2026-06-16T23:40:31.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   },
   {
     "key": "https://pypi.org/project/mcpaisuite-memorymcp",
