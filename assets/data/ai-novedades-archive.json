@@ -1,5 +1,38 @@
 [
   {
+    "key": "https://developers.googleblog.com/introducing-the-google-colab-cli",
+    "technology": "Gemini",
+    "title": "Introducing the Google Colab CLI",
+    "summary": "Google has announced the Google Colab Command-Line Interface (CLI), a new tool that allows developers and AI agents to connect local terminals to remote Colab runtimes for frictionless execution. The lightweight CLI enables users to easily request high-powered GPUs, run local Python scripts remotely, and seamlessly retrieve artifact logs...",
+    "source": "Google Developers Blog",
+    "source_url": "https://developers.googleblog.com/introducing-the-google-colab-cli/",
+    "published_at": "2026-06-19T19:01:09.266Z",
+    "score": 42,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://developers.googleblog.com/bringing-gemma-4-12b-to-your-laptop-unlocking-local-agentic-workflows-with-google-ai-edge",
+    "technology": "Gemini",
+    "title": "Bringing Gemma 4 12B to your Laptop: Unlocking Local, Agentic Workflows with Google AI Edge",
+    "summary": "Google DeepMind’s Gemma 4 12B model brings agentic, multimodal AI capabilities to everyday laptops with 16GB of RAM, enabling local data processing and visual insight generation. Users can leverage this model on macOS through the Google AI Edge Gallery for dynamic Python code execution and visualization, as well as via Google AI Edge Eloq...",
+    "source": "Google Developers Blog",
+    "source_url": "https://developers.googleblog.com/bringing-gemma-4-12b-to-your-laptop-unlocking-local-agentic-workflows-with-google-ai-edge/",
+    "published_at": "2026-06-19T19:01:09.266Z",
+    "score": 42,
+    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
+  },
+  {
+    "key": "https://the-decoder.com/google-deepmind-loses-another-top-ai-researcher-as-nobel-laureate-john-jumper-leaves-for-anthropic",
+    "technology": "Claude",
+    "title": "Google Deepmind loses another top AI researcher as Nobel laureate John Jumper leaves for Anthropic",
+    "summary": "Nobel Prize winner John Jumper is leaving Google Deepmind for Anthropic after nearly nine years. Days earlier, Gemini co-lead Noam Shazeer left for OpenAI. Weeks before that, AlphaGo researcher David Silver started his own company. Three of Google's most prominent AI minds, gone within months. The article Google Deepmind loses another top...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/google-deepmind-loses-another-top-ai-researcher-as-nobel-laureate-john-jumper-leaves-for-anthropic/",
+    "published_at": "2026-06-19T17:54:14.000Z",
+    "score": 70,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
     "key": "https://the-decoder.com/openai-researchers-show-small-doses-of-beneficial-trait-training-make-ai-models-broadly-safer-and-harder-to-manipulate",
     "technology": "Claude",
     "title": "OpenAI researchers show small doses of \"beneficial trait\" training make AI models broadly safer and harder to manipulate",
@@ -42,6 +75,61 @@
     "published_at": "2026-06-18T20:49:30.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://the-decoder.com/anthropic-brings-artifacts-to-claude-code-letting-teams-share-live-pages-from-coding-sessions",
+    "technology": "Claude",
+    "title": "Anthropic brings Artifacts to Claude Code, letting teams share live pages from coding sessions",
+    "summary": "Claude Code can now turn work results into interactive web pages called \"artifacts\" and share them with your team. The pages pull from the full session context, update automatically when something changes, and keep a version history. The article Anthropic brings Artifacts to Claude Code, letting teams share live pages from coding sessions...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/anthropic-brings-artifacts-to-claude-code-letting-teams-share-live-pages-from-coding-sessions/",
+    "published_at": "2026-06-18T19:02:14.000Z",
+    "score": 50,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/gcf-proxy/0.10.4",
+    "technology": "Infra AI",
+    "title": "gcf-proxy 0.10.4",
+    "summary": "Bidirectional MCP proxy that translates between JSON and GCF. 79% fewer input tokens, 63% fewer output tokens. Zero code changes.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/gcf-proxy/0.10.4/",
+    "published_at": "2026-06-18T18:50:30.000Z",
+    "score": 54,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://www.thurrott.com/smart-tech/337578/google-has-discontinued-its-nest-audio-and-nest-mini-speakers",
+    "technology": "ChatGPT / OpenAI",
+    "title": "Google Has Discontinued its Nest Audio and Nest Mini Speakers",
+    "summary": "Google has stopped manufacturing its 2nd-gen Nest Mini and Nest Audio smart speakers, which are being replaced by the new Gemini-powered Google Home Speaker. The post Google Has Discontinued its Nest Audio and Nest Mini Speakers appeared first on Thurrott.co…",
+    "source": "Thurrott.com",
+    "source_url": "https://www.thurrott.com/smart-tech/337578/google-has-discontinued-its-nest-audio-and-nest-mini-speakers",
+    "published_at": "2026-06-18T18:45:40.000Z",
+    "score": 74,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://www.openruna.com/best/ai-coding-prompts",
+    "technology": "Codex",
+    "title": "Show HN: OpenRuna–graph-linked prompts,MCP servers and agent skills",
+    "summary": "Article URL: https://www.openruna.com/best/ai-coding-prompts Comments URL: https://news.ycombinator.com/item?id=48589641 Points: 1 # Comments: 0",
+    "source": "Openruna.com",
+    "source_url": "https://www.openruna.com/best/ai-coding-prompts",
+    "published_at": "2026-06-18T18:42:10.000Z",
+    "score": 82,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+    "technology": "Codex",
+    "title": "New usage analytics and updated spend controls for enterprises",
+    "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+    "source": "OpenAI News",
+    "source_url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+    "published_at": "2026-06-18T17:00:00.000Z",
+    "score": 44,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
   },
   {
     "key": "https://the-decoder.com/yann-lecun-warns-ai-labs-like-openai-and-anthropic-face-a-big-bubble-explosion",
@@ -185,6 +273,17 @@
     "published_at": "2026-06-18T12:19:59.000Z",
     "score": 62,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://openai.com/index/diagnose-rare-childhood-diseases",
+    "technology": "Codex",
+    "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+    "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+    "source": "OpenAI News",
+    "source_url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+    "published_at": "2026-06-18T08:00:00.000Z",
+    "score": 54,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
   },
   {
     "key": "https://the-decoder.com/googles-gemini-co-lead-noam-shazeer-joins-openai-after-two-year-return-stint",
