@@ -17,7 +17,7 @@
   }
 
   var message = 'Hola Nestor, quiero solicitar un diagnostico gratuito para automatizar tareas y ordenar procesos en mi negocio.';
-  var whatsappUrl = 'https://wa.me/?text=' + encodeURIComponent(message);
+  var whatsappUrl = 'https://wa.me/5492804006094?text=' + encodeURIComponent(message);
 
   document.querySelectorAll('[data-whatsapp-cta]').forEach(function (link) {
     link.setAttribute('href', whatsappUrl);
