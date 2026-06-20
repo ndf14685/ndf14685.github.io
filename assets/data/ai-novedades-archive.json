@@ -1,5 +1,27 @@
 [
   {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.142.0-alpha.6",
+    "technology": "Codex",
+    "title": "0.142.0-alpha.6",
+    "summary": "Release 0.142.0-alpha.6",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.142.0-alpha.6",
+    "published_at": "2026-06-19T20:29:04.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.142.0-alpha.5",
+    "technology": "Codex",
+    "title": "0.142.0-alpha.5",
+    "summary": "Release 0.142.0-alpha.5",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.142.0-alpha.5",
+    "published_at": "2026-06-19T19:40:23.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://developers.googleblog.com/introducing-the-google-colab-cli",
     "technology": "Gemini",
     "title": "Introducing the Google Colab CLI",
@@ -64,6 +86,127 @@
     "published_at": "2026-06-19T00:32:03.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://github.com/sricola/drydock",
+    "technology": "Claude",
+    "title": "Show HN: Drydock – VM Sandboxes for macOS Autonomous Coding Agents",
+    "summary": "Hardware-isolated sandbox for autonomous coding agents on macOS. The agent never sees your real Anthropic key; egress is deny-by-default; only a git diff leaves the sandbox, gated on your approval....",
+    "source": "Github.com",
+    "source_url": "https://github.com/sricola/drydock",
+    "published_at": "2026-06-19T00:13:40.000Z",
+    "score": 58,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/meridian-cli/0.3.10",
+    "technology": "Infra AI",
+    "title": "meridian-cli 0.3.10",
+    "summary": "Orchestrate CLI + MCP server for multi-model agent workflows",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/meridian-cli/0.3.10/",
+    "published_at": "2026-06-18T23:56:17.000Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/zyng-mcp/0.8.0",
+    "technology": "Infra AI",
+    "title": "zyng-mcp 0.8.0",
+    "summary": "Zyng MCP client — record your running app with an agent, publish a managed narrated pitch.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/zyng-mcp/0.8.0/",
+    "published_at": "2026-06-18T23:45:36.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/fabric-dw/2026.6.0a1.dev204",
+    "technology": "Infra AI",
+    "title": "fabric-dw 2026.6.0a1.dev204",
+    "summary": "Python CLI + MCP server for administering Microsoft Fabric Data Warehouses and SQL Analytics Endpoints",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/fabric-dw/2026.6.0a1.dev204/",
+    "published_at": "2026-06-18T23:44:22.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/fabric-dw/2026.6.0a1.dev203",
+    "technology": "Infra AI",
+    "title": "fabric-dw 2026.6.0a1.dev203",
+    "summary": "Python CLI + MCP server for administering Microsoft Fabric Data Warehouses and SQL Analytics Endpoints",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/fabric-dw/2026.6.0a1.dev203/",
+    "published_at": "2026-06-18T23:33:05.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/code-agnostic/0.3.17",
+    "technology": "Codex",
+    "title": "code-agnostic 0.3.17",
+    "summary": "Centralized hub for LLM coding config: MCP, skills, rules, and agents.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/code-agnostic/0.3.17/",
+    "published_at": "2026-06-18T23:28:25.000Z",
+    "score": 82,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/abstract-hugpy-dev/0.1.42",
+    "technology": "ChatGPT / OpenAI",
+    "title": "abstract-hugpy-dev 0.1.42",
+    "summary": "Self-hosted LLM console: model registry & downloads, streaming chat, OpenAI-compatible /v1 API with on-site keys, GPU worker fleet with cross-machine RPC sharding",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/abstract-hugpy-dev/0.1.42/",
+    "published_at": "2026-06-18T23:23:48.000Z",
+    "score": 62,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://pypi.org/project/hol-guard/2.0.818",
+    "technology": "Claude",
+    "title": "hol-guard 2.0.818",
+    "summary": "Protect local AI harnesses with HOL Guard before tools run in Codex, Claude Code, Cursor, Gemini, and OpenCode.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/hol-guard/2.0.818/",
+    "published_at": "2026-06-18T23:22:25.000Z",
+    "score": 94,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/hol-guard/2.0.817",
+    "technology": "Claude",
+    "title": "hol-guard 2.0.817",
+    "summary": "Protect local AI harnesses with HOL Guard before tools run in Codex, Claude Code, Cursor, Gemini, and OpenCode.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/hol-guard/2.0.817/",
+    "published_at": "2026-06-18T23:20:06.000Z",
+    "score": 94,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/aimemory-mcp-server/1.6.0",
+    "technology": "Claude",
+    "title": "aimemory-mcp-server 1.6.0",
+    "summary": "AI Memory MCP Server — persistent memory for AI assistants via Model Context Protocol. Cross-platform search across ChatGPT, Claude, DeepSeek, Gemini & Kimi.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/aimemory-mcp-server/1.6.0/",
+    "published_at": "2026-06-18T23:12:10.000Z",
+    "score": 100,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/nousergon-lib/0.60.2",
+    "technology": "Claude",
+    "title": "nousergon-lib 0.60.2",
+    "summary": "Shared utilities for the Nous Ergon (Crucible) modules: preflight, logging, ArcticDB, dates, decision capture, cost telemetry, Anthropic payload chokepoint, artifact freshness, RAG, agent schemas, SSM secrets, Telegram + SNS alerts, EC2 spot resilience, SSM l…",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/nousergon-lib/0.60.2/",
+    "published_at": "2026-06-18T23:02:07.000Z",
+    "score": 68,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   },
   {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.142.0-alpha.2",
