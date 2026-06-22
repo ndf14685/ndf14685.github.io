@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-06-21T13:00:14.346Z",
+  "generated_at": "2026-06-22T15:46:27.095Z",
   "items": [
     {
       "id": 1,
       "category": "cybersecurity",
-      "title": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys",
-      "summary": "Threat actors are exploiting a recently patched security flaw impacting Gravity SMTP, a WordPress plugin that's installed on about 100,000 sites.\n\nThe vulnerability, tracked as CVE-2026-4020 (CVSS score: 5.3), is a mediu...",
+      "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
+      "summary": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy.\n\nThe bug t...",
       "source": "The Hacker News",
-      "source_url": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
-      "published_at": "2026-06-20T09:56:04.000Z"
+      "source_url": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
+      "published_at": "2026-06-22T14:29:46.000Z"
     },
     {
       "id": 2,
       "category": "devops",
-      "title": "cdk8s-operator 0.1.440",
-      "summary": "Create Kubernetes CRD Operators using CDK8s Constructs",
+      "title": "forge-manager-mcp 4.5.0a6",
+      "summary": "MCP server for the forge-manager skill — multi-platform forge operations layer (GitHub / Forgejo+Codeberg / GitLab / local docs store)",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/cdk8s-operator/0.1.440/",
-      "published_at": "2026-06-20T12:47:17.000Z"
+      "source_url": "https://pypi.org/project/forge-manager-mcp/4.5.0a6/",
+      "published_at": "2026-06-21T14:50:03.000Z"
     },
     {
       "id": 3,
       "category": "cybersecurity",
-      "title": "New Prinz Eugen ransomware prioritizes recent files for encryption",
-      "summary": "A new ransomware operation named 'Prinz Eugen' prioritizes recently modified files for encryption and leaves no ransom note on the system. [...]",
+      "title": "A Glimpse into the “Search Your Target” Market for Stolen Credentials",
+      "summary": "Attackers no longer need to sift through massive credential dumps. They can pay others to do it for them. Flare explores how an emerging underground market searches stolen credential databases for specific companies, dom...",
       "source": "BleepingComputer",
-      "source_url": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
-      "published_at": "2026-06-20T15:23:46.000Z"
+      "source_url": "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
+      "published_at": "2026-06-22T14:05:15.000Z"
     }
   ]
 }
