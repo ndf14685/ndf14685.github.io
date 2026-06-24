@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T11:50:17.807Z",
+  "generated_at": "2026-06-24T18:54:52.001Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -11,7 +11,7 @@
     "Infra AI"
   ],
   "source_counts": {
-    "rss": 37,
+    "rss": 38,
     "github": 5,
     "newsapi": 49
   },
@@ -20,11 +20,39 @@
     "relevant_count": 8,
     "telegram_summary": [
       {
+        "technology": "OpenClaw",
+        "title": "clawmetry 0.12.528",
+        "benefit": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+        "score": 100,
+        "url": "https://pypi.org/project/clawmetry/0.12.528/"
+      },
+      {
+        "technology": "Claude",
+        "title": "sibyl-memory-mcp 0.1.10",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 100,
+        "url": "https://pypi.org/project/sibyl-memory-mcp/0.1.10/"
+      },
+      {
         "technology": "Claude",
         "title": "OpenAI says new GPT-5.5-Cyber outperforms Anthropic's Mythos on cybersecurity benchmark",
         "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
         "score": 100,
         "url": "https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/"
+      },
+      {
+        "technology": "ChatGPT / OpenAI",
+        "title": "LightAgent 0.9.0",
+        "benefit": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+        "score": 98,
+        "url": "https://pypi.org/project/lightagent/0.9.0/"
+      },
+      {
+        "technology": "Claude",
+        "title": "plugin-scanner 2.0.872",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 94,
+        "url": "https://pypi.org/project/plugin-scanner/2.0.872/"
       },
       {
         "technology": "Codex",
@@ -46,40 +74,49 @@
         "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
         "score": 90,
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.12"
-      },
-      {
-        "technology": "Codex",
-        "title": "0.143.0-alpha.11",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 90,
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.11"
-      },
-      {
-        "technology": "Codex",
-        "title": "0.143.0-alpha.9",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 90,
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.9"
-      },
-      {
-        "technology": "Codex",
-        "title": "Daybreak: Tools for securing every organization in the world",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 84,
-        "url": "https://openai.com/index/daybreak-securing-the-world"
-      },
-      {
-        "technology": "Codex",
-        "title": "contextl-mcp 1.2.8",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 78,
-        "url": "https://pypi.org/project/contextl-mcp/1.2.8/"
       }
     ]
   },
   "items": [
     {
       "id": 1,
+      "kind": "newsapi",
+      "technology": "OpenClaw",
+      "title": "clawmetry 0.12.528",
+      "summary": "ClawMetry - Real-time observability for 12 AI agent runtimes (OpenClaw, NVIDIA NemoClaw, Claude Code, Codex & more)",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/clawmetry/0.12.528/",
+      "published_at": "2026-06-23T18:50:52.000Z",
+      "score": 100,
+      "tags": [
+        "OpenClaw",
+        "Claude",
+        "Codex",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+      "relevant": true
+    },
+    {
+      "id": 2,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "sibyl-memory-mcp 0.1.10",
+      "summary": "MCP server for Sibyl Memory Plugin: wraps the local SQLite + FTS5 memory engine and exposes it to MCP-compatible agents (Claude Code, Codex, Cursor, Continue, anything that speaks MCP).",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/sibyl-memory-mcp/0.1.10/",
+      "published_at": "2026-06-23T18:47:31.000Z",
+      "score": 100,
+      "tags": [
+        "Claude",
+        "Codex",
+        "Infra AI"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 3,
       "kind": "rss",
       "technology": "Claude",
       "title": "OpenAI says new GPT-5.5-Cyber outperforms Anthropic's Mythos on cybersecurity benchmark",
@@ -97,7 +134,43 @@
       "relevant": true
     },
     {
-      "id": 2,
+      "id": 4,
+      "kind": "newsapi",
+      "technology": "ChatGPT / OpenAI",
+      "title": "LightAgent 0.9.0",
+      "summary": "LightAgent: Lightweight AI agent framework with memory, tools & tree-of-thought. Supports multi-agent collaboration, self-learning, and major LLMs (OpenAI/DeepSeek/Qwen). Open-source with MCP/SSE protocol integration.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/lightagent/0.9.0/",
+      "published_at": "2026-06-23T18:36:53.000Z",
+      "score": 98,
+      "tags": [
+        "ChatGPT / OpenAI",
+        "DeepSeek",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "relevant": true
+    },
+    {
+      "id": 5,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "plugin-scanner 2.0.872",
+      "summary": "Protect local AI harnesses with HOL Guard and run scanner checks for Codex, Claude, Cursor, Gemini, OpenCode, and Pi.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/plugin-scanner/2.0.872/",
+      "published_at": "2026-06-23T18:54:15.000Z",
+      "score": 94,
+      "tags": [
+        "Claude",
+        "Codex",
+        "Gemini"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 6,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.143.0-alpha.14",
@@ -114,7 +187,7 @@
       "relevant": true
     },
     {
-      "id": 3,
+      "id": 7,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.143.0-alpha.13",
@@ -131,7 +204,7 @@
       "relevant": true
     },
     {
-      "id": 4,
+      "id": 8,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.143.0-alpha.12",
@@ -148,7 +221,7 @@
       "relevant": true
     },
     {
-      "id": 5,
+      "id": 9,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.143.0-alpha.11",
@@ -165,7 +238,7 @@
       "relevant": true
     },
     {
-      "id": 6,
+      "id": 10,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.143.0-alpha.9",
@@ -182,7 +255,7 @@
       "relevant": true
     },
     {
-      "id": 7,
+      "id": 11,
       "kind": "rss",
       "technology": "Codex",
       "title": "Daybreak: Tools for securing every organization in the world",
@@ -199,31 +272,14 @@
       "relevant": true
     },
     {
-      "id": 8,
-      "kind": "newsapi",
-      "technology": "Codex",
-      "title": "contextl-mcp 1.2.8",
-      "summary": "Repository Intelligence Engine — MCP server for AI coding agents",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/contextl-mcp/1.2.8/",
-      "published_at": "2026-06-23T11:48:34.000Z",
-      "score": 78,
-      "tags": [
-        "Codex",
-        "Infra AI"
-      ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
-      "id": 9,
+      "id": 12,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "superharness 1.72.0",
-      "summary": "Multi-agent session handoff framework for Claude Code and Codex CLI",
+      "title": "joinmultiplayer 0.1.2",
+      "summary": "Join joinmultiplayer.ai — the agent-native 'ask the network'. Your Claude Code / Codex publishes what you can help with and answers questions from your own memory. No signup, no account, no credentials — runs locally.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/superharness/1.72.0/",
-      "published_at": "2026-06-23T11:11:36.000Z",
+      "source_url": "https://pypi.org/project/joinmultiplayer/0.1.2/",
+      "published_at": "2026-06-23T18:50:55.000Z",
       "score": 78,
       "tags": [
         "Claude",
@@ -233,14 +289,48 @@
       "relevant": true
     },
     {
-      "id": 10,
+      "id": 13,
+      "kind": "rss",
+      "technology": "Claude",
+      "title": "Snowflake CEO finds GLM-5.2 competitive with Opus 4.7 at a fraction of the cost",
+      "summary": "Zhipu AI's GLM-5.2 nearly matches Claude Opus 4.7 in a Snowflake benchmark with 103 coding tasks at one-fifth the cost per output token. But the Chinese model burns through nearly twice as many tokens per task. Still, that pricing gap is putting real pressure on Anthropic and OpenAI, and could rattle the valuations of Western AI labs. The...",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/snowflake-ceo-finds-glm-5-2-competitive-with-opus-4-7-at-a-fraction-of-the-cost/",
+      "published_at": "2026-06-24T17:07:37.000Z",
+      "score": 76,
+      "tags": [
+        "Claude",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 14,
+      "kind": "rss",
+      "technology": "Codex",
+      "title": "OpenAI's deployment chief on Codex growth, falling AI prices, and the ROI question",
+      "summary": "OpenAI deployment chief Arnaud Fournier explains in an interview how DeployCo wants to embed AI deep inside large corporations using its own engineers. He talks about explosive Codex growth, the feedback loop from customers back into model development, and why he thinks the price of AI intelligence has dropped sharply. The article OpenAI'...",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/openais-deployment-chief-on-codex-growth-falling-ai-prices-and-the-roi-question/",
+      "published_at": "2026-06-24T13:00:14.000Z",
+      "score": 74,
+      "tags": [
+        "Codex",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "relevant": true
+    },
+    {
+      "id": 15,
       "kind": "rss",
       "technology": "ChatGPT / OpenAI",
       "title": "Gemma 4 12B: The Developer Guide",
       "summary": "The newly released Gemma 4 12B is a dense, multimodal model designed for high-performance local AI execution on consumer devices. By introducing a novel, encoder-free architecture, it bypasses traditional visual and audio encoders to feed multimodal data directly into the LLM backbone.",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/gemma-4-12b-the-developer-guide/",
-      "published_at": "2026-06-24T11:50:16.405Z",
+      "published_at": "2026-06-24T18:54:50.136Z",
       "score": 70,
       "tags": [
         "ChatGPT / OpenAI"
@@ -249,7 +339,41 @@
       "relevant": true
     },
     {
-      "id": 11,
+      "id": 16,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "supervis 1.2.1",
+      "summary": "DeepSeek supervisor for Claude Code",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/supervis/1.2.1/",
+      "published_at": "2026-06-23T18:33:29.000Z",
+      "score": 70,
+      "tags": [
+        "Claude",
+        "DeepSeek"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 17,
+      "kind": "newsapi",
+      "technology": "OpenClaw",
+      "title": "emissary-router added to PyPI",
+      "summary": "Pure-Python Claude Code routing gateway",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/emissary-router/",
+      "published_at": "2026-06-23T18:20:34.000Z",
+      "score": 70,
+      "tags": [
+        "OpenClaw",
+        "Claude"
+      ],
+      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+      "relevant": true
+    },
+    {
+      "id": 18,
       "kind": "rss",
       "technology": "Codex",
       "title": "Codex-maxxing for long-running work",
@@ -266,7 +390,7 @@
       "relevant": true
     },
     {
-      "id": 12,
+      "id": 19,
       "kind": "rss",
       "technology": "Codex",
       "title": "Samsung Electronics brings ChatGPT and Codex to employees",
@@ -283,14 +407,47 @@
       "relevant": true
     },
     {
-      "id": 13,
+      "id": 20,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "OpenAI rolls out cybersecurity models rivaling Anthropic’s Mythos as White House stays quiet",
+      "summary": "OpenAI's unrestricted cybersecurity models may shift market dynamics, favoring broader access over regulatory-constrained competitors. The post OpenAI rolls out cybersecurity models rivaling Anthropic’s Mythos as White House stays quiet appeared first on Cryp…",
+      "source": "Crypto Briefing",
+      "source_url": "https://cryptobriefing.com/openai-cybersecurity-model-rivals-mythos/",
+      "published_at": "2026-06-23T18:20:31.000Z",
+      "score": 68,
+      "tags": [
+        "Claude",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 21,
+      "kind": "newsapi",
+      "technology": "ChatGPT / OpenAI",
+      "title": "Show HN: We Help Voice AI Handle Group Conversations",
+      "summary": "Hey folks. We built SAA (Selective Auditory Attention) after trying to find ways to make a good experience with multiple robots/multiple agents. What typically ended up happening is they'd never stop talking.This is an SDK you can put before your STT. It lets…",
+      "source": "Github.com",
+      "source_url": "https://github.com/attenlabs/saa-sdk",
+      "published_at": "2026-06-23T18:20:00.000Z",
+      "score": 66,
+      "tags": [
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "relevant": true
+    },
+    {
+      "id": 22,
       "kind": "rss",
       "technology": "Gemini",
       "title": "An important update: Transitioning Gemini CLI to Antigravity CLI",
       "summary": "Google is unifying its AI terminal tools by transitioning the community-focused Gemini CLI into Antigravity CLI, a new agent-first platform built for complex, multi-agent workflows. This new Go-based tool offers faster execution, asynchronous processing, and a unified architecture that syncs with the Antigravity 2.0 desktop application. W...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
-      "published_at": "2026-06-24T11:50:16.406Z",
+      "published_at": "2026-06-24T18:54:50.136Z",
       "score": 62,
       "tags": [
         "Gemini"
@@ -299,159 +456,15 @@
       "relevant": true
     },
     {
-      "id": 14,
+      "id": 23,
       "kind": "rss",
       "technology": "Gemini",
       "title": "A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs",
       "summary": "This post introduces three architectural patterns designed to integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI) to solve the tradeoff between highly custom iframe environments and native, declarative rendering. By combining these approaches, developers can serve native-feeling UIs directly over MCP servers, em...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/a2ui-and-mcp-apps/",
-      "published_at": "2026-06-24T11:50:16.405Z",
+      "published_at": "2026-06-24T18:54:50.135Z",
       "score": 62,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 15,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "agentveil-mcp-proxy 0.7.22",
-      "summary": "Source-available MCP route for approval and local evidence on routed MCP tool calls",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/agentveil-mcp-proxy/0.7.22/",
-      "published_at": "2026-06-23T11:41:20.000Z",
-      "score": 62,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 16,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "vault-for-llm 0.6.60",
-      "summary": "Local-first Markdown + SQLite memory for LLM agents, with keyword search, optional embeddings, MCP, and bounded citation tools.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/vault-for-llm/0.6.60/",
-      "published_at": "2026-06-23T11:10:56.000Z",
-      "score": 62,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 17,
-      "kind": "rss",
-      "technology": "Gemini",
-      "title": "Supercharge your integration workflow with the Google Pay & Wallet Developer MCP server",
-      "summary": "Google has announced the new Google Pay & Wallet Developer MCP server, an open-standard tool designed to securely connect AI development assistants and IDEs with real-time API and account context. The server allows developers to remain within their development environment to search official documentation, validate Wallet pass definitions,...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/",
-      "published_at": "2026-06-24T11:50:16.405Z",
-      "score": 58,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 18,
-      "kind": "rss",
-      "technology": "Gemini",
-      "title": "The latest updates to Google Pay",
-      "summary": "Google Pay is evolving for \"agentic commerce\" by introducing the Universal Commerce Protocol and a new MCP server that allows AI agents to manage integrations and analyze trends. New Android updates introduce dynamic callbacks for seamless express checkouts and extend payment support into social media apps via WebViews. Additionally, the...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/the-latest-updates-to-google-pay/",
-      "published_at": "2026-06-24T11:50:16.405Z",
-      "score": 58,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 19,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "timeverse-command-mcp 0.1.0",
-      "summary": "MCP server for executing shell, Python, and Node.js commands locally",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/timeverse-command-mcp/0.1.0/",
-      "published_at": "2026-06-23T11:48:53.000Z",
-      "score": 58,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 20,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "timeverse-command-mcp added to PyPI",
-      "summary": "MCP server for executing shell, Python, and Node.js commands locally",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/timeverse-command-mcp/",
-      "published_at": "2026-06-23T11:48:47.000Z",
-      "score": 58,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 21,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "garmin-mcp-server 0.3.0",
-      "summary": "A comprehensive Model Context Protocol (MCP) server for Garmin Connect — bring your health, fitness and activity data to any LLM.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/garmin-mcp-server/0.3.0/",
-      "published_at": "2026-06-23T11:47:34.000Z",
-      "score": 58,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 22,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "tokymaker-mcp 0.2.1",
-      "summary": "Model Context Protocol server for Tokymaker — author Blockly programs, compile them, and flash the ESP32 maker board, from any AI assistant.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/tokymaker-mcp/0.2.1/",
-      "published_at": "2026-06-23T11:42:56.000Z",
-      "score": 58,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 23,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "ccw-mcp 0.1.4",
-      "summary": "Deterministic context compiler for small-window coding models",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/ccw-mcp/0.1.4/",
-      "published_at": "2026-06-23T11:15:54.000Z",
-      "score": 58,
       "tags": [
         "Infra AI"
       ],
@@ -462,12 +475,12 @@
       "id": 24,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "timebase-mcp 0.2.0rc2",
-      "summary": "Model Context Protocol (MCP) server for TimeBase",
+      "title": "forge-manager-mcp 4.5.0a9",
+      "summary": "MCP server for the forge-manager skill — multi-platform forge operations layer (GitHub / Forgejo+Codeberg / GitLab / local docs store)",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/timebase-mcp/0.2.0rc2/",
-      "published_at": "2026-06-23T11:10:29.000Z",
-      "score": 58,
+      "source_url": "https://pypi.org/project/forge-manager-mcp/4.5.0a9/",
+      "published_at": "2026-06-23T18:38:50.000Z",
+      "score": 62,
       "tags": [
         "Infra AI"
       ],
