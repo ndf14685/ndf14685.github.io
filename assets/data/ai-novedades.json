@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T11:48:27.819Z",
+  "generated_at": "2026-06-26T18:56:47.662Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -11,7 +11,7 @@
     "Infra AI"
   ],
   "source_counts": {
-    "rss": 35,
+    "rss": 34,
     "github": 9,
     "newsapi": 50
   },
@@ -19,6 +19,13 @@
     "has_relevant_items": true,
     "relevant_count": 8,
     "telegram_summary": [
+      {
+        "technology": "Claude",
+        "title": "specsmith 0.17.0.dev644",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 100,
+        "url": "https://pypi.org/project/specsmith/0.17.0.dev644/"
+      },
       {
         "technology": "Codex",
         "title": "0.142.2",
@@ -62,24 +69,35 @@
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.16"
       },
       {
-        "technology": "OpenClaw",
-        "title": "trinitty 0.1.21",
-        "benefit": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
-        "score": 82,
-        "url": "https://pypi.org/project/trinitty/0.1.21/"
-      },
-      {
         "technology": "Claude",
-        "title": "Convr® Makes the Industry's Only Commercial P&C Risk Context Engine Available to AI Agents via Model Context Protocol (MCP)",
+        "title": "vaultspec-rag 0.2.25",
         "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
         "score": 82,
-        "url": "https://www.prnewswire.com/news-releases/convr-makes-the-industrys-only-commercial-pc-risk-context-engine-available-to-ai-agents-via-model-context-protocol-mcp-302809859.html"
+        "url": "https://pypi.org/project/vaultspec-rag/0.2.25/"
       }
     ]
   },
   "items": [
     {
       "id": 1,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "specsmith 0.17.0.dev644",
+      "summary": "AEE governance toolkit for AI-assisted development — session preflight gates, multi-agent dispatch, requirements↔test traceability, ESDB persistence, MCP server, and skills for Warp, Cursor, Claude Code, Copilot, Windsurf, and Aider.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/specsmith/0.17.0.dev644/",
+      "published_at": "2026-06-25T18:26:34.000Z",
+      "score": 100,
+      "tags": [
+        "Claude",
+        "Codex",
+        "Infra AI"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 2,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.142.2",
@@ -97,7 +115,7 @@
       "relevant": true
     },
     {
-      "id": 2,
+      "id": 3,
       "kind": "github_release",
       "technology": "Gemini",
       "title": "Release v0.50.0-preview.1",
@@ -114,7 +132,7 @@
       "relevant": true
     },
     {
-      "id": 3,
+      "id": 4,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.143.0-alpha.25",
@@ -131,7 +149,7 @@
       "relevant": true
     },
     {
-      "id": 4,
+      "id": 5,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.143.0-alpha.22",
@@ -148,7 +166,7 @@
       "relevant": true
     },
     {
-      "id": 5,
+      "id": 6,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.143.0-alpha.21",
@@ -165,7 +183,7 @@
       "relevant": true
     },
     {
-      "id": 6,
+      "id": 7,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.143.0-alpha.16",
@@ -182,31 +200,14 @@
       "relevant": true
     },
     {
-      "id": 7,
-      "kind": "newsapi",
-      "technology": "OpenClaw",
-      "title": "trinitty 0.1.21",
-      "summary": "Personal voice assistant using OpenAI, g4f fallback providers, Google Cloud speech services, and local audio assets.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/trinitty/0.1.21/",
-      "published_at": "2026-06-25T11:42:41.000Z",
-      "score": 82,
-      "tags": [
-        "OpenClaw",
-        "ChatGPT / OpenAI"
-      ],
-      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
-      "relevant": true
-    },
-    {
       "id": 8,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "Convr® Makes the Industry's Only Commercial P&C Risk Context Engine Available to AI Agents via Model Context Protocol (MCP)",
-      "summary": "CHICAGO, June 25, 2026 /PRNewswire/ -- An underwriter reviewing a $40M manufacturing submission can now ask their AI assistant — Microsoft Copilot, Claude, or any compatible agent, \"What are the key risk characteristics on this account and how does it compare…",
-      "source": "PRNewswire",
-      "source_url": "https://www.prnewswire.com/news-releases/convr-makes-the-industrys-only-commercial-pc-risk-context-engine-available-to-ai-agents-via-model-context-protocol-mcp-302809859.html",
-      "published_at": "2026-06-25T11:35:00.000Z",
+      "title": "vaultspec-rag 0.2.25",
+      "summary": "GPU-accelerated semantic search for your docs and source code: hybrid dense + sparse RAG on a local Qdrant backend, served to Claude Code and other MCP clients.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/vaultspec-rag/0.2.25/",
+      "published_at": "2026-06-25T18:03:26.000Z",
       "score": 82,
       "tags": [
         "Claude",
@@ -219,12 +220,12 @@
       "id": 9,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "Show HN: Claude Code Session Trace/Browse Tool (Python)",
-      "summary": "I have been testing different harnesses, agent memory tools, etc. and wanted to follow along with my claude sessions and analyze what files, tools, skills were burning tokens. Built this small tool to analyze claude sessions on disk.The idea is basically a tu…",
-      "source": "Github.com",
-      "source_url": "https://github.com/yonk-labs/claude-session-analyzer",
-      "published_at": "2026-06-25T11:33:07.000Z",
-      "score": 82,
+      "title": "trinity-agent 1.0.268",
+      "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/trinity-agent/1.0.268/",
+      "published_at": "2026-06-25T18:50:44.000Z",
+      "score": 78,
       "tags": [
         "Claude",
         "Codex"
@@ -236,11 +237,11 @@
       "id": 10,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "trinity-agent 1.0.227",
+      "title": "trinity-agent 1.0.267",
       "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/trinity-agent/1.0.227/",
-      "published_at": "2026-06-25T11:41:10.000Z",
+      "source_url": "https://pypi.org/project/trinity-agent/1.0.267/",
+      "published_at": "2026-06-25T18:41:20.000Z",
       "score": 78,
       "tags": [
         "Claude",
@@ -253,11 +254,11 @@
       "id": 11,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "trinity-agent 1.0.226",
+      "title": "trinity-agent 1.0.265",
       "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/trinity-agent/1.0.226/",
-      "published_at": "2026-06-25T11:32:08.000Z",
+      "source_url": "https://pypi.org/project/trinity-agent/1.0.265/",
+      "published_at": "2026-06-25T18:16:12.000Z",
       "score": 78,
       "tags": [
         "Claude",
@@ -270,11 +271,28 @@
       "id": 12,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "trinity-agent 1.0.225",
+      "title": "gen-mcp-server 0.1.21",
+      "summary": "GEN is an autonomous social media agent: it spots trends, writes scripts, and creates videos. Official MCP server for Claude Code, Cursor, and VS Code.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/gen-mcp-server/0.1.21/",
+      "published_at": "2026-06-25T18:06:21.000Z",
+      "score": 78,
+      "tags": [
+        "Claude",
+        "Infra AI"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 13,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "trinity-agent 1.0.264",
       "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/trinity-agent/1.0.225/",
-      "published_at": "2026-06-25T11:24:13.000Z",
+      "source_url": "https://pypi.org/project/trinity-agent/1.0.264/",
+      "published_at": "2026-06-25T18:06:14.000Z",
       "score": 78,
       "tags": [
         "Claude",
@@ -284,52 +302,36 @@
       "relevant": true
     },
     {
-      "id": 13,
-      "kind": "newsapi",
-      "technology": "OpenClaw",
-      "title": "telegram-bot-api-docs-mcp 0.1.0",
-      "summary": "MCP server exposing freshly scraped Telegram Bot API documentation",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/telegram-bot-api-docs-mcp/0.1.0/",
-      "published_at": "2026-06-25T11:23:23.000Z",
-      "score": 78,
-      "tags": [
-        "OpenClaw",
-        "Infra AI"
-      ],
-      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
-      "relevant": true
-    },
-    {
       "id": 14,
       "kind": "newsapi",
-      "technology": "OpenClaw",
-      "title": "telegram-bot-api-docs-mcp added to PyPI",
-      "summary": "MCP server exposing freshly scraped Telegram Bot API documentation",
+      "technology": "Claude",
+      "title": "distillery-mcp 0.7.0",
+      "summary": "Persistent shared memory for Claude Code — MCP server with DuckDB vector search, semantic dedup, and ambient intelligence for team knowledge",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/telegram-bot-api-docs-mcp/",
-      "published_at": "2026-06-25T11:23:23.000Z",
-      "score": 78,
+      "source_url": "https://pypi.org/project/distillery-mcp/0.7.0/",
+      "published_at": "2026-06-25T18:04:18.000Z",
+      "score": 74,
       "tags": [
-        "OpenClaw",
+        "Claude",
         "Infra AI"
       ],
-      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 15,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "trinity-agent 1.0.223",
-      "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/trinity-agent/1.0.223/",
-      "published_at": "2026-06-25T11:06:59.000Z",
-      "score": 78,
+      "title": "World's Largest Neobank Disappears in U.S. AI Search, New 5W Study Finds",
+      "summary": "First geographic benchmark of how ChatGPT, Claude, Gemini, Perplexity, and Google AI Overviews cite neobanks finds eight markets, three different category leaders, and no global winner — across 31,500 prompts in the U.S., U.K., E.U., and Latin America MIAMI, …",
+      "source": "PRNewswire",
+      "source_url": "https://www.prnewswire.com/news-releases/worlds-largest-neobank-disappears-in-us-ai-search-new-5w-study-finds-302811072.html",
+      "published_at": "2026-06-25T18:03:00.000Z",
+      "score": 74,
       "tags": [
         "Claude",
-        "Codex"
+        "ChatGPT / OpenAI",
+        "Gemini"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
@@ -342,7 +344,7 @@
       "summary": "The newly released Gemma 4 12B is a dense, multimodal model designed for high-performance local AI execution on consumer devices. By introducing a novel, encoder-free architecture, it bypasses traditional visual and audio encoders to feed multimodal data directly into the LLM backbone.",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/gemma-4-12b-the-developer-guide/",
-      "published_at": "2026-06-26T11:48:26.152Z",
+      "published_at": "2026-06-26T18:56:45.983Z",
       "score": 70,
       "tags": [
         "ChatGPT / OpenAI"
@@ -352,29 +354,47 @@
     },
     {
       "id": 17,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "fast-agent-acp 0.7.22",
-      "summary": "Convenience launcher that pulls in fast-agent-mcp and exposes the ACP CLI entrypoint.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/fast-agent-acp/0.7.22/",
-      "published_at": "2026-06-25T11:40:08.000Z",
-      "score": 66,
+      "kind": "rss",
+      "technology": "Claude",
+      "title": "AI startup Lindy ditched Claude entirely for Deepseek, saving millions as cost pressure mounts on Anthropic",
+      "summary": "AI startup Lindy ditched Claude entirely for Deepseek after AI costs exceeded personnel costs. CEO Flo Crivello calls it \"a matter of survival for the business.\" The article AI startup Lindy ditched Claude entirely for Deepseek, saving millions as cost pressure mounts on Anthropic appeared first on The Decoder.",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/ai-startup-lindy-ditched-claude-entirely-for-deepseek-saving-millions-as-cost-pressure-mounts-on-anthropic/",
+      "published_at": "2026-06-26T15:09:26.000Z",
+      "score": 64,
       "tags": [
-        "Infra AI"
+        "Claude",
+        "DeepSeek"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 18,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "Anthropic’s Claude is gaining ground on ChatGPT among paying users, and crypto should be paying attention",
+      "summary": "Anthropic's growth in AI and crypto security highlights the increasing intersection of AI advancements and blockchain technology's future. The post Anthropic’s Claude is gaining ground on ChatGPT among paying users, and crypto should be paying attention appea…",
+      "source": "Crypto Briefing",
+      "source_url": "https://cryptobriefing.com/anthropic-claude-gains-traction-chatgpt/",
+      "published_at": "2026-06-25T18:27:17.000Z",
+      "score": 64,
+      "tags": [
+        "Claude",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 19,
       "kind": "rss",
       "technology": "Gemini",
       "title": "An important update: Transitioning Gemini CLI to Antigravity CLI",
       "summary": "Google is unifying its AI terminal tools by transitioning the community-focused Gemini CLI into Antigravity CLI, a new agent-first platform built for complex, multi-agent workflows. This new Go-based tool offers faster execution, asynchronous processing, and a unified architecture that syncs with the Antigravity 2.0 desktop application. W...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
-      "published_at": "2026-06-26T11:48:26.153Z",
+      "published_at": "2026-06-26T18:56:45.983Z",
       "score": 62,
       "tags": [
         "Gemini"
@@ -383,14 +403,14 @@
       "relevant": true
     },
     {
-      "id": 19,
+      "id": 20,
       "kind": "rss",
       "technology": "Gemini",
       "title": "A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs",
       "summary": "This post introduces three architectural patterns designed to integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI) to solve the tradeoff between highly custom iframe environments and native, declarative rendering. By combining these approaches, developers can serve native-feeling UIs directly over MCP servers, em...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/a2ui-and-mcp-apps/",
-      "published_at": "2026-06-26T11:48:26.152Z",
+      "published_at": "2026-06-26T18:56:45.982Z",
       "score": 62,
       "tags": [
         "Infra AI"
@@ -399,31 +419,15 @@
       "relevant": true
     },
     {
-      "id": 20,
-      "kind": "rss",
-      "technology": "Gemini",
-      "title": "Supercharge your integration workflow with the Google Pay & Wallet Developer MCP server",
-      "summary": "Google has announced the new Google Pay & Wallet Developer MCP server, an open-standard tool designed to securely connect AI development assistants and IDEs with real-time API and account context. The server allows developers to remain within their development environment to search official documentation, validate Wallet pass definitions,...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/",
-      "published_at": "2026-06-26T11:48:26.152Z",
-      "score": 58,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
       "id": 21,
-      "kind": "rss",
-      "technology": "Gemini",
-      "title": "The latest updates to Google Pay",
-      "summary": "Google Pay is evolving for \"agentic commerce\" by introducing the Universal Commerce Protocol and a new MCP server that allows AI agents to manage integrations and analyze trends. New Android updates introduce dynamic callbacks for seamless express checkouts and extend payment support into social media apps via WebViews. Additionally, the...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/the-latest-updates-to-google-pay/",
-      "published_at": "2026-06-26T11:48:26.152Z",
-      "score": 58,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "dvr 1.3.0",
+      "summary": "DaVinci Resolve CLI, Python library, and MCP server. Automate editing, color, and rendering with LLM-friendly tools for AI agents. Declarative, scriptable, structured JSON output.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/dvr/1.3.0/",
+      "published_at": "2026-06-25T18:16:23.000Z",
+      "score": 62,
       "tags": [
         "Infra AI"
       ],
@@ -432,13 +436,13 @@
     },
     {
       "id": 22,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "clipwright-reframe 0.2.0",
-      "summary": "MCP tool for video reframing and OTIO timeline reframe annotation generation. Annotates a reframe directive (target resolution / fit mode / anchor) to timeline-level metadata for clipwright-render to apply.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/clipwright-reframe/0.2.0/",
-      "published_at": "2026-06-25T11:45:48.000Z",
+      "kind": "rss",
+      "technology": "Gemini",
+      "title": "Supercharge your integration workflow with the Google Pay & Wallet Developer MCP server",
+      "summary": "Google has announced the new Google Pay & Wallet Developer MCP server, an open-standard tool designed to securely connect AI development assistants and IDEs with real-time API and account context. The server allows developers to remain within their development environment to search official documentation, validate Wallet pass definitions,...",
+      "source": "Google Developers Blog",
+      "source_url": "https://developers.googleblog.com/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/",
+      "published_at": "2026-06-26T18:56:45.983Z",
       "score": 58,
       "tags": [
         "Infra AI"
@@ -448,13 +452,13 @@
     },
     {
       "id": 23,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "clipwright-render 0.13.0",
-      "summary": "MCP tool to realize OTIO timelines with FFmpeg. Completes segment extraction, concatenation, and trimming in a single transcode pass.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/clipwright-render/0.13.0/",
-      "published_at": "2026-06-25T11:45:48.000Z",
+      "kind": "rss",
+      "technology": "Gemini",
+      "title": "The latest updates to Google Pay",
+      "summary": "Google Pay is evolving for \"agentic commerce\" by introducing the Universal Commerce Protocol and a new MCP server that allows AI agents to manage integrations and analyze trends. New Android updates introduce dynamic callbacks for seamless express checkouts and extend payment support into social media apps via WebViews. Additionally, the...",
+      "source": "Google Developers Blog",
+      "source_url": "https://developers.googleblog.com/the-latest-updates-to-google-pay/",
+      "published_at": "2026-06-26T18:56:45.983Z",
       "score": 58,
       "tags": [
         "Infra AI"
@@ -464,18 +468,19 @@
     },
     {
       "id": 24,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "hf-inference-acp 0.7.22",
-      "summary": "Hugging Face inference agent with ACP support, powered by fast-agent-mcp",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/hf-inference-acp/0.7.22/",
-      "published_at": "2026-06-25T11:40:11.000Z",
+      "kind": "rss",
+      "technology": "Claude",
+      "title": "OpenAI's GPT-5.6 Sol launches to rival Claude Mythos under government access rules it calls unsustainable",
+      "summary": "OpenAI's new flagship GPT-5.6 Sol beats Anthropic's Claude Mythos 5 in coding benchmarks, but the US government is forcing a restricted rollout. OpenAI isn't happy about it. The article OpenAI's GPT-5.6 Sol launches to rival Claude Mythos under government access rules it calls unsustainable appeared first on The Decoder.",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/openais-claude-mythos-competitor-gpt-5-6-sol-launches-under-government-controlled-access-it-calls-unsustainable/",
+      "published_at": "2026-06-26T18:30:01.000Z",
       "score": 58,
       "tags": [
-        "Infra AI"
+        "Claude",
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     }
   ]
