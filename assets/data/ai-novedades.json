@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T13:12:22.906Z",
+  "generated_at": "2026-06-30T00:12:38.630Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -11,7 +11,7 @@
     "Infra AI"
   ],
   "source_counts": {
-    "rss": 32,
+    "rss": 33,
     "github": 7,
     "newsapi": 50
   },
@@ -19,6 +19,27 @@
     "has_relevant_items": true,
     "relevant_count": 8,
     "telegram_summary": [
+      {
+        "technology": "Claude",
+        "title": "agentgrep 0.1.0a31",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 98,
+        "url": "https://pypi.org/project/agentgrep/0.1.0a31/"
+      },
+      {
+        "technology": "Codex",
+        "title": "0.143.0-alpha.31",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 90,
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.31"
+      },
+      {
+        "technology": "Claude",
+        "title": "Meta restricts use of Claude Code and Codex to keep rival AI out of its training data",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 90,
+        "url": "https://the-decoder.com/meta-restricts-use-of-claude-code-and-codex-to-keep-rival-ai-out-of-its-training-data/"
+      },
       {
         "technology": "Codex",
         "title": "0.142.4",
@@ -48,38 +69,70 @@
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.27"
       },
       {
-        "technology": "Codex",
-        "title": "0.142.3",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 90,
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.142.3"
-      },
-      {
-        "technology": "Codex",
-        "title": "skills-orchestrator 4.8.25",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 82,
-        "url": "https://pypi.org/project/skills-orchestrator/4.8.25/"
-      },
-      {
-        "technology": "Codex",
-        "title": "skills-orchestrator 4.8.24",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 82,
-        "url": "https://pypi.org/project/skills-orchestrator/4.8.24/"
-      },
-      {
         "technology": "Claude",
-        "title": "trinity-agent 1.0.714",
+        "title": "finops-mcp 0.8.100",
         "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 78,
-        "url": "https://pypi.org/project/trinity-agent/1.0.714/"
+        "score": 88,
+        "url": "https://pypi.org/project/finops-mcp/0.8.100/"
       }
     ]
   },
   "items": [
     {
       "id": 1,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "agentgrep 0.1.0a31",
+      "summary": "Read-only search for local AI agent prompts and history (Codex, Claude Code, Cursor, Gemini, Antigravity, Grok, Pi, OpenCode, VS Code)",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/agentgrep/0.1.0a31/",
+      "published_at": "2026-06-28T23:43:49.000Z",
+      "score": 98,
+      "tags": [
+        "Claude",
+        "Codex",
+        "Gemini"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 2,
+      "kind": "github_release",
+      "technology": "Codex",
+      "title": "0.143.0-alpha.31",
+      "summary": "Release 0.143.0-alpha.31",
+      "source": "GitHub: openai/codex",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.31",
+      "published_at": "2026-06-29T23:21:34.000Z",
+      "score": 90,
+      "tags": [
+        "Codex",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "relevant": true
+    },
+    {
+      "id": 3,
+      "kind": "rss",
+      "technology": "Claude",
+      "title": "Meta restricts use of Claude Code and Codex to keep rival AI out of its training data",
+      "summary": "Meta is restricting its engineers' use of Anthropic's Claude and OpenAI's Codex to prevent output from these AI tools from being incorporated into its own training data. The article Meta restricts use of Claude Code and Codex to keep rival AI out of its training data appeared first on The Decoder.",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/meta-restricts-use-of-claude-code-and-codex-to-keep-rival-ai-out-of-its-training-data/",
+      "published_at": "2026-06-29T15:47:43.000Z",
+      "score": 90,
+      "tags": [
+        "Claude",
+        "Codex",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 4,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.142.4",
@@ -96,7 +149,7 @@
       "relevant": true
     },
     {
-      "id": 2,
+      "id": 5,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.143.0-alpha.29",
@@ -113,7 +166,7 @@
       "relevant": true
     },
     {
-      "id": 3,
+      "id": 6,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.143.0-alpha.28",
@@ -130,7 +183,7 @@
       "relevant": true
     },
     {
-      "id": 4,
+      "id": 7,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.143.0-alpha.27",
@@ -147,69 +200,18 @@
       "relevant": true
     },
     {
-      "id": 5,
-      "kind": "github_release",
-      "technology": "Codex",
-      "title": "0.142.3",
-      "summary": "## Chores - Maintenance-only patch release with no user-facing changes since 0.142.2. ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.142.2...rust-v0.142.3",
-      "source": "GitHub: openai/codex",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.142.3",
-      "published_at": "2026-06-26T21:29:20.000Z",
-      "score": 90,
-      "tags": [
-        "Codex",
-        "ChatGPT / OpenAI"
-      ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
-      "id": 6,
-      "kind": "newsapi",
-      "technology": "Codex",
-      "title": "skills-orchestrator 4.8.25",
-      "summary": "CI-native SkillOps governance for AI-agent instruction artifacts: policy packs, registries, evidence bundles, SARIF/CI, adapters, and MCP bridges.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/skills-orchestrator/4.8.25/",
-      "published_at": "2026-06-28T12:53:40.000Z",
-      "score": 82,
-      "tags": [
-        "Codex",
-        "Infra AI"
-      ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
-      "id": 7,
-      "kind": "newsapi",
-      "technology": "Codex",
-      "title": "skills-orchestrator 4.8.24",
-      "summary": "CI-native SkillOps governance for AI-agent instruction artifacts: policy packs, registries, evidence bundles, SARIF/CI, adapters, and MCP bridges.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/skills-orchestrator/4.8.24/",
-      "published_at": "2026-06-28T12:37:11.000Z",
-      "score": 82,
-      "tags": [
-        "Codex",
-        "Infra AI"
-      ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
       "id": 8,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "trinity-agent 1.0.714",
-      "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
+      "title": "finops-mcp 0.8.100",
+      "summary": "Ask Claude about your AWS, Azure, GCP, and SaaS costs. MCP server with anomaly detection, rightsizing, and Jira ticketing.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/trinity-agent/1.0.714/",
-      "published_at": "2026-06-28T13:09:18.000Z",
-      "score": 78,
+      "source_url": "https://pypi.org/project/finops-mcp/0.8.100/",
+      "published_at": "2026-06-28T23:44:48.000Z",
+      "score": 88,
       "tags": [
         "Claude",
-        "Codex"
+        "Infra AI"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
@@ -218,15 +220,15 @@
       "id": 9,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "trinity-agent 1.0.713",
-      "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
+      "title": "finops-mcp 0.8.99",
+      "summary": "Ask Claude about your AWS, Azure, GCP, and SaaS costs. MCP server with anomaly detection, rightsizing, and Jira ticketing.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/trinity-agent/1.0.713/",
-      "published_at": "2026-06-28T13:06:07.000Z",
-      "score": 78,
+      "source_url": "https://pypi.org/project/finops-mcp/0.8.99/",
+      "published_at": "2026-06-28T23:28:47.000Z",
+      "score": 88,
       "tags": [
         "Claude",
-        "Codex"
+        "Infra AI"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
@@ -234,29 +236,29 @@
     {
       "id": 10,
       "kind": "newsapi",
-      "technology": "Codex",
-      "title": "contextl-mcp 1.2.34",
-      "summary": "Repository Intelligence Engine — MCP server for AI coding agents",
+      "technology": "Gemini",
+      "title": "gemini-mcp-relay 0.1.3",
+      "summary": "Google GenAI SDK wrapper for integrating the Model Context Protocol (MCP)",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/contextl-mcp/1.2.34/",
-      "published_at": "2026-06-28T13:03:54.000Z",
-      "score": 78,
+      "source_url": "https://pypi.org/project/gemini-mcp-relay/0.1.3/",
+      "published_at": "2026-06-28T23:32:32.000Z",
+      "score": 82,
       "tags": [
-        "Codex",
+        "Gemini",
         "Infra AI"
       ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
       "relevant": true
     },
     {
       "id": 11,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "trinity-agent 1.0.712",
+      "title": "trinity-agent 1.0.781",
       "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/trinity-agent/1.0.712/",
-      "published_at": "2026-06-28T13:01:10.000Z",
+      "source_url": "https://pypi.org/project/trinity-agent/1.0.781/",
+      "published_at": "2026-06-29T00:10:37.000Z",
       "score": 78,
       "tags": [
         "Claude",
@@ -268,29 +270,29 @@
     {
       "id": 12,
       "kind": "newsapi",
-      "technology": "Codex",
-      "title": "umu-skills 0.24.6",
-      "summary": "An unofficial, third-party AI Skill framework for UMU Learning Platform operations via MCP",
+      "technology": "Claude",
+      "title": "trinity-agent 1.0.780",
+      "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/umu-skills/0.24.6/",
-      "published_at": "2026-06-28T13:00:50.000Z",
+      "source_url": "https://pypi.org/project/trinity-agent/1.0.780/",
+      "published_at": "2026-06-28T23:59:27.000Z",
       "score": 78,
       "tags": [
-        "Codex",
-        "Infra AI"
+        "Claude",
+        "Codex"
       ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 13,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "trinity-agent 1.0.711",
+      "title": "trinity-agent 1.0.779",
       "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/trinity-agent/1.0.711/",
-      "published_at": "2026-06-28T12:56:58.000Z",
+      "source_url": "https://pypi.org/project/trinity-agent/1.0.779/",
+      "published_at": "2026-06-28T23:54:56.000Z",
       "score": 78,
       "tags": [
         "Claude",
@@ -303,11 +305,11 @@
       "id": 14,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "trinity-agent 1.0.710",
+      "title": "trinity-agent 1.0.778",
       "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/trinity-agent/1.0.710/",
-      "published_at": "2026-06-28T12:48:52.000Z",
+      "source_url": "https://pypi.org/project/trinity-agent/1.0.778/",
+      "published_at": "2026-06-28T23:47:43.000Z",
       "score": 78,
       "tags": [
         "Claude",
@@ -320,11 +322,11 @@
       "id": 15,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "trinity-agent 1.0.709",
+      "title": "trinity-agent 1.0.777",
       "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/trinity-agent/1.0.709/",
-      "published_at": "2026-06-28T12:45:34.000Z",
+      "source_url": "https://pypi.org/project/trinity-agent/1.0.777/",
+      "published_at": "2026-06-28T23:44:14.000Z",
       "score": 78,
       "tags": [
         "Claude",
@@ -337,15 +339,15 @@
       "id": 16,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "quantgist-mcp 0.3.1",
-      "summary": "MCP server — exposes QuantGist macro event tools to Claude and AI agents",
+      "title": "trinity-agent 1.0.776",
+      "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/quantgist-mcp/0.3.1/",
-      "published_at": "2026-06-28T12:42:29.000Z",
+      "source_url": "https://pypi.org/project/trinity-agent/1.0.776/",
+      "published_at": "2026-06-28T23:35:56.000Z",
       "score": 78,
       "tags": [
         "Claude",
-        "Infra AI"
+        "Codex"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
@@ -354,11 +356,11 @@
       "id": 17,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "trinity-agent 1.0.708",
+      "title": "trinity-agent 1.0.775",
       "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/trinity-agent/1.0.708/",
-      "published_at": "2026-06-28T12:35:13.000Z",
+      "source_url": "https://pypi.org/project/trinity-agent/1.0.775/",
+      "published_at": "2026-06-28T23:33:21.000Z",
       "score": 78,
       "tags": [
         "Claude",
@@ -371,72 +373,38 @@
       "id": 18,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "trinity-agent 1.0.707",
-      "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
+      "title": "dejasearch 0.4.0",
+      "summary": "Semantic search MCP server for Claude Code sessions",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/trinity-agent/1.0.707/",
-      "published_at": "2026-06-28T12:32:16.000Z",
-      "score": 78,
+      "source_url": "https://pypi.org/project/dejasearch/0.4.0/",
+      "published_at": "2026-06-28T23:39:26.000Z",
+      "score": 74,
       "tags": [
         "Claude",
-        "Codex"
+        "Infra AI"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 19,
-      "kind": "newsapi",
+      "kind": "rss",
       "technology": "Claude",
-      "title": "harness-scorecard 1.6.0",
-      "summary": "A read-only linter and A-F maturity grader for coding-agent harnesses (Claude Code, Codex).",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/harness-scorecard/1.6.0/",
-      "published_at": "2026-06-28T13:00:39.000Z",
-      "score": 74,
+      "title": "Amazon engineers are reportedly distilling Anthropic models to cut costs before new token-based pricing kicks in",
+      "summary": "Amazon engineers are already distilling Anthropic models into smaller, cheaper versions for internal use. Starting next year, Amazon will pay by tokens processed rather than compute hours, which could push costs up sharply. The company is also exploring alternatives like OpenAI. The article Amazon engineers are reportedly distilling Anthr...",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/amazon-engineers-are-reportedly-distilling-anthropic-models-to-cut-costs-before-new-token-based-pricing-kicks-in/",
+      "published_at": "2026-06-29T18:05:37.000Z",
+      "score": 72,
       "tags": [
         "Claude",
-        "Codex"
+        "ChatGPT / OpenAI"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 20,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "memory-bank-skill 5.2.0",
-      "summary": "Universal long-term project memory + dev toolkit for AI coding clients (Claude Code, Cursor, Windsurf, Cline, Kilo, OpenCode, Codex, Pi Code)",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/memory-bank-skill/5.2.0/",
-      "published_at": "2026-06-28T12:58:36.000Z",
-      "score": 74,
-      "tags": [
-        "Claude",
-        "Codex"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 21,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "harness-scorecard 1.5.0",
-      "summary": "A read-only linter and A-F maturity grader for coding-agent harnesses (Claude Code, Codex).",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/harness-scorecard/1.5.0/",
-      "published_at": "2026-06-28T12:48:57.000Z",
-      "score": 74,
-      "tags": [
-        "Claude",
-        "Codex"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 22,
       "kind": "rss",
       "technology": "Claude",
       "title": "Claude Code runs a GitHub repo's hidden malware without verification, giving attackers full control",
@@ -452,14 +420,14 @@
       "relevant": true
     },
     {
-      "id": 23,
+      "id": 21,
       "kind": "rss",
       "technology": "ChatGPT / OpenAI",
       "title": "Gemma 4 12B: The Developer Guide",
       "summary": "The newly released Gemma 4 12B is a dense, multimodal model designed for high-performance local AI execution on consumer devices. By introducing a novel, encoder-free architecture, it bypasses traditional visual and audio encoders to feed multimodal data directly into the LLM backbone.",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/gemma-4-12b-the-developer-guide/",
-      "published_at": "2026-06-29T13:12:21.384Z",
+      "published_at": "2026-06-30T00:12:37.248Z",
       "score": 70,
       "tags": [
         "ChatGPT / OpenAI"
@@ -468,19 +436,51 @@
       "relevant": true
     },
     {
-      "id": 24,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "nousergon-lib 0.72.0",
-      "summary": "Shared utilities for the Nous Ergon (Crucible) modules: preflight, logging, ArcticDB, dates, decision capture, cost telemetry, Anthropic payload chokepoint, artifact freshness, windowed artifact resolution, RAG, agent schemas, SSM secrets, Telegram + SNS aler…",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/nousergon-lib/0.72.0/",
-      "published_at": "2026-06-28T13:11:39.000Z",
+      "id": 22,
+      "kind": "github_release",
+      "technology": "Gemini",
+      "title": "Release v0.51.0-nightly.20260628.gae0a3aa7b",
+      "summary": "## What's Changed * fix(security): enforce case-insensitive sensitive path blocklist and vscode hitl by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/27966 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260626.gb14416447...v0.51.0-nightly.20260628.gae0a3aa7b",
+      "source": "GitHub: google-gemini/gemini-cli",
+      "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260628.gae0a3aa7b",
+      "published_at": "2026-06-28T01:45:53.000Z",
       "score": 68,
       "tags": [
-        "Claude"
+        "Gemini"
       ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
+      "relevant": true
+    },
+    {
+      "id": 23,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "mootup-harness-sdk 0.1.2",
+      "summary": "Python SDK for integrating agent harnesses with mootup. Duck-typed MCP client; zero MCP SDK dependency.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/mootup-harness-sdk/0.1.2/",
+      "published_at": "2026-06-28T23:45:28.000Z",
+      "score": 66,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 24,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "solidcommerce 2.0.0a0",
+      "summary": "Official Python SDK for the Solid Commerce API/CLI/MCP platform.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/solidcommerce/2.0.0a0/",
+      "published_at": "2026-06-28T23:38:13.000Z",
+      "score": 66,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     }
   ]
