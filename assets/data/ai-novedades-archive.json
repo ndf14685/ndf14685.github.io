@@ -1,5 +1,16 @@
 [
   {
+    "key": "https://developers.googleblog.com/driving-the-agent-quality-flywheel-from-your-coding-agent",
+    "technology": "Codex",
+    "title": "Driving the Agent Quality Flywheel from Your Coding Agent",
+    "summary": "Building AI agents often leaves developers uncertain if prompt tweaks to fix single errors will accidentally cause widespread regressions in production. To bridge this gap, Google has introduced a new developer skill for coding agents that automates a five-stage evaluation flywheel: preparing data, running inference, grading with adaptive...",
+    "source": "Google Developers Blog",
+    "source_url": "https://developers.googleblog.com/driving-the-agent-quality-flywheel-from-your-coding-agent/",
+    "published_at": "2026-07-02T00:15:33.028Z",
+    "score": 54,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.32",
     "technology": "Codex",
     "title": "0.143.0-alpha.32",
@@ -11,6 +22,17 @@
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   },
   {
+    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260701.g7f00c5fe5",
+    "technology": "Gemini",
+    "title": "Release v0.51.0-nightly.20260701.g7f00c5fe5",
+    "summary": "## What's Changed * fix(core-tools): resolve defensive path resolution for at-reference files and fix macOS tests by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28053 * feat(caretaker): implement Cloud Run webhook ingestion service by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28015 ## New Contrib...",
+    "source": "GitHub: google-gemini/gemini-cli",
+    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260701.g7f00c5fe5",
+    "published_at": "2026-07-01T01:49:23.000Z",
+    "score": 54,
+    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.142.5",
     "technology": "Codex",
     "title": "0.142.5",
@@ -20,6 +42,138 @@
     "published_at": "2026-07-01T01:15:44.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://www.geeky-gadgets.com/automate-workflows-claude-skills",
+    "technology": "Claude",
+    "title": "Complete 2026 Guide to Building and Managing Claude Skills",
+    "summary": "Claude skills offer a structured way to automate tasks, enhance efficiency and customize AI interactions to meet specific needs. As Skill Leap AI explains, these pre-defined instruction sets dynamically adapt to different contexts, making them ideal for tasks…",
+    "source": "Geeky Gadgets",
+    "source_url": "https://www.geeky-gadgets.com/automate-workflows-claude-skills/",
+    "published_at": "2026-07-01T00:11:00.000Z",
+    "score": 54,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/trinity-agent/1.0.982",
+    "technology": "Claude",
+    "title": "trinity-agent 1.0.982",
+    "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/trinity-agent/1.0.982/",
+    "published_at": "2026-07-01T00:09:11.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/shell-prompter/0.7.0",
+    "technology": "Claude",
+    "title": "shell-prompter 0.7.0",
+    "summary": "A natural-language shell agent powered by Claude, OpenAI, or Gemini.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/shell-prompter/0.7.0/",
+    "published_at": "2026-07-01T00:05:47.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/trinity-agent/1.0.981",
+    "technology": "Claude",
+    "title": "trinity-agent 1.0.981",
+    "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/trinity-agent/1.0.981/",
+    "published_at": "2026-07-01T00:02:53.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/searchfetch/3.3.0",
+    "technology": "Infra AI",
+    "title": "searchfetch 3.3.0",
+    "summary": "A maximum fault-tolerant, stealth-enabled MCP server for web searching and fetching.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/searchfetch/3.3.0/",
+    "published_at": "2026-07-01T00:01:34.000Z",
+    "score": 54,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://www.c-sharpcorner.com/news/anthropic-launches-claude-sonnet-5",
+    "technology": "Claude",
+    "title": "Anthropic Launches Claude Sonnet 5",
+    "summary": "Anthropic launches Claude Sonnet 5, its most agentic Sonnet model yet, offering near-Opus performance for coding, AI agents, and enterprise workflows at lower cost.",
+    "source": "C-sharpcorner.com",
+    "source_url": "https://www.c-sharpcorner.com/news/anthropic-launches-claude-sonnet-5",
+    "published_at": "2026-07-01T00:00:00.000Z",
+    "score": 60,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://www.c-sharpcorner.com/news/openclaw-launches-native-ios-and-android-apps",
+    "technology": "OpenClaw",
+    "title": "OpenClaw Launches Native iOS and Android Apps",
+    "summary": "OpenClaw launches native iOS & Android apps, bringing autonomous AI agent workflows to your pocket for on-the-go task management and monitoring.",
+    "source": "C-sharpcorner.com",
+    "source_url": "https://www.c-sharpcorner.com/news/openclaw-launches-native-ios-and-android-apps",
+    "published_at": "2026-07-01T00:00:00.000Z",
+    "score": 58,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
+    "key": "https://pypi.org/project/cognigy-vibe-mcp/1.6.1.dev17",
+    "technology": "Infra AI",
+    "title": "cognigy-vibe-mcp 1.6.1.dev17",
+    "summary": "Cognigy AI agent demo builder MCP server",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/cognigy-vibe-mcp/1.6.1.dev17/",
+    "published_at": "2026-06-30T23:54:21.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/trinity-agent/1.0.980",
+    "technology": "Claude",
+    "title": "trinity-agent 1.0.980",
+    "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/trinity-agent/1.0.980/",
+    "published_at": "2026-06-30T23:53:13.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/hwpx-mcp-server/2.10.0",
+    "technology": "Infra AI",
+    "title": "hwpx-mcp-server 2.10.0",
+    "summary": "MCP server for reading, editing, inspecting, and validating local HWPX documents with AI agents.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/hwpx-mcp-server/2.10.0/",
+    "published_at": "2026-06-30T23:50:28.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/trinity-agent/1.0.979",
+    "technology": "Claude",
+    "title": "trinity-agent 1.0.979",
+    "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/trinity-agent/1.0.979/",
+    "published_at": "2026-06-30T23:47:30.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/cognigy-vibe-mcp/1.6.1.dev16",
+    "technology": "Infra AI",
+    "title": "cognigy-vibe-mcp 1.6.1.dev16",
+    "summary": "Cognigy AI agent demo builder MCP server",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/cognigy-vibe-mcp/1.6.1.dev16/",
+    "published_at": "2026-06-30T23:45:18.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   },
   {
     "key": "https://pypi.org/project/trinity-agent/1.0.925",
@@ -6444,159 +6598,5 @@
     "published_at": "2026-06-16T18:54:49.000Z",
     "score": 58,
     "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/sciple-mcp/0.2.0",
-    "technology": "Infra AI",
-    "title": "sciple-mcp 0.2.0",
-    "summary": "MCP server for populating and managing Sciple platform content",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/sciple-mcp/0.2.0/",
-    "published_at": "2026-06-16T18:54:37.000Z",
-    "score": 54,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://github.com/javaid-codes/rapunzel/tree/main",
-    "technology": "Claude",
-    "title": "Show HN: Rapunzel – a tree-style tab terminal emulator for Codex Claude Gemini",
-    "summary": "Article URL: https://github.com/javaid-codes/rapunzel/tree/main Comments URL: https://news.ycombinator.com/item?id=48560175 Points: 2 # Comments: 0",
-    "source": "Github.com",
-    "source_url": "https://github.com/javaid-codes/rapunzel/tree/main",
-    "published_at": "2026-06-16T18:54:01.000Z",
-    "score": 94,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/notebooklm-mcp-cli/0.7.6",
-    "technology": "Infra AI",
-    "title": "notebooklm-mcp-cli 0.7.6",
-    "summary": "Unified CLI and MCP server for Google NotebookLM",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/notebooklm-mcp-cli/0.7.6/",
-    "published_at": "2026-06-16T18:50:27.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote",
-    "technology": "Gemini",
-    "title": "All the news from the Google I/O 2026 Developer keynote",
-    "summary": "Google announced the transition from assistive AI to independent agents, highlighting the launch of the Gemini 3.5 series and major updates to its Antigravity agent-first development platform. For mobile developers, the post introduces new Android CLI tools, the Android Bench evaluation leaderboard, and an automated Migration agent design...",
-    "source": "Google Developers Blog",
-    "source_url": "https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/",
-    "published_at": "2026-06-16T14:22:49.480Z",
-    "score": 52,
-    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
-  },
-  {
-    "key": "https://pypi.org/project/g8-mcp-server/0.15.0",
-    "technology": "Infra AI",
-    "title": "g8-mcp-server 0.15.0",
-    "summary": "graph8 MCP server - GTM operations for AI agents",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/g8-mcp-server/0.15.0/",
-    "published_at": "2026-06-16T12:55:23.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/tessera-mcp/0.1.0",
-    "technology": "Codex",
-    "title": "tessera-mcp 0.1.0",
-    "summary": "MCP server exposing Tessera memory to AI coding agents",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/tessera-mcp/0.1.0/",
-    "published_at": "2026-06-16T12:55:04.000Z",
-    "score": 78,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://biztoc.com/x/ad485a962c0a79cc",
-    "technology": "Claude",
-    "title": "SpaceX buys AI coding startup Cursor for $60bn as AI race with OpenAI and Anthropic intensifies",
-    "summary": "SpaceX has agreed to acquire Anysphere, the company behind the popular AI coding tool Cursor, in an all-stock deal valuing the startup at $60 billion (€51.7bn), just days after Elon Musk's firm had a record-breaking IPO.",
-    "source": "Biztoc.com",
-    "source_url": "https://biztoc.com/x/ad485a962c0a79cc",
-    "published_at": "2026-06-16T12:50:56.000Z",
-    "score": 60,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://www.databricks.com/blog/introducing-genie-one-genie-ontology-and-genie-agents",
-    "technology": "Codex",
-    "title": "Introducing Genie One, Genie Agents, and Genie Ontology",
-    "summary": "* Genie One is the data-smart AI coworker for business users, expanding Genie beyond conversational analytics, with agentic actions, skills, integrations across Slack, Microsoft Teams, mobile apps, and MCP-based assistant experiences. * Genie Agents let tea…",
-    "source": "Databricks.com",
-    "source_url": "https://www.databricks.com/blog/introducing-genie-one-genie-ontology-and-genie-agents",
-    "published_at": "2026-06-16T12:45:00.000Z",
-    "score": 82,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/tessera-mcp",
-    "technology": "Claude",
-    "title": "tessera-mcp added to PyPI",
-    "summary": "Long-term memory for Claude Code, Codex, and other AI coding agents: the Tessera memory MCP server.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/tessera-mcp/",
-    "published_at": "2026-06-16T12:44:46.000Z",
-    "score": 98,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/yourmemory/1.4.51",
-    "technology": "Claude",
-    "title": "yourmemory 1.4.51",
-    "summary": "Persistent memory for Claude — Ebbinghaus forgetting curve, semantic deduplication, MCP-native",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/yourmemory/1.4.51/",
-    "published_at": "2026-06-16T12:35:38.000Z",
-    "score": 74,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/contextl-mcp",
-    "technology": "Codex",
-    "title": "contextl-mcp added to PyPI",
-    "summary": "Repository Intelligence Engine — MCP server for AI coding agents",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/contextl-mcp/",
-    "published_at": "2026-06-16T12:32:57.000Z",
-    "score": 78,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/contextl-mcp/0.1.2",
-    "technology": "Codex",
-    "title": "contextl-mcp 0.1.2",
-    "summary": "Repository Intelligence Engine — MCP server for AI coding agents",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/contextl-mcp/0.1.2/",
-    "published_at": "2026-06-16T12:32:57.000Z",
-    "score": 78,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/safe-kaggle-mcp/0.4.0",
-    "technology": "Claude",
-    "title": "safe-kaggle-mcp 0.4.0",
-    "summary": "A safety-first MCP server connecting Claude to Kaggle (competitions, datasets, kernels, models).",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/safe-kaggle-mcp/0.4.0/",
-    "published_at": "2026-06-16T12:30:20.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://biztoc.com/x/be4809fd781d1127",
-    "technology": "Claude",
-    "title": "Investors look beyond the 'Magnificent 7' as Wall Street embraces the 'FAB 10'",
-    "summary": "SpaceX's record-breaking market debut has pushed Wall Street to widen its favourite shorthand of the so-called 'Magnificent 7', with strategists folding Elon Musk's firm, OpenAI and Anthropic into a new 'FAB 10' label that captures the next phase of the AI tr…",
-    "source": "Biztoc.com",
-    "source_url": "https://biztoc.com/x/be4809fd781d1127",
-    "published_at": "2026-06-16T12:20:28.000Z",
-    "score": 60,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   }
 ]
