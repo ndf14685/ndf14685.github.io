@@ -1,5 +1,27 @@
 [
   {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.34",
+    "technology": "Codex",
+    "title": "0.143.0-alpha.34",
+    "summary": "Release 0.143.0-alpha.34",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.34",
+    "published_at": "2026-07-02T21:42:01.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients",
+    "technology": "Claude",
+    "title": "Microsoft launches $2.5 billion \"Frontier Company\" to embed 6,000 AI engineers inside enterprise clients",
+    "summary": "Microsoft is investing $2.5 billion in a new unit called \"Frontier Company\" that puts 6,000 engineers directly at enterprise customers. The goal is to integrate AI into core processes with measurable ROI, not more experimentation. Microsoft is positioning itself as a platform-neutral alternative to OpenAI and Anthropic, which push their o...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients/",
+    "published_at": "2026-07-02T19:18:29.000Z",
+    "score": 58,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
     "key": "https://the-decoder.com/anthropic-reportedly-explores-custom-chip-manufacturing-with-samsung-while-insisting-nvidia-still-matters",
     "technology": "Claude",
     "title": "Anthropic reportedly explores custom chip manufacturing with Samsung while insisting Nvidia still matters",
@@ -53,6 +75,160 @@
     "published_at": "2026-07-02T00:15:33.028Z",
     "score": 54,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/proton-workflow-connector/1.3.0",
+    "technology": "Infra AI",
+    "title": "proton-workflow-connector 1.3.0",
+    "summary": "Unofficial self-hosted MCP connector for Proton Mail Bridge and SimpleLogin.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/proton-workflow-connector/1.3.0/",
+    "published_at": "2026-07-02T00:09:47.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/mcp-uof/0.1.3",
+    "technology": "Infra AI",
+    "title": "mcp-uof 0.1.3",
+    "summary": "MCP server wrapping UOF SOAP/ASMX services into AI Agent-callable workflow tools",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcp-uof/0.1.3/",
+    "published_at": "2026-07-01T23:51:51.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/synapse-layer/2.4.4",
+    "technology": "Infra AI",
+    "title": "synapse-layer 2.4.4",
+    "summary": "Persistent memory infrastructure for AI agents — AES-256-GCM encrypted at rest, semantic search, MCP-native.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/synapse-layer/2.4.4/",
+    "published_at": "2026-07-01T23:50:51.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/fagun/0.8.0",
+    "technology": "Claude",
+    "title": "fagun 0.8.0",
+    "summary": "Fagun — one MCP server that lets any AI tool (Claude, Cursor, Codex, Antigravity, Windsurf) use a site as real end users, run full UAT, hunt bugs, and give a product-readiness verdict.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/fagun/0.8.0/",
+    "published_at": "2026-07-01T23:46:09.000Z",
+    "score": 94,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/observational-memory/0.9.0",
+    "technology": "Claude",
+    "title": "observational-memory 0.9.0",
+    "summary": "Cross-agent observational memory and local search for Claude Code, Codex CLI, OpenCode, Kimi Code CLI, Grok Build TUI, Cowork, and Hermes Agent",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/observational-memory/0.9.0/",
+    "published_at": "2026-07-01T23:46:01.000Z",
+    "score": 82,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/local-engine-router/0.6.0",
+    "technology": "ChatGPT / OpenAI",
+    "title": "local-engine-router 0.6.0",
+    "summary": "A single-port OpenAI- and Ollama-compatible reverse proxy that swaps the GPU between local LLM engines on demand.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/local-engine-router/0.6.0/",
+    "published_at": "2026-07-01T23:37:16.000Z",
+    "score": 74,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://pypi.org/project/analog-mcp/0.5.0",
+    "technology": "Infra AI",
+    "title": "analog-mcp 0.5.0",
+    "summary": "Model Context Protocol server for Analog — let AI agents understand any website in a format built for AIs.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/analog-mcp/0.5.0/",
+    "published_at": "2026-07-01T23:37:02.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/fabric-dw/2026.6.1.dev32",
+    "technology": "Infra AI",
+    "title": "fabric-dw 2026.6.1.dev32",
+    "summary": "Python CLI and MCP server for Microsoft Fabric Data Warehouses and SQL Analytics Endpoints: administer, query, optimize, and secure them from your terminal or your AI agent",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/fabric-dw/2026.6.1.dev32/",
+    "published_at": "2026-07-01T23:36:18.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/mlx-memo/2.9.7",
+    "technology": "Infra AI",
+    "title": "mlx-memo 2.9.7",
+    "summary": "Local-first semantic memory for AI agents — MLX (Apple Silicon) or CPU sentence-transformers (Linux/Ubuntu) embeddings + sqlite-vec, MCP server. No cloud, no API keys.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mlx-memo/2.9.7/",
+    "published_at": "2026-07-01T23:30:56.000Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/fabric-dw/2026.6.1.dev31",
+    "technology": "Infra AI",
+    "title": "fabric-dw 2026.6.1.dev31",
+    "summary": "Python CLI and MCP server for Microsoft Fabric Data Warehouses and SQL Analytics Endpoints: administer, query, optimize, and secure them from your terminal or your AI agent",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/fabric-dw/2026.6.1.dev31/",
+    "published_at": "2026-07-01T23:24:31.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/meridian-cli/0.3.21",
+    "technology": "Infra AI",
+    "title": "meridian-cli 0.3.21",
+    "summary": "Orchestrate CLI + MCP server for multi-model agent workflows",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/meridian-cli/0.3.21/",
+    "published_at": "2026-07-01T23:21:48.000Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/fabric-dw/2026.6.1.dev30",
+    "technology": "Infra AI",
+    "title": "fabric-dw 2026.6.1.dev30",
+    "summary": "Python CLI and MCP server for Microsoft Fabric Data Warehouses and SQL Analytics Endpoints: administer, query, optimize, and secure them from your terminal or your AI agent",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/fabric-dw/2026.6.1.dev30/",
+    "published_at": "2026-07-01T23:15:51.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/plugin-scanner/2.0.964",
+    "technology": "Claude",
+    "title": "plugin-scanner 2.0.964",
+    "summary": "Protect local AI harnesses with HOL Guard and run scanner checks for Codex, Claude, Cursor, Gemini, OpenCode, and Pi.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/plugin-scanner/2.0.964/",
+    "published_at": "2026-07-01T23:09:54.000Z",
+    "score": 94,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/hol-guard/2.0.964",
+    "technology": "Claude",
+    "title": "hol-guard 2.0.964",
+    "summary": "Protect local AI harnesses with HOL Guard and run scanner checks for Codex, Claude, Cursor, Gemini, OpenCode, and Pi.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/hol-guard/2.0.964/",
+    "published_at": "2026-07-01T23:09:52.000Z",
+    "score": 94,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   },
   {
     "key": "https://pypi.org/project/nousergon-lib/0.77.1",
@@ -6421,182 +6597,6 @@
     "source_url": "https://developers.googleblog.com/a2ui-and-mcp-apps/",
     "published_at": "2026-06-18T00:21:05.018Z",
     "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.48.0-preview.0",
-    "technology": "Gemini",
-    "title": "Release v0.48.0-preview.0",
-    "summary": "## What's Changed * chore(release): bump version to 0.48.0-nightly.20260609.g3a13b8eeb by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27779 * ci(dependabot): enable cooldown period for npm packages by @ruomengz in https://github.com/google-gemini/gemini-cli/pull/27743 * refactor(core): standardize tool output for...",
-    "source": "GitHub: google-gemini/gemini-cli",
-    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.48.0-preview.0",
-    "published_at": "2026-06-17T22:58:09.000Z",
-    "score": 54,
-    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.6",
-    "technology": "Codex",
-    "title": "0.141.0-alpha.6",
-    "summary": "Release 0.141.0-alpha.6",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.6",
-    "published_at": "2026-06-17T19:52:37.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/hugpy/0.1.34",
-    "technology": "ChatGPT / OpenAI",
-    "title": "hugpy 0.1.34",
-    "summary": "Self-hosted LLM console: model registry & downloads, streaming chat, OpenAI-compatible /v1 API with on-site keys, GPU worker fleet with cross-machine RPC sharding",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hugpy/0.1.34/",
-    "published_at": "2026-06-17T19:33:14.000Z",
-    "score": 62,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
-  },
-  {
-    "key": "https://pypi.org/project/abstract-hugpy-dev/0.1.37",
-    "technology": "ChatGPT / OpenAI",
-    "title": "abstract-hugpy-dev 0.1.37",
-    "summary": "Self-hosted LLM console: model registry & downloads, streaming chat, OpenAI-compatible /v1 API with on-site keys, GPU worker fleet with cross-machine RPC sharding",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/abstract-hugpy-dev/0.1.37/",
-    "published_at": "2026-06-17T19:29:51.000Z",
-    "score": 62,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
-  },
-  {
-    "key": "https://pypi.org/project/meshagent-mcp/0.44.13",
-    "technology": "Infra AI",
-    "title": "meshagent-mcp 0.44.13",
-    "summary": "Computer Building Blocks for MCP",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/meshagent-mcp/0.44.13/",
-    "published_at": "2026-06-17T19:29:32.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://www.abc.net.au/news/2026-06-18/tasmania-marinus-link-firmus-data-centres-business-case/106810484",
-    "technology": "ChatGPT / OpenAI",
-    "title": "AI factory 'brings into doubt' future of Tasmania's Marinus Link",
-    "summary": "Tasmania's cool climate and access to renewable energy has made it an attractive place for AI data centre investment, but energy industry voices are warning that the business case for the Marinus Link project appears increasingly unviable if power-hungry play…",
-    "source": "ABC News (AU)",
-    "source_url": "https://www.abc.net.au/news/2026-06-18/tasmania-marinus-link-firmus-data-centres-business-case/106810484",
-    "published_at": "2026-06-17T19:18:44.000Z",
-    "score": 58,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
-  },
-  {
-    "key": "https://pypi.org/project/novalab-adk/2.12.0",
-    "technology": "Claude",
-    "title": "novalab-adk 2.12.0",
-    "summary": "NovaLab Agent Development Kit — Multi-provider AI with Ollama, Bedrock, Claude, GPT, Gemini + multimodal + training",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/novalab-adk/2.12.0/",
-    "published_at": "2026-06-17T19:14:54.000Z",
-    "score": 94,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/hugpy/0.1.33",
-    "technology": "ChatGPT / OpenAI",
-    "title": "hugpy 0.1.33",
-    "summary": "Self-hosted LLM console: model registry & downloads, streaming chat, OpenAI-compatible /v1 API with on-site keys, GPU worker fleet with cross-machine RPC sharding",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hugpy/0.1.33/",
-    "published_at": "2026-06-17T19:13:40.000Z",
-    "score": 62,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
-  },
-  {
-    "key": "https://pypi.org/project/hol-guard/2.0.778",
-    "technology": "Claude",
-    "title": "hol-guard 2.0.778",
-    "summary": "Protect local AI harnesses with HOL Guard before tools run in Codex, Claude Code, Cursor, Gemini, and OpenCode.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hol-guard/2.0.778/",
-    "published_at": "2026-06-17T19:13:08.000Z",
-    "score": 94,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/rifteo-context-mcp/0.1.0",
-    "technology": "Infra AI",
-    "title": "rifteo-context-mcp 0.1.0",
-    "summary": "MCP server serving Rifteo security contexts to AI agents",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/rifteo-context-mcp/0.1.0/",
-    "published_at": "2026-06-17T19:11:57.000Z",
-    "score": 72,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/rifteo-context-mcp",
-    "technology": "Infra AI",
-    "title": "rifteo-context-mcp added to PyPI",
-    "summary": "MCP server serving Rifteo security contexts to AI agents",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/rifteo-context-mcp/",
-    "published_at": "2026-06-17T19:11:52.000Z",
-    "score": 72,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/camt053-mcp/0.0.1",
-    "technology": "Infra AI",
-    "title": "camt053-mcp 0.0.1",
-    "summary": "Model Context Protocol (MCP) server exposing the camt053 ISO 20022 Bank Statement library as agent tools.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/camt053-mcp/0.0.1/",
-    "published_at": "2026-06-17T19:04:39.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/camt053-mcp",
-    "technology": "Infra AI",
-    "title": "camt053-mcp added to PyPI",
-    "summary": "Model Context Protocol (MCP) server exposing the camt053 ISO 20022 Bank Statement library as agent tools.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/camt053-mcp/",
-    "published_at": "2026-06-17T19:04:34.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/pysae-ai-tools/0.1.1331",
-    "technology": "Claude",
-    "title": "pysae-ai-tools 0.1.1331",
-    "summary": "Shared Python tools for Pysae Claude Code skills",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/pysae-ai-tools/0.1.1331/",
-    "published_at": "2026-06-17T12:29:23.000Z",
-    "score": 74,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/execkit-mcp/0.6.0",
-    "technology": "Infra AI",
-    "title": "execkit-mcp 0.6.0",
-    "summary": "execkit MCP server - stateful, structured, safe shell sessions for AI agents over local shells, SSH, and Docker.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/execkit-mcp/0.6.0/",
-    "published_at": "2026-06-17T12:26:32.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/openinterp-mcp/0.2.0",
-    "technology": "Infra AI",
-    "title": "openinterp-mcp 0.2.0",
-    "summary": "MCP server + Colab backend for mechanistic interpretability research. Bring-your-own-agent. Privacy-first.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/openinterp-mcp/0.2.0/",
-    "published_at": "2026-06-17T12:17:45.000Z",
-    "score": 58,
     "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   }
 ]
