@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T00:13:30.501Z",
+  "generated_at": "2026-07-03T11:37:50.450Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -11,8 +11,8 @@
     "Infra AI"
   ],
   "source_counts": {
-    "rss": 34,
-    "github": 7,
+    "rss": 32,
+    "github": 8,
     "newsapi": 50
   },
   "digest": {
@@ -21,24 +21,17 @@
     "telegram_summary": [
       {
         "technology": "Claude",
-        "title": "fagun 0.8.0",
+        "title": "dbtips-curate added to PyPI",
         "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 94,
-        "url": "https://pypi.org/project/fagun/0.8.0/"
+        "score": 98,
+        "url": "https://pypi.org/project/dbtips-curate/"
       },
       {
-        "technology": "Claude",
-        "title": "plugin-scanner 2.0.964",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 94,
-        "url": "https://pypi.org/project/plugin-scanner/2.0.964/"
-      },
-      {
-        "technology": "Claude",
-        "title": "hol-guard 2.0.964",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 94,
-        "url": "https://pypi.org/project/hol-guard/2.0.964/"
+        "technology": "Codex",
+        "title": "0.143.0-alpha.35",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 90,
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.35"
       },
       {
         "technology": "Codex",
@@ -69,11 +62,18 @@
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.142.5"
       },
       {
-        "technology": "Claude",
-        "title": "observational-memory 0.9.0",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "technology": "Codex",
+        "title": "codecompass-mcp 2.4.0",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
         "score": 82,
-        "url": "https://pypi.org/project/observational-memory/0.9.0/"
+        "url": "https://pypi.org/project/codecompass-mcp/2.4.0/"
+      },
+      {
+        "technology": "Claude",
+        "title": "coderouter-cli 2.7.0",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 78,
+        "url": "https://pypi.org/project/coderouter-cli/2.7.0/"
       }
     ]
   },
@@ -82,58 +82,39 @@
       "id": 1,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "fagun 0.8.0",
-      "summary": "Fagun — one MCP server that lets any AI tool (Claude, Cursor, Codex, Antigravity, Windsurf) use a site as real end users, run full UAT, hunt bugs, and give a product-readiness verdict.",
+      "title": "dbtips-curate added to PyPI",
+      "summary": "Three-way merge curation for dbtips pipeline-generated dossier caches. Ships agentskills.io-compatible skills for Claude Code, OpenAI Codex, and Google Antigravity.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/fagun/0.8.0/",
-      "published_at": "2026-07-01T23:46:09.000Z",
-      "score": 94,
+      "source_url": "https://pypi.org/project/dbtips-curate/",
+      "published_at": "2026-07-02T10:53:19.000Z",
+      "score": 98,
       "tags": [
         "Claude",
         "Codex",
-        "Infra AI"
+        "ChatGPT / OpenAI"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 2,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "plugin-scanner 2.0.964",
-      "summary": "Protect local AI harnesses with HOL Guard and run scanner checks for Codex, Claude, Cursor, Gemini, OpenCode, and Pi.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/plugin-scanner/2.0.964/",
-      "published_at": "2026-07-01T23:09:54.000Z",
-      "score": 94,
+      "kind": "github_release",
+      "technology": "Codex",
+      "title": "0.143.0-alpha.35",
+      "summary": "Release 0.143.0-alpha.35",
+      "source": "GitHub: openai/codex",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.35",
+      "published_at": "2026-07-03T02:33:31.000Z",
+      "score": 90,
       "tags": [
-        "Claude",
         "Codex",
-        "Gemini"
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
       "relevant": true
     },
     {
       "id": 3,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "hol-guard 2.0.964",
-      "summary": "Protect local AI harnesses with HOL Guard and run scanner checks for Codex, Claude, Cursor, Gemini, OpenCode, and Pi.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/hol-guard/2.0.964/",
-      "published_at": "2026-07-01T23:09:52.000Z",
-      "score": 94,
-      "tags": [
-        "Claude",
-        "Codex",
-        "Gemini"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 4,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.143.0-alpha.34",
@@ -150,7 +131,7 @@
       "relevant": true
     },
     {
-      "id": 5,
+      "id": 4,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.143.0-alpha.33",
@@ -167,7 +148,7 @@
       "relevant": true
     },
     {
-      "id": 6,
+      "id": 5,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.143.0-alpha.32",
@@ -184,7 +165,7 @@
       "relevant": true
     },
     {
-      "id": 7,
+      "id": 6,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.142.5",
@@ -201,18 +182,35 @@
       "relevant": true
     },
     {
+      "id": 7,
+      "kind": "newsapi",
+      "technology": "Codex",
+      "title": "codecompass-mcp 2.4.0",
+      "summary": "Structural code context for AI coding agents — a local code knowledge graph for blast radius, impact, deps, dead code, and flow tracing",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/codecompass-mcp/2.4.0/",
+      "published_at": "2026-07-02T10:52:29.000Z",
+      "score": 82,
+      "tags": [
+        "Codex",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "relevant": true
+    },
+    {
       "id": 8,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "observational-memory 0.9.0",
-      "summary": "Cross-agent observational memory and local search for Claude Code, Codex CLI, OpenCode, Kimi Code CLI, Grok Build TUI, Cowork, and Hermes Agent",
+      "title": "coderouter-cli 2.7.0",
+      "summary": "Local-first, free-first, fallback-built-in LLM router. Claude Code / OpenAI compatible.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/observational-memory/0.9.0/",
-      "published_at": "2026-07-01T23:46:01.000Z",
-      "score": 82,
+      "source_url": "https://pypi.org/project/coderouter-cli/2.7.0/",
+      "published_at": "2026-07-02T11:25:50.000Z",
+      "score": 78,
       "tags": [
         "Claude",
-        "Codex"
+        "ChatGPT / OpenAI"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
@@ -221,12 +219,12 @@
       "id": 9,
       "kind": "newsapi",
       "technology": "ChatGPT / OpenAI",
-      "title": "local-engine-router 0.6.0",
-      "summary": "A single-port OpenAI- and Ollama-compatible reverse proxy that swaps the GPU between local LLM engines on demand.",
+      "title": "codemie-mcp-assistants 0.1.478",
+      "summary": "MCP server for connecting to CodeMie Assistants API",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/local-engine-router/0.6.0/",
-      "published_at": "2026-07-01T23:37:16.000Z",
-      "score": 74,
+      "source_url": "https://pypi.org/project/codemie-mcp-assistants/0.1.478/",
+      "published_at": "2026-07-02T11:15:14.000Z",
+      "score": 78,
       "tags": [
         "ChatGPT / OpenAI",
         "Infra AI"
@@ -242,7 +240,7 @@
       "summary": "The newly released Gemma 4 12B is a dense, multimodal model designed for high-performance local AI execution on consumer devices. By introducing a novel, encoder-free architecture, it bypasses traditional visual and audio encoders to feed multimodal data directly into the LLM backbone.",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/gemma-4-12b-the-developer-guide/",
-      "published_at": "2026-07-03T00:13:29.223Z",
+      "published_at": "2026-07-03T11:37:48.946Z",
       "score": 70,
       "tags": [
         "ChatGPT / OpenAI"
@@ -252,38 +250,23 @@
     },
     {
       "id": 11,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "mlx-memo 2.9.7",
-      "summary": "Local-first semantic memory for AI agents — MLX (Apple Silicon) or CPU sentence-transformers (Linux/Ubuntu) embeddings + sqlite-vec, MCP server. No cloud, no API keys.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/mlx-memo/2.9.7/",
-      "published_at": "2026-07-01T23:30:56.000Z",
-      "score": 66,
+      "kind": "rss",
+      "technology": "Claude",
+      "title": "GPT and Claude failed Bridgewater's finance tests because the right answers were never public",
+      "summary": "The hedge fund Bridgewater and Thinking Machines Lab report that a finely tuned open-weight model outperforms the most powerful AI models in the evaluation of financial documents, at a fraction of the cost. The figures come from their own analysis. The article GPT and Claude failed Bridgewater's finance tests because the right answers wer...",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/gpt-and-claude-failed-bridgewaters-finance-tests-because-the-right-answers-were-never-public/",
+      "published_at": "2026-07-03T11:16:42.000Z",
+      "score": 68,
       "tags": [
-        "Infra AI"
+        "Claude",
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 12,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "meridian-cli 0.3.21",
-      "summary": "Orchestrate CLI + MCP server for multi-model agent workflows",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/meridian-cli/0.3.21/",
-      "published_at": "2026-07-01T23:21:48.000Z",
-      "score": 66,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 13,
       "kind": "rss",
       "technology": "Claude",
       "title": "Anthropic reportedly explores custom chip manufacturing with Samsung while insisting Nvidia still matters",
@@ -300,14 +283,30 @@
       "relevant": true
     },
     {
-      "id": 14,
+      "id": 13,
       "kind": "rss",
       "technology": "Gemini",
       "title": "A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs",
       "summary": "This post introduces three architectural patterns designed to integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI) to solve the tradeoff between highly custom iframe environments and native, declarative rendering. By combining these approaches, developers can serve native-feeling UIs directly over MCP servers, em...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/a2ui-and-mcp-apps/",
-      "published_at": "2026-07-03T00:13:29.223Z",
+      "published_at": "2026-07-03T11:37:48.946Z",
+      "score": 62,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 14,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "contextlake 2.24.0",
+      "summary": "A local context layer for AI tools: mirror your repositories, index them into a knowledge graph, and serve it over MCP so agents answer from real source instead of guessing.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/contextlake/2.24.0/",
+      "published_at": "2026-07-02T11:36:29.000Z",
       "score": 62,
       "tags": [
         "Infra AI"
@@ -319,11 +318,11 @@
       "id": 15,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "analog-mcp 0.5.0",
-      "summary": "Model Context Protocol server for Analog — let AI agents understand any website in a format built for AIs.",
+      "title": "fabric-dw 2026.6.1.dev38",
+      "summary": "Python CLI and MCP server for Microsoft Fabric Data Warehouses and SQL Analytics Endpoints: administer, query, optimize, and secure them from your terminal or your AI agent",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/analog-mcp/0.5.0/",
-      "published_at": "2026-07-01T23:37:02.000Z",
+      "source_url": "https://pypi.org/project/fabric-dw/2026.6.1.dev38/",
+      "published_at": "2026-07-02T11:36:22.000Z",
       "score": 62,
       "tags": [
         "Infra AI"
@@ -335,11 +334,11 @@
       "id": 16,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "fabric-dw 2026.6.1.dev32",
-      "summary": "Python CLI and MCP server for Microsoft Fabric Data Warehouses and SQL Analytics Endpoints: administer, query, optimize, and secure them from your terminal or your AI agent",
+      "title": "grp-mcp 0.34.0",
+      "summary": "MCP server exposing Acumatica ERP (contract-based REST API) as tools for AI agents. Multi-instance, OAuth2.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/fabric-dw/2026.6.1.dev32/",
-      "published_at": "2026-07-01T23:36:18.000Z",
+      "source_url": "https://pypi.org/project/grp-mcp/0.34.0/",
+      "published_at": "2026-07-02T11:31:13.000Z",
       "score": 62,
       "tags": [
         "Infra AI"
@@ -350,45 +349,45 @@
     {
       "id": 17,
       "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "fabric-dw 2026.6.1.dev31",
-      "summary": "Python CLI and MCP server for Microsoft Fabric Data Warehouses and SQL Analytics Endpoints: administer, query, optimize, and secure them from your terminal or your AI agent",
+      "technology": "Claude",
+      "title": "yepgent added to PyPI",
+      "summary": "Name reservation for Yepgent (Local Yep) — a local-first agent framework for Claude Code. Official releases will replace this placeholder; do not depend on it yet.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/fabric-dw/2026.6.1.dev31/",
-      "published_at": "2026-07-01T23:24:31.000Z",
+      "source_url": "https://pypi.org/project/yepgent/",
+      "published_at": "2026-07-02T11:09:17.000Z",
       "score": 62,
       "tags": [
-        "Infra AI"
+        "Claude"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 18,
       "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "fabric-dw 2026.6.1.dev30",
-      "summary": "Python CLI and MCP server for Microsoft Fabric Data Warehouses and SQL Analytics Endpoints: administer, query, optimize, and secure them from your terminal or your AI agent",
+      "technology": "Claude",
+      "title": "local-yep added to PyPI",
+      "summary": "Name reservation for Local Yep — a local-first agent framework for Claude Code. Official releases will replace this placeholder; do not depend on it yet.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/fabric-dw/2026.6.1.dev30/",
-      "published_at": "2026-07-01T23:15:51.000Z",
+      "source_url": "https://pypi.org/project/local-yep/",
+      "published_at": "2026-07-02T11:09:14.000Z",
       "score": 62,
       "tags": [
-        "Infra AI"
+        "Claude"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 19,
-      "kind": "rss",
-      "technology": "Gemini",
-      "title": "Supercharge your integration workflow with the Google Pay & Wallet Developer MCP server",
-      "summary": "Google has announced the new Google Pay & Wallet Developer MCP server, an open-standard tool designed to securely connect AI development assistants and IDEs with real-time API and account context. The server allows developers to remain within their development environment to search official documentation, validate Wallet pass definitions,...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/",
-      "published_at": "2026-07-03T00:13:29.224Z",
-      "score": 58,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "fabric-dw 2026.6.1.dev37",
+      "summary": "Python CLI and MCP server for Microsoft Fabric Data Warehouses and SQL Analytics Endpoints: administer, query, optimize, and secure them from your terminal or your AI agent",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/fabric-dw/2026.6.1.dev37/",
+      "published_at": "2026-07-02T10:53:52.000Z",
+      "score": 62,
       "tags": [
         "Infra AI"
       ],
@@ -397,14 +396,14 @@
     },
     {
       "id": 20,
-      "kind": "rss",
-      "technology": "Gemini",
-      "title": "The latest updates to Google Pay",
-      "summary": "Google Pay is evolving for \"agentic commerce\" by introducing the Universal Commerce Protocol and a new MCP server that allows AI agents to manage integrations and analyze trends. New Android updates introduce dynamic callbacks for seamless express checkouts and extend payment support into social media apps via WebViews. Additionally, the...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/the-latest-updates-to-google-pay/",
-      "published_at": "2026-07-03T00:13:29.224Z",
-      "score": 58,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "embed-client 3.1.9.4",
+      "summary": "Async client for the Embedding Service API. Canonical class: EmbeddingClient (JSON-RPC via mcp-proxy-adapter >=8.10).",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/embed-client/3.1.9.4/",
+      "published_at": "2026-07-02T10:48:06.000Z",
+      "score": 62,
       "tags": [
         "Infra AI"
       ],
@@ -413,6 +412,38 @@
     },
     {
       "id": 21,
+      "kind": "rss",
+      "technology": "Gemini",
+      "title": "The latest updates to Google Pay",
+      "summary": "Google Pay is evolving for \"agentic commerce\" by introducing the Universal Commerce Protocol and a new MCP server that allows AI agents to manage integrations and analyze trends. New Android updates introduce dynamic callbacks for seamless express checkouts and extend payment support into social media apps via WebViews. Additionally, the...",
+      "source": "Google Developers Blog",
+      "source_url": "https://developers.googleblog.com/the-latest-updates-to-google-pay/",
+      "published_at": "2026-07-03T11:37:48.947Z",
+      "score": 58,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 22,
+      "kind": "rss",
+      "technology": "Gemini",
+      "title": "Supercharge your integration workflow with the Google Pay & Wallet Developer MCP server",
+      "summary": "Google has announced the new Google Pay & Wallet Developer MCP server, an open-standard tool designed to securely connect AI development assistants and IDEs with real-time API and account context. The server allows developers to remain within their development environment to search official documentation, validate Wallet pass definitions,...",
+      "source": "Google Developers Blog",
+      "source_url": "https://developers.googleblog.com/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/",
+      "published_at": "2026-07-03T11:37:48.946Z",
+      "score": 58,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 23,
       "kind": "rss",
       "technology": "Claude",
       "title": "Microsoft launches $2.5 billion \"Frontier Company\" to embed 6,000 AI engineers inside enterprise clients",
@@ -429,46 +460,14 @@
       "relevant": true
     },
     {
-      "id": 22,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "proton-workflow-connector 1.3.0",
-      "summary": "Unofficial self-hosted MCP connector for Proton Mail Bridge and SimpleLogin.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/proton-workflow-connector/1.3.0/",
-      "published_at": "2026-07-02T00:09:47.000Z",
-      "score": 58,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 23,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "mcp-uof 0.1.3",
-      "summary": "MCP server wrapping UOF SOAP/ASMX services into AI Agent-callable workflow tools",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/mcp-uof/0.1.3/",
-      "published_at": "2026-07-01T23:51:51.000Z",
-      "score": 58,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
       "id": 24,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "synapse-layer 2.4.4",
-      "summary": "Persistent memory infrastructure for AI agents — AES-256-GCM encrypted at rest, semantic search, MCP-native.",
+      "title": "djangorestframework-mcp-server 0.9.1",
+      "summary": "Expose djangorestframework-services services and selectors as an MCP (Model Context Protocol) server.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/synapse-layer/2.4.4/",
-      "published_at": "2026-07-01T23:50:51.000Z",
+      "source_url": "https://pypi.org/project/djangorestframework-mcp-server/0.9.1/",
+      "published_at": "2026-07-02T11:36:38.000Z",
       "score": 58,
       "tags": [
         "Infra AI"
