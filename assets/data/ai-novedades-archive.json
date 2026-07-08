@@ -1,5 +1,16 @@
 [
   {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.39",
+    "technology": "Codex",
+    "title": "0.143.0-alpha.39",
+    "summary": "Release 0.143.0-alpha.39",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.39",
+    "published_at": "2026-07-07T23:52:33.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs",
     "technology": "Claude",
     "title": "Copilot goes cheap as Microsoft phases out OpenAI and Anthropic models to cut costs",
@@ -55,6 +66,39 @@
     "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
   },
   {
+    "key": "https://pypi.org/project/qiongli/1.17.0b1",
+    "technology": "Claude",
+    "title": "qiongli 1.17.0b1",
+    "summary": "Installer/upgrader CLI for qiongli (Codex / Claude Code / Gemini) without requiring a git fork.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/qiongli/1.17.0b1/",
+    "published_at": "2026-07-07T00:03:04.000Z",
+    "score": 94,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/pretorin/0.26.5",
+    "technology": "Infra AI",
+    "title": "pretorin 0.26.5",
+    "summary": "CLI and MCP server for Pretorin Compliance API",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/pretorin/0.26.5/",
+    "published_at": "2026-07-07T00:01:50.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/mlx-memo/2.12.16",
+    "technology": "Infra AI",
+    "title": "mlx-memo 2.12.16",
+    "summary": "Local-first semantic memory for AI agents — MLX (Apple Silicon) or CPU sentence-transformers (Linux/Ubuntu) embeddings + sqlite-vec, MCP server. No cloud, no API keys.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mlx-memo/2.12.16/",
+    "published_at": "2026-07-07T00:00:45.000Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
     "key": "https://openai.com/index/australian-payments-plus",
     "technology": "Codex",
     "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
@@ -64,6 +108,94 @@
     "published_at": "2026-07-07T00:00:00.000Z",
     "score": 74,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/hugpy/0.1.126",
+    "technology": "ChatGPT / OpenAI",
+    "title": "hugpy 0.1.126",
+    "summary": "Self-hosted LLM console: model registry & downloads, streaming chat, OpenAI-compatible /v1 API with on-site keys, GPU worker fleet with cross-machine RPC sharding",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/hugpy/0.1.126/",
+    "published_at": "2026-07-06T23:58:12.000Z",
+    "score": 62,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://pypi.org/project/abstract-hugpy-dev/0.1.148",
+    "technology": "ChatGPT / OpenAI",
+    "title": "abstract-hugpy-dev 0.1.148",
+    "summary": "Self-hosted LLM console: model registry & downloads, streaming chat, OpenAI-compatible /v1 API with on-site keys, GPU worker fleet with cross-machine RPC sharding",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/abstract-hugpy-dev/0.1.148/",
+    "published_at": "2026-07-06T23:57:14.000Z",
+    "score": 62,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://pypi.org/project/codrspot-processor-mcp/0.1.9",
+    "technology": "Claude",
+    "title": "codrspot-processor-mcp 0.1.9",
+    "summary": "Local MCP server exposing codepreproc's code-context tools to Claude Code",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/codrspot-processor-mcp/0.1.9/",
+    "published_at": "2026-07-06T23:56:17.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/dcc-mcp-core/0.19.13",
+    "technology": "Infra AI",
+    "title": "dcc-mcp-core 0.19.13",
+    "summary": "Foundational library for the DCC Model Context Protocol (MCP) ecosystem",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/dcc-mcp-core/0.19.13/",
+    "published_at": "2026-07-06T23:23:57.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/mlx-memo/2.12.15",
+    "technology": "Infra AI",
+    "title": "mlx-memo 2.12.15",
+    "summary": "Local-first semantic memory for AI agents — MLX (Apple Silicon) or CPU sentence-transformers (Linux/Ubuntu) embeddings + sqlite-vec, MCP server. No cloud, no API keys.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mlx-memo/2.12.15/",
+    "published_at": "2026-07-06T23:16:09.000Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/canonia",
+    "technology": "Codex",
+    "title": "canonia added to PyPI",
+    "summary": "A git-backed, MCP-served knowledge graph for AI coding agents. Pre-alpha — name reserved, framework in active design.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/canonia/",
+    "published_at": "2026-07-06T23:13:43.000Z",
+    "score": 78,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/canonia/0.0.1",
+    "technology": "Codex",
+    "title": "canonia 0.0.1",
+    "summary": "A git-backed, MCP-served knowledge graph for AI coding agents. Pre-alpha — name reserved, framework in active design.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/canonia/0.0.1/",
+    "published_at": "2026-07-06T23:13:43.000Z",
+    "score": 78,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/dcc-mcp-server/0.19.13",
+    "technology": "OpenClaw",
+    "title": "dcc-mcp-server 0.19.13",
+    "summary": "Standalone dcc-mcp-server CLI binary — gateway, sidecar, stdio bridge (Rust)",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/dcc-mcp-server/0.19.13/",
+    "published_at": "2026-07-06T23:13:17.000Z",
+    "score": 78,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
   },
   {
     "key": "https://pypi.org/project/harbormaster-mcp/27.1.2",
@@ -6466,137 +6598,5 @@
     "published_at": "2026-06-24T11:04:03.000Z",
     "score": 62,
     "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/spawnllm/0.5.1",
-    "technology": "Claude",
-    "title": "spawnllm 0.5.1",
-    "summary": "Subshell + MLX LLM-calling backends (Claude/Codex CLI, local MLX) shared across tools.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/spawnllm/0.5.1/",
-    "published_at": "2026-06-24T11:03:18.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/trinity-agent/1.0.75",
-    "technology": "Claude",
-    "title": "trinity-agent 1.0.75",
-    "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/trinity-agent/1.0.75/",
-    "published_at": "2026-06-24T10:59:10.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/mailchimp-mcp/0.7.0",
-    "technology": "Infra AI",
-    "title": "mailchimp-mcp 0.7.0",
-    "summary": "MCP server for the Mailchimp Marketing API — access campaigns, audiences, reports, and more from any MCP-compatible client.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/mailchimp-mcp/0.7.0/",
-    "published_at": "2026-06-24T10:56:03.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-    "technology": "Codex",
-    "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-    "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
-    "source": "OpenAI News",
-    "source_url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-    "published_at": "2026-06-24T06:00:00.000Z",
-    "score": 54,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.14",
-    "technology": "Codex",
-    "title": "0.143.0-alpha.14",
-    "summary": "Release 0.143.0-alpha.14",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.14",
-    "published_at": "2026-06-24T05:42:10.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.13",
-    "technology": "Codex",
-    "title": "0.143.0-alpha.13",
-    "summary": "Release 0.143.0-alpha.13",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.13",
-    "published_at": "2026-06-24T03:24:37.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.12",
-    "technology": "Codex",
-    "title": "0.143.0-alpha.12",
-    "summary": "Release 0.143.0-alpha.12",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.12",
-    "published_at": "2026-06-24T02:23:39.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.11",
-    "technology": "Codex",
-    "title": "0.143.0-alpha.11",
-    "summary": "Release 0.143.0-alpha.11",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.11",
-    "published_at": "2026-06-24T01:17:30.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.9",
-    "technology": "Codex",
-    "title": "0.143.0-alpha.9",
-    "summary": "Release 0.143.0-alpha.9",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.9",
-    "published_at": "2026-06-23T18:56:35.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/plugin-scanner/2.0.872",
-    "technology": "Claude",
-    "title": "plugin-scanner 2.0.872",
-    "summary": "Protect local AI harnesses with HOL Guard and run scanner checks for Codex, Claude, Cursor, Gemini, OpenCode, and Pi.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/plugin-scanner/2.0.872/",
-    "published_at": "2026-06-23T18:54:15.000Z",
-    "score": 94,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/joinmultiplayer/0.1.2",
-    "technology": "Claude",
-    "title": "joinmultiplayer 0.1.2",
-    "summary": "Join joinmultiplayer.ai — the agent-native 'ask the network'. Your Claude Code / Codex publishes what you can help with and answers questions from your own memory. No signup, no account, no credentials — runs locally.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/joinmultiplayer/0.1.2/",
-    "published_at": "2026-06-23T18:50:55.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/clawmetry/0.12.528",
-    "technology": "OpenClaw",
-    "title": "clawmetry 0.12.528",
-    "summary": "ClawMetry - Real-time observability for 12 AI agent runtimes (OpenClaw, NVIDIA NemoClaw, Claude Code, Codex & more)",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/clawmetry/0.12.528/",
-    "published_at": "2026-06-23T18:50:52.000Z",
-    "score": 100,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
   }
 ]
