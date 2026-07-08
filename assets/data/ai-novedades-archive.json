@@ -1,5 +1,27 @@
 [
   {
+    "key": "https://the-decoder.com/openais-gpt-5-6-launches-thursday-after-a-delay-forced-by-the-u-s-government",
+    "technology": "Claude",
+    "title": "OpenAI's GPT-5.6 launches Thursday after a delay forced by the U.S. government",
+    "summary": "OpenAI is launching GPT-5.6 on Thursday after the U.S. government lifted its release ban following additional testing. Binding standards for future model approvals still don't exist. OpenAI says the Sol model beats Anthropic's Claude Mythos 5 on coding benchmarks at about half the cost. The article OpenAI's GPT-5.6 launches Thursday after...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/openais-gpt-5-6-launches-thursday-after-a-delay-forced-by-the-u-s-government/",
+    "published_at": "2026-07-08T08:00:30.000Z",
+    "score": 80,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.143.0",
+    "technology": "Codex",
+    "title": "0.143.0",
+    "summary": "## New Features - Remote plugins are now enabled by default, with richer catalog rows, npm marketplace sources, and visible remote/local versions. (#30297, #26705, #29375, #30981) - Codex can route authentication and Responses API traffic through macOS and Windows system proxies, including PAC and WPAD configurations. (#26708, #26709, #31...",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0",
+    "published_at": "2026-07-08T01:31:10.000Z",
+    "score": 94,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.39",
     "technology": "Codex",
     "title": "0.143.0-alpha.39",
@@ -30,6 +52,149 @@
     "source_url": "https://the-decoder.com/chinese-ai-models-regularly-pass-30-percent-on-openrouter-as-cost-gap-widens/",
     "published_at": "2026-07-07T11:34:52.000Z",
     "score": 68,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/handoff-mcp/0.3.2",
+    "technology": "Claude",
+    "title": "handoff-mcp 0.3.2",
+    "summary": "Persistent cross-session memory and structured hand-off for Claude, exposed over the Model Context Protocol.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/handoff-mcp/0.3.2/",
+    "published_at": "2026-07-07T11:00:48.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://www.pymnts.com/news/artificial-intelligence/2026/alibaba-blocks-staff-from-using-anthropic-ai-amid-security-concerns",
+    "technology": "Claude",
+    "title": "Alibaba Blocks Staff From Using Anthropic AI Amid Security Concerns",
+    "summary": "China’s eCommerce company Alibaba has reportedly barred employees from using Anthropic’s AI tools at work. The tech giant has placed Anthropic’s Claude Code on a high-risk software list, CNBC reported Monday (July 6), citing sources familiar with the matter. …",
+    "source": "pymnts.com",
+    "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/alibaba-blocks-staff-from-using-anthropic-ai-amid-security-concerns/",
+    "published_at": "2026-07-07T10:46:14.000Z",
+    "score": 64,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/qiongli/1.17.0b2",
+    "technology": "Claude",
+    "title": "qiongli 1.17.0b2",
+    "summary": "Installer/upgrader CLI for qiongli (Codex / Claude Code / Gemini) without requiring a git fork.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/qiongli/1.17.0b2/",
+    "published_at": "2026-07-07T10:46:06.000Z",
+    "score": 94,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/handoff-mcp/0.3.1",
+    "technology": "Claude",
+    "title": "handoff-mcp 0.3.1",
+    "summary": "Persistent cross-session memory and structured hand-off for Claude, exposed over the Model Context Protocol.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/handoff-mcp/0.3.1/",
+    "published_at": "2026-07-07T10:41:58.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/cyborgy/0.1.16",
+    "technology": "Claude",
+    "title": "cyborgy 0.1.16",
+    "summary": "Extend the claude and codex CLIs: skills marketplace, memory, and extension APIs via the Cyborgy MCP.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/cyborgy/0.1.16/",
+    "published_at": "2026-07-07T10:40:53.000Z",
+    "score": 100,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/fabric-dw/2026.7.1.dev5",
+    "technology": "Infra AI",
+    "title": "fabric-dw 2026.7.1.dev5",
+    "summary": "Python CLI and MCP server for Microsoft Fabric Data Warehouses and SQL Analytics Endpoints: administer, query, optimize, and secure them from your terminal or your AI agent",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/fabric-dw/2026.7.1.dev5/",
+    "published_at": "2026-07-07T10:40:22.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/fabric-dw/2026.7.1.dev4",
+    "technology": "Infra AI",
+    "title": "fabric-dw 2026.7.1.dev4",
+    "summary": "Python CLI and MCP server for Microsoft Fabric Data Warehouses and SQL Analytics Endpoints: administer, query, optimize, and secure them from your terminal or your AI agent",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/fabric-dw/2026.7.1.dev4/",
+    "published_at": "2026-07-07T10:39:36.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/fabric-dw/2026.7.1.dev3",
+    "technology": "Infra AI",
+    "title": "fabric-dw 2026.7.1.dev3",
+    "summary": "Python CLI and MCP server for Microsoft Fabric Data Warehouses and SQL Analytics Endpoints: administer, query, optimize, and secure them from your terminal or your AI agent",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/fabric-dw/2026.7.1.dev3/",
+    "published_at": "2026-07-07T10:38:55.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/pysae-ai-tools/0.1.1450",
+    "technology": "Claude",
+    "title": "pysae-ai-tools 0.1.1450",
+    "summary": "Shared Python tools for Pysae Claude Code skills",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/pysae-ai-tools/0.1.1450/",
+    "published_at": "2026-07-07T10:38:54.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/grp-mcp/0.48.3",
+    "technology": "Infra AI",
+    "title": "grp-mcp 0.48.3",
+    "summary": "MCP server exposing Acumatica ERP (contract-based REST API) as tools for AI agents. Multi-instance, OAuth2.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/grp-mcp/0.48.3/",
+    "published_at": "2026-07-07T10:36:05.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://github.com/wppoland/woocommerce-mcp",
+    "technology": "Claude",
+    "title": "Show HN: A read-only MCP server for WooCommerce",
+    "summary": "Read-only Model Context Protocol (MCP) server for WordPress + WooCommerce — give Claude and other AI agents access to products, orders, sales reports and posts over the REST API. By wppoland.com - ...",
+    "source": "Github.com",
+    "source_url": "https://github.com/wppoland/woocommerce-mcp",
+    "published_at": "2026-07-07T10:33:32.000Z",
+    "score": 90,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/openqa-mcp/0.3.0",
+    "technology": "Infra AI",
+    "title": "openqa-mcp 0.3.0",
+    "summary": "Local openQA mcp client",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/openqa-mcp/0.3.0/",
+    "published_at": "2026-07-07T10:32:58.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/pysae-ai-tools/0.1.1449",
+    "technology": "Claude",
+    "title": "pysae-ai-tools 0.1.1449",
+    "summary": "Shared Python tools for Pysae Claude Code skills",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/pysae-ai-tools/0.1.1449/",
+    "published_at": "2026-07-07T10:31:57.000Z",
+    "score": 74,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   },
   {
@@ -6433,170 +6598,5 @@
     "published_at": "2026-06-24T18:34:33.000Z",
     "score": 82,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/nauro/1.1.0",
-    "technology": "Infra AI",
-    "title": "nauro 1.1.0",
-    "summary": "Local CLI + MCP server: set your project's doctrine once, every connected AI agent inherits it.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/nauro/1.1.0/",
-    "published_at": "2026-06-24T18:32:09.000Z",
-    "score": 66,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/trinity-agent/1.0.114",
-    "technology": "Claude",
-    "title": "trinity-agent 1.0.114",
-    "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/trinity-agent/1.0.114/",
-    "published_at": "2026-06-24T18:25:46.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://the-decoder.com/snowflake-ceo-finds-glm-5-2-competitive-with-opus-4-7-at-a-fraction-of-the-cost",
-    "technology": "Claude",
-    "title": "Snowflake CEO finds GLM-5.2 competitive with Opus 4.7 at a fraction of the cost",
-    "summary": "Zhipu AI's GLM-5.2 nearly matches Claude Opus 4.7 in a Snowflake benchmark with 103 coding tasks at one-fifth the cost per output token. But the Chinese model burns through nearly twice as many tokens per task. Still, that pricing gap is putting real pressure on Anthropic and OpenAI, and could rattle the valuations of Western AI labs. The...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/snowflake-ceo-finds-glm-5-2-competitive-with-opus-4-7-at-a-fraction-of-the-cost/",
-    "published_at": "2026-06-24T17:07:37.000Z",
-    "score": 76,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://the-decoder.com/openai-and-broadcom-unveil-jalapeno-a-custom-chip-built-for-llm-inference",
-    "technology": "ChatGPT / OpenAI",
-    "title": "OpenAI and Broadcom unveil \"Jalapeño,\" a custom chip built for LLM inference",
-    "summary": "OpenAI is adding custom hardware to its tech stack. The \"Jalapeño\" chip, developed with Broadcom, is tailored for large language model inference and is set to run at scale by late 2026. The article OpenAI and Broadcom unveil \"Jalapeño,\" a custom chip built for LLM inference appeared first on The Decoder.",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/openai-and-broadcom-unveil-jalapeno-a-custom-chip-built-for-llm-inference/",
-    "published_at": "2026-06-24T13:50:56.000Z",
-    "score": 54,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
-  },
-  {
-    "key": "https://the-decoder.com/openais-deployment-chief-on-codex-growth-falling-ai-prices-and-the-roi-question",
-    "technology": "Codex",
-    "title": "OpenAI's deployment chief on Codex growth, falling AI prices, and the ROI question",
-    "summary": "OpenAI deployment chief Arnaud Fournier explains in an interview how DeployCo wants to embed AI deep inside large corporations using its own engineers. He talks about explosive Codex growth, the feedback loop from customers back into model development, and why he thinks the price of AI intelligence has dropped sharply. The article OpenAI'...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/openais-deployment-chief-on-codex-growth-falling-ai-prices-and-the-roi-question/",
-    "published_at": "2026-06-24T13:00:14.000Z",
-    "score": 74,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/skymoore/codemcp",
-    "technology": "Infra AI",
-    "title": "Show HN: Codemcp, One MCP tool that lets agents write Python to call many",
-    "summary": "See the readme. 55-90% input token savings. You can run this test yourself in the /bench directory. Comments URL: https://news.ycombinator.com/item?id=48658274 Points: 2 # Comments: 0",
-    "source": "Github.com",
-    "source_url": "https://github.com/skymoore/codemcp",
-    "published_at": "2026-06-24T11:41:30.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/llm-usage-mcp/0.1.0",
-    "technology": "Codex",
-    "title": "llm-usage-mcp 0.1.0",
-    "summary": "Local-first, multi-provider tool that captures LLM API spend and exposes it to coding agents via MCP",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/llm-usage-mcp/0.1.0/",
-    "published_at": "2026-06-24T11:34:17.000Z",
-    "score": 86,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/llm-usage-mcp",
-    "technology": "Codex",
-    "title": "llm-usage-mcp added to PyPI",
-    "summary": "Local-first, multi-provider tool that captures LLM API spend and exposes it to coding agents via MCP",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/llm-usage-mcp/",
-    "published_at": "2026-06-24T11:34:17.000Z",
-    "score": 86,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://stormatics.tech/blogs/mcp-for-postgresql-automated-health-checks-performance-analysis",
-    "technology": "Infra AI",
-    "title": "warda bibi: MCP For PostgreSQL: Automated Health Checks & Performance Analysis",
-    "summary": "AI agents are becoming increasingly capable at operational tasks: summarizing logs, analyzing query plans, identifying anomalies, and assisting with incident response. For databases in particular, this creates an obvious opportunity. Much of day-to-day troubl…",
-    "source": "Stormatics.tech",
-    "source_url": "https://stormatics.tech/blogs/mcp-for-postgresql-automated-health-checks-performance-analysis",
-    "published_at": "2026-06-24T11:32:42.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/trinity-agent/1.0.78",
-    "technology": "Claude",
-    "title": "trinity-agent 1.0.78",
-    "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/trinity-agent/1.0.78/",
-    "published_at": "2026-06-24T11:28:16.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://github.com/lambda-alpha-labs/graphenium",
-    "technology": "Codex",
-    "title": "Show HN: Graphenium, persistent repo memory for AI coding assistants",
-    "summary": "Persistent structural memory for AI coding agents. Turns your repo into a fast, MCP-native knowledge graph so assistants stop grepping and start querying. - lambda-alpha-labs/Graphenium",
-    "source": "Github.com",
-    "source_url": "https://github.com/lambda-alpha-labs/Graphenium",
-    "published_at": "2026-06-24T11:27:02.000Z",
-    "score": 82,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/abstract-hugpy-dev/0.1.51",
-    "technology": "ChatGPT / OpenAI",
-    "title": "abstract-hugpy-dev 0.1.51",
-    "summary": "Self-hosted LLM console: model registry & downloads, streaming chat, OpenAI-compatible /v1 API with on-site keys, GPU worker fleet with cross-machine RPC sharding",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/abstract-hugpy-dev/0.1.51/",
-    "published_at": "2026-06-24T11:09:50.000Z",
-    "score": 62,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
-  },
-  {
-    "key": "https://pypi.org/project/trinity-agent/1.0.76",
-    "technology": "Claude",
-    "title": "trinity-agent 1.0.76",
-    "summary": "Three minds, one context — Multi-agent AI orchestrator for Claude Code, Codex, and Antigravity CLI.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/trinity-agent/1.0.76/",
-    "published_at": "2026-06-24T11:08:18.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://www.oreilly.com/radar/stop-getting-good-at-protocols-get-good-at-agent-experience",
-    "technology": "Infra AI",
-    "title": "Stop Getting Good at Protocols. Get Good at Agent Experience.",
-    "summary": "In 2025, if you weren’t building with MCP, you weren’t serious about agents. The Model Context Protocol dominated the agent conversation for the better part of the year. Conference talks, roadmaps, hiring plans, all of it revolved around MCP. Then late 2025 i…",
-    "source": "Oreilly.com",
-    "source_url": "https://www.oreilly.com/radar/stop-getting-good-at-protocols-get-good-at-agent-experience/#BlogPosting",
-    "published_at": "2026-06-24T11:04:07.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/vault-for-llm/0.6.92",
-    "technology": "Infra AI",
-    "title": "vault-for-llm 0.6.92",
-    "summary": "Local-first Markdown + SQLite memory for LLM agents, with keyword search, optional embeddings, MCP, and bounded citation tools.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/vault-for-llm/0.6.92/",
-    "published_at": "2026-06-24T11:04:03.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   }
 ]
