@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T00:12:15.065Z",
+  "generated_at": "2026-07-10T12:02:42.651Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -11,9 +11,9 @@
     "Infra AI"
   ],
   "source_counts": {
-    "rss": 29,
+    "rss": 39,
     "github": 8,
-    "newsapi": 50
+    "newsapi": 48
   },
   "digest": {
     "has_relevant_items": true,
@@ -28,24 +28,10 @@
       },
       {
         "technology": "Claude",
-        "title": "microscopy-llm-profiler added to PyPI",
+        "title": "Grok 4.5 is so cheap compared to Fable 5 and GPT 5.5 that benchmark gaps may not matter much",
         "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 100,
-        "url": "https://pypi.org/project/microscopy-llm-profiler/"
-      },
-      {
-        "technology": "Claude",
-        "title": "We made Grok 4.5, GPT-5.5, and Claude build the same apps",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 100,
-        "url": "https://www.tryai.dev/blog/grok-4.5-vs-gpt-5.5-vs-claude-build-off"
-      },
-      {
-        "technology": "Claude",
-        "title": "qiongli 1.18.0b1",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 94,
-        "url": "https://pypi.org/project/qiongli/1.18.0b1/"
+        "score": 96,
+        "url": "https://the-decoder.com/grok-4-5-is-so-cheap-compared-to-fable-5-and-gpt-5-5-that-benchmark-gaps-may-not-matter-much/"
       },
       {
         "technology": "Gemini",
@@ -74,6 +60,20 @@
         "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
         "score": 90,
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.1"
+      },
+      {
+        "technology": "Codex",
+        "title": "0.144.0-alpha.4",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 90,
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.144.0-alpha.4"
+      },
+      {
+        "technology": "Codex",
+        "title": "fraser-gate 0.4.0",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 82,
+        "url": "https://pypi.org/project/fraser-gate/0.4.0/"
       }
     ]
   },
@@ -98,32 +98,14 @@
     },
     {
       "id": 2,
-      "kind": "newsapi",
+      "kind": "rss",
       "technology": "Claude",
-      "title": "microscopy-llm-profiler added to PyPI",
-      "summary": "Agent-native microscopy image analysis over MCP — deterministic Fiji/ImageJ-equivalent segmentation, counting, and localization your Claude/Cursor/Codex agent drives directly.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/microscopy-llm-profiler/",
-      "published_at": "2026-07-08T23:49:51.000Z",
-      "score": 100,
-      "tags": [
-        "Claude",
-        "Codex",
-        "Infra AI"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 3,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "We made Grok 4.5, GPT-5.5, and Claude build the same apps",
-      "summary": "Grok 4.5 just launched. So we had it, GPT-5.5, Claude Opus 4.8, and Fable 5 one-shot the same interactive apps, then measured latency and cost. Here is who won.",
-      "source": "Tryai.dev",
-      "source_url": "https://www.tryai.dev/blog/grok-4.5-vs-gpt-5.5-vs-claude-build-off",
-      "published_at": "2026-07-08T23:27:14.000Z",
-      "score": 100,
+      "title": "Grok 4.5 is so cheap compared to Fable 5 and GPT 5.5 that benchmark gaps may not matter much",
+      "summary": "xAI releases Grok 4.5, trained on tens of thousands of Nvidia GB300 GPUs. In coding benchmarks, the model trails Fable 5 and GPT-5.5 but needs 4.2 times fewer tokens than Opus 4.8. At $2 per million input tokens, it costs a fraction of the competition. EU availability is expected in mid-July. The article Grok 4.5 is so cheap compared to F...",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/grok-4-5-is-so-cheap-compared-to-fable-5-and-gpt-5-5-that-benchmark-gaps-may-not-matter-much/",
+      "published_at": "2026-07-09T07:47:44.000Z",
+      "score": 96,
       "tags": [
         "Claude",
         "ChatGPT / OpenAI",
@@ -133,25 +115,7 @@
       "relevant": true
     },
     {
-      "id": 4,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "qiongli 1.18.0b1",
-      "summary": "Installer/upgrader CLI for qiongli (Codex / Claude Code / Gemini) without requiring a git fork.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/qiongli/1.18.0b1/",
-      "published_at": "2026-07-08T22:44:39.000Z",
-      "score": 94,
-      "tags": [
-        "Claude",
-        "Codex",
-        "Gemini"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 5,
+      "id": 3,
       "kind": "github_release",
       "technology": "Gemini",
       "title": "Release v0.50.0",
@@ -168,7 +132,7 @@
       "relevant": true
     },
     {
-      "id": 6,
+      "id": 4,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.145.0-alpha.2",
@@ -185,7 +149,7 @@
       "relevant": true
     },
     {
-      "id": 7,
+      "id": 5,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.144.1",
@@ -202,7 +166,7 @@
       "relevant": true
     },
     {
-      "id": 8,
+      "id": 6,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.145.0-alpha.1",
@@ -219,7 +183,7 @@
       "relevant": true
     },
     {
-      "id": 9,
+      "id": 7,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.144.0-alpha.4",
@@ -236,66 +200,100 @@
       "relevant": true
     },
     {
-      "id": 10,
+      "id": 8,
       "kind": "newsapi",
-      "technology": "OpenClaw",
-      "title": "perforce-agentic-gateway 2026.4",
-      "summary": "Local MCP gateway that proxies AI clients to many MCP servers with a token-efficient code mode",
+      "technology": "Codex",
+      "title": "fraser-gate 0.4.0",
+      "summary": "MCP server + CLI that lets an AI coding agent run FRASER's persona-based usability review against a build, read grounded experience findings, and gate the fix pass/fail",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/perforce-agentic-gateway/2026.4/",
-      "published_at": "2026-07-08T23:56:55.000Z",
-      "score": 86,
+      "source_url": "https://pypi.org/project/fraser-gate/0.4.0/",
+      "published_at": "2026-07-09T11:28:17.000Z",
+      "score": 82,
       "tags": [
-        "OpenClaw",
+        "Codex",
         "Infra AI"
       ],
-      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "relevant": true
+    },
+    {
+      "id": 9,
+      "kind": "rss",
+      "technology": "Claude",
+      "title": "GPT-5.6 Sol nearly matches Fable 5 on aggregated benchmarks at one-third the cost",
+      "summary": "OpenAI's GPT-5.6 Sol scores 59 points on the Artificial Analysis Intelligence Index, just one point behind Claude Fable 5. At $1.04 per task, it costs a third of what Anthropic's top model charges. In agentic coding, Sol beats every competitor, adding even more pricing pressure on Anthropic. The article GPT-5.6 Sol nearly matches Fable 5...",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/gpt-5-6-sol-nearly-matches-fable-5-on-aggregated-benchmarks-at-one-third-the-cost/",
+      "published_at": "2026-07-09T18:37:51.000Z",
+      "score": 80,
+      "tags": [
+        "Claude",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 10,
+      "kind": "rss",
+      "technology": "Codex",
+      "title": "OpenAI pairs its GPT-5.6 public rollout with ChatGPT Work, a new agent that handles entire workflows",
+      "summary": "OpenAI is launching ChatGPT Work, an agent-based product powered by Codex and the now publicly available GPT-5.6. The agent can independently handle complex projects across apps like Google Drive, Slack, and Salesforce. ChatGPT Work is available now on web, mobile, and desktop, though access depends on the subscription plan. The article O...",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/openai-pairs-its-gpt-5-6-public-rollout-with-chatgpt-work-a-new-agent-that-handles-entire-workflows/",
+      "published_at": "2026-07-09T17:59:22.000Z",
+      "score": 78,
+      "tags": [
+        "Codex",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
       "relevant": true
     },
     {
       "id": 11,
       "kind": "newsapi",
-      "technology": "Codex",
-      "title": "tackit 0.9.1",
-      "summary": "A deterministic task + dependency tracker for coding agents (SQLite + Pydantic, MCP + CLI).",
+      "technology": "Claude",
+      "title": "kanibako 1.7.0rc9",
+      "summary": "Run AI coding agents in rootless containers (meta-package: CLI + Claude, Goose, and Codex plugins)",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/tackit/0.9.1/",
-      "published_at": "2026-07-08T23:58:13.000Z",
-      "score": 82,
+      "source_url": "https://pypi.org/project/kanibako/1.7.0rc9/",
+      "published_at": "2026-07-09T11:48:22.000Z",
+      "score": 78,
       "tags": [
-        "Codex",
-        "Infra AI"
+        "Claude",
+        "Codex"
       ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 12,
-      "kind": "newsapi",
-      "technology": "Codex",
-      "title": "bettermemory 3.16.0",
-      "summary": "Memory you can verify — MCP-native memory for AI coding agents, with per-hit staleness verdicts and claim-level audit trails. Local-first, MIT, no cloud.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/bettermemory/3.16.0/",
-      "published_at": "2026-07-08T23:57:23.000Z",
-      "score": 82,
+      "kind": "rss",
+      "technology": "Claude",
+      "title": "Databricks makes Chinese open-source model GLM 5.2 its default coding engine after it matched Opus at lower cost",
+      "summary": "Databricks benchmarked coding agents on its own multi-million-line codebase and found that the Chinese open-source model GLM 5.2 matched Anthropic's Opus 4.8 at $1.28 per task versus $1.94. The company plans to roll it out as a daily coding workhorse. Its broader takeaway: no single provider dominates, and companies should build their own...",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/databricks-makes-chinese-open-source-model-glm-5-2-its-default-coding-engine-after-it-matched-opus-at-lower-cost/",
+      "published_at": "2026-07-09T11:03:39.000Z",
+      "score": 76,
       "tags": [
-        "Codex",
-        "Infra AI"
+        "Claude",
+        "Codex"
       ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 13,
       "kind": "newsapi",
       "technology": "Codex",
-      "title": "skillwatch added to PyPI",
-      "summary": "Monitor external URLs referenced by AI agent skills and MCP tools for bait-and-switch content changes",
+      "title": "hy3-code-review-mcp 0.1.0",
+      "summary": "MCP Server for AI-powered code review using Hy3 (Tencent Hunyuan)",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/skillwatch/",
-      "published_at": "2026-07-08T23:42:57.000Z",
-      "score": 82,
+      "source_url": "https://pypi.org/project/hy3-code-review-mcp/0.1.0/",
+      "published_at": "2026-07-09T11:39:59.000Z",
+      "score": 74,
       "tags": [
         "Codex",
         "Infra AI"
@@ -306,81 +304,63 @@
     {
       "id": 14,
       "kind": "newsapi",
-      "technology": "Claude",
-      "title": "hebbrix-mcp 0.3.3",
-      "summary": "Hebbrix MCP server — long-term memory and knowledge graph for any MCP-compatible agent (Claude Desktop, Cline, Cursor, etc.)",
+      "technology": "Codex",
+      "title": "hy3-code-review-mcp added to PyPI",
+      "summary": "MCP Server for AI-powered code review using Hy3 (Tencent Hunyuan)",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/hebbrix-mcp/0.3.3/",
-      "published_at": "2026-07-08T22:56:48.000Z",
-      "score": 82,
+      "source_url": "https://pypi.org/project/hy3-code-review-mcp/",
+      "published_at": "2026-07-09T11:39:59.000Z",
+      "score": 74,
       "tags": [
-        "Claude",
+        "Codex",
         "Infra AI"
       ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
       "relevant": true
     },
     {
       "id": 15,
-      "kind": "rss",
-      "technology": "Gemini",
-      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
-      "summary": "We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-      "source": "Google AI Blog",
-      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "published_at": "2026-07-07T08:54:00.000Z",
-      "score": 82,
+      "kind": "newsapi",
+      "technology": "DeepSeek",
+      "title": "deepseek-translate-server 0.1.8",
+      "summary": "MCP server for translating Markdown to Chinese via DeepSeek",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/deepseek-translate-server/0.1.8/",
+      "published_at": "2026-07-09T11:33:42.000Z",
+      "score": 74,
       "tags": [
-        "Gemini",
+        "DeepSeek",
         "Infra AI"
       ],
-      "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
+      "why_it_matters": "Puede abrir opciones costo/beneficio para razonamiento, fallback local/remoto o benchmarks contra modelos cerrados.",
       "relevant": true
     },
     {
       "id": 16,
-      "kind": "newsapi",
-      "technology": "ChatGPT / OpenAI",
-      "title": "OpenAI’s GPT-5.6 achieves inference breakthrough powered by Cerebras wafer-scale compute",
-      "summary": "The integration of Cerebras' wafer-scale compute with GPT-5.6 could revolutionize AI efficiency, reducing latency and enhancing performance. The post OpenAI’s GPT-5.6 achieves inference breakthrough powered by Cerebras wafer-scale compute appeared first on Cr…",
-      "source": "Crypto Briefing",
-      "source_url": "https://cryptobriefing.com/openai-gpt-56-cerebras-inference-breakthrough/",
-      "published_at": "2026-07-08T23:10:21.000Z",
-      "score": 78,
-      "tags": [
-        "ChatGPT / OpenAI",
-        "Infra AI"
-      ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
-      "relevant": true
-    },
-    {
-      "id": 17,
-      "kind": "newsapi",
+      "kind": "rss",
       "technology": "Claude",
-      "title": "Show HN: Skillburst - AI skills for your whole team, not just the engineers",
-      "summary": "Skillburst gives your whole team, not just engineers, a shared catalog of AI skills they use right inside Claude, Cursor, or ChatGPT. No code required; skills can even be Git-backed.",
-      "source": "Skillburst.ai",
-      "source_url": "https://skillburst.ai/",
-      "published_at": "2026-07-08T23:48:27.000Z",
-      "score": 74,
+      "title": "Meta's Muse Spark 1.1 API pricing squeezes OpenAI and Anthropic as the AI price war heats up",
+      "summary": "Meta is entering the AI API business with Muse Spark 1.1 at prices that undercut even the dirt-cheap Grok 4.5, released just yesterday. At $4.25 per million output tokens, Meta charges a fraction of what Anthropic or OpenAI ask. For pure-play AI labs burning through billions, the pressure just got worse. The article Meta's Muse Spark 1.1...",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/metas-muse-spark-1-1-api-pricing-squeezes-openai-and-anthropic-as-the-ai-price-war-heats-up/",
+      "published_at": "2026-07-09T16:58:44.000Z",
+      "score": 72,
       "tags": [
         "Claude",
-        "Codex",
         "ChatGPT / OpenAI"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
-      "id": 18,
+      "id": 17,
       "kind": "rss",
       "technology": "ChatGPT / OpenAI",
       "title": "Gemma 4 12B: The Developer Guide",
       "summary": "The newly released Gemma 4 12B is a dense, multimodal model designed for high-performance local AI execution on consumer devices. By introducing a novel, encoder-free architecture, it bypasses traditional visual and audio encoders to feed multimodal data directly into the LLM backbone.",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/gemma-4-12b-the-developer-guide/",
-      "published_at": "2026-07-10T00:12:04.813Z",
+      "published_at": "2026-07-10T12:02:40.963Z",
       "score": 70,
       "tags": [
         "ChatGPT / OpenAI"
@@ -389,32 +369,33 @@
       "relevant": true
     },
     {
-      "id": 19,
+      "id": 18,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "scaffold-guard 0.1.3",
-      "summary": "Generate guarded starter repositories for Codex, Claude Code, and Cursor.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/scaffold-guard/0.1.3/",
-      "published_at": "2026-07-08T22:48:11.000Z",
+      "title": "OpenAI, Claud and Gemini being used to drive German AFD rage bait system.",
+      "summary": "The Irish times Reports that \"The far-right Alternative for Germany (AfD) has developed a new software suite, driven by Google Gemini, Open AI and Anthropic’s Claude, that helps party members generate so-called “rage bait” social media postings.\" the article …",
+      "source": "Slashdot.org",
+      "source_url": "https://slashdot.org/submission/17348850/openai-claud-and-gemini-being-used-to-drive-german-afd-rage-bait-system",
+      "published_at": "2026-07-09T11:48:53.000Z",
       "score": 70,
       "tags": [
         "Claude",
-        "Codex"
+        "ChatGPT / OpenAI",
+        "Gemini"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
-      "id": 20,
+      "id": 19,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "mcp-security-scan added to PyPI",
-      "summary": "Security scanner for MCP servers — finds hardcoded secrets, unsafe exec, missing auth",
+      "title": "engrava-mcp 0.5.1",
+      "summary": "Model Context Protocol server for Engrava — expose an agent memory database to any MCP client over stdio.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/mcp-security-scan/",
-      "published_at": "2026-07-08T23:35:18.000Z",
-      "score": 68,
+      "source_url": "https://pypi.org/project/engrava-mcp/0.5.1/",
+      "published_at": "2026-07-09T11:53:46.000Z",
+      "score": 66,
       "tags": [
         "Infra AI"
       ],
@@ -422,15 +403,31 @@
       "relevant": true
     },
     {
-      "id": 21,
+      "id": 20,
       "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "mcp-security-scan 1.1.0",
-      "summary": "Security scanner for MCP servers — finds hardcoded secrets, unsafe exec, missing auth",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/mcp-security-scan/1.1.0/",
-      "published_at": "2026-07-08T23:35:18.000Z",
-      "score": 68,
+      "technology": "Claude",
+      "title": "China warns users of alleged 'security backdoor vulnerabilities' in Anthropic's Claude Code, tells users to uninstall for sfaety reasons",
+      "summary": "China has accused Claude Code of spying on enterprises and tracking user locations – Anthropic asserts it's a security necessity.",
+      "source": "TechRadar",
+      "source_url": "https://www.techradar.com/pro/china-warns-users-of-alleged-security-backdoor-vulnerabilities-in-anthropics-claude-code-tells-users-to-uninstall-for-sfaety-reasons",
+      "published_at": "2026-07-09T11:25:00.000Z",
+      "score": 64,
+      "tags": [
+        "Claude"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 21,
+      "kind": "rss",
+      "technology": "Gemini",
+      "title": "A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs",
+      "summary": "This post introduces three architectural patterns designed to integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI) to solve the tradeoff between highly custom iframe environments and native, declarative rendering. By combining these approaches, developers can serve native-feeling UIs directly over MCP servers, em...",
+      "source": "Google Developers Blog",
+      "source_url": "https://developers.googleblog.com/a2ui-and-mcp-apps/",
+      "published_at": "2026-07-10T12:02:40.963Z",
+      "score": 62,
       "tags": [
         "Infra AI"
       ],
@@ -439,52 +436,51 @@
     },
     {
       "id": 22,
-      "kind": "newsapi",
-      "technology": "OpenClaw",
-      "title": "attune-ai 10.2.0",
-      "summary": "AI-powered developer workflows for Claude with cost optimization, multi-agent orchestration, and workflow automation.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/attune-ai/10.2.0/",
-      "published_at": "2026-07-08T23:17:09.000Z",
-      "score": 68,
+      "kind": "rss",
+      "technology": "Codex",
+      "title": "OpenAI finds roughly 30 percent of popular AI coding test is broken",
+      "summary": "OpenAI reviewed SWE-Bench Pro, a widely used test for measuring AI models' programming skills, and found roughly 30 percent of its tasks are broken. The company is pulling its earlier endorsement of the benchmark. The article OpenAI finds roughly 30 percent of popular AI coding test is broken appeared first on The Decoder.",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/openai-finds-roughly-30-percent-of-popular-ai-coding-test-is-broken/",
+      "published_at": "2026-07-09T13:23:57.000Z",
+      "score": 62,
       "tags": [
-        "OpenClaw",
-        "Claude"
+        "Codex",
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
       "relevant": true
     },
     {
       "id": 23,
       "kind": "newsapi",
-      "technology": "Claude",
-      "title": "SpaceXAI’s newest AI model Grok 4.5 dramatically undercuts Anthropic and OpenAI on price",
-      "summary": "Elon Musk’s SpaceXAI Corp. has released a new model called Grok 4.5, in what is its first major launch since it went public a few weeks earlier. In a blog post earlier today, the company said Grok 4.5 is designed to be a workhorse that’s able to tackle all of…",
-      "source": "SiliconANGLE News",
-      "source_url": "https://siliconangle.com/2026/07/08/spacexais-newest-ai-model-grok-4-5-dramatically-undercuts-anthropic-openai-price/",
-      "published_at": "2026-07-08T23:35:27.000Z",
-      "score": 66,
+      "technology": "Infra AI",
+      "title": "github-agent 1.1.0",
+      "summary": "GitHub Agent for MCP",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/github-agent/1.1.0/",
+      "published_at": "2026-07-09T11:47:28.000Z",
+      "score": 62,
       "tags": [
-        "Claude",
-        "ChatGPT / OpenAI"
+        "Infra AI"
       ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
       "id": 24,
       "kind": "newsapi",
-      "technology": "ChatGPT / OpenAI",
-      "title": "OpenAI launches GPT-Live voice model series ahead of broad GPT-5.6 release",
-      "summary": "OpenAI Group PBC today introduced GPT-Live, a family of artificial intelligence models optimized to process spoken instructions. The model series will power ChatGPT’s voice mode. Additionally, OpenAI plans to make it available to developers via an application…",
-      "source": "SiliconANGLE News",
-      "source_url": "https://siliconangle.com/2026/07/08/openai-launches-gpt-live-voice-model-series-ahead-broad-gpt-5-6-release/",
-      "published_at": "2026-07-08T23:28:58.000Z",
-      "score": 66,
+      "technology": "Infra AI",
+      "title": "uipilot 0.7.0",
+      "summary": "App-agnostic engine that models a web UI as a graph and compiles flows into Playwright-MCP-executable scripts for agents.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/uipilot/0.7.0/",
+      "published_at": "2026-07-09T11:45:28.000Z",
+      "score": 62,
       "tags": [
-        "ChatGPT / OpenAI"
+        "Infra AI"
       ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     }
   ]
