@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T12:12:57.984Z",
+  "generated_at": "2026-07-13T18:46:37.352Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -21,24 +21,17 @@
     "telegram_summary": [
       {
         "technology": "Claude",
-        "title": "ai-sdlc-kit 0.1.3",
+        "title": "tessen-cli 0.1.0",
         "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 100,
-        "url": "https://pypi.org/project/ai-sdlc-kit/0.1.3/"
+        "score": 96,
+        "url": "https://pypi.org/project/tessen-cli/0.1.0/"
       },
       {
         "technology": "Claude",
-        "title": "plugin-scanner 2.0.1061",
+        "title": "tessen-cli added to PyPI",
         "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 94,
-        "url": "https://pypi.org/project/plugin-scanner/2.0.1061/"
-      },
-      {
-        "technology": "Claude",
-        "title": "hol-guard 2.0.1061",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 94,
-        "url": "https://pypi.org/project/hol-guard/2.0.1061/"
+        "score": 96,
+        "url": "https://pypi.org/project/tessen-cli/"
       },
       {
         "technology": "Codex",
@@ -74,6 +67,13 @@
         "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
         "score": 90,
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.3"
+      },
+      {
+        "technology": "Claude",
+        "title": "kiprio-mcp added to PyPI",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 82,
+        "url": "https://pypi.org/project/kiprio-mcp/"
       }
     ]
   },
@@ -82,16 +82,15 @@
       "id": 1,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "ai-sdlc-kit 0.1.3",
-      "summary": "Spec-driven SDLC skills for AI coding agents — Claude Code, Cursor, Windsurf, Gemini CLI",
+      "title": "tessen-cli 0.1.0",
+      "summary": "Security scanner for AI agent configurations (MCP servers, Claude Desktop, Cursor, Claude Code, Windsurf).",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/ai-sdlc-kit/0.1.3/",
-      "published_at": "2026-07-12T10:47:11.000Z",
-      "score": 100,
+      "source_url": "https://pypi.org/project/tessen-cli/0.1.0/",
+      "published_at": "2026-07-12T17:51:53.000Z",
+      "score": 96,
       "tags": [
         "Claude",
-        "Codex",
-        "Gemini"
+        "Infra AI"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
@@ -100,40 +99,21 @@
       "id": 2,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "plugin-scanner 2.0.1061",
-      "summary": "Protect local AI harnesses with HOL Guard and run scanner checks for Codex, Claude, Cursor, Gemini, OpenCode, and Pi.",
+      "title": "tessen-cli added to PyPI",
+      "summary": "Security scanner for AI agent configurations (MCP servers, Claude Desktop, Cursor, Claude Code, Windsurf).",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/plugin-scanner/2.0.1061/",
-      "published_at": "2026-07-12T12:11:14.000Z",
-      "score": 94,
+      "source_url": "https://pypi.org/project/tessen-cli/",
+      "published_at": "2026-07-12T17:51:47.000Z",
+      "score": 96,
       "tags": [
         "Claude",
-        "Codex",
-        "Gemini"
+        "Infra AI"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 3,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "hol-guard 2.0.1061",
-      "summary": "Protect local AI harnesses with HOL Guard and run scanner checks for Codex, Claude, Cursor, Gemini, OpenCode, and Pi.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/hol-guard/2.0.1061/",
-      "published_at": "2026-07-12T12:11:12.000Z",
-      "score": 94,
-      "tags": [
-        "Claude",
-        "Codex",
-        "Gemini"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 4,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.145.0-alpha.7",
@@ -150,7 +130,7 @@
       "relevant": true
     },
     {
-      "id": 5,
+      "id": 4,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.144.3",
@@ -167,7 +147,7 @@
       "relevant": true
     },
     {
-      "id": 6,
+      "id": 5,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.144.2",
@@ -184,7 +164,7 @@
       "relevant": true
     },
     {
-      "id": 7,
+      "id": 6,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.145.0-alpha.4",
@@ -201,7 +181,7 @@
       "relevant": true
     },
     {
-      "id": 8,
+      "id": 7,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.145.0-alpha.3",
@@ -218,35 +198,52 @@
       "relevant": true
     },
     {
-      "id": 9,
+      "id": 8,
       "kind": "newsapi",
-      "technology": "Codex",
-      "title": "repowise 0.31.0",
-      "summary": "The codebase intelligence layer for your AI coding agent — dependency graph, git history, dead code, decisions, and code health, exposed over MCP",
+      "technology": "Claude",
+      "title": "kiprio-mcp added to PyPI",
+      "summary": "MCP server for kiprio.com — 23 developer API tools for Claude, Cursor, and any MCP client",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/repowise/0.31.0/",
-      "published_at": "2026-07-12T11:52:19.000Z",
-      "score": 78,
+      "source_url": "https://pypi.org/project/kiprio-mcp/",
+      "published_at": "2026-07-12T17:56:25.000Z",
+      "score": 82,
       "tags": [
-        "Codex",
+        "Claude",
         "Infra AI"
       ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 9,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "kiprio-mcp 0.2.0",
+      "summary": "MCP server for kiprio.com — 23 developer API tools for Claude, Cursor, and any MCP client",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/kiprio-mcp/0.2.0/",
+      "published_at": "2026-07-12T17:56:25.000Z",
+      "score": 82,
+      "tags": [
+        "Claude",
+        "Infra AI"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 10,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "tokensaver-cli 0.1.2",
-      "summary": "TokenSaver CLI — route AI agents (Claude Code, Cursor, Codex) through the SaaS control plane",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/tokensaver-cli/0.1.2/",
-      "published_at": "2026-07-12T11:39:38.000Z",
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "summary": "We measured what Claude Code and OpenCode spend before reading your prompt, then added instruction files, MCP servers and subagents to the bill.",
+      "source": "Systima.ai",
+      "source_url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "published_at": "2026-07-12T18:25:51.000Z",
       "score": 78,
       "tags": [
         "Claude",
-        "Codex"
+        "Infra AI"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
@@ -254,47 +251,47 @@
     {
       "id": 11,
       "kind": "newsapi",
-      "technology": "Claude",
-      "title": "tokensaver-cli 0.1.1",
-      "summary": "TokenSaver CLI — route AI agents (Claude Code, Cursor, Codex) through the SaaS control plane",
+      "technology": "Codex",
+      "title": "langchain-codex-plus 0.0.6",
+      "summary": "LangChain ChatModel for OpenAI Codex Plus / Pro (ChatGPT-account subscription protocol, not api.openai.com).",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/tokensaver-cli/0.1.1/",
-      "published_at": "2026-07-12T11:31:27.000Z",
+      "source_url": "https://pypi.org/project/langchain-codex-plus/0.0.6/",
+      "published_at": "2026-07-12T18:00:30.000Z",
       "score": 78,
       "tags": [
-        "Claude",
-        "Codex"
+        "Codex",
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
       "relevant": true
     },
     {
       "id": 12,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "tokensaver-cli added to PyPI",
-      "summary": "TokenSaver CLI — route AI agents (Claude Code, Cursor, Codex) through the SaaS control plane",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/tokensaver-cli/",
-      "published_at": "2026-07-12T11:22:24.000Z",
-      "score": 78,
+      "kind": "rss",
+      "technology": "Codex",
+      "title": "OpenAI's new prompting guide tells users to stop overthinking and start with the result",
+      "summary": "OpenAI has released a prompting guide for everyday users, not developers. Instead of rigid formulas, it suggests four optional building blocks: goal, context, format, and constraints. The core advice is simple: describe the result you want, not the steps to get there. It's the first time OpenAI covers both Chat and Codex in a single frame...",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/openais-new-prompting-guide-tells-users-to-stop-overthinking-and-start-with-the-result/",
+      "published_at": "2026-07-13T17:47:39.000Z",
+      "score": 74,
       "tags": [
-        "Claude",
-        "Codex"
+        "Codex",
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
       "relevant": true
     },
     {
       "id": 13,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "tokensaver-cli 0.1.0",
-      "summary": "TokenSaver CLI — route AI agents (Claude Code, Cursor, Codex) through the SaaS control plane",
+      "title": "session-handoff 0.1.1",
+      "summary": "Continue a coding-agent session in Claude Code, Codex, Cursor, or Pi",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/tokensaver-cli/0.1.0/",
-      "published_at": "2026-07-12T11:22:24.000Z",
-      "score": 78,
+      "source_url": "https://pypi.org/project/session-handoff/0.1.1/",
+      "published_at": "2026-07-12T18:00:47.000Z",
+      "score": 74,
       "tags": [
         "Claude",
         "Codex"
@@ -306,11 +303,11 @@
       "id": 14,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "sage-harness 0.9.41",
-      "summary": "Governance harness for AI coding agents — spec-SSOT closed loop for Claude Code and Codex",
+      "title": "pysae-ai-tools 0.1.1574",
+      "summary": "Shared Python tools for Pysae Claude Code skills",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/sage-harness/0.9.41/",
-      "published_at": "2026-07-12T11:19:16.000Z",
+      "source_url": "https://pypi.org/project/pysae-ai-tools/0.1.1574/",
+      "published_at": "2026-07-12T17:31:35.000Z",
       "score": 74,
       "tags": [
         "Claude",
@@ -322,46 +319,12 @@
     {
       "id": 15,
       "kind": "newsapi",
-      "technology": "Claude",
-      "title": "sema-mcp 0.1.2",
-      "summary": "Semantic codebase indexer and MCP server for Claude Code",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/sema-mcp/0.1.2/",
-      "published_at": "2026-07-12T11:18:13.000Z",
-      "score": 74,
-      "tags": [
-        "Claude",
-        "Infra AI"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 16,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "stratum-mcp 0.2.114",
-      "summary": "Stratum MCP server for Claude Code — structured execution, typed contracts, postcondition enforcement",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/stratum-mcp/0.2.114/",
-      "published_at": "2026-07-12T11:11:22.000Z",
-      "score": 74,
-      "tags": [
-        "Claude",
-        "Infra AI"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 17,
-      "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "Vasudev Kamath: Releasing debvulns-exporter: Prometheus exporter for Debian System Vulnerabilities",
-      "summary": "Following up on my previous post, I am releasing debvulns-exporter, a Prometheus exporter for tracking Debian system vulnerabilities. The underlying vulnerability analysis logic remains identical to the previously released MCP server and CLI utility. Why an …",
-      "source": "Copyninja.in",
-      "source_url": "https://copyninja.in/blog/debvulns-exporter.html",
-      "published_at": "2026-07-12T11:30:25.000Z",
+      "title": "recon-tool 2.5.1",
+      "summary": "Domain intelligence CLI and MCP server — tech stack, email security, and signal intelligence from DNS.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/recon-tool/2.5.1/",
+      "published_at": "2026-07-12T18:38:26.000Z",
       "score": 72,
       "tags": [
         "Infra AI"
@@ -370,14 +333,47 @@
       "relevant": true
     },
     {
-      "id": 18,
+      "id": 16,
       "kind": "rss",
       "technology": "ChatGPT / OpenAI",
       "title": "Gemma 4 12B: The Developer Guide",
       "summary": "The newly released Gemma 4 12B is a dense, multimodal model designed for high-performance local AI execution on consumer devices. By introducing a novel, encoder-free architecture, it bypasses traditional visual and audio encoders to feed multimodal data directly into the LLM backbone.",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/gemma-4-12b-the-developer-guide/",
-      "published_at": "2026-07-13T12:12:56.301Z",
+      "published_at": "2026-07-13T18:46:35.763Z",
+      "score": 70,
+      "tags": [
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "relevant": true
+    },
+    {
+      "id": 17,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "nimbus-notify 1.1.0",
+      "summary": "Host broker that watches your AI coding sessions (Claude Code, Codex, Mistral Vibe) and pushes live status to a physical LED ring / e-ink device over a documented wire protocol",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/nimbus-notify/1.1.0/",
+      "published_at": "2026-07-12T17:32:40.000Z",
+      "score": 70,
+      "tags": [
+        "Claude",
+        "Codex"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 18,
+      "kind": "newsapi",
+      "technology": "ChatGPT / OpenAI",
+      "title": "Show HN: SayItDev LLM and Speech capabilities with 0 dependencies and no models",
+      "summary": "On-device AI and voice for Mac. dev CLI: UNIX tool, OpenAI-compatible server, speak/listen/transcribe — no cloud, no API keys. - innovatorved/sayitdev",
+      "source": "Github.com",
+      "source_url": "https://github.com/innovatorved/sayitdev",
+      "published_at": "2026-07-12T17:29:07.000Z",
       "score": 70,
       "tags": [
         "ChatGPT / OpenAI"
@@ -406,11 +402,11 @@
       "id": 20,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "debvulns 0.2.0",
-      "summary": "Debian Vulnerability Analyzer — MCP server, CLI, and Prometheus exporter",
+      "title": "mipiti-mcp 0.59.0",
+      "summary": "MCP server for Mipiti — AI-powered security posture platform",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/debvulns/0.2.0/",
-      "published_at": "2026-07-12T10:44:47.000Z",
+      "source_url": "https://pypi.org/project/mipiti-mcp/0.59.0/",
+      "published_at": "2026-07-12T18:39:44.000Z",
       "score": 68,
       "tags": [
         "Infra AI"
@@ -420,14 +416,14 @@
     },
     {
       "id": 21,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "debvulns added to PyPI",
-      "summary": "Debian Vulnerability Analyzer — MCP server, CLI, and Prometheus exporter",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/debvulns/",
-      "published_at": "2026-07-12T10:44:38.000Z",
-      "score": 68,
+      "kind": "rss",
+      "technology": "Gemini",
+      "title": "A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs",
+      "summary": "This post introduces three architectural patterns designed to integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI) to solve the tradeoff between highly custom iframe environments and native, declarative rendering. By combining these approaches, developers can serve native-feeling UIs directly over MCP servers, em...",
+      "source": "Google Developers Blog",
+      "source_url": "https://developers.googleblog.com/a2ui-and-mcp-apps/",
+      "published_at": "2026-07-13T18:46:35.762Z",
+      "score": 62,
       "tags": [
         "Infra AI"
       ],
@@ -438,12 +434,12 @@
       "id": 22,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "dhis2w-mcp-bridge 1.0.0",
-      "summary": "Single-tool MCP bridge that exposes the d2w CLI for small local models.",
+      "title": "cambium-mcp added to PyPI",
+      "summary": "Knowledge-lifecycle MCP: distill agentsync + context-keeper events into memory, recall across projects, promote local -> team -> org",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/dhis2w-mcp-bridge/1.0.0/",
-      "published_at": "2026-07-12T11:24:50.000Z",
-      "score": 66,
+      "source_url": "https://pypi.org/project/cambium-mcp/",
+      "published_at": "2026-07-12T18:18:42.000Z",
+      "score": 62,
       "tags": [
         "Infra AI"
       ],
@@ -452,13 +448,13 @@
     },
     {
       "id": 23,
-      "kind": "rss",
-      "technology": "Gemini",
-      "title": "A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs",
-      "summary": "This post introduces three architectural patterns designed to integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI) to solve the tradeoff between highly custom iframe environments and native, declarative rendering. By combining these approaches, developers can serve native-feeling UIs directly over MCP servers, em...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/a2ui-and-mcp-apps/",
-      "published_at": "2026-07-13T12:12:56.301Z",
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "tableau-graphql-mcp 0.1.1",
+      "summary": "Ask any Tableau lineage question, in any MCP client, through the Tableau Metadata API (GraphQL).",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/tableau-graphql-mcp/0.1.1/",
+      "published_at": "2026-07-12T18:17:06.000Z",
       "score": 62,
       "tags": [
         "Infra AI"
@@ -469,17 +465,17 @@
     {
       "id": 24,
       "kind": "newsapi",
-      "technology": "ChatGPT / OpenAI",
-      "title": "deepgram-msteams-bridge added to PyPI",
-      "summary": "Put a Deepgram Voice Agent on Microsoft Teams calls. Terminates the StandIn media bridge wire protocol on one side and the Deepgram Voice Agent WebSocket on the other. No transcoding: PCM 16k verbatim both ways, barge-in, extensible client-side tools, vision …",
+      "technology": "Infra AI",
+      "title": "tableau-graphql-mcp 0.1.0",
+      "summary": "Ask any Tableau lineage question, in any MCP client, through the Tableau Metadata API (GraphQL).",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/deepgram-msteams-bridge/",
-      "published_at": "2026-07-12T11:39:42.000Z",
+      "source_url": "https://pypi.org/project/tableau-graphql-mcp/0.1.0/",
+      "published_at": "2026-07-12T18:04:50.000Z",
       "score": 62,
       "tags": [
-        "ChatGPT / OpenAI"
+        "Infra AI"
       ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     }
   ]
