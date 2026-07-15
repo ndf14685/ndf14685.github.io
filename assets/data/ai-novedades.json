@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T23:58:04.835Z",
+  "generated_at": "2026-07-15T10:56:39.203Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -12,7 +12,7 @@
   ],
   "source_counts": {
     "rss": 34,
-    "github": 7,
+    "github": 8,
     "newsapi": 50
   },
   "digest": {
@@ -20,32 +20,18 @@
     "relevant_count": 8,
     "telegram_summary": [
       {
-        "technology": "Claude",
-        "title": "neuralmind 0.42.1",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 100,
-        "url": "https://pypi.org/project/neuralmind/0.42.1/"
-      },
-      {
-        "technology": "Claude",
-        "title": "coder-eval 0.8.4",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 98,
-        "url": "https://pypi.org/project/coder-eval/0.8.4/"
+        "technology": "Codex",
+        "title": "0.145.0-alpha.13",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 90,
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.13"
       },
       {
         "technology": "Codex",
-        "title": "0.145.0-alpha.11",
+        "title": "0.145.0-alpha.12",
         "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
         "score": 90,
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.11"
-      },
-      {
-        "technology": "Codex",
-        "title": "0.145.0-alpha.10",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 90,
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.10"
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.12"
       },
       {
         "technology": "Codex",
@@ -70,86 +56,64 @@
       },
       {
         "technology": "Claude",
-        "title": "voice-vibecoder 2.26.0",
+        "title": "ouroboros-ai 0.50.4",
         "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 82,
-        "url": "https://pypi.org/project/voice-vibecoder/2.26.0/"
+        "score": 78,
+        "url": "https://pypi.org/project/ouroboros-ai/0.50.4/"
+      },
+      {
+        "technology": "Codex",
+        "title": "OpenAI's Codex now encrypts instructions between AI agents, leaving developers blind to internal delegation",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 74,
+        "url": "https://the-decoder.com/openais-codex-now-encrypts-instructions-between-ai-agents-leaving-developers-blind-to-internal-delegation/"
+      },
+      {
+        "technology": "Claude",
+        "title": "sccs 2.51.0",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 74,
+        "url": "https://pypi.org/project/sccs/2.51.0/"
       }
     ]
   },
   "items": [
     {
       "id": 1,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "neuralmind 0.42.1",
-      "summary": "Persistent memory for AI coding agents. Your agent learns your codebase the way a senior engineer would — what files go together, what you usually edit next, what patterns matter. Works with Claude Code, Cursor, Cline, Continue, and any MCP-compatible agent. …",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/neuralmind/0.42.1/",
-      "published_at": "2026-07-13T23:09:42.000Z",
-      "score": 100,
+      "kind": "github_release",
+      "technology": "Codex",
+      "title": "0.145.0-alpha.13",
+      "summary": "Release 0.145.0-alpha.13",
+      "source": "GitHub: openai/codex",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.13",
+      "published_at": "2026-07-15T07:48:10.000Z",
+      "score": 90,
       "tags": [
-        "Claude",
         "Codex",
-        "Infra AI"
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
       "relevant": true
     },
     {
       "id": 2,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "coder-eval 0.8.4",
-      "summary": "Evaluate, benchmark, and A/B-test AI coding agents (Claude Code, Codex, Gemini/Antigravity) with sandboxed, reproducible YAML task suites.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/coder-eval/0.8.4/",
-      "published_at": "2026-07-13T23:17:06.000Z",
-      "score": 98,
+      "kind": "github_release",
+      "technology": "Codex",
+      "title": "0.145.0-alpha.12",
+      "summary": "Release 0.145.0-alpha.12",
+      "source": "GitHub: openai/codex",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.12",
+      "published_at": "2026-07-15T01:07:37.000Z",
+      "score": 90,
       "tags": [
-        "Claude",
         "Codex",
-        "Gemini"
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
       "relevant": true
     },
     {
       "id": 3,
-      "kind": "github_release",
-      "technology": "Codex",
-      "title": "0.145.0-alpha.11",
-      "summary": "Release 0.145.0-alpha.11",
-      "source": "GitHub: openai/codex",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.11",
-      "published_at": "2026-07-14T15:58:55.000Z",
-      "score": 90,
-      "tags": [
-        "Codex",
-        "ChatGPT / OpenAI"
-      ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
-      "id": 4,
-      "kind": "github_release",
-      "technology": "Codex",
-      "title": "0.145.0-alpha.10",
-      "summary": "Release 0.145.0-alpha.10",
-      "source": "GitHub: openai/codex",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.10",
-      "published_at": "2026-07-14T07:54:22.000Z",
-      "score": 90,
-      "tags": [
-        "Codex",
-        "ChatGPT / OpenAI"
-      ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
-      "id": 5,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.144.4",
@@ -166,7 +130,7 @@
       "relevant": true
     },
     {
-      "id": 6,
+      "id": 4,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.145.0-alpha.9",
@@ -183,7 +147,7 @@
       "relevant": true
     },
     {
-      "id": 7,
+      "id": 5,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.145.0-alpha.8",
@@ -200,18 +164,52 @@
       "relevant": true
     },
     {
+      "id": 6,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "ouroboros-ai 0.50.4",
+      "summary": "Specification-first workflow engine for AI coding agents. Works with Claude Code and Codex CLI.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/ouroboros-ai/0.50.4/",
+      "published_at": "2026-07-14T10:46:22.000Z",
+      "score": 78,
+      "tags": [
+        "Claude",
+        "Codex"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 7,
+      "kind": "rss",
+      "technology": "Codex",
+      "title": "OpenAI's Codex now encrypts instructions between AI agents, leaving developers blind to internal delegation",
+      "summary": "Since early June, OpenAI's coding tool Codex encrypts the instructions a main agent passes to its subagents. Developers can no longer track how tasks get delegated internally. For the larger GPT-5.6 variants Sol and Terra, the encryption is mandatory. The article OpenAI's Codex now encrypts instructions between AI agents, leaving develope...",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/openais-codex-now-encrypts-instructions-between-ai-agents-leaving-developers-blind-to-internal-delegation/",
+      "published_at": "2026-07-15T08:30:48.000Z",
+      "score": 74,
+      "tags": [
+        "Codex",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "relevant": true
+    },
+    {
       "id": 8,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "voice-vibecoder 2.26.0",
-      "summary": "Olaf The Vibecoder — a voice-controlled coding assistant using OpenAI Realtime API + Claude Code",
+      "title": "sccs 2.51.0",
+      "summary": "SkillsCommandsConfigsSync - Unified YAML-configured synchronization for Claude Code files",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/voice-vibecoder/2.26.0/",
-      "published_at": "2026-07-13T23:10:16.000Z",
-      "score": 82,
+      "source_url": "https://pypi.org/project/sccs/2.51.0/",
+      "published_at": "2026-07-14T10:52:10.000Z",
+      "score": 74,
       "tags": [
         "Claude",
-        "ChatGPT / OpenAI"
+        "Codex"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
@@ -220,11 +218,11 @@
       "id": 9,
       "kind": "newsapi",
       "technology": "ChatGPT / OpenAI",
-      "title": "vyrii 0.1.20",
-      "summary": "Local AI web UI — chat, translate, web research, deep document generation, RAG, and file management via Gradio. Powered by Ollama or any OpenAI-compatible backend.",
+      "title": "apcore-mcp 0.17.2",
+      "summary": "Automatic MCP Server & OpenAI Tools Bridge for apcore",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/vyrii/0.1.20/",
-      "published_at": "2026-07-13T23:36:42.000Z",
+      "source_url": "https://pypi.org/project/apcore-mcp/0.17.2/",
+      "published_at": "2026-07-14T10:05:23.000Z",
       "score": 74,
       "tags": [
         "ChatGPT / OpenAI",
@@ -235,48 +233,46 @@
     },
     {
       "id": 10,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "mcp-missioncache 1.0.14",
-      "summary": "MCP server for the MissionCache Claude Code plugin: project management with time tracking",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/mcp-missioncache/1.0.14/",
-      "published_at": "2026-07-13T22:59:56.000Z",
-      "score": 74,
+      "kind": "rss",
+      "technology": "Gemini",
+      "title": "A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs",
+      "summary": "This post introduces three architectural patterns designed to integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI) to solve the tradeoff between highly custom iframe environments and native, declarative rendering. By combining these approaches, developers can serve native-feeling UIs directly over MCP servers, em...",
+      "source": "Google Developers Blog",
+      "source_url": "https://developers.googleblog.com/a2ui-and-mcp-apps/",
+      "published_at": "2026-07-15T10:56:37.914Z",
+      "score": 62,
       "tags": [
-        "Claude",
         "Infra AI"
       ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
       "id": 11,
-      "kind": "rss",
-      "technology": "Codex",
-      "title": "OpenAI's new prompting guide tells users to stop overthinking and start with the result",
-      "summary": "OpenAI has released a prompting guide for everyday users, not developers. Instead of rigid formulas, it suggests four optional building blocks: goal, context, format, and constraints. The core advice is simple: describe the result you want, not the steps to get there. It's the first time OpenAI covers both Chat and Codex in a single frame...",
-      "source": "The Decoder",
-      "source_url": "https://the-decoder.com/openais-new-prompting-guide-tells-users-to-stop-overthinking-and-start-with-the-result/",
-      "published_at": "2026-07-13T17:47:39.000Z",
-      "score": 74,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "pyrunir-mcp 0.0.25",
+      "summary": "Stateful pyrunir validation API for planning-and-learning agents",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/pyrunir-mcp/0.0.25/",
+      "published_at": "2026-07-14T10:28:32.000Z",
+      "score": 62,
       "tags": [
-        "Codex",
-        "ChatGPT / OpenAI"
+        "Infra AI"
       ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
       "id": 12,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "huimei 0.6.5",
-      "summary": "MCP Server & CLI for social media automation — let AI agents publish to TikTok, Instagram, YouTube, Douyin, XHS, Bilibili and 15+ platforms via Model Context Protocol",
+      "title": "agami-core 0.4.3",
+      "summary": "agami-core — governed semantic model, the shared MCP TOOLS harness, and the unified local query executor.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/huimei/0.6.5/",
-      "published_at": "2026-07-13T23:42:23.000Z",
-      "score": 66,
+      "source_url": "https://pypi.org/project/agami-core/0.4.3/",
+      "published_at": "2026-07-14T10:21:00.000Z",
+      "score": 62,
       "tags": [
         "Infra AI"
       ],
@@ -287,12 +283,12 @@
       "id": 13,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "huimei 0.6.4",
-      "summary": "MCP Server & CLI for social media automation — let AI agents publish to TikTok, Instagram, YouTube, Douyin, XHS, Bilibili and 15+ platforms via Model Context Protocol",
+      "title": "pyrunir-mcp 0.0.24",
+      "summary": "Stateful pyrunir validation API for planning-and-learning agents",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/huimei/0.6.4/",
-      "published_at": "2026-07-13T23:40:59.000Z",
-      "score": 66,
+      "source_url": "https://pypi.org/project/pyrunir-mcp/0.0.24/",
+      "published_at": "2026-07-14T10:20:36.000Z",
+      "score": 62,
       "tags": [
         "Infra AI"
       ],
@@ -303,12 +299,12 @@
       "id": 14,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "huimei 0.6.3",
-      "summary": "MCP Server & CLI for social media automation — let AI agents publish to TikTok, Instagram, YouTube, Douyin, XHS, Bilibili and 15+ platforms via Model Context Protocol",
+      "title": "pyrunir-mcp 0.0.23",
+      "summary": "Stateful pyrunir validation API for planning-and-learning agents",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/huimei/0.6.3/",
-      "published_at": "2026-07-13T23:38:52.000Z",
-      "score": 66,
+      "source_url": "https://pypi.org/project/pyrunir-mcp/0.0.23/",
+      "published_at": "2026-07-14T10:03:27.000Z",
+      "score": 62,
       "tags": [
         "Infra AI"
       ],
@@ -319,12 +315,12 @@
       "id": 15,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "huimei 0.6.0",
-      "summary": "MCP Server & CLI for social media automation — let AI agents publish to TikTok, Instagram, YouTube, Douyin, XHS, Bilibili and 15+ platforms via Model Context Protocol",
+      "title": "mcp-doris-xues87 added to PyPI",
+      "summary": "MCP server for Apache Doris database - connect AI clients to Doris",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/huimei/0.6.0/",
-      "published_at": "2026-07-13T23:24:14.000Z",
-      "score": 66,
+      "source_url": "https://pypi.org/project/mcp-doris-xues87/",
+      "published_at": "2026-07-14T10:53:12.000Z",
+      "score": 58,
       "tags": [
         "Infra AI"
       ],
@@ -334,108 +330,12 @@
     {
       "id": 16,
       "kind": "rss",
-      "technology": "Gemini",
-      "title": "A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs",
-      "summary": "This post introduces three architectural patterns designed to integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI) to solve the tradeoff between highly custom iframe environments and native, declarative rendering. By combining these approaches, developers can serve native-feeling UIs directly over MCP servers, em...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/a2ui-and-mcp-apps/",
-      "published_at": "2026-07-14T23:58:03.313Z",
-      "score": 62,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 17,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "jobd 0.5.19",
-      "summary": "Self-hostable GPU-aware job broker for your own machines, with native MCP/agent integration",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/jobd/0.5.19/",
-      "published_at": "2026-07-13T23:49:18.000Z",
-      "score": 62,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 18,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "dcc-mcp-zbrush 0.2.16",
-      "summary": "ZBrush adapter for the DCC Model Context Protocol (MCP) ecosystem — embedded Python SDK + optional socket bridge",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/dcc-mcp-zbrush/0.2.16/",
-      "published_at": "2026-07-13T23:32:47.000Z",
-      "score": 62,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 19,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "flextools-mcp 2.6.1",
-      "summary": "MCP server that gives AI assistants searchable LibLCM / FlexLibs / Flexicon API docs for writing FLExTools scripts.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/flextools-mcp/2.6.1/",
-      "published_at": "2026-07-13T23:47:03.000Z",
-      "score": 58,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 20,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "tesserae-mcp 0.5.6",
-      "summary": "MCP bridge for Tesserae: build e-ink canvas dashboards with an AI agent.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/tesserae-mcp/0.5.6/",
-      "published_at": "2026-07-13T23:33:56.000Z",
-      "score": 58,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 21,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "dcc-mcp-maya 0.9.11",
-      "summary": "Maya plugin for the DCC Model Context Protocol (MCP) ecosystem — embeds a Streamable HTTP MCP server directly inside Maya",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/dcc-mcp-maya/0.9.11/",
-      "published_at": "2026-07-13T23:26:00.000Z",
-      "score": 58,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 22,
-      "kind": "rss",
       "technology": "Codex",
       "title": "Driving the Agent Quality Flywheel from Your Coding Agent",
       "summary": "Building AI agents often leaves developers uncertain if prompt tweaks to fix single errors will accidentally cause widespread regressions in production. To bridge this gap, Google has introduced a new developer skill for coding agents that automates a five-stage evaluation flywheel: preparing data, running inference, grading with adaptive...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/driving-the-agent-quality-flywheel-from-your-coding-agent/",
-      "published_at": "2026-07-14T23:58:03.313Z",
+      "published_at": "2026-07-15T10:56:37.914Z",
       "score": 54,
       "tags": [
         "Codex",
@@ -445,7 +345,119 @@
       "relevant": false
     },
     {
+      "id": 17,
+      "kind": "github_release",
+      "technology": "Gemini",
+      "title": "Release v0.52.0-nightly.20260715.gfa975395b",
+      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260714.gfa975395b...v0.52.0-nightly.20260715.gfa975395b",
+      "source": "GitHub: google-gemini/gemini-cli",
+      "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260715.gfa975395b",
+      "published_at": "2026-07-15T01:28:44.000Z",
+      "score": 54,
+      "tags": [
+        "Gemini"
+      ],
+      "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
+      "relevant": false
+    },
+    {
+      "id": 18,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "zc-redis-mcp added to PyPI",
+      "summary": "Redis MCP Server for Qoder - Read-only Redis AI Assistant",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/zc-redis-mcp/",
+      "published_at": "2026-07-14T10:52:31.000Z",
+      "score": 54,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": false
+    },
+    {
+      "id": 19,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "librus-mcp 0.5.0",
+      "summary": "MCP server for Librus Synergia — access grades, messages, attendance, homework, timetables, and announcements from AI assistants",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/librus-mcp/0.5.0/",
+      "published_at": "2026-07-14T10:49:46.000Z",
+      "score": 54,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": false
+    },
+    {
+      "id": 20,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "med-paper-assistant 0.9.0",
+      "summary": "An MCP-orchestrated research workspace for manuscript and library-wiki workflows",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/med-paper-assistant/0.9.0/",
+      "published_at": "2026-07-14T10:49:18.000Z",
+      "score": 54,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": false
+    },
+    {
+      "id": 21,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "iotsploit-mcp 0.0.8",
+      "summary": "IoTSploit MCP runtime (FastMCP stdio server + WebSocket bridge), framework-free outer ring.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/iotsploit-mcp/0.0.8/",
+      "published_at": "2026-07-14T10:46:27.000Z",
+      "score": 54,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": false
+    },
+    {
+      "id": 22,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "ssas-mcp-server 0.1.0",
+      "summary": "MCP server for querying SQL Server Analysis Services (SSAS) via DAX and MDX",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/ssas-mcp-server/0.1.0/",
+      "published_at": "2026-07-14T10:04:33.000Z",
+      "score": 54,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": false
+    },
+    {
       "id": 23,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "ssas-mcp-server added to PyPI",
+      "summary": "MCP server for querying SQL Server Analysis Services (SSAS) via DAX and MDX",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/ssas-mcp-server/",
+      "published_at": "2026-07-14T10:04:29.000Z",
+      "score": 54,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": false
+    },
+    {
+      "id": 24,
       "kind": "github_release",
       "technology": "Gemini",
       "title": "Release v0.52.0-nightly.20260714.gfa975395b",
@@ -458,22 +470,6 @@
         "Gemini"
       ],
       "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
-      "relevant": false
-    },
-    {
-      "id": 24,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "claude-usage-tui 0.1.0",
-      "summary": "Local Claude Code token activity graphs with explicit source accuracy",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/claude-usage-tui/0.1.0/",
-      "published_at": "2026-07-13T23:47:47.000Z",
-      "score": 54,
-      "tags": [
-        "Claude"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": false
     }
   ]
