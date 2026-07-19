@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T10:39:02.698Z",
+  "generated_at": "2026-07-19T18:01:38.476Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -11,14 +11,28 @@
     "Infra AI"
   ],
   "source_counts": {
-    "rss": 38,
-    "github": 8,
+    "rss": 33,
+    "github": 6,
     "newsapi": 50
   },
   "digest": {
     "has_relevant_items": true,
     "relevant_count": 8,
     "telegram_summary": [
+      {
+        "technology": "OpenClaw",
+        "title": "sugra-api-mcp 0.8.3rc1",
+        "benefit": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+        "score": 100,
+        "url": "https://pypi.org/project/sugra-api-mcp/0.8.3rc1/"
+      },
+      {
+        "technology": "Claude",
+        "title": "teamspend 0.2.1",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 96,
+        "url": "https://pypi.org/project/teamspend/0.2.1/"
+      },
       {
         "technology": "Codex",
         "title": "0.145.0-alpha.24",
@@ -48,38 +62,60 @@
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.22"
       },
       {
-        "technology": "Claude",
-        "title": "agentkit-mcp 0.1.4",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "technology": "Codex",
+        "title": "frontend-mcp 1.2.0.dev15",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
         "score": 78,
-        "url": "https://pypi.org/project/agentkit-mcp/0.1.4/"
+        "url": "https://pypi.org/project/frontend-mcp/1.2.0.dev15/"
       },
       {
-        "technology": "Claude",
-        "title": "Evolving Spec-Driven Development: Conductor Now Supports Antigravity",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 74,
-        "url": "https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity/"
-      },
-      {
-        "technology": "Claude",
-        "title": "sema-mcp 0.5.0",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 74,
-        "url": "https://pypi.org/project/sema-mcp/0.5.0/"
-      },
-      {
-        "technology": "Gemini",
-        "title": "A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs",
-        "benefit": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-        "score": 62,
-        "url": "https://developers.googleblog.com/a2ui-and-mcp-apps/"
+        "technology": "Codex",
+        "title": "frontend-perception-engine 1.2.0.dev15",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 78,
+        "url": "https://pypi.org/project/frontend-perception-engine/1.2.0.dev15/"
       }
     ]
   },
   "items": [
     {
       "id": 1,
+      "kind": "newsapi",
+      "technology": "OpenClaw",
+      "title": "sugra-api-mcp 0.8.3rc1",
+      "summary": "Gateway connector between LLM agents and Sugra API world data through a bundled endpoint catalog and operation_id calls. Works with Anthropic Claude, OpenAI GPT, Google Gemini, xAI, and any MCP-enabled IDE.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/sugra-api-mcp/0.8.3rc1/",
+      "published_at": "2026-07-18T17:35:03.000Z",
+      "score": 100,
+      "tags": [
+        "OpenClaw",
+        "Claude",
+        "ChatGPT / OpenAI",
+        "Gemini"
+      ],
+      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+      "relevant": true
+    },
+    {
+      "id": 2,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "teamspend 0.2.1",
+      "summary": "Compare AI coding tool spend before and after a migration -- Cursor, Claude Code, GitHub Copilot, OpenCode, and Codex CLI, real numbers pulled from each vendor's own API or local logs, one command, zero runtime dependencies.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/teamspend/0.2.1/",
+      "published_at": "2026-07-18T17:07:07.000Z",
+      "score": 96,
+      "tags": [
+        "Claude",
+        "Codex"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 3,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.145.0-alpha.24",
@@ -96,7 +132,7 @@
       "relevant": true
     },
     {
-      "id": 2,
+      "id": 4,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.144.6",
@@ -113,7 +149,7 @@
       "relevant": true
     },
     {
-      "id": 3,
+      "id": 5,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.145.0-alpha.23",
@@ -130,7 +166,7 @@
       "relevant": true
     },
     {
-      "id": 4,
+      "id": 6,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.145.0-alpha.22",
@@ -147,14 +183,65 @@
       "relevant": true
     },
     {
-      "id": 5,
+      "id": 7,
+      "kind": "newsapi",
+      "technology": "Codex",
+      "title": "frontend-mcp 1.2.0.dev15",
+      "summary": "Frontend Perception MCP — deterministic browser runtime for coding agents (alias package).",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/frontend-mcp/1.2.0.dev15/",
+      "published_at": "2026-07-18T17:31:12.000Z",
+      "score": 78,
+      "tags": [
+        "Codex",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "relevant": true
+    },
+    {
+      "id": 8,
+      "kind": "newsapi",
+      "technology": "Codex",
+      "title": "frontend-perception-engine 1.2.0.dev15",
+      "summary": "Frontend Perception MCP — deterministic browser runtime for coding agents.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/frontend-perception-engine/1.2.0.dev15/",
+      "published_at": "2026-07-18T17:30:53.000Z",
+      "score": 78,
+      "tags": [
+        "Codex",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "relevant": true
+    },
+    {
+      "id": 9,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "agentkit-mcp 0.1.4",
-      "summary": "AgentKit MCP Server — Business Intelligence tools for Claude/Cursor agents.",
+      "title": "agentrecap added to PyPI",
+      "summary": "Simple tool to analyze your local Claude Code and Codex sessions",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/agentkit-mcp/0.1.4/",
-      "published_at": "2026-07-18T09:56:38.000Z",
+      "source_url": "https://pypi.org/project/agentrecap/",
+      "published_at": "2026-07-18T17:14:18.000Z",
+      "score": 78,
+      "tags": [
+        "Claude",
+        "Codex"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 10,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "claude-archive-mcp 1.3.1",
+      "summary": "Local stdio MCP server exposing unified Claude chat history (claude.ai export + Claude Code sessions) as ranked, scoped, structured search.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/claude-archive-mcp/1.3.1/",
+      "published_at": "2026-07-18T17:08:09.000Z",
       "score": 78,
       "tags": [
         "Claude",
@@ -164,14 +251,14 @@
       "relevant": true
     },
     {
-      "id": 6,
+      "id": 11,
       "kind": "rss",
       "technology": "Claude",
       "title": "Evolving Spec-Driven Development: Conductor Now Supports Antigravity",
       "summary": "Conductor has evolved from a Gemini CLI extension into a portable plugin, bringing conversational Spec-Driven Development (SDD) to ecosystems like Antigravity CLI and Claude. Rather than relying on strict command sequences, developers can now chat naturally with their AI assistant while it dynamically manages persistent markdown artifacts...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity/",
-      "published_at": "2026-07-19T10:39:01.338Z",
+      "published_at": "2026-07-19T18:01:36.987Z",
       "score": 74,
       "tags": [
         "Claude",
@@ -181,14 +268,31 @@
       "relevant": true
     },
     {
-      "id": 7,
+      "id": 12,
+      "kind": "newsapi",
+      "technology": "OpenClaw",
+      "title": "proximo-proxmox 0.25.0",
+      "summary": "The Proxmox MCP you can hand the keys — VE + Backup Server + Mail Gateway + Datacenter Manager on one clean surface: every dangerous op planned, undoable, and audited.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/proximo-proxmox/0.25.0/",
+      "published_at": "2026-07-18T17:31:41.000Z",
+      "score": 74,
+      "tags": [
+        "OpenClaw",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+      "relevant": true
+    },
+    {
+      "id": 13,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "sema-mcp 0.5.0",
-      "summary": "Semantic codebase indexer and MCP server for Claude Code",
+      "title": "pycastle 0.7.21",
+      "summary": "Python orchestrator for autonomous Claude Code agents in Docker",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/sema-mcp/0.5.0/",
-      "published_at": "2026-07-18T10:36:10.000Z",
+      "source_url": "https://pypi.org/project/pycastle/0.7.21/",
+      "published_at": "2026-07-18T17:13:41.000Z",
       "score": 74,
       "tags": [
         "Claude",
@@ -198,111 +302,15 @@
       "relevant": true
     },
     {
-      "id": 8,
+      "id": 14,
       "kind": "rss",
       "technology": "Gemini",
       "title": "A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs",
       "summary": "This post introduces three architectural patterns designed to integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI) to solve the tradeoff between highly custom iframe environments and native, declarative rendering. By combining these approaches, developers can serve native-feeling UIs directly over MCP servers, em...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/a2ui-and-mcp-apps/",
-      "published_at": "2026-07-19T10:39:01.339Z",
+      "published_at": "2026-07-19T18:01:36.987Z",
       "score": 62,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 9,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "dealithic-mcp added to PyPI",
-      "summary": "MCP server for the agentic-ai deal-intelligence API: SEC extraction, financial validation, deal scoring",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/dealithic-mcp/",
-      "published_at": "2026-07-18T10:22:26.000Z",
-      "score": 62,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 10,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "sef-agents 4.3.7",
-      "summary": "SEF Agents — AI-powered guidance for the Synchronous Engineering Framework. Built on Model Context Protocol (MCP).",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/sef-agents/4.3.7/",
-      "published_at": "2026-07-18T10:06:55.000Z",
-      "score": 62,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 11,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "tableau-hosted-mcp 0.1.0",
-      "summary": "Python SDK for Tableau Hosted MCP",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/tableau-hosted-mcp/0.1.0/",
-      "published_at": "2026-07-18T10:38:48.000Z",
-      "score": 58,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 12,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "mcp-top added to PyPI",
-      "summary": "Profile local MCP server context footprint and usage.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/mcp-top/",
-      "published_at": "2026-07-18T10:15:04.000Z",
-      "score": 58,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 13,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "ovf-data-mcp 0.1.1",
-      "summary": "Agent-friendly access to public Hungarian water-management datasets",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/ovf-data-mcp/0.1.1/",
-      "published_at": "2026-07-18T10:13:21.000Z",
-      "score": 58,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 14,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "ovf-data-mcp 0.1.0",
-      "summary": "Agent-friendly access to public Hungarian water-management datasets",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/ovf-data-mcp/0.1.0/",
-      "published_at": "2026-07-18T10:06:27.000Z",
-      "score": 58,
       "tags": [
         "Infra AI"
       ],
@@ -313,12 +321,12 @@
       "id": 15,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "ovf-data-mcp added to PyPI",
-      "summary": "Agent-friendly access to public Hungarian water-management datasets",
+      "title": "talkthrough-mcp 0.2.3",
+      "summary": "Local-first MCP server that turns narrated screen recordings into agent-ready structured data: timestamped transcript, scene keyframes, OCR text, and wall-clock anchoring.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/ovf-data-mcp/",
-      "published_at": "2026-07-18T10:06:22.000Z",
-      "score": 58,
+      "source_url": "https://pypi.org/project/talkthrough-mcp/0.2.3/",
+      "published_at": "2026-07-18T17:32:22.000Z",
+      "score": 62,
       "tags": [
         "Infra AI"
       ],
@@ -329,12 +337,12 @@
       "id": 16,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "regrun 0.8.2",
-      "summary": "YAML-driven regression test runner for HTTP APIs, MCP servers, and shell commands",
+      "title": "navflow 0.1.21",
+      "summary": "A self-hostable data plane for AI agents: ingest events, store them losslessly, and serve one correlated read of any entity over MCP.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/regrun/0.8.2/",
-      "published_at": "2026-07-18T10:01:37.000Z",
-      "score": 58,
+      "source_url": "https://pypi.org/project/navflow/0.1.21/",
+      "published_at": "2026-07-18T17:31:21.000Z",
+      "score": 62,
       "tags": [
         "Infra AI"
       ],
@@ -344,132 +352,130 @@
     {
       "id": 17,
       "kind": "newsapi",
-      "technology": "ChatGPT / OpenAI",
-      "title": "This $80 tool helps you type 3x faster with your voice",
-      "summary": "Fast and accurate voice typing is here with Voibe. The post This $80 tool helps you type 3x faster with your voice appeared first on Popular Science.",
-      "source": "Popular Science",
-      "source_url": "http://www.popsci.com/sponsored-content/this-tool-helps-you-type-3x-faster-with-your-voice-sponsored-deal/",
-      "published_at": "2026-07-18T10:00:00.000Z",
-      "score": 58,
+      "technology": "Infra AI",
+      "title": "people-context-mcp 0.1.0",
+      "summary": "Local-first MCP server giving AI agents contextual knowledge about the people in your life",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/people-context-mcp/0.1.0/",
+      "published_at": "2026-07-18T17:09:36.000Z",
+      "score": 62,
       "tags": [
-        "ChatGPT / OpenAI"
+        "Infra AI"
       ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
       "id": 18,
-      "kind": "github_release",
-      "technology": "Gemini",
-      "title": "Release v0.52.0-nightly.20260718.gacae7124b",
-      "summary": "## What's Changed * feat(caretaker-triage): implement LLM triage orchestrator and container build by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28345 * refactor(cli): align macOS permissive Seatbelt profiles with deny-default model by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28424 * fix(core): mi...",
-      "source": "GitHub: google-gemini/gemini-cli",
-      "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260718.gacae7124b",
-      "published_at": "2026-07-18T01:27:53.000Z",
-      "score": 58,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "people-context-mcp added to PyPI",
+      "summary": "Local-first MCP server giving AI agents contextual knowledge about the people in your life",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/people-context-mcp/",
+      "published_at": "2026-07-18T17:09:31.000Z",
+      "score": 62,
       "tags": [
-        "Gemini"
+        "Infra AI"
       ],
-      "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
       "id": 19,
-      "kind": "github_release",
-      "technology": "Gemini",
-      "title": "Release v0.52.0-preview.0",
-      "summary": "## What's Changed * Refactor: exclude transient CI configuration files from workspace context by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28216 * feat(caretaker-triage): add triage worker core foundational modules by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28163 * feat(caretaker-egress): imple...",
-      "source": "GitHub: google-gemini/gemini-cli",
-      "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-preview.0",
-      "published_at": "2026-07-16T17:04:45.000Z",
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "mcp-gee-sweet 0.8.2.dev81",
+      "summary": "MCP server for Google Workspace — Sheets, Drive, Docs, and Calendar. 60+ tools for AI clients.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/mcp-gee-sweet/0.8.2.dev81/",
+      "published_at": "2026-07-18T18:00:48.000Z",
       "score": 58,
       "tags": [
-        "Gemini"
+        "Infra AI"
       ],
-      "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
       "id": 20,
-      "kind": "rss",
-      "technology": "DeepSeek",
-      "title": "Open-weight models now match frontier cyber performance from just four months ago at a fraction of the cost",
-      "summary": "The British AI Security Institute warns that open-weight models like GLM-5.2 and DeepSeek V4-Pro now trail closed frontier models in cyber capabilities by four to seven months. At the start of 2025, the gap was still six to ten months. It also found that safety measures on open models are largely ineffective, leaving defenders less time t...",
-      "source": "The Decoder",
-      "source_url": "https://the-decoder.com/open-weight-models-now-match-frontier-cyber-performance-from-just-four-months-ago-at-a-fraction-of-the-cost/",
-      "published_at": "2026-07-18T10:16:02.000Z",
-      "score": 56,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "perception-mcp 0.1.5",
+      "summary": "Perception & verification MCP server for AI agents: media_assert (declarative pass/fail QC for generated media), image diff (pixelmatch + SSIM), readable text tiles for small print & handwriting, video tools (frames on demand, scenes, QC defects, pacing dynam…",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/perception-mcp/0.1.5/",
+      "published_at": "2026-07-18T17:53:19.000Z",
+      "score": 58,
       "tags": [
-        "DeepSeek"
+        "Infra AI"
       ],
-      "why_it_matters": "Puede abrir opciones costo/beneficio para razonamiento, fallback local/remoto o benchmarks contra modelos cerrados.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
       "id": 21,
-      "kind": "rss",
-      "technology": "Codex",
-      "title": "Driving the Agent Quality Flywheel from Your Coding Agent",
-      "summary": "Building AI agents often leaves developers uncertain if prompt tweaks to fix single errors will accidentally cause widespread regressions in production. To bridge this gap, Google has introduced a new developer skill for coding agents that automates a five-stage evaluation flywheel: preparing data, running inference, grading with adaptive...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/driving-the-agent-quality-flywheel-from-your-coding-agent/",
-      "published_at": "2026-07-19T10:39:01.338Z",
-      "score": 54,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "mnestic-mcp 0.1.0",
+      "summary": "Local memory MCP server backed by mnestic — hybrid BM25+vector+graph recall with per-leg attribution and time travel, all on your machine.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/mnestic-mcp/0.1.0/",
+      "published_at": "2026-07-18T17:48:04.000Z",
+      "score": 58,
       "tags": [
-        "Codex",
         "Infra AI"
       ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": false
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
     },
     {
       "id": 22,
-      "kind": "rss",
-      "technology": "Claude",
-      "title": "Moonshot's Kimi K3 outperforms Fable 5 in frontend code but lags far behind in complex math",
-      "summary": "Moonshot's Kimi K3 is the first Chinese model to top the Code Arena: Frontend rankings, beating Claude Fable 5 and GPT-5.6 Sol by a wide margin. But on advanced math, the gap is stark: Kimi K3 scores only about 39 percent on FrontierMath Tier 4, while models from OpenAI and Anthropic hit close to 90. The article Moonshot's Kimi K3 outperf...",
-      "source": "The Decoder",
-      "source_url": "https://the-decoder.com/moonshots-kimi-k3-outperforms-fable-5-in-frontend-code-but-lags-far-behind-in-complex-math/",
-      "published_at": "2026-07-19T09:32:19.000Z",
-      "score": 54,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "mnestic-mcp added to PyPI",
+      "summary": "Local memory MCP server backed by mnestic — hybrid BM25+vector+graph recall with per-leg attribution and time travel, all on your machine.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/mnestic-mcp/",
+      "published_at": "2026-07-18T17:47:55.000Z",
+      "score": 58,
       "tags": [
-        "Claude",
-        "ChatGPT / OpenAI"
+        "Infra AI"
       ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": false
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
     },
     {
       "id": 23,
-      "kind": "github_release",
-      "technology": "Gemini",
-      "title": "Release v0.52.0-nightly.20260719.gacae7124b",
-      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260718.gacae7124b...v0.52.0-nightly.20260719.gacae7124b",
-      "source": "GitHub: google-gemini/gemini-cli",
-      "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260719.gacae7124b",
-      "published_at": "2026-07-19T01:32:55.000Z",
-      "score": 54,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "scoped-mcp 1.10.1",
+      "summary": "Per-agent scoped MCP tool proxy with credential isolation and audit logging",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/scoped-mcp/1.10.1/",
+      "published_at": "2026-07-18T17:43:22.000Z",
+      "score": 58,
       "tags": [
-        "Gemini"
+        "Infra AI"
       ],
-      "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
-      "relevant": false
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
     },
     {
       "id": 24,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "mql-mcp 1.1.0",
-      "summary": "MetaTrader 4/5 MCP server - 6 tools for MQL4/MQL5 docs lookup, code validation, and code generation",
+      "title": "agora-mnemo 1.12.2",
+      "summary": "The self-correcting memory layer for AI agents: when a fact is corrected, mnemo serves the new value and resists the old one resurfacing. Zero-dependency single file + MCP server — value-ranked recall, per-type decay, consolidation, revert, and tamper-evident…",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/mql-mcp/1.1.0/",
-      "published_at": "2026-07-18T10:37:09.000Z",
-      "score": 54,
+      "source_url": "https://pypi.org/project/agora-mnemo/1.12.2/",
+      "published_at": "2026-07-18T17:20:50.000Z",
+      "score": 58,
       "tags": [
         "Infra AI"
       ],
       "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": false
+      "relevant": true
     }
   ]
 }
