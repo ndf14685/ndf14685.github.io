@@ -1,5 +1,60 @@
 [
   {
+    "key": "https://the-decoder.com/claude-cowork-learns-new-skills-through-screen-recordings-and-voice-over-explanations",
+    "technology": "Claude",
+    "title": "Claude Cowork learns new skills through screen recordings and voice-over explanations",
+    "summary": "Anthropic's Claude Cowork desktop app now lets users record their screen while completing a task, add voice commentary, and have Claude turn the whole thing into a reusable skill. The article Claude Cowork learns new skills through screen recordings and voice-over explanations appeared first on The Decoder.",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/claude-cowork-learns-new-skills-through-screen-recordings-and-voice-over-explanations/",
+    "published_at": "2026-07-21T17:07:21.000Z",
+    "score": 98,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://openai.com/index/introducing-chatgpt-small-business-program",
+    "technology": "Codex",
+    "title": "Introducing the ChatGPT for small business program",
+    "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+    "source": "OpenAI News",
+    "source_url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+    "published_at": "2026-07-21T17:00:00.000Z",
+    "score": 58,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://the-decoder.com/google-ships-three-new-gemini-flash-models-but-its-frontier-3-5-pro-remains-lost-in-training",
+    "technology": "Claude",
+    "title": "Google ships three new Gemini Flash models but its frontier 3.5 Pro remains lost in training",
+    "summary": "Google is shipping three new Flash models in the Gemini series, including the more efficient 3.6 Flash, which uses up to 65 percent fewer tokens, and a cybersecurity model available only to governments and select partners. But the anticipated flagship, Gemini 3.5 Pro, is still missing, while OpenAI, Anthropic, and Chinese labs are already...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/google-ships-three-new-gemini-flash-models-but-its-frontier-3-5-pro-remains-lost-in-training/",
+    "published_at": "2026-07-21T16:52:51.000Z",
+    "score": 88,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.29",
+    "technology": "Codex",
+    "title": "0.145.0-alpha.29",
+    "summary": "Release 0.145.0-alpha.29",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.29",
+    "published_at": "2026-07-21T11:49:09.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://the-decoder.com/alibabas-qwen-audio-3-0-tts-plus-tops-the-competition-in-the-text-to-speech-rankings",
+    "technology": "ChatGPT / OpenAI",
+    "title": "Alibaba's Qwen Audio 3.0 TTS Plus tops the competition in the text-to-speech rankings",
+    "summary": "Alibaba's Qwen Audio 3.0 TTS Plus tops Artificial Analysis' Speech Arena leaderboard. The model supports 16 languages and lets users control speaking style with natural language or tags like [angry]. At 16 characters per second, though, it's far slower than rivals Sonic 3.5 and Simba 3.2. The article Alibaba's Qwen Audio 3.0 TTS Plus tops...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/alibabas-qwen-audio-3-0-tts-plus-tops-the-competition-in-the-text-to-speech-rankings/",
+    "published_at": "2026-07-21T11:31:15.000Z",
+    "score": 58,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.28",
     "technology": "Codex",
     "title": "0.145.0-alpha.28",
@@ -33,6 +88,17 @@
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   },
   {
+    "key": "https://pypi.org/project/docsonar",
+    "technology": "Infra AI",
+    "title": "docsonar added to PyPI",
+    "summary": "Local document search MCP server — chat with your folders, fully offline.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/docsonar/",
+    "published_at": "2026-07-20T18:15:07.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
     "key": "https://the-decoder.com/googles-frozen-v2-chip-reportedly-bakes-geminis-architecture-directly-into-silicon-for-efficiency-gains",
     "technology": "ChatGPT / OpenAI",
     "title": "Google's \"Frozen v2\" chip reportedly bakes Gemini's architecture directly into silicon for efficiency gains",
@@ -42,6 +108,127 @@
     "published_at": "2026-07-20T18:08:33.000Z",
     "score": 84,
     "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://pypi.org/project/marona/0.8.8",
+    "technology": "OpenClaw",
+    "title": "marona 0.8.8",
+    "summary": "Provider-neutral AI agent runtime and MCP/Skill gateway for Marona Hub connections, managed agents, and bring-your-own-agent integrations.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/marona/0.8.8/",
+    "published_at": "2026-07-20T18:00:20.000Z",
+    "score": 78,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
+    "key": "https://pypi.org/project/agora-mnemo/1.24.0",
+    "technology": "Infra AI",
+    "title": "agora-mnemo 1.24.0",
+    "summary": "The self-correcting memory layer for AI agents: when a fact is corrected, mnemo serves the new value and resists the old one resurfacing. Zero-dependency single file + MCP server — value-ranked recall, per-type decay, consolidation, revert, and tamper-evident…",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agora-mnemo/1.24.0/",
+    "published_at": "2026-07-20T17:57:57.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/railmux/0.2.0",
+    "technology": "Claude",
+    "title": "railmux 0.2.0",
+    "summary": "Terminal UI to navigate, resume, and start Claude Code and Codex sessions",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/railmux/0.2.0/",
+    "published_at": "2026-07-20T17:53:44.000Z",
+    "score": 70,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://github.com/vicmaster/framesmith",
+    "technology": "Infra AI",
+    "title": "Show HN: Framesmith 1.9 – charts as a node type for AI-designed UIs",
+    "summary": "Open-source MCP server that gives AI assistants a visual design canvas, rendering HTML/CSS scene graphs to PNG via headless Chromium. - vicmaster/framesmith",
+    "source": "Github.com",
+    "source_url": "https://github.com/vicmaster/framesmith",
+    "published_at": "2026-07-20T17:53:35.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/code-analysis-client/1.6.62",
+    "technology": "Infra AI",
+    "title": "code-analysis-client 1.6.62",
+    "summary": "Async JSON-RPC client for the code-analysis MCP server (mcp-proxy-adapter JsonRpcClient)",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/code-analysis-client/1.6.62/",
+    "published_at": "2026-07-20T17:53:03.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/graphsift/4.3.0",
+    "technology": "Claude",
+    "title": "graphsift 4.3.0",
+    "summary": "graphsift: Save Claude fable,opus tokens, reduce GPT-5.6,5.5 & Gemini API costs. #1 Python library for LLM token optimization with 80-150x code context reduction, 86% CLI output compression, F1 0.85 relevance. AST dependency graph, BM25+graph ranked selection…",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/graphsift/4.3.0/",
+    "published_at": "2026-07-20T17:53:01.000Z",
+    "score": 92,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/agentihooks/1.16.0",
+    "technology": "Claude",
+    "title": "agentihooks 1.16.0",
+    "summary": "Hook system and MCP tool server for Claude Code agents",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agentihooks/1.16.0/",
+    "published_at": "2026-07-20T17:50:17.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/agent-bom/0.97.0",
+    "technology": "Infra AI",
+    "title": "agent-bom 0.97.0",
+    "summary": "Open security scanner and self-hosted control plane for AI, MCP, and cloud infrastructure.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agent-bom/0.97.0/",
+    "published_at": "2026-07-20T17:49:37.000Z",
+    "score": 76,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/contextlake/2.40.0",
+    "technology": "Infra AI",
+    "title": "contextlake 2.40.0",
+    "summary": "A local context layer for AI tools: mirror your repositories, index them into a knowledge graph, and serve it over MCP so agents answer from real source instead of guessing.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/contextlake/2.40.0/",
+    "published_at": "2026-07-20T17:48:17.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/exomem/0.26.0",
+    "technology": "Infra AI",
+    "title": "exomem 0.26.0",
+    "summary": "Local knowledge substrate for owned markdown/Obsidian vaults, exposed through MCP, REST, and CLI with multimodal OCR/ASR/CLIP search",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/exomem/0.26.0/",
+    "published_at": "2026-07-20T17:38:38.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/agentruntime-mcp/0.3.3",
+    "technology": "Infra AI",
+    "title": "agentruntime-mcp 0.3.3",
+    "summary": "AgentRuntime MCP SDK (decorators, runtime, middleware, schemas, proxy)",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agentruntime-mcp/0.3.3/",
+    "published_at": "2026-07-20T17:33:36.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   },
   {
     "key": "https://the-decoder.com/nvidias-grip-on-ai-chips-weakens-as-microsoft-turns-to-amd-and-anthropic-may-follow",
@@ -6411,192 +6598,5 @@
     "published_at": "2026-07-08T18:29:05.000Z",
     "score": 78,
     "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/mcpshield-agent/0.2.0",
-    "technology": "Infra AI",
-    "title": "mcpshield-agent 0.2.0",
-    "summary": "MCPShield Agent - AI Agent Security Scanner for MCP servers",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/mcpshield-agent/0.2.0/",
-    "published_at": "2026-07-08T18:26:39.000Z",
-    "score": 72,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "http://9to5google.com/2026/07/08/gemini-nest-hub-answer-weather-redesign",
-    "technology": "OpenClaw",
-    "title": "Gemini on Nest Hub redesigns weather and other knowledge answers",
-    "summary": "Following the Google Home Speaker launch, the Gemini for Home voice assistant is improving its Nest Hub and Smart Display experience with redesigned visual responses.",
-    "source": "9to5google.com",
-    "source_url": "http://9to5google.com/2026/07/08/gemini-nest-hub-answer-weather-redesign/",
-    "published_at": "2026-07-08T18:21:28.000Z",
-    "score": 98,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://the-decoder.com/anthropics-claude-fable-5-dominates-new-industry-benchmarks-at-a-steep-premium",
-    "technology": "Claude",
-    "title": "Anthropic's Claude Fable 5 dominates new industry benchmarks at a steep premium",
-    "summary": "Anthropic's Claude Fable 5 tops all six new industry-specific performance indices from Artificial Analysis, covering finance, law, and medicine. But that lead comes at a steep cost. In the Strategy & Ops Index, a single task runs $3.48 with Fable 5, more than a hundred times what DeepSeek V4 Pro charges at $0.03. The score difference is j...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/anthropics-claude-fable-5-dominates-new-industry-benchmarks-at-a-steep-premium/",
-    "published_at": "2026-07-08T15:59:12.000Z",
-    "score": 72,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://the-decoder.com/google-deepmind-adds-background-execution-and-mcp-support-to-gemini-api-managed-agents",
-    "technology": "Gemini",
-    "title": "Google Deepmind adds background execution and MCP support to Gemini API managed agents",
-    "summary": "Google Deepmind is adding four new features to Managed Agents in the Gemini API. Agents can now run asynchronously in the background, connect directly to remote MCP servers, use custom functions alongside sandbox tools, and refresh credentials without losing state. The article Google Deepmind adds background execution and MCP support to G...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/google-deepmind-adds-background-execution-and-mcp-support-to-gemini-api-managed-agents/",
-    "published_at": "2026-07-08T14:45:35.000Z",
-    "score": 82,
-    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
-  },
-  {
-    "key": "https://pypi.org/project/ai-data-platform/0.2.0",
-    "technology": "Infra AI",
-    "title": "ai-data-platform 0.2.0",
-    "summary": "AI Data Platform: metadata catalog, profiling, synthetic data generation, semantic models, NL-to-SQL, and MCP server — local-first.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/ai-data-platform/0.2.0/",
-    "published_at": "2026-07-08T12:14:47.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/optio-codex/0.3.0",
-    "technology": "Codex",
-    "title": "optio-codex 0.3.0",
-    "summary": "Run OpenAI Codex as an optio task; local subprocess; ttyd-served TUI iframe.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/optio-codex/0.3.0/",
-    "published_at": "2026-07-08T12:14:39.000Z",
-    "score": 74,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/sub-pool-client/0.6.7",
-    "technology": "Claude",
-    "title": "sub-pool-client 0.6.7",
-    "summary": "Python client + `sp-claude` / `sp-codex` CLIs for a sub-pool credential broker.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/sub-pool-client/0.6.7/",
-    "published_at": "2026-07-08T12:12:16.000Z",
-    "score": 74,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://wccftech.com/intel-arc-pro-b70-beats-nvidia-rtx-5090d-in-deepseek-r1-ai-llm-over-2000-tokens-sec",
-    "technology": "DeepSeek",
-    "title": "Intel’s Arc Pro B70 Beats NVIDIA’s RTX 5090D In DeepSeek R1 AI LLM, Despite Costing A Quarter As Much, Offers Over 2000 Tokens/s",
-    "summary": "Intel's Arc Pro B70 GPU delivers strong performance in DeepSeek R1, beating the RTX 5090D & RTX 4090D in AI LLMs. Intel Arc Pro B70 32 GB Tested In Quad-GPU Configuration Against The NVIDIA 5090D & RTX 4090D, Offers Superb AI Capabilities In DeepSeek R1 LLM G…",
-    "source": "Wccftech",
-    "source_url": "https://wccftech.com/intel-arc-pro-b70-beats-nvidia-rtx-5090d-in-deepseek-r1-ai-llm-over-2000-tokens-sec/",
-    "published_at": "2026-07-08T12:10:04.000Z",
-    "score": 68,
-    "why_it_matters": "Puede abrir opciones costo/beneficio para razonamiento, fallback local/remoto o benchmarks contra modelos cerrados."
-  },
-  {
-    "key": "https://pypi.org/project/uipilot/0.2.0",
-    "technology": "Infra AI",
-    "title": "uipilot 0.2.0",
-    "summary": "App-agnostic engine that models a web UI as a graph and compiles flows into Playwright-MCP-executable scripts for agents.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/uipilot/0.2.0/",
-    "published_at": "2026-07-08T12:04:47.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/agentaudit-scanner/0.1.1",
-    "technology": "Codex",
-    "title": "agentaudit-scanner 0.1.1",
-    "summary": "A read-only security scanner for AI agent skills, rule files, and MCP configurations. Detects prompt injections, hidden instructions, and dangerous permissions before your agent obeys them.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/agentaudit-scanner/0.1.1/",
-    "published_at": "2026-07-08T12:02:04.000Z",
-    "score": 96,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/agent-intern/0.18.0",
-    "technology": "Claude",
-    "title": "agent-intern 0.18.0",
-    "summary": "MCP server bridging the Antigravity (agy), OpenAI Codex, and GitHub Copilot CLIs so Claude Code can drive them as sub-agents",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/agent-intern/0.18.0/",
-    "published_at": "2026-07-08T11:54:00.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/sciagentkit",
-    "technology": "Codex",
-    "title": "sciagentkit 1.0.0",
-    "summary": "MCP-native scientific skills for reproducible computational biology and drug-discovery agents.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/sciagentkit/",
-    "published_at": "2026-07-08T11:52:44.000Z",
-    "score": 82,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/agentaudit-scanner/0.1.0",
-    "technology": "Codex",
-    "title": "agentaudit-scanner 0.1.0",
-    "summary": "A read-only security scanner for AI agent skills, rule files, and MCP configurations. Detects prompt injections, hidden instructions, and dangerous permissions before your agent obeys them.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/agentaudit-scanner/0.1.0/",
-    "published_at": "2026-07-08T11:50:18.000Z",
-    "score": 96,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/agentaudit-scanner",
-    "technology": "Codex",
-    "title": "agentaudit-scanner added to PyPI",
-    "summary": "A read-only security scanner for AI agent skills, rule files, and MCP configurations. Detects prompt injections, hidden instructions, and dangerous permissions before your agent obeys them.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/agentaudit-scanner/",
-    "published_at": "2026-07-08T11:50:18.000Z",
-    "score": 96,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://the-decoder.com/openais-gpt-5-6-launches-thursday-after-a-delay-forced-by-the-u-s-government",
-    "technology": "Claude",
-    "title": "OpenAI's GPT-5.6 launches Thursday after a delay forced by the U.S. government",
-    "summary": "OpenAI is launching GPT-5.6 on Thursday after the U.S. government lifted its release ban following additional testing. Binding standards for future model approvals still don't exist. OpenAI says the Sol model beats Anthropic's Claude Mythos 5 on coding benchmarks at about half the cost. The article OpenAI's GPT-5.6 launches Thursday after...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/openais-gpt-5-6-launches-thursday-after-a-delay-forced-by-the-u-s-government/",
-    "published_at": "2026-07-08T08:00:30.000Z",
-    "score": 80,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.143.0",
-    "technology": "Codex",
-    "title": "0.143.0",
-    "summary": "## New Features - Remote plugins are now enabled by default, with richer catalog rows, npm marketplace sources, and visible remote/local versions. (#30297, #26705, #29375, #30981) - Codex can route authentication and Responses API traffic through macOS and Windows system proxies, including PAC and WPAD configurations. (#26708, #26709, #31...",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0",
-    "published_at": "2026-07-08T01:31:10.000Z",
-    "score": 94,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://biztoc.com/x/4466b6cb2bf7b650",
-    "technology": "Claude",
-    "title": "Banks Are Racing Into AI Faster Than Security Can Follow",
-    "summary": "The Model Context Protocol, or MCP, is an open standard introduced by Anthropic in late 2024 that lets artificial intelligence (AI) agents connect to business systems the way applications call application programming interfaces (APIs) using a common interface…",
-    "source": "Biztoc.com",
-    "source_url": "https://biztoc.com/x/4466b6cb2bf7b650",
-    "published_at": "2026-07-08T00:14:40.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   }
 ]
