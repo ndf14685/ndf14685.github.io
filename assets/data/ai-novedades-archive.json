@@ -1,5 +1,49 @@
 [
   {
+    "key": "https://the-decoder.com/anthropic-will-deploy-2-gigawatts-of-amd-gpus-for-claude-in-a-deal-worth-up-to-5-billion",
+    "technology": "Claude",
+    "title": "Anthropic will deploy 2 gigawatts of AMD GPUs for Claude in a deal worth up to $5 billion",
+    "summary": "AMD is investing up to $5 billion in Anthropic. In return, Anthropic will deploy up to 2 gigawatts of MI450 GPUs for training and running its Claude models. For AMD, this is another major deal after Meta and OpenAI as it tries to challenge Nvidia as an AI chip supplier. Critics see these agreements as circular cash flows. The article Anth...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/anthropic-will-deploy-2-gigawatts-of-amd-gpus-for-claude-in-a-deal-worth-up-to-5-billion/",
+    "published_at": "2026-07-22T16:54:26.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://the-decoder.com/every-frontier-ai-model-tested-by-britains-safety-institute-tried-to-cheat-on-cybersecurity-evaluations",
+    "technology": "Claude",
+    "title": "Every frontier AI model tested by Britain's safety institute tried to cheat on cybersecurity evaluations",
+    "summary": "The UK's AI Safety Institute tested five frontier models from OpenAI and Anthropic in cybersecurity evaluations. All five tried to cheat. One even ran code on an external service to access the institute's infrastructure, triggering a security alert. The article Every frontier AI model tested by Britain's safety institute tried to cheat on...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/every-frontier-ai-model-tested-by-britains-safety-institute-tried-to-cheat-on-cybersecurity-evaluations/",
+    "published_at": "2026-07-22T16:41:49.000Z",
+    "score": 68,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://the-decoder.com/openais-project-camellia-in-georgia-secures-a-massive-3-2-gigawatt-power-deal-through-2032",
+    "technology": "Codex",
+    "title": "OpenAI's \"Project Camellia\" in Georgia secures a massive 3.2-gigawatt power deal through 2032",
+    "summary": "OpenAI is planning a data center in Georgia called \"Project Camellia\" with a 3.2-gigawatt power deal from Georgia Power. The company pledged $80 million for the local community and $71 million in Codex credits for students to counter growing opposition to US data centers that many residents see as resource-hungry but job-poor. The article...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/openais-project-camellia-in-georgia-secures-a-massive-3-2-gigawatt-power-deal-through-2032/",
+    "published_at": "2026-07-22T15:45:51.000Z",
+    "score": 74,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+    "technology": "Codex",
+    "title": "Building AI infrastructure with the Effingham County community",
+    "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+    "source": "OpenAI News",
+    "source_url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+    "published_at": "2026-07-22T13:00:00.000Z",
+    "score": 70,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.2",
     "technology": "Codex",
     "title": "0.146.0-alpha.2",
@@ -42,6 +86,127 @@
     "published_at": "2026-07-21T18:21:04.000Z",
     "score": 100,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/dcc-mcp-server/0.19.63",
+    "technology": "OpenClaw",
+    "title": "dcc-mcp-server 0.19.63",
+    "summary": "Standalone dcc-mcp-server CLI binary — gateway, sidecar, stdio bridge (Rust)",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/dcc-mcp-server/0.19.63/",
+    "published_at": "2026-07-21T18:04:33.000Z",
+    "score": 78,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
+    "key": "https://pypi.org/project/yolo-jail/0.7.1",
+    "technology": "Claude",
+    "title": "yolo-jail 0.7.1",
+    "summary": "Secure container jail for AI coding agents — run Claude Code, Copilot, Gemini, opencode, or pi in YOLO mode safely",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/yolo-jail/0.7.1/",
+    "published_at": "2026-07-21T18:02:58.000Z",
+    "score": 94,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/agent-bom/0.97.2",
+    "technology": "Infra AI",
+    "title": "agent-bom 0.97.2",
+    "summary": "Open security scanner and self-hosted control plane for AI, MCP, and cloud infrastructure.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agent-bom/0.97.2/",
+    "published_at": "2026-07-21T17:59:48.000Z",
+    "score": 76,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/hol-guard/2.1.0a8",
+    "technology": "Codex",
+    "title": "hol-guard 2.1.0a8",
+    "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/hol-guard/2.1.0a8/",
+    "published_at": "2026-07-21T17:59:45.000Z",
+    "score": 82,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/graphifyy/0.9.23",
+    "technology": "OpenClaw",
+    "title": "graphifyy 0.9.23",
+    "summary": "AI coding assistant skill (Claude Code, CodeBuddy, Codex, OpenCode, Kilo Code, Cursor, Gemini CLI, Aider, OpenClaw, Factory Droid, Trae, Hermes, Kiro, Pi, Devin CLI, Google Antigravity) - turn any folder of code, docs, papers, images, or videos into a queryab…",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/graphifyy/0.9.23/",
+    "published_at": "2026-07-21T17:59:34.000Z",
+    "score": 100,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
+    "key": "https://pypi.org/project/mnemoai-assistant/1.5.8",
+    "technology": "Infra AI",
+    "title": "mnemoai-assistant 1.5.8",
+    "summary": "Mnemo AI — a local agentic AI assistant (LangGraph + MCP) that learns and remembers, with multi-provider model support.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mnemoai-assistant/1.5.8/",
+    "published_at": "2026-07-21T17:59:18.000Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/oxford-ledge-mcp/3.0.1",
+    "technology": "Claude",
+    "title": "oxford-ledge-mcp 3.0.1",
+    "summary": "MCP server for Oxford Ledge financial terminal — 16 tools for stocks, SEC filings, credit data, bonds, macro indicators, and BDC holdings from Claude Desktop",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/oxford-ledge-mcp/3.0.1/",
+    "published_at": "2026-07-21T17:56:35.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://github.com/rubriclab/tokenmaxx",
+    "technology": "Claude",
+    "title": "Show HN: Tokenmaxx – CLI that merges usage across Claude Code and Codex accounts",
+    "summary": "A local proxy that aggregates usage across your Codex and Claude Code accounts — with live token-throughput analytics. - RubricLab/tokenmaxx",
+    "source": "Github.com",
+    "source_url": "https://github.com/RubricLab/tokenmaxx",
+    "published_at": "2026-07-21T17:56:28.000Z",
+    "score": 82,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/hol-guard/2.1.0a7",
+    "technology": "Codex",
+    "title": "hol-guard 2.1.0a7",
+    "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/hol-guard/2.1.0a7/",
+    "published_at": "2026-07-21T17:53:46.000Z",
+    "score": 82,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/cli-market-core/1.11.52",
+    "technology": "Infra AI",
+    "title": "cli-market-core 1.11.52",
+    "summary": "Cost-of-Living OS for LatAm — intelligence layer for CLI Market. market_optimize_purchase: one-call basket compare, TCO, substitutes, action links. 44 MCP tools (default profile). Dependency of cli-market-world.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/cli-market-core/1.11.52/",
+    "published_at": "2026-07-21T17:52:10.000Z",
+    "score": 72,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://9to5mac.com/2026/07/21/openai-launches-small-business-program-as-it-touts-10m-chatgpt-work-and-codex-users",
+    "technology": "Codex",
+    "title": "OpenAI launches small business program as it touts 10M ChatGPT Work and Codex users",
+    "summary": "OpenAI has announced a new initiative called the ChatGPT for small business program. Meanwhile, the company touts reaching 10M ChatGPT Work and Codex users.",
+    "source": "9to5Mac",
+    "source_url": "https://9to5mac.com/2026/07/21/openai-launches-small-business-program-as-it-touts-10m-chatgpt-work-and-codex-users/",
+    "published_at": "2026-07-21T17:50:43.000Z",
+    "score": 74,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   },
   {
     "key": "https://the-decoder.com/claude-cowork-learns-new-skills-through-screen-recordings-and-voice-over-explanations",
@@ -6432,171 +6597,6 @@
     "source_url": "https://pypi.org/project/clauderizer/1.6.0/",
     "published_at": "2026-07-09T17:59:58.000Z",
     "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://the-decoder.com/openai-pairs-its-gpt-5-6-public-rollout-with-chatgpt-work-a-new-agent-that-handles-entire-workflows",
-    "technology": "Codex",
-    "title": "OpenAI pairs its GPT-5.6 public rollout with ChatGPT Work, a new agent that handles entire workflows",
-    "summary": "OpenAI is launching ChatGPT Work, an agent-based product powered by Codex and the now publicly available GPT-5.6. The agent can independently handle complex projects across apps like Google Drive, Slack, and Salesforce. ChatGPT Work is available now on web, mobile, and desktop, though access depends on the subscription plan. The article O...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/openai-pairs-its-gpt-5-6-public-rollout-with-chatgpt-work-a-new-agent-that-handles-entire-workflows/",
-    "published_at": "2026-07-09T17:59:22.000Z",
-    "score": 78,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://the-decoder.com/metas-muse-spark-1-1-api-pricing-squeezes-openai-and-anthropic-as-the-ai-price-war-heats-up",
-    "technology": "Claude",
-    "title": "Meta's Muse Spark 1.1 API pricing squeezes OpenAI and Anthropic as the AI price war heats up",
-    "summary": "Meta is entering the AI API business with Muse Spark 1.1 at prices that undercut even the dirt-cheap Grok 4.5, released just yesterday. At $4.25 per million output tokens, Meta charges a fraction of what Anthropic or OpenAI ask. For pure-play AI labs burning through billions, the pressure just got worse. The article Meta's Muse Spark 1.1...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/metas-muse-spark-1-1-api-pricing-squeezes-openai-and-anthropic-as-the-ai-price-war-heats-up/",
-    "published_at": "2026-07-09T16:58:44.000Z",
-    "score": 72,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.144.0",
-    "technology": "Codex",
-    "title": "0.144.0",
-    "summary": "## New Features - Usage-limit reset credits now show their type and expiration, and let you choose which credit to redeem. (#30488) - Added a `writes` app-approval mode that allows declared read-only actions while prompting for writes. (#30482) - MCP tools can now request authentication interactively without an experimental opt-in. (#2877...",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.144.0",
-    "published_at": "2026-07-09T16:47:12.000Z",
-    "score": 100,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://the-decoder.com/openai-finds-roughly-30-percent-of-popular-ai-coding-test-is-broken",
-    "technology": "Codex",
-    "title": "OpenAI finds roughly 30 percent of popular AI coding test is broken",
-    "summary": "OpenAI reviewed SWE-Bench Pro, a widely used test for measuring AI models' programming skills, and found roughly 30 percent of its tasks are broken. The company is pulling its earlier endorsement of the benchmark. The article OpenAI finds roughly 30 percent of popular AI coding test is broken appeared first on The Decoder.",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/openai-finds-roughly-30-percent-of-popular-ai-coding-test-is-broken/",
-    "published_at": "2026-07-09T13:23:57.000Z",
-    "score": 62,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/engrava-mcp/0.5.1",
-    "technology": "Infra AI",
-    "title": "engrava-mcp 0.5.1",
-    "summary": "Model Context Protocol server for Engrava — expose an agent memory database to any MCP client over stdio.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/engrava-mcp/0.5.1/",
-    "published_at": "2026-07-09T11:53:46.000Z",
-    "score": 66,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://slashdot.org/submission/17348850/openai-claud-and-gemini-being-used-to-drive-german-afd-rage-bait-system",
-    "technology": "Claude",
-    "title": "OpenAI, Claud and Gemini being used to drive German AFD rage bait system.",
-    "summary": "The Irish times Reports that \"The far-right Alternative for Germany (AfD) has developed a new software suite, driven by Google Gemini, Open AI and Anthropic’s Claude, that helps party members generate so-called “rage bait” social media postings.\" the article …",
-    "source": "Slashdot.org",
-    "source_url": "https://slashdot.org/submission/17348850/openai-claud-and-gemini-being-used-to-drive-german-afd-rage-bait-system",
-    "published_at": "2026-07-09T11:48:53.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/kanibako/1.7.0rc9",
-    "technology": "Claude",
-    "title": "kanibako 1.7.0rc9",
-    "summary": "Run AI coding agents in rootless containers (meta-package: CLI + Claude, Goose, and Codex plugins)",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/kanibako/1.7.0rc9/",
-    "published_at": "2026-07-09T11:48:22.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/github-agent/1.1.0",
-    "technology": "Infra AI",
-    "title": "github-agent 1.1.0",
-    "summary": "GitHub Agent for MCP",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/github-agent/1.1.0/",
-    "published_at": "2026-07-09T11:47:28.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/uipilot/0.7.0",
-    "technology": "Infra AI",
-    "title": "uipilot 0.7.0",
-    "summary": "App-agnostic engine that models a web UI as a graph and compiles flows into Playwright-MCP-executable scripts for agents.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/uipilot/0.7.0/",
-    "published_at": "2026-07-09T11:45:28.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/hy3-code-review-mcp/0.1.0",
-    "technology": "Codex",
-    "title": "hy3-code-review-mcp 0.1.0",
-    "summary": "MCP Server for AI-powered code review using Hy3 (Tencent Hunyuan)",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hy3-code-review-mcp/0.1.0/",
-    "published_at": "2026-07-09T11:39:59.000Z",
-    "score": 74,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/hy3-code-review-mcp",
-    "technology": "Codex",
-    "title": "hy3-code-review-mcp added to PyPI",
-    "summary": "MCP Server for AI-powered code review using Hy3 (Tencent Hunyuan)",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hy3-code-review-mcp/",
-    "published_at": "2026-07-09T11:39:59.000Z",
-    "score": 74,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/deepseek-translate-server/0.1.8",
-    "technology": "DeepSeek",
-    "title": "deepseek-translate-server 0.1.8",
-    "summary": "MCP server for translating Markdown to Chinese via DeepSeek",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/deepseek-translate-server/0.1.8/",
-    "published_at": "2026-07-09T11:33:42.000Z",
-    "score": 74,
-    "why_it_matters": "Puede abrir opciones costo/beneficio para razonamiento, fallback local/remoto o benchmarks contra modelos cerrados."
-  },
-  {
-    "key": "https://pypi.org/project/fraser-gate/0.4.0",
-    "technology": "Codex",
-    "title": "fraser-gate 0.4.0",
-    "summary": "MCP server + CLI that lets an AI coding agent run FRASER's persona-based usability review against a build, read grounded experience findings, and gate the fix pass/fail",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/fraser-gate/0.4.0/",
-    "published_at": "2026-07-09T11:28:17.000Z",
-    "score": 82,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://www.techradar.com/pro/china-warns-users-of-alleged-security-backdoor-vulnerabilities-in-anthropics-claude-code-tells-users-to-uninstall-for-sfaety-reasons",
-    "technology": "Claude",
-    "title": "China warns users of alleged 'security backdoor vulnerabilities' in Anthropic's Claude Code, tells users to uninstall for sfaety reasons",
-    "summary": "China has accused Claude Code of spying on enterprises and tracking user locations – Anthropic asserts it's a security necessity.",
-    "source": "TechRadar",
-    "source_url": "https://www.techradar.com/pro/china-warns-users-of-alleged-security-backdoor-vulnerabilities-in-anthropics-claude-code-tells-users-to-uninstall-for-sfaety-reasons",
-    "published_at": "2026-07-09T11:25:00.000Z",
-    "score": 64,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://the-decoder.com/databricks-makes-chinese-open-source-model-glm-5-2-its-default-coding-engine-after-it-matched-opus-at-lower-cost",
-    "technology": "Claude",
-    "title": "Databricks makes Chinese open-source model GLM 5.2 its default coding engine after it matched Opus at lower cost",
-    "summary": "Databricks benchmarked coding agents on its own multi-million-line codebase and found that the Chinese open-source model GLM 5.2 matched Anthropic's Opus 4.8 at $1.28 per task versus $1.94. The company plans to roll it out as a daily coding workhorse. Its broader takeaway: no single provider dominates, and companies should build their own...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/databricks-makes-chinese-open-source-model-glm-5-2-its-default-coding-engine-after-it-matched-opus-at-lower-cost/",
-    "published_at": "2026-07-09T11:03:39.000Z",
-    "score": 76,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   }
 ]
