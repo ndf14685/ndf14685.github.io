@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T18:01:42.077Z",
+  "generated_at": "2026-07-26T00:05:34.567Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -11,8 +11,8 @@
     "Infra AI"
   ],
   "source_counts": {
-    "rss": 31,
-    "github": 8,
+    "rss": 30,
+    "github": 6,
     "newsapi": 50
   },
   "digest": {
@@ -21,17 +21,31 @@
     "telegram_summary": [
       {
         "technology": "Claude",
-        "title": "bernstein 3.9.0",
+        "title": "orkestra-runtime 0.1.2",
         "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 98,
-        "url": "https://pypi.org/project/bernstein/3.9.0/"
+        "score": 100,
+        "url": "https://pypi.org/project/orkestra-runtime/0.1.2/"
       },
       {
         "technology": "Claude",
-        "title": "Anthropic says start with its smartest Claude model—not the cheapest",
+        "title": "orkestra-runtime added to PyPI",
         "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 92,
-        "url": "https://4sysops.com/archives/anthropic-says-start-with-its-smartest-claude-model-not-the-cheapest/"
+        "score": 100,
+        "url": "https://pypi.org/project/orkestra-runtime/"
+      },
+      {
+        "technology": "OpenClaw",
+        "title": "drf-llm-gateway added to PyPI",
+        "benefit": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+        "score": 94,
+        "url": "https://pypi.org/project/drf-llm-gateway/"
+      },
+      {
+        "technology": "Codex",
+        "title": "0.146.0-alpha.10.1",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 90,
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.10.1"
       },
       {
         "technology": "Codex",
@@ -60,20 +74,6 @@
         "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
         "score": 90,
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.7"
-      },
-      {
-        "technology": "Codex",
-        "title": "0.146.0-alpha.6",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 90,
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.6"
-      },
-      {
-        "technology": "Codex",
-        "title": "frontend-perception-engine 1.2.0.dev40",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 78,
-        "url": "https://pypi.org/project/frontend-perception-engine/1.2.0.dev40/"
       }
     ]
   },
@@ -82,12 +82,12 @@
       "id": 1,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "bernstein 3.9.0",
-      "summary": "Deterministic, verifiable orchestration for CLI coding agents (Claude Code, Codex, Gemini CLI, and 40+ more): reproducible parallel runs in git worktrees, always-on lineage and replay journal, opt-in HMAC-chained audit log, air-gap install profile.",
+      "title": "orkestra-runtime 0.1.2",
+      "summary": "Local-first orchestration runtime for multiple autonomous coding agents (Claude Code, Codex CLI, Gemini CLI, and more) collaborating on one software project.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/bernstein/3.9.0/",
-      "published_at": "2026-07-24T17:59:48.000Z",
-      "score": 98,
+      "source_url": "https://pypi.org/project/orkestra-runtime/0.1.2/",
+      "published_at": "2026-07-24T23:42:02.000Z",
+      "score": 100,
       "tags": [
         "Claude",
         "Codex",
@@ -100,21 +100,57 @@
       "id": 2,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "Anthropic says start with its smartest Claude model—not the cheapest",
-      "summary": "Anthropic is advising teams to begin Claude deployments with the most capable generally available model, then reduce cost and latency with lower effort settings or smaller models. The company says a stronger model can be cheaper per completed task because it …",
-      "source": "4sysops.com",
-      "source_url": "https://4sysops.com/archives/anthropic-says-start-with-its-smartest-claude-model-not-the-cheapest/",
-      "published_at": "2026-07-24T17:55:15.000Z",
-      "score": 92,
+      "title": "orkestra-runtime added to PyPI",
+      "summary": "Local-first orchestration runtime for multiple autonomous coding agents (Claude Code, Codex CLI, Gemini CLI, and more) collaborating on one software project.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/orkestra-runtime/",
+      "published_at": "2026-07-24T23:41:53.000Z",
+      "score": 100,
       "tags": [
         "Claude",
-        "Infra AI"
+        "Codex",
+        "Gemini"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 3,
+      "kind": "newsapi",
+      "technology": "OpenClaw",
+      "title": "drf-llm-gateway added to PyPI",
+      "summary": "Expose Django REST Framework serializers and viewsets as OpenAI / MCP tools with automatic JSON Schema generation",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/drf-llm-gateway/",
+      "published_at": "2026-07-24T23:22:40.000Z",
+      "score": 94,
+      "tags": [
+        "OpenClaw",
+        "ChatGPT / OpenAI",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+      "relevant": true
+    },
+    {
+      "id": 4,
+      "kind": "github_release",
+      "technology": "Codex",
+      "title": "0.146.0-alpha.10.1",
+      "summary": "Release 0.146.0-alpha.10.1",
+      "source": "GitHub: openai/codex",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.10.1",
+      "published_at": "2026-07-25T20:29:03.000Z",
+      "score": 90,
+      "tags": [
+        "Codex",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "relevant": true
+    },
+    {
+      "id": 5,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.146.0-alpha.10",
@@ -131,7 +167,7 @@
       "relevant": true
     },
     {
-      "id": 4,
+      "id": 6,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.146.0-alpha.9",
@@ -148,7 +184,7 @@
       "relevant": true
     },
     {
-      "id": 5,
+      "id": 7,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.146.0-alpha.8",
@@ -165,7 +201,7 @@
       "relevant": true
     },
     {
-      "id": 6,
+      "id": 8,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.146.0-alpha.7",
@@ -182,31 +218,118 @@
       "relevant": true
     },
     {
-      "id": 7,
-      "kind": "github_release",
-      "technology": "Codex",
-      "title": "0.146.0-alpha.6",
-      "summary": "Release 0.146.0-alpha.6",
-      "source": "GitHub: openai/codex",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.6",
-      "published_at": "2026-07-24T05:31:18.000Z",
-      "score": 90,
+      "id": 9,
+      "kind": "newsapi",
+      "technology": "OpenClaw",
+      "title": "dulus 3.10.28",
+      "summary": "Provider-independent agent runtime for the terminal — cloud and local models, real tools, MCP, plugins, memory, sub-agents, and Dulus OS.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/dulus/3.10.28/",
+      "published_at": "2026-07-24T23:59:28.000Z",
+      "score": 86,
       "tags": [
-        "Codex",
-        "ChatGPT / OpenAI"
+        "OpenClaw",
+        "Infra AI"
       ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
       "relevant": true
     },
     {
-      "id": 8,
+      "id": 10,
+      "kind": "newsapi",
+      "technology": "OpenClaw",
+      "title": "dulus 3.10.27",
+      "summary": "Provider-independent agent runtime for the terminal — cloud and local models, real tools, MCP, plugins, memory, sub-agents, and Dulus OS.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/dulus/3.10.27/",
+      "published_at": "2026-07-24T23:42:08.000Z",
+      "score": 86,
+      "tags": [
+        "OpenClaw",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+      "relevant": true
+    },
+    {
+      "id": 11,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "kalaa added to PyPI",
+      "summary": "Drop-in AI cost tracking for Python. Auto-instruments OpenAI, Anthropic, and Gemini with zero code at the call site.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/kalaa/",
+      "published_at": "2026-07-24T23:57:21.000Z",
+      "score": 84,
+      "tags": [
+        "Claude",
+        "ChatGPT / OpenAI",
+        "Gemini"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 12,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "kalaa 1.0.0",
+      "summary": "Drop-in AI cost tracking for Python. Auto-instruments OpenAI, Anthropic, and Gemini with zero code at the call site.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/kalaa/1.0.0/",
+      "published_at": "2026-07-24T23:57:21.000Z",
+      "score": 84,
+      "tags": [
+        "Claude",
+        "ChatGPT / OpenAI",
+        "Gemini"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 13,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "vaultspec-rag 0.3.8",
+      "summary": "GPU-accelerated semantic search for your docs and source code: hybrid dense + sparse RAG on a local Qdrant backend, served to Claude Code and other MCP clients.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/vaultspec-rag/0.3.8/",
+      "published_at": "2026-07-24T23:32:55.000Z",
+      "score": 82,
+      "tags": [
+        "Claude",
+        "Infra AI"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 14,
+      "kind": "newsapi",
+      "technology": "OpenClaw",
+      "title": "dcc-mcp-server 0.19.75",
+      "summary": "Standalone dcc-mcp-server CLI binary — gateway, sidecar, stdio bridge (Rust)",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/dcc-mcp-server/0.19.75/",
+      "published_at": "2026-07-24T23:34:26.000Z",
+      "score": 78,
+      "tags": [
+        "OpenClaw",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+      "relevant": true
+    },
+    {
+      "id": 15,
       "kind": "newsapi",
       "technology": "Codex",
-      "title": "frontend-perception-engine 1.2.0.dev40",
-      "summary": "Frontend Perception MCP — deterministic browser runtime for coding agents.",
+      "title": "dcc-mcp-unity 0.8.0",
+      "summary": "Unity Editor adapter and typed game-authoring skills for DCC-MCP",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/frontend-perception-engine/1.2.0.dev40/",
-      "published_at": "2026-07-24T17:30:51.000Z",
+      "source_url": "https://pypi.org/project/dcc-mcp-unity/0.8.0/",
+      "published_at": "2026-07-24T23:22:29.000Z",
       "score": 78,
       "tags": [
         "Codex",
@@ -216,7 +339,41 @@
       "relevant": true
     },
     {
-      "id": 9,
+      "id": 16,
+      "kind": "newsapi",
+      "technology": "ChatGPT / OpenAI",
+      "title": "audamcp 0.2.0",
+      "summary": "MCP server for professional audio editing, stems separation, mastering, and Audacity 3.x bridge",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/audamcp/0.2.0/",
+      "published_at": "2026-07-24T23:19:13.000Z",
+      "score": 78,
+      "tags": [
+        "ChatGPT / OpenAI",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "relevant": true
+    },
+    {
+      "id": 17,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "clauderizer 1.13.0",
+      "summary": "Drop-in, MCP-native working memory for AI agents: gameplans, phases, a dependency graph, and post-hoc cascade — over plain markdown.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/clauderizer/1.13.0/",
+      "published_at": "2026-07-24T23:16:20.000Z",
+      "score": 78,
+      "tags": [
+        "Claude",
+        "Infra AI"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 18,
       "kind": "rss",
       "technology": "Claude",
       "title": "Claude's voice mode now runs on Anthropic's most capable models across all platforms",
@@ -233,14 +390,14 @@
       "relevant": true
     },
     {
-      "id": 10,
+      "id": 19,
       "kind": "rss",
       "technology": "Claude",
       "title": "Evolving Spec-Driven Development: Conductor Now Supports Antigravity",
       "summary": "Conductor has evolved from a Gemini CLI extension into a portable plugin, bringing conversational Spec-Driven Development (SDD) to ecosystems like Antigravity CLI and Claude. Rather than relying on strict command sequences, developers can now chat naturally with their AI assistant while it dynamically manages persistent markdown artifacts...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity/",
-      "published_at": "2026-07-25T18:01:40.365Z",
+      "published_at": "2026-07-26T00:05:33.019Z",
       "score": 74,
       "tags": [
         "Claude",
@@ -250,24 +407,7 @@
       "relevant": true
     },
     {
-      "id": 11,
-      "kind": "newsapi",
-      "technology": "ChatGPT / OpenAI",
-      "title": "Gemini Live is coming to your old Google Home devices - Android Police",
-      "summary": "Gemini Live is coming to your old Google Home devicesAndroid Police Gemini for Home context memory expands to 15 mins, Nest Cam July 2026 update rolling out9to5Google Google Home’s latest update tackles one of voice control’s biggest annoyancesAndroid Authori…",
-      "source": "Slashdot.org",
-      "source_url": "https://slashdot.org/firehose.pl?op=view&amp;id=184653250",
-      "published_at": "2026-07-24T17:52:49.000Z",
-      "score": 74,
-      "tags": [
-        "ChatGPT / OpenAI",
-        "Gemini"
-      ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
-      "relevant": true
-    },
-    {
-      "id": 12,
+      "id": 20,
       "kind": "rss",
       "technology": "Claude",
       "title": "Anthropic's Claude Opus 5 costs well below Fable 5 while matching or beating it across most benchmarks",
@@ -284,14 +424,14 @@
       "relevant": true
     },
     {
-      "id": 13,
+      "id": 21,
       "kind": "newsapi",
       "technology": "Claude",
       "title": "Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
       "summary": "Weeks after Anthropic’s latest toe-to-toe with the US government, and days after an OpenAI security incident that dominated tech industry discussions, Anthropic on Thursday released its newest model, Claude Opus 5. Anthropic releases Opus 5 with ‘close’ to Fa…",
       "source": "Biztoc.com",
-      "source_url": "https://biztoc.com/x/ac8f1747a4a28b8b",
-      "published_at": "2026-07-24T17:27:59.000Z",
+      "source_url": "https://biztoc.com/x/3d6c27a6f632ddbb",
+      "published_at": "2026-07-24T23:44:20.000Z",
       "score": 72,
       "tags": [
         "Claude",
@@ -301,48 +441,14 @@
       "relevant": true
     },
     {
-      "id": 14,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "Meta is making its AI chatbot more like an assistant",
-      "summary": "Meta is upgrading its AI chatbot with new productivity features in a bid to compete with rivals like Gemini, ChatGPT, and Claude. The update will allow Meta AI to tap into your calendar to help you plan events and generate daily briefings, as well as perform …",
-      "source": "Biztoc.com",
-      "source_url": "https://biztoc.com/x/0fdcea258f401b16",
-      "published_at": "2026-07-24T17:27:35.000Z",
-      "score": 70,
-      "tags": [
-        "Claude",
-        "ChatGPT / OpenAI",
-        "Gemini"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 15,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "meridian-cli 0.3.52",
-      "summary": "Orchestrate CLI + MCP server for multi-model agent workflows",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/meridian-cli/0.3.52/",
-      "published_at": "2026-07-24T17:55:04.000Z",
-      "score": 66,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 16,
+      "id": 22,
       "kind": "rss",
       "technology": "Gemini",
       "title": "A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs",
       "summary": "This post introduces three architectural patterns designed to integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI) to solve the tradeoff between highly custom iframe environments and native, declarative rendering. By combining these approaches, developers can serve native-feeling UIs directly over MCP servers, em...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/a2ui-and-mcp-apps/",
-      "published_at": "2026-07-25T18:01:40.366Z",
+      "published_at": "2026-07-26T00:05:33.020Z",
       "score": 62,
       "tags": [
         "Infra AI"
@@ -351,7 +457,7 @@
       "relevant": true
     },
     {
-      "id": 17,
+      "id": 23,
       "kind": "rss",
       "technology": "Claude",
       "title": "Anthropic's Claude Opus 5 delivers near-Fable 5 performance at half the token price",
@@ -368,119 +474,20 @@
       "relevant": true
     },
     {
-      "id": 18,
+      "id": 24,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "rocket-tools 0.4.1",
-      "summary": "Aerospace engineering calculations for Python, CLI, and MCP agents",
+      "title": "lightning-enable-mcp 1.19.0",
+      "summary": "Part of Lightning Enable — infrastructure for agent commerce over Lightning. MCP server for L402 Lightning payments, API discovery, and agent commerce.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/rocket-tools/0.4.1/",
-      "published_at": "2026-07-24T17:37:11.000Z",
+      "source_url": "https://pypi.org/project/lightning-enable-mcp/1.19.0/",
+      "published_at": "2026-07-25T00:00:27.000Z",
       "score": 62,
       "tags": [
         "Infra AI"
       ],
       "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
-    },
-    {
-      "id": 19,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model",
-      "summary": "This post covers Opus 5’s improvements and practical guidance for AI engineers integrating the model into agentic systems and production inference workloads on Amazon Bedrock. See the documentation for Claude Platform on AWS.",
-      "source": "Amazon.com",
-      "source_url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model/",
-      "published_at": "2026-07-24T17:59:03.000Z",
-      "score": 58,
-      "tags": [
-        "Claude",
-        "Infra AI"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 20,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "renforge 0.6.6",
-      "summary": "MCP server, CLI, and web dashboard for Ren'Py visual-novel development",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/renforge/0.6.6/",
-      "published_at": "2026-07-24T17:36:43.000Z",
-      "score": 58,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 21,
-      "kind": "github_release",
-      "technology": "Gemini",
-      "title": "Release v0.52.0",
-      "summary": "## What's Changed * Refactor: exclude transient CI configuration files from workspace context by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28216 * feat(caretaker-triage): add triage worker core foundational modules by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28163 * feat(caretaker-egress): imple...",
-      "source": "GitHub: google-gemini/gemini-cli",
-      "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0",
-      "published_at": "2026-07-22T20:51:21.000Z",
-      "score": 58,
-      "tags": [
-        "Gemini"
-      ],
-      "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
-      "relevant": true
-    },
-    {
-      "id": 22,
-      "kind": "rss",
-      "technology": "Codex",
-      "title": "Driving the Agent Quality Flywheel from Your Coding Agent",
-      "summary": "Building AI agents often leaves developers uncertain if prompt tweaks to fix single errors will accidentally cause widespread regressions in production. To bridge this gap, Google has introduced a new developer skill for coding agents that automates a five-stage evaluation flywheel: preparing data, running inference, grading with adaptive...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/driving-the-agent-quality-flywheel-from-your-coding-agent/",
-      "published_at": "2026-07-25T18:01:40.365Z",
-      "score": 54,
-      "tags": [
-        "Codex",
-        "Infra AI"
-      ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": false
-    },
-    {
-      "id": 23,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "Anthropic tells Claude 5 developers to simplify prompts and load context on demand",
-      "summary": "Anthropic is urging developers to strip down Claude 5 system prompts instead of adding ever-longer rule lists, arguing that newer models can apply judgment where older versions needed rigid guardrails. The company says Claude Code’s system prompt was reduced …",
-      "source": "4sysops.com",
-      "source_url": "https://4sysops.com/archives/anthropic-tells-claude-5-developers-to-simplify-prompts-and-load-context-on-demand/",
-      "published_at": "2026-07-24T17:55:16.000Z",
-      "score": 54,
-      "tags": [
-        "Claude"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": false
-    },
-    {
-      "id": 24,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "Did Chinese AI Steal From Anthropic, and OpenAI Loses Control of Two Models",
-      "summary": "On this episode of “Uncanny Valley,” we dive into accusations that China’s Moonshot AI stole from Anthropic, and how the US Army needs to cut back on AI use.",
-      "source": "Wired",
-      "source_url": "https://www.wired.com/story/uncanny-valley-podcast/",
-      "published_at": "2026-07-24T17:53:01.000Z",
-      "score": 54,
-      "tags": [
-        "Claude",
-        "ChatGPT / OpenAI"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": false
     }
   ]
 }
