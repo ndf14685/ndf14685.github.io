@@ -1,5 +1,38 @@
 [
   {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.14",
+    "technology": "Codex",
+    "title": "0.146.0-alpha.14",
+    "summary": "Release 0.146.0-alpha.14",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.14",
+    "published_at": "2026-07-28T04:28:19.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260728.gbef611950",
+    "technology": "Gemini",
+    "title": "Release v0.54.0-nightly.20260728.gbef611950",
+    "summary": "## What's Changed * fix(a2a-server): normalize CRLF line endings to LF in getProposedContent by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28531 * fix(core): enforce explicit tag length and validation in file keychain by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28523 **Full Changelog**:...",
+    "source": "GitHub: google-gemini/gemini-cli",
+    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260728.gbef611950",
+    "published_at": "2026-07-28T01:28:20.000Z",
+    "score": 54,
+    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
+  },
+  {
+    "key": "https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks",
+    "technology": "ChatGPT / OpenAI",
+    "title": "Microsoft launches its own cybersecurity model MAI-Cyber-1-Flash but still depends on OpenAI for the toughest tasks",
+    "summary": "Microsoft introduces MAI-Cyber-1-Flash, a compact security model that scores 96 percent on the CyberGym benchmark when embedded in its MDASH multi-agent system. Microsoft says costs should drop by 50 percent compared to pure frontier models, since only tough cases get passed to GPT-5.4. For complex reasoning, Microsoft still relies on Ope...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/",
+    "published_at": "2026-07-27T18:50:07.000Z",
+    "score": 64,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.13",
     "technology": "Codex",
     "title": "0.146.0-alpha.13",
@@ -9,6 +42,149 @@
     "published_at": "2026-07-27T16:03:21.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/google-analytics-mcp/2.8.3",
+    "technology": "Infra AI",
+    "title": "google-analytics-mcp 2.8.3",
+    "summary": "Model Context Protocol for Google Analytics 4 (Data API) allowing autonomous agents to query dimensions and metrics. Gives agents analysis-ready GA4 access with schema discovery, server-side aggregation, and smart defaults.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/google-analytics-mcp/2.8.3/",
+    "published_at": "2026-07-27T11:23:04.000Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/grp-mcp/0.79.10",
+    "technology": "Infra AI",
+    "title": "grp-mcp 0.79.10",
+    "summary": "MCP server exposing Acumatica ERP (contract-based REST API) as tools for AI agents. Multi-instance, OAuth2.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/grp-mcp/0.79.10/",
+    "published_at": "2026-07-27T11:21:46.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/mnemoai-assistant/1.7.8",
+    "technology": "Infra AI",
+    "title": "mnemoai-assistant 1.7.8",
+    "summary": "Mnemo AI — a local agentic AI assistant (LangGraph + MCP) that learns and remembers, with multi-provider model support.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mnemoai-assistant/1.7.8/",
+    "published_at": "2026-07-27T11:20:53.000Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/spudcoach/0.14.0",
+    "technology": "Infra AI",
+    "title": "spudcoach 0.14.0",
+    "summary": "Deterministic Brotato theorycrafter core + MCP server (spud coach)",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/spudcoach/0.14.0/",
+    "published_at": "2026-07-27T11:18:13.000Z",
+    "score": 54,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/kglite/0.15.0",
+    "technology": "Infra AI",
+    "title": "kglite 0.15.0",
+    "summary": "Embedded Cypher knowledge graph for Python with a bundled MCP server and describe() schema for LLM agents",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/kglite/0.15.0/",
+    "published_at": "2026-07-27T11:17:58.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/okto-pulse/0.3.0",
+    "technology": "Infra AI",
+    "title": "okto-pulse 0.3.0",
+    "summary": "Okto Pulse — spec-driven project management with AI agents via MCP. Local-first, single command setup.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/okto-pulse/0.3.0/",
+    "published_at": "2026-07-27T11:16:31.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/redis-context-retriever/0.0.6",
+    "technology": "Infra AI",
+    "title": "redis-context-retriever 0.0.6",
+    "summary": "Python client for the Context Surfaces API — manage context surfaces and invoke MCP tools. Includes an optional CLI (ctxctl).",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/redis-context-retriever/0.0.6/",
+    "published_at": "2026-07-27T11:13:26.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/lulu-ads/0.7.3",
+    "technology": "Infra AI",
+    "title": "lulu-ads 0.7.3",
+    "summary": "Disclosed sponsored slots for MCP servers and AI agent tools. Ships data, never directives. Fail-open by design.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/lulu-ads/0.7.3/",
+    "published_at": "2026-07-27T11:08:50.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://cryptobriefing.com/boson-ai-higgs-realtime-voice-model",
+    "technology": "ChatGPT / OpenAI",
+    "title": "Boson AI founder Alex Smola targets voice AI market with Higgs RealTime model",
+    "summary": "Boson AI's advancements in voice AI could revolutionize human-machine interactions, setting new standards for real-time, nuanced communication. The post Boson AI founder Alex Smola targets voice AI market with Higgs RealTime model appeared first on Crypto Bri…",
+    "source": "Crypto Briefing",
+    "source_url": "https://cryptobriefing.com/boson-ai-higgs-realtime-voice-model/",
+    "published_at": "2026-07-27T11:07:46.000Z",
+    "score": 62,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://pypi.org/project/grp-mcp/0.79.9",
+    "technology": "Infra AI",
+    "title": "grp-mcp 0.79.9",
+    "summary": "MCP server exposing Acumatica ERP (contract-based REST API) as tools for AI agents. Multi-instance, OAuth2.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/grp-mcp/0.79.9/",
+    "published_at": "2026-07-27T11:07:11.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://biztoc.com/x/7cee82c0aa00ad54",
+    "technology": "ChatGPT / OpenAI",
+    "title": "How an ex-AWS scientist plans to take on OpenAI and Meta in voice AI models",
+    "summary": "AI voice models are having a moment, and Alex Smola is seeing it up close. As the founder of Santa Clara, Calif.-based Boson AI, a startup that is set to release its first speech-to-speech model named Higgs RealTime, Smola says voice models have finally reach…",
+    "source": "Biztoc.com",
+    "source_url": "https://biztoc.com/x/7cee82c0aa00ad54",
+    "published_at": "2026-07-27T11:07:10.000Z",
+    "score": 66,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://pypi.org/project/grp-mcp/0.79.8",
+    "technology": "Infra AI",
+    "title": "grp-mcp 0.79.8",
+    "summary": "MCP server exposing Acumatica ERP (contract-based REST API) as tools for AI agents. Multi-instance, OAuth2.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/grp-mcp/0.79.8/",
+    "published_at": "2026-07-27T10:58:28.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/grp-mcp/0.79.7",
+    "technology": "Infra AI",
+    "title": "grp-mcp 0.79.7",
+    "summary": "MCP server exposing Acumatica ERP (contract-based REST API) as tools for AI agents. Multi-instance, OAuth2.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/grp-mcp/0.79.7/",
+    "published_at": "2026-07-27T10:50:15.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   },
   {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.12",
@@ -6421,182 +6597,6 @@
     "source_url": "https://pypi.org/project/agent-airlock/0.8.47/",
     "published_at": "2026-07-14T17:42:04.000Z",
     "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/veqtor-mcp/0.1.2",
-    "technology": "Infra AI",
-    "title": "veqtor-mcp 0.1.2",
-    "summary": "Local MCP server for verifiable DOCX redline history and fail-closed tracked-change edits",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/veqtor-mcp/0.1.2/",
-    "published_at": "2026-07-14T17:41:57.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/veqtor-mcp",
-    "technology": "Infra AI",
-    "title": "veqtor-mcp added to PyPI",
-    "summary": "Local MCP server for verifiable DOCX redline history and fail-closed tracked-change edits",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/veqtor-mcp/",
-    "published_at": "2026-07-14T17:41:52.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/codex-in-claude/0.12.0",
-    "technology": "Claude",
-    "title": "codex-in-claude 0.12.0",
-    "summary": "Call OpenAI Codex from Claude Code for delegation, review, and second opinions",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/codex-in-claude/0.12.0/",
-    "published_at": "2026-07-14T17:39:46.000Z",
-    "score": 90,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/cronometer-api-mcp/0.1.8",
-    "technology": "Infra AI",
-    "title": "cronometer-api-mcp 0.1.8",
-    "summary": "MCP server for Cronometer nutrition data using the mobile REST API",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/cronometer-api-mcp/0.1.8/",
-    "published_at": "2026-07-14T17:39:14.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/isabelle-mcp/0.3.0",
-    "technology": "Infra AI",
-    "title": "isabelle-mcp 0.3.0",
-    "summary": "MCP server bridging AI agents with the Isabelle proof assistant via its LSP/PIDE interface",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/isabelle-mcp/0.3.0/",
-    "published_at": "2026-07-14T17:33:50.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/altr-oss/0.2.2",
-    "technology": "Codex",
-    "title": "altr-oss 0.2.2",
-    "summary": "Open source doc / excel / ppt skills for LLMs - Groq, Ollama, vLLM, any OpenAI-compatible endpoint.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/altr-oss/0.2.2/",
-    "published_at": "2026-07-14T17:33:11.000Z",
-    "score": 98,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.11",
-    "technology": "Codex",
-    "title": "0.145.0-alpha.11",
-    "summary": "Release 0.145.0-alpha.11",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.11",
-    "published_at": "2026-07-14T15:58:55.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/mcp-doris-xues87",
-    "technology": "Infra AI",
-    "title": "mcp-doris-xues87 added to PyPI",
-    "summary": "MCP server for Apache Doris database - connect AI clients to Doris",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/mcp-doris-xues87/",
-    "published_at": "2026-07-14T10:53:12.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/zc-redis-mcp",
-    "technology": "Infra AI",
-    "title": "zc-redis-mcp added to PyPI",
-    "summary": "Redis MCP Server for Qoder - Read-only Redis AI Assistant",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/zc-redis-mcp/",
-    "published_at": "2026-07-14T10:52:31.000Z",
-    "score": 54,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/sccs/2.51.0",
-    "technology": "Claude",
-    "title": "sccs 2.51.0",
-    "summary": "SkillsCommandsConfigsSync - Unified YAML-configured synchronization for Claude Code files",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/sccs/2.51.0/",
-    "published_at": "2026-07-14T10:52:10.000Z",
-    "score": 74,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/librus-mcp/0.5.0",
-    "technology": "Infra AI",
-    "title": "librus-mcp 0.5.0",
-    "summary": "MCP server for Librus Synergia — access grades, messages, attendance, homework, timetables, and announcements from AI assistants",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/librus-mcp/0.5.0/",
-    "published_at": "2026-07-14T10:49:46.000Z",
-    "score": 54,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/med-paper-assistant/0.9.0",
-    "technology": "Infra AI",
-    "title": "med-paper-assistant 0.9.0",
-    "summary": "An MCP-orchestrated research workspace for manuscript and library-wiki workflows",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/med-paper-assistant/0.9.0/",
-    "published_at": "2026-07-14T10:49:18.000Z",
-    "score": 54,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/iotsploit-mcp/0.0.8",
-    "technology": "Infra AI",
-    "title": "iotsploit-mcp 0.0.8",
-    "summary": "IoTSploit MCP runtime (FastMCP stdio server + WebSocket bridge), framework-free outer ring.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/iotsploit-mcp/0.0.8/",
-    "published_at": "2026-07-14T10:46:27.000Z",
-    "score": 54,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/ouroboros-ai/0.50.4",
-    "technology": "Claude",
-    "title": "ouroboros-ai 0.50.4",
-    "summary": "Specification-first workflow engine for AI coding agents. Works with Claude Code and Codex CLI.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/ouroboros-ai/0.50.4/",
-    "published_at": "2026-07-14T10:46:22.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/pyrunir-mcp/0.0.25",
-    "technology": "Infra AI",
-    "title": "pyrunir-mcp 0.0.25",
-    "summary": "Stateful pyrunir validation API for planning-and-learning agents",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/pyrunir-mcp/0.0.25/",
-    "published_at": "2026-07-14T10:28:32.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/agami-core/0.4.3",
-    "technology": "Infra AI",
-    "title": "agami-core 0.4.3",
-    "summary": "agami-core — governed semantic model, the shared MCP TOOLS harness, and the unified local query executor.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/agami-core/0.4.3/",
-    "published_at": "2026-07-14T10:21:00.000Z",
-    "score": 62,
     "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   }
 ]
