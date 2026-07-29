@@ -1,5 +1,27 @@
 [
   {
+    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.0",
+    "technology": "Gemini",
+    "title": "Release v0.53.0",
+    "summary": "## What's Changed * fix(core,a2a): group cancelled tool responses and coalesce consecutive roles to prevent 400 Bad Request by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28407 * feat(caretaker-triage): implement LLM triage orchestrator and container build by @chadd28 in https://github.com/google-gemini/gemini-cli/...",
+    "source": "GitHub: google-gemini/gemini-cli",
+    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.0",
+    "published_at": "2026-07-28T21:45:42.000Z",
+    "score": 54,
+    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
+  },
+  {
+    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-preview.0",
+    "technology": "Gemini",
+    "title": "Release v0.54.0-preview.0",
+    "summary": "## What's Changed * Changelog for v0.53.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28507 * Changelog for v0.52.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28508 * chore(release): bump version to 0.54.0-nightly.20260722.gf743ab579 by @gemini-cli-robot in https://githu...",
+    "source": "GitHub: google-gemini/gemini-cli",
+    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-preview.0",
+    "published_at": "2026-07-28T21:37:03.000Z",
+    "score": 54,
+    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
+  },
+  {
     "key": "https://openai.com/index/scientific-computing-agentic-ai",
     "technology": "Codex",
     "title": "Scientific computing in the age of agentic AI",
@@ -31,6 +53,149 @@
     "published_at": "2026-07-28T01:28:20.000Z",
     "score": 54,
     "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
+  },
+  {
+    "key": "https://pypi.org/project/agent-inbox/0.22.0",
+    "technology": "Codex",
+    "title": "agent-inbox 0.22.0",
+    "summary": "A SQLite mailbox for local LLM agents — one HTTP API, an ActivityStreams messaging model, and a local stdio MCP server so AI coding agents can message each other. No external services.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agent-inbox/0.22.0/",
+    "published_at": "2026-07-28T00:00:48.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/hol-guard/2.2.0a82",
+    "technology": "Codex",
+    "title": "hol-guard 2.2.0a82",
+    "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/hol-guard/2.2.0a82/",
+    "published_at": "2026-07-27T23:54:29.000Z",
+    "score": 82,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/mcp-aichat/2026.7.27.1",
+    "technology": "Infra AI",
+    "title": "mcp-aichat 2026.7.27.1",
+    "summary": "MCP Server for AI Dialogue via AceDataCloud API",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcp-aichat/2026.7.27.1/",
+    "published_at": "2026-07-27T23:53:11.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://www.cnbc.com/2026/07/27/microsoft-touts-cost-saving-ai-model-for-cybersecurity.html",
+    "technology": "Claude",
+    "title": "Microsoft touts cost-saving AI model for cybersecurity",
+    "summary": "Microsoft says that when integrated with OpenAI's GPT-5.4, its new cybersecurity model can beat Anthropic's new Mythos 5.",
+    "source": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/27/microsoft-touts-cost-saving-ai-model-for-cybersecurity.html",
+    "published_at": "2026-07-27T23:46:25.000Z",
+    "score": 72,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/agent-inbox/0.21.3",
+    "technology": "Codex",
+    "title": "agent-inbox 0.21.3",
+    "summary": "A SQLite mailbox for local LLM agents — one HTTP API, an ActivityStreams messaging model, and a local stdio MCP server so AI coding agents can message each other. No external services.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agent-inbox/0.21.3/",
+    "published_at": "2026-07-27T23:38:59.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/agentgrep/0.1.0a44",
+    "technology": "Claude",
+    "title": "agentgrep 0.1.0a44",
+    "summary": "Read-only search for local AI agent prompts and history (Codex, Claude Code, Cursor, Gemini, Antigravity, Grok, Pi, OpenCode, VS Code)",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agentgrep/0.1.0a44/",
+    "published_at": "2026-07-27T23:38:29.000Z",
+    "score": 98,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/mlx-memo/4.4.4",
+    "technology": "Infra AI",
+    "title": "mlx-memo 4.4.4",
+    "summary": "Local-first semantic memory for AI agents — MLX (Apple Silicon) or CPU sentence-transformers (Linux/Ubuntu) embeddings + sqlite-vec, MCP server. No cloud, no API keys.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mlx-memo/4.4.4/",
+    "published_at": "2026-07-27T23:37:28.000Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/omni-coder/0.5.15",
+    "technology": "Codex",
+    "title": "omni-coder 0.5.15",
+    "summary": "A scoped, MCP-powered coding agent that puts Qwen Coder (or any OpenAI-compatible model) to work in your codebase",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/omni-coder/0.5.15/",
+    "published_at": "2026-07-27T23:37:10.000Z",
+    "score": 100,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/rcsb-mcp/0.12.0",
+    "technology": "Infra AI",
+    "title": "rcsb-mcp 0.12.0",
+    "summary": "An MCP server for interrogating PDB structures — search, inspect, and cross-reference across the RCSB Search, Data, and Sequence Coordinates APIs",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/rcsb-mcp/0.12.0/",
+    "published_at": "2026-07-27T23:34:48.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/mock-ai-api/0.1.0",
+    "technology": "Claude",
+    "title": "mock-ai-api 0.1.0",
+    "summary": "A local mock API for testing OpenAI- and Anthropic-compatible clients.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mock-ai-api/0.1.0/",
+    "published_at": "2026-07-27T23:27:04.000Z",
+    "score": 62,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/mock-ai-api",
+    "technology": "Claude",
+    "title": "mock-ai-api added to PyPI",
+    "summary": "A local mock API for testing OpenAI- and Anthropic-compatible clients.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mock-ai-api/",
+    "published_at": "2026-07-27T23:27:04.000Z",
+    "score": 62,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/agent-inbox/0.21.2",
+    "technology": "Codex",
+    "title": "agent-inbox 0.21.2",
+    "summary": "A SQLite mailbox for local LLM agents — one HTTP API, an ActivityStreams messaging model, and a local stdio MCP server so AI coding agents can message each other. No external services.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agent-inbox/0.21.2/",
+    "published_at": "2026-07-27T23:24:51.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/hol-guard/2.2.0a81",
+    "technology": "Codex",
+    "title": "hol-guard 2.2.0a81",
+    "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/hol-guard/2.2.0a81/",
+    "published_at": "2026-07-27T23:16:13.000Z",
+    "score": 82,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   },
   {
     "key": "https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks",
@@ -6433,170 +6598,5 @@
     "published_at": "2026-07-15T08:30:48.000Z",
     "score": 74,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.13",
-    "technology": "Codex",
-    "title": "0.145.0-alpha.13",
-    "summary": "Release 0.145.0-alpha.13",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.13",
-    "published_at": "2026-07-15T07:48:10.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260715.gfa975395b",
-    "technology": "Gemini",
-    "title": "Release v0.52.0-nightly.20260715.gfa975395b",
-    "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260714.gfa975395b...v0.52.0-nightly.20260715.gfa975395b",
-    "source": "GitHub: google-gemini/gemini-cli",
-    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260715.gfa975395b",
-    "published_at": "2026-07-15T01:28:44.000Z",
-    "score": 54,
-    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.12",
-    "technology": "Codex",
-    "title": "0.145.0-alpha.12",
-    "summary": "Release 0.145.0-alpha.12",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.12",
-    "published_at": "2026-07-15T01:07:37.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/warpdrive-gpu",
-    "technology": "Infra AI",
-    "title": "warpdrive-gpu added to PyPI",
-    "summary": "Hardware-guided GPU kernel diagnostics for LLM agents, over MCP + CLI.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/warpdrive-gpu/",
-    "published_at": "2026-07-15T00:02:25.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/warpdrive-gpu/0.1.0",
-    "technology": "Infra AI",
-    "title": "warpdrive-gpu 0.1.0",
-    "summary": "Hardware-guided GPU kernel diagnostics for LLM agents, over MCP + CLI.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/warpdrive-gpu/0.1.0/",
-    "published_at": "2026-07-15T00:02:25.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/claude-agent-sdk/0.2.119",
-    "technology": "Claude",
-    "title": "claude-agent-sdk 0.2.119",
-    "summary": "Python SDK for Claude Code",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/claude-agent-sdk/0.2.119/",
-    "published_at": "2026-07-14T23:57:40.000Z",
-    "score": 58,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/dulus/3.10.7",
-    "technology": "Claude",
-    "title": "dulus 3.10.7",
-    "summary": "Use IA as an agent without an API key. $0. Harvest your browser session for Gemini (guest, no login), Claude.ai, Claude Code, Kimi.com, Qwen, DeepSeek — drive them like an API, no per-token billing. Plus LiteLLM (100+ paid providers), local models via Ollama,…",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/dulus/3.10.7/",
-    "published_at": "2026-07-14T23:55:48.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://cryptobriefing.com/claude-fable-5-btw-command-security-bypass",
-    "technology": "Claude",
-    "title": "Claude Fable 5 security bypassed using ‘/btw’ command in Claude Code",
-    "summary": "The security gap in Claude Fable 5 highlights the need for robust safety measures in AI, especially for professional and enterprise users. The post Claude Fable 5 security bypassed using ‘/btw’ command in Claude Code appeared first on Crypto Briefing.",
-    "source": "Crypto Briefing",
-    "source_url": "https://cryptobriefing.com/claude-fable-5-btw-command-security-bypass/",
-    "published_at": "2026-07-14T23:54:21.000Z",
-    "score": 64,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/hugpy/0.1.138",
-    "technology": "ChatGPT / OpenAI",
-    "title": "hugpy 0.1.138",
-    "summary": "Self-hosted LLM console: model registry & downloads, streaming chat, OpenAI-compatible /v1 API with on-site keys, GPU worker fleet with cross-machine RPC sharding",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hugpy/0.1.138/",
-    "published_at": "2026-07-14T23:51:46.000Z",
-    "score": 62,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
-  },
-  {
-    "key": "https://pypi.org/project/abstract-hugpy-dev/0.1.177",
-    "technology": "ChatGPT / OpenAI",
-    "title": "abstract-hugpy-dev 0.1.177",
-    "summary": "Self-hosted LLM console: model registry & downloads, streaming chat, OpenAI-compatible /v1 API with on-site keys, GPU worker fleet with cross-machine RPC sharding",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/abstract-hugpy-dev/0.1.177/",
-    "published_at": "2026-07-14T23:47:48.000Z",
-    "score": 62,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
-  },
-  {
-    "key": "https://pypi.org/project/revue/0.40.0",
-    "technology": "Claude",
-    "title": "revue 0.40.0",
-    "summary": "Run Revue multi-agent code review locally via a Claude Code skill",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/revue/0.40.0/",
-    "published_at": "2026-07-14T23:38:23.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/sumo-qa/0.57.0",
-    "technology": "Codex",
-    "title": "sumo-qa 0.57.0",
-    "summary": "Sumo QA — a senior-QA-shaped MCP server for pre-coding QA planning, TDD scaffolding, mutation-testing follow-up, code review, and test-data discovery.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/sumo-qa/0.57.0/",
-    "published_at": "2026-07-14T23:36:25.000Z",
-    "score": 74,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/hol-guard/2.0.1074",
-    "technology": "Codex",
-    "title": "hol-guard 2.0.1074",
-    "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hol-guard/2.0.1074/",
-    "published_at": "2026-07-14T23:35:12.000Z",
-    "score": 82,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/dadaia-workspace/0.2.3",
-    "technology": "Claude",
-    "title": "dadaia-workspace 0.2.3",
-    "summary": "AI-native workspace management CLI for multi-agent development with Claude Code, Codex and PI",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/dadaia-workspace/0.2.3/",
-    "published_at": "2026-07-14T23:20:32.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/huimei/0.6.14",
-    "technology": "Infra AI",
-    "title": "huimei 0.6.14",
-    "summary": "MCP Server & CLI for social media automation — let AI agents publish to TikTok, Instagram, YouTube, Douyin, XHS, Bilibili and 15+ platforms via Model Context Protocol",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/huimei/0.6.14/",
-    "published_at": "2026-07-14T23:14:59.000Z",
-    "score": 66,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   }
 ]
