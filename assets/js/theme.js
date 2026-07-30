@@ -41,10 +41,15 @@
     applyTheme(next);
   }
 
-  // Aplicar tema antes de que se pinte el DOM (evita flash)
-  applyTheme(getPreferredTheme());
+  // Aplicar tema lo antes posible. El script corre en <head>, donde
+  // document.body todavía no existe: en ese caso se difiere al DOMContentLoaded
+  // (el body ya trae class="dark", así que no hay flash en el caso default).
+  if (document.body) {
+    applyTheme(getPreferredTheme());
+  }
 
   document.addEventListener('DOMContentLoaded', function () {
+    applyTheme(getPreferredTheme());
     const btn = document.getElementById('theme-toggle-btn');
     if (btn) btn.addEventListener('click', toggleTheme);
   });

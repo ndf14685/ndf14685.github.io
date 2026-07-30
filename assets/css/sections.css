@@ -354,3 +354,333 @@
   content: '// ';
   color: var(--accent-green);
 }
+
+/* ============================================================
+   Refresh 2026-07 — nuevas secciones (expertise, nexusos,
+   services, news, contact) y ajustes de hero
+   ============================================================ */
+
+.section-intro {
+  max-width: 70ch;
+  color: var(--text-muted);
+  margin: -10px 0 34px;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* --- Hero single-column --- */
+.hero-layout-single {
+  grid-template-columns: 1fr;
+  max-width: 860px;
+}
+
+.hero-value {
+  max-width: 62ch;
+  margin: 18px 0 10px;
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--text-primary);
+}
+
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-top: 22px;
+  font-family: 'Courier New', Consolas, monospace;
+  font-size: 13px;
+}
+
+.hero-links a {
+  color: var(--text-muted);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--border);
+  padding-bottom: 2px;
+}
+
+.hero-links a:hover,
+.hero-links a:focus-visible {
+  color: var(--accent-green);
+  border-bottom-color: var(--accent-green);
+}
+
+/* --- About meta labels --- */
+.about-meta-row .meta-label {
+  color: var(--text-muted);
+}
+
+/* --- Expertise --- */
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+@media (max-width: 980px) {
+  .expertise-grid { grid-template-columns: 1fr; }
+}
+
+.expertise-group {
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.expertise-group h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.expertise-group .exp-index {
+  color: var(--accent-green);
+  font-family: 'Courier New', Consolas, monospace;
+}
+
+.expertise-desc {
+  color: var(--text-muted);
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+/* --- NexusOS --- */
+.nexusos-section {
+  background: var(--bg-primary);
+  border-top: 1px solid var(--accent-green);
+  border-bottom: 1px solid var(--border);
+}
+
+.nx-tagline {
+  font-family: 'Courier New', Consolas, monospace;
+  font-size: 20px;
+  color: var(--accent-green);
+  margin: 4px 0 30px;
+}
+
+.nx-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  margin-bottom: 34px;
+}
+
+.nx-grid-3 { grid-template-columns: repeat(3, 1fr); }
+
+@media (max-width: 980px) {
+  .nx-grid, .nx-grid-3 { grid-template-columns: 1fr; }
+}
+
+.nx-block {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 22px;
+}
+
+.nx-block h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+
+.nx-block p {
+  color: var(--text-muted);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.nx-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nx-list li {
+  color: var(--text-muted);
+  font-size: 13px;
+  line-height: 1.6;
+  padding: 6px 0 6px 18px;
+  position: relative;
+}
+
+.nx-list li::before {
+  content: '›';
+  position: absolute;
+  left: 0;
+  color: var(--accent-green);
+}
+
+.nx-pipeline-title {
+  font-family: 'Courier New', Consolas, monospace;
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+
+.nx-pipeline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.nx-step {
+  font-family: 'Courier New', Consolas, monospace;
+  font-size: 13px;
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 7px 12px;
+  background: var(--bg-secondary);
+  white-space: nowrap;
+}
+
+.nx-step-agent {
+  border-color: var(--accent-blue);
+  color: var(--accent-blue);
+}
+
+.nx-step-audit {
+  border-color: var(--accent-green);
+  color: var(--accent-green);
+}
+
+.nx-arrow {
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.nx-pipeline-note {
+  color: var(--text-muted);
+  font-size: 13px;
+  line-height: 1.6;
+  max-width: 75ch;
+  margin-bottom: 34px;
+}
+
+.nx-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 6px;
+}
+
+/* --- Services (home) --- */
+.services-home-section { background: var(--bg-secondary); }
+
+.svc-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+@media (max-width: 980px) {
+  .svc-grid { grid-template-columns: 1fr; }
+}
+
+.svc-card {
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.svc-card h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--accent-green);
+  margin-bottom: 10px;
+}
+
+.svc-card p {
+  color: var(--text-muted);
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.svc-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 30px;
+}
+
+/* --- News como sección propia --- */
+.news-home-section { background: var(--bg-primary); }
+
+.news-home-section .terminal-window {
+  max-width: 860px;
+}
+
+/* --- Contact --- */
+.contact-section { background: var(--bg-secondary); }
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  margin-bottom: 34px;
+}
+
+@media (max-width: 800px) {
+  .contact-grid { grid-template-columns: 1fr; }
+}
+
+.contact-card {
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 26px;
+}
+
+.contact-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 10px;
+}
+
+.contact-card p {
+  color: var(--text-muted);
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+
+.contact-channels {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 24px;
+  font-family: 'Courier New', Consolas, monospace;
+  font-size: 14px;
+}
+
+.contact-channels a {
+  color: var(--text-muted);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--border);
+  padding-bottom: 2px;
+}
+
+.contact-channels a:hover,
+.contact-channels a:focus-visible {
+  color: var(--accent-green);
+  border-bottom-color: var(--accent-green);
+}
+
+/* --- Timeline compacto para etapas antiguas --- */
+.tl-item-compact .tl-content h3 { font-size: 15px; }
+.tl-item-compact .tl-content p { font-size: 12.5px; }
+
+.timeline-edu { margin-top: 30px; }
+
+/* H1 y títulos sin partición de palabras */
+h1, h2, h3, .hero-section h1 {
+  hyphens: none;
+}

@@ -1,4 +1,4 @@
-// main.js — Inicializacion, scroll, sticky nav, preloader, progress bars
+// main.js — Inicializacion, scroll, sticky nav, preloader, contacto
 (function () {
   'use strict';
 
@@ -82,27 +82,6 @@
       });
     }
 
-    // --- Skill bars: animar al entrar en viewport ---
-    const skillFills = document.querySelectorAll('.skill-fill[data-width]');
-
-    if ('IntersectionObserver' in window) {
-      const observer = new IntersectionObserver(function (entries) {
-        entries.forEach(function (entry) {
-          if (entry.isIntersecting) {
-            entry.target.style.width = entry.target.getAttribute('data-width') + '%';
-            observer.unobserve(entry.target);
-          }
-        });
-      }, { threshold: 0.2 });
-
-      skillFills.forEach(function (el) { observer.observe(el); });
-    } else {
-      // Fallback: aplicar inmediatamente
-      skillFills.forEach(function (el) {
-        el.style.width = el.getAttribute('data-width') + '%';
-      });
-    }
-
     // --- Fade-in on scroll (reemplaza WOW.js) ---
     const fadeEls = document.querySelectorAll('.fade-in');
 
@@ -134,16 +113,26 @@
         if (el) el.setAttribute('href', mailto);
       });
 
-      var inlineEl = document.getElementById('email-inline');
-      if (inlineEl) inlineEl.innerHTML = '<a href="' + mailto + '">' + email + '</a>';
+      // CTAs de contacto con asunto específico
+      var jobsBtn = document.getElementById('email-btn-jobs');
+      if (jobsBtn) jobsBtn.setAttribute('href', mailto + '?subject=' + encodeURIComponent('Oportunidad laboral — nestorfleitas.ar'));
+      var consultBtn = document.getElementById('email-btn-consult');
+      if (consultBtn) consultBtn.setAttribute('href', mailto + '?subject=' + encodeURIComponent('Consultoría / NexusOS — nestorfleitas.ar'));
+
+      ['email-inline', 'email-inline-contact'].forEach(function (id) {
+        var inlineEl = document.getElementById(id);
+        if (inlineEl) inlineEl.innerHTML = '<a href="' + mailto + '">' + email + '</a>';
+      });
 
       // WhatsApp
       var cc = '54', area = '11', num = '30748591';
       var full = cc + area + num;
       var msg = encodeURIComponent('Hola Néstor, te contacto desde tu portfolio.');
       var wa = 'https://wa.me/' + full + '?text=' + msg;
-      var waBtn = document.getElementById('whatsapp-link');
-      if (waBtn) waBtn.setAttribute('href', wa);
+      ['whatsapp-link', 'whatsapp-link-contact'].forEach(function (id) {
+        var waBtn = document.getElementById(id);
+        if (waBtn) waBtn.setAttribute('href', wa);
+      });
     })();
 
   });

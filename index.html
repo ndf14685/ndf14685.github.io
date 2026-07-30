@@ -3,13 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nestor Fleitas | DevOps &amp; DevSecOps Consultant</title>
-  <meta name="description" content="Nestor Fleitas, especialista en DevOps y DevSecOps, con experiencia en AWS, GCP, Docker, Kubernetes y automatizacion de infraestructuras seguras.">
+  <title>Néstor Fleitas — AI Systems Architect &amp; DevSecOps Engineer</title>
+  <meta name="description" content="AI Systems Architect y DevSecOps Engineer. Diseño plataformas seguras donde infraestructura cloud, pipelines DevSecOps y agentes de IA autónomos operan bajo identidad, autorización, políticas y auditoría. Creador de NexusOS. Argentina · Remote.">
+
+  <!-- SEO -->
+  <link rel="canonical" href="https://www.nestorfleitas.ar/">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Néstor Fleitas — AI Systems Architect &amp; DevSecOps Engineer">
+  <meta property="og:description" content="Plataformas seguras donde cloud, DevSecOps y agentes de IA autónomos operan bajo gobernanza, autorización y auditoría. Creador de NexusOS.">
+  <meta property="og:url" content="https://www.nestorfleitas.ar/">
+  <meta property="og:image" content="https://www.nestorfleitas.ar/assets/images/myphoto.jpg">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Néstor Fleitas — AI Systems Architect &amp; DevSecOps Engineer">
+  <meta name="twitter:description" content="Plataformas seguras donde cloud, DevSecOps y agentes de IA autónomos operan bajo gobernanza, autorización y auditoría. Creador de NexusOS.">
+  <meta name="twitter:image" content="https://www.nestorfleitas.ar/assets/images/myphoto.jpg">
 
   <!-- Security headers -->
   <meta http-equiv="Content-Security-Policy"
     content="default-src 'self';
-             script-src 'self' 'unsafe-inline' https://code.jquery.com https://cdn.jsdelivr.net;
+             script-src 'self' https://cdn.jsdelivr.net;
              style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net;
              img-src 'self' data: https:;
              font-src 'self' https://fonts.gstatic.com data:;
@@ -21,7 +35,7 @@
              upgrade-insecure-requests">
   <meta name="referrer" content="strict-origin-when-cross-origin">
 
-  <!-- Bootstrap 5 -->
+  <!-- Bootstrap 5 (solo CSS) -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
@@ -42,9 +56,55 @@
   <link rel="stylesheet" href="assets/css/sections.css">
   <link rel="stylesheet" href="assets/css/blog.css">
   <link rel="stylesheet" href="assets/css/servicios.css">
+  <link rel="stylesheet" href="assets/css/accessibility.css">
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="assets/images/ico/hack-icon-512x512.png">
+
+  <!-- Datos estructurados -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.nestorfleitas.ar/#person",
+        "name": "Néstor David Fleitas",
+        "jobTitle": "AI Systems Architect & DevSecOps Engineer",
+        "url": "https://www.nestorfleitas.ar/",
+        "image": "https://www.nestorfleitas.ar/assets/images/myphoto.jpg",
+        "address": { "@type": "PostalAddress", "addressRegion": "Chubut", "addressCountry": "AR" },
+        "sameAs": [
+          "https://www.linkedin.com/in/ndf14685/",
+          "https://github.com/ndf14685",
+          "https://nexus-ai.lat/nexusos"
+        ],
+        "knowsAbout": [
+          "AI Systems Architecture", "Agentic AI", "AI Governance", "AI Security",
+          "DevSecOps", "DevOps", "Platform Engineering", "Cloud Architecture",
+          "Kubernetes", "Terraform", "Secure SDLC", "Java", "Python"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.nestorfleitas.ar/#website",
+        "url": "https://www.nestorfleitas.ar/",
+        "name": "nestorfleitas.ar",
+        "inLanguage": ["es", "en"],
+        "about": { "@id": "https://www.nestorfleitas.ar/#person" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "NexusOS",
+        "url": "https://nexus-ai.lat/nexusos",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Linux",
+        "description": "Governance and authorization layer for autonomous AI agents: identity, policy, permission, risk classification, enforcement and HMAC-signed audit trail. Governance pipeline complete; execution enablement in progress.",
+        "creator": { "@id": "https://www.nestorfleitas.ar/#person" }
+      }
+    ]
+  }
+  </script>
 
   <!-- theme.js inline-first para evitar flash de tema incorrecto -->
   <script src="assets/js/theme.js"></script>
@@ -69,12 +129,14 @@
       </button>
 
       <div class="nav-links">
-        <a href="#home"   data-lang="nav-home"   class="active">home</a>
-        <a href="#about"  data-lang="nav-about">about</a>
-        <a href="#skills" data-lang="nav-skills">skills</a>
-        <a href="#resume" data-lang="nav-resume">resume</a>
-        <a href="#blog"   data-lang="nav-blog">blog</a>
-        <a href="/servicios/" data-lang="nav-services">servicios</a>
+        <a href="#home"      data-lang="nav-home" class="active">home</a>
+        <a href="#about"     data-lang="nav-about">about</a>
+        <a href="#expertise" data-lang="nav-expertise">expertise</a>
+        <a href="#nexusos">nexusos</a>
+        <a href="#projects"  data-lang="nav-projects">proyectos</a>
+        <a href="#resume"    data-lang="nav-resume">resume</a>
+        <a href="#services"  data-lang="nav-services">servicios</a>
+        <a href="#contact"   data-lang="nav-contact">contacto</a>
       </div>
 
       <div class="nav-controls">
@@ -91,58 +153,43 @@
 
   <!-- HERO -->
   <section id="home" class="hero-section">
-    <div class="container hero-layout">
+    <div class="container hero-layout hero-layout-single">
       <div class="hero-copy">
         <div class="hero-prompt">
           <span class="prompt-user">nestor@fleitas</span>:~$
           <span class="prompt-cmd">whoami</span>
           <span class="cursor"></span>
         </div>
-        <h1>DevOps &amp; <em>DevSecOps</em><br>Consultant</h1>
+        <h1>AI Systems <em>Architect</em><br>&amp; DevSecOps Engineer</h1>
+        <p class="hero-value" data-lang="hero-value">
+          Diseño plataformas seguras donde la infraestructura cloud, los pipelines DevSecOps
+          y los agentes de IA autónomos operan bajo controles de identidad, autorización,
+          políticas y auditoría.
+        </p>
         <p class="hero-sub">
-          Nestor Fleitas &nbsp;|&nbsp; Chubut, Argentina &nbsp;|&nbsp;
+          Néstor Fleitas &nbsp;|&nbsp; Chubut, Argentina · Remote &nbsp;|&nbsp;
           <span class="hero-available" data-lang="hero-available">disponible</span>
         </p>
         <div class="hero-badges">
-          <span class="hero-badge green">AWS</span>
-          <span class="hero-badge green">GCP</span>
+          <span class="hero-badge green">Agentic AI</span>
+          <span class="hero-badge green">AI Governance</span>
           <span class="hero-badge blue">Kubernetes</span>
-          <span class="hero-badge blue">Docker</span>
-          <span class="hero-badge orange">Terraform</span>
+          <span class="hero-badge blue">AWS · Azure · GCP</span>
           <span class="hero-badge orange">DevSecOps</span>
-          <span class="hero-badge">CI/CD</span>
-          <span class="hero-badge">Wazuh</span>
+          <span class="hero-badge">NexusOS</span>
         </div>
         <div class="hero-cta">
-          <a href="#resume" class="btn-primary-nf">Ver Resume</a>
-          <a href="assets/cv.pdf" class="btn-secondary-nf" download data-lang="btn-cv-es">Descargar CV</a>
+          <a href="#contact" class="btn-primary-nf" data-lang="hero-cta-contact">Contactarme</a>
+          <a href="#nexusos" class="btn-secondary-nf" data-lang="hero-cta-nexusos">Ver NexusOS</a>
+        </div>
+        <div class="hero-links">
+          <a href="assets/cv.pdf" download data-lang="btn-cv-es">CV en español</a>
+          <a href="assets/cvIngles.pdf" download data-lang="btn-cv-en">Resume in English</a>
+          <a href="https://www.linkedin.com/in/ndf14685/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/ndf14685" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://nexus-ai.lat/nexusos" target="_blank" rel="noopener">NexusOS ↗</a>
         </div>
       </div>
-
-      <section id="blog" class="hero-news-panel" data-nav-section>
-        <p class="section-label">// automated daily feed</p>
-        <h2 class="section-title hero-news-title fade-in">Security &amp; DevOps <span data-lang="blog-title">News</span></h2>
-
-        <div class="terminal-window hero-terminal-window">
-          <div class="terminal-titlebar">
-            <div class="t-dot" style="background:#ff5f57"></div>
-            <div class="t-dot" style="background:#febc2e"></div>
-            <div class="t-dot" style="background:#28c840"></div>
-            <span class="terminal-title-text">
-              news.log &mdash; top 3 del dia &mdash;
-              <span class="t-date">cargando...</span>
-            </span>
-          </div>
-          <div class="terminal-body">
-            <div class="terminal-cmd-line">
-              $ <span class="cmd-args">cat assets/data/news.json | jq '.items[]'</span>
-            </div>
-            <div id="news-feed">
-              <!-- blog.js renderiza aqui -->
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
     <span class="scroll-indicator">▼ scroll</span>
   </section>
@@ -151,17 +198,16 @@
   <section id="about" class="about-section section-padding">
     <div class="container">
       <p class="section-label">// about</p>
-      <h2 class="section-title fade-in">Sobre <span>Mí</span></h2>
+      <h2 class="section-title fade-in" data-lang="about-title">Sobre Mí</h2>
       <hr class="section-hr">
 
       <div class="about-grid">
         <div class="about-photo-col">
-          <img src="assets/images/myphoto.jpg" alt="Nestor Fleitas" class="about-photo">
+          <img src="assets/images/myphoto.jpg" alt="Néstor Fleitas" class="about-photo">
           <div class="about-meta">
-            <div class="about-meta-row">Nombre <span>Nestor Fleitas</span></div>
-            <div class="about-meta-row">Nacimiento <span>14/06/1985</span></div>
-            <div class="about-meta-row">Ubicacion <span>Chubut, AR</span></div>
-            <div class="about-meta-row">Nac. <span>Argentino</span></div>
+            <div class="about-meta-row"><span class="meta-label" data-lang="meta-name">Nombre</span> <span>Néstor Fleitas</span></div>
+            <div class="about-meta-row"><span class="meta-label" data-lang="meta-location">Ubicación</span> <span>Chubut, Argentina</span></div>
+            <div class="about-meta-row"><span class="meta-label" data-lang="meta-work">Modalidad</span> <span data-lang="meta-work-val">Remote / Híbrido</span></div>
             <div class="about-meta-row">Email <span id="email-inline"></span></div>
           </div>
           <a id="whatsapp-link" href="#" target="_blank" rel="noopener" class="about-wa-btn">
@@ -170,162 +216,205 @@
         </div>
 
         <div class="about-text-col">
-          <h4 data-lang="about-who-title">// quién soy</h4>
-          <p data-lang="about-who-text">
-            Especialista en DevOps y DevSecOps con amplia experiencia en automatización de infraestructura
-            cloud (AWS, GCP), seguridad en el ciclo de vida del software (CI/CD) y gestión de contenedores
-            (Docker, Kubernetes). Apasionado por implementar soluciones seguras y escalables.
+          <h4 data-lang="about-path-title">// trayectoria</h4>
+          <p data-lang="about-p1">
+            Más de 15 años en ingeniería de software. Empecé como desarrollador backend Java
+            e integración SOA en banca y telecomunicaciones (Banco Credicoop, HSBC, Telefónica,
+            Telecom): sistemas distribuidos, buses de servicios y arquitectura de integración
+            fueron mi base técnica.
           </p>
-
-          <h4 data-lang="about-skills-title">// aptitudes</h4>
-          <div class="tag-list">
-            <span class="tag">DevSecOps</span>
-            <span class="tag">Cloud Architect (AWS, GCP, Azure)</span>
-            <span class="tag">CI/CD Automation</span>
-            <span class="tag">Kubernetes &amp; Docker</span>
-            <span class="tag">Terraform / AWS CDK</span>
-            <span class="tag">AI Security / Secure GenAI Adoption</span>
-            <span class="tag">English Intermediate (B1-B2)</span>
-          </div>
-
-          <h4 data-lang="about-tools-title">// herramientas</h4>
-          <div class="tag-list">
-            <span class="tag">Docker</span>
-            <span class="tag">Kubernetes</span>
-            <span class="tag">Terraform</span>
-            <span class="tag">Jenkins</span>
-            <span class="tag">GitLab CI</span>
-            <span class="tag">AWS</span>
-            <span class="tag">GCP</span>
-            <span class="tag">Azure</span>
-            <span class="tag">OpenShift</span>
-            <span class="tag">Wazuh</span>
-            <span class="tag">Burp Suite</span>
-            <span class="tag">SonarQube</span>
-            <span class="tag">OAuth 2.0 / IAM</span>
-            <span class="tag">Python</span>
-            <span class="tag">Bash</span>
-            <span class="tag">Linux</span>
-          </div>
+          <p data-lang="about-p2">
+            Esa base evolucionó hacia cloud y operaciones: SRE en Equifax, CI/CD mobile en Flux IT,
+            arquitectura de plataformas en Ingenia, data &amp; cloud engineering en Clarín, y
+            DevSecOps en Allianz, donde participé desde el área de seguridad en la adopción
+            corporativa de IA generativa: prácticas de desarrollo seguro, controles de acceso y
+            riesgos de LLMs. Hoy administro plataformas DevOps en banca (Banco Pichincha, Banco Itaú)
+            con AWS, Azure, OpenShift, Terraform y GitLab CI.
+          </p>
+          <p data-lang="about-p3">
+            Ese recorrido converge en NexusOS: una plataforma de gobernanza para sistemas de IA
+            autónomos. No me dedico solo a crear agentes, sino a construir la capa de identidad,
+            autorización, políticas, riesgo y auditoría que les permite operar de forma segura en
+            entornos reales. La idea central: la IA propone, la gobernanza decide.
+          </p>
 
           <div class="about-actions">
             <a id="email-btn" href="#" class="btn-primary-nf">
               📧 <span data-lang="btn-email">Enviarme un mail</span>
             </a>
-            <a href="assets/cv.pdf" class="btn-secondary-nf" download data-lang="btn-cv-es">Descargar CV</a>
-            <a href="assets/cvingles.pdf" class="btn-secondary-nf" download data-lang="btn-cv-en">Download Resume</a>
+            <a href="assets/cv.pdf" class="btn-secondary-nf" download data-lang="btn-cv-es">CV en español</a>
+            <a href="assets/cvIngles.pdf" class="btn-secondary-nf" download data-lang="btn-cv-en">Resume in English</a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- SKILLS -->
-  <section id="skills" class="skills-section section-padding">
+  <!-- EXPERTISE -->
+  <section id="expertise" class="skills-section section-padding">
     <div class="container">
-      <p class="section-label">// stack</p>
-      <h2 class="section-title fade-in">Skills <span>&amp; Tools</span></h2>
+      <p class="section-label">// expertise</p>
+      <h2 class="section-title fade-in" data-lang="exp-title">Áreas de Especialización</h2>
       <hr class="section-hr">
+      <p class="section-intro" data-lang="exp-intro">
+        Tres dominios conectados: la experiencia en plataformas y seguridad es la base que hace
+        posible diseñar sistemas de IA autónomos gobernados y utilizables en producción.
+      </p>
 
-      <div class="skills-grid">
-        <div>
-          <div class="skill-row fade-in">
-            <div class="skill-name">Java <span class="skill-pct">75%</span></div>
-            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
-          </div>
-          <div class="skill-row fade-in">
-            <div class="skill-name">Cloud (AWS / GCP) <span class="skill-pct">80%</span></div>
-            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
-          </div>
-          <div class="skill-row fade-in">
-            <div class="skill-name">Linux <span class="skill-pct">80%</span></div>
-            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
-          </div>
-          <div class="skill-row fade-in">
-            <div class="skill-name">Git <span class="skill-pct">75%</span></div>
-            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
-          </div>
-          <div class="skill-row fade-in">
-            <div class="skill-name">Docker <span class="skill-pct">75%</span></div>
-            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
-          </div>
-          <div class="skill-row fade-in">
-            <div class="skill-name">Kubernetes <span class="skill-pct">60%</span></div>
-            <div class="skill-bar"><div class="skill-fill" data-width="60"></div></div>
-          </div>
-          <div class="skill-row fade-in">
-            <div class="skill-name">Terraform <span class="skill-pct">70%</span></div>
-            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+      <div class="expertise-grid">
+        <div class="expertise-group fade-in">
+          <h3><span class="exp-index">A.</span> AI Systems &amp; Governance</h3>
+          <p class="expertise-desc" data-lang="exp-a-desc">
+            Arquitectura de sistemas agénticos y la capa de control que los hace confiables.
+          </p>
+          <div class="tag-list">
+            <span class="tag">Agentic Systems</span>
+            <span class="tag">Multi-Agent Architecture</span>
+            <span class="tag">AI Governance</span>
+            <span class="tag">Policy Enforcement</span>
+            <span class="tag">Authorization</span>
+            <span class="tag">Capability-Based Security</span>
+            <span class="tag">Human-in-the-loop</span>
+            <span class="tag">Provider Routing</span>
+            <span class="tag">Auditability</span>
+            <span class="tag">Prompt Injection Mitigation</span>
+            <span class="tag">Verification</span>
+            <span class="tag">Observable Autonomous Systems</span>
           </div>
         </div>
-        <div>
-          <div class="skill-row fade-in">
-            <div class="skill-name">Bash Scripting <span class="skill-pct">70%</span></div>
-            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
-          </div>
-          <div class="skill-row fade-in">
-            <div class="skill-name">Python <span class="skill-pct">55%</span></div>
-            <div class="skill-bar"><div class="skill-fill" data-width="55"></div></div>
-          </div>
-          <div class="skill-row fade-in">
-            <div class="skill-name">Jenkins / GitLab CI <span class="skill-pct">70%</span></div>
-            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
-          </div>
-          <div class="skill-row fade-in">
-            <div class="skill-name">Node.js <span class="skill-pct">55%</span></div>
-            <div class="skill-bar"><div class="skill-fill" data-width="55"></div></div>
-          </div>
-          <div class="skill-row fade-in">
-            <div class="skill-name">MySQL / MongoDB <span class="skill-pct">60%</span></div>
-            <div class="skill-bar"><div class="skill-fill" data-width="60"></div></div>
-          </div>
-          <div class="skill-row fade-in">
-            <div class="skill-name">SOA / OSB12c <span class="skill-pct">70%</span></div>
-            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
-          </div>
-          <div class="skill-row fade-in">
-            <div class="skill-name">HTML / CSS <span class="skill-pct">60%</span></div>
-            <div class="skill-bar"><div class="skill-fill" data-width="60"></div></div>
-          </div>
-        </div>
-      </div>
 
-      <div class="soft-skills-grid">
-        <div class="soft-card fade-in">
-          <div class="soft-pct">75%</div>
-          <div class="soft-label">Liderazgo</div>
+        <div class="expertise-group fade-in">
+          <h3><span class="exp-index">B.</span> DevOps, Platform &amp; Cloud</h3>
+          <p class="expertise-desc" data-lang="exp-b-desc">
+            Infraestructura y automatización aplicadas en banca, seguros, telcos y medios.
+          </p>
+          <div class="tag-list">
+            <span class="tag">AWS</span>
+            <span class="tag">Azure</span>
+            <span class="tag">GCP</span>
+            <span class="tag">Kubernetes</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Terraform</span>
+            <span class="tag">OpenShift</span>
+            <span class="tag">CI/CD</span>
+            <span class="tag">GitLab CI</span>
+            <span class="tag">Jenkins</span>
+            <span class="tag">Azure DevOps</span>
+            <span class="tag">Infrastructure as Code</span>
+            <span class="tag">Platform Engineering</span>
+            <span class="tag">Observability</span>
+          </div>
         </div>
-        <div class="soft-card fade-in">
-          <div class="soft-pct">85%</div>
-          <div class="soft-label">Comunicacion</div>
-        </div>
-        <div class="soft-card fade-in">
-          <div class="soft-pct">75%</div>
-          <div class="soft-label">Trabajo en Equipo</div>
+
+        <div class="expertise-group fade-in">
+          <h3><span class="exp-index">C.</span> Security &amp; Software Engineering</h3>
+          <p class="expertise-desc" data-lang="exp-c-desc">
+            Seguridad en el ciclo de vida del software, sobre una base de backend y arquitectura.
+          </p>
+          <div class="tag-list">
+            <span class="tag">DevSecOps</span>
+            <span class="tag">Secure SDLC</span>
+            <span class="tag">SAST / DAST / SCA</span>
+            <span class="tag">SonarQube</span>
+            <span class="tag">GitHub Advanced Security</span>
+            <span class="tag">Wazuh</span>
+            <span class="tag">Java</span>
+            <span class="tag">Python</span>
+            <span class="tag">Bash</span>
+            <span class="tag">REST APIs</span>
+            <span class="tag">Distributed Systems</span>
+            <span class="tag">Backend Architecture</span>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- CERTIFICATIONS -->
-  <section id="certifications" class="certifications-section section-padding">
+  <!-- NEXUSOS -->
+  <section id="nexusos" class="nexusos-section section-padding">
     <div class="container">
-      <p class="section-label">// credentials</p>
-      <h2 class="section-title fade-in" data-lang="certif-title">Certificaciones</h2>
+      <p class="section-label">// featured project</p>
+      <h2 class="section-title fade-in">Nexus<span>OS</span></h2>
       <hr class="section-hr">
-      <div class="cert-grid">
-        <div class="cert-card fade-in">
-          <h4>AWS Cloud Practitioner</h4>
-          <span>Amazon Web Services</span>
+
+      <p class="nx-tagline">"AI proposes. Governance decides."</p>
+
+      <div class="nx-grid">
+        <div class="nx-block fade-in">
+          <h3 data-lang="nx-problem-title">El problema</h3>
+          <p data-lang="nx-problem-text">
+            Los agentes de IA ya pueden leer bases de datos, escribir en repositorios y modificar
+            infraestructura, pero la mayoría de los frameworks ejecutan primero y auditan después:
+            sin trail de auditoría, sin flujo de aprobación, sin clasificación de riesgo y sin un
+            modelo de identidad que responda quién autorizó qué.
+          </p>
         </div>
-        <div class="cert-card fade-in">
-          <h4>Cybersecurity Technician</h4>
-          <span>Certificacion Tecnica</span>
+        <div class="nx-block fade-in">
+          <h3 data-lang="nx-solution-title">La propuesta</h3>
+          <p data-lang="nx-solution-text">
+            NexusOS es una capa de gobernanza y autorización para agentes de IA. Cada capability
+            pasa por un pipeline de gates obligatorios antes de ejecutar: sin atajos, sin bypass y
+            con evidencia firmada de cada decisión. Es neutral al proveedor: la gobernanza no se
+            reescribe al cambiar de modelo.
+          </p>
         </div>
-        <div class="cert-card fade-in">
-          <h4>Certified DevSecOps Professional</h4>
-          <span>DevSecOps Institute</span>
+      </div>
+
+      <h3 class="nx-pipeline-title" data-lang="nx-pipeline-title">// governance pipeline</h3>
+      <div class="nx-pipeline" role="img" aria-label="LLM/Agent → Identity → Policy → Permission → Risk → Verification → Execution → Audit">
+        <span class="nx-step nx-step-agent">LLM / Agent</span>
+        <span class="nx-arrow" aria-hidden="true">→</span>
+        <span class="nx-step">Identity</span>
+        <span class="nx-arrow" aria-hidden="true">→</span>
+        <span class="nx-step">Policy</span>
+        <span class="nx-arrow" aria-hidden="true">→</span>
+        <span class="nx-step">Permission</span>
+        <span class="nx-arrow" aria-hidden="true">→</span>
+        <span class="nx-step">Risk</span>
+        <span class="nx-arrow" aria-hidden="true">→</span>
+        <span class="nx-step">Verification</span>
+        <span class="nx-arrow" aria-hidden="true">→</span>
+        <span class="nx-step">Execution</span>
+        <span class="nx-arrow" aria-hidden="true">→</span>
+        <span class="nx-step nx-step-audit">Audit</span>
+      </div>
+      <p class="nx-pipeline-note" data-lang="nx-pipeline-note">
+        Si un gate falla, la ejecución se deniega, el motivo se registra y el audit se escribe
+        igual. Si el audit no puede escribirse, la ejecución también se deniega.
+      </p>
+
+      <div class="nx-grid nx-grid-3">
+        <div class="nx-block fade-in">
+          <h3 data-lang="nx-done-title">✓ Implementado</h3>
+          <ul class="nx-list">
+            <li data-lang="nx-done-1">Verificación de identidad neutral al proveedor (Local, Keycloak, Azure Entra, LDAP)</li>
+            <li data-lang="nx-done-2">Evaluación de políticas con evidencia firmada (HMAC-SHA256)</li>
+            <li data-lang="nx-done-3">Clasificación de riesgo: read-only / escritura reversible / escritura irreversible</li>
+            <li data-lang="nx-done-4">Permisos por operador con alcance por capability</li>
+            <li data-lang="nx-done-5">Audit chain append-only con encadenamiento prevHash</li>
+            <li data-lang="nx-done-6">102 capabilities gobernadas · 10 gates · 1.300+ casos de test</li>
+          </ul>
         </div>
+        <div class="nx-block fade-in">
+          <h3 data-lang="nx-wip-title">⚡ En desarrollo</h3>
+          <ul class="nx-list">
+            <li data-lang="nx-wip-1">Habilitación incremental de ejecución, empezando por acciones reversibles de bajo riesgo</li>
+            <li data-lang="nx-wip-2">Firma con clave pública para la evidencia de auditoría (hoy HMAC simétrico)</li>
+          </ul>
+        </div>
+        <div class="nx-block fade-in">
+          <h3 data-lang="nx-uses-title">Escenarios de uso</h3>
+          <ul class="nx-list">
+            <li data-lang="nx-uses-1">Consultas de infraestructura de solo lectura, con identidad de operador y scope por namespace</li>
+            <li data-lang="nx-uses-2">Pull requests generados por IA con aprobación humana firmada antes del merge</li>
+            <li data-lang="nx-uses-3">Automatización de tickets y operaciones de seguridad con acciones críticas bloqueadas hasta aprobación</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="nx-actions">
+        <a href="https://nexus-ai.lat/nexusos" target="_blank" rel="noopener" class="btn-primary-nf" data-lang="nx-cta-product">Producto y demo interactiva ↗</a>
+        <a href="https://github.com/ndf14685" target="_blank" rel="noopener" class="btn-secondary-nf">GitHub ↗</a>
       </div>
     </div>
   </section>
@@ -334,20 +423,24 @@
   <section id="projects" class="projects-section section-padding">
     <div class="container">
       <p class="section-label">// work</p>
-      <h2 class="section-title fade-in" data-lang="projects-title">Proyectos Destacados</h2>
+      <h2 class="section-title fade-in" data-lang="projects-title">Proyectos y Casos</h2>
       <hr class="section-hr">
       <div class="projects-grid">
         <div class="project-card fade-in">
-          <h3>Automatizacion CI/CD</h3>
-          <p>Implementacion de pipelines de integracion continua utilizando Jenkins y GitLab CI para despliegue automatico en AWS.</p>
+          <h3 data-lang="prj-1-title">Integraciones gobernadas — Nexus Desktop &amp; Senses</h3>
+          <p data-lang="prj-1-text">Integraciones de agentes con Desktop, voz, Telegram, HTTP, Linux, Windows, Docker, Kubernetes, Git y logs, ejecutando bajo el pipeline de gobernanza de NexusOS con routing multi-proveedor de LLMs.</p>
         </div>
         <div class="project-card fade-in">
-          <h3>Infraestructura Segura en la Nube</h3>
-          <p>Despliegue de microservicios seguros en AWS y Kubernetes, integrando practicas de DevSecOps y auditorias de seguridad.</p>
+          <h3 data-lang="prj-2-title">Adopción segura de IA generativa</h3>
+          <p data-lang="prj-2-text">En Allianz Argentina, desde el área de seguridad: evaluación de prácticas de desarrollo seguro, controles de acceso y riesgos de LLMs en la implementación corporativa de IA generativa; seguridad en CI/CD con Jenkins, SonarQube y GitHub Advanced Security.</p>
         </div>
         <div class="project-card fade-in">
-          <h3>Monitorizacion con Wazuh</h3>
-          <p>Implementacion de un SOC utilizando Wazuh para monitorear amenazas en infraestructuras locales y en la nube.</p>
+          <h3 data-lang="prj-3-title">Plataformas DevOps en banca</h3>
+          <p data-lang="prj-3-text">Infraestructura como código en Azure con Terraform y contenedores en OpenShift 4 (Banco Pichincha); administración de plataformas y pipelines GitLab CI sobre AWS (Banco Itaú). Evaluación de frameworks CNCF en el chapter DevOps.</p>
+        </div>
+        <div class="project-card fade-in">
+          <h3 data-lang="prj-4-title">Data &amp; Cloud en medios</h3>
+          <p data-lang="prj-4-text">En Clarín (AGEA): integración de GCP con Elastic Cloud (Pub/Sub, Dataflow, Airflow), desarrollo de conector Java, clusters EKS con CDK y microservicios Node.js.</p>
         </div>
       </div>
     </div>
@@ -357,19 +450,29 @@
   <section id="resume" class="resume-section section-padding">
     <div class="container">
       <p class="section-label">// experience</p>
-      <h2 class="section-title fade-in" data-lang="resume-title">Resume</h2>
+      <h2 class="section-title fade-in" data-lang="resume-title">Experiencia</h2>
       <hr class="section-hr">
 
       <p class="resume-subsection-title" data-lang="resume-exp">historia laboral</p>
 
       <div class="timeline">
         <div class="tl-item">
-          <div class="tl-date"><span>FEB 2026<br>Actualidad</span></div>
+          <div class="tl-date"><span>2026<br><span data-lang="date-present">Actualidad</span></span></div>
           <div class="tl-dot"></div>
           <div class="tl-content fade-in">
-            <h3>Banco Itau</h3>
-            <h5>DevOps — Contractor</h5>
-            <p>Administracion de infraestructura y plataformas DevOps/DevSecOps. Automatizacion de pipelines CI/CD y despliegues. Gestion de infraestructura como codigo. Colaboracion con equipos tecnicos en incidentes y mejoras. Stack: AWS, GitLab CI.</p>
+            <h3>Nexus AI — NexusOS</h3>
+            <h5 data-lang="res-nexus-role">Founder &amp; CTO · AI Systems Architect</h5>
+            <p data-lang="res-nexus-desc">Diseño y desarrollo de NexusOS, plataforma de gobernanza y autorización para agentes de IA: pipeline de 10 gates (identidad, políticas, permisos, riesgo, enforcement, auditoría), audit chain firmado con HMAC e integraciones gobernadas para infraestructura, código y operaciones.</p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-date"><span>FEB 2026<br><span data-lang="date-present">Actualidad</span></span></div>
+          <div class="tl-dot"></div>
+          <div class="tl-content fade-in">
+            <h3>Banco Itaú</h3>
+            <h5 data-lang="res-itau-role">DevOps — Contractor</h5>
+            <p data-lang="res-itau-desc">Administración de infraestructura y plataformas DevOps/DevSecOps. Automatización de pipelines CI/CD y despliegues, infraestructura como código y colaboración con equipos técnicos en incidentes y mejoras. Stack: AWS, GitLab CI.</p>
           </div>
         </div>
 
@@ -378,8 +481,8 @@
           <div class="tl-dot"></div>
           <div class="tl-content fade-in">
             <h3>Banco Pichincha</h3>
-            <h5>DevOps — Freelance</h5>
-            <p>Infraestructura en Azure con Terraform. Gestion de contenedores en OpenShift 4. Evaluacion de frameworks CNCF en el Chapter DevOps. Optimizacion de procesos CI/CD en entornos bancarios.</p>
+            <h5 data-lang="res-pich-role">DevOps — Freelance</h5>
+            <p data-lang="res-pich-desc">Infraestructura en Azure con Terraform y gestión de contenedores en OpenShift 4. Evaluación de frameworks CNCF en el chapter DevOps y optimización de procesos CI/CD en entornos bancarios.</p>
           </div>
         </div>
 
@@ -389,7 +492,7 @@
           <div class="tl-content fade-in">
             <h3>Allianz Argentina</h3>
             <h5>DevSecOps</h5>
-            <p>Participacion desde el area de seguridad en la implementacion corporativa de IA generativa: evaluacion de practicas de desarrollo seguro, controles de acceso y riesgos LLM. Seguridad en CI/CD con Jenkins, SonarQube y GHAS. Infraestructura AWS EKS con Terraform. Capacitacion en seguridad para equipos internos y externos.</p>
+            <p data-lang="res-allianz-desc">Participación desde el área de seguridad en la implementación corporativa de IA generativa: evaluación de prácticas de desarrollo seguro, controles de acceso y riesgos de LLMs. Seguridad en CI/CD con Jenkins, SonarQube y GHAS. Infraestructura AWS EKS con Terraform. Capacitación en seguridad para equipos internos y externos.</p>
           </div>
         </div>
 
@@ -399,7 +502,7 @@
           <div class="tl-content fade-in">
             <h3>Arkho — Chile</h3>
             <h5>Cloud Engineer — Contractor</h5>
-            <p>Creacion de infraestructura AWS con CloudFront, S3 y RDS. Backend con microservicios Node.js en cluster EKS. Uso de CDK, CodeBuild, CodePipeline, CodeCommit, EKS y Docker.</p>
+            <p data-lang="res-arkho-desc">Infraestructura AWS con CloudFront, S3 y RDS. Backend con microservicios Node.js en cluster EKS. CDK, CodeBuild, CodePipeline, CodeCommit y Docker.</p>
           </div>
         </div>
 
@@ -407,9 +510,9 @@
           <div class="tl-date"><span>OCT 2022<br>MAR 2024</span></div>
           <div class="tl-dot"></div>
           <div class="tl-content fade-in">
-            <h3>CLARIN - AGEA</h3>
+            <h3>Clarín — AGEA</h3>
             <h5>Data &amp; Cloud Engineer</h5>
-            <p>Integracion de GCP con Elastic Cloud; Pubsub, Dataflow, Airflow; Docker, Kubernetes; Desarrollo de conector Java; AWS EKS VPC ELB, CDK; implementacion de microservicios Node.</p>
+            <p data-lang="res-clarin-desc">Integración de GCP con Elastic Cloud: Pub/Sub, Dataflow, Airflow. Docker y Kubernetes. Desarrollo de conector Java, AWS EKS con CDK (VPC, ELB) y microservicios Node.js.</p>
           </div>
         </div>
 
@@ -419,7 +522,7 @@
           <div class="tl-content fade-in">
             <h3>Ingenia</h3>
             <h5>Technology Architect / SRE / DevSecOps</h5>
-            <p>Cliente Geopagos: diseno de arquitectura, infra AWS con Kubernetes, Terraform, Airflow y GitLab. Cliente Mercantil Andina: diseno de nueva plataforma, infra Azure con AKS, Terraform, Azure DevOps y Bitbucket.</p>
+            <p data-lang="res-ingenia-desc">Geopagos: diseño de arquitectura e infraestructura AWS con Kubernetes, Terraform, Airflow y GitLab. Mercantil Andina: diseño de nueva plataforma en Azure con AKS, Terraform, Azure DevOps y Bitbucket.</p>
           </div>
         </div>
 
@@ -427,9 +530,9 @@
           <div class="tl-date"><span>JUL 2021<br>ABR 2022</span></div>
           <div class="tl-dot"></div>
           <div class="tl-content fade-in">
-            <h3>FLUX IT</h3>
+            <h3>Flux IT</h3>
             <h5>DevOps Mobile</h5>
-            <p>DevOps GCP, AWS, Azure. Docker, Jenkins, Azure DevOps para CI/CD de apps Android e iOS. Integracion con SonarQube, Browserstack.</p>
+            <p data-lang="res-flux-desc">CI/CD para apps Android e iOS con Docker, Jenkins y Azure DevOps sobre GCP, AWS y Azure. Integración con SonarQube y Browserstack.</p>
           </div>
         </div>
 
@@ -438,89 +541,67 @@
           <div class="tl-dot"></div>
           <div class="tl-content fade-in">
             <h3>Equifax</h3>
-            <h5>SRE - DevOps</h5>
-            <p>Site Reliability Engineer. Docker, Ansible, Apache, Tomcat, Nagios, Linux Red Hat, Nginx, Jenkins, Terraform, Kubernetes en GCP.</p>
+            <h5>SRE — DevOps</h5>
+            <p data-lang="res-equifax-desc">Site Reliability Engineering: Docker, Ansible, Apache, Tomcat, Nagios, Linux Red Hat, Nginx, Jenkins, Terraform y Kubernetes en GCP.</p>
           </div>
         </div>
 
-        <div class="tl-item">
-          <div class="tl-date"><span>MAR 2018<br>2020</span></div>
+        <div class="tl-item tl-item-compact">
+          <div class="tl-date"><span>2012<br>2022</span></div>
           <div class="tl-dot"></div>
           <div class="tl-content fade-in">
-            <h3>Telecom</h3>
-            <h5>Java SOA Developer / Configuration Manager</h5>
-            <p>Servicios SOA con OSB (Oracle), IBM DataPower. Jenkins, Stash, Maven. Administracion Linux, automatizacion bash, troubleshooting.</p>
+            <h3 data-lang="res-java-title">Etapa Java / SOA — banca y telcos</h3>
+            <h5 data-lang="res-java-role">Backend &amp; Integration Engineer · Arquitectura</h5>
+            <p data-lang="res-java-desc">Fundamento de backend y arquitectura de integración: Telecom (SOA con OSB 12c, DataPower, Jenkins; referente técnico y configuration manager 2018–2020, y hasta fines de 2022 soporte de despliegues productivos fuera de horario y fines de semana), HSBC (Java Sr, ESB IBM, 2017–2018), Banco Credicoop (Java en área de Arquitectura; investigación open source: CouchDB, Node.js, ELK, Jenkins, 2014–2017), Telefónica/Movistar (consultor Java SOA/OSB, WebLogic, Spring, 2012–2014).</p>
           </div>
         </div>
 
-        <div class="tl-item">
-          <div class="tl-date"><span>OCT 2017<br>JUN 2018</span></div>
+        <div class="tl-item tl-item-compact">
+          <div class="tl-date"><span>2008<br>2009</span></div>
           <div class="tl-dot"></div>
           <div class="tl-content fade-in">
-            <h3>HSBC</h3>
-            <h5>Analista Desarrollador Java Sr Middleware</h5>
-            <p>Analisis y desarrollo Java, integracion SOA con ESB IBM. IDE: RTC, IID. SoapUI. Cliente/Proyecto: HSBC - Equipo Middleware.</p>
-          </div>
-        </div>
-
-        <div class="tl-item">
-          <div class="tl-date"><span>OCT 2014<br>SEPT 2017</span></div>
-          <div class="tl-dot"></div>
-          <div class="tl-content fade-in">
-            <h3>Banco Credicoop</h3>
-            <h5>Analista Desarrollador Java Ssr — Arquitectura</h5>
-            <p>Desarrollo Java, ESB IBM, Eclipse. Investigacion Open Source: CouchDB, Node.js, AngularJS, ELK Stack, Jenkins.</p>
-          </div>
-        </div>
-
-        <div class="tl-item">
-          <div class="tl-date"><span>AGO 2013<br>OCT 2014</span></div>
-          <div class="tl-dot"></div>
-          <div class="tl-content fade-in">
-            <h3>Telefonica-Movistar</h3>
-            <h5>Consultor Java SOA / OSB</h5>
-            <p>Desarrollo SOA con Oracle Service Bus, JDeveloper, OEPE. WebLogic, Tomcat. Integracion mediante OSB, BPel, WebServices, Spring.</p>
-          </div>
-        </div>
-
-        <div class="tl-item">
-          <div class="tl-date"><span>JUL 2012<br>AGO 2013</span></div>
-          <div class="tl-dot"></div>
-          <div class="tl-content fade-in">
-            <h3>Telefonica</h3>
-            <h5>Consultor Java</h5>
-            <p>Desarrollo Java, JSP, Android. Tomcat, WebLogic. Customizacion de apps de gestion de Redes: HDM, CSC, MDM. Metodologias Agiles Scrum.</p>
-          </div>
-        </div>
-
-        <div class="tl-item">
-          <div class="tl-date"><span>SEPT 2008<br>JUN 2009</span></div>
-          <div class="tl-dot"></div>
-          <div class="tl-content fade-in">
-            <h3>Accenture S.A.</h3>
-            <h5>Desarrollador Cobol</h5>
-            <p>Programacion Cobol en entorno Mainframe, JCL, DB2. Diversos proyectos asignados en Rosario.</p>
+            <h3>Accenture</h3>
+            <h5 data-lang="res-acc-role">Desarrollador Cobol</h5>
+            <p data-lang="res-acc-desc">Programación Cobol en mainframe (JCL, DB2).</p>
           </div>
         </div>
       </div>
 
-      <p class="resume-subsection-title" data-lang="resume-edu">formacion academica</p>
+      <p class="resume-subsection-title" data-lang="resume-edu">formación y certificaciones</p>
 
-      <div class="timeline">
+      <div class="cert-grid">
+        <div class="cert-card fade-in">
+          <h4>AWS Cloud Practitioner</h4>
+          <span>Amazon Web Services</span>
+        </div>
+        <div class="cert-card fade-in">
+          <h4>Red Team · OSINT · DevSecOps &amp; Cloud Security</h4>
+          <span>Hackademy (2022–2025)</span>
+        </div>
+        <div class="cert-card fade-in">
+          <h4>CyberOps</h4>
+          <span>SeaCCNA (2024)</span>
+        </div>
+        <div class="cert-card fade-in">
+          <h4>DevOps · Data Science</h4>
+          <span>MundoSE (2022–2023)</span>
+        </div>
+      </div>
+
+      <div class="timeline timeline-edu">
         <div class="tl-item">
-          <div class="tl-date"><span>2013<br>Actualidad</span></div>
+          <div class="tl-date"><span>2013</span></div>
           <div class="tl-dot"></div>
           <div class="tl-content fade-in">
-            <h3>Ingenieria Industrial</h3>
+            <h3 data-lang="edu-utn-title">Ingeniería Industrial</h3>
             <h5>U.T.N. — Facultad Regional Buenos Aires</h5>
-            <p>Cursando 3er ano de la carrera.</p>
           </div>
         </div>
         <div class="tl-item">
           <div class="tl-date"><span>2002</span></div>
           <div class="tl-dot"></div>
           <div class="tl-content fade-in">
-            <h3>Tecnico en Informatica</h3>
+            <h3 data-lang="edu-tec-title">Técnico en Informática</h3>
             <h5>E.E.T. N° 9 Ing. Torcuato Di Tella — Avellaneda</h5>
           </div>
         </div>
@@ -529,20 +610,127 @@
     </div>
   </section>
 
+  <!-- SERVICES -->
+  <section id="services" class="services-home-section section-padding">
+    <div class="container">
+      <p class="section-label">// services</p>
+      <h2 class="section-title fade-in" data-lang="svc-title">Servicios</h2>
+      <hr class="section-hr">
+      <p class="section-intro" data-lang="svc-intro">
+        Trabajo con equipos de plataforma, seguridad y tecnología que necesitan adoptar IA sin
+        perder control, o llevar su práctica DevOps/DevSecOps al siguiente nivel.
+      </p>
+
+      <div class="svc-grid">
+        <div class="svc-card fade-in">
+          <h3>AI Systems Architecture</h3>
+          <p data-lang="svc-1-text">Diseño de sistemas agénticos y multi-agente listos para producción: arquitectura, routing de proveedores, observabilidad y límites de ejecución. Para organizaciones que pasaron de los pilotos y necesitan que la IA opere de forma confiable.</p>
+        </div>
+        <div class="svc-card fade-in">
+          <h3>AI Governance Assessment</h3>
+          <p data-lang="svc-2-text">Evaluación del estado de gobernanza de agentes y LLMs: identidad, autorización, clasificación de riesgo, aprobaciones y auditoría. Para CISOs y equipos de compliance que necesitan evidencia, no promesas.</p>
+        </div>
+        <div class="svc-card fade-in">
+          <h3>Secure Agentic AI Adoption</h3>
+          <p data-lang="svc-3-text">Acompañamiento en la adopción de IA generativa y agentes con controles desde el día uno: desarrollo seguro, mitigación de prompt injection y human-in-the-loop para acciones críticas.</p>
+        </div>
+        <div class="svc-card fade-in">
+          <h3>DevSecOps Consulting</h3>
+          <p data-lang="svc-4-text">Seguridad integrada al ciclo de vida: SAST/DAST/SCA en pipelines, Secure SDLC, hardening de CI/CD. Experiencia aplicada en banca y seguros.</p>
+        </div>
+        <div class="svc-card fade-in">
+          <h3>Cloud &amp; Platform Architecture</h3>
+          <p data-lang="svc-5-text">Arquitectura e infraestructura como código en AWS, Azure y GCP: Kubernetes, OpenShift, Terraform y automatización CI/CD para plataformas que escalan.</p>
+        </div>
+        <div class="svc-card fade-in">
+          <h3 data-lang="svc-6-title">Architecture Review &amp; Technical Advisory</h3>
+          <p data-lang="svc-6-text">Revisión de arquitectura y acompañamiento técnico para decisiones de plataforma, seguridad e IA: una mirada senior externa antes de comprometer inversión.</p>
+        </div>
+      </div>
+
+      <div class="svc-actions">
+        <a href="#contact" class="btn-primary-nf" data-lang="svc-cta">Iniciar una conversación</a>
+        <a href="/servicios/" class="btn-secondary-nf" data-lang="svc-pyme">IA y automatización para PyMEs →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWS -->
+  <section id="blog" class="news-home-section section-padding" data-nav-section>
+    <div class="container">
+      <p class="section-label">// automated daily feed</p>
+      <h2 class="section-title fade-in">Security &amp; DevOps <span data-lang="blog-title">News</span></h2>
+      <hr class="section-hr">
+      <p class="section-intro" data-lang="news-intro">
+        Feed generado automáticamente por un pipeline propio (GitHub Actions + RSS + scoring)
+        que se actualiza a diario.
+      </p>
+
+      <div class="terminal-window hero-terminal-window">
+        <div class="terminal-titlebar">
+          <div class="t-dot" style="background:#ff5f57"></div>
+          <div class="t-dot" style="background:#febc2e"></div>
+          <div class="t-dot" style="background:#28c840"></div>
+          <span class="terminal-title-text">
+            news.log &mdash; top 3 &mdash;
+            <span class="t-date">cargando...</span>
+          </span>
+        </div>
+        <div class="terminal-body">
+          <div class="terminal-cmd-line">
+            $ <span class="cmd-args">cat assets/data/news.json | jq '.items[]'</span>
+          </div>
+          <div id="news-feed">
+            <!-- blog.js renderiza aqui -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact-section section-padding">
+    <div class="container">
+      <p class="section-label">// contact</p>
+      <h2 class="section-title fade-in" data-lang="ct-title">Contacto</h2>
+      <hr class="section-hr">
+
+      <div class="contact-grid">
+        <div class="contact-card fade-in">
+          <h3 data-lang="ct-jobs-title">Oportunidades laborales</h3>
+          <p data-lang="ct-jobs-text">Roles de AI Systems / Platform / DevSecOps Architecture y posiciones senior de DevOps, SRE o Platform Engineering. Remote desde Argentina.</p>
+          <a id="email-btn-jobs" href="#" class="btn-primary-nf" data-lang="ct-jobs-cta">Hablemos de tu búsqueda</a>
+        </div>
+        <div class="contact-card fade-in">
+          <h3 data-lang="ct-consult-title">Consultoría y NexusOS</h3>
+          <p data-lang="ct-consult-text">Adopción segura de IA, gobernanza de agentes, DevSecOps o una presentación de NexusOS para tu equipo técnico.</p>
+          <a id="email-btn-consult" href="#" class="btn-primary-nf" data-lang="ct-consult-cta">Agendar una conversación</a>
+        </div>
+      </div>
+
+      <div class="contact-channels fade-in">
+        <span id="email-inline-contact"></span>
+        <a href="https://www.linkedin.com/in/ndf14685/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/ndf14685" target="_blank" rel="noopener">GitHub</a>
+        <a id="whatsapp-link-contact" href="#" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
   <!-- FOOTER -->
   <footer class="site-footer">
     <div class="container">
       <p class="footer-prompt">
-        <span class="fp-user">nestor@fleitas</span>:~$ echo "DevOps &amp; Security Specialist"
+        <span class="fp-user">nestor@fleitas</span>:~$ echo "AI proposes. Governance decides."
       </p>
-      <p class="footer-output">DevOps &amp; Security Specialist &nbsp;·&nbsp; Chubut, Argentina</p>
+      <p class="footer-output" data-lang="footer-line">AI Systems Architect &amp; DevSecOps Engineer &nbsp;·&nbsp; Chubut, Argentina</p>
       <nav class="footer-social">
         <a href="https://www.linkedin.com/in/ndf14685/" target="_blank" rel="noopener">linkedin</a>
         <a href="https://github.com/ndf14685" target="_blank" rel="noopener">github</a>
-        <a href="https://www.instagram.com/nestorfleitas.ar/" target="_blank" rel="noopener">instagram</a>
+        <a href="https://nexus-ai.lat/nexusos" target="_blank" rel="noopener">nexusos</a>
         <a id="email-icon" href="#">email</a>
       </nav>
-      <p class="services-footer-built">Construido con <a href="https://nexusos.org" target="_blank" rel="noopener">NexusAI</a></p>
+      <p class="services-footer-built"><span data-lang="footer-built">Construido con</span> <a href="https://nexus-ai.lat" target="_blank" rel="noopener">Nexus AI</a></p>
     </div>
   </footer>
 
@@ -552,13 +740,6 @@
   </div>
 
   <!-- Scripts -->
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-
   <script src="assets/js/main.js"></script>
   <script src="assets/js/lang.js"></script>
   <script src="assets/js/blog.js"></script>
