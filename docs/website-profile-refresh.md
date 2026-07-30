@@ -139,6 +139,15 @@ El repo `nestorfleitas.ar` está marcado como obsoleto en su `OPENCLAW_NOTE.md` 
 - i18n: se mantiene el mecanismo `data-lang` y se amplía el diccionario a
   cobertura total del contenido de la home; el toggle también actualiza
   `<html lang>`, `<title>` y `meta description`.
+- i18n ampliado (2026-07-30): la home soporta **es/en/pt/de** — el mismo set
+  de idiomas que nexus-ai.lat. La terminología NexusOS en PT/DE sigue los
+  diccionarios de `nexus-security/locales/nexusos.{pt,de}.json` (governança /
+  trilha de auditoria; Governance-Gates / Audit-Trail / Risikoklassifizierung)
+  para consistencia entre ambos sitios. El switcher pasó de dos banderas a un
+  `<select>` ES/EN/PT/DE (mismo patrón que nexus-ai.lat), con autodetección
+  del idioma del navegador en la primera visita (pt→PT, de→DE, es→ES, resto→EN)
+  y persistencia en localStorage. `og:locale:alternate` incluye pt_BR y de_DE;
+  JSON-LD `inLanguage` cubre los cuatro.
 - SEO: title/description nuevos, OG + Twitter cards, canonical, JSON-LD
   (`Person` + `WebSite` + `SoftwareApplication` para NexusOS con estado honesto
   vía descripción), robots.txt y sitemap.xml. Sin hreflang (una sola URL).
@@ -198,3 +207,8 @@ El repo `nestorfleitas.ar` está marcado como obsoleto en su `OPENCLAW_NOTE.md` 
     (`hyphens: none` en h1/h2/h3).
 - No se modificaron `/servicios/`, `/novedades/`, `/busquedas/`, `/dashboard/`
   ni los workflows de GitHub Actions.
+- Validación PT/DE (2026-07-30): 104 claves por idioma en los cuatro
+  diccionarios, sin faltantes ni huérfanas (verificado por script);
+  prueba en Chromium: hero/NexusOS en PT, hero/servicios en DE, roundtrip
+  ES↔PT↔DE↔ES, persistencia del idioma tras recarga con el select
+  sincronizado, y `<html lang>` + meta description correctos por idioma.

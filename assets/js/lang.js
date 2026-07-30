@@ -10,6 +10,14 @@
     en: {
       title: 'Néstor Fleitas — AI Systems Architect & DevSecOps Engineer',
       description: 'AI Systems Architect and DevSecOps Engineer. I design secure platforms where cloud infrastructure, DevSecOps pipelines and autonomous AI agents operate under identity, authorization, policy and audit controls. Creator of NexusOS. Argentina · Remote.'
+    },
+    pt: {
+      title: 'Néstor Fleitas — AI Systems Architect & DevSecOps Engineer',
+      description: 'AI Systems Architect e DevSecOps Engineer. Projeto plataformas seguras onde infraestrutura cloud, pipelines DevSecOps e agentes de IA autônomos operam sob identidade, autorização, políticas e auditoria. Criador do NexusOS. Argentina · Remoto.'
+    },
+    de: {
+      title: 'Néstor Fleitas — AI Systems Architect & DevSecOps Engineer',
+      description: 'AI Systems Architect und DevSecOps Engineer. Ich entwerfe sichere Plattformen, auf denen Cloud-Infrastruktur, DevSecOps-Pipelines und autonome KI-Agenten unter Identitäts-, Autorisierungs-, Richtlinien- und Audit-Kontrollen arbeiten. Entwickler von NexusOS. Argentinien · Remote.'
     }
   };
 
@@ -268,6 +276,262 @@
       // Footer
       'footer-line':  'AI Systems Architect & DevSecOps Engineer  ·  Chubut, Argentina',
       'footer-built': 'Built with'
+    },
+
+    pt: {
+      // Nav
+      'nav-home':      'home',
+      'nav-about':     'sobre',
+      'nav-expertise': 'expertise',
+      'nav-projects':  'projetos',
+      'nav-resume':    'resume',
+      'nav-services':  'serviços',
+      'nav-contact':   'contato',
+
+      // Hero
+      'hero-value':       'Projeto plataformas seguras onde a infraestrutura cloud, os pipelines DevSecOps e os agentes de IA autônomos operam sob controles de identidade, autorização, políticas e auditoria.',
+      'hero-available':   'disponível',
+      'hero-cta-contact': 'Fale comigo',
+      'hero-cta-nexusos': 'Ver NexusOS',
+      'btn-cv-es':        'CV em espanhol',
+      'btn-cv-en':        'Currículo em inglês',
+
+      // About
+      'about-title':      'Sobre Mim',
+      'meta-name':        'Nome',
+      'meta-location':    'Localização',
+      'meta-work':        'Modalidade',
+      'meta-work-val':    'Remoto / Híbrido',
+      'btn-whatsapp':     'WhatsApp',
+      'btn-email':        'Enviar um e-mail',
+      'about-path-title': '// trajetória',
+      'about-p1':         'Mais de 15 anos em engenharia de software. Comecei como desenvolvedor backend Java e integração SOA em bancos e telecomunicações (Banco Credicoop, HSBC, Telefónica, Telecom): sistemas distribuídos, barramentos de serviços e arquitetura de integração foram minha base técnica.',
+      'about-p2':         'Essa base evoluiu para cloud e operações: SRE na Equifax, CI/CD mobile na Flux IT, arquitetura de plataformas na Ingenia, data & cloud engineering no Clarín, e DevSecOps na Allianz, onde participei, a partir da área de segurança, da adoção corporativa de IA generativa: práticas de desenvolvimento seguro, controles de acesso e riscos de LLMs. Hoje administro plataformas DevOps em bancos (Banco Pichincha, Banco Itaú) com AWS, Azure, OpenShift, Terraform e GitLab CI.',
+      'about-p3':         'Esse percurso converge no NexusOS: uma plataforma de governança para sistemas de IA autônomos. Não me dedico apenas a criar agentes, mas a construir a camada de identidade, autorização, políticas, risco e auditoria que permite que eles operem com segurança em ambientes reais. A ideia central: a IA propõe, a governança decide.',
+
+      // Expertise
+      'exp-title':  'Áreas de Especialização',
+      'exp-intro':  'Três domínios conectados: a experiência em plataformas e segurança é a base que torna possível projetar sistemas de IA autônomos governados e utilizáveis em produção.',
+      'exp-a-desc': 'Arquitetura de sistemas agênticos e a camada de controle que os torna confiáveis.',
+      'exp-b-desc': 'Infraestrutura e automação aplicadas em bancos, seguradoras, telecom e mídia.',
+      'exp-c-desc': 'Segurança ao longo do ciclo de vida do software, sobre uma base de backend e arquitetura.',
+
+      // NexusOS
+      'nx-problem-title':  'O problema',
+      'nx-problem-text':   'Os agentes de IA já podem ler bancos de dados, escrever em repositórios e modificar infraestrutura, mas a maioria dos frameworks executa primeiro e audita depois: sem trilha de auditoria, sem fluxo de aprovação, sem classificação de risco e sem um modelo de identidade que responda quem autorizou o quê.',
+      'nx-solution-title': 'A proposta',
+      'nx-solution-text':  'O NexusOS é uma camada de governança e autorização para agentes de IA. Cada capability passa por um pipeline de gates obrigatórios antes de executar: sem atalhos, sem bypass e com evidência assinada de cada decisão. É neutro quanto ao provedor: a governança não é reescrita ao trocar de modelo.',
+      'nx-pipeline-title': '// governance pipeline',
+      'nx-pipeline-note':  'Se um gate falha, a execução é negada, o motivo é registrado e o audit é gravado mesmo assim. Se o audit não puder ser gravado, a execução também é negada.',
+      'nx-done-title':     '✓ Implementado',
+      'nx-done-1':         'Verificação de identidade neutra quanto ao provedor (Local, Keycloak, Azure Entra, LDAP)',
+      'nx-done-2':         'Avaliação de políticas com evidência assinada (HMAC-SHA256)',
+      'nx-done-3':         'Classificação de risco: somente leitura / escrita reversível / escrita irreversível',
+      'nx-done-4':         'Permissões por operador com escopo por capability',
+      'nx-done-5':         'Cadeia de auditoria append-only com encadeamento prevHash',
+      'nx-done-6':         '102 capabilities governadas · 10 gates · 1.300+ casos de teste',
+      'nx-wip-title':      '⚡ Em desenvolvimento',
+      'nx-wip-1':          'Habilitação incremental de execução, começando por ações reversíveis de baixo risco',
+      'nx-wip-2':          'Assinatura com chave pública para a evidência de auditoria (hoje HMAC simétrico)',
+      'nx-uses-title':     'Cenários de uso',
+      'nx-uses-1':         'Consultas de infraestrutura somente leitura, com identidade de operador e escopo por namespace',
+      'nx-uses-2':         'Pull requests gerados por IA com aprovação humana assinada antes do merge',
+      'nx-uses-3':         'Automação de tickets e operações de segurança com ações críticas bloqueadas até aprovação',
+      'nx-cta-product':    'Produto e demo interativa ↗',
+
+      // Projects
+      'projects-title': 'Projetos e Casos',
+      'prj-1-title':    'Integrações governadas — Nexus Desktop & Senses',
+      'prj-1-text':     'Integrações de agentes com Desktop, voz, Telegram, HTTP, Linux, Windows, Docker, Kubernetes, Git e logs, executando sob o pipeline de governança do NexusOS com roteamento multi-provedor de LLMs.',
+      'prj-2-title':    'Adoção segura de IA generativa',
+      'prj-2-text':     'Na Allianz Argentina, a partir da área de segurança: avaliação de práticas de desenvolvimento seguro, controles de acesso e riscos de LLMs na implementação corporativa de IA generativa; segurança em CI/CD com Jenkins, SonarQube e GitHub Advanced Security.',
+      'prj-3-title':    'Plataformas DevOps em bancos',
+      'prj-3-text':     'Infraestrutura como código no Azure com Terraform e contêineres no OpenShift 4 (Banco Pichincha); administração de plataformas e pipelines GitLab CI na AWS (Banco Itaú). Avaliação de frameworks CNCF no chapter DevOps.',
+      'prj-4-title':    'Data & Cloud em mídia',
+      'prj-4-text':     'No Clarín (AGEA): integração do GCP com Elastic Cloud (Pub/Sub, Dataflow, Airflow), desenvolvimento de conector Java, clusters EKS com CDK e microsserviços Node.js.',
+
+      // Resume
+      'resume-title':     'Experiência',
+      'resume-exp':       '// histórico profissional',
+      'resume-edu':       '// formação e certificações',
+      'date-present':     'Atualmente',
+      'res-nexus-role':   'Founder & CTO · AI Systems Architect',
+      'res-nexus-desc':   'Projeto e desenvolvimento do NexusOS, plataforma de governança e autorização para agentes de IA: pipeline de 10 gates (identidade, políticas, permissões, risco, enforcement, auditoria), cadeia de auditoria assinada com HMAC e integrações governadas para infraestrutura, código e operações.',
+      'res-itau-role':    'DevOps — Contractor',
+      'res-itau-desc':    'Administração de infraestrutura e plataformas DevOps/DevSecOps. Automação de pipelines CI/CD e deploys, infraestrutura como código e colaboração com times técnicos em incidentes e melhorias. Stack: AWS, GitLab CI.',
+      'res-pich-role':    'DevOps — Freelance',
+      'res-pich-desc':    'Infraestrutura no Azure com Terraform e gestão de contêineres no OpenShift 4. Avaliação de frameworks CNCF no chapter DevOps e otimização de processos CI/CD em ambientes bancários.',
+      'res-allianz-desc': 'Participação, a partir da área de segurança, na implementação corporativa de IA generativa: avaliação de práticas de desenvolvimento seguro, controles de acesso e riscos de LLMs. Segurança em CI/CD com Jenkins, SonarQube e GHAS. Infraestrutura AWS EKS com Terraform. Treinamento em segurança para equipes internas e externas.',
+      'res-arkho-desc':   'Infraestrutura AWS com CloudFront, S3 e RDS. Backend com microsserviços Node.js em cluster EKS. CDK, CodeBuild, CodePipeline, CodeCommit e Docker.',
+      'res-clarin-desc':  'Integração do GCP com Elastic Cloud: Pub/Sub, Dataflow, Airflow. Docker e Kubernetes. Desenvolvimento de conector Java, AWS EKS com CDK (VPC, ELB) e microsserviços Node.js.',
+      'res-ingenia-desc': 'Geopagos: design de arquitetura e infraestrutura AWS com Kubernetes, Terraform, Airflow e GitLab. Mercantil Andina: design de nova plataforma no Azure com AKS, Terraform, Azure DevOps e Bitbucket.',
+      'res-flux-desc':    'CI/CD para apps Android e iOS com Docker, Jenkins e Azure DevOps em GCP, AWS e Azure. Integração com SonarQube e Browserstack.',
+      'res-equifax-desc': 'Site Reliability Engineering: Docker, Ansible, Apache, Tomcat, Nagios, Red Hat Linux, Nginx, Jenkins, Terraform e Kubernetes no GCP.',
+      'res-java-title':   'Fase Java / SOA — bancos e telecom',
+      'res-java-role':    'Backend & Integration Engineer · Arquitetura',
+      'res-java-desc':    'Fundamento de backend e arquitetura de integração: Telecom (SOA com OSB 12c, DataPower, Jenkins; referente técnico e configuration manager 2018–2020, e até o fim de 2022 suporte a deploys produtivos fora do horário e nos fins de semana), HSBC (Java Sr, ESB IBM, 2017–2018), Banco Credicoop (Java na área de Arquitetura; pesquisa open source: CouchDB, Node.js, ELK, Jenkins, 2014–2017), Telefónica/Movistar (consultor Java SOA/OSB, WebLogic, Spring, 2012–2014).',
+      'res-acc-role':     'Desenvolvedor Cobol',
+      'res-acc-desc':     'Programação Cobol em mainframe (JCL, DB2).',
+      'edu-utn-title':    'Engenharia Industrial',
+      'edu-tec-title':    'Técnico em Informática',
+
+      // Services
+      'svc-title':   'Serviços',
+      'svc-intro':   'Trabalho com times de plataforma, segurança e tecnologia que precisam adotar IA sem perder o controle, ou levar sua prática DevOps/DevSecOps ao próximo nível.',
+      'svc-1-text':  'Design de sistemas agênticos e multiagente prontos para produção: arquitetura, roteamento de provedores, observabilidade e limites de execução. Para organizações que passaram dos pilotos e precisam que a IA opere de forma confiável.',
+      'svc-2-text':  'Avaliação do estado de governança de agentes e LLMs: identidade, autorização, classificação de risco, aprovações e auditoria. Para CISOs e times de compliance que precisam de evidência, não de promessas.',
+      'svc-3-text':  'Acompanhamento na adoção de IA generativa e agentes com controles desde o primeiro dia: desenvolvimento seguro, mitigação de prompt injection e human-in-the-loop para ações críticas.',
+      'svc-4-text':  'Segurança integrada ao ciclo de vida: SAST/DAST/SCA em pipelines, Secure SDLC, hardening de CI/CD. Experiência aplicada em bancos e seguradoras.',
+      'svc-5-text':  'Arquitetura e infraestrutura como código em AWS, Azure e GCP: Kubernetes, OpenShift, Terraform e automação CI/CD para plataformas que escalam.',
+      'svc-6-title': 'Architecture Review & Technical Advisory',
+      'svc-6-text':  'Revisão de arquitetura e acompanhamento técnico para decisões de plataforma, segurança e IA: um olhar sênior externo antes de comprometer investimento.',
+      'svc-cta':     'Iniciar uma conversa',
+      'svc-pyme':    'IA e automação para PMEs →',
+
+      // News
+      'blog-title': 'News',
+      'news-intro': 'Feed gerado automaticamente por um pipeline próprio (GitHub Actions + RSS + scoring), atualizado diariamente.',
+
+      // Contact
+      'ct-title':        'Contato',
+      'ct-jobs-title':   'Oportunidades de trabalho',
+      'ct-jobs-text':    'Posições de AI Systems / Platform / DevSecOps Architecture e vagas sênior de DevOps, SRE ou Platform Engineering. Remoto a partir da Argentina.',
+      'ct-jobs-cta':     'Vamos falar sobre a sua vaga',
+      'ct-consult-title':'Consultoria e NexusOS',
+      'ct-consult-text': 'Adoção segura de IA, governança de agentes, DevSecOps ou uma apresentação do NexusOS para o seu time técnico.',
+      'ct-consult-cta':  'Agendar uma conversa',
+
+      // Footer
+      'footer-line':  'AI Systems Architect & DevSecOps Engineer  ·  Chubut, Argentina',
+      'footer-built': 'Construído com'
+    },
+
+    de: {
+      // Nav
+      'nav-home':      'home',
+      'nav-about':     'über mich',
+      'nav-expertise': 'expertise',
+      'nav-projects':  'projekte',
+      'nav-resume':    'resume',
+      'nav-services':  'leistungen',
+      'nav-contact':   'kontakt',
+
+      // Hero
+      'hero-value':       'Ich entwerfe sichere Plattformen, auf denen Cloud-Infrastruktur, DevSecOps-Pipelines und autonome KI-Agenten unter Identitäts-, Autorisierungs-, Richtlinien- und Audit-Kontrollen arbeiten.',
+      'hero-available':   'verfügbar',
+      'hero-cta-contact': 'Kontakt aufnehmen',
+      'hero-cta-nexusos': 'NexusOS ansehen',
+      'btn-cv-es':        'Lebenslauf (Spanisch)',
+      'btn-cv-en':        'Lebenslauf (Englisch)',
+
+      // About
+      'about-title':      'Über Mich',
+      'meta-name':        'Name',
+      'meta-location':    'Standort',
+      'meta-work':        'Arbeitsmodell',
+      'meta-work-val':    'Remote / Hybrid',
+      'btn-whatsapp':     'WhatsApp',
+      'btn-email':        'E-Mail senden',
+      'about-path-title': '// werdegang',
+      'about-p1':         'Über 15 Jahre Software-Engineering. Ich begann als Java-Backend-Entwickler mit SOA-Integration für Banken und Telekommunikation (Banco Credicoop, HSBC, Telefónica, Telecom): verteilte Systeme, Service-Busse und Integrationsarchitektur waren meine technische Basis.',
+      'about-p2':         'Diese Basis entwickelte sich weiter in Richtung Cloud und Betrieb: SRE bei Equifax, Mobile-CI/CD bei Flux IT, Plattformarchitektur bei Ingenia, Data & Cloud Engineering bei Clarín und DevSecOps bei Allianz, wo ich aus dem Sicherheitsteam heraus die unternehmensweite Einführung generativer KI begleitet habe: sichere Entwicklungspraktiken, Zugriffskontrollen und LLM-Risiken. Heute betreue ich DevOps-Plattformen im Bankensektor (Banco Pichincha, Banco Itaú) mit AWS, Azure, OpenShift, Terraform und GitLab CI.',
+      'about-p3':         'Dieser Weg mündet in NexusOS: einer Governance-Plattform für autonome KI-Systeme. Ich baue nicht nur Agenten — ich baue die Identitäts-, Autorisierungs-, Richtlinien-, Risiko- und Audit-Schicht, die es ihnen erlaubt, sicher in realen Umgebungen zu arbeiten. Die Kernidee: die KI schlägt vor, die Governance entscheidet.',
+
+      // Expertise
+      'exp-title':  'Schwerpunkte',
+      'exp-intro':  'Drei verbundene Domänen: Plattform- und Sicherheitserfahrung ist die Grundlage, um autonome KI-Systeme zu entwerfen, die unter Governance stehen und produktionsreif sind.',
+      'exp-a-desc': 'Architektur agentischer Systeme und der Kontrollschicht, die sie vertrauenswürdig macht.',
+      'exp-b-desc': 'Infrastruktur und Automatisierung, angewendet in Banken, Versicherungen, Telekommunikation und Medien.',
+      'exp-c-desc': 'Sicherheit über den gesamten Software-Lebenszyklus, auf einer Basis aus Backend und Architektur.',
+
+      // NexusOS
+      'nx-problem-title':  'Das Problem',
+      'nx-problem-text':   'KI-Agenten können bereits Datenbanken lesen, in Repositories schreiben und Infrastruktur verändern — aber die meisten Frameworks führen zuerst aus und auditieren später: kein Audit-Trail, kein Genehmigungsworkflow, keine Risikoklassifizierung und kein Identitätsmodell, das beantwortet, wer was autorisiert hat.',
+      'nx-solution-title': 'Der Ansatz',
+      'nx-solution-text':  'NexusOS ist eine Governance- und Autorisierungsschicht für KI-Agenten. Jede Capability durchläuft vor der Ausführung eine Pipeline verpflichtender Gates: keine Abkürzungen, kein Bypass, und jede Entscheidung mit signierter Evidenz. Provider-neutral: die Governance wird beim Modellwechsel nicht neu gebaut.',
+      'nx-pipeline-title': '// governance pipeline',
+      'nx-pipeline-note':  'Schlägt ein Gate fehl, wird die Ausführung verweigert, der Grund protokolliert und der Audit-Eintrag trotzdem geschrieben. Kann der Audit-Eintrag nicht geschrieben werden, wird die Ausführung ebenfalls verweigert.',
+      'nx-done-title':     '✓ Implementiert',
+      'nx-done-1':         'Provider-neutrale Identitätsprüfung (Local, Keycloak, Azure Entra, LDAP)',
+      'nx-done-2':         'Richtlinienauswertung mit signierter Evidenz (HMAC-SHA256)',
+      'nx-done-3':         'Risikoklassifizierung: nur Lesen / reversibles Schreiben / irreversibles Schreiben',
+      'nx-done-4':         'Berechtigungen pro Operator, begrenzt auf einzelne Capabilities',
+      'nx-done-5':         'Append-only-Audit-Kette mit prevHash-Verkettung',
+      'nx-done-6':         '102 Capabilities unter Governance · 10 Gates · 1.300+ Testfälle',
+      'nx-wip-title':      '⚡ In Entwicklung',
+      'nx-wip-1':          'Schrittweise Freischaltung der Ausführung, beginnend mit risikoarmen, reversiblen Aktionen',
+      'nx-wip-2':          'Public-Key-Signatur für die Audit-Evidenz (derzeit symmetrisches HMAC)',
+      'nx-uses-title':     'Einsatzszenarien',
+      'nx-uses-1':         'Lesende Infrastrukturabfragen mit Operator-Identität und Namespace-Scoping',
+      'nx-uses-2':         'KI-generierte Pull Requests mit signierter menschlicher Freigabe vor dem Merge',
+      'nx-uses-3':         'Ticket-Automatisierung und Security Operations, bei denen kritische Aktionen bis zur Freigabe blockiert sind',
+      'nx-cta-product':    'Produkt & interaktive Demo ↗',
+
+      // Projects
+      'projects-title': 'Projekte & Referenzen',
+      'prj-1-title':    'Integrationen unter Governance — Nexus Desktop & Senses',
+      'prj-1-text':     'Agenten-Integrationen mit Desktop, Sprache, Telegram, HTTP, Linux, Windows, Docker, Kubernetes, Git und Logs — ausgeführt unter der NexusOS-Governance-Pipeline mit Multi-Provider-LLM-Routing.',
+      'prj-2-title':    'Sichere Einführung generativer KI',
+      'prj-2-text':     'Bei Allianz Argentina, aus dem Sicherheitsteam heraus: Bewertung sicherer Entwicklungspraktiken, Zugriffskontrollen und LLM-Risiken bei der unternehmensweiten Einführung generativer KI; CI/CD-Sicherheit mit Jenkins, SonarQube und GitHub Advanced Security.',
+      'prj-3-title':    'DevOps-Plattformen im Bankensektor',
+      'prj-3-text':     'Infrastructure as Code auf Azure mit Terraform und Container auf OpenShift 4 (Banco Pichincha); Plattformbetrieb und GitLab-CI-Pipelines auf AWS (Banco Itaú). Bewertung von CNCF-Frameworks im DevOps-Chapter.',
+      'prj-4-title':    'Data & Cloud in Medien',
+      'prj-4-text':     'Bei Clarín (AGEA): GCP-Integration mit Elastic Cloud (Pub/Sub, Dataflow, Airflow), Entwicklung eines Java-Konnektors, EKS-Cluster mit CDK und Node.js-Microservices.',
+
+      // Resume
+      'resume-title':     'Erfahrung',
+      'resume-exp':       '// beruflicher werdegang',
+      'resume-edu':       '// ausbildung & zertifizierungen',
+      'date-present':     'Heute',
+      'res-nexus-role':   'Founder & CTO · AI Systems Architect',
+      'res-nexus-desc':   'Entwurf und Entwicklung von NexusOS, einer Governance- und Autorisierungsplattform für KI-Agenten: 10-Gate-Pipeline (Identität, Richtlinien, Berechtigungen, Risiko, Enforcement, Audit), HMAC-signierte Audit-Kette und Integrationen unter Governance für Infrastruktur, Code und Betrieb.',
+      'res-itau-role':    'DevOps — Contractor',
+      'res-itau-desc':    'Betrieb von DevOps-/DevSecOps-Infrastruktur und -Plattformen. Automatisierung von CI/CD-Pipelines und Deployments, Infrastructure as Code, Zusammenarbeit mit technischen Teams bei Incidents und Verbesserungen. Stack: AWS, GitLab CI.',
+      'res-pich-role':    'DevOps — Freelance',
+      'res-pich-desc':    'Azure-Infrastruktur mit Terraform und Container-Betrieb auf OpenShift 4. Bewertung von CNCF-Frameworks im DevOps-Chapter und Optimierung von CI/CD-Prozessen im Bankenumfeld.',
+      'res-allianz-desc': 'Aus dem Sicherheitsteam heraus an der unternehmensweiten Einführung generativer KI beteiligt: Bewertung sicherer Entwicklungspraktiken, Zugriffskontrollen und LLM-Risiken. CI/CD-Sicherheit mit Jenkins, SonarQube und GHAS. AWS-EKS-Infrastruktur mit Terraform. Sicherheitsschulungen für interne und externe Teams.',
+      'res-arkho-desc':   'AWS-Infrastruktur mit CloudFront, S3 und RDS. Backend mit Node.js-Microservices auf einem EKS-Cluster. CDK, CodeBuild, CodePipeline, CodeCommit und Docker.',
+      'res-clarin-desc':  'GCP-Integration mit Elastic Cloud: Pub/Sub, Dataflow, Airflow. Docker und Kubernetes. Entwicklung eines Java-Konnektors, AWS EKS mit CDK (VPC, ELB) und Node.js-Microservices.',
+      'res-ingenia-desc': 'Geopagos: Architekturentwurf und AWS-Infrastruktur mit Kubernetes, Terraform, Airflow und GitLab. Mercantil Andina: Entwurf einer neuen Plattform auf Azure mit AKS, Terraform, Azure DevOps und Bitbucket.',
+      'res-flux-desc':    'CI/CD für Android- und iOS-Apps mit Docker, Jenkins und Azure DevOps auf GCP, AWS und Azure. Integration mit SonarQube und Browserstack.',
+      'res-equifax-desc': 'Site Reliability Engineering: Docker, Ansible, Apache, Tomcat, Nagios, Red Hat Linux, Nginx, Jenkins, Terraform und Kubernetes auf GCP.',
+      'res-java-title':   'Java-/SOA-Phase — Banken & Telekommunikation',
+      'res-java-role':    'Backend & Integration Engineer · Architektur',
+      'res-java-desc':    'Fundament in Backend und Integrationsarchitektur: Telecom (SOA mit OSB 12c, DataPower, Jenkins; Technical Lead und Configuration Manager 2018–2020, bis Ende 2022 zusätzlich Support für Produktions-Deployments außerhalb der Geschäftszeiten und an Wochenenden), HSBC (Senior Java, IBM ESB, 2017–2018), Banco Credicoop (Java im Architekturteam; Open-Source-Research: CouchDB, Node.js, ELK, Jenkins, 2014–2017), Telefónica/Movistar (Java-SOA/OSB-Consultant, WebLogic, Spring, 2012–2014).',
+      'res-acc-role':     'Cobol-Entwickler',
+      'res-acc-desc':     'Cobol-Programmierung auf Mainframe (JCL, DB2).',
+      'edu-utn-title':    'Wirtschaftsingenieurwesen',
+      'edu-tec-title':    'IT-Techniker',
+
+      // Services
+      'svc-title':   'Leistungen',
+      'svc-intro':   'Ich arbeite mit Plattform-, Sicherheits- und Technologieteams, die KI einführen wollen, ohne die Kontrolle zu verlieren — oder ihre DevOps-/DevSecOps-Praxis auf das nächste Level bringen möchten.',
+      'svc-1-text':  'Entwurf produktionsreifer agentischer und Multi-Agenten-Systeme: Architektur, Provider-Routing, Observability und Ausführungsgrenzen. Für Organisationen, die über die Pilotphase hinaus sind und KI verlässlich betreiben müssen.',
+      'svc-2-text':  'Bewertung des Governance-Stands von Agenten und LLMs: Identität, Autorisierung, Risikoklassifizierung, Freigaben und Audit. Für CISOs und Compliance-Teams, die Evidenz brauchen, keine Versprechen.',
+      'svc-3-text':  'Begleitung bei der Einführung generativer KI und von Agenten mit Kontrollen vom ersten Tag an: sichere Entwicklung, Prompt-Injection-Mitigation und Human-in-the-Loop für kritische Aktionen.',
+      'svc-4-text':  'Sicherheit im gesamten Lebenszyklus: SAST/DAST/SCA in Pipelines, Secure SDLC, CI/CD-Härtung. Praxiserfahrung in Banken und Versicherungen.',
+      'svc-5-text':  'Architektur und Infrastructure as Code auf AWS, Azure und GCP: Kubernetes, OpenShift, Terraform und CI/CD-Automatisierung für skalierende Plattformen.',
+      'svc-6-title': 'Architecture Review & Technical Advisory',
+      'svc-6-text':  'Architektur-Review und technische Begleitung für Plattform-, Sicherheits- und KI-Entscheidungen: eine externe Senior-Perspektive, bevor Investitionen gebunden werden.',
+      'svc-cta':     'Gespräch starten',
+      'svc-pyme':    'KI & Automatisierung für KMU →',
+
+      // News
+      'blog-title': 'News',
+      'news-intro': 'Feed, automatisch erzeugt von einer eigenen Pipeline (GitHub Actions + RSS + Scoring), täglich aktualisiert.',
+
+      // Contact
+      'ct-title':        'Kontakt',
+      'ct-jobs-title':   'Jobangebote',
+      'ct-jobs-text':    'Rollen in AI Systems / Platform / DevSecOps Architecture sowie Senior-Positionen in DevOps, SRE oder Platform Engineering. Remote aus Argentinien.',
+      'ct-jobs-cta':     'Sprechen wir über Ihre Suche',
+      'ct-consult-title':'Beratung & NexusOS',
+      'ct-consult-text': 'Sichere KI-Einführung, Agenten-Governance, DevSecOps oder eine NexusOS-Präsentation für Ihr technisches Team.',
+      'ct-consult-cta':  'Gespräch vereinbaren',
+
+      // Footer
+      'footer-line':  'AI Systems Architect & DevSecOps Engineer  ·  Chubut, Argentina',
+      'footer-built': 'Erstellt mit'
     }
   };
 
@@ -289,22 +553,29 @@
       if (desc) desc.setAttribute('content', meta[lang].description);
     }
 
+    const sel = document.getElementById('lang-switch');
+    if (sel && sel.value !== lang) sel.value = lang;
+
     try { localStorage.setItem('nf-lang', lang); } catch (e) {}
   }
 
   document.addEventListener('DOMContentLoaded', function () {
-    const btnEs = document.getElementById('flag-es');
-    const btnEn = document.getElementById('flag-en');
-    if (btnEs) btnEs.addEventListener('click', function () { setLanguage('es'); });
-    if (btnEn) btnEn.addEventListener('click', function () { setLanguage('en'); });
+    const sel = document.getElementById('lang-switch');
+    if (sel) {
+      sel.addEventListener('change', function () { setLanguage(sel.value); });
+    }
 
-    // Restaurar idioma guardado o detectar el del navegador
+    // Restaurar idioma guardado o detectar el del navegador (es/en/pt/de)
     let saved = null;
     try { saved = localStorage.getItem('nf-lang'); } catch (e) {}
-    if (saved === 'en') {
-      setLanguage('en');
-    } else if (!saved && navigator.language && !navigator.language.toLowerCase().startsWith('es')) {
-      setLanguage('en');
+    if (saved && translations[saved]) {
+      if (saved !== 'es') setLanguage(saved);
+      else if (sel) sel.value = 'es';
+    } else {
+      const nav = (navigator.language || 'es').toLowerCase().slice(0, 2);
+      if (nav !== 'es') {
+        setLanguage(translations[nav] ? nav : 'en');
+      }
     }
   });
 })();
