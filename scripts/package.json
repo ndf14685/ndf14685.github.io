@@ -7,6 +7,7 @@
     "fetch": "node fetch-news.js",
     "fetch:ai": "node fetch-ai-news.js",
     "send:ai-digest": "node send-ai-digest.js",
+    "build:i18n": "node build-i18n.js",
     "test": "node --test fetch-news.test.js send-ai-digest.test.js"
   },
   "dependencies": {

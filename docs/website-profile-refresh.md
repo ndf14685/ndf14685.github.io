@@ -150,7 +150,19 @@ El repo `nestorfleitas.ar` está marcado como obsoleto en su `OPENCLAW_NOTE.md` 
   JSON-LD `inLanguage` cubre los cuatro.
 - SEO: title/description nuevos, OG + Twitter cards, canonical, JSON-LD
   (`Person` + `WebSite` + `SoftwareApplication` para NexusOS con estado honesto
-  vía descripción), robots.txt y sitemap.xml. Sin hreflang (una sola URL).
+  vía descripción), robots.txt y sitemap.xml.
+- Rutas estáticas por idioma (2026-07-30): `/en/`, `/pt/` y `/de/` se generan
+  con `node scripts/build-i18n.js` (npm run build:i18n) a partir de
+  `index.html` + `scripts/i18n-dictionaries.mjs`. Cada página lleva su
+  contenido horneado (indexable sin JS), `<html lang>`, meta description/OG
+  por idioma, canonical propio, cluster hreflang idéntico en las cuatro
+  (x-default → /en/, pensado para visitantes internacionales) y assets con
+  rutas root-absolute. `lang.js` quedó como runtime mínimo: el select navega
+  entre las cuatro URLs y recuerda la elección explícita (sin autodetección
+  ni redirect para visitantes nuevos, para no confundir crawlers). El sitemap
+  lista las cuatro URLs con `xhtml:link` alternates.
+  **Importante**: tras editar `index.html` o los diccionarios, correr el build
+  y commitear las páginas regeneradas.
 - Se elimina el código de skill-bars de `main.js`.
 
 ## 6. Datos confirmados por el usuario (2026-07-29)

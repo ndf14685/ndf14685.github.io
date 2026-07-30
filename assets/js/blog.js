@@ -2,7 +2,7 @@
 (function () {
   'use strict';
 
-  const NEWS_JSON_PATH = 'assets/data/news.json';
+  const NEWS_JSON_PATH = '/assets/data/news.json';
   const MAX_STALE_HOURS = 48;
 
   function relativeTime(isoString) {
