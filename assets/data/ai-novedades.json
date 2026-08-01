@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T18:24:01.816Z",
+  "generated_at": "2026-08-01T00:05:44.433Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -11,9 +11,9 @@
     "Infra AI"
   ],
   "source_counts": {
-    "rss": 39,
+    "rss": 38,
     "github": 9,
-    "newsapi": 49
+    "newsapi": 50
   },
   "digest": {
     "has_relevant_items": true,
@@ -25,13 +25,6 @@
         "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
         "score": 100,
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.146.0"
-      },
-      {
-        "technology": "Claude",
-        "title": "Show HN: Ski – Voice Coding for Claude Code, Codex and More – On-Device – Free",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 98,
-        "url": "https://heyski.io/"
       },
       {
         "technology": "Codex",
@@ -62,18 +55,25 @@
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.2"
       },
       {
-        "technology": "OpenClaw",
-        "title": "Show HN: Noisegate – a differential-privacy gateway for untrusted AI agents",
-        "benefit": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
-        "score": 86,
-        "url": "https://github.com/yashmahajan10/llm-differential-privacy-gateway"
-      },
-      {
         "technology": "Claude",
         "title": "Evolving Spec-Driven Development: Conductor Now Supports Antigravity",
         "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
         "score": 74,
         "url": "https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity/"
+      },
+      {
+        "technology": "Claude",
+        "title": "mcp-server-mikrotik 0.12.4.0",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 74,
+        "url": "https://pypi.org/project/mcp-server-mikrotik/0.12.4.0/"
+      },
+      {
+        "technology": "Claude",
+        "title": "mcp-server-mikrotik 0.12.3.0",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 74,
+        "url": "https://pypi.org/project/mcp-server-mikrotik/0.12.3.0/"
       }
     ]
   },
@@ -98,24 +98,6 @@
     },
     {
       "id": 2,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "Show HN: Ski – Voice Coding for Claude Code, Codex and More – On-Device – Free",
-      "summary": "SKI is a on-device voice coding application, which can be used with any agents that supports skill, such as Claude Code, Codex or Hermes.It transcribes your voice (which you can optionally review and edit) and send it to the connected agent. The agent then co…",
-      "source": "Heyski.io",
-      "source_url": "https://heyski.io/",
-      "published_at": "2026-07-30T18:10:04.000Z",
-      "score": 98,
-      "tags": [
-        "Claude",
-        "Codex",
-        "ChatGPT / OpenAI"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 3,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.147.0-alpha.4",
@@ -132,7 +114,7 @@
       "relevant": true
     },
     {
-      "id": 4,
+      "id": 3,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.147.0-alpha.3",
@@ -149,7 +131,7 @@
       "relevant": true
     },
     {
-      "id": 5,
+      "id": 4,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.147.0-alpha.1.1",
@@ -166,7 +148,7 @@
       "relevant": true
     },
     {
-      "id": 6,
+      "id": 5,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.147.0-alpha.2",
@@ -183,31 +165,14 @@
       "relevant": true
     },
     {
-      "id": 7,
-      "kind": "newsapi",
-      "technology": "OpenClaw",
-      "title": "Show HN: Noisegate – a differential-privacy gateway for untrusted AI agents",
-      "summary": "Noisegate: a differential privacy gateway that lets an untrusted LLM agent query sensitive data over MCP (Model Context Protocol), with a formal guarantee no individual's record can leak even i...",
-      "source": "Github.com",
-      "source_url": "https://github.com/yashmahajan10/llm-differential-privacy-gateway",
-      "published_at": "2026-07-30T18:08:48.000Z",
-      "score": 86,
-      "tags": [
-        "OpenClaw",
-        "Infra AI"
-      ],
-      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
-      "relevant": true
-    },
-    {
-      "id": 8,
+      "id": 6,
       "kind": "rss",
       "technology": "Claude",
       "title": "Evolving Spec-Driven Development: Conductor Now Supports Antigravity",
       "summary": "Conductor has evolved from a Gemini CLI extension into a portable plugin, bringing conversational Spec-Driven Development (SDD) to ecosystems like Antigravity CLI and Claude. Rather than relying on strict command sequences, developers can now chat naturally with their AI assistant while it dynamically manages persistent markdown artifacts...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity/",
-      "published_at": "2026-07-31T18:24:00.181Z",
+      "published_at": "2026-08-01T00:05:42.769Z",
       "score": 74,
       "tags": [
         "Claude",
@@ -217,65 +182,48 @@
       "relevant": true
     },
     {
+      "id": 7,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "mcp-server-mikrotik 0.12.4.0",
+      "summary": "MCP server for MikroTik integration with Claude and other AI assistants",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/mcp-server-mikrotik/0.12.4.0/",
+      "published_at": "2026-07-30T23:36:37.000Z",
+      "score": 74,
+      "tags": [
+        "Claude",
+        "Infra AI"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 8,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "mcp-server-mikrotik 0.12.3.0",
+      "summary": "MCP server for MikroTik integration with Claude and other AI assistants",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/mcp-server-mikrotik/0.12.3.0/",
+      "published_at": "2026-07-30T23:26:32.000Z",
+      "score": 74,
+      "tags": [
+        "Claude",
+        "Infra AI"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
       "id": 9,
       "kind": "newsapi",
-      "technology": "Claude",
-      "title": "adamast 0.2.1",
-      "summary": "Adaptive failure-mode taxonomy runtime for Codex, Claude Code, and custom agent harnesses.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/adamast/0.2.1/",
-      "published_at": "2026-07-30T18:21:56.000Z",
-      "score": 74,
-      "tags": [
-        "Claude",
-        "Codex"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 10,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "umbra-core 0.5.0",
-      "summary": "An agent-agnostic change-control plane for coding agents. Governs Codex, Claude Code, Cursor, or any agent behind one admission pipeline and proves every change with a signed receipt.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/umbra-core/0.5.0/",
-      "published_at": "2026-07-30T18:10:22.000Z",
-      "score": 74,
-      "tags": [
-        "Claude",
-        "Codex"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 11,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "sub-pool-client 0.7.0",
-      "summary": "Python client + `sp-claude` / `sp-codex` CLIs for a sub-pool credential broker.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/sub-pool-client/0.7.0/",
-      "published_at": "2026-07-30T18:04:16.000Z",
-      "score": 74,
-      "tags": [
-        "Claude",
-        "Codex"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 12,
-      "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "django-orm-lens 1.10.0",
-      "summary": "Static analysis + MCP server for Django models. Blast radius, schema drift, N+1 and migration risk for CI, ER diagrams for terminals and AI agents. No DB, no Django boot. Free and MIT.",
+      "title": "cli-market-core 1.11.98",
+      "summary": "Cost-of-Living OS for LatAm — intelligence layer for CLI Market. market_optimize_purchase: one-call basket compare, TCO, substitutes, action links. 44 MCP tools (default profile). Dependency of cli-market-world.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/django-orm-lens/1.10.0/",
-      "published_at": "2026-07-30T18:19:55.000Z",
+      "source_url": "https://pypi.org/project/cli-market-core/1.11.98/",
+      "published_at": "2026-07-30T23:21:11.000Z",
       "score": 72,
       "tags": [
         "Infra AI"
@@ -284,7 +232,7 @@
       "relevant": true
     },
     {
-      "id": 13,
+      "id": 10,
       "kind": "rss",
       "technology": "Claude",
       "title": "Microsoft AI bets on cheap specialist models instead of chasing the frontier",
@@ -301,7 +249,7 @@
       "relevant": true
     },
     {
-      "id": 14,
+      "id": 11,
       "kind": "rss",
       "technology": "ChatGPT / OpenAI",
       "title": "New Deepseek Flash model matches OpenAI's GPT-5.6 Luna at roughly 60 percent lower cost",
@@ -318,7 +266,7 @@
       "relevant": true
     },
     {
-      "id": 15,
+      "id": 12,
       "kind": "rss",
       "technology": "Claude",
       "title": "Anthropic follows OpenAI in admitting its Claude models reached out of test environments and attacked real-world systems",
@@ -335,39 +283,24 @@
       "relevant": true
     },
     {
-      "id": 16,
+      "id": 13,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "nousergon-lib 0.124.24",
-      "summary": "Shared utilities for the Nous Ergon (Crucible) modules: preflight, logging, ArcticDB, dates, decision capture, cost telemetry, Anthropic payload chokepoint, artifact freshness, windowed artifact resolution, RAG, agent schemas, SSM secrets, Telegram + SNS aler…",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/nousergon-lib/0.124.24/",
-      "published_at": "2026-07-30T18:16:06.000Z",
+      "title": "Breaking: Anthropic's Claude AI model hacks three companies during safety tests",
+      "summary": "The admission from Anthropic comes just days after ‌rival company OpenAI revealed a rogue agent had gone on a days-long ‌hacking spree at ⁠AI firm Hugging Face.",
+      "source": "ABC News (AU)",
+      "source_url": "https://www.abc.net.au/news/2026-07-31/anthropic-claude-ai-model-hacks-external-systems-during-test/106980640",
+      "published_at": "2026-07-30T23:39:21.000Z",
       "score": 68,
       "tags": [
-        "Claude"
+        "Claude",
+        "ChatGPT / OpenAI"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
-      "id": 17,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "Show HN: Otzar – Local hybrid search over your own files",
-      "summary": "Local hybrid search over your own files — dense vectors, BM25, and metadata filters in one query. The same binary is an MCP server, so agents can search your notes. - danielfleischer/otzar",
-      "source": "Github.com",
-      "source_url": "https://github.com/danielfleischer/otzar",
-      "published_at": "2026-07-30T18:22:59.000Z",
-      "score": 66,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 18,
+      "id": 14,
       "kind": "rss",
       "technology": "ChatGPT / OpenAI",
       "title": "Thinking Machines bets on efficiency over size with its second model, Inkling Small",
@@ -384,15 +317,79 @@
       "relevant": true
     },
     {
+      "id": 15,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "code-context-control 2.65.0",
+      "summary": "Local MCP code-intelligence for AI coding tools: surgical search/read/edit, agent-config version history, path-level access + masking guards, and a multi-project hub.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/code-context-control/2.65.0/",
+      "published_at": "2026-07-30T23:48:36.000Z",
+      "score": 62,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 16,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "easyapi-django 1.8.2",
+      "summary": "Zero-effort REST API (and MCP server) generator from Django models.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/easyapi-django/1.8.2/",
+      "published_at": "2026-07-30T23:33:42.000Z",
+      "score": 62,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 17,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "humanchain-mcp 0.25.0",
+      "summary": "MCP server for HumanChain — AI agents pause for human expert guidance via the consult() tool.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/humanchain-mcp/0.25.0/",
+      "published_at": "2026-07-30T23:50:24.000Z",
+      "score": 58,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 18,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "mcp-gauntlet 0.7.0",
+      "summary": "An agentic evaluation harness for MCP servers — can an AI agent actually accomplish real tasks with this server's tools?",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/mcp-gauntlet/0.7.0/",
+      "published_at": "2026-07-30T23:48:42.000Z",
+      "score": 58,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
       "id": 19,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "bilinc 2.1.6",
-      "summary": "Cloud-only memory SDK and MCP adapter for autonomous agents",
+      "title": "mistral-ocr-mcp 0.2.2",
+      "summary": "MCP server for extracting text and images from documents using Mistral OCR API",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/bilinc/2.1.6/",
-      "published_at": "2026-07-30T18:11:06.000Z",
-      "score": 62,
+      "source_url": "https://pypi.org/project/mistral-ocr-mcp/0.2.2/",
+      "published_at": "2026-07-30T23:32:40.000Z",
+      "score": 58,
       "tags": [
         "Infra AI"
       ],
@@ -402,28 +399,28 @@
     {
       "id": 20,
       "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "ldraw-mcp 0.2.0",
-      "summary": "MCP server that renders LDraw/LEGO models to images with real part geometry via headless Blender + ImportLDraw.",
+      "technology": "ChatGPT / OpenAI",
+      "title": "pipecat-boson 0.1.0",
+      "summary": "Pipecat realtime LLM service for the Boson Realtime API",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/ldraw-mcp/0.2.0/",
-      "published_at": "2026-07-30T18:23:06.000Z",
+      "source_url": "https://pypi.org/project/pipecat-boson/",
+      "published_at": "2026-07-30T23:27:27.000Z",
       "score": 58,
       "tags": [
-        "Infra AI"
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
       "relevant": true
     },
     {
       "id": 21,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "pacioli 0.34.1",
-      "summary": "Governed agent broker for ERPNext (MCP + A2A doors, one spine) — no debit without a credit: PLAN, CONSENT, PROVE, UNDO over the books, on the Pacioli Guard credential floor",
+      "title": "terse-mcp 0.15.0",
+      "summary": "Lossless-first compression layer for AI-agent tool outputs — byte-faithful on fields you mark critical, configurable lossy reduction only where you opt in.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/pacioli/0.34.1/",
-      "published_at": "2026-07-30T18:10:23.000Z",
+      "source_url": "https://pypi.org/project/terse-mcp/0.15.0/",
+      "published_at": "2026-07-30T23:13:42.000Z",
       "score": 58,
       "tags": [
         "Infra AI"
@@ -434,21 +431,39 @@
     {
       "id": 22,
       "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "lulu-ads 0.8.4",
-      "summary": "Disclosed sponsored slots for MCP servers and AI agent tools. Ships data, never directives. Fail-open by design.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/lulu-ads/0.8.4/",
-      "published_at": "2026-07-30T18:05:31.000Z",
+      "technology": "Claude",
+      "title": "Anthropic says its AI models hacked systems of three companies during tests",
+      "summary": "July 30 : Anthropic said on Thursday its AI Claude model hacked systems of three organizations during testing, days after rival OpenAI revealed a rogue agent had gone on a days-long hacking spree at AI firm Hugging Face.Claude gained unauthorized access to th…",
+      "source": "CNA",
+      "source_url": "https://www.channelnewsasia.com/business/anthropic-says-its-ai-models-hacked-systems-three-companies-during-tests-6289726",
+      "published_at": "2026-07-30T23:13:38.000Z",
       "score": 58,
       "tags": [
-        "Infra AI"
+        "Claude",
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 23,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "Anthropic says Claude AI hacked three companies during cyber tests",
+      "summary": "July 30 : Anthropic said on Thursday its AI model Claude hacked into the systems of three companies during testing after a configuration error gave it internet access, days after rival OpenAI disclosed a rogue-agent episode involving AI firm Hugging Face.Anth…",
+      "source": "CNA",
+      "source_url": "https://www.channelnewsasia.com/business/anthropic-says-claude-ai-hacked-three-companies-during-cyber-tests-6289726",
+      "published_at": "2026-07-30T23:13:38.000Z",
+      "score": 58,
+      "tags": [
+        "Claude",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 24,
       "kind": "rss",
       "technology": "Codex",
       "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
@@ -459,23 +474,6 @@
       "score": 58,
       "tags": [
         "ChatGPT / OpenAI"
-      ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
-      "relevant": true
-    },
-    {
-      "id": 24,
-      "kind": "rss",
-      "technology": "Codex",
-      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "published_at": "2026-07-29T00:00:00.000Z",
-      "score": 58,
-      "tags": [
-        "ChatGPT / OpenAI",
-        "Infra AI"
       ],
       "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
       "relevant": true
