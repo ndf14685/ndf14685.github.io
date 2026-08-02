@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T10:44:47.161Z",
+  "generated_at": "2026-08-02T18:03:41.792Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -13,7 +13,7 @@
   "source_counts": {
     "rss": 35,
     "github": 7,
-    "newsapi": 49
+    "newsapi": 50
   },
   "digest": {
     "has_relevant_items": true,
@@ -21,10 +21,24 @@
     "telegram_summary": [
       {
         "technology": "Claude",
-        "title": "finmind-mcp 0.0.7",
+        "title": "Show HN: Agentmetry – local-first flight recorder for AI coding agents",
         "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 98,
-        "url": "https://pypi.org/project/finmind-mcp/0.0.7/"
+        "score": 100,
+        "url": "https://agentmetry.ai/"
+      },
+      {
+        "technology": "OpenClaw",
+        "title": "clawmetry 0.12.625",
+        "benefit": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+        "score": 100,
+        "url": "https://pypi.org/project/clawmetry/0.12.625/"
+      },
+      {
+        "technology": "Claude",
+        "title": "bernstein 3.13.0",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 100,
+        "url": "https://pypi.org/project/bernstein/3.13.0/"
       },
       {
         "technology": "Codex",
@@ -48,32 +62,18 @@
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.1.1"
       },
       {
-        "technology": "Claude",
-        "title": "sellerclaw-cli 1.2.0",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 86,
-        "url": "https://pypi.org/project/sellerclaw-cli/1.2.0/"
-      },
-      {
         "technology": "Codex",
-        "title": "fast-agent-mcp 0.9.30",
+        "title": "trailmem 0.1.12",
         "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
         "score": 86,
-        "url": "https://pypi.org/project/fast-agent-mcp/0.9.30/"
+        "url": "https://pypi.org/project/trailmem/0.1.12/"
       },
       {
         "technology": "ChatGPT / OpenAI",
-        "title": "ByteDance's Seedance 2.5 generates 30-second video clips with built-in audio",
+        "title": "janito 4.17.0",
         "benefit": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
         "score": 82,
-        "url": "https://the-decoder.com/bytedances-seedance-2-5-generates-30-second-video-clips-with-built-in-audio/"
-      },
-      {
-        "technology": "Codex",
-        "title": "prompt-copilot-cli 0.1.9",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 82,
-        "url": "https://pypi.org/project/prompt-copilot-cli/0.1.9/"
+        "url": "https://pypi.org/project/janito/4.17.0/"
       }
     ]
   },
@@ -82,15 +82,15 @@
       "id": 1,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "finmind-mcp 0.0.7",
-      "summary": "FinMind MCP server — Taiwan / global financial data for Claude, Gemini CLI, Cursor, Windsurf, and other MCP hosts",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/finmind-mcp/0.0.7/",
-      "published_at": "2026-08-01T10:15:45.000Z",
-      "score": 98,
+      "title": "Show HN: Agentmetry – local-first flight recorder for AI coding agents",
+      "summary": "Open-source, local-first audit trail for AI coding agents. Records every tool call from Cursor, Claude Code, Codex and MCP servers, tags it with MITRE ATT&CK, and correlates sequences into detections, including the Agent Data Injection chains from arXiv:2607.…",
+      "source": "Agentmetry.ai",
+      "source_url": "https://agentmetry.ai/",
+      "published_at": "2026-08-01T17:19:23.000Z",
+      "score": 100,
       "tags": [
         "Claude",
-        "Gemini",
+        "Codex",
         "Infra AI"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
@@ -98,6 +98,43 @@
     },
     {
       "id": 2,
+      "kind": "newsapi",
+      "technology": "OpenClaw",
+      "title": "clawmetry 0.12.625",
+      "summary": "ClawMetry - Real-time observability for 12 AI agent runtimes (OpenClaw, NVIDIA NemoClaw, Claude Code, Codex & more)",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/clawmetry/0.12.625/",
+      "published_at": "2026-08-01T17:05:55.000Z",
+      "score": 100,
+      "tags": [
+        "OpenClaw",
+        "Claude",
+        "Codex",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+      "relevant": true
+    },
+    {
+      "id": 3,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "bernstein 3.13.0",
+      "summary": "Deterministic orchestrator for CLI coding agents (Claude Code, Codex, Gemini CLI, and 40+ more). No model in the coordination loop, so parallel runs in per-task git worktrees replay byte-identically. Signed lineage plus an opt-in HMAC audit chain a reviewer c…",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/bernstein/3.13.0/",
+      "published_at": "2026-08-01T16:45:04.000Z",
+      "score": 100,
+      "tags": [
+        "Claude",
+        "Codex",
+        "Gemini"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 4,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.147.0-alpha.4",
@@ -114,7 +151,7 @@
       "relevant": true
     },
     {
-      "id": 3,
+      "id": 5,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.147.0-alpha.3",
@@ -131,7 +168,7 @@
       "relevant": true
     },
     {
-      "id": 4,
+      "id": 6,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.147.0-alpha.1.1",
@@ -148,88 +185,54 @@
       "relevant": true
     },
     {
-      "id": 5,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "sellerclaw-cli 1.2.0",
-      "summary": "Command-line client and MCP server for the SellerClaw Agent API — run your stores, orders, listings, ads and suppliers from a terminal, scripts, or Claude. LLM-friendly JSON, browser sign-in.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/sellerclaw-cli/1.2.0/",
-      "published_at": "2026-08-01T10:09:15.000Z",
-      "score": 86,
-      "tags": [
-        "Claude",
-        "Infra AI"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 6,
+      "id": 7,
       "kind": "newsapi",
       "technology": "Codex",
-      "title": "fast-agent-mcp 0.9.30",
-      "summary": "Code, Build and Evaluate agents - excellent Model and Skills/MCP/ACP/A2A Support",
+      "title": "trailmem 0.1.12",
+      "summary": "Local-first, graph-linked persistent memory for AI coding agents (MCP server + CLI)",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/fast-agent-mcp/0.9.30/",
-      "published_at": "2026-08-01T09:09:59.000Z",
+      "source_url": "https://pypi.org/project/trailmem/0.1.12/",
+      "published_at": "2026-08-01T16:46:29.000Z",
       "score": 86,
       "tags": [
         "Codex",
         "Infra AI"
       ],
       "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
-      "id": 7,
-      "kind": "rss",
-      "technology": "ChatGPT / OpenAI",
-      "title": "ByteDance's Seedance 2.5 generates 30-second video clips with built-in audio",
-      "summary": "ByteDance just shipped Seedance 2.5, an AI video model that produces video and audio together in one go. Each clip runs up to 30 seconds, three times what Google's Gemini Omni Flash puts out. Users can feed in dozens of images, videos, and audio files as reference. For ad teams, this could kill the process of cutting together one short cl...",
-      "source": "The Decoder",
-      "source_url": "https://the-decoder.com/bytedances-seedance-2-5-generates-30-second-video-clips-with-built-in-audio/",
-      "published_at": "2026-08-01T13:33:41.000Z",
-      "score": 82,
-      "tags": [
-        "ChatGPT / OpenAI",
-        "Gemini"
-      ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
       "relevant": true
     },
     {
       "id": 8,
       "kind": "newsapi",
-      "technology": "Codex",
-      "title": "prompt-copilot-cli 0.1.9",
-      "summary": "A lightweight terminal-based coding agent with file tools, command execution, multimodal image support, and MCP integration.",
+      "technology": "ChatGPT / OpenAI",
+      "title": "janito 4.17.0",
+      "summary": "OpenAI CLI with Function Calling, MCP Support, and Extensible Tools",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/prompt-copilot-cli/0.1.9/",
-      "published_at": "2026-08-01T09:08:50.000Z",
+      "source_url": "https://pypi.org/project/janito/4.17.0/",
+      "published_at": "2026-08-01T17:58:29.000Z",
+      "score": 82,
+      "tags": [
+        "ChatGPT / OpenAI",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "relevant": true
+    },
+    {
+      "id": 9,
+      "kind": "newsapi",
+      "technology": "Codex",
+      "title": "hol-guard 2.2.0a122",
+      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/hol-guard/2.2.0a122/",
+      "published_at": "2026-08-01T16:43:11.000Z",
       "score": 82,
       "tags": [
         "Codex",
         "Infra AI"
       ],
       "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
-      "id": 9,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "agentsquid 0.1.3",
-      "summary": "Locally running chat agent with access to Claude Code, Codex, and bash",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/agentsquid/0.1.3/",
-      "published_at": "2026-08-01T10:28:57.000Z",
-      "score": 78,
-      "tags": [
-        "Claude",
-        "Codex"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
@@ -240,7 +243,7 @@
       "summary": "Conductor has evolved from a Gemini CLI extension into a portable plugin, bringing conversational Spec-Driven Development (SDD) to ecosystems like Antigravity CLI and Claude. Rather than relying on strict command sequences, developers can now chat naturally with their AI assistant while it dynamically manages persistent markdown artifacts...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity/",
-      "published_at": "2026-08-02T10:44:45.728Z",
+      "published_at": "2026-08-02T18:03:40.223Z",
       "score": 74,
       "tags": [
         "Claude",
@@ -252,33 +255,31 @@
     {
       "id": 11,
       "kind": "newsapi",
-      "technology": "Claude",
-      "title": "railmux 0.3.1.dev202608010",
-      "summary": "Terminal UI to navigate, resume, and start Claude Code and Codex sessions",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/railmux/0.3.1.dev202608010/",
-      "published_at": "2026-08-01T09:55:08.000Z",
-      "score": 70,
+      "technology": "Infra AI",
+      "title": "RufRoot: Patching Doesn’t Undo Poisoning — The MCP Flaw That Persists Inside AI Memory",
+      "summary": "A maximum-severity vulnerability in Ruflo, an open-source AI agent orchestration platform with more than 67,000 GitHub stars, allowed unauthenticated attackers to gain full remote code execution — and then poison the platform’s persistent AI memory in a way t…",
+      "source": "Forkast.news",
+      "source_url": "https://forkast.news/rufroot-patching-doesnt-undo-poisoning-the-mcp-flaw-that-persists-inside-ai-memory/",
+      "published_at": "2026-08-01T17:57:51.000Z",
+      "score": 72,
       "tags": [
-        "Claude",
-        "Codex"
+        "Infra AI"
       ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
       "id": 12,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "cognocient 0.1.0",
-      "summary": "Drop-in async-reporting wrapper for the OpenAI and Anthropic Python SDKs — live cost attribution without changing your base_url.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/cognocient/0.1.0/",
-      "published_at": "2026-08-01T09:53:25.000Z",
+      "title": "Anthropic’s Claude Code leads AI coding-agent sector despite cost-cutting rivals",
+      "summary": "Anthropic's dominance in AI coding-agents may solidify its market leadership, influencing industry standards and innovation priorities. The post Anthropic’s Claude Code leads AI coding-agent sector despite cost-cutting rivals appeared first on Crypto Briefing.",
+      "source": "Crypto Briefing",
+      "source_url": "https://cryptobriefing.com/anthropics-claude-code-leads-ai-coding-agent-sector-despite-cost-cutting-rivals/",
+      "published_at": "2026-08-01T17:32:30.000Z",
       "score": 68,
       "tags": [
-        "Claude",
-        "ChatGPT / OpenAI"
+        "Claude"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
@@ -287,11 +288,11 @@
       "id": 13,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "cognocient added to PyPI",
-      "summary": "Drop-in async-reporting wrapper for the OpenAI and Anthropic Python SDKs — live cost attribution without changing your base_url.",
+      "title": "llm-router-ledger 0.1.4",
+      "summary": "Route LLM calls through one send_message() across OpenAI-compatible providers and Anthropic's native Messages API; keep a JSONL ledger of every request and response for offline cost reconciliation.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/cognocient/",
-      "published_at": "2026-08-01T09:53:21.000Z",
+      "source_url": "https://pypi.org/project/llm-router-ledger/0.1.4/",
+      "published_at": "2026-08-01T16:52:48.000Z",
       "score": 68,
       "tags": [
         "Claude",
@@ -303,30 +304,29 @@
     {
       "id": 14,
       "kind": "newsapi",
-      "technology": "Claude",
-      "title": "Anthropic, OpenAI Cyber Failures Point to US Security Risks - Bloomberg.com",
-      "summary": "Anthropic, OpenAI Cyber Failures Point to US Security RisksBloomberg.com Investigating three real-world incidents in our cybersecurity evaluationsAnthropic Why did OpenAI's and Anthropic's AI models hack other companies?npr.org Claude published malicious code…",
-      "source": "Slashdot.org",
-      "source_url": "https://slashdot.org/firehose.pl?op=view&amp;id=184799224",
-      "published_at": "2026-08-01T09:32:11.000Z",
-      "score": 68,
+      "technology": "Infra AI",
+      "title": "mantis-agent-sdk 2.60.0",
+      "summary": "Drop-in open-source agent SDK. Multi-model, streaming, MCP, sub-agents.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/mantis-agent-sdk/2.60.0/",
+      "published_at": "2026-08-01T17:47:56.000Z",
+      "score": 66,
       "tags": [
-        "Claude",
-        "ChatGPT / OpenAI"
+        "Infra AI"
       ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
       "id": 15,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "fast-agent-acp 0.9.30",
-      "summary": "Convenience launcher that pulls in fast-agent-mcp and exposes the ACP CLI entrypoint.",
+      "title": "symbols-mcp 3.14.640",
+      "summary": "Symbols.app MCP — docs, code generation, publishing, CLI/SDK reference",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/fast-agent-acp/0.9.30/",
-      "published_at": "2026-08-01T09:09:58.000Z",
-      "score": 66,
+      "source_url": "https://pypi.org/project/symbols-mcp/3.14.640/",
+      "published_at": "2026-08-01T17:18:51.000Z",
+      "score": 62,
       "tags": [
         "Infra AI"
       ],
@@ -337,11 +337,11 @@
       "id": 16,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "scitrace added to PyPI",
-      "summary": "MCP server for AI agents to record and query their reasoning steps. SQLite-backed, zero-dependency beyond mcp SDK.",
+      "title": "stealth-chrome-devtools-mcp 2.0.3",
+      "summary": "Undetectable browser automation for AI agents via the Model Context Protocol.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/scitrace/",
-      "published_at": "2026-08-01T09:18:46.000Z",
+      "source_url": "https://pypi.org/project/stealth-chrome-devtools-mcp/2.0.3/",
+      "published_at": "2026-08-01T16:48:00.000Z",
       "score": 62,
       "tags": [
         "Infra AI"
@@ -353,12 +353,12 @@
       "id": 17,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "scitrace 0.1.0",
-      "summary": "MCP server for AI agents to record and query their reasoning steps. SQLite-backed, zero-dependency beyond mcp SDK.",
+      "title": "thread-archive 0.0.14",
+      "summary": "Serverless-native local archive for AI conversations: JSONL truth log + rebuildable SQLite index, searched and read locally, exposed over MCP.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/scitrace/0.1.0/",
-      "published_at": "2026-08-01T09:18:46.000Z",
-      "score": 62,
+      "source_url": "https://pypi.org/project/thread-archive/0.0.14/",
+      "published_at": "2026-08-01T18:01:49.000Z",
+      "score": 58,
       "tags": [
         "Infra AI"
       ],
@@ -369,11 +369,11 @@
       "id": 18,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "iapp-mcp 2.0.1",
-      "summary": "MCP server for iApp AI Marketplace APIs (https://iapp.co.th) — Thai OCR, eKYC, NLP, LLM, Speech, Image/Video Generation",
+      "title": "forkflux-mcp 0.6.0",
+      "summary": "Model Context Protocol (MCP) adapter for ForkFlux, enabling AI coding assistants to securely publish and claim jobs.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/iapp-mcp/2.0.1/",
-      "published_at": "2026-08-01T10:42:33.000Z",
+      "source_url": "https://pypi.org/project/forkflux-mcp/0.6.0/",
+      "published_at": "2026-08-01T17:58:53.000Z",
       "score": 58,
       "tags": [
         "Infra AI"
@@ -385,11 +385,11 @@
       "id": 19,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "mimo-vision-mcp 0.2.0",
-      "summary": "MCP server for visual understanding via Xiaomi MIMO multimodal API",
+      "title": "thread-archive 0.0.14rc1",
+      "summary": "Serverless-native local archive for AI conversations: JSONL truth log + rebuildable SQLite index, searched and read locally, exposed over MCP.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/mimo-vision-mcp/0.2.0/",
-      "published_at": "2026-08-01T10:34:13.000Z",
+      "source_url": "https://pypi.org/project/thread-archive/0.0.14rc1/",
+      "published_at": "2026-08-01T17:26:41.000Z",
       "score": 58,
       "tags": [
         "Infra AI"
@@ -401,11 +401,11 @@
       "id": 20,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "pdf-mcp 2.0.0",
-      "summary": "Surgical PDF access for AI agents: keyword, semantic & hybrid search; structured extraction of text, tables, images & TOC; OCR; and CJK/vertical-script support — with SQLite caching.",
+      "title": "mcp-client-console 0.3.6",
+      "summary": "MCP client that connects to a remote MCP server",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/pdf-mcp/2.0.0/",
-      "published_at": "2026-08-01T10:25:43.000Z",
+      "source_url": "https://pypi.org/project/mcp-client-console/0.3.6/",
+      "published_at": "2026-08-01T17:13:02.000Z",
       "score": 58,
       "tags": [
         "Infra AI"
@@ -417,11 +417,11 @@
       "id": 21,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "dcc-mcp-unreal 0.2.11",
+      "title": "dcc-mcp-unreal 0.2.13",
       "summary": "Unreal Engine plugin for the DCC Model Context Protocol (MCP) ecosystem — embeds a Streamable HTTP MCP server directly inside Unreal Engine",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/dcc-mcp-unreal/0.2.11/",
-      "published_at": "2026-08-01T10:01:02.000Z",
+      "source_url": "https://pypi.org/project/dcc-mcp-unreal/0.2.13/",
+      "published_at": "2026-08-01T16:45:46.000Z",
       "score": 58,
       "tags": [
         "Infra AI"
@@ -431,51 +431,52 @@
     },
     {
       "id": 22,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "crawl4ai-mcp-llm 0.1.5",
-      "summary": "A Model Context Protocol (MCP) server for Crawl4AI",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/crawl4ai-mcp-llm/0.1.5/",
-      "published_at": "2026-08-01T09:58:32.000Z",
+      "kind": "github_release",
+      "technology": "Gemini",
+      "title": "Release v0.55.0-nightly.20260801.gf47d6c6f7",
+      "summary": "## What's Changed * fix(core): classify capacity exhaustion as terminal to prevent retry hangs by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28599 * fix(core,cli): propagate InvalidStreamError details to UI for specific empty response guidance by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28...",
+      "source": "GitHub: google-gemini/gemini-cli",
+      "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-nightly.20260801.gf47d6c6f7",
+      "published_at": "2026-08-01T01:27:07.000Z",
       "score": 58,
       "tags": [
-        "Infra AI"
+        "Gemini"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
       "relevant": true
     },
     {
       "id": 23,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "codegraphcontext 0.5.4",
-      "summary": "An MCP server that indexes local code into a graph database to provide context to AI assistants.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/codegraphcontext/0.5.4/",
-      "published_at": "2026-08-01T09:54:16.000Z",
-      "score": 58,
+      "kind": "rss",
+      "technology": "Codex",
+      "title": "Driving the Agent Quality Flywheel from Your Coding Agent",
+      "summary": "Building AI agents often leaves developers uncertain if prompt tweaks to fix single errors will accidentally cause widespread regressions in production. To bridge this gap, Google has introduced a new developer skill for coding agents that automates a five-stage evaluation flywheel: preparing data, running inference, grading with adaptive...",
+      "source": "Google Developers Blog",
+      "source_url": "https://developers.googleblog.com/driving-the-agent-quality-flywheel-from-your-coding-agent/",
+      "published_at": "2026-08-02T18:03:40.224Z",
+      "score": 54,
       "tags": [
+        "Codex",
         "Infra AI"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "relevant": false
     },
     {
       "id": 24,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "layered-memory-mcp 3.1.0",
-      "summary": "Layered Memory MCP Server — Extend AI agent memory beyond token limits with a 4-tier knowledge architecture",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/layered-memory-mcp/3.1.0/",
-      "published_at": "2026-08-01T09:14:12.000Z",
-      "score": 58,
+      "kind": "github_release",
+      "technology": "Gemini",
+      "title": "Release v0.55.0-nightly.20260802.gf47d6c6f7",
+      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.0-nightly.20260801.gf47d6c6f7...v0.55.0-nightly.20260802.gf47d6c6f7",
+      "source": "GitHub: google-gemini/gemini-cli",
+      "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-nightly.20260802.gf47d6c6f7",
+      "published_at": "2026-08-02T01:34:41.000Z",
+      "score": 54,
       "tags": [
-        "Infra AI"
+        "Gemini"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
+      "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
+      "relevant": false
     }
   ]
 }
