@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T18:53:10.867Z",
+  "generated_at": "2026-08-04T00:12:35.811Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -12,13 +12,27 @@
   ],
   "source_counts": {
     "rss": 31,
-    "github": 6,
+    "github": 5,
     "newsapi": 50
   },
   "digest": {
     "has_relevant_items": true,
     "relevant_count": 8,
     "telegram_summary": [
+      {
+        "technology": "OpenClaw",
+        "title": "clawmetry 0.12.640",
+        "benefit": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+        "score": 100,
+        "url": "https://pypi.org/project/clawmetry/0.12.640/"
+      },
+      {
+        "technology": "Codex",
+        "title": "0.147.0-alpha.6",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 90,
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.6"
+      },
       {
         "technology": "Codex",
         "title": "0.147.0-alpha.1.2",
@@ -27,59 +41,81 @@
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.1.2"
       },
       {
+        "technology": "Codex",
+        "title": "How we built a realtime system for responsive voice AI in six months",
+        "benefit": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+        "score": 90,
+        "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live"
+      },
+      {
         "technology": "OpenClaw",
-        "title": "dulus 3.10.61",
+        "title": "dulus 3.10.62",
         "benefit": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
         "score": 86,
-        "url": "https://pypi.org/project/dulus/3.10.61/"
-      },
-      {
-        "technology": "Codex",
-        "title": "hol-guard 2.2.0a136",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 82,
-        "url": "https://pypi.org/project/hol-guard/2.2.0a136/"
-      },
-      {
-        "technology": "Codex",
-        "title": "hol-guard 2.2.0a135",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 82,
-        "url": "https://pypi.org/project/hol-guard/2.2.0a135/"
-      },
-      {
-        "technology": "Infra AI",
-        "title": "aevrin added to PyPI",
-        "benefit": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-        "score": 80,
-        "url": "https://pypi.org/project/aevrin/"
+        "url": "https://pypi.org/project/dulus/3.10.62/"
       },
       {
         "technology": "Claude",
-        "title": "odoo-mcp-multi 0.14.1",
+        "title": "voice-vibecoder 2.30.0",
         "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 78,
-        "url": "https://pypi.org/project/odoo-mcp-multi/0.14.1/"
+        "score": 82,
+        "url": "https://pypi.org/project/voice-vibecoder/2.30.0/"
       },
       {
         "technology": "Codex",
-        "title": "cgl-interagentmail 1.3.0",
+        "title": "hol-guard 2.2.0a146",
         "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 78,
-        "url": "https://pypi.org/project/cgl-interagentmail/1.3.0/"
+        "score": 82,
+        "url": "https://pypi.org/project/hol-guard/2.2.0a146/"
       },
       {
-        "technology": "Claude",
-        "title": "Evolving Spec-Driven Development: Conductor Now Supports Antigravity",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 74,
-        "url": "https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity/"
+        "technology": "Codex",
+        "title": "hol-guard 2.2.0a145",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 82,
+        "url": "https://pypi.org/project/hol-guard/2.2.0a145/"
       }
     ]
   },
   "items": [
     {
       "id": 1,
+      "kind": "newsapi",
+      "technology": "OpenClaw",
+      "title": "clawmetry 0.12.640",
+      "summary": "ClawMetry - Real-time observability for 12 AI agent runtimes (OpenClaw, NVIDIA NemoClaw, Claude Code, Codex & more)",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/clawmetry/0.12.640/",
+      "published_at": "2026-08-03T00:02:56.000Z",
+      "score": 100,
+      "tags": [
+        "OpenClaw",
+        "Claude",
+        "Codex",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+      "relevant": true
+    },
+    {
+      "id": 2,
+      "kind": "github_release",
+      "technology": "Codex",
+      "title": "0.147.0-alpha.6",
+      "summary": "Release 0.147.0-alpha.6",
+      "source": "GitHub: openai/codex",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.6",
+      "published_at": "2026-08-03T21:32:07.000Z",
+      "score": 90,
+      "tags": [
+        "Codex",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "relevant": true
+    },
+    {
+      "id": 3,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.147.0-alpha.1.2",
@@ -96,14 +132,31 @@
       "relevant": true
     },
     {
-      "id": 2,
+      "id": 4,
+      "kind": "rss",
+      "technology": "Codex",
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "score": 90,
+      "tags": [
+        "ChatGPT / OpenAI",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "relevant": true
+    },
+    {
+      "id": 5,
       "kind": "newsapi",
       "technology": "OpenClaw",
-      "title": "dulus 3.10.61",
+      "title": "dulus 3.10.62",
       "summary": "Provider-independent agent runtime for the terminal — cloud and local models, real tools, MCP, plugins, memory, sub-agents, and Dulus OS.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/dulus/3.10.61/",
-      "published_at": "2026-08-02T17:52:27.000Z",
+      "source_url": "https://pypi.org/project/dulus/3.10.62/",
+      "published_at": "2026-08-02T23:21:14.000Z",
       "score": 86,
       "tags": [
         "OpenClaw",
@@ -113,68 +166,18 @@
       "relevant": true
     },
     {
-      "id": 3,
-      "kind": "newsapi",
-      "technology": "Codex",
-      "title": "hol-guard 2.2.0a136",
-      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/hol-guard/2.2.0a136/",
-      "published_at": "2026-08-02T18:33:23.000Z",
-      "score": 82,
-      "tags": [
-        "Codex",
-        "Infra AI"
-      ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
-      "id": 4,
-      "kind": "newsapi",
-      "technology": "Codex",
-      "title": "hol-guard 2.2.0a135",
-      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/hol-guard/2.2.0a135/",
-      "published_at": "2026-08-02T18:06:08.000Z",
-      "score": 82,
-      "tags": [
-        "Codex",
-        "Infra AI"
-      ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
-      "id": 5,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "aevrin added to PyPI",
-      "summary": "Aevrin MCP Security Scanner CLI — scan a GitHub repo, local path, or live MCP server.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/aevrin/",
-      "published_at": "2026-08-02T18:14:23.000Z",
-      "score": 80,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
       "id": 6,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "odoo-mcp-multi 0.14.1",
-      "summary": "MCP server for Odoo — connect Claude, Cursor, VS Code and Antigravity to multiple Odoo instances via Model Context Protocol",
+      "title": "voice-vibecoder 2.30.0",
+      "summary": "Olaf The Vibecoder — a voice-controlled coding assistant using OpenAI Realtime API + Claude Code",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/odoo-mcp-multi/0.14.1/",
-      "published_at": "2026-08-02T18:52:42.000Z",
-      "score": 78,
+      "source_url": "https://pypi.org/project/voice-vibecoder/2.30.0/",
+      "published_at": "2026-08-03T00:05:18.000Z",
+      "score": 82,
       "tags": [
         "Claude",
-        "Infra AI"
+        "ChatGPT / OpenAI"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
@@ -183,12 +186,12 @@
       "id": 7,
       "kind": "newsapi",
       "technology": "Codex",
-      "title": "cgl-interagentmail 1.3.0",
-      "summary": "File-backed mail, MCP tools, push delivery, and authenticated browser messaging for Codex agents",
+      "title": "hol-guard 2.2.0a146",
+      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/cgl-interagentmail/1.3.0/",
-      "published_at": "2026-08-02T17:24:19.000Z",
-      "score": 78,
+      "source_url": "https://pypi.org/project/hol-guard/2.2.0a146/",
+      "published_at": "2026-08-03T00:04:55.000Z",
+      "score": 82,
       "tags": [
         "Codex",
         "Infra AI"
@@ -198,96 +201,99 @@
     },
     {
       "id": 8,
-      "kind": "rss",
-      "technology": "Claude",
-      "title": "Evolving Spec-Driven Development: Conductor Now Supports Antigravity",
-      "summary": "Conductor has evolved from a Gemini CLI extension into a portable plugin, bringing conversational Spec-Driven Development (SDD) to ecosystems like Antigravity CLI and Claude. Rather than relying on strict command sequences, developers can now chat naturally with their AI assistant while it dynamically manages persistent markdown artifacts...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity/",
-      "published_at": "2026-08-03T18:53:09.142Z",
-      "score": 74,
+      "kind": "newsapi",
+      "technology": "Codex",
+      "title": "hol-guard 2.2.0a145",
+      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/hol-guard/2.2.0a145/",
+      "published_at": "2026-08-02T23:56:59.000Z",
+      "score": 82,
       "tags": [
-        "Claude",
-        "Gemini"
+        "Codex",
+        "Infra AI"
       ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
       "relevant": true
     },
     {
       "id": 9,
       "kind": "newsapi",
-      "technology": "OpenClaw",
-      "title": "attune-ai 11.2.1",
-      "summary": "AI-powered developer workflows for Claude with cost optimization, multi-agent orchestration, and workflow automation.",
+      "technology": "Codex",
+      "title": "hol-guard 2.2.0a144",
+      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/attune-ai/11.2.1/",
-      "published_at": "2026-08-02T17:20:21.000Z",
-      "score": 68,
+      "source_url": "https://pypi.org/project/hol-guard/2.2.0a144/",
+      "published_at": "2026-08-02T23:14:34.000Z",
+      "score": 82,
       "tags": [
-        "OpenClaw",
-        "Claude"
+        "Codex",
+        "Infra AI"
       ],
-      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
       "relevant": true
     },
     {
       "id": 10,
       "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "aevrin-scanner-core added to PyPI",
-      "summary": "Shared scanning engine for Aevrin: models, OWASP MCP Top 10 mapping, scoring, and containerized scanner adapters. Imported by apps/api and packages/cli so findings never drift into different vocabularies.",
+      "technology": "Codex",
+      "title": "hol-guard 2.2.0a143",
+      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/aevrin-scanner-core/",
-      "published_at": "2026-08-02T18:13:00.000Z",
-      "score": 66,
+      "source_url": "https://pypi.org/project/hol-guard/2.2.0a143/",
+      "published_at": "2026-08-02T23:04:58.000Z",
+      "score": 82,
       "tags": [
+        "Codex",
         "Infra AI"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
       "relevant": true
     },
     {
       "id": 11,
       "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "elesync 1.23.3",
-      "summary": "Local-first, MCP-native unified memory vault — your AI memory as files you own, shared across every model.",
+      "technology": "Codex",
+      "title": "hol-guard 2.2.0a142",
+      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/elesync/1.23.3/",
-      "published_at": "2026-08-02T18:07:35.000Z",
-      "score": 62,
+      "source_url": "https://pypi.org/project/hol-guard/2.2.0a142/",
+      "published_at": "2026-08-02T22:58:22.000Z",
+      "score": 82,
       "tags": [
+        "Codex",
         "Infra AI"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
       "relevant": true
     },
     {
       "id": 12,
       "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "tinkershop 0.1.5",
-      "summary": "Local MCP toolkit providing additional tools for AI agents.",
+      "technology": "Codex",
+      "title": "hol-guard 2.2.0a141",
+      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/tinkershop/0.1.5/",
-      "published_at": "2026-08-02T17:46:13.000Z",
-      "score": 62,
+      "source_url": "https://pypi.org/project/hol-guard/2.2.0a141/",
+      "published_at": "2026-08-02T22:51:41.000Z",
+      "score": 82,
       "tags": [
+        "Codex",
         "Infra AI"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
       "relevant": true
     },
     {
       "id": 13,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "tinkershop 0.1.4",
-      "summary": "Local MCP toolkit providing additional tools for AI agents.",
+      "title": "aevrin 0.1.5",
+      "summary": "Aevrin MCP Security Scanner CLI — scan a GitHub repo, local path, or live MCP server.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/tinkershop/0.1.4/",
-      "published_at": "2026-08-02T17:32:35.000Z",
-      "score": 62,
+      "source_url": "https://pypi.org/project/aevrin/0.1.5/",
+      "published_at": "2026-08-02T23:02:44.000Z",
+      "score": 80,
       "tags": [
         "Infra AI"
       ],
@@ -297,45 +303,47 @@
     {
       "id": 14,
       "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "tinkershop 0.1.3",
-      "summary": "Local MCP toolkit providing additional tools for AI agents.",
+      "technology": "Claude",
+      "title": "superharness 1.81.8",
+      "summary": "Multi-agent session handoff framework for Claude Code and Codex CLI",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/tinkershop/0.1.3/",
-      "published_at": "2026-08-02T17:18:40.000Z",
-      "score": 62,
+      "source_url": "https://pypi.org/project/superharness/1.81.8/",
+      "published_at": "2026-08-02T23:20:41.000Z",
+      "score": 78,
       "tags": [
-        "Infra AI"
+        "Claude",
+        "Codex"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 15,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "vaara 1.57.1",
-      "summary": "Accountable Autonomy for AI agents under the EU AI Act: policy-gated tool calls, hash-chained tamper-evident audit trails with external time anchoring, and independently verifiable attestation plus execution receipts per MCP tool call",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/vaara/1.57.1/",
-      "published_at": "2026-08-02T18:14:41.000Z",
-      "score": 58,
+      "kind": "rss",
+      "technology": "Claude",
+      "title": "Evolving Spec-Driven Development: Conductor Now Supports Antigravity",
+      "summary": "Conductor has evolved from a Gemini CLI extension into a portable plugin, bringing conversational Spec-Driven Development (SDD) to ecosystems like Antigravity CLI and Claude. Rather than relying on strict command sequences, developers can now chat naturally with their AI assistant while it dynamically manages persistent markdown artifacts...",
+      "source": "Google Developers Blog",
+      "source_url": "https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity/",
+      "published_at": "2026-08-04T00:12:34.024Z",
+      "score": 74,
       "tags": [
-        "Infra AI"
+        "Claude",
+        "Gemini"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 16,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "memory-arbiter-mcp 0.9.3",
-      "summary": "Local MCP memory arbiter with dual timeline conflict handling.",
+      "title": "sentinel-dv 2.3.1",
+      "summary": "Security-first MCP server for verification intelligence (SystemVerilog/UVM/cocotb)",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/memory-arbiter-mcp/0.9.3/",
-      "published_at": "2026-08-02T17:48:04.000Z",
-      "score": 58,
+      "source_url": "https://pypi.org/project/sentinel-dv/2.3.1/",
+      "published_at": "2026-08-02T23:56:56.000Z",
+      "score": 68,
       "tags": [
         "Infra AI"
       ],
@@ -344,133 +352,131 @@
     },
     {
       "id": 17,
-      "kind": "github_release",
-      "technology": "Gemini",
-      "title": "Release v0.55.0-nightly.20260801.gf47d6c6f7",
-      "summary": "## What's Changed * fix(core): classify capacity exhaustion as terminal to prevent retry hangs by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28599 * fix(core,cli): propagate InvalidStreamError details to UI for specific empty response guidance by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28...",
-      "source": "GitHub: google-gemini/gemini-cli",
-      "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-nightly.20260801.gf47d6c6f7",
-      "published_at": "2026-08-01T01:27:07.000Z",
-      "score": 58,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "aevrin-scanner-core 0.1.5",
+      "summary": "Shared scanning engine for Aevrin: models, OWASP MCP Top 10 mapping, scoring, and containerized scanner adapters. Imported by apps/api and packages/cli so findings never drift into different vocabularies.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/aevrin-scanner-core/0.1.5/",
+      "published_at": "2026-08-02T23:02:06.000Z",
+      "score": 66,
       "tags": [
-        "Gemini"
+        "Infra AI"
       ],
-      "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
       "id": 18,
-      "kind": "rss",
-      "technology": "Codex",
-      "title": "Driving the Agent Quality Flywheel from Your Coding Agent",
-      "summary": "Building AI agents often leaves developers uncertain if prompt tweaks to fix single errors will accidentally cause widespread regressions in production. To bridge this gap, Google has introduced a new developer skill for coding agents that automates a five-stage evaluation flywheel: preparing data, running inference, grading with adaptive...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/driving-the-agent-quality-flywheel-from-your-coding-agent/",
-      "published_at": "2026-08-03T18:53:09.143Z",
-      "score": 54,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "withings-mcp 0.3.0",
+      "summary": "MCP server for the Withings Health API with OAuth, local cache, and trend analysis.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/withings-mcp/0.3.0/",
+      "published_at": "2026-08-02T23:52:21.000Z",
+      "score": 62,
       "tags": [
-        "Codex",
         "Infra AI"
       ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": false
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
     },
     {
       "id": 19,
-      "kind": "rss",
-      "technology": "Claude",
-      "title": "Alibaba's new Qwen model is also taking your job, but this time it's great",
-      "summary": "Alibaba is marketing its new AI model Qwen 3.8 with a video that shows the AI working while a person enjoys their hobbies. It's a deliberate contrast to the job loss warnings from OpenAI and Anthropic. Of course, it's still just marketing. The article Alibaba's new Qwen model is also taking your job, but this time it's great appeared firs...",
-      "source": "The Decoder",
-      "source_url": "https://the-decoder.com/alibabas-new-qwen-model-is-also-taking-your-job-but-this-time-its-great/",
-      "published_at": "2026-08-03T17:12:23.000Z",
-      "score": 54,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "bosch-flow-mcp 0.3.0",
+      "summary": "MCP server for the Bosch eBike Flow API with OAuth, local cache, and battery trend analysis.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/bosch-flow-mcp/0.3.0/",
+      "published_at": "2026-08-02T23:52:21.000Z",
+      "score": 62,
       "tags": [
-        "Claude",
-        "ChatGPT / OpenAI"
+        "Infra AI"
       ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": false
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
     },
     {
       "id": 20,
-      "kind": "github_release",
-      "technology": "Gemini",
-      "title": "Release v0.55.0-nightly.20260803.gf47d6c6f7",
-      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.0-nightly.20260802.gf47d6c6f7...v0.55.0-nightly.20260803.gf47d6c6f7",
-      "source": "GitHub: google-gemini/gemini-cli",
-      "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-nightly.20260803.gf47d6c6f7",
-      "published_at": "2026-08-03T01:34:43.000Z",
-      "score": 54,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "fitbit-mcp 0.4.0",
+      "summary": "MCP server for the Fitbit Web API with OAuth PKCE, local cache, and trend analysis.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/fitbit-mcp/0.4.0/",
+      "published_at": "2026-08-02T23:52:11.000Z",
+      "score": 62,
       "tags": [
-        "Gemini"
+        "Infra AI"
       ],
-      "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
-      "relevant": false
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
     },
     {
       "id": 21,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "macos-mcp 0.3.13",
-      "summary": "MCP Server for interacting with macOS Desktop.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/macos-mcp/0.3.13/",
-      "published_at": "2026-08-02T18:46:05.000Z",
-      "score": 54,
+      "title": "Dynamic troubleshooting with guarded command execution in the MCP server for Red Hat Enterprise Linux",
+      "summary": "Managing Red Hat Enterprise Linux (RHEL) environments can involve troubleshooting when issues occur. While generative AI offers a promising way to accelerate troubleshooting, standard large language models (LLMs) can be disconnected from your actual infrastru…",
+      "source": "Redhat.com",
+      "source_url": "https://www.redhat.com/en/blog/dynamic-troubleshooting-guarded-command-execution-mcp-server-red-hat-enterprise-linux",
+      "published_at": "2026-08-03T00:00:00.000Z",
+      "score": 58,
       "tags": [
         "Infra AI"
       ],
       "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": 22,
       "kind": "newsapi",
-      "technology": "Codex",
-      "title": "adaptive-agent-workflow 0.1.9",
-      "summary": "Deterministic repository intelligence and measurable Codex workflows",
+      "technology": "Infra AI",
+      "title": "musubi-client 0.10.0",
+      "summary": "Musubi CLI + MCP server (and the internal Python client that drives them).",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/adaptive-agent-workflow/0.1.9/",
-      "published_at": "2026-08-02T18:18:58.000Z",
-      "score": 54,
+      "source_url": "https://pypi.org/project/musubi-client/0.10.0/",
+      "published_at": "2026-08-02T23:50:10.000Z",
+      "score": 58,
       "tags": [
-        "Codex"
+        "Infra AI"
       ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": false
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
     },
     {
       "id": 23,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "hwpx-mcp-server 6.6.4",
-      "summary": "Compatibility shell — installs python-hwpx-automation[mcp] under its former name.",
+      "title": "willow-mcp 2.1.0",
+      "summary": "Agent-neutral MCP server — SQLite store, Postgres knowledge base, Kart task queue",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/hwpx-mcp-server/6.6.4/",
-      "published_at": "2026-08-02T18:15:26.000Z",
-      "score": 54,
+      "source_url": "https://pypi.org/project/willow-mcp/2.1.0/",
+      "published_at": "2026-08-02T23:36:41.000Z",
+      "score": 58,
       "tags": [
         "Infra AI"
       ],
       "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": 24,
       "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "python-hwpx-automation 6.6.4",
-      "summary": "Task-oriented HWPX document automation for Python, with an optional MCP adapter.",
+      "technology": "ChatGPT / OpenAI",
+      "title": "feral-ai 2026.8.3",
+      "summary": "FERAL — Open-source AI agent with computer use, GenUI, voice, hardware control, and persistent memory.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/python-hwpx-automation/6.6.4/",
-      "published_at": "2026-08-02T18:14:47.000Z",
-      "score": 54,
+      "source_url": "https://pypi.org/project/feral-ai/2026.8.3/",
+      "published_at": "2026-08-02T23:24:28.000Z",
+      "score": 58,
       "tags": [
-        "Infra AI"
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": false
+      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "relevant": true
     }
   ]
 }
