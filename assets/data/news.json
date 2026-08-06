@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-08-06T12:48:54.391Z",
+  "generated_at": "2026-08-06T14:00:04.230Z",
   "items": [
     {
       "id": 1,
+      "category": "cybersecurity",
+      "title": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities",
+      "summary": "Forescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mobile carrier network.\n\nIts August 3 scan c...",
+      "source": "The Hacker News",
+      "source_url": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
+      "published_at": "2026-08-06T12:16:58.000Z"
+    },
+    {
+      "id": 2,
+      "category": "devops",
+      "title": "pulumi-kubernetes-coredns 0.2.0a1785935736",
+      "summary": "Strongly-typed CoreDNS installation",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/pulumi-kubernetes-coredns/0.2.0a1785935736/",
+      "published_at": "2026-08-05T13:46:43.000Z"
+    },
+    {
+      "id": 3,
       "category": "cybersecurity",
       "title": "CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps",
       "summary": "Coinspect has identified CryptoJS.lib.WordArray.random() as the weak random number generator behind the Ill Bloom wallet drains.\n\nIntroduced in the JavaScript cryptography library 12 years ago, the function supplied weak...",
       "source": "The Hacker News",
       "source_url": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
       "published_at": "2026-08-06T11:49:48.000Z"
-    },
-    {
-      "id": 2,
-      "category": "devops",
-      "title": "provenrail 0.2.28",
-      "summary": "Guardrails for AI agents, with a receipt. Blocks destructive tool calls (rm -rf, terraform destroy, force push, DROP TABLE, leaked keys) before they run, and signs every decision into an off-box, hash-chained record anyo...",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/provenrail/0.2.28/",
-      "published_at": "2026-08-05T12:09:44.000Z"
-    },
-    {
-      "id": 3,
-      "category": "cybersecurity",
-      "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
-      "summary": "Cybersecurity researchers have disclosed a security issue with Apple's iCloud Private Relay tool that can expose a user's real IP address.\n\nIntroduced with iOS 15, iCloud Private Relay employs a dual-hop architecture to...",
-      "source": "The Hacker News",
-      "source_url": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
-      "published_at": "2026-08-06T11:33:08.000Z"
     }
   ]
 }
