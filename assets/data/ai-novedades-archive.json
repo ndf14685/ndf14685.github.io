@@ -1,5 +1,82 @@
 [
   {
+    "key": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more",
+    "technology": "Codex",
+    "title": "Agent Plugins package your skills, tools, and more",
+    "summary": "Agent Plugins 1.0.0 is a new, vendor-neutral directory specification—backed by Google, Amazon, Microsoft, and others—for packaging Agent Skills and MCP servers into a single portable unit. By standardizing the manifest (plugin.json) and utilizing a fixed directory layout, it eliminates the need for developers to maintain separate wrappers...",
+    "source": "Google Developers Blog",
+    "source_url": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more/",
+    "published_at": "2026-08-07T01:42:35.606Z",
+    "score": 82,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.147.0",
+    "technology": "Codex",
+    "title": "0.147.0",
+    "summary": "## New Features - Install portable Agent Plugins and search across local, personal, workspace, and remote plugin catalogs. (#36544, #36409, #36919, #36796) - Organize conversations into persistent, manually ordered sections and browse long transcripts incrementally. (#35722, #36007, #36380, #36948, #36950) - Enable automatically reviewed...",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.147.0",
+    "published_at": "2026-08-07T01:41:49.000Z",
+    "score": 94,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://the-decoder.com/claude-code-is-the-fastest-agent-framework-but-costs-nearly-three-times-more-than-the-cheapest-rival",
+    "technology": "Claude",
+    "title": "Claude Code is the fastest agent framework but costs nearly three times more than the cheapest rival",
+    "summary": "Composio tested Deepseek V4 Flash across four agent frameworks on 30 real-world tasks. Success rates were mostly similar, but costs varied by nearly 3x: OpenCode came in cheapest at $0.073 per task, while Claude Code cost $0.195 despite using the fewest tool calls and output tokens. The choice of framework is mainly a question of price an...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/claude-code-is-the-fastest-agent-framework-but-costs-nearly-three-times-more-than-the-cheapest-rival/",
+    "published_at": "2026-08-06T16:33:59.000Z",
+    "score": 88,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/symbols-mcp/3.14.656",
+    "technology": "Infra AI",
+    "title": "symbols-mcp 3.14.656",
+    "summary": "Symbols.app MCP — docs, code generation, publishing, CLI/SDK reference",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/symbols-mcp/3.14.656/",
+    "published_at": "2026-08-06T01:41:06.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/vintage-mcp/0.1.1",
+    "technology": "Infra AI",
+    "title": "vintage-mcp 0.1.1",
+    "summary": "A research terminal that costs $0 and won't lie to you about your Sharpe — point-in-time financial data over MCP",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/vintage-mcp/0.1.1/",
+    "published_at": "2026-08-06T01:28:08.000Z",
+    "score": 68,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/vintage-mcp/0.1.0",
+    "technology": "Infra AI",
+    "title": "vintage-mcp 0.1.0",
+    "summary": "A research terminal that costs $0 and won't lie to you about your Sharpe — point-in-time financial data over MCP",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/vintage-mcp/0.1.0/",
+    "published_at": "2026-08-06T01:24:38.000Z",
+    "score": 68,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/vintage-mcp",
+    "technology": "Infra AI",
+    "title": "vintage-mcp added to PyPI",
+    "summary": "A research terminal that costs $0 and won't lie to you about your Sharpe — point-in-time financial data over MCP",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/vintage-mcp/",
+    "published_at": "2026-08-06T01:24:33.000Z",
+    "score": 68,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.13",
     "technology": "Codex",
     "title": "0.147.0-alpha.13",
@@ -9,6 +86,116 @@
     "published_at": "2026-08-06T01:12:59.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/mlx-memo/4.9.3",
+    "technology": "Infra AI",
+    "title": "mlx-memo 4.9.3",
+    "summary": "Local-first semantic memory for AI agents — time-travel, contradiction radar, automatic synthesis. MLX (Apple Silicon) or CPU sentence-transformers (Linux) embeddings + sqlite-vec, MCP server. No cloud, no API keys.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mlx-memo/4.9.3/",
+    "published_at": "2026-08-06T01:11:38.000Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/headroom-cli/0.1.3",
+    "technology": "Claude",
+    "title": "headroom-cli 0.1.3",
+    "summary": "Shared usage headroom tracking for Claude Code and Codex",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/headroom-cli/0.1.3/",
+    "published_at": "2026-08-06T01:06:53.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/agent-toolkit-cli/1.4.0",
+    "technology": "Claude",
+    "title": "agent-toolkit-cli 1.4.0",
+    "summary": "Composable AI agent toolkit — loops, skills, profiles, and MCP for Claude Code, Cursor, OpenCode, Windsurf, and more",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agent-toolkit-cli/1.4.0/",
+    "published_at": "2026-08-06T00:55:06.000Z",
+    "score": 100,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/memman/0.18.1",
+    "technology": "OpenClaw",
+    "title": "memman 0.18.1",
+    "summary": "LLM-supervised persistent memory for AI agents - intent-aware graph recall, RAG, and pluggable embeddings for Claude Code, OpenClaw, and NanoClaw.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/memman/0.18.1/",
+    "published_at": "2026-08-06T00:52:23.000Z",
+    "score": 74,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
+    "key": "https://pypi.org/project/little-loops/1.154.0",
+    "technology": "Claude",
+    "title": "little-loops 1.154.0",
+    "summary": "Development workflow toolkit for AI coding-agent CLIs (Claude Code, Codex, Gemini, Kimi Code) with issue management, code quality commands, and automated processing",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/little-loops/1.154.0/",
+    "published_at": "2026-08-06T00:50:15.000Z",
+    "score": 98,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/forge-manager-mcp/4.15.0a1",
+    "technology": "Infra AI",
+    "title": "forge-manager-mcp 4.15.0a1",
+    "summary": "MCP server for the forge-manager skill — multi-platform forge operations layer (GitHub / Forgejo+Codeberg / GitLab / local docs store)",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/forge-manager-mcp/4.15.0a1/",
+    "published_at": "2026-08-06T00:49:14.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://www.aljazeera.com/news/2026/8/6/metas-ai-model-follows-rivals-in-revealing-hacks-of-outside-systems",
+    "technology": "Claude",
+    "title": "Meta’s AI model follows rivals in revealing hacks of outside systems",
+    "summary": "Meta joins OpenAI and Anthropic in disclosing AI hacking during cybersecurity testing.",
+    "source": "Al Jazeera English",
+    "source_url": "https://www.aljazeera.com/news/2026/8/6/metas-ai-model-follows-rivals-in-revealing-hacks-of-outside-systems",
+    "published_at": "2026-08-06T00:40:28.000Z",
+    "score": 68,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/tend/0.1.14",
+    "technology": "Claude",
+    "title": "tend 0.1.14",
+    "summary": "An autonomous junior maintainer for GitHub repos, powered by Claude or OpenAI Codex — reviews PRs, triages issues, fixes CI",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/tend/0.1.14/",
+    "published_at": "2026-08-06T00:35:58.000Z",
+    "score": 94,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/agent-bom/0.99.0",
+    "technology": "Infra AI",
+    "title": "agent-bom 0.99.0",
+    "summary": "Open security scanner and self-hosted control plane for AI, MCP, and cloud infrastructure.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agent-bom/0.99.0/",
+    "published_at": "2026-08-06T00:30:39.000Z",
+    "score": 76,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/pxx-orchestrator/2.3.7",
+    "technology": "OpenClaw",
+    "title": "pxx-orchestrator 2.3.7",
+    "summary": "Local-first AI coding agent runtime: async backends (native + aider), persistent memory, MCP, fail-closed safety gates.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/pxx-orchestrator/2.3.7/",
+    "published_at": "2026-08-06T00:27:31.000Z",
+    "score": 100,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
   },
   {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.12",
@@ -6411,192 +6598,5 @@
     "published_at": "2026-07-24T18:24:41.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/bernstein/3.9.0",
-    "technology": "Claude",
-    "title": "bernstein 3.9.0",
-    "summary": "Deterministic, verifiable orchestration for CLI coding agents (Claude Code, Codex, Gemini CLI, and 40+ more): reproducible parallel runs in git worktrees, always-on lineage and replay journal, opt-in HMAC-chained audit log, air-gap install profile.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/bernstein/3.9.0/",
-    "published_at": "2026-07-24T17:59:48.000Z",
-    "score": 98,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model",
-    "technology": "Claude",
-    "title": "Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model",
-    "summary": "This post covers Opus 5’s improvements and practical guidance for AI engineers integrating the model into agentic systems and production inference workloads on Amazon Bedrock. See the documentation for Claude Platform on AWS.",
-    "source": "Amazon.com",
-    "source_url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model/",
-    "published_at": "2026-07-24T17:59:03.000Z",
-    "score": 58,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://4sysops.com/archives/anthropic-tells-claude-5-developers-to-simplify-prompts-and-load-context-on-demand",
-    "technology": "Claude",
-    "title": "Anthropic tells Claude 5 developers to simplify prompts and load context on demand",
-    "summary": "Anthropic is urging developers to strip down Claude 5 system prompts instead of adding ever-longer rule lists, arguing that newer models can apply judgment where older versions needed rigid guardrails. The company says Claude Code’s system prompt was reduced …",
-    "source": "4sysops.com",
-    "source_url": "https://4sysops.com/archives/anthropic-tells-claude-5-developers-to-simplify-prompts-and-load-context-on-demand/",
-    "published_at": "2026-07-24T17:55:16.000Z",
-    "score": 54,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://4sysops.com/archives/anthropic-says-start-with-its-smartest-claude-model-not-the-cheapest",
-    "technology": "Claude",
-    "title": "Anthropic says start with its smartest Claude model—not the cheapest",
-    "summary": "Anthropic is advising teams to begin Claude deployments with the most capable generally available model, then reduce cost and latency with lower effort settings or smaller models. The company says a stronger model can be cheaper per completed task because it …",
-    "source": "4sysops.com",
-    "source_url": "https://4sysops.com/archives/anthropic-says-start-with-its-smartest-claude-model-not-the-cheapest/",
-    "published_at": "2026-07-24T17:55:15.000Z",
-    "score": 92,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/meridian-cli/0.3.52",
-    "technology": "Infra AI",
-    "title": "meridian-cli 0.3.52",
-    "summary": "Orchestrate CLI + MCP server for multi-model agent workflows",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/meridian-cli/0.3.52/",
-    "published_at": "2026-07-24T17:55:04.000Z",
-    "score": 66,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://www.wired.com/story/uncanny-valley-podcast",
-    "technology": "Claude",
-    "title": "Did Chinese AI Steal From Anthropic, and OpenAI Loses Control of Two Models",
-    "summary": "On this episode of “Uncanny Valley,” we dive into accusations that China’s Moonshot AI stole from Anthropic, and how the US Army needs to cut back on AI use.",
-    "source": "Wired",
-    "source_url": "https://www.wired.com/story/uncanny-valley-podcast/",
-    "published_at": "2026-07-24T17:53:01.000Z",
-    "score": 54,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/rocket-tools/0.4.1",
-    "technology": "Infra AI",
-    "title": "rocket-tools 0.4.1",
-    "summary": "Aerospace engineering calculations for Python, CLI, and MCP agents",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/rocket-tools/0.4.1/",
-    "published_at": "2026-07-24T17:37:11.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/renforge/0.6.6",
-    "technology": "Infra AI",
-    "title": "renforge 0.6.6",
-    "summary": "MCP server, CLI, and web dashboard for Ren'Py visual-novel development",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/renforge/0.6.6/",
-    "published_at": "2026-07-24T17:36:43.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/frontend-perception-engine/1.2.0.dev40",
-    "technology": "Codex",
-    "title": "frontend-perception-engine 1.2.0.dev40",
-    "summary": "Frontend Perception MCP — deterministic browser runtime for coding agents.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/frontend-perception-engine/1.2.0.dev40/",
-    "published_at": "2026-07-24T17:30:51.000Z",
-    "score": 78,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://biztoc.com/x/ac8f1747a4a28b8b",
-    "technology": "Claude",
-    "title": "Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
-    "summary": "Weeks after Anthropic’s latest toe-to-toe with the US government, and days after an OpenAI security incident that dominated tech industry discussions, Anthropic on Thursday released its newest model, Claude Opus 5. Anthropic releases Opus 5 with ‘close’ to Fa…",
-    "source": "Biztoc.com",
-    "source_url": "https://biztoc.com/x/ac8f1747a4a28b8b",
-    "published_at": "2026-07-24T17:27:59.000Z",
-    "score": 72,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://biztoc.com/x/0fdcea258f401b16",
-    "technology": "Claude",
-    "title": "Meta is making its AI chatbot more like an assistant",
-    "summary": "Meta is upgrading its AI chatbot with new productivity features in a bid to compete with rivals like Gemini, ChatGPT, and Claude. The update will allow Meta AI to tap into your calendar to help you plan events and generate daily briefings, as well as perform …",
-    "source": "Biztoc.com",
-    "source_url": "https://biztoc.com/x/0fdcea258f401b16",
-    "published_at": "2026-07-24T17:27:35.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://the-decoder.com/microsofts-open-weight-ai-push-is-so-obviously-an-azure-play-it-hurts",
-    "technology": "Claude",
-    "title": "Microsoft's open-weight AI push is so obviously an Azure play it hurts",
-    "summary": "Microsoft, along with Meta, Nvidia, and more than 20 other companies, is pushing for open-weight AI models in an open letter. The strategic logic is simple: the more models running on Azure, the less Microsoft depends on expensive OpenAI and Anthropic models. The company is also swapping external models in products like Copilot for its in...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/microsofts-open-weight-ai-push-is-so-obviously-an-azure-play-it-hurts/",
-    "published_at": "2026-07-24T16:06:02.000Z",
-    "score": 54,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://the-decoder.com/claudes-voice-mode-now-runs-on-anthropics-most-capable-models-across-all-platforms",
-    "technology": "Claude",
-    "title": "Claude's voice mode now runs on Anthropic's most capable models across all platforms",
-    "summary": "Voice conversations now run on the more powerful Opus and Sonnet models with access to Gmail, Google Calendar, and Slack. Claude is currently the only AI assistant that can compose and send emails directly by voice, giving it an edge over OpenAI and Google, whose voice output still sounds more natural. The article Claude's voice mode now...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/claudes-voice-mode-now-runs-on-anthropics-most-capable-models-across-all-platforms/",
-    "published_at": "2026-07-24T11:31:49.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/oh-no-my-claudecode/0.107.0",
-    "technology": "Claude",
-    "title": "oh-no-my-claudecode 0.107.0",
-    "summary": "Memory-grounded autonomous coding loops for Claude Code and Codex.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/oh-no-my-claudecode/0.107.0/",
-    "published_at": "2026-07-24T10:38:11.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/marm-mcp-server/2.29.0",
-    "technology": "Claude",
-    "title": "marm-mcp-server 2.29.0",
-    "summary": "Local-first 3-in-1 AI memory layer & MCP server for Claude Code, Codex, Grok, Gemini, VS Code and Cursor. Fuses session history, codebase indices & concept graphs in SQLite. Enables zero-cloud, privacy-first context & instant recall also works with multi-agen…",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/marm-mcp-server/2.29.0/",
-    "published_at": "2026-07-24T10:37:34.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/pvc-mcp-server",
-    "technology": "Infra AI",
-    "title": "pvc-mcp-server added to PyPI",
-    "summary": "Plan Version Control (PVC) MCP Server — Git-like version control for AI agent decision tracking",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/pvc-mcp-server/",
-    "published_at": "2026-07-24T10:36:47.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/pyveil/0.2.5",
-    "technology": "Infra AI",
-    "title": "pyveil 0.2.5",
-    "summary": "Local PII and secret redaction for Python LLM apps, AI agents, tool calls, and MCP",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/pyveil/0.2.5/",
-    "published_at": "2026-07-24T10:24:42.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   }
 ]
