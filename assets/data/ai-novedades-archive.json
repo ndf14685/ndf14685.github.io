@@ -1,5 +1,49 @@
 [
   {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.2",
+    "technology": "Codex",
+    "title": "0.148.0-alpha.2",
+    "summary": "Release 0.148.0-alpha.2",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.2",
+    "published_at": "2026-08-07T09:23:15.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://the-decoder.com/amazon-cursor-microsoft-openai-and-vercel-unite-on-a-shared-standard-for-ai-agent-plugins",
+    "technology": "Codex",
+    "title": "Amazon, Cursor, Microsoft, OpenAI, and Vercel unite on a shared standard for AI agent plugins",
+    "summary": "Amazon, Cursor, Microsoft, OpenAI, and Vercel have jointly created Agent Plugins, an open standard that defines a single package format for AI agent extensions. Version 1.0.0 uses a plugin.json manifest file and supports both agent skills and MCP servers. The article Amazon, Cursor, Microsoft, OpenAI, and Vercel unite on a shared standard...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/amazon-cursor-microsoft-openai-and-vercel-unite-on-a-shared-standard-for-ai-agent-plugins/",
+    "published_at": "2026-08-07T08:54:45.000Z",
+    "score": 100,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.4",
+    "technology": "Gemini",
+    "title": "Release v0.54.4",
+    "summary": "## What's Changed * fix(patch): cherry-pick 56f9688 to release/v0.54.0-pr-28700 to patch version v0.54.0 and create version 0.54.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28710 * chore: bump version to 0.54.2 by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28712 * Fix/revert version bu...",
+    "source": "GitHub: google-gemini/gemini-cli",
+    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.4",
+    "published_at": "2026-08-07T04:44:19.000Z",
+    "score": 58,
+    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.1",
+    "technology": "Codex",
+    "title": "0.148.0-alpha.1",
+    "summary": "Release 0.148.0-alpha.1",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.1",
+    "published_at": "2026-08-07T03:20:28.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more",
     "technology": "Codex",
     "title": "Agent Plugins package your skills, tools, and more",
@@ -31,6 +75,138 @@
     "published_at": "2026-08-06T16:33:59.000Z",
     "score": 88,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/gwsadm-mcp/0.10.0",
+    "technology": "Infra AI",
+    "title": "gwsadm-mcp 0.10.0",
+    "summary": "MCP server for Google Workspace security auditing — login audit, external sharing, daily brief",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/gwsadm-mcp/0.10.0/",
+    "published_at": "2026-08-06T10:01:39.000Z",
+    "score": 68,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/kiro-gateway",
+    "technology": "OpenClaw",
+    "title": "kiro-gateway added to PyPI",
+    "summary": "OpenAI & Anthropic-compatible API gateway for Kiro (single-account, compliance-mode)",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/kiro-gateway/",
+    "published_at": "2026-08-06T10:00:42.000Z",
+    "score": 74,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
+    "key": "https://pypi.org/project/forge-mcp-base/0.1.0a2",
+    "technology": "Infra AI",
+    "title": "forge-mcp-base 0.1.0a2",
+    "summary": "Forge MCP server: JSON-RPC 2.0 over stdio, six tools, one SDK call each. A transport, nothing more.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/forge-mcp-base/0.1.0a2/",
+    "published_at": "2026-08-06T09:58:56.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/vmware-privateai/0.1.0",
+    "technology": "Infra AI",
+    "title": "vmware-privateai 0.1.0",
+    "summary": "VMware Private AI Foundation with NVIDIA ops — GPU inventory, vGPU/DirectPath profiles, utilization, model-serving (MCP + CLI)",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/vmware-privateai/0.1.0/",
+    "published_at": "2026-08-06T09:57:12.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/vmware-privateai",
+    "technology": "Infra AI",
+    "title": "vmware-privateai added to PyPI",
+    "summary": "VMware Private AI Foundation with NVIDIA ops — GPU inventory, vGPU/DirectPath profiles, utilization, model-serving (MCP + CLI)",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/vmware-privateai/",
+    "published_at": "2026-08-06T09:40:57.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/agenthood/0.3.3",
+    "technology": "Infra AI",
+    "title": "agenthood 0.3.3",
+    "summary": "Robinhood trading agent powered by agentu + Robinhood MCP",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agenthood/0.3.3/",
+    "published_at": "2026-08-06T09:32:09.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/railmux/0.4.0.dev30",
+    "technology": "Claude",
+    "title": "railmux 0.4.0.dev30",
+    "summary": "Terminal UI to navigate, resume, and start Claude Code and Codex sessions",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/railmux/0.4.0.dev30/",
+    "published_at": "2026-08-06T09:31:27.000Z",
+    "score": 70,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/apm-cli/0.28.0",
+    "technology": "Infra AI",
+    "title": "apm-cli 0.28.0",
+    "summary": "MCP configuration tool",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/apm-cli/0.28.0/",
+    "published_at": "2026-08-06T09:29:46.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/mcp-fuzzer/0.5.0",
+    "technology": "Infra AI",
+    "title": "mcp-fuzzer 0.5.0",
+    "summary": "MCP server fuzzer client and utilities",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcp-fuzzer/0.5.0/",
+    "published_at": "2026-08-06T09:24:39.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/moraine-cli/0.7.3",
+    "technology": "ChatGPT / OpenAI",
+    "title": "moraine-cli 0.7.3",
+    "summary": "Unified realtime agent trace database & search MCP",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/moraine-cli/0.7.3/",
+    "published_at": "2026-08-06T09:22:39.000Z",
+    "score": 86,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://pypi.org/project/agent-memguard/0.5.1",
+    "technology": "Codex",
+    "title": "agent-memguard 0.5.1",
+    "summary": "Local-first MCP memory backend and governance console for coding agents",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agent-memguard/0.5.1/",
+    "published_at": "2026-08-06T09:20:11.000Z",
+    "score": 82,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/swarph-cli/0.41.7",
+    "technology": "OpenClaw",
+    "title": "swarph-cli 0.41.7",
+    "summary": "The `swarph` binary — a multi-LLM CLI and mesh-gateway client + bundled server (`swarph gateway`): one-shot prompts across providers, interactive `chat`, multi-provider `spawn` (claude/codex/antigravity via a ProviderMembrane with subprocess billing-scrub), `…",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/swarph-cli/0.41.7/",
+    "published_at": "2026-08-06T09:10:50.000Z",
+    "score": 94,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
   },
   {
     "key": "https://pypi.org/project/symbols-mcp/3.14.656",
@@ -6422,181 +6598,5 @@
     "published_at": "2026-07-25T00:00:27.000Z",
     "score": 62,
     "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/dulus/3.10.28",
-    "technology": "OpenClaw",
-    "title": "dulus 3.10.28",
-    "summary": "Provider-independent agent runtime for the terminal — cloud and local models, real tools, MCP, plugins, memory, sub-agents, and Dulus OS.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/dulus/3.10.28/",
-    "published_at": "2026-07-24T23:59:28.000Z",
-    "score": 86,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/kalaa",
-    "technology": "Claude",
-    "title": "kalaa added to PyPI",
-    "summary": "Drop-in AI cost tracking for Python. Auto-instruments OpenAI, Anthropic, and Gemini with zero code at the call site.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/kalaa/",
-    "published_at": "2026-07-24T23:57:21.000Z",
-    "score": 84,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/kalaa/1.0.0",
-    "technology": "Claude",
-    "title": "kalaa 1.0.0",
-    "summary": "Drop-in AI cost tracking for Python. Auto-instruments OpenAI, Anthropic, and Gemini with zero code at the call site.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/kalaa/1.0.0/",
-    "published_at": "2026-07-24T23:57:21.000Z",
-    "score": 84,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://biztoc.com/x/3d6c27a6f632ddbb",
-    "technology": "Claude",
-    "title": "Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
-    "summary": "Weeks after Anthropic’s latest toe-to-toe with the US government, and days after an OpenAI security incident that dominated tech industry discussions, Anthropic on Thursday released its newest model, Claude Opus 5. Anthropic releases Opus 5 with ‘close’ to Fa…",
-    "source": "Biztoc.com",
-    "source_url": "https://biztoc.com/x/3d6c27a6f632ddbb",
-    "published_at": "2026-07-24T23:44:20.000Z",
-    "score": 72,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/dulus/3.10.27",
-    "technology": "OpenClaw",
-    "title": "dulus 3.10.27",
-    "summary": "Provider-independent agent runtime for the terminal — cloud and local models, real tools, MCP, plugins, memory, sub-agents, and Dulus OS.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/dulus/3.10.27/",
-    "published_at": "2026-07-24T23:42:08.000Z",
-    "score": 86,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/orkestra-runtime/0.1.2",
-    "technology": "Claude",
-    "title": "orkestra-runtime 0.1.2",
-    "summary": "Local-first orchestration runtime for multiple autonomous coding agents (Claude Code, Codex CLI, Gemini CLI, and more) collaborating on one software project.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/orkestra-runtime/0.1.2/",
-    "published_at": "2026-07-24T23:42:02.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/orkestra-runtime",
-    "technology": "Claude",
-    "title": "orkestra-runtime added to PyPI",
-    "summary": "Local-first orchestration runtime for multiple autonomous coding agents (Claude Code, Codex CLI, Gemini CLI, and more) collaborating on one software project.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/orkestra-runtime/",
-    "published_at": "2026-07-24T23:41:53.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/dcc-mcp-server/0.19.75",
-    "technology": "OpenClaw",
-    "title": "dcc-mcp-server 0.19.75",
-    "summary": "Standalone dcc-mcp-server CLI binary — gateway, sidecar, stdio bridge (Rust)",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/dcc-mcp-server/0.19.75/",
-    "published_at": "2026-07-24T23:34:26.000Z",
-    "score": 78,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/vaultspec-rag/0.3.8",
-    "technology": "Claude",
-    "title": "vaultspec-rag 0.3.8",
-    "summary": "GPU-accelerated semantic search for your docs and source code: hybrid dense + sparse RAG on a local Qdrant backend, served to Claude Code and other MCP clients.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/vaultspec-rag/0.3.8/",
-    "published_at": "2026-07-24T23:32:55.000Z",
-    "score": 82,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.8",
-    "technology": "Codex",
-    "title": "0.146.0-alpha.8",
-    "summary": "Release 0.146.0-alpha.8",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.8",
-    "published_at": "2026-07-24T23:23:37.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/drf-llm-gateway",
-    "technology": "OpenClaw",
-    "title": "drf-llm-gateway added to PyPI",
-    "summary": "Expose Django REST Framework serializers and viewsets as OpenAI / MCP tools with automatic JSON Schema generation",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/drf-llm-gateway/",
-    "published_at": "2026-07-24T23:22:40.000Z",
-    "score": 94,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/dcc-mcp-unity/0.8.0",
-    "technology": "Codex",
-    "title": "dcc-mcp-unity 0.8.0",
-    "summary": "Unity Editor adapter and typed game-authoring skills for DCC-MCP",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/dcc-mcp-unity/0.8.0/",
-    "published_at": "2026-07-24T23:22:29.000Z",
-    "score": 78,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/audamcp/0.2.0",
-    "technology": "ChatGPT / OpenAI",
-    "title": "audamcp 0.2.0",
-    "summary": "MCP server for professional audio editing, stems separation, mastering, and Audacity 3.x bridge",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/audamcp/0.2.0/",
-    "published_at": "2026-07-24T23:19:13.000Z",
-    "score": 78,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
-  },
-  {
-    "key": "https://pypi.org/project/clauderizer/1.13.0",
-    "technology": "Claude",
-    "title": "clauderizer 1.13.0",
-    "summary": "Drop-in, MCP-native working memory for AI agents: gameplans, phases, a dependency graph, and post-hoc cascade — over plain markdown.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/clauderizer/1.13.0/",
-    "published_at": "2026-07-24T23:16:20.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price",
-    "technology": "Claude",
-    "title": "Anthropic claims its new Claude Opus 5 delivers near-Fable 5 performance at half the token price",
-    "summary": "Anthropic's new flagship model Claude Opus 5 posts top scores in coding and knowledge work at half of Fable 5's token rates. On ARC-AGI-3, a benchmark for novel problem-solving, Opus 5 hits 30.2 percent, nearly four times higher than GPT-5.6 Sol. The article Anthropic claims its new Claude Opus 5 delivers near-Fable 5 performance at half...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/",
-    "published_at": "2026-07-24T18:36:42.000Z",
-    "score": 62,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.7",
-    "technology": "Codex",
-    "title": "0.146.0-alpha.7",
-    "summary": "Release 0.146.0-alpha.7",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.7",
-    "published_at": "2026-07-24T18:24:41.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   }
 ]
