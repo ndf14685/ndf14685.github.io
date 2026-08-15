@@ -33,6 +33,94 @@
     "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
   },
   {
+    "key": "https://pypi.org/project/mcp-llm-council",
+    "technology": "Claude",
+    "title": "mcp-llm-council added to PyPI",
+    "summary": "Multi-model LLM Council (Karpathy-style 3-stage deliberation over OpenRouter), exposed as an MCP server for Claude Code.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcp-llm-council/",
+    "published_at": "2026-08-14T23:03:21.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/gcontext-ai/0.10.1",
+    "technology": "Infra AI",
+    "title": "gcontext-ai 0.10.1",
+    "summary": "The framework for building stateful agents. Your agent is a folder of state, served over MCP, used from any runtime.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/gcontext-ai/0.10.1/",
+    "published_at": "2026-08-14T22:46:26.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/doc3gpp/0.1.5",
+    "technology": "Infra AI",
+    "title": "doc3gpp 0.1.5",
+    "summary": "Provide 3GPP TDoc information with full text search capability — a Python CLI/library, a local web UI, and an MCP server for AI clients.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/doc3gpp/0.1.5/",
+    "published_at": "2026-08-14T22:46:01.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/claude-agent-sdk/0.2.139",
+    "technology": "Claude",
+    "title": "claude-agent-sdk 0.2.139",
+    "summary": "Python SDK for Claude Code",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/claude-agent-sdk/0.2.139/",
+    "published_at": "2026-08-14T22:34:48.000Z",
+    "score": 58,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/paraview-mcp-server/0.2.3",
+    "technology": "Infra AI",
+    "title": "paraview-mcp-server 0.2.3",
+    "summary": "ParaView integration through the Model Context Protocol",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/paraview-mcp-server/0.2.3/",
+    "published_at": "2026-08-14T22:18:22.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/coding-agent-cost/0.1.0",
+    "technology": "Claude",
+    "title": "coding-agent-cost 0.1.0",
+    "summary": "Estimate AI coding agent (Claude Code / Codex CLI) token usage and cost from local logs",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/coding-agent-cost/0.1.0/",
+    "published_at": "2026-08-14T22:06:54.000Z",
+    "score": 96,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/coding-agent-cost",
+    "technology": "Claude",
+    "title": "coding-agent-cost added to PyPI",
+    "summary": "Estimate AI coding agent (Claude Code / Codex CLI) token usage and cost from local logs",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/coding-agent-cost/",
+    "published_at": "2026-08-14T22:06:54.000Z",
+    "score": 96,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/dash-improve-my-llms/2.5.1",
+    "technology": "Infra AI",
+    "title": "dash-improve-my-llms 2.5.1",
+    "summary": "Crawler/SEO companion for Dash apps: /llms.txt, /robots.txt, /sitemap.xml, bot detection, static-HTML prerender, and an MCP bridge. Works with Flask, FastAPI, and Quart backends (Dash 4.1+).",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/dash-improve-my-llms/2.5.1/",
+    "published_at": "2026-08-14T22:01:18.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.18",
     "technology": "Codex",
     "title": "0.148.0-alpha.18",
@@ -42,6 +130,39 @@
     "published_at": "2026-08-14T21:58:41.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/courier-os/0.1.5",
+    "technology": "ChatGPT / OpenAI",
+    "title": "courier-os 0.1.5",
+    "summary": "Agent SDK for OpenAI-compatible APIs and optional local Apple Silicon inference.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/courier-os/0.1.5/",
+    "published_at": "2026-08-14T21:46:58.000Z",
+    "score": 66,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://pypi.org/project/cnhkmcp/4.1.3",
+    "technology": "Infra AI",
+    "title": "cnhkmcp 4.1.3",
+    "summary": "A comprehensive Model Context Protocol (MCP) server for quantitative trading platform integration",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/cnhkmcp/4.1.3/",
+    "published_at": "2026-08-14T21:44:57.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://github.com/caffeinum/tracepaper",
+    "technology": "Infra AI",
+    "title": "Show HN: Open-Source Paper",
+    "summary": "I was frustrated that paper.design charges for the usage (!) of their MCP, so built open-source alternative.It's a canvas for agents, where they can push mock designs, instead of having html files flying around across multiple tabsYou can leave comments to th…",
+    "source": "Github.com",
+    "source_url": "https://github.com/caffeinum/tracepaper",
+    "published_at": "2026-08-14T21:38:54.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   },
   {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.17",
@@ -6477,126 +6598,5 @@
     "published_at": "2026-08-01T10:09:15.000Z",
     "score": 86,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/dcc-mcp-unreal/0.2.11",
-    "technology": "Infra AI",
-    "title": "dcc-mcp-unreal 0.2.11",
-    "summary": "Unreal Engine plugin for the DCC Model Context Protocol (MCP) ecosystem — embeds a Streamable HTTP MCP server directly inside Unreal Engine",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/dcc-mcp-unreal/0.2.11/",
-    "published_at": "2026-08-01T10:01:02.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/crawl4ai-mcp-llm/0.1.5",
-    "technology": "Infra AI",
-    "title": "crawl4ai-mcp-llm 0.1.5",
-    "summary": "A Model Context Protocol (MCP) server for Crawl4AI",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/crawl4ai-mcp-llm/0.1.5/",
-    "published_at": "2026-08-01T09:58:32.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/railmux/0.3.1.dev202608010",
-    "technology": "Claude",
-    "title": "railmux 0.3.1.dev202608010",
-    "summary": "Terminal UI to navigate, resume, and start Claude Code and Codex sessions",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/railmux/0.3.1.dev202608010/",
-    "published_at": "2026-08-01T09:55:08.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/codegraphcontext/0.5.4",
-    "technology": "Infra AI",
-    "title": "codegraphcontext 0.5.4",
-    "summary": "An MCP server that indexes local code into a graph database to provide context to AI assistants.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/codegraphcontext/0.5.4/",
-    "published_at": "2026-08-01T09:54:16.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/cognocient/0.1.0",
-    "technology": "Claude",
-    "title": "cognocient 0.1.0",
-    "summary": "Drop-in async-reporting wrapper for the OpenAI and Anthropic Python SDKs — live cost attribution without changing your base_url.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/cognocient/0.1.0/",
-    "published_at": "2026-08-01T09:53:25.000Z",
-    "score": 68,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/cognocient",
-    "technology": "Claude",
-    "title": "cognocient added to PyPI",
-    "summary": "Drop-in async-reporting wrapper for the OpenAI and Anthropic Python SDKs — live cost attribution without changing your base_url.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/cognocient/",
-    "published_at": "2026-08-01T09:53:21.000Z",
-    "score": 68,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://slashdot.org/firehose.pl",
-    "technology": "Claude",
-    "title": "Anthropic, OpenAI Cyber Failures Point to US Security Risks - Bloomberg.com",
-    "summary": "Anthropic, OpenAI Cyber Failures Point to US Security RisksBloomberg.com Investigating three real-world incidents in our cybersecurity evaluationsAnthropic Why did OpenAI's and Anthropic's AI models hack other companies?npr.org Claude published malicious code…",
-    "source": "Slashdot.org",
-    "source_url": "https://slashdot.org/firehose.pl?op=view&amp;id=184799224",
-    "published_at": "2026-08-01T09:32:11.000Z",
-    "score": 68,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/scitrace",
-    "technology": "Infra AI",
-    "title": "scitrace added to PyPI",
-    "summary": "MCP server for AI agents to record and query their reasoning steps. SQLite-backed, zero-dependency beyond mcp SDK.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/scitrace/",
-    "published_at": "2026-08-01T09:18:46.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/scitrace/0.1.0",
-    "technology": "Infra AI",
-    "title": "scitrace 0.1.0",
-    "summary": "MCP server for AI agents to record and query their reasoning steps. SQLite-backed, zero-dependency beyond mcp SDK.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/scitrace/0.1.0/",
-    "published_at": "2026-08-01T09:18:46.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/layered-memory-mcp/3.1.0",
-    "technology": "Infra AI",
-    "title": "layered-memory-mcp 3.1.0",
-    "summary": "Layered Memory MCP Server — Extend AI agent memory beyond token limits with a 4-tier knowledge architecture",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/layered-memory-mcp/3.1.0/",
-    "published_at": "2026-08-01T09:14:12.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/fast-agent-mcp/0.9.30",
-    "technology": "Codex",
-    "title": "fast-agent-mcp 0.9.30",
-    "summary": "Code, Build and Evaluate agents - excellent Model and Skills/MCP/ACP/A2A Support",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/fast-agent-mcp/0.9.30/",
-    "published_at": "2026-08-01T09:09:59.000Z",
-    "score": 86,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   }
 ]

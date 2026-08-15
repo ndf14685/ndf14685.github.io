@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T17:26:07.884Z",
+  "generated_at": "2026-08-15T23:26:01.738Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -13,7 +13,7 @@
   "source_counts": {
     "rss": 34,
     "github": 8,
-    "newsapi": 49
+    "newsapi": 50
   },
   "digest": {
     "has_relevant_items": true,
@@ -25,6 +25,20 @@
         "benefit": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
         "score": 98,
         "url": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing/"
+      },
+      {
+        "technology": "Claude",
+        "title": "coding-agent-cost 0.1.0",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 96,
+        "url": "https://pypi.org/project/coding-agent-cost/0.1.0/"
+      },
+      {
+        "technology": "Claude",
+        "title": "coding-agent-cost added to PyPI",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 96,
+        "url": "https://pypi.org/project/coding-agent-cost/"
       },
       {
         "technology": "Claude",
@@ -60,20 +74,6 @@
         "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
         "score": 90,
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.16"
-      },
-      {
-        "technology": "Codex",
-        "title": "0.148.0-alpha.15",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 90,
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.15"
-      },
-      {
-        "technology": "Codex",
-        "title": "Agent Plugins package your skills, tools, and more",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 82,
-        "url": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more/"
       }
     ]
   },
@@ -86,7 +86,7 @@
       "summary": "Google Cloud API Gateway now offers a model routing feature in Public Preview, allowing developers to dynamically route traffic to models like Gemini, Claude, or OpenAI OSS-GPT without hardcoding endpoints or managing open-source proxies. Developers can easily configure these routing rules directly within their OpenAPI 3.x specifications...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing/",
-      "published_at": "2026-08-15T17:26:06.313Z",
+      "published_at": "2026-08-15T23:25:59.950Z",
       "score": 98,
       "tags": [
         "OpenClaw",
@@ -99,6 +99,40 @@
     },
     {
       "id": 2,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "coding-agent-cost 0.1.0",
+      "summary": "Estimate AI coding agent (Claude Code / Codex CLI) token usage and cost from local logs",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/coding-agent-cost/0.1.0/",
+      "published_at": "2026-08-14T22:06:54.000Z",
+      "score": 96,
+      "tags": [
+        "Claude",
+        "Codex"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 3,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "coding-agent-cost added to PyPI",
+      "summary": "Estimate AI coding agent (Claude Code / Codex CLI) token usage and cost from local logs",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/coding-agent-cost/",
+      "published_at": "2026-08-14T22:06:54.000Z",
+      "score": 96,
+      "tags": [
+        "Claude",
+        "Codex"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 4,
       "kind": "rss",
       "technology": "Claude",
       "title": "Study contradicts Anthropic and OpenAI claims that autonomous AI research is within reach",
@@ -116,7 +150,7 @@
       "relevant": true
     },
     {
-      "id": 3,
+      "id": 5,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.148.0-alpha.19",
@@ -133,7 +167,7 @@
       "relevant": true
     },
     {
-      "id": 4,
+      "id": 6,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.148.0-alpha.18",
@@ -150,7 +184,7 @@
       "relevant": true
     },
     {
-      "id": 5,
+      "id": 7,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.148.0-alpha.17",
@@ -167,7 +201,7 @@
       "relevant": true
     },
     {
-      "id": 6,
+      "id": 8,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.148.0-alpha.16",
@@ -184,7 +218,7 @@
       "relevant": true
     },
     {
-      "id": 7,
+      "id": 9,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.148.0-alpha.15",
@@ -201,14 +235,14 @@
       "relevant": true
     },
     {
-      "id": 8,
+      "id": 10,
       "kind": "rss",
       "technology": "Codex",
       "title": "Agent Plugins package your skills, tools, and more",
       "summary": "Agent Plugins 1.0.0 is a new, vendor-neutral directory specification—backed by Google, Amazon, Microsoft, and others—for packaging Agent Skills and MCP servers into a single portable unit. By standardizing the manifest (plugin.json) and utilizing a fixed directory layout, it eliminates the need for developers to maintain separate wrappers...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more/",
-      "published_at": "2026-08-15T17:26:06.313Z",
+      "published_at": "2026-08-15T23:25:59.950Z",
       "score": 82,
       "tags": [
         "Codex",
@@ -218,7 +252,24 @@
       "relevant": true
     },
     {
-      "id": 9,
+      "id": 11,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "mcp-llm-council added to PyPI",
+      "summary": "Multi-model LLM Council (Karpathy-style 3-stage deliberation over OpenRouter), exposed as an MCP server for Claude Code.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/mcp-llm-council/",
+      "published_at": "2026-08-14T23:03:21.000Z",
+      "score": 78,
+      "tags": [
+        "Claude",
+        "Infra AI"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 12,
       "kind": "rss",
       "technology": "Codex",
       "title": "OpenAI's Computer History turns your clicks and keystrokes into a searchable ChatGPT memory timeline",
@@ -235,31 +286,14 @@
       "relevant": true
     },
     {
-      "id": 10,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "Show HN: Agentic Ship – open-source Lovable alternative that runs on your agent",
-      "summary": "Hi HN. This is an open-source harness that helps you ship a fullstack application the agentic way, you only pay for your AI subscription (Claude, Codex, Cursor) and the domain.It builds an end to end fullstack app starting from automatically connecting to the…",
-      "source": "Github.com",
-      "source_url": "https://github.com/moasq/agentic-ship",
-      "published_at": "2026-08-14T16:39:40.000Z",
-      "score": 78,
-      "tags": [
-        "Claude",
-        "Codex"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 11,
+      "id": 13,
       "kind": "rss",
       "technology": "Claude",
       "title": "Evolving Spec-Driven Development: Conductor Now Supports Antigravity",
       "summary": "Conductor has evolved from a Gemini CLI extension into a portable plugin, bringing conversational Spec-Driven Development (SDD) to ecosystems like Antigravity CLI and Claude. Rather than relying on strict command sequences, developers can now chat naturally with their AI assistant while it dynamically manages persistent markdown artifacts...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity/",
-      "published_at": "2026-08-15T17:26:06.313Z",
+      "published_at": "2026-08-15T23:25:59.951Z",
       "score": 74,
       "tags": [
         "Claude",
@@ -269,63 +303,31 @@
       "relevant": true
     },
     {
-      "id": 12,
+      "id": 14,
       "kind": "newsapi",
-      "technology": "Claude",
-      "title": "claude-jacked 0.92.1",
-      "summary": "Multi-account manager + skills suite for Claude Code (and Codex) — live usage tracking, auto account-switching, menu-bar pill, 30 slash commands, web dashboard",
+      "technology": "ChatGPT / OpenAI",
+      "title": "courier-os 0.1.5",
+      "summary": "Agent SDK for OpenAI-compatible APIs and optional local Apple Silicon inference.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/claude-jacked/0.92.1/",
-      "published_at": "2026-08-14T17:21:57.000Z",
-      "score": 74,
+      "source_url": "https://pypi.org/project/courier-os/0.1.5/",
+      "published_at": "2026-08-14T21:46:58.000Z",
+      "score": 66,
       "tags": [
-        "Claude",
-        "Codex"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 13,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "fx-audit-mcp 1.4.2",
-      "summary": "Firefox security audit MCP tools",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/fx-audit-mcp/1.4.2/",
-      "published_at": "2026-08-14T17:22:57.000Z",
-      "score": 68,
-      "tags": [
+        "ChatGPT / OpenAI",
         "Infra AI"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
       "relevant": true
     },
     {
-      "id": 14,
+      "id": 15,
       "kind": "rss",
       "technology": "Gemini",
       "title": "Scaling AI Agent Infrastructure with the MCP Stateless updates",
       "summary": "The 2026-07-28 Model Context Protocol (MCP) specification replaces legacy stateful constraints with a fully stateless core, enabling cloud-native horizontal scaling, serverless deployments, and standard round-robin load balancing. This architectural shift introduces standardized HTTP headers for efficient routing without deep packet inspe...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/scaling-ai-agent-infrastructure-with-the-mcp-stateless-updates/",
-      "published_at": "2026-08-15T17:26:06.313Z",
-      "score": 62,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 15,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "content-mcp 0.4.0",
-      "summary": "Official MCP server for the Content engine (agentic facade over the SDK).",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/content-mcp/0.4.0/",
-      "published_at": "2026-08-14T16:45:36.000Z",
+      "published_at": "2026-08-15T23:25:59.950Z",
       "score": 62,
       "tags": [
         "Infra AI"
@@ -337,11 +339,11 @@
       "id": 16,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "robinsaige 0.4.0",
-      "summary": "Check the dependency rating of an MCP tool before your agent calls it. A thin, dependency-free client for the Robin Saige observatory.",
+      "title": "doc3gpp 0.1.5",
+      "summary": "Provide 3GPP TDoc information with full text search capability — a Python CLI/library, a local web UI, and an MCP server for AI clients.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/robinsaige/0.4.0/",
-      "published_at": "2026-08-14T16:41:19.000Z",
+      "source_url": "https://pypi.org/project/doc3gpp/0.1.5/",
+      "published_at": "2026-08-14T22:46:01.000Z",
       "score": 62,
       "tags": [
         "Infra AI"
@@ -353,11 +355,11 @@
       "id": 17,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "robinsaige added to PyPI",
-      "summary": "Check the dependency rating of an MCP tool before your agent calls it. A thin, dependency-free client for the Robin Saige observatory.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/robinsaige/",
-      "published_at": "2026-08-14T16:41:19.000Z",
+      "title": "Show HN: Open-Source Paper",
+      "summary": "I was frustrated that paper.design charges for the usage (!) of their MCP, so built open-source alternative.It's a canvas for agents, where they can push mock designs, instead of having html files flying around across multiple tabsYou can leave comments to th…",
+      "source": "Github.com",
+      "source_url": "https://github.com/caffeinum/tracepaper",
+      "published_at": "2026-08-14T21:38:54.000Z",
       "score": 62,
       "tags": [
         "Infra AI"
@@ -401,11 +403,11 @@
       "id": 20,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "science-assistant-client 0.2.27",
-      "summary": "High-level MCP Proxy client for Science Assistant",
+      "title": "gcontext-ai 0.10.1",
+      "summary": "The framework for building stateful agents. Your agent is a folder of state, served over MCP, used from any runtime.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/science-assistant-client/0.2.27/",
-      "published_at": "2026-08-14T17:22:42.000Z",
+      "source_url": "https://pypi.org/project/gcontext-ai/0.10.1/",
+      "published_at": "2026-08-14T22:46:26.000Z",
       "score": 58,
       "tags": [
         "Infra AI"
@@ -416,28 +418,28 @@
     {
       "id": 21,
       "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "opensolr-mcp 0.2.1",
-      "summary": "MCP server for Opensolr — managed Apache Solr with hybrid BM25+kNN search, server-side embeddings, and RAG answers as agent tools",
+      "technology": "Claude",
+      "title": "claude-agent-sdk 0.2.139",
+      "summary": "Python SDK for Claude Code",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/opensolr-mcp/0.2.1/",
-      "published_at": "2026-08-14T16:45:43.000Z",
+      "source_url": "https://pypi.org/project/claude-agent-sdk/0.2.139/",
+      "published_at": "2026-08-14T22:34:48.000Z",
       "score": 58,
       "tags": [
-        "Infra AI"
+        "Claude"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 22,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "science-assistant-client 0.2.25",
-      "summary": "High-level MCP Proxy client for Science Assistant",
+      "title": "paraview-mcp-server 0.2.3",
+      "summary": "ParaView integration through the Model Context Protocol",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/science-assistant-client/0.2.25/",
-      "published_at": "2026-08-14T16:41:54.000Z",
+      "source_url": "https://pypi.org/project/paraview-mcp-server/0.2.3/",
+      "published_at": "2026-08-14T22:18:22.000Z",
       "score": 58,
       "tags": [
         "Infra AI"
@@ -447,35 +449,35 @@
     },
     {
       "id": 23,
-      "kind": "github_release",
-      "technology": "Gemini",
-      "title": "Release v0.56.0-nightly.20260814.gc0d192452",
-      "summary": "## What's Changed * test(e2e): stabilize file-system-interactive test on slow runners by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28793 * fix(core): implement context-aware silent retries and availability TTL for capacity errors (#28761) by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28790 *...",
-      "source": "GitHub: google-gemini/gemini-cli",
-      "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260814.gc0d192452",
-      "published_at": "2026-08-14T01:24:06.000Z",
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "dash-improve-my-llms 2.5.1",
+      "summary": "Crawler/SEO companion for Dash apps: /llms.txt, /robots.txt, /sitemap.xml, bot detection, static-HTML prerender, and an MCP bridge. Works with Flask, FastAPI, and Quart backends (Dash 4.1+).",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/dash-improve-my-llms/2.5.1/",
+      "published_at": "2026-08-14T22:01:18.000Z",
       "score": 58,
       "tags": [
-        "Gemini"
+        "Infra AI"
       ],
-      "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
       "id": 24,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "jcodemunch-mcp 1.108.278",
-      "summary": "Token-efficient MCP server for source code exploration via tree-sitter AST parsing",
+      "title": "cnhkmcp 4.1.3",
+      "summary": "A comprehensive Model Context Protocol (MCP) server for quantitative trading platform integration",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/jcodemunch-mcp/1.108.278/",
-      "published_at": "2026-08-14T16:42:53.000Z",
-      "score": 54,
+      "source_url": "https://pypi.org/project/cnhkmcp/4.1.3/",
+      "published_at": "2026-08-14T21:44:57.000Z",
+      "score": 58,
       "tags": [
         "Infra AI"
       ],
       "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": false
+      "relevant": true
     }
   ]
 }
