@@ -1,5 +1,27 @@
 [
   {
+    "key": "https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity",
+    "technology": "Claude",
+    "title": "Evolving Spec-Driven Development: Conductor Now Supports Antigravity",
+    "summary": "Conductor has evolved from a Gemini CLI extension into a portable plugin, bringing conversational Spec-Driven Development (SDD) to ecosystems like Antigravity CLI and Claude. Rather than relying on strict command sequences, developers can now chat naturally with their AI assistant while it dynamically manages persistent markdown artifacts...",
+    "source": "Google Developers Blog",
+    "source_url": "https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity/",
+    "published_at": "2026-08-15T09:31:37.649Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.19",
+    "technology": "Codex",
+    "title": "0.148.0-alpha.19",
+    "summary": "Release 0.148.0-alpha.19",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.19",
+    "published_at": "2026-08-15T02:21:24.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.18",
     "technology": "Codex",
     "title": "0.148.0-alpha.18",
@@ -64,6 +86,138 @@
     "published_at": "2026-08-14T14:21:50.000Z",
     "score": 72,
     "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://pypi.org/project/agentgate-firewall/0.6.0",
+    "technology": "Claude",
+    "title": "agentgate-firewall 0.6.0",
+    "summary": "Firewall for AI coding agents — intercept, log, approve every action. Works with Claude Code, Cursor, Continue.dev, Aider, and GitHub Actions.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agentgate-firewall/0.6.0/",
+    "published_at": "2026-08-14T09:28:25.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/tares/1.3.1",
+    "technology": "Infra AI",
+    "title": "tares 1.3.1",
+    "summary": "A self-hostable data plane for AI agents: ingest events, store them losslessly, and serve one correlated read of any entity over MCP.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/tares/1.3.1/",
+    "published_at": "2026-08-14T09:27:19.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/sendgrid-mcp-secure/0.1.0",
+    "technology": "Infra AI",
+    "title": "sendgrid-mcp-secure 0.1.0",
+    "summary": "Security-first MCP server for the SendGrid v3 API: two-phase sends, dry-run by default, recipient allowlists, rate limits, audit log, no BCC.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/sendgrid-mcp-secure/0.1.0/",
+    "published_at": "2026-08-14T09:26:42.000Z",
+    "score": 72,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/sendgrid-mcp-secure",
+    "technology": "Infra AI",
+    "title": "sendgrid-mcp-secure added to PyPI",
+    "summary": "Security-first MCP server for the SendGrid v3 API: two-phase sends, dry-run by default, recipient allowlists, rate limits, audit log, no BCC.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/sendgrid-mcp-secure/",
+    "published_at": "2026-08-14T09:26:42.000Z",
+    "score": 72,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/lindwyrm/0.6.0",
+    "technology": "Claude",
+    "title": "lindwyrm 0.6.0",
+    "summary": "A minimal, dependency-light CLI coding agent for any Anthropic- or OpenAI-compatible provider",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/lindwyrm/0.6.0/",
+    "published_at": "2026-08-14T09:01:10.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://biztoc.com/x/7a2694c3c1b51d1a",
+    "technology": "Claude",
+    "title": "Claude Code returns blank thinking blocks, but reasoning still costs you",
+    "summary": "Anthropic's Claude Code appears to be having trouble displaying summaries of its \"thinking,\" according to several bug reports, while the underlying reasoning tokens still cost money. According to complaints, the API has been returning empty thinking blocks fo…",
+    "source": "Biztoc.com",
+    "source_url": "https://biztoc.com/x/7a2694c3c1b51d1a",
+    "published_at": "2026-08-14T08:59:56.000Z",
+    "score": 68,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/mcp-worker-protocol",
+    "technology": "Infra AI",
+    "title": "mcp-worker-protocol added to PyPI",
+    "summary": "Protocol foundation for the MCP Worker platform: shared Pydantic models, error codes, and an async/sync Hub HTTP client.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcp-worker-protocol/",
+    "published_at": "2026-08-14T08:59:24.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/mcp-worker-protocol/1.0.0",
+    "technology": "Infra AI",
+    "title": "mcp-worker-protocol 1.0.0",
+    "summary": "Protocol foundation for the MCP Worker platform: shared Pydantic models, error codes, and an async/sync Hub HTTP client.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcp-worker-protocol/1.0.0/",
+    "published_at": "2026-08-14T08:59:24.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/ogm-mcp-skills/0.2.1",
+    "technology": "Codex",
+    "title": "ogm-mcp-skills 0.2.1",
+    "summary": "MCP Server and AI Agent Skills for OpenGraphMemory",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/ogm-mcp-skills/0.2.1/",
+    "published_at": "2026-08-14T08:56:51.000Z",
+    "score": 82,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/ogm-mcp-skills/0.2.0",
+    "technology": "Codex",
+    "title": "ogm-mcp-skills 0.2.0",
+    "summary": "MCP Server and AI Agent Skills for OpenGraphMemory",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/ogm-mcp-skills/0.2.0/",
+    "published_at": "2026-08-14T08:51:40.000Z",
+    "score": 82,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/sccs/2.58.1",
+    "technology": "Claude",
+    "title": "sccs 2.58.1",
+    "summary": "SkillsCommandsConfigsSync - Unified YAML-configured synchronization for Claude Code files",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/sccs/2.58.1/",
+    "published_at": "2026-08-14T08:50:42.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/oknoll-providers/0.3.3",
+    "technology": "Claude",
+    "title": "oknoll-providers 0.3.3",
+    "summary": "Real model providers (Anthropic API, Ollama) behind the okf-core ModelProvider seam",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/oknoll-providers/0.3.3/",
+    "published_at": "2026-08-14T08:39:12.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   },
   {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.15",
@@ -6444,159 +6598,5 @@
     "published_at": "2026-07-31T23:14:57.000Z",
     "score": 68,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/daimon-sdk/0.5.2",
-    "technology": "Infra AI",
-    "title": "daimon-sdk 0.5.2",
-    "summary": "Typed async Python SDK for daimon MCP services.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/daimon-sdk/0.5.2/",
-    "published_at": "2026-07-31T23:11:06.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/claude-archive-mcp/1.7.2",
-    "technology": "Claude",
-    "title": "claude-archive-mcp 1.7.2",
-    "summary": "Local stdio MCP server exposing unified Claude chat history (claude.ai export + Claude Code sessions) as ranked, scoped, structured search.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/claude-archive-mcp/1.7.2/",
-    "published_at": "2026-07-31T23:08:17.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/llm-mcp-client/0.1a0",
-    "technology": "Infra AI",
-    "title": "llm-mcp-client 0.1a0",
-    "summary": "Access tools from MCP servers as LLM tools",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/llm-mcp-client/0.1a0/",
-    "published_at": "2026-07-31T23:04:53.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/swarph-cli/0.41.0",
-    "technology": "OpenClaw",
-    "title": "swarph-cli 0.41.0",
-    "summary": "The `swarph` binary — a multi-LLM CLI and mesh-gateway client + bundled server (`swarph gateway`): one-shot prompts across providers, interactive `chat`, multi-provider `spawn` (claude/codex/antigravity via a ProviderMembrane with subprocess billing-scrub), `…",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/swarph-cli/0.41.0/",
-    "published_at": "2026-07-31T23:02:11.000Z",
-    "score": 94,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/aieconomy/0.1.7",
-    "technology": "Infra AI",
-    "title": "aieconomy 0.1.7",
-    "summary": "Payment-gated MCP server SDK for AI Agents — powered by x402 and Algorand.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/aieconomy/0.1.7/",
-    "published_at": "2026-07-31T22:57:45.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/clauderizer/2.0.3",
-    "technology": "Claude",
-    "title": "clauderizer 2.0.3",
-    "summary": "Drop-in, MCP-native working memory for AI agents: gameplans, phases, a dependency graph, and post-hoc cascade — over plain markdown.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/clauderizer/2.0.3/",
-    "published_at": "2026-07-31T22:50:25.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/probe-research/0.27.0",
-    "technology": "Infra AI",
-    "title": "probe-research 0.27.0",
-    "summary": "CLI + SDK + read-only MCP client for Probe Research (experiment tracking).",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/probe-research/0.27.0/",
-    "published_at": "2026-07-31T22:50:03.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-preview.1",
-    "technology": "Gemini",
-    "title": "Release v0.54.0-preview.1",
-    "summary": "## What's Changed * fix(patch): cherry-pick f47d6c6 to release/v0.54.0-preview.0-pr-28566 to patch version v0.54.0-preview.0 and create version 0.54.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28609 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.54.0-preview.0...v0.54.0-...",
-    "source": "GitHub: google-gemini/gemini-cli",
-    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-preview.1",
-    "published_at": "2026-07-31T21:39:53.000Z",
-    "score": 54,
-    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
-  },
-  {
-    "key": "https://pypi.org/project/micro-cc/0.2.41",
-    "technology": "Infra AI",
-    "title": "micro-cc 0.2.41",
-    "summary": "Harness that gives frontier models full system access — shell, filesystem, browser, MCP — running directly on the metal.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/micro-cc/0.2.41/",
-    "published_at": "2026-07-31T18:03:08.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://github.com/morluto/jacobian",
-    "technology": "Infra AI",
-    "title": "Show HN: Jacobian – I built tools to help anyone explore and solve conjectures",
-    "summary": "Jacobian: an MCP server, CLI, and Python library that gives AI agents a composable toolbox of mathematical capabilities with inspectable artifacts and independent verification. - morluto/jacobian",
-    "source": "Github.com",
-    "source_url": "https://github.com/morluto/jacobian",
-    "published_at": "2026-07-31T18:01:51.000Z",
-    "score": 66,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/hebbrix-mcp/0.3.22",
-    "technology": "Claude",
-    "title": "hebbrix-mcp 0.3.22",
-    "summary": "Hebbrix MCP server — long-term memory and knowledge graph for any MCP-compatible agent (Claude Desktop, Cline, Cursor, etc.)",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hebbrix-mcp/0.3.22/",
-    "published_at": "2026-07-31T18:00:17.000Z",
-    "score": 82,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/msmcp-azure/3.0.0b31",
-    "technology": "Infra AI",
-    "title": "msmcp-azure 3.0.0b31",
-    "summary": "Azure MCP Server - Model Context Protocol implementation for Azure",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/msmcp-azure/3.0.0b31/",
-    "published_at": "2026-07-31T18:00:12.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/choreoai-cli/0.0.5",
-    "technology": "Claude",
-    "title": "choreoai-cli 0.0.5",
-    "summary": "A Claude-Code-style coding agent harness built on choreoai.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/choreoai-cli/0.0.5/",
-    "published_at": "2026-07-31T17:58:54.000Z",
-    "score": 58,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.4",
-    "technology": "Codex",
-    "title": "0.147.0-alpha.4",
-    "summary": "Release 0.147.0-alpha.4",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.4",
-    "published_at": "2026-07-31T17:54:49.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   }
 ]
