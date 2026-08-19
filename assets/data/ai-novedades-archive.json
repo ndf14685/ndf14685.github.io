@@ -1,5 +1,16 @@
 [
   {
+    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260819.g571851b10",
+    "technology": "Gemini",
+    "title": "Release v0.56.0-nightly.20260819.g571851b10",
+    "summary": "## What's Changed * [SSR Agent] Issue Fix (28050): Add Vertex AI locations documentation link by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28865 * [SSR Agent] Issue Fix (22093): Prevent subagents from running when agents mode is disabled by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28867 *...",
+    "source": "GitHub: google-gemini/gemini-cli",
+    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260819.g571851b10",
+    "published_at": "2026-08-19T01:07:23.000Z",
+    "score": 58,
+    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.149.0-alpha.1",
     "technology": "Codex",
     "title": "0.149.0-alpha.1",
@@ -42,6 +53,127 @@
     "published_at": "2026-08-18T18:10:56.000Z",
     "score": 60,
     "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://pypi.org/project/dcc-mcp-server/0.20.8",
+    "technology": "OpenClaw",
+    "title": "dcc-mcp-server 0.20.8",
+    "summary": "Standalone dcc-mcp-server CLI binary — gateway, sidecar, stdio bridge (Rust)",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/dcc-mcp-server/0.20.8/",
+    "published_at": "2026-08-18T17:26:13.000Z",
+    "score": 78,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
+    "key": "https://pypi.org/project/nicculus-simplemcp/0.1.0",
+    "technology": "Infra AI",
+    "title": "nicculus-simplemcp 0.1.0",
+    "summary": "Installer/launcher for the simplemcp CLI (wraps mcp-client-python)",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/nicculus-simplemcp/0.1.0/",
+    "published_at": "2026-08-18T17:04:03.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/nicculus-simplemcp",
+    "technology": "Infra AI",
+    "title": "nicculus-simplemcp added to PyPI",
+    "summary": "Installer/launcher for the simplemcp CLI (wraps mcp-client-python)",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/nicculus-simplemcp/",
+    "published_at": "2026-08-18T17:03:46.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/agentknit/0.28.0",
+    "technology": "Codex",
+    "title": "agentknit 0.28.0",
+    "summary": "Build reliable coding agents for any OpenAI-compatible /chat/completions endpoint—with spec-driven tools, observability, cache verification, context compaction, and sandboxing. Less glue code, fewer crossed fingers.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agentknit/0.28.0/",
+    "published_at": "2026-08-18T16:56:48.000Z",
+    "score": 74,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/agentknit/0.27.0",
+    "technology": "Codex",
+    "title": "agentknit 0.27.0",
+    "summary": "Build reliable coding agents for any OpenAI-compatible /chat/completions endpoint—with spec-driven tools, observability, cache verification, context compaction, and sandboxing. Less glue code, fewer crossed fingers.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agentknit/0.27.0/",
+    "published_at": "2026-08-18T16:50:01.000Z",
+    "score": 74,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/asterisk-ai-agent-gateway-sdk/0.2.1",
+    "technology": "OpenClaw",
+    "title": "asterisk-ai-agent-gateway-sdk 0.2.1",
+    "summary": "Partner SDK for the Asterisk AI Agent Gateway realtime protocol v1",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/asterisk-ai-agent-gateway-sdk/0.2.1/",
+    "published_at": "2026-08-18T16:42:48.000Z",
+    "score": 82,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
+    "key": "https://pypi.org/project/agentknit/0.26.0",
+    "technology": "Codex",
+    "title": "agentknit 0.26.0",
+    "summary": "Spec-driven coding agent framework: knits tool dispatch and model calls into an agent loop for any OpenAI-compatible endpoint.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agentknit/0.26.0/",
+    "published_at": "2026-08-18T16:41:11.000Z",
+    "score": 58,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/memorymaster/4.8.0",
+    "technology": "Codex",
+    "title": "memorymaster 4.8.0",
+    "summary": "Production-grade memory reliability system for AI coding agents. Lifecycle-managed claims with citations, conflict detection, steward governance, and MCP integration.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/memorymaster/4.8.0/",
+    "published_at": "2026-08-18T16:39:14.000Z",
+    "score": 78,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/asterisk-ai-agent-gateway-sdk/0.2.0",
+    "technology": "OpenClaw",
+    "title": "asterisk-ai-agent-gateway-sdk 0.2.0",
+    "summary": "Partner SDK for the Asterisk AI Agent Gateway realtime protocol v1",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/asterisk-ai-agent-gateway-sdk/0.2.0/",
+    "published_at": "2026-08-18T16:34:21.000Z",
+    "score": 82,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
+    "key": "https://pypi.org/project/nextcloud-mcp-server/0.177.1",
+    "technology": "Infra AI",
+    "title": "nextcloud-mcp-server 0.177.1",
+    "summary": "Model Context Protocol (MCP) server for Nextcloud integration - enables AI assistants to interact with Nextcloud data",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/nextcloud-mcp-server/0.177.1/",
+    "published_at": "2026-08-18T16:31:37.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/async-hermes-agent/0.20.4.1",
+    "technology": "Codex",
+    "title": "async-hermes-agent 0.20.4.1",
+    "summary": "A native-async AI agent harness for tools, MCP, skills, memory, and trajectory generation",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/async-hermes-agent/0.20.4.1/",
+    "published_at": "2026-08-18T16:31:33.000Z",
+    "score": 82,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   },
   {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.22",
@@ -6464,138 +6596,6 @@
     "source": "Pypi.org",
     "source_url": "https://pypi.org/project/mcp-mock/",
     "published_at": "2026-08-04T11:19:21.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/rolax1212/3.0.0",
-    "technology": "Claude",
-    "title": "rolax1212 3.0.0",
-    "summary": "Agent de developpement local - style Claude Code, powered by Ollama + Groq",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/rolax1212/3.0.0/",
-    "published_at": "2026-08-04T11:17:56.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/chakatastat",
-    "technology": "Infra AI",
-    "title": "chakatastat added to PyPI",
-    "summary": "Python client for the ChakataStat analysis engine, over MCP.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/chakatastat/",
-    "published_at": "2026-08-04T11:16:06.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/mcp-local-gateway/1.3.2",
-    "technology": "OpenClaw",
-    "title": "mcp-local-gateway 1.3.2",
-    "summary": "Independent MCP gateway with per-backend proxy and virtual-tool endpoints",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/mcp-local-gateway/1.3.2/",
-    "published_at": "2026-08-04T11:03:55.000Z",
-    "score": 78,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/macaroonnetwork-mcp/0.2.0",
-    "technology": "Infra AI",
-    "title": "macaroonnetwork-mcp 0.2.0",
-    "summary": "MCP client for Macaroon Network -- discover and buy from a live marketplace where AI agents pay per query in Bitcoin over Lightning.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/macaroonnetwork-mcp/0.2.0/",
-    "published_at": "2026-08-04T11:00:53.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/duduclaw/1.51.0",
-    "technology": "Claude",
-    "title": "duduclaw 1.51.0",
-    "summary": "Open-source AI Agent platform unifying Claude / Codex / Gemini CLIs. Multi-LLM routing, 80+ MCP tools, 7 messaging channels.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/duduclaw/1.51.0/",
-    "published_at": "2026-08-04T10:59:23.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/oc-piloci/0.3.136",
-    "technology": "Infra AI",
-    "title": "oc-piloci 0.3.136",
-    "summary": "Self-hosted multi-user LLM memory service for Raspberry Pi 5. MCP-compatible.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/oc-piloci/0.3.136/",
-    "published_at": "2026-08-04T10:57:24.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/telegram-agent-mcp/0.5.0",
-    "technology": "OpenClaw",
-    "title": "telegram-agent-mcp 0.5.0",
-    "summary": "MCP server exposing a Telegram bot so LLM agents can converse, discover each other, and route tasks in a shared group chat",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/telegram-agent-mcp/0.5.0/",
-    "published_at": "2026-08-04T10:56:50.000Z",
-    "score": 78,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/lightweight-agent/0.1.12",
-    "technology": "Claude",
-    "title": "lightweight-agent 0.1.12",
-    "summary": "A lightweight LLM agent framework supporting async OpenAI and Anthropic APIs with ReAct agents, TODO-based agents, and built-in tools",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/lightweight-agent/0.1.12/",
-    "published_at": "2026-08-04T10:55:28.000Z",
-    "score": 58,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/tf-mcp-server/0.23.1",
-    "technology": "Infra AI",
-    "title": "tf-mcp-server 0.23.1",
-    "summary": "MCP server for ToothFairyAI documentation, SDK operations, and cross-workspace agent migration via @toothfairyai/cli",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/tf-mcp-server/0.23.1/",
-    "published_at": "2026-08-04T10:54:02.000Z",
-    "score": 76,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/auto-browser-client/1.6.0",
-    "technology": "Infra AI",
-    "title": "auto-browser-client 1.6.0",
-    "summary": "Python client SDK and MCP stdio bridge for Auto Browser",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/auto-browser-client/1.6.0/",
-    "published_at": "2026-08-04T10:53:18.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/marm-mcp-server/2.37.0",
-    "technology": "Claude",
-    "title": "marm-mcp-server 2.37.0",
-    "summary": "Local-first 3-in-1 AI memory layer & MCP server for Claude Code, Codex, Grok, Gemini, VS Code and Cursor. Fuses session history, codebase indexing & concept graphs in SQLite. Enables zero-cloud, privacy-first context & instant recall also works with multi-age…",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/marm-mcp-server/2.37.0/",
-    "published_at": "2026-08-04T10:45:25.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/lorekeep/0.13.2",
-    "technology": "Infra AI",
-    "title": "lorekeep 0.13.2",
-    "summary": "Temporal knowledge graph for AI agents via MCP",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/lorekeep/0.13.2/",
-    "published_at": "2026-08-04T00:06:59.000Z",
     "score": 58,
     "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   }
