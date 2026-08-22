@@ -1,5 +1,16 @@
 [
   {
+    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260822.g5411f113c",
+    "technology": "Gemini",
+    "title": "Release v0.56.0-nightly.20260822.g5411f113c",
+    "summary": "## What's Changed * fix(sandbox): isolate Docker and container runtime sockets and binaries in macOS Seatbelt by @josebalius in https://github.com/google-gemini/gemini-cli/pull/28935 ## New Contributors * @josebalius made their first contribution in https://github.com/google-gemini/gemini-cli/pull/28935 **Full Changelog**: https://github....",
+    "source": "GitHub: google-gemini/gemini-cli",
+    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260822.g5411f113c",
+    "published_at": "2026-08-22T01:10:05.000Z",
+    "score": 74,
+    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.6",
     "technology": "Codex",
     "title": "0.150.0-alpha.6",
@@ -55,6 +66,94 @@
     "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   },
   {
+    "key": "https://pypi.org/project/matrx-batch/0.2.28",
+    "technology": "Claude",
+    "title": "matrx-batch 0.2.28",
+    "summary": "Cost-shield foundation for AI workloads: OpenAI + Anthropic Batch APIs, live/batch urgency router, shared embedding cache.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/matrx-batch/0.2.28/",
+    "published_at": "2026-08-21T09:23:38.000Z",
+    "score": 68,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/agent-surface/0.1.3",
+    "technology": "Infra AI",
+    "title": "agent-surface 0.1.3",
+    "summary": "Project typed Python operations as agent-friendly CLIs, MCP tools, and schemas",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agent-surface/0.1.3/",
+    "published_at": "2026-08-21T09:20:04.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/arust/0.0.10",
+    "technology": "Codex",
+    "title": "arust 0.0.10",
+    "summary": "A project manager for coding-agent instructions, skills, and MCP servers, written in Rust.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/arust/0.0.10/",
+    "published_at": "2026-08-21T09:19:18.000Z",
+    "score": 82,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/mnemosyne-lite/0.4.1",
+    "technology": "Infra AI",
+    "title": "mnemosyne-lite 0.4.1",
+    "summary": "Local-first long-term memory for AI agents: a plain Markdown vault plus a thin MCP server. Token-efficient, plug-and-play.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mnemosyne-lite/0.4.1/",
+    "published_at": "2026-08-21T09:17:50.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/mnemosyne-lite",
+    "technology": "Infra AI",
+    "title": "mnemosyne-lite added to PyPI",
+    "summary": "Local-first long-term memory for AI agents: a plain Markdown vault plus a thin MCP server. Token-efficient, plug-and-play.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mnemosyne-lite/",
+    "published_at": "2026-08-21T09:17:50.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/probe-research/0.109.0",
+    "technology": "Infra AI",
+    "title": "probe-research 0.109.0",
+    "summary": "CLI + SDK + read-only MCP client for Probe Research (experiment tracking).",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/probe-research/0.109.0/",
+    "published_at": "2026-08-21T09:17:05.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/drissionpage-mcp/0.8.5",
+    "technology": "Claude",
+    "title": "drissionpage-mcp 0.8.5",
+    "summary": "Professional browser automation for Codex, Claude Code, and MCP clients powered by DrissionPage",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/drissionpage-mcp/0.8.5/",
+    "published_at": "2026-08-21T08:50:42.000Z",
+    "score": 98,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/trustmcp/0.1.2",
+    "technology": "Infra AI",
+    "title": "trustmcp 0.1.2",
+    "summary": "Security scanner for MCP (Model Context Protocol) servers: static (SAST), dynamic (live), and authentication-posture analysis, with an A-F score and SARIF output for the GitHub Security tab.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/trustmcp/0.1.2/",
+    "published_at": "2026-08-21T08:49:12.000Z",
+    "score": 76,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
     "key": "https://the-decoder.com/gpt-5-6-sol-drives-openais-revenue-surge-as-it-regains-ground-on-anthropic",
     "technology": "Claude",
     "title": "GPT-5.6 Sol drives OpenAI's revenue surge as it regains ground on Anthropic",
@@ -64,6 +163,50 @@
     "published_at": "2026-08-21T08:26:05.000Z",
     "score": 58,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://www.thurrott.com/a-i/340617/chatgpt-for-mac-can-now-take-control-of-apples-messages-app",
+    "technology": "Codex",
+    "title": "ChatGPT for Mac Can Now Take Control of Apple’s Messages App",
+    "summary": "OpenAI released a new Apple Messages plugin for its ChatGPT app for Mac yesterday that ChatGPT Work and Codex to search for all messages, draft replies, and send messages on users' behalf. The post ChatGPT for Mac Can Now Take Control of Apple’s Messages App…",
+    "source": "Thurrott.com",
+    "source_url": "https://www.thurrott.com/a-i/340617/chatgpt-for-mac-can-now-take-control-of-apples-messages-app",
+    "published_at": "2026-08-21T08:20:07.000Z",
+    "score": 74,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/cswap-pin/0.1.171",
+    "technology": "Claude",
+    "title": "cswap-pin 0.1.171",
+    "summary": "Keep Claude Code's Remote Control and Artifacts on one account while inference follows cswap's account swap",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/cswap-pin/0.1.171/",
+    "published_at": "2026-08-21T08:14:16.000Z",
+    "score": 70,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/iai-pme/3.0.6",
+    "technology": "Claude",
+    "title": "iai-pme 3.0.6",
+    "summary": "MCP server giving Claude persistent autistic-style memory + learning",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/iai-pme/3.0.6/",
+    "published_at": "2026-08-21T08:12:17.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/mcp-proxy-adapter/8.10.39",
+    "technology": "Infra AI",
+    "title": "mcp-proxy-adapter 8.10.39",
+    "summary": "Powerful JSON-RPC microservices framework with built-in security, authentication, proxy registration, queue-backed command execution for long-running operations, and configurable HTTP timeouts for mTLS connections",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcp-proxy-adapter/8.10.39/",
+    "published_at": "2026-08-21T08:02:32.000Z",
+    "score": 68,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   },
   {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.149.0-alpha.7.1",
@@ -6454,149 +6597,6 @@
     "source_url": "https://pypi.org/project/cchist/",
     "published_at": "2026-08-07T09:04:21.000Z",
     "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/cchist/0.3.0",
-    "technology": "Claude",
-    "title": "cchist 0.3.0",
-    "summary": "Browse, search and resume your Claude Code & Codex sessions — terminal TUI + web UI",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/cchist/0.3.0/",
-    "published_at": "2026-08-07T09:04:21.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://fstoppers.com/artificial-intelligence/anthropic-builds-chip-team-ai-demand-surges-903912",
-    "technology": "Claude",
-    "title": "Anthropic Builds a Chip Team as AI Demand Surges",
-    "summary": "Anthropic officially confirms it's building a custom chip team to develop bespoke silicon for Claude AI models. The company is hiring experienced semiconductor engineers as it joins competitors like Google, OpenAI, and Meta in the race for cost-efficient AI i…",
-    "source": "Fstoppers",
-    "source_url": "https://fstoppers.com/artificial-intelligence/anthropic-builds-chip-team-ai-demand-surges-903912",
-    "published_at": "2026-08-07T09:03:01.000Z",
-    "score": 68,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://the-decoder.com/amazon-cursor-microsoft-openai-and-vercel-unite-on-a-shared-standard-for-ai-agent-plugins",
-    "technology": "Codex",
-    "title": "Amazon, Cursor, Microsoft, OpenAI, and Vercel unite on a shared standard for AI agent plugins",
-    "summary": "Amazon, Cursor, Microsoft, OpenAI, and Vercel have jointly created Agent Plugins, an open standard that defines a single package format for AI agent extensions. Version 1.0.0 uses a plugin.json manifest file and supports both agent skills and MCP servers. The article Amazon, Cursor, Microsoft, OpenAI, and Vercel unite on a shared standard...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/amazon-cursor-microsoft-openai-and-vercel-unite-on-a-shared-standard-for-ai-agent-plugins/",
-    "published_at": "2026-08-07T08:54:45.000Z",
-    "score": 100,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://api.agishub.com/try",
-    "technology": "Infra AI",
-    "title": "Show HN: AgisHub – pay-per-call tools for AI agents over x402 (USDC on Base)",
-    "summary": "Show HN: AgisHub – 30 tools for AI agents, free via MCP, paid via x402 Comments URL: https://news.ycombinator.com/item?id=49207617 Points: 2 # Comments: 0",
-    "source": "Agishub.com",
-    "source_url": "https://api.agishub.com/try",
-    "published_at": "2026-08-07T08:51:05.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.4",
-    "technology": "Gemini",
-    "title": "Release v0.54.4",
-    "summary": "## What's Changed * fix(patch): cherry-pick 56f9688 to release/v0.54.0-pr-28700 to patch version v0.54.0 and create version 0.54.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28710 * chore: bump version to 0.54.2 by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28712 * Fix/revert version bu...",
-    "source": "GitHub: google-gemini/gemini-cli",
-    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.4",
-    "published_at": "2026-08-07T04:44:19.000Z",
-    "score": 58,
-    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.1",
-    "technology": "Codex",
-    "title": "0.148.0-alpha.1",
-    "summary": "Release 0.148.0-alpha.1",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.1",
-    "published_at": "2026-08-07T03:20:28.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-preview.2",
-    "technology": "Gemini",
-    "title": "Release v0.55.0-preview.2",
-    "summary": "## What's Changed * fix(patch): cherry-pick 2139b12 to release/v0.55.0-preview.1-pr-28716 to patch version v0.55.0-preview.1 and create version 0.55.0-preview.2 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28719 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.0-preview.1...v0.55.0-...",
-    "source": "GitHub: google-gemini/gemini-cli",
-    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-preview.2",
-    "published_at": "2026-08-07T02:50:25.000Z",
-    "score": 54,
-    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
-  },
-  {
-    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260807.gd5c9a97dc",
-    "technology": "Gemini",
-    "title": "Release v0.56.0-nightly.20260807.gd5c9a97dc",
-    "summary": "## What's Changed * Changelog for v0.55.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28706 * chore(release): bump version to 0.56.0-nightly.20260806.g761f604c1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28707 * Changelog for v0.54.0 by @gemini-cli-robot in https://githu...",
-    "source": "GitHub: google-gemini/gemini-cli",
-    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260807.gd5c9a97dc",
-    "published_at": "2026-08-07T02:13:18.000Z",
-    "score": 54,
-    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
-  },
-  {
-    "key": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more",
-    "technology": "Codex",
-    "title": "Agent Plugins package your skills, tools, and more",
-    "summary": "Agent Plugins 1.0.0 is a new, vendor-neutral directory specification—backed by Google, Amazon, Microsoft, and others—for packaging Agent Skills and MCP servers into a single portable unit. By standardizing the manifest (plugin.json) and utilizing a fixed directory layout, it eliminates the need for developers to maintain separate wrappers...",
-    "source": "Google Developers Blog",
-    "source_url": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more/",
-    "published_at": "2026-08-07T01:42:35.606Z",
-    "score": 82,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.147.0",
-    "technology": "Codex",
-    "title": "0.147.0",
-    "summary": "## New Features - Install portable Agent Plugins and search across local, personal, workspace, and remote plugin catalogs. (#36544, #36409, #36919, #36796) - Organize conversations into persistent, manually ordered sections and browse long transcripts incrementally. (#35722, #36007, #36380, #36948, #36950) - Enable automatically reviewed...",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.147.0",
-    "published_at": "2026-08-07T01:41:49.000Z",
-    "score": 94,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/hol-guard/3.0.0a7",
-    "technology": "Codex",
-    "title": "hol-guard 3.0.0a7",
-    "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hol-guard/3.0.0a7/",
-    "published_at": "2026-08-06T23:32:32.000Z",
-    "score": 82,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/pretorin/0.28.1",
-    "technology": "Infra AI",
-    "title": "pretorin 0.28.1",
-    "summary": "CLI and MCP server for Pretorin Compliance API",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/pretorin/0.28.1/",
-    "published_at": "2026-08-06T23:30:00.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/memoryintelligence-mcp/0.2.8",
-    "technology": "Claude",
-    "title": "memoryintelligence-mcp 0.2.8",
-    "summary": "MCP server for MemoryIntelligence — give Claude a memory you own, set up in one command",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/memoryintelligence-mcp/0.2.8/",
-    "published_at": "2026-08-06T23:18:52.000Z",
-    "score": 74,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   }
 ]
