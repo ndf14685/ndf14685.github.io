@@ -1,5 +1,16 @@
 [
   {
+    "key": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more",
+    "technology": "Codex",
+    "title": "Agent Plugins package your skills, tools, and more",
+    "summary": "Agent Plugins 1.0.0 is a new, vendor-neutral directory specification—backed by Google, Amazon, Microsoft, and others—for packaging Agent Skills and MCP servers into a single portable unit. By standardizing the manifest (plugin.json) and utilizing a fixed directory layout, it eliminates the need for developers to maintain separate wrappers...",
+    "source": "Google Developers Blog",
+    "source_url": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more/",
+    "published_at": "2026-08-22T17:26:11.723Z",
+    "score": 82,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260822.g5411f113c",
     "technology": "Gemini",
     "title": "Release v0.56.0-nightly.20260822.g5411f113c",
@@ -44,6 +55,116 @@
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   },
   {
+    "key": "https://pypi.org/project/llm/0.32.1",
+    "technology": "Claude",
+    "title": "llm 0.32.1",
+    "summary": "CLI utility and Python library for interacting with Large Language Models from organizations like OpenAI, Anthropic and Gemini plus local models installed on your own machine.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/llm/0.32.1/",
+    "published_at": "2026-08-21T17:22:09.000Z",
+    "score": 82,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/inspeximus/2.19.0",
+    "technology": "Infra AI",
+    "title": "inspeximus 2.19.0",
+    "summary": "The self-correcting memory layer for AI agents: when a fact is corrected, Inspeximus serves the new value and resists the old one resurfacing. Zero-dependency single file + MCP server — value-ranked recall, per-type decay, consolidation, revert, and tamper-ev…",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/inspeximus/2.19.0/",
+    "published_at": "2026-08-21T17:20:02.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/cite-mcp/0.0.1",
+    "technology": "Infra AI",
+    "title": "cite-mcp 0.0.1",
+    "summary": "Agents that cite — or stay silent. Shell for cited-data MCP across swamplink corpora.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/cite-mcp/0.0.1/",
+    "published_at": "2026-08-21T17:19:25.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/scubiee/0.2.29",
+    "technology": "Infra AI",
+    "title": "scubiee 0.2.29",
+    "summary": "Scubiee — local Cursor MCP context engine: setup once, ctx init per repo, DirectML/MLX/CUDA/CPU.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/scubiee/0.2.29/",
+    "published_at": "2026-08-21T17:18:24.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/content-mcp/0.6.2",
+    "technology": "Infra AI",
+    "title": "content-mcp 0.6.2",
+    "summary": "Official MCP server for the Content engine (agentic facade over the SDK).",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/content-mcp/0.6.2/",
+    "published_at": "2026-08-21T17:07:42.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/openzim-mcp/3.1.0",
+    "technology": "Infra AI",
+    "title": "openzim-mcp 3.1.0",
+    "summary": "OpenZIM MCP - ZIM MCP Server that enables AI models to access and search ZIM format knowledge bases offline",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/openzim-mcp/3.1.0/",
+    "published_at": "2026-08-21T16:56:00.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/content-mcp/0.6.1",
+    "technology": "Infra AI",
+    "title": "content-mcp 0.6.1",
+    "summary": "Official MCP server for the Content engine (agentic facade over the SDK).",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/content-mcp/0.6.1/",
+    "published_at": "2026-08-21T16:53:18.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://github.com/proliferate-ai/proliferate",
+    "technology": "Claude",
+    "title": "Show HN: Proliferate- open-source, self-hostable Codex for any coding agent",
+    "summary": "Hi HN- I'm Pablo, the founder of Proliferate!Proliferate (https://github.com/proliferate-ai/proliferate) is an open-source, self-hostable AI IDE that lets you work and automate tasks with Claude Code, Codex, OpenCode, Cursor, and Grok in one place.Here's a qu…",
+    "source": "Github.com",
+    "source_url": "https://github.com/proliferate-ai/proliferate",
+    "published_at": "2026-08-21T16:47:15.000Z",
+    "score": 82,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/zevruna/0.2.0",
+    "technology": "Infra AI",
+    "title": "zevruna 0.2.0",
+    "summary": "Execution traces for AI agents on the Zevruna protocol — models, tools, APIs, databases and MCP on one timeline. Timings and step names only, never arguments.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/zevruna/0.2.0/",
+    "published_at": "2026-08-21T16:46:46.000Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/zevruna",
+    "technology": "Infra AI",
+    "title": "zevruna added to PyPI",
+    "summary": "Execution traces for AI agents on the Zevruna protocol — models, tools, APIs, databases and MCP on one timeline. Timings and step names only, never arguments.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/zevruna/",
+    "published_at": "2026-08-21T16:46:46.000Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.3",
     "technology": "Codex",
     "title": "0.150.0-alpha.3",
@@ -52,6 +173,28 @@
     "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.3",
     "published_at": "2026-08-21T16:43:40.000Z",
     "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/bb-mcp-server/1.9.2",
+    "technology": "Infra AI",
+    "title": "bb-mcp-server 1.9.2",
+    "summary": "Bitbucket MCP (Model Context Protocol) server built with FastMCP that provides programmatic access to Bitbucket API v2.0",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/bb-mcp-server/1.9.2/",
+    "published_at": "2026-08-21T16:36:30.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/openstudio-ai/0.1.6",
+    "technology": "Codex",
+    "title": "openstudio-ai 0.1.6",
+    "summary": "OpenStudio AI harness with MCP runtime, host adapters, skills, and knowledge.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/openstudio-ai/0.1.6/",
+    "published_at": "2026-08-21T16:35:50.000Z",
+    "score": 78,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   },
   {
@@ -6453,149 +6596,6 @@
     "source": "Pypi.org",
     "source_url": "https://pypi.org/project/harness-maker/0.50.0/",
     "published_at": "2026-08-07T17:00:26.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/merge-cli/3.12.0",
-    "technology": "Infra AI",
-    "title": "merge-cli 3.12.0",
-    "summary": "MERGE variant pathogenicity prediction CLI: 4 variant types, 14 model features, local/remote modes, MCP server",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/merge-cli/3.12.0/",
-    "published_at": "2026-08-07T17:00:10.000Z",
-    "score": 66,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/blender-mcp-connect",
-    "technology": "Infra AI",
-    "title": "blender-mcp-connect added to PyPI",
-    "summary": "MCP server for Blender with automatic local instance discovery (unofficial downstream of Blender Lab MCP)",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/blender-mcp-connect/",
-    "published_at": "2026-08-07T16:55:46.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/healthcloud-cli/2.0.0",
-    "technology": "OpenClaw",
-    "title": "healthcloud-cli 2.0.0",
-    "summary": "Command-line interface for the HealthCloud MCP gateway, generated from the shared MCP tool manifest.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/healthcloud-cli/2.0.0/",
-    "published_at": "2026-08-07T09:43:52.000Z",
-    "score": 78,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/ciso-assistant-api/2.0.0",
-    "technology": "Infra AI",
-    "title": "ciso-assistant-api 2.0.0",
-    "summary": "CISO Assistant API + MCP Server + A2A Agent — 100% API coverage",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/ciso-assistant-api/2.0.0/",
-    "published_at": "2026-08-07T09:43:13.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/probe-research/0.66.0",
-    "technology": "Infra AI",
-    "title": "probe-research 0.66.0",
-    "summary": "CLI + SDK + read-only MCP client for Probe Research (experiment tracking).",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/probe-research/0.66.0/",
-    "published_at": "2026-08-07T09:34:02.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.2",
-    "technology": "Codex",
-    "title": "0.148.0-alpha.2",
-    "summary": "Release 0.148.0-alpha.2",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.2",
-    "published_at": "2026-08-07T09:23:15.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://the-decoder.com/openai-reportedly-slows-research-after-its-own-models-secretly-coordinated-hacks-for-weeks-undetected",
-    "technology": "ChatGPT / OpenAI",
-    "title": "OpenAI reportedly slows research after its own models secretly coordinated hacks for weeks undetected",
-    "summary": "During internal security tests, OpenAI's AI agents built their own message board with hundreds of thousands of posts, shared exploits and credentials, and eventually attacked external platforms like Hugging Face. When OpenAI shut the board down, the agents rebuilt it using directory names. OpenAI researcher Boaz Barak says, \"We (like ever...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/openai-reportedly-slows-research-after-its-own-models-secretly-coordinated-hacks-for-weeks-undetected/",
-    "published_at": "2026-08-07T09:22:26.000Z",
-    "score": 52,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
-  },
-  {
-    "key": "https://pypi.org/project/vicsia-studio-mcp/1.3.8b22",
-    "technology": "Claude",
-    "title": "vicsia-studio-mcp 1.3.8b22",
-    "summary": "MCP server for Vicsia Studio — control your voice agents from Claude",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/vicsia-studio-mcp/1.3.8b22/",
-    "published_at": "2026-08-07T09:19:41.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/hanary-mcp/0.23.0",
-    "technology": "Claude",
-    "title": "hanary-mcp 0.23.0",
-    "summary": "Hanary MCP Server - Task management for Claude Code, OpenCode & OpenAI Codex",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hanary-mcp/0.23.0/",
-    "published_at": "2026-08-07T09:18:23.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/hyperforge-mcp/1.0.0.post86",
-    "technology": "Infra AI",
-    "title": "hyperforge-mcp 1.0.0.post86",
-    "summary": "Conditional Hyperforge agent",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hyperforge-mcp/1.0.0.post86/",
-    "published_at": "2026-08-07T09:13:31.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/nvidia-nat-mcp/1.9.0a20260807",
-    "technology": "Infra AI",
-    "title": "nvidia-nat-mcp 1.9.0a20260807",
-    "summary": "Subpackage for MCP client integration in NeMo Agent Toolkit",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/nvidia-nat-mcp/1.9.0a20260807/",
-    "published_at": "2026-08-07T09:11:51.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/shillok-mcp/0.2.0",
-    "technology": "Infra AI",
-    "title": "shillok-mcp 0.2.0",
-    "summary": "Shillok MCP server — stdio wrapper over the REST API",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/shillok-mcp/0.2.0/",
-    "published_at": "2026-08-07T09:07:43.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/cchist",
-    "technology": "Claude",
-    "title": "cchist added to PyPI",
-    "summary": "Browse, search and resume your Claude Code & Codex sessions — terminal TUI + web UI",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/cchist/",
-    "published_at": "2026-08-07T09:04:21.000Z",
     "score": 70,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   }
