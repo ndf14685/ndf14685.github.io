@@ -1,5 +1,27 @@
 [
   {
+    "key": "https://developers.googleblog.com/how-to-evaluate-live-voice-agents-in-adk",
+    "technology": "ChatGPT / OpenAI",
+    "title": "How to Evaluate Live & Voice Agents in ADK",
+    "summary": "Moving live voice agents from demo to production requires rigorous, automated testing to handle the unpredictability of real multi-turn conversations. ADK now provides native live evaluation, allowing developers to test graph-based agent workflows against LLM-driven simulated users that generate actual audio via Gemini TTS. By defining ev...",
+    "source": "Google Developers Blog",
+    "source_url": "https://developers.googleblog.com/how-to-evaluate-live-voice-agents-in-adk/",
+    "published_at": "2026-08-24T23:27:11.306Z",
+    "score": 82,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.8",
+    "technology": "Codex",
+    "title": "0.150.0-alpha.8",
+    "summary": "Release 0.150.0-alpha.8",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.8",
+    "published_at": "2026-08-24T22:11:43.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://the-decoder.com/thomson-reuters-bets-40m-on-owning-its-ai-instead-of-renting-from-openai-or-anthropic",
     "technology": "Claude",
     "title": "Thomson Reuters bets $40M on owning its AI instead of renting from OpenAI or Anthropic",
@@ -41,6 +63,127 @@
     "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.149.0-alpha.4.3",
     "published_at": "2026-08-23T23:29:33.000Z",
     "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/verdict-mcp/0.1.0a1",
+    "technology": "Codex",
+    "title": "verdict-mcp 0.1.0a1",
+    "summary": "Structured, sandboxed verification feedback for coding agents. An MCP server that turns raw test/lint output into tiny, typed verdicts with failure fingerprints and history.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/verdict-mcp/0.1.0a1/",
+    "published_at": "2026-08-23T23:20:51.000Z",
+    "score": 78,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/verdict-mcp",
+    "technology": "Codex",
+    "title": "verdict-mcp added to PyPI",
+    "summary": "Structured, sandboxed verification feedback for coding agents. An MCP server that turns raw test/lint output into tiny, typed verdicts with failure fingerprints and history.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/verdict-mcp/",
+    "published_at": "2026-08-23T23:20:46.000Z",
+    "score": 78,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/grains-mcp/0.1.0",
+    "technology": "Claude",
+    "title": "grains-mcp 0.1.0",
+    "summary": "MCP server for Grains: build and deploy hosted AI agents without leaving Claude.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/grains-mcp/0.1.0/",
+    "published_at": "2026-08-23T23:10:50.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/grains-mcp",
+    "technology": "Claude",
+    "title": "grains-mcp added to PyPI",
+    "summary": "MCP server for Grains: build and deploy hosted AI agents without leaving Claude.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/grains-mcp/",
+    "published_at": "2026-08-23T23:10:50.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://kitploit.com/en/posts/github-ascit31-dark-moon-v131",
+    "technology": "OpenClaw",
+    "title": "Dark-Moon v1.3.1",
+    "summary": "Autonomous AI penetration testing platform with agentic reasoning, privacy gateway, and 50+ integrated tools for continuous offensive security across web, cloud, AD, and Kubernetes environments.",
+    "source": "Kitploit.com",
+    "source_url": "https://kitploit.com/en/posts/github-ascit31-dark-moon-v131",
+    "published_at": "2026-08-23T22:31:39.000Z",
+    "score": 68,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
+    "key": "https://pypi.org/project/charter-cp/0.51.0",
+    "technology": "Claude",
+    "title": "charter-cp 0.51.0",
+    "summary": "Personas, workspaces and memory for coding agents across many repos — Claude Code, opencode and Codex",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/charter-cp/0.51.0/",
+    "published_at": "2026-08-23T22:25:28.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/hol-guard/3.0.0a236",
+    "technology": "Codex",
+    "title": "hol-guard 3.0.0a236",
+    "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/hol-guard/3.0.0a236/",
+    "published_at": "2026-08-23T22:18:56.000Z",
+    "score": 82,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/nightowl-security/8.2.3",
+    "technology": "Infra AI",
+    "title": "nightowl-security 8.2.3",
+    "summary": "NightOwl - Unified Android Security Analysis Platform: validated secrets, auth mapping, subscription enforcement, packer fingerprinting, privacy audit, SCA/SBOM, dynamic lab, MCP agent bridge",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/nightowl-security/8.2.3/",
+    "published_at": "2026-08-23T22:16:03.000Z",
+    "score": 72,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/openminion/0.0.11",
+    "technology": "Codex",
+    "title": "openminion 0.0.11",
+    "summary": "Local-first agent framework with brain, memory, A2A, MCP, and skills",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/openminion/0.0.11/",
+    "published_at": "2026-08-23T22:06:40.000Z",
+    "score": 86,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/dulus/3.11.11",
+    "technology": "OpenClaw",
+    "title": "dulus 3.11.11",
+    "summary": "Provider-independent agent runtime for the terminal — cloud and local models, real tools, MCP, plugins, memory, sub-agents, and Dulus OS.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/dulus/3.11.11/",
+    "published_at": "2026-08-23T22:04:19.000Z",
+    "score": 86,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
+    "key": "https://slashdot.org/submission/17350146/who-is-tibo-the-openai-rockstar-blessing-codex-users-with-usage-resets",
+    "technology": "Codex",
+    "title": "WHO IS TIBO? THE OPENAI ROCKSTAR BLESSING CODEX USERS WITH USAGE RESETS",
+    "summary": "An OpenAI product leader has somehow become a rockstar among Codex users. Thibault Tibo Sottiaux has more than 500,000 followers, and his repeated usage resets have become such a big part of Codex culture that some developers actually plan their AI usage arou…",
+    "source": "Slashdot.org",
+    "source_url": "https://slashdot.org/submission/17350146/who-is-tibo-the-openai-rockstar-blessing-codex-users-with-usage-resets",
+    "published_at": "2026-08-23T21:52:17.000Z",
+    "score": 70,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   },
   {
@@ -6455,148 +6598,5 @@
     "published_at": "2026-08-09T17:08:32.000Z",
     "score": 100,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://github.com/ademisler/runonmine",
-    "technology": "OpenClaw",
-    "title": "Show HN: RunOnMine – local policy and approvals for AI access to your machine",
-    "summary": "Local-first MCP security gateway for controlled AI access to files, terminals, browsers and desktop apps on machines you own. - ademisler/RunOnMine",
-    "source": "Github.com",
-    "source_url": "https://github.com/ademisler/RunOnMine",
-    "published_at": "2026-08-09T17:05:08.000Z",
-    "score": 96,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/cdx-manager/0.16.0",
-    "technology": "Claude",
-    "title": "cdx-manager 0.16.0",
-    "summary": "Terminal session manager for Codex and Claude accounts.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/cdx-manager/0.16.0/",
-    "published_at": "2026-08-09T17:04:41.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/ableton-ai/1.3.0",
-    "technology": "Infra AI",
-    "title": "ableton-ai 1.3.0",
-    "summary": "Control Ableton Live from an AI assistant via MCP: tracks, devices, clips, automation, and generative MIDI with per-note probability.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/ableton-ai/1.3.0/",
-    "published_at": "2026-08-09T17:04:16.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/chaitanya-agentic-terminal",
-    "technology": "Infra AI",
-    "title": "chaitanya-agentic_terminal added to PyPI",
-    "summary": "An MCP which adds terminal capabilities to an agent.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/chaitanya-agentic-terminal/",
-    "published_at": "2026-08-09T17:04:13.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/hol-guard/2.2.44",
-    "technology": "Codex",
-    "title": "hol-guard 2.2.44",
-    "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hol-guard/2.2.44/",
-    "published_at": "2026-08-09T17:01:47.000Z",
-    "score": 82,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/swarph-cli/0.42.3",
-    "technology": "OpenClaw",
-    "title": "swarph-cli 0.42.3",
-    "summary": "The `swarph` binary — a multi-LLM CLI and mesh-gateway client + bundled server (`swarph gateway`): one-shot prompts across providers, interactive `chat`, multi-provider `spawn` (claude/codex/antigravity via a ProviderMembrane with subprocess billing-scrub), `…",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/swarph-cli/0.42.3/",
-    "published_at": "2026-08-09T16:48:02.000Z",
-    "score": 94,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/nousergon-lib/0.124.40",
-    "technology": "Claude",
-    "title": "nousergon-lib 0.124.40",
-    "summary": "Shared utilities for the Nous Ergon (Crucible) modules: preflight, logging, ArcticDB, dates, decision capture, cost telemetry, Anthropic payload chokepoint, artifact freshness, windowed artifact resolution, RAG, agent schemas, SSM secrets, Telegram + SNS aler…",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/nousergon-lib/0.124.40/",
-    "published_at": "2026-08-09T16:42:19.000Z",
-    "score": 68,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/swarph-cli/0.42.2",
-    "technology": "OpenClaw",
-    "title": "swarph-cli 0.42.2",
-    "summary": "The `swarph` binary — a multi-LLM CLI and mesh-gateway client + bundled server (`swarph gateway`): one-shot prompts across providers, interactive `chat`, multi-provider `spawn` (claude/codex/antigravity via a ProviderMembrane with subprocess billing-scrub), `…",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/swarph-cli/0.42.2/",
-    "published_at": "2026-08-09T16:37:35.000Z",
-    "score": 94,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/hol-guard/3.0.0a34",
-    "technology": "Codex",
-    "title": "hol-guard 3.0.0a34",
-    "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hol-guard/3.0.0a34/",
-    "published_at": "2026-08-09T16:35:20.000Z",
-    "score": 82,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/hol-guard/2.2.43",
-    "technology": "Codex",
-    "title": "hol-guard 2.2.43",
-    "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hol-guard/2.2.43/",
-    "published_at": "2026-08-09T16:33:18.000Z",
-    "score": 82,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/withings-mcp/0.4.0",
-    "technology": "Infra AI",
-    "title": "withings-mcp 0.4.0",
-    "summary": "MCP server for the Withings Health API with OAuth, local cache, and trend analysis.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/withings-mcp/0.4.0/",
-    "published_at": "2026-08-09T10:21:46.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/manim-web-mcp/2.0.13",
-    "technology": "Infra AI",
-    "title": "manim-web-mcp 2.0.13",
-    "summary": "AI-driven manim animation engine — MCP protocol, real-time browser preview, session persistence, bundled optimized manim",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/manim-web-mcp/2.0.13/",
-    "published_at": "2026-08-09T10:17:55.000Z",
-    "score": 54,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/mcportal/0.2.1",
-    "technology": "Infra AI",
-    "title": "mcportal 0.2.1",
-    "summary": "Quota-guarded runtime layer bridging Korean public data APIs (data.go.kr) into the MCP ecosystem",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/mcportal/0.2.1/",
-    "published_at": "2026-08-09T10:07:59.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   }
 ]
