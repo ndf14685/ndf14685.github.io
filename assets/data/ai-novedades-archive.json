@@ -1,5 +1,38 @@
 [
   {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.153.2",
+    "technology": "Codex",
+    "title": "0.153.2",
+    "summary": "## Bug Fixes - Corrected the GPT-6-Astra Fast tier description to say “2x speed, increased usage” instead of “1.5x.” This changes only the displayed text, not how requests run. (#42632) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.153.1...rust-v0.153.2 - #42632 Fix GPT-6-Astra Fast tier description for 0.15...",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.153.2",
+    "published_at": "2026-09-03T23:53:12.000Z",
+    "score": 86,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.2",
+    "technology": "Codex",
+    "title": "0.154.0-alpha.2",
+    "summary": "Release 0.154.0-alpha.2",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.2",
+    "published_at": "2026-09-03T21:58:27.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.153.1",
+    "technology": "Codex",
+    "title": "0.153.1",
+    "summary": "## New Features - Added support for configuring GPT-6-Astra through the API without changing the default model or showing it in the model picker. (#42605) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.153.0...rust-v0.153.1 - #42605 Backport GPT-6-Astra model catalog to 0.153 @anp-oai",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.153.1",
+    "published_at": "2026-09-03T21:02:56.000Z",
+    "score": 94,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.1",
     "technology": "Codex",
     "title": "0.154.0-alpha.1",
@@ -22,6 +55,39 @@
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   },
   {
+    "key": "https://pypi.org/project/reverse-engineering-assistant/7.3.1",
+    "technology": "Claude",
+    "title": "reverse-engineering-assistant 7.3.1",
+    "summary": "ReVa - AI-powered Reverse Engineering Assistant for Ghidra with MCP server and Claude CLI integration",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/reverse-engineering-assistant/7.3.1/",
+    "published_at": "2026-09-03T00:51:30.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/memnest-mcp/0.11.0",
+    "technology": "Infra AI",
+    "title": "memnest-mcp 0.11.0",
+    "summary": "Persistent graph memory MCP server for AI agents using LadybugDB",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/memnest-mcp/0.11.0/",
+    "published_at": "2026-09-03T00:50:56.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/mcp-plugin/0.1.4",
+    "technology": "OpenClaw",
+    "title": "mcp-plugin 0.1.4",
+    "summary": "Standalone MCP gateway — persistent connections to external MCP servers",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcp-plugin/0.1.4/",
+    "published_at": "2026-09-03T00:46:54.000Z",
+    "score": 74,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.153.0-alpha.5.1",
     "technology": "Codex",
     "title": "0.153.0-alpha.5.1",
@@ -31,6 +97,94 @@
     "published_at": "2026-09-03T00:41:36.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/memstack-skill-loader/4.18.1",
+    "technology": "Codex",
+    "title": "memstack-skill-loader 4.18.1",
+    "summary": "MCP server that vector-indexes MemStack Pro skills for on-demand loading",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/memstack-skill-loader/4.18.1/",
+    "published_at": "2026-09-03T00:39:51.000Z",
+    "score": 78,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/probe-research/0.134.0",
+    "technology": "Infra AI",
+    "title": "probe-research 0.134.0",
+    "summary": "CLI + SDK + read-only MCP client for Probe Research (experiment tracking).",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/probe-research/0.134.0/",
+    "published_at": "2026-09-03T00:35:09.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/garmin-local-mcp/0.1.6",
+    "technology": "Infra AI",
+    "title": "garmin-local-mcp 0.1.6",
+    "summary": "Local-first Garmin data warehouse with an analysis-grade MCP server. Sync once, analyze forever - even when the API is down.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/garmin-local-mcp/0.1.6/",
+    "published_at": "2026-09-03T00:24:51.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/fraime-mcp/1.1.1",
+    "technology": "ChatGPT / OpenAI",
+    "title": "fraime-mcp 1.1.1",
+    "summary": "MCP server exposing the Fraime video, image, and voice generation API to agentic workflows",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/fraime-mcp/1.1.1/",
+    "published_at": "2026-09-03T00:22:03.000Z",
+    "score": 86,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://pypi.org/project/hol-guard/3.0.51",
+    "technology": "Codex",
+    "title": "hol-guard 3.0.51",
+    "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/hol-guard/3.0.51/",
+    "published_at": "2026-09-03T00:18:47.000Z",
+    "score": 82,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/zebbern-kali-mcp/1.0.10",
+    "technology": "Infra AI",
+    "title": "zebbern-kali-mcp 1.0.10",
+    "summary": "Capability-aware MCP client for a Docker-hosted Kali Linux tools API",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/zebbern-kali-mcp/1.0.10/",
+    "published_at": "2026-09-03T00:08:05.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/srclight/0.23.0",
+    "technology": "Infra AI",
+    "title": "srclight 0.23.0",
+    "summary": "Deep code indexing for AI agents. SQLite FTS5 + tree-sitter + embeddings + MCP.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/srclight/0.23.0/",
+    "published_at": "2026-09-03T00:00:49.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/srclight/0.22.2",
+    "technology": "Infra AI",
+    "title": "srclight 0.22.2",
+    "summary": "Deep code indexing for AI agents. SQLite FTS5 + tree-sitter + embeddings + MCP.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/srclight/0.22.2/",
+    "published_at": "2026-09-02T23:59:58.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   },
   {
     "key": "https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions",
@@ -6444,159 +6598,5 @@
     "published_at": "2026-08-18T16:50:01.000Z",
     "score": 74,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/asterisk-ai-agent-gateway-sdk/0.2.1",
-    "technology": "OpenClaw",
-    "title": "asterisk-ai-agent-gateway-sdk 0.2.1",
-    "summary": "Partner SDK for the Asterisk AI Agent Gateway realtime protocol v1",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/asterisk-ai-agent-gateway-sdk/0.2.1/",
-    "published_at": "2026-08-18T16:42:48.000Z",
-    "score": 82,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/agentknit/0.26.0",
-    "technology": "Codex",
-    "title": "agentknit 0.26.0",
-    "summary": "Spec-driven coding agent framework: knits tool dispatch and model calls into an agent loop for any OpenAI-compatible endpoint.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/agentknit/0.26.0/",
-    "published_at": "2026-08-18T16:41:11.000Z",
-    "score": 58,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/memorymaster/4.8.0",
-    "technology": "Codex",
-    "title": "memorymaster 4.8.0",
-    "summary": "Production-grade memory reliability system for AI coding agents. Lifecycle-managed claims with citations, conflict detection, steward governance, and MCP integration.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/memorymaster/4.8.0/",
-    "published_at": "2026-08-18T16:39:14.000Z",
-    "score": 78,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/asterisk-ai-agent-gateway-sdk/0.2.0",
-    "technology": "OpenClaw",
-    "title": "asterisk-ai-agent-gateway-sdk 0.2.0",
-    "summary": "Partner SDK for the Asterisk AI Agent Gateway realtime protocol v1",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/asterisk-ai-agent-gateway-sdk/0.2.0/",
-    "published_at": "2026-08-18T16:34:21.000Z",
-    "score": 82,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/nextcloud-mcp-server/0.177.1",
-    "technology": "Infra AI",
-    "title": "nextcloud-mcp-server 0.177.1",
-    "summary": "Model Context Protocol (MCP) server for Nextcloud integration - enables AI assistants to interact with Nextcloud data",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/nextcloud-mcp-server/0.177.1/",
-    "published_at": "2026-08-18T16:31:37.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/async-hermes-agent/0.20.4.1",
-    "technology": "Codex",
-    "title": "async-hermes-agent 0.20.4.1",
-    "summary": "A native-async AI agent harness for tools, MCP, skills, memory, and trajectory generation",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/async-hermes-agent/0.20.4.1/",
-    "published_at": "2026-08-18T16:31:33.000Z",
-    "score": 82,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.22",
-    "technology": "Codex",
-    "title": "0.148.0-alpha.22",
-    "summary": "Release 0.148.0-alpha.22",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.22",
-    "published_at": "2026-08-18T13:30:36.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://openai.com/index/partnering-with-codeai",
-    "technology": "Codex",
-    "title": "Partnering with CodeAI to prepare the first AI generation",
-    "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
-    "source": "OpenAI News",
-    "source_url": "https://openai.com/index/partnering-with-codeai",
-    "published_at": "2026-08-18T11:00:00.000Z",
-    "score": 54,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://the-decoder.com/anthropics-per-token-cost-runs-4-4-times-the-average-on-vercel-and-developers-keep-paying",
-    "technology": "OpenClaw",
-    "title": "Anthropic's per-token cost runs 4.4 times the average on Vercel, and developers keep paying",
-    "summary": "Anthropic dominated Vercel's AI Gateway spending in July, pulling in 65.1 percent of total revenue while accounting for only 30 percent of tokens processed. Its tokens cost 4.4 times as much as those from competing providers on average. The article Anthropic's per-token cost runs 4.4 times the average on Vercel, and developers keep paying...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/anthropics-per-token-cost-runs-4-4-times-the-average-on-vercel-and-developers-keep-paying/",
-    "published_at": "2026-08-18T10:45:00.000Z",
-    "score": 64,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://the-decoder.com/claude-code-gets-a-design-command-that-lets-developers-create-ui-mockups-right-in-the-terminal",
-    "technology": "Claude",
-    "title": "Claude Code gets a /design command that lets developers create UI mockups right in the terminal",
-    "summary": "With the /design command, Anthropic brings a visual design workflow directly into Claude Code. Developers can generate UI mockups as artboards right in the terminal before writing any code. Claude reads the existing codebase and matches the current UI style. The article Claude Code gets a /design command that lets developers create UI moc...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/claude-code-gets-a-design-command-that-lets-developers-create-ui-mockups-right-in-the-terminal/",
-    "published_at": "2026-08-18T10:06:16.000Z",
-    "score": 50,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/contextlake/7.23.0",
-    "technology": "Infra AI",
-    "title": "contextlake 7.23.0",
-    "summary": "A local context layer for AI tools: mirror your repositories, index them into a knowledge graph, and serve it over MCP so agents answer from real source instead of guessing.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/contextlake/7.23.0/",
-    "published_at": "2026-08-18T09:38:31.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/offnadir-delta/0.8.0",
-    "technology": "Infra AI",
-    "title": "offnadir-delta 0.8.0",
-    "summary": "Official Python SDK for the Off-Nadir Delta geospatial event-intelligence API and MCP server.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/offnadir-delta/0.8.0/",
-    "published_at": "2026-08-18T09:18:27.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/mcp-asr",
-    "technology": "ChatGPT / OpenAI",
-    "title": "mcp-asr added to PyPI",
-    "summary": "A secure stdio MCP server for OpenAI-compatible ASR endpoints",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/mcp-asr/",
-    "published_at": "2026-08-18T09:11:28.000Z",
-    "score": 74,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
-  },
-  {
-    "key": "https://pypi.org/project/mcp-asr/0.1.0",
-    "technology": "ChatGPT / OpenAI",
-    "title": "mcp-asr 0.1.0",
-    "summary": "A secure stdio MCP server for OpenAI-compatible ASR endpoints",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/mcp-asr/0.1.0/",
-    "published_at": "2026-08-18T09:11:28.000Z",
-    "score": 74,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
   }
 ]
