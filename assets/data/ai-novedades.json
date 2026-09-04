@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T13:22:58.147Z",
+  "generated_at": "2026-09-04T19:22:18.303Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -11,9 +11,9 @@
     "Infra AI"
   ],
   "source_counts": {
-    "rss": 39,
+    "rss": 37,
     "github": 9,
-    "newsapi": 49
+    "newsapi": 50
   },
   "digest": {
     "has_relevant_items": true,
@@ -49,17 +49,17 @@
       },
       {
         "technology": "Codex",
+        "title": "0.153.3",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 90,
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.153.3"
+      },
+      {
+        "technology": "Codex",
         "title": "0.154.0-alpha.3",
         "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
         "score": 90,
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.3"
-      },
-      {
-        "technology": "Codex",
-        "title": "0.154.0-alpha.2",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 90,
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.2"
       },
       {
         "technology": "Codex",
@@ -86,7 +86,7 @@
       "summary": "Google Cloud API Gateway now offers a model routing feature in Public Preview, allowing developers to dynamically route traffic to models like Gemini, Claude, or OpenAI OSS-GPT without hardcoding endpoints or managing open-source proxies. Developers can easily configure these routing rules directly within their OpenAPI 3.x specifications...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing/",
-      "published_at": "2026-09-04T13:22:56.632Z",
+      "published_at": "2026-09-04T19:22:16.953Z",
       "score": 98,
       "tags": [
         "OpenClaw",
@@ -152,11 +152,11 @@
       "id": 5,
       "kind": "github_release",
       "technology": "Codex",
-      "title": "0.154.0-alpha.3",
-      "summary": "Release 0.154.0-alpha.3",
+      "title": "0.153.3",
+      "summary": "## New Features - Added GPT-6-Astra to the Amazon Bedrock model picker for Mantle and Runtime global/US routes. (#42805) ## Bug Fixes - Corrected GPT-6-Astra’s guidance for asynchronous clarification questions to use the supported tool and recognize that it accepts text only. (#42809) ## Changelog Full Changelog: https://github.com/openai...",
       "source": "GitHub: openai/codex",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.3",
-      "published_at": "2026-09-04T00:57:42.000Z",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.153.3",
+      "published_at": "2026-09-04T19:01:32.000Z",
       "score": 90,
       "tags": [
         "Codex",
@@ -169,11 +169,11 @@
       "id": 6,
       "kind": "github_release",
       "technology": "Codex",
-      "title": "0.154.0-alpha.2",
-      "summary": "Release 0.154.0-alpha.2",
+      "title": "0.154.0-alpha.3",
+      "summary": "Release 0.154.0-alpha.3",
       "source": "GitHub: openai/codex",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.2",
-      "published_at": "2026-09-03T21:58:27.000Z",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.3",
+      "published_at": "2026-09-04T00:57:42.000Z",
       "score": 90,
       "tags": [
         "Codex",
@@ -219,29 +219,12 @@
     {
       "id": 9,
       "kind": "rss",
-      "technology": "Codex",
-      "title": "Agent Plugins package your skills, tools, and more",
-      "summary": "Agent Plugins 1.0.0 is a new, vendor-neutral directory specification—backed by Google, Amazon, Microsoft, and others—for packaging Agent Skills and MCP servers into a single portable unit. By standardizing the manifest (plugin.json) and utilizing a fixed directory layout, it eliminates the need for developers to maintain separate wrappers...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more/",
-      "published_at": "2026-09-04T13:22:56.632Z",
-      "score": 82,
-      "tags": [
-        "Codex",
-        "Infra AI"
-      ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
-      "id": 10,
-      "kind": "rss",
       "technology": "ChatGPT / OpenAI",
       "title": "How to Evaluate Live & Voice Agents in ADK",
       "summary": "Moving live voice agents from demo to production requires rigorous, automated testing to handle the unpredictability of real multi-turn conversations. ADK now provides native live evaluation, allowing developers to test graph-based agent workflows against LLM-driven simulated users that generate actual audio via Gemini TTS. By defining ev...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/how-to-evaluate-live-voice-agents-in-adk/",
-      "published_at": "2026-09-04T13:22:56.631Z",
+      "published_at": "2026-09-04T19:22:16.952Z",
       "score": 82,
       "tags": [
         "ChatGPT / OpenAI",
@@ -251,18 +234,35 @@
       "relevant": true
     },
     {
+      "id": 10,
+      "kind": "rss",
+      "technology": "Codex",
+      "title": "Agent Plugins package your skills, tools, and more",
+      "summary": "Agent Plugins 1.0.0 is a new, vendor-neutral directory specification—backed by Google, Amazon, Microsoft, and others—for packaging Agent Skills and MCP servers into a single portable unit. By standardizing the manifest (plugin.json) and utilizing a fixed directory layout, it eliminates the need for developers to maintain separate wrappers...",
+      "source": "Google Developers Blog",
+      "source_url": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more/",
+      "published_at": "2026-09-04T19:22:16.952Z",
+      "score": 82,
+      "tags": [
+        "Codex",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "relevant": true
+    },
+    {
       "id": 11,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "token-optimise 0.1.2",
-      "summary": "Token-optimised MCP proxy server for Claude Desktop",
+      "title": "ai-hats-library 0.6.4",
+      "summary": "The ai-hats agent library — portable skills, roles, traits, and rules as a data-only package. Drop-in for any Claude Code user; the versioned content dependency of the ai-hats integrator.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/token-optimise/0.1.2/",
-      "published_at": "2026-09-03T13:13:24.000Z",
-      "score": 74,
+      "source_url": "https://pypi.org/project/ai-hats-library/0.6.4/",
+      "published_at": "2026-09-03T18:55:54.000Z",
+      "score": 78,
       "tags": [
         "Claude",
-        "Infra AI"
+        "Codex"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
@@ -270,80 +270,85 @@
     {
       "id": 12,
       "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "hulak v0.3.33",
-      "summary": "Lightweight file-based CLI API client with age-encrypted secrets, first-class GraphQL support and MCP server for agentic workflow.",
-      "source": "Kitploit.com",
-      "source_url": "https://kitploit.com/en/posts/github-xaaha-hulak-v0333",
-      "published_at": "2026-09-03T12:59:01.000Z",
-      "score": 66,
+      "technology": "Codex",
+      "title": "OpenAI releasing major upgrade to ChatGPT and Codex with GPT-6 Astra, details here",
+      "summary": "It’s been just over a year since OpenAI released the first GPT-5 models for ChatGPT. Now it’s time for GPT-6 Astra to upgrade ChatGPT and Codex capabilities. Details below. more…",
+      "source": "9to5Mac",
+      "source_url": "https://9to5mac.com/2026/09/03/openai-releasing-major-upgrade-to-chatgpt-and-codex-with-gpt-6-astra-details-here/",
+      "published_at": "2026-09-03T18:48:48.000Z",
+      "score": 78,
       "tags": [
-        "Infra AI"
+        "Codex",
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
       "relevant": true
     },
     {
       "id": 13,
-      "kind": "rss",
-      "technology": "Gemini",
-      "title": "Scaling AI Agent Infrastructure with the MCP Stateless updates",
-      "summary": "The 2026-07-28 Model Context Protocol (MCP) specification replaces legacy stateful constraints with a fully stateless core, enabling cloud-native horizontal scaling, serverless deployments, and standard round-robin load balancing. This architectural shift introduces standardized HTTP headers for efficient routing without deep packet inspe...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/scaling-ai-agent-infrastructure-with-the-mcp-stateless-updates/",
-      "published_at": "2026-09-04T13:22:56.632Z",
-      "score": 62,
+      "kind": "newsapi",
+      "technology": "OpenClaw",
+      "title": "onyx-gate-obot 0.2.0",
+      "summary": "Onyx Gate for Obot — a verifiable authorization filter for the Obot MCP Gateway: policy-decided allow/deny on tool calls before they execute, with a re-checkable audit trail.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/onyx-gate-obot/0.2.0/",
+      "published_at": "2026-09-03T18:56:11.000Z",
+      "score": 74,
       "tags": [
+        "OpenClaw",
         "Infra AI"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
       "relevant": true
     },
     {
       "id": 14,
-      "kind": "rss",
-      "technology": "Gemini",
-      "title": "4 engineering patterns behind the strongest AI Agents Challenge submissions",
-      "summary": "The recent Google for Startups AI Agents Challenge revealed that the most successful multi-agent systems rely on foundational software engineering patterns rather than just raw model power. Winning architectures consistently implemented bidirectional MCP for seamless inter-agent communication, async event buses for parallel execution, str...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/",
-      "published_at": "2026-09-04T13:22:56.631Z",
-      "score": 62,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "agent-bus-team 0.4.1",
+      "summary": "Inter-agent messaging bus for Claude Code, Grok, OMP, Codex and others",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/agent-bus-team/0.4.1/",
+      "published_at": "2026-09-03T18:50:07.000Z",
+      "score": 74,
       "tags": [
-        "Infra AI"
+        "Claude",
+        "Codex"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 15,
       "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "nuvo-mcp added to PyPI",
-      "summary": "An MCP server for Nuvo tasks: an agent manages them through the same HTTP API as the app",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/nuvo-mcp/",
-      "published_at": "2026-09-03T13:00:58.000Z",
-      "score": 62,
+      "technology": "Claude",
+      "title": "Major AI Outage: Grok, Claude Are Down. ChatGPT, Gemini Back Up",
+      "summary": "UPDATE 1:25 p.m. ET: OpenAI's status page now says it's fully operational. \"We’re not aware of any issues affecting our systems.\" Reports on Downdetector have also dropped, and the chatbot is responding to queries. Gemini also appears to be up and running. Gr…",
+      "source": "Biztoc.com",
+      "source_url": "https://biztoc.com/x/68f1713885c41ee7",
+      "published_at": "2026-09-03T18:49:43.000Z",
+      "score": 70,
       "tags": [
-        "Infra AI"
+        "Claude",
+        "ChatGPT / OpenAI",
+        "Gemini"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 16,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "PlayTiger Brings Agentic Orchestration to Roblox Through ChatGPT and Claude",
-      "summary": "130 agent-ready API operations enable AI agents to analyze performance, configure measurement, manage Roblox advertising and coordinate studio workflows beyond standard Roblox APIs. TEL AVIV, Israel, Sept. 3, 2026 /PRNewswire/ -- Toya today announced PlayTige…",
-      "source": "PRNewswire",
-      "source_url": "https://www.prnewswire.com/news-releases/playtiger-brings-agentic-orchestration-to-roblox-through-chatgpt-and-claude-302868943.html",
-      "published_at": "2026-09-03T13:00:00.000Z",
-      "score": 62,
+      "title": "Google shipped four Gemini Flash models in 106 days. But its flagship frontier model is still nowhere to be seen.",
+      "summary": "On DeepSWE, Gemini 3.8 tied Anthropic’s Claude Opus 5 at a 74% pass rate while costing about one-fifth as much, as Google’s promised Gemini 3.5 Pro remains i...",
+      "source": "Yahoo Entertainment",
+      "source_url": "https://tech.yahoo.com/ai/gemini/articles/google-shipped-four-gemini-flash-191229657.html",
+      "published_at": "2026-09-03T19:12:29.000Z",
+      "score": 68,
       "tags": [
         "Claude",
-        "ChatGPT / OpenAI"
+        "Gemini"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
@@ -351,29 +356,30 @@
     {
       "id": 17,
       "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "slidefast-mcp added to PyPI",
-      "summary": "MCP server and CLI for the Slidefast API - create AI-powered carousels",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/slidefast-mcp/",
-      "published_at": "2026-09-03T12:58:20.000Z",
-      "score": 62,
+      "technology": "Claude",
+      "title": "Google shipped four Gemini Flash models in 106 days. But its flagship frontier model is still nowhere to be seen.",
+      "summary": "On DeepSWE, Gemini 3.8 tied Anthropic’s Claude Opus 5 at a 74% pass rate while costing about one-fifth as much, as Google’s promised Gemini 3.5 Pro remains in limbo.",
+      "source": "Fortune",
+      "source_url": "https://fortune.com/2026/09/03/google-shipped-four-gemini-flash-models-in-106-days-but-its-flagship-frontier-model-is-still-nowhere-to-be-seen/",
+      "published_at": "2026-09-03T19:12:29.000Z",
+      "score": 68,
       "tags": [
-        "Infra AI"
+        "Claude",
+        "Gemini"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 18,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "kdenlive-mcp-server 0.1.3",
-      "summary": "MCP server for Kdenlive video editing via cli-anything-kdenlive",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/kdenlive-mcp-server/0.1.3/",
-      "published_at": "2026-09-03T13:21:51.000Z",
-      "score": 58,
+      "title": "T-MAP",
+      "summary": "Trajectory-aware evolutionary search framework for red-teaming LLM agents over MCP servers, generating adversarial prompts to map vulnerability landscapes across risk categories.",
+      "source": "Kitploit.com",
+      "source_url": "https://kitploit.com/en/tools/github/pwnhyo/t-map/",
+      "published_at": "2026-09-03T18:45:38.000Z",
+      "score": 68,
       "tags": [
         "Infra AI"
       ],
@@ -382,14 +388,14 @@
     },
     {
       "id": 19,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "cognite-function-apps 0.14.0",
-      "summary": "FastAPI-style framework for building composable Function Apps for Cognite Functions with automatic OpenAPI schema generation and MCP integration",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/cognite-function-apps/0.14.0/",
-      "published_at": "2026-09-03T13:16:45.000Z",
-      "score": 58,
+      "kind": "rss",
+      "technology": "Gemini",
+      "title": "Scaling AI Agent Infrastructure with the MCP Stateless updates",
+      "summary": "The 2026-07-28 Model Context Protocol (MCP) specification replaces legacy stateful constraints with a fully stateless core, enabling cloud-native horizontal scaling, serverless deployments, and standard round-robin load balancing. This architectural shift introduces standardized HTTP headers for efficient routing without deep packet inspe...",
+      "source": "Google Developers Blog",
+      "source_url": "https://developers.googleblog.com/scaling-ai-agent-infrastructure-with-the-mcp-stateless-updates/",
+      "published_at": "2026-09-04T19:22:16.953Z",
+      "score": 62,
       "tags": [
         "Infra AI"
       ],
@@ -398,14 +404,14 @@
     },
     {
       "id": 20,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "kdenlive-mcp-server 0.1.2",
-      "summary": "MCP server for Kdenlive video editing via cli-anything-kdenlive",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/kdenlive-mcp-server/0.1.2/",
-      "published_at": "2026-09-03T13:15:24.000Z",
-      "score": 58,
+      "kind": "rss",
+      "technology": "Gemini",
+      "title": "4 engineering patterns behind the strongest AI Agents Challenge submissions",
+      "summary": "The recent Google for Startups AI Agents Challenge revealed that the most successful multi-agent systems rely on foundational software engineering patterns rather than just raw model power. Winning architectures consistently implemented bidirectional MCP for seamless inter-agent communication, async event buses for parallel execution, str...",
+      "source": "Google Developers Blog",
+      "source_url": "https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/",
+      "published_at": "2026-09-04T19:22:16.952Z",
+      "score": 62,
       "tags": [
         "Infra AI"
       ],
@@ -415,60 +421,63 @@
     {
       "id": 21,
       "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "plane-community-mcp 0.5.0",
-      "summary": "Community Edition and self-hosted focused MCP server for Plane",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/plane-community-mcp/0.5.0/",
-      "published_at": "2026-09-03T13:04:53.000Z",
-      "score": 58,
+      "technology": "Claude",
+      "title": "OpenAI GPT 6 Astra Limited Release that Beats Anthropic Fable 5.1 on Benchmarks",
+      "summary": "GPT-6 Astra leads every comparable benchmark against Claude Fable 5.1, Claude Fable 5, and Claude Opus 5. Clear wins (large gaps) ARC-AGI-3: Astra 98.6% vs Opus 5 30.2% (high). No scores for the Fable models. FrontierMath Tier 4 (v2): Astra 97.6% vs Fable 5.1…",
+      "source": "Next Big Future",
+      "source_url": "https://www.nextbigfuture.com/2026/09/openai-gpt-6-astra-limited-release-that-beats-anthropic-fable-5-1-on-benchmarks.html",
+      "published_at": "2026-09-03T19:00:17.000Z",
+      "score": 62,
       "tags": [
-        "Infra AI"
+        "Claude",
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 22,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "plane-community-mcp added to PyPI",
-      "summary": "Community Edition and self-hosted focused MCP server for Plane",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/plane-community-mcp/",
-      "published_at": "2026-09-03T13:04:46.000Z",
+      "kind": "rss",
+      "technology": "Claude",
+      "title": "OpenAI's GPT-6 Astra hallucinates less but remains vulnerable to hidden prompt injections",
+      "summary": "OpenAI's GPT-6 Astra hallucinates less than its predecessor and blocks 99.99 percent of direct prompt injections. But when attacks are hidden inside documents the AI reads, the model still gets cracked in 8.5 percent of scenarios. Claude Opus 5 does better at 4.8 percent. For autonomous AI agents handling real data, those numbers still se...",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections/",
+      "published_at": "2026-09-04T17:23:35.000Z",
       "score": 58,
       "tags": [
-        "Infra AI"
+        "Claude",
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 23,
       "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "kdenlive-mcp-server 0.1.1",
-      "summary": "MCP server for Kdenlive video editing via cli-anything-kdenlive",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/kdenlive-mcp-server/0.1.1/",
-      "published_at": "2026-09-03T13:02:28.000Z",
+      "technology": "Claude",
+      "title": "Meta Rises 4% as Muse Spark 1.3 Claims Parity With Anthropic and OpenAI",
+      "summary": "The post Meta Rises 4% as Muse Spark 1.3 Claims Parity With Anthropic and OpenAI appeared first on 24/7 Wall St.. The AI model race got a fresh salvo this morning, and it came from Menlo Park. Meta Platforms (NASDAQ:META) is claiming performance parity with t…",
+      "source": "Biztoc.com",
+      "source_url": "https://biztoc.com/x/36db4244ac6e7ff5",
+      "published_at": "2026-09-03T19:03:52.000Z",
       "score": 58,
       "tags": [
-        "Infra AI"
+        "Claude",
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 24,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "kdenlive-mcp-server added to PyPI",
-      "summary": "MCP server for Kdenlive video editing via cli-anything-kdenlive",
+      "title": "wisent-wire-mcp 0.9.0rc7",
+      "summary": "MCP server for the Wisent Wire hardware testing platform — drive power, GPIO, UART/RS485/CAN, firmware flashing, and GDB debug from an AI agent",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/kdenlive-mcp-server/",
-      "published_at": "2026-09-03T13:01:26.000Z",
+      "source_url": "https://pypi.org/project/wisent-wire-mcp/0.9.0rc7/",
+      "published_at": "2026-09-03T19:00:46.000Z",
       "score": 58,
       "tags": [
         "Infra AI"
