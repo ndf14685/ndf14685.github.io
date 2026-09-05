@@ -1,5 +1,16 @@
 [
   {
+    "key": "https://the-decoder.com/artificial-analysis-overhauls-its-intelligence-index-after-gpt-6-astra-scoring-drew-skepticism",
+    "technology": "Claude",
+    "title": "Artificial Analysis overhauls its Intelligence Index after GPT-6 Astra scoring drew skepticism",
+    "summary": "Artificial Analysis has released version 4.2 of its Intelligence Index, likely in response to criticism that its benchmarks failed to capture GPT-6 Astra's actual progress. Astra now scores four points above its predecessor but still trails Anthropic's Claude Fable 5.1. The article Artificial Analysis overhauls its Intelligence Index afte...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/artificial-analysis-overhauls-its-intelligence-index-after-gpt-6-astra-scoring-drew-skepticism/",
+    "published_at": "2026-09-05T18:21:02.000Z",
+    "score": 58,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.153.4",
     "technology": "Codex",
     "title": "0.153.4",
@@ -20,6 +31,138 @@
     "published_at": "2026-09-04T19:01:32.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://9to5mac.com/2026/09/04/openai-releasing-major-upgrade-to-chatgpt-and-codex-with-gpt-6-astra-details-here",
+    "technology": "Codex",
+    "title": "OpenAI releasing major upgrade to ChatGPT and Codex with GPT-6 Astra, details here",
+    "summary": "Update: A day later, GPT-6 Astra is rolling out to Pro customers on the $100/month or $200/month plan. This follows other new model releases before Plus customers on the $20/month plan gain access. It’s been just over a year since OpenAI released the f…",
+    "source": "9to5Mac",
+    "source_url": "https://9to5mac.com/2026/09/04/openai-releasing-major-upgrade-to-chatgpt-and-codex-with-gpt-6-astra-details-here/",
+    "published_at": "2026-09-04T18:52:35.000Z",
+    "score": 82,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/superoptix/0.3.6",
+    "technology": "Claude",
+    "title": "superoptix 0.3.6",
+    "summary": "Agent-to-agent communication, without framework lock-in. Make the agents you already run callable by any other agent, and get them discovered. Adapts existing DSPy, CrewAI, OpenAI Agents SDK, Pydantic AI, Google ADK, Claude Agent SDK, DeepAgents and Microsoft…",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/superoptix/0.3.6/",
+    "published_at": "2026-09-04T18:51:48.000Z",
+    "score": 58,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/lightbulb-mcp/0.22.0",
+    "technology": "Infra AI",
+    "title": "lightbulb-mcp 0.22.0",
+    "summary": "Python SDK and MCP server for typed Lightbulb business processes, connectors, and custom agentic workflows",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/lightbulb-mcp/0.22.0/",
+    "published_at": "2026-09-04T18:49:21.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/simlir-mcp",
+    "technology": "Infra AI",
+    "title": "simlir-mcp added to PyPI",
+    "summary": "A thin stdio MCP bridge for the simlir public product API",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/simlir-mcp/",
+    "published_at": "2026-09-04T18:43:57.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/dbx-tools-graphiti/0.6.161",
+    "technology": "Infra AI",
+    "title": "dbx-tools-graphiti 0.6.161",
+    "summary": "Native Graphiti MCP and Neo4j launcher with Databricks models through LiteLLM",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/dbx-tools-graphiti/0.6.161/",
+    "published_at": "2026-09-04T18:36:23.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/zebbern-kali-mcp/1.0.17",
+    "technology": "Infra AI",
+    "title": "zebbern-kali-mcp 1.0.17",
+    "summary": "Capability-aware MCP client for a Docker-hosted Kali Linux tools API",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/zebbern-kali-mcp/1.0.17/",
+    "published_at": "2026-09-04T18:30:24.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/jirosearch/0.2.5",
+    "technology": "Infra AI",
+    "title": "jirosearch 0.2.5",
+    "summary": "Local-first, AI-native web search & scraping API with 12 social platforms, hybrid search, structured extraction, and Pro tier. A drop-in SerpAPI alternative with MCP server, agentic research, and built-in legal compliance.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/jirosearch/0.2.5/",
+    "published_at": "2026-09-04T18:25:10.000Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/mcp104/0.3.1",
+    "technology": "Infra AI",
+    "title": "mcp104 0.3.1",
+    "summary": "MCP server that lets an AI agent operate a 104人力銀行 enterprise recruiting account — résumé search, job listings, messaging and 詢問意願 events, with a device-flow login that keeps credentials out of the LLM",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcp104/0.3.1/",
+    "published_at": "2026-09-04T18:23:49.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/dbx-tools-graphiti/0.6.160",
+    "technology": "Infra AI",
+    "title": "dbx-tools-graphiti 0.6.160",
+    "summary": "Native Graphiti MCP and Neo4j launcher with Databricks models through LiteLLM",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/dbx-tools-graphiti/0.6.160/",
+    "published_at": "2026-09-04T18:15:49.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/hol-guard/3.0.72",
+    "technology": "Codex",
+    "title": "hol-guard 3.0.72",
+    "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/hol-guard/3.0.72/",
+    "published_at": "2026-09-04T18:04:00.000Z",
+    "score": 82,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://financialpost.com/personal-finance/business-essentials/1min-ai",
+    "technology": "Claude",
+    "title": "Small businesses can now access GPT, Claude and Gemini Pro from a single plan",
+    "summary": "Get s chat, writing, image, video and audio tools in a single subscription for all of your productivity needs.",
+    "source": "Financial Post",
+    "source_url": "https://financialpost.com/personal-finance/business-essentials/1min-ai",
+    "published_at": "2026-09-04T18:01:29.000Z",
+    "score": 94,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/mcpgateway-sdk/0.59.0",
+    "technology": "OpenClaw",
+    "title": "mcpgateway-sdk 0.59.0",
+    "summary": "Python SDK for MCP Gateway — manage MCP servers, tools, skills, and sandboxes programmatically",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcpgateway-sdk/0.59.0/",
+    "published_at": "2026-09-04T18:01:08.000Z",
+    "score": 100,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
   },
   {
     "key": "https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections",
@@ -6455,148 +6598,5 @@
     "published_at": "2026-08-20T09:23:52.000Z",
     "score": 78,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/mcp-hub-tui/0.1.0",
-    "technology": "Codex",
-    "title": "mcp-hub-tui 0.1.0",
-    "summary": "Detect and manage MCP servers across AI coding agents",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/mcp-hub-tui/0.1.0/",
-    "published_at": "2026-08-20T09:23:52.000Z",
-    "score": 78,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/mcp-toolsets-runtime/0.7.0",
-    "technology": "Infra AI",
-    "title": "mcp-toolsets-runtime 0.7.0",
-    "summary": "Shared runtime for MCP Toolsets: discover LangChain tools, serve them as MCP, plus a CLI and an example chat agent.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/mcp-toolsets-runtime/0.7.0/",
-    "published_at": "2026-08-20T09:13:18.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://kitploit.com/en/posts/github-snyk-agent-scan-v060",
-    "technology": "Codex",
-    "title": "agent-scan v0.6.0",
-    "summary": "Security scanner for AI agents, MCP servers and agent skills.",
-    "source": "Kitploit.com",
-    "source_url": "https://kitploit.com/en/posts/github-snyk-agent-scan-v060",
-    "published_at": "2026-08-20T09:07:47.000Z",
-    "score": 96,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/mcp-web-engine/1.0.5",
-    "technology": "Infra AI",
-    "title": "mcp-web-engine 1.0.5",
-    "summary": "Privacy-First, Self-Hostable & SSRF-Hardened MCP Server & Web Engine for AI Agents",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/mcp-web-engine/1.0.5/",
-    "published_at": "2026-08-20T09:02:49.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/mcp-server-hiagent/0.1.0",
-    "technology": "Infra AI",
-    "title": "mcp-server-hiagent 0.1.0",
-    "summary": "MCP server for HiAgent OpenAPI",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/mcp-server-hiagent/0.1.0/",
-    "published_at": "2026-08-20T09:02:10.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.149.0-alpha.3",
-    "technology": "Codex",
-    "title": "0.149.0-alpha.3",
-    "summary": "Release 0.149.0-alpha.3",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.149.0-alpha.3",
-    "published_at": "2026-08-20T02:27:36.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260820.ge90c63fa1",
-    "technology": "Gemini",
-    "title": "Release v0.56.0-nightly.20260820.ge90c63fa1",
-    "summary": "## What's Changed * fix(core): preserve empty text turns with tools or media by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28892 * Changelog for v0.57.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28918 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0....",
-    "source": "GitHub: google-gemini/gemini-cli",
-    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260820.ge90c63fa1",
-    "published_at": "2026-08-20T01:27:23.000Z",
-    "score": 58,
-    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
-  },
-  {
-    "key": "https://openai.com/index/stampli",
-    "technology": "Codex",
-    "title": "How ChatGPT Work helps Stampli move ideas to market",
-    "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
-    "source": "OpenAI News",
-    "source_url": "https://openai.com/index/stampli",
-    "published_at": "2026-08-20T00:00:00.000Z",
-    "score": 74,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://tresbien.tech/blog/drupal-code-query-mcp-server",
-    "technology": "Infra AI",
-    "title": "Très Bien Blog: Drupal code query MCP Server",
-    "summary": "Drupal code query MCP Server A few months ago I put an api online to search and query the whole Drupal code ecosystem. With the release of some more capable local AI models I thought it could be good to release a MCP server with that same data optimized for…",
-    "source": "Tresbien.tech",
-    "source_url": "https://tresbien.tech/blog/drupal-code-query-mcp-server/",
-    "published_at": "2026-08-19T23:25:05.000Z",
-    "score": 70,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/dulus/3.11.4",
-    "technology": "OpenClaw",
-    "title": "dulus 3.11.4",
-    "summary": "Provider-independent agent runtime for the terminal — cloud and local models, real tools, MCP, plugins, memory, sub-agents, and Dulus OS.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/dulus/3.11.4/",
-    "published_at": "2026-08-19T23:22:37.000Z",
-    "score": 86,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/cswap-pin/0.1.121",
-    "technology": "Claude",
-    "title": "cswap-pin 0.1.121",
-    "summary": "Keep Claude Code's Remote Control and Artifacts on one account while inference follows cswap's account swap",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/cswap-pin/0.1.121/",
-    "published_at": "2026-08-19T23:21:21.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/cognisn-cloudledger",
-    "technology": "Infra AI",
-    "title": "cognisn-cloudledger added to PyPI",
-    "summary": "Multi-account AWS security scanning and infrastructure ledger with an MCP server for querying scan history",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/cognisn-cloudledger/",
-    "published_at": "2026-08-19T23:00:33.000Z",
-    "score": 68,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/debug-mcp-server-launcher/0.24.1",
-    "technology": "Infra AI",
-    "title": "debug-mcp-server-launcher 0.24.1",
-    "summary": "Launcher for debug-mcp-server. This package ensures debugpy is installed and provides instructions to run the main server (Node.js or Docker).",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/debug-mcp-server-launcher/0.24.1/",
-    "published_at": "2026-08-19T22:54:45.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   }
 ]
