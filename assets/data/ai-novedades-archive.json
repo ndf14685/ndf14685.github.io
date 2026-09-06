@@ -1,5 +1,16 @@
 [
   {
+    "key": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing",
+    "technology": "OpenClaw",
+    "title": "Model routing with Google Cloud API Gateway",
+    "summary": "Google Cloud API Gateway now offers a model routing feature in Public Preview, allowing developers to dynamically route traffic to models like Gemini, Claude, or OpenAI OSS-GPT without hardcoding endpoints or managing open-source proxies. Developers can easily configure these routing rules directly within their OpenAPI 3.x specifications...",
+    "source": "Google Developers Blog",
+    "source_url": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing/",
+    "published_at": "2026-09-06T18:59:27.927Z",
+    "score": 98,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
     "key": "https://the-decoder.com/metas-new-real-time-audio-model-is-the-foundation-for-ai-assistants-that-never-stop-listening",
     "technology": "ChatGPT / OpenAI",
     "title": "Meta's new real-time audio model is the foundation for AI assistants that never stop listening",
@@ -11,6 +22,50 @@
     "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
   },
   {
+    "key": "https://openai.com/index/research-acceleration-view-inside-openai",
+    "technology": "Codex",
+    "title": "Research acceleration: The view inside OpenAI",
+    "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+    "source": "OpenAI News",
+    "source_url": "https://openai.com/index/research-acceleration-view-inside-openai",
+    "published_at": "2026-09-06T08:00:00.000Z",
+    "score": 58,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/ue-bridge",
+    "technology": "Infra AI",
+    "title": "ue-bridge added to PyPI",
+    "summary": "Talk to a running UE4SS game: inspect objects, call functions, run Lua, while it plays. An MCP server and CLI plus the UEBridge mod.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/ue-bridge/",
+    "published_at": "2026-09-05T18:31:08.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/pdf-toolbox-mcp/0.1.0",
+    "technology": "Infra AI",
+    "title": "pdf-toolbox-mcp 0.1.0",
+    "summary": "Local-first PDF processing MCP server — OCR write-back, text extraction, page rendering, page surgery, encryption (OCRmyPDF + Poppler + qpdf)",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/pdf-toolbox-mcp/0.1.0/",
+    "published_at": "2026-09-05T18:24:13.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/post-truegrit-mcp",
+    "technology": "Infra AI",
+    "title": "post-truegrit-mcp added to PyPI",
+    "summary": "Postiz MCP client with an opt-in local egress connector",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/post-truegrit-mcp/",
+    "published_at": "2026-09-05T18:22:05.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
     "key": "https://the-decoder.com/artificial-analysis-overhauls-its-intelligence-index-after-gpt-6-astra-scoring-drew-skepticism",
     "technology": "Claude",
     "title": "Artificial Analysis overhauls its Intelligence Index after GPT-6 Astra scoring drew skepticism",
@@ -20,6 +75,105 @@
     "published_at": "2026-09-05T18:21:02.000Z",
     "score": 58,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/antigravity-drawio-mcp/1.1.4",
+    "technology": "Claude",
+    "title": "antigravity-drawio-mcp 1.1.4",
+    "summary": "Automate Flowcharts & Draw.io Diagrams with AI. Official Model Context Protocol (MCP) Server for Google Antigravity, Claude Code, Cursor, and VS Code.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/antigravity-drawio-mcp/1.1.4/",
+    "published_at": "2026-09-05T18:21:02.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/oknoll-providers/0.4.0a1",
+    "technology": "Claude",
+    "title": "oknoll-providers 0.4.0a1",
+    "summary": "Real model providers (Anthropic API, Ollama) behind the okf-core ModelProvider seam",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/oknoll-providers/0.4.0a1/",
+    "published_at": "2026-09-05T18:06:55.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/trw-mcp/2.0.0",
+    "technology": "Claude",
+    "title": "trw-mcp 2.0.0",
+    "summary": "Engineering memory MCP server for Claude Code — patterns, gotchas, and project knowledge that persist across sessions",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/trw-mcp/2.0.0/",
+    "published_at": "2026-09-05T18:04:36.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/roam-code/14.0.4",
+    "technology": "Codex",
+    "title": "roam-code 14.0.4",
+    "summary": "Local codebase intelligence for AI coding agents: structural repo map, change-safety gates, MCP security receipts, and tamper-evident ChangeEvidence packets. Local analysis, zero API keys, no source-code egress.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/roam-code/14.0.4/",
+    "published_at": "2026-09-05T18:03:02.000Z",
+    "score": 100,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/ai-terminal-manager/0.3.0",
+    "technology": "Claude",
+    "title": "ai-terminal-manager 0.3.0",
+    "summary": "Multi-session manager for AI CLIs (Claude Code / Codex / Pi) inside tmux: unified history, resume into any pane, persistent sidebar",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/ai-terminal-manager/0.3.0/",
+    "published_at": "2026-09-05T17:58:24.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/dbx-tools-graphiti/0.6.176",
+    "technology": "Infra AI",
+    "title": "dbx-tools-graphiti 0.6.176",
+    "summary": "Native Graphiti MCP and Neo4j launcher with Databricks models through LiteLLM",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/dbx-tools-graphiti/0.6.176/",
+    "published_at": "2026-09-05T17:58:17.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/bezoar",
+    "technology": "Codex",
+    "title": "bezoar added to PyPI",
+    "summary": "Open-source security scanner for the AI-agent supply chain — skills, MCPs, plugins, subagents",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/bezoar/",
+    "published_at": "2026-09-05T17:54:54.000Z",
+    "score": 96,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/dbx-tools-graphiti/0.6.175",
+    "technology": "Infra AI",
+    "title": "dbx-tools-graphiti 0.6.175",
+    "summary": "Native Graphiti MCP and Neo4j launcher with Databricks models through LiteLLM",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/dbx-tools-graphiti/0.6.175/",
+    "published_at": "2026-09-05T17:43:33.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/observal-cli/1.13.1",
+    "technology": "Infra AI",
+    "title": "observal-cli 1.13.1",
+    "summary": "Observal MCP Server Registry & Agent Registry CLI",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/observal-cli/1.13.1/",
+    "published_at": "2026-09-05T17:34:10.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   },
   {
     "key": "https://pypi.org/project/neruva-mcp/0.68.0",
@@ -6444,159 +6598,5 @@
     "published_at": "2026-08-21T05:21:49.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.2",
-    "technology": "Codex",
-    "title": "0.150.0-alpha.2",
-    "summary": "Release 0.150.0-alpha.2",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.2",
-    "published_at": "2026-08-21T04:24:03.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.149.0-alpha.4.1",
-    "technology": "Codex",
-    "title": "0.149.0-alpha.4.1",
-    "summary": "Release 0.149.0-alpha.4.1",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.149.0-alpha.4.1",
-    "published_at": "2026-08-21T02:28:23.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260821.g30573d2e4",
-    "technology": "Gemini",
-    "title": "Release v0.56.0-nightly.20260821.g30573d2e4",
-    "summary": "## What's Changed * fix(core): ensure consistent symlink evaluation in ignore path handling by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28915 * refactor(core): remove eslint-disable and type-asserts from shellExecutionService by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28862 **Full Chang...",
-    "source": "GitHub: google-gemini/gemini-cli",
-    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260821.g30573d2e4",
-    "published_at": "2026-08-21T01:08:09.000Z",
-    "score": 58,
-    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
-  },
-  {
-    "key": "https://pypi.org/project/ratel-ai/0.12.0",
-    "technology": "Infra AI",
-    "title": "ratel-ai 0.12.0",
-    "summary": "Python SDK for Ratel — context engineering platform for AI agents. BM25 tool retrieval, MCP ingestion, framework-neutral capability tools.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/ratel-ai/0.12.0/",
-    "published_at": "2026-08-20T23:14:35.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/clawmetry/0.12.748",
-    "technology": "OpenClaw",
-    "title": "clawmetry 0.12.748",
-    "summary": "ClawMetry - Real-time observability for 22 AI agent runtimes (OpenClaw, NVIDIA NemoClaw, Claude Code, Codex & more)",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/clawmetry/0.12.748/",
-    "published_at": "2026-08-20T23:08:17.000Z",
-    "score": 100,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://laravel-news.com/laravel-ai-sdk-0-11",
-    "technology": "Claude",
-    "title": "Agent Run Observability in Laravel AI SDK 0.11",
-    "summary": "Laravel AI SDK 0.11 adds run-level events for agent steps and tool calls, hosted tool search for OpenAI and Anthropic, and wider provider failover. The post Agent Run Observability in Laravel AI SDK 0.11 appeared first on Laravel News. Join the Laravel New…",
-    "source": "Laravel News",
-    "source_url": "https://laravel-news.com/laravel-ai-sdk-0-11",
-    "published_at": "2026-08-20T23:05:54.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/atif-make/0.2.0",
-    "technology": "Claude",
-    "title": "atif-make 0.2.0",
-    "summary": "Convert agent logs (Claude Code, Codex, Copilot, HAR) into ATIF v1.7 trajectories.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/atif-make/0.2.0/",
-    "published_at": "2026-08-20T22:57:06.000Z",
-    "score": 74,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/clawmetry/0.12.746",
-    "technology": "OpenClaw",
-    "title": "clawmetry 0.12.746",
-    "summary": "ClawMetry - Real-time observability for 22 AI agent runtimes (OpenClaw, NVIDIA NemoClaw, Claude Code, Codex & more)",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/clawmetry/0.12.746/",
-    "published_at": "2026-08-20T22:56:30.000Z",
-    "score": 100,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/probe-research/0.105.1",
-    "technology": "Infra AI",
-    "title": "probe-research 0.105.1",
-    "summary": "CLI + SDK + read-only MCP client for Probe Research (experiment tracking).",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/probe-research/0.105.1/",
-    "published_at": "2026-08-20T22:54:14.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/xdarkzx-fmod-studio-mcp",
-    "technology": "ChatGPT / OpenAI",
-    "title": "xdarkzx-fmod-studio-mcp added to PyPI",
-    "summary": "MCP server for AI-driven game audio authoring in FMOD Studio via TCP/IP bridging through the built-in JavaScript scripting terminal",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/xdarkzx-fmod-studio-mcp/",
-    "published_at": "2026-08-20T22:51:47.000Z",
-    "score": 78,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
-  },
-  {
-    "key": "https://pypi.org/project/cswap-pin/0.1.159",
-    "technology": "Claude",
-    "title": "cswap-pin 0.1.159",
-    "summary": "Keep Claude Code's Remote Control and Artifacts on one account while inference follows cswap's account swap",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/cswap-pin/0.1.159/",
-    "published_at": "2026-08-20T22:48:49.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates",
-    "technology": "Claude",
-    "title": "OpenAI is gaining on Anthropic with business users, new data indicates | TechCrunch",
-    "summary": "Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how \"sticky\" enterprise AI spending really is.",
-    "source": "TechCrunch",
-    "source_url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
-    "published_at": "2026-08-20T22:38:58.000Z",
-    "score": 62,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/pain001-mcp/0.0.60",
-    "technology": "Infra AI",
-    "title": "pain001-mcp 0.0.60",
-    "summary": "Model Context Protocol (MCP) server exposing the pain001 ISO 20022 Customer Credit Transfer Initiation library as agent tools.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/pain001-mcp/0.0.60/",
-    "published_at": "2026-08-20T22:37:16.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/cswap-pin/0.1.158",
-    "technology": "Claude",
-    "title": "cswap-pin 0.1.158",
-    "summary": "Keep Claude Code's Remote Control and Artifacts on one account while inference follows cswap's account swap",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/cswap-pin/0.1.158/",
-    "published_at": "2026-08-20T22:35:01.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   }
 ]
