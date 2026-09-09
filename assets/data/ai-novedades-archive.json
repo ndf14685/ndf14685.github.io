@@ -1,5 +1,16 @@
 [
   {
+    "key": "https://the-decoder.com/suno-launches-v6-music-models-built-with-warner-bmg-and-believe",
+    "technology": "ChatGPT / OpenAI",
+    "title": "Suno launches v6 music models built with Warner, BMG, and Believe",
+    "summary": "Suno has unveiled a new AI music model generation, v6, in three versions, built together with Warner Music Group, BMG, and Believe. All older models are being shut down. Songs can now be partially changed through text commands or generated multimodally from text, audio, and images. The company won't say which catalogs went into training,...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/suno-launches-v6-music-models-built-with-warner-bmg-and-believe/",
+    "published_at": "2026-09-09T14:06:57.000Z",
+    "score": 62,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.6.1",
     "technology": "Codex",
     "title": "0.154.0-alpha.6.1",
@@ -74,6 +85,105 @@
     "source_url": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more/",
     "published_at": "2026-09-08T19:48:07.074Z",
     "score": 82,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/toolprint/0.3.1",
+    "technology": "Infra AI",
+    "title": "toolprint 0.3.1",
+    "summary": "What your agent's tool surface costs, and what it can do. Offline MCP assessment: context cost, capability risk, and definition drift.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/toolprint/0.3.1/",
+    "published_at": "2026-09-08T19:17:03.000Z",
+    "score": 72,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://github.com/aminueza/keyfence",
+    "technology": "Claude",
+    "title": "Show HN: Keyfence is a local proxy that stops secrets from reaching LLM APIs",
+    "summary": "Local proxy that keeps your API keys and secrets out of LLM requests. Works with Claude Code, Cursor, Codex and any tool. - aminueza/Keyfence",
+    "source": "Github.com",
+    "source_url": "https://github.com/aminueza/Keyfence",
+    "published_at": "2026-09-08T19:16:46.000Z",
+    "score": 82,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/mcp-ollama-vllm/1.0.2",
+    "technology": "Infra AI",
+    "title": "mcp-ollama-vllm 1.0.2",
+    "summary": "MCP server that calls a local Ollama or vLLM model for language work, with schema-validated JSON output checked by a dependency-free validator.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcp-ollama-vllm/1.0.2/",
+    "published_at": "2026-09-08T19:14:50.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/mcp-modelmanager/1.0.2",
+    "technology": "Infra AI",
+    "title": "mcp-modelmanager 1.0.2",
+    "summary": "MCP server to manage your own local Ollama/vLLM model machine over a secured two-channel SSH link, with a closed operation catalog.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcp-modelmanager/1.0.2/",
+    "published_at": "2026-09-08T19:14:48.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/concealer/0.9.23",
+    "technology": "Infra AI",
+    "title": "concealer 0.9.23",
+    "summary": "Local‑only, single‑file secret manager for the AI‑coding era. CLI, TUI, Web UI, MCP server.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/concealer/0.9.23/",
+    "published_at": "2026-09-08T19:13:28.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/maskflow-gateway/0.2.0",
+    "technology": "OpenClaw",
+    "title": "maskflow-gateway 0.2.0",
+    "summary": "MaskFlow Gateway: a drop-in OpenAI/Anthropic-compatible proxy that masks PII before it reaches an LLM provider and restores it in the response -- streaming included.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/maskflow-gateway/0.2.0/",
+    "published_at": "2026-09-08T18:53:49.000Z",
+    "score": 70,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
+    "key": "https://pypi.org/project/nousergon-lib/0.124.113",
+    "technology": "Claude",
+    "title": "nousergon-lib 0.124.113",
+    "summary": "Shared utilities for the Nous Ergon (Crucible) modules: preflight, logging, ArcticDB, dates, decision capture, cost telemetry, Anthropic payload chokepoint, artifact freshness, windowed artifact resolution, RAG, agent schemas, SSM secrets, Telegram + SNS aler…",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/nousergon-lib/0.124.113/",
+    "published_at": "2026-09-08T18:52:51.000Z",
+    "score": 68,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/watch-skill/1.4.3",
+    "technology": "Infra AI",
+    "title": "watch-skill 1.4.3",
+    "summary": "Give any agent a video input: watch, index, ask, and iterate on video via MCP, CLI, REST, and Python.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/watch-skill/1.4.3/",
+    "published_at": "2026-09-08T18:51:02.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://github.com/agent-sh/linubot",
+    "technology": "Codex",
+    "title": "Show HN: Linubot – like Grok bot and Hermes had a kid",
+    "summary": "Work on Linux and Android with Tailscale. Because we also deserve some good stuff before everyone else. Any provider, or providers. Desktop workspace controlled with IPC by the agent, memories, skills, MCPS, self-learning, and more. Friendly UI and advanced a…",
+    "source": "Github.com",
+    "source_url": "https://github.com/agent-sh/linubot",
+    "published_at": "2026-09-08T18:44:59.000Z",
+    "score": 86,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   },
   {
@@ -6488,115 +6598,5 @@
     "published_at": "2026-08-24T12:59:43.000Z",
     "score": 76,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://the-decoder.com/ai-chatbots-regularly-link-pregnant-users-to-anti-abortion-websites-without-disclosure",
-    "technology": "Claude",
-    "title": "AI chatbots regularly link pregnant users to anti-abortion websites without disclosure",
-    "summary": "When asked about unplanned pregnancies, AI chatbots regularly link to anti-abortion groups without disclosing their stance. In an AlgorithmWatch investigation of 270 responses from ChatGPT, Gemini, Grok, and Claude, the anti-abortion organization Profemina appeared in 17 percent of answers. In Germany, the chatbots also sent users to Cari...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/ai-chatbots-regularly-link-pregnant-users-to-anti-abortion-websites-without-disclosure/",
-    "published_at": "2026-08-24T10:00:51.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/meeting-minute",
-    "technology": "Claude",
-    "title": "meeting-minute added to PyPI",
-    "summary": "Transcribe meetings locally with faster-whisper/whisper.cpp, then extract structured info via Claude/Cursor skills.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/meeting-minute/",
-    "published_at": "2026-08-24T09:39:42.000Z",
-    "score": 62,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/dcc-mcp-3dsmax/0.2.2",
-    "technology": "Infra AI",
-    "title": "dcc-mcp-3dsmax 0.2.2",
-    "summary": "3ds Max plugin for the DCC Model Context Protocol (MCP) ecosystem — embeds a Streamable HTTP MCP server directly inside 3ds Max",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/dcc-mcp-3dsmax/0.2.2/",
-    "published_at": "2026-08-24T09:31:02.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/kb-agent-mcp/1.0.8",
-    "technology": "Infra AI",
-    "title": "kb-agent-mcp 1.0.8",
-    "summary": "A zero-config MCP server that turns any folder of documents into a queryable multi-agent knowledge base",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/kb-agent-mcp/1.0.8/",
-    "published_at": "2026-08-24T09:23:04.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/kb-agent-mcp/1.0.7",
-    "technology": "Infra AI",
-    "title": "kb-agent-mcp 1.0.7",
-    "summary": "A zero-config MCP server that turns any folder of documents into a queryable multi-agent knowledge base",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/kb-agent-mcp/1.0.7/",
-    "published_at": "2026-08-24T09:18:38.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/gagelink/0.5.0",
-    "technology": "Infra AI",
-    "title": "gagelink 0.5.0",
-    "summary": "MCP server and Python library giving AI agents hydrology data: river level, streamflow, flood forecasts, basins, and satellite water levels from USGS, NOAA, France's Hub'Eau, the UK Environment Agency, and SWOT, with units, datums, and record quality attached.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/gagelink/0.5.0/",
-    "published_at": "2026-08-24T09:15:55.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/mealcp-mcp/0.1.0",
-    "technology": "Infra AI",
-    "title": "mealcp-mcp 0.1.0",
-    "summary": "Official Model Context Protocol (MCP) server for MealCP.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/mealcp-mcp/0.1.0/",
-    "published_at": "2026-08-24T09:04:22.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/kb-agent-mcp/1.0.6",
-    "technology": "Infra AI",
-    "title": "kb-agent-mcp 1.0.6",
-    "summary": "A zero-config MCP server that turns any folder of documents into a queryable multi-agent knowledge base",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/kb-agent-mcp/1.0.6/",
-    "published_at": "2026-08-24T08:58:12.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://www.notebookcheck.net/rtx-5070-20-core-cpu-ddr5-ram-msi-codex-r2-prebuilt-gaming-pc-is-500-off.1372558.0.html",
-    "technology": "Codex",
-    "title": "RTX 5070, 20-core CPU, DDR5 RAM: MSI Codex R2 prebuilt gaming PC is $500 off",
-    "summary": "Deal | The MSI Codex R2 AI desktop gaming PC has received a big discount at Walmart. Now $500 cheaper, the MSI Codex R2 comes with an RTX 5070 desktop GPU, a 20-core Core Ultra 7 265F CPU, 16 GB of RAM, and more.",
-    "source": "Notebookcheck.net",
-    "source_url": "https://www.notebookcheck.net/RTX-5070-20-core-CPU-DDR5-RAM-MSI-Codex-R2-prebuilt-gaming-PC-is-500-off.1372558.0.html",
-    "published_at": "2026-08-24T08:43:00.000Z",
-    "score": 70,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/pacioli/0.39.0",
-    "technology": "Infra AI",
-    "title": "pacioli 0.39.0",
-    "summary": "Governed agent broker for ERPNext (MCP + A2A doors, one spine) — no debit without a credit: PLAN, CONSENT, PROVE, UNDO over the books, on the Pacioli Guard credential floor",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/pacioli/0.39.0/",
-    "published_at": "2026-08-24T08:40:00.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   }
 ]
