@@ -1,5 +1,38 @@
 [
   {
+    "key": "https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents",
+    "technology": "Claude",
+    "title": "New Deepseek model V4.1-Flash cuts memory needs for AI agents",
+    "summary": "Deepseek releases V4.1-Flash, a multimodal model with 552 billion parameters that cuts KV cache memory to a quarter of its predecessor. On the DeepSWE coding benchmark, it narrowly beats Opus 5 and GPT-5.6 Sol, even though only 16 billion parameters are active per token. The model ships under the MIT license and targets much cheaper AI ag...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents/",
+    "published_at": "2026-09-10T12:40:51.000Z",
+    "score": 86,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.1",
+    "technology": "Codex",
+    "title": "0.155.0-alpha.1",
+    "summary": "Release 0.155.0-alpha.1",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.1",
+    "published_at": "2026-09-10T11:53:05.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260910.ged2ac40df",
+    "technology": "Gemini",
+    "title": "Release v0.61.0-nightly.20260910.ged2ac40df",
+    "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260909.ged2ac40df...v0.61.0-nightly.20260910.ged2ac40df",
+    "source": "GitHub: google-gemini/gemini-cli",
+    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260910.ged2ac40df",
+    "published_at": "2026-09-10T01:26:45.000Z",
+    "score": 54,
+    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.154.0",
     "technology": "Codex",
     "title": "0.154.0",
@@ -20,6 +53,83 @@
     "published_at": "2026-09-09T14:06:57.000Z",
     "score": 62,
     "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://news.ycombinator.com/item",
+    "technology": "Claude",
+    "title": "Show HN: Type.com – codex and Claude Code in the cloud for non-tech use cases",
+    "summary": "Hey HN, I'm Komran, the CTO and cofounder of type.com. We're launching today. I've been describing type as \"the IDE for non technical people.\" It allows you to build really cool shit without having to worry about maintaining the perfect local dev environment.…",
+    "source": "Hacker News",
+    "source_url": "https://news.ycombinator.com/item?id=49626148",
+    "published_at": "2026-09-09T13:24:02.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/wexample-wex-addon-ai/14.0.0",
+    "technology": "Claude",
+    "title": "wexample-wex-addon-ai 14.0.0",
+    "summary": "Adds a Claude-backed AI agent to the wex CLI with persistent sessions, engram memory, and MCP access to kernel commands.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/wexample-wex-addon-ai/14.0.0/",
+    "published_at": "2026-09-09T13:23:52.000Z",
+    "score": 82,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/mom-llm/2.1.3",
+    "technology": "OpenClaw",
+    "title": "mom-llm 2.1.3",
+    "summary": "A Mixture-of-Models OpenAI/Anthropic-compatible LLM gateway that fans out to a panel of models and synthesizes one answer.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mom-llm/2.1.3/",
+    "published_at": "2026-09-09T13:21:32.000Z",
+    "score": 74,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
+    "key": "https://github.com/oxbshw/watch-skill",
+    "technology": "ChatGPT / OpenAI",
+    "title": "Show HN: Watch Skill/DeepWatch agents can see screen/video",
+    "summary": "Give AI agents eyes, ears, and verifiable results. Watch Skill turns video, audio and screen activity into searchable, timestamped evidence and proves work with deterministic contracts, not model o...",
+    "source": "Github.com",
+    "source_url": "https://github.com/oxbshw/watch-skill",
+    "published_at": "2026-09-09T13:21:07.000Z",
+    "score": 66,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://www.rte.ie/news/business/2026/0909/1590913-anthropic-researcher-quits",
+    "technology": "Claude",
+    "title": "'They're playing with our lives': ex-Anthropic researcher",
+    "summary": "An artificial intelligence researcher who left OpenAI to join Anthropic has decided to leave the industry, accusing both US companies of \"playing with our lives\" in the race to develop AI models capable of self-improvement.",
+    "source": "RTE",
+    "source_url": "https://www.rte.ie/news/business/2026/0909/1590913-anthropic-researcher-quits/",
+    "published_at": "2026-09-09T13:16:38.000Z",
+    "score": 54,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/sage-harness/1.0.0",
+    "technology": "Claude",
+    "title": "sage-harness 1.0.0",
+    "summary": "Governance harness for AI coding agents — spec-SSOT closed loop for Claude Code and Codex",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/sage-harness/1.0.0/",
+    "published_at": "2026-09-09T13:15:34.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://www.techspot.com/news/113778-jensen-huang-declares-agi-has-arrived-again-again.html",
+    "technology": "OpenClaw",
+    "title": "Jensen Huang declares AGI has arrived, again, and again he's selling GPUs",
+    "summary": "Nvidia CEO Jensen Huang has declared the arrival of AGI for the second time this year. Last time, he cited the popularity of AI agents such as OpenClaw; this time, he made the declaration in response to the launch of GPT-6 Astra. In both cases, he sounds like…",
+    "source": "TechSpot",
+    "source_url": "https://www.techspot.com/news/113778-jensen-huang-declares-agi-has-arrived-again-again.html",
+    "published_at": "2026-09-09T13:01:00.000Z",
+    "score": 98,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
   },
   {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.6.1",
@@ -6486,116 +6596,6 @@
     "source": "Pypi.org",
     "source_url": "https://pypi.org/project/ocean-agent/0.4.50/",
     "published_at": "2026-08-24T23:18:55.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/hwcontract/0.4.2",
-    "technology": "Infra AI",
-    "title": "hwcontract 0.4.2",
-    "summary": "Temporal assertions for real hardware traces: judge pulse timing, serial logs and decoded events against YAML contracts (MCP server, pytest plugin, GitHub Action)",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hwcontract/0.4.2/",
-    "published_at": "2026-08-24T23:18:09.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/matrx-batch/0.2.43",
-    "technology": "Claude",
-    "title": "matrx-batch 0.2.43",
-    "summary": "Cost-shield foundation for AI workloads: OpenAI + Anthropic Batch APIs, live/batch urgency router, shared embedding cache.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/matrx-batch/0.2.43/",
-    "published_at": "2026-08-24T23:03:09.000Z",
-    "score": 68,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/hol-guard/3.0.0a247",
-    "technology": "Codex",
-    "title": "hol-guard 3.0.0a247",
-    "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hol-guard/3.0.0a247/",
-    "published_at": "2026-08-24T22:41:13.000Z",
-    "score": 82,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/cswap-pin/0.1.195",
-    "technology": "Claude",
-    "title": "cswap-pin 0.1.195",
-    "summary": "Keep Claude Code's Remote Control and Artifacts on one account while inference follows cswap's account swap",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/cswap-pin/0.1.195/",
-    "published_at": "2026-08-24T22:26:34.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/browser-automation-cli/0.5.0",
-    "technology": "Codex",
-    "title": "browser-automation-cli 0.5.0",
-    "summary": "Browser automation daemon + CLI for coding agents. Persistent sessions, no MCP, no extensions.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/browser-automation-cli/0.5.0/",
-    "published_at": "2026-08-24T22:19:47.000Z",
-    "score": 82,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.8",
-    "technology": "Codex",
-    "title": "0.150.0-alpha.8",
-    "summary": "Release 0.150.0-alpha.8",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.8",
-    "published_at": "2026-08-24T22:11:43.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/cswap-pin/0.1.194",
-    "technology": "Claude",
-    "title": "cswap-pin 0.1.194",
-    "summary": "Keep Claude Code's Remote Control and Artifacts on one account while inference follows cswap's account swap",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/cswap-pin/0.1.194/",
-    "published_at": "2026-08-24T22:06:04.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/authsome-mcp-proxy/0.5.0",
-    "technology": "Infra AI",
-    "title": "authsome-mcp-proxy 0.5.0",
-    "summary": "A Model Context Protocol (MCP) proxy that adds an OAuth/OIDC frontend to upstream MCPs that don't include any such — either because they only validate tokens or expect static credentials such as API keys. Bridges to a configurable IdP (Keycloak, AWS Cognito, …",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/authsome-mcp-proxy/0.5.0/",
-    "published_at": "2026-08-24T22:05:52.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/switchboard-relay/0.2.7",
-    "technology": "Claude",
-    "title": "switchboard-relay 0.2.7",
-    "summary": "A local MCP server that gives independent Codex, Claude Code, and other agent sessions a shared durable message bus.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/switchboard-relay/0.2.7/",
-    "published_at": "2026-08-24T22:03:08.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/wapimaji-mcp/0.1.8",
-    "technology": "Infra AI",
-    "title": "wapimaji-mcp 0.1.8",
-    "summary": "MCP server for Kenya water stress and drought intelligence",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/wapimaji-mcp/0.1.8/",
-    "published_at": "2026-08-24T17:23:27.000Z",
     "score": 58,
     "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   }
