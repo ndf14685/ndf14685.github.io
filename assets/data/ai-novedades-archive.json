@@ -1,5 +1,16 @@
 [
   {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.10",
+    "technology": "Codex",
+    "title": "0.155.0-alpha.3.10",
+    "summary": "Release 0.155.0-alpha.3.10",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.10",
+    "published_at": "2026-09-11T15:52:58.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.9",
     "technology": "Codex",
     "title": "0.155.0-alpha.3.9",
@@ -118,6 +129,94 @@
     "source_url": "https://github.com/openai/codex/releases/tag/python-v0.154.0",
     "published_at": "2026-09-10T19:51:43.000Z",
     "score": 98,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/couchbase-mcp-server/1.0.2rc2",
+    "technology": "Infra AI",
+    "title": "couchbase-mcp-server 1.0.2rc2",
+    "summary": "Couchbase MCP Server - Enable AI agents to connect to and interact with Couchbase clusters.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/couchbase-mcp-server/1.0.2rc2/",
+    "published_at": "2026-09-10T19:21:43.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/little-loops/1.162.0",
+    "technology": "Claude",
+    "title": "little-loops 1.162.0",
+    "summary": "Development workflow toolkit for AI coding-agent CLIs (Claude Code, Codex, Gemini, Kimi Code) with issue management, code quality commands, and automated processing",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/little-loops/1.162.0/",
+    "published_at": "2026-09-10T19:20:11.000Z",
+    "score": 98,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/unifi-access-mcp/0.6.6",
+    "technology": "Infra AI",
+    "title": "unifi-access-mcp 0.6.6",
+    "summary": "UniFi Access MCP Server",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/unifi-access-mcp/0.6.6/",
+    "published_at": "2026-09-10T19:02:35.000Z",
+    "score": 54,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/kailash-mcp/0.6.0",
+    "technology": "Infra AI",
+    "title": "kailash-mcp 0.6.0",
+    "summary": "Production-ready Model Context Protocol (MCP) client, server, and platform for Kailash SDK",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/kailash-mcp/0.6.0/",
+    "published_at": "2026-09-10T18:52:00.000Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/probe-research/0.154.3",
+    "technology": "Infra AI",
+    "title": "probe-research 0.154.3",
+    "summary": "CLI + SDK + read-only MCP client for Probe Research (experiment tracking).",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/probe-research/0.154.3/",
+    "published_at": "2026-09-10T18:51:25.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/polyclaude/0.4.1",
+    "technology": "Claude",
+    "title": "polyclaude 0.4.1",
+    "summary": "Use OpenAI, Gemini, and any OpenAI-compatible model inside the Claude Code CLI.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/polyclaude/0.4.1/",
+    "published_at": "2026-09-10T18:50:18.000Z",
+    "score": 98,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/agent-config-kit/0.8.0",
+    "technology": "Infra AI",
+    "title": "agent-config-kit 0.8.0",
+    "summary": "Unified MCP server, skill, and hook registration across coding-agent platforms",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agent-config-kit/0.8.0/",
+    "published_at": "2026-09-10T18:39:47.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/hol-guard/3.0.150",
+    "technology": "Codex",
+    "title": "hol-guard 3.0.150",
+    "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/hol-guard/3.0.150/",
+    "published_at": "2026-09-10T18:36:48.000Z",
+    "score": 82,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   },
   {
@@ -6499,104 +6598,5 @@
     "published_at": "2026-08-26T19:24:19.000Z",
     "score": 62,
     "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/oddyssey-mcp/1.7.0",
-    "technology": "Codex",
-    "title": "oddyssey-mcp 1.7.0",
-    "summary": "Oddyssey MCP server: pilots the local observability stack for CLI coding agents",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/oddyssey-mcp/1.7.0/",
-    "published_at": "2026-08-26T19:22:43.000Z",
-    "score": 86,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://the-decoder.com/alibaba-releases-qwen3-8-flash-next-targeting-ultimate-cost-efficiency",
-    "technology": "Claude",
-    "title": "Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\"",
-    "summary": "Alibaba's Qwen team is previewing the Qwen4 architecture with Qwen3.8-Flash-Next, a mixture-of-experts model that activates just 6 out of 125 billion parameters per token. At one-ninth the training cost, it beats much larger competitors like DeepSeek-V4-Flash and Claude Opus 4.6 on coding and office benchmarks, adding more pricing pressur...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/alibaba-releases-qwen3-8-flash-next-targeting-ultimate-cost-efficiency/",
-    "published_at": "2026-08-26T14:40:09.000Z",
-    "score": 80,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
-    "technology": "ChatGPT / OpenAI",
-    "title": "Orchestration is the new challenge for CX in the age of AI agents",
-    "summary": "Presented by Tata Communications Enterprises are deploying AI agents, voice AI, and automation across messaging, voice, and digital channels faster than the architecture meant to support it. Most of that deployment has involved attaching conversational AI to legacy systems never built for it, says Gaurav Anand, global head of the Customer...",
-    "source": "VentureBeat AI",
-    "source_url": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
-    "published_at": "2026-08-26T14:30:00.000Z",
-    "score": 62,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.13",
-    "technology": "Codex",
-    "title": "0.150.0-alpha.13",
-    "summary": "Release 0.150.0-alpha.13",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.13",
-    "published_at": "2026-08-26T11:18:24.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.12",
-    "technology": "Codex",
-    "title": "0.150.0-alpha.12",
-    "summary": "Release 0.150.0-alpha.12",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.12",
-    "published_at": "2026-08-26T10:06:30.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/cswap-pin/0.1.206",
-    "technology": "Claude",
-    "title": "cswap-pin 0.1.206",
-    "summary": "Keep Claude Code's Remote Control and Artifacts on one account while inference follows cswap's account swap",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/cswap-pin/0.1.206/",
-    "published_at": "2026-08-26T04:26:39.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/boxxkite-mcp/0.8.0",
-    "technology": "Claude",
-    "title": "boxxkite-mcp 0.8.0",
-    "summary": "MCP server exposing a hosted boxxkite control-plane (sandbox lifecycle, exec, files) as native tools for MCP-compatible clients (Claude Code, Claude Desktop, Codex, Cursor, etc.).",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/boxxkite-mcp/0.8.0/",
-    "published_at": "2026-08-26T03:54:04.000Z",
-    "score": 98,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/ai-slopgate/2.2.3",
-    "technology": "Claude",
-    "title": "ai-slopgate 2.2.3",
-    "summary": "Global CLI guardrails engine for AI coding agents — Claude Code, Codex, OpenCode",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/ai-slopgate/2.2.3/",
-    "published_at": "2026-08-26T03:43:16.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/thirtytutors/1.0.0",
-    "technology": "ChatGPT / OpenAI",
-    "title": "thirtytutors 1.0.0",
-    "summary": "A self-hosted, real-time voice AI language tutor with a 3D talking avatar, built on the Gemini Live API.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/thirtytutors/1.0.0/",
-    "published_at": "2026-08-26T03:34:44.000Z",
-    "score": 82,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
   }
 ]
