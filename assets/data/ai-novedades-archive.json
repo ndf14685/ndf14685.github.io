@@ -1,5 +1,49 @@
 [
   {
+    "key": "https://developers.googleblog.com/how-to-evaluate-live-voice-agents-in-adk",
+    "technology": "ChatGPT / OpenAI",
+    "title": "How to Evaluate Live & Voice Agents in ADK",
+    "summary": "Moving live voice agents from demo to production requires rigorous, automated testing to handle the unpredictability of real multi-turn conversations. ADK now provides native live evaluation, allowing developers to test graph-based agent workflows against LLM-driven simulated users that generate actual audio via Gemini TTS. By defining ev...",
+    "source": "Google Developers Blog",
+    "source_url": "https://developers.googleblog.com/how-to-evaluate-live-voice-agents-in-adk/",
+    "published_at": "2026-09-11T00:53:47.369Z",
+    "score": 82,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.2.3",
+    "technology": "Codex",
+    "title": "0.155.0-alpha.2.3",
+    "summary": "Release 0.155.0-alpha.2.3",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.2.3",
+    "published_at": "2026-09-11T00:28:26.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/voice-cygwin-108b38cf67cbb731",
+    "technology": "Codex",
+    "title": "Cygwin build inputs and matching source for Windows voice",
+    "summary": "CI-only build tools for native Windows voice releases. These archives are **not included** in Codex user packages. - `cygwin-build-inputs.tar.gz`: 103 pinned Cygwin binary packages and the signed package index used by the offline build installer. - `cygwin-build-sources.tar`: all 83 corresponding source package archives at the exact versi...",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/voice-cygwin-108b38cf67cbb731",
+    "published_at": "2026-09-10T20:19:50.000Z",
+    "score": 94,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/python-v0.154.0",
+    "technology": "Codex",
+    "title": "Python SDK 0.154.0",
+    "summary": "Install with `pip install --upgrade openai-codex==0.154.0` (Python 3.10 or later). This release includes the matching `openai-codex-cli-bin==0.154.0` runtime. - Add `max` and `ultra` reasoning-effort values. [#39662](https://github.com/openai/codex/pull/39662) - Add `ExternalMessage` to synchronous and asynchronous `run()` and `turn()` ca...",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/python-v0.154.0",
+    "published_at": "2026-09-10T19:51:43.000Z",
+    "score": 98,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.2",
     "technology": "Codex",
     "title": "0.155.0-alpha.2",
@@ -55,6 +99,83 @@
     "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
   },
   {
+    "key": "https://pypi.org/project/deepmodel-dmx/0.4.0",
+    "technology": "Codex",
+    "title": "deepmodel-dmx 0.4.0",
+    "summary": "AI SDLC MCP server — skills and rules for any AI IDE.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/deepmodel-dmx/0.4.0/",
+    "published_at": "2026-09-10T00:49:07.000Z",
+    "score": 82,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/agent-harness-aibom/0.9.0",
+    "technology": "OpenClaw",
+    "title": "agent-harness-aibom 0.9.0",
+    "summary": "AIBOM generator for AI agent harnesses (Hermes, OpenClaw) and their model/skill/MCP/hook surface",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agent-harness-aibom/0.9.0/",
+    "published_at": "2026-09-10T00:44:16.000Z",
+    "score": 82,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
+    "key": "https://pypi.org/project/gms-mcp/0.0.13",
+    "technology": "Infra AI",
+    "title": "gms-mcp 0.0.13",
+    "summary": "GameMaker CLI + MCP server toolset",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/gms-mcp/0.0.13/",
+    "published_at": "2026-09-10T00:22:32.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/terse-mcp/0.32.2",
+    "technology": "Infra AI",
+    "title": "terse-mcp 0.32.2",
+    "summary": "Lossless-first compression layer for AI-agent tool outputs — byte-faithful on fields you mark critical, configurable lossy reduction only where you opt in.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/terse-mcp/0.32.2/",
+    "published_at": "2026-09-10T00:18:10.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/gms-mcp/0.0.13rc22200",
+    "technology": "Infra AI",
+    "title": "gms-mcp 0.0.13rc22200",
+    "summary": "GameMaker CLI + MCP server toolset",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/gms-mcp/0.0.13rc22200/",
+    "published_at": "2026-09-10T00:16:58.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/codex-agent-hour-tracker/0.2.0",
+    "technology": "OpenClaw",
+    "title": "codex-agent-hour-tracker 0.2.0",
+    "summary": "Measure cumulative Codex agent runtime without decoding conversation content.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/codex-agent-hour-tracker/0.2.0/",
+    "published_at": "2026-09-10T00:14:25.000Z",
+    "score": 74,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
+    "key": "https://pypi.org/project/hol-guard/3.0.146",
+    "technology": "Codex",
+    "title": "hol-guard 3.0.146",
+    "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/hol-guard/3.0.146/",
+    "published_at": "2026-09-10T00:11:10.000Z",
+    "score": 82,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
     "technology": "Codex",
     "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
@@ -64,6 +185,28 @@
     "published_at": "2026-09-10T00:00:00.000Z",
     "score": 58,
     "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://openai.com/index/introducing-the-agents-api",
+    "technology": "Codex",
+    "title": "Introducing the Agents API",
+    "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+    "source": "OpenAI News",
+    "source_url": "https://openai.com/index/introducing-the-agents-api",
+    "published_at": "2026-09-10T00:00:00.000Z",
+    "score": 86,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://eclipsesource.com/blogs/2026/09/10/eclipse-theia-1-75-release-news-and-noteworthy",
+    "technology": "Infra AI",
+    "title": "Eclipse Theia 1.75 Release: News and Noteworthy",
+    "summary": "Eclipse Theia 1.75 adds Agent Plugins and auto-updates from the AI Registry, replaces the scattered AI settings with one unified AI Configuration view, tells agents when files changed behind their back, and brings a Memory capability, MCP Apps that render the…",
+    "source": "Eclipsesource.com",
+    "source_url": "https://eclipsesource.com/blogs/2026/09/10/eclipse-theia-1-75-release-news-and-noteworthy/",
+    "published_at": "2026-09-10T00:00:00.000Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   },
   {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.154.0",
@@ -6454,149 +6597,6 @@
     "source_url": "https://pypi.org/project/oracle-oci-migration-mcp-server/3.0.2/",
     "published_at": "2026-08-25T18:55:47.000Z",
     "score": 64,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/seahorse-memory/0.11.1",
-    "technology": "Infra AI",
-    "title": "seahorse-memory 0.11.1",
-    "summary": "Persistent, bi-temporal memory for LLM agents — local-first, MCP-native, Obsidian-readable.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/seahorse-memory/0.11.1/",
-    "published_at": "2026-08-25T18:52:55.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/mcp-memory-service/11.8.5",
-    "technology": "Infra AI",
-    "title": "mcp-memory-service 11.8.5",
-    "summary": "Semantic memory layer for AI applications. REST API + MCP transport + knowledge graph + autonomous consolidation. Works with 14+ AI clients. Self-host, zero cloud cost.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/mcp-memory-service/11.8.5/",
-    "published_at": "2026-08-25T18:50:09.000Z",
-    "score": 80,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://biztoc.com/x/1a742d3f9bf30303",
-    "technology": "Gemini",
-    "title": "Google Agentic AI Meets Verified Data For Finance",
-    "summary": "Dun & Bradstreet (D&B) is bringing its\"Commercial Graph\" into \"Gemini Enterprise for Financial Services\" by Google Cloud via Model Context Protocol (MCP) integrations. This integration and new service from Google, announcedtoday, introduces a path to verifica…",
-    "source": "Biztoc.com",
-    "source_url": "https://biztoc.com/x/1a742d3f9bf30303",
-    "published_at": "2026-08-25T18:47:48.000Z",
-    "score": 82,
-    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
-  },
-  {
-    "key": "https://the-decoder.com/google-launches-gemini-for-legal-work-to-automate-contracts-and-research",
-    "technology": "Claude",
-    "title": "Google launches Gemini for legal work to automate contracts and research",
-    "summary": "With Gemini Enterprise for Legal, Google launches an AI solution for the legal industry that connects to systems like iManage, DocuSign, and Everlaw through MCP connectors. Partners like Deloitte sell ready-made AI agents for tasks like contract review. Anthropic already offers similar solutions. All providers use the same models as in th...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/google-launches-gemini-for-legal-work-to-automate-contracts-and-research/",
-    "published_at": "2026-08-25T16:21:09.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.9",
-    "technology": "Codex",
-    "title": "0.150.0-alpha.9",
-    "summary": "Release 0.150.0-alpha.9",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.9",
-    "published_at": "2026-08-25T12:51:26.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/realhands/0.3.1",
-    "technology": "Claude",
-    "title": "realhands 0.3.1",
-    "summary": "MCP server that lets Claude operate the REAL desktop (mouse, keyboard, screen) like a human — works in your own logged-in Chrome and any app",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/realhands/0.3.1/",
-    "published_at": "2026-08-25T09:47:12.000Z",
-    "score": 74,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/realhands/0.3.0",
-    "technology": "Claude",
-    "title": "realhands 0.3.0",
-    "summary": "MCP server that lets Claude operate the REAL desktop (mouse, keyboard, screen) like a human — works in your own logged-in Chrome and any app",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/realhands/0.3.0/",
-    "published_at": "2026-08-25T09:42:26.000Z",
-    "score": 74,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/ona-mcp/0.3.1",
-    "technology": "Claude",
-    "title": "ona-mcp 0.3.1",
-    "summary": "MCP server for managing Ona AI pipelines from Claude Desktop and Claude Code",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/ona-mcp/0.3.1/",
-    "published_at": "2026-08-25T09:35:32.000Z",
-    "score": 74,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/stats-compass-mcp/0.3.24",
-    "technology": "Claude",
-    "title": "stats-compass-mcp 0.3.24",
-    "summary": "MCP server exposing stats-compass-core tools to LLMs like ChatGPT, Claude, and Gemini",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/stats-compass-mcp/0.3.24/",
-    "published_at": "2026-08-25T09:35:06.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/mnemoai-assistant/1.10.3",
-    "technology": "Infra AI",
-    "title": "mnemoai-assistant 1.10.3",
-    "summary": "Mnemo AI — a local agentic AI assistant (LangGraph + MCP) that learns and remembers, with multi-provider model support.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/mnemoai-assistant/1.10.3/",
-    "published_at": "2026-08-25T09:30:15.000Z",
-    "score": 66,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/blog-cli/0.4.4",
-    "technology": "Codex",
-    "title": "blog-cli 0.4.4",
-    "summary": "Agent-friendly CLI for managing a personal site. Articles, projects, services, media, and a bundled ChatGPT/Codex skill.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/blog-cli/0.4.4/",
-    "published_at": "2026-08-25T09:29:54.000Z",
-    "score": 78,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/realhands/0.2.2",
-    "technology": "Claude",
-    "title": "realhands 0.2.2",
-    "summary": "MCP server that lets Claude operate the REAL desktop (mouse, keyboard, screen) like a human — works in your own logged-in Chrome and any app",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/realhands/0.2.2/",
-    "published_at": "2026-08-25T09:29:52.000Z",
-    "score": 74,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/mcpscraper-sdk/0.29.2",
-    "technology": "Infra AI",
-    "title": "mcpscraper-sdk 0.29.2",
-    "summary": "Official Python client for all 259 mcpscraper.dev MCP tools and the REST API",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/mcpscraper-sdk/0.29.2/",
-    "published_at": "2026-08-25T09:22:29.000Z",
-    "score": 66,
     "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   }
 ]
