@@ -1,5 +1,38 @@
 [
   {
+    "key": "https://developers.googleblog.com/build-zero-trust-ai-agents-that-judge-intent-not-just-syntax",
+    "technology": "Gemini",
+    "title": "Build zero-trust AI agents that judge intent, not just syntax",
+    "summary": "This blog post explores how to transition AI agents from static, build-time security controls to dynamic runtime governance using the Gemini Enterprise Agent Platform. It highlights three primary managed defenses: Model Armor for screening edge prompts, Semantic Governance Policies for evaluating tool intent against business rules, and Ag...",
+    "source": "Google Developers Blog",
+    "source_url": "https://developers.googleblog.com/build-zero-trust-ai-agents-that-judge-intent-not-just-syntax/",
+    "published_at": "2026-09-15T20:05:51.136Z",
+    "score": 52,
+    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
+  },
+  {
+    "key": "https://the-decoder.com/google-launches-gemini-3-8-live-to-take-on-openais-gpt-live-1-at-a-fraction-of-the-cost",
+    "technology": "ChatGPT / OpenAI",
+    "title": "Google launches Gemini 3.8 Live to take on OpenAI's GPT-Live-1 at a fraction of the cost",
+    "summary": "Google Deepmind released Gemini 3.8 Live and 3.8 Live Extended Thinking, two new audio models for developers that top the Artificial Analysis speech-to-speech leaderboard. At $1.38 per hour of voice conversation, Google significantly undercuts OpenAI's GPT-Live-1, which should still sound more natural thanks to full duplex. The article Go...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/google-launches-gemini-3-8-live-to-take-on-openais-gpt-live-1-at-a-fraction-of-the-cost/",
+    "published_at": "2026-09-15T18:23:20.000Z",
+    "score": 100,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://the-decoder.com/ai-labs-have-a-data-trust-problem-that-their-policies-havent-solved",
+    "technology": "Claude",
+    "title": "AI labs have a data trust problem that their policies haven't solved",
+    "summary": "OpenAI and Anthropic tell corporate customers their data won't be used for training. But when Anthropic said it would store usage logs from its flagship model Fable for 30 days, Palantir, Nvidia, and Booz Allen Hamilton pulled back from using it for sensitive work. From boardrooms to research labs, AI companies still have a data trust pro...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/ai-labs-have-a-data-trust-problem-that-their-policies-havent-solved/",
+    "published_at": "2026-09-15T17:52:05.000Z",
+    "score": 54,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.6",
     "technology": "Codex",
     "title": "0.155.0-alpha.6",
@@ -42,6 +75,94 @@
     "published_at": "2026-09-14T23:04:27.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/dbx-tools-graphiti/0.6.204",
+    "technology": "Infra AI",
+    "title": "dbx-tools-graphiti 0.6.204",
+    "summary": "Native Graphiti MCP and Neo4j launcher with Databricks models through dbx-model-proxy",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/dbx-tools-graphiti/0.6.204/",
+    "published_at": "2026-09-14T20:04:16.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/terse-mcp/0.33.3",
+    "technology": "Infra AI",
+    "title": "terse-mcp 0.33.3",
+    "summary": "Lossless-first compression layer for AI-agent tool outputs — byte-faithful on fields you mark critical, configurable lossy reduction only where you opt in.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/terse-mcp/0.33.3/",
+    "published_at": "2026-09-14T20:02:09.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/nousergon-lib/0.124.126",
+    "technology": "Claude",
+    "title": "nousergon-lib 0.124.126",
+    "summary": "Shared utilities for the Nous Ergon (Crucible) modules: preflight, logging, ArcticDB, dates, decision capture, cost telemetry, Anthropic payload chokepoint, artifact freshness, windowed artifact resolution, RAG, agent schemas, SSM secrets, Telegram + SNS aler…",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/nousergon-lib/0.124.126/",
+    "published_at": "2026-09-14T20:01:34.000Z",
+    "score": 68,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/ntasker/3.2.2",
+    "technology": "Claude",
+    "title": "ntasker 3.2.2",
+    "summary": "Lightweight local task tracker for AI agents like Claude code, Pi.dev or OpenCode. Single-user, FastAPI + SQLite, Tabler.io UI.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/ntasker/3.2.2/",
+    "published_at": "2026-09-14T19:56:49.000Z",
+    "score": 62,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/lorcana-mcp/2.4.0",
+    "technology": "Infra AI",
+    "title": "lorcana-mcp 2.4.0",
+    "summary": "MCP server for Disney Lorcana TCG: enrich TCGPlayer collection exports, look up and search cards, auto-build legal decks, audit your collection against live card data, and check the current metagame",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/lorcana-mcp/2.4.0/",
+    "published_at": "2026-09-14T19:44:09.000Z",
+    "score": 54,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/heylead/0.10.369",
+    "technology": "Infra AI",
+    "title": "heylead 0.10.369",
+    "summary": "MCP-native autonomous LinkedIn SDR. Your AI sales rep, one command to fill your pipeline.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/heylead/0.10.369/",
+    "published_at": "2026-09-14T19:39:58.000Z",
+    "score": 54,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/dbx-tools-graphiti/0.6.203",
+    "technology": "Infra AI",
+    "title": "dbx-tools-graphiti 0.6.203",
+    "summary": "Native Graphiti MCP and Neo4j launcher with Databricks models through dbx-model-proxy",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/dbx-tools-graphiti/0.6.203/",
+    "published_at": "2026-09-14T19:37:17.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/dhis2w-mcp-router/1.23.0",
+    "technology": "Infra AI",
+    "title": "dhis2w-mcp-router 1.23.0",
+    "summary": "Domain-neutral MCP router: front many upstream MCP servers behind two meta-tools (search + dispatch) so an agent gets lazy, searchable tool discovery instead of a huge up-front tool payload.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/dhis2w-mcp-router/1.23.0/",
+    "published_at": "2026-09-14T19:13:32.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   },
   {
     "key": "https://www.saastr.com/we-run-21-ai-agents-and-theyve-closed-millions-but-there-still-isnt-a-good-ai-account-executive-yet",
@@ -6477,126 +6598,5 @@
     "published_at": "2026-08-31T01:26:47.000Z",
     "score": 78,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/polyglot-ai",
-    "technology": "Claude",
-    "title": "polyglot-ai added to PyPI",
-    "summary": "AI-powered coding assistant desktop app for Linux — supports OpenAI, Anthropic, Google, DeepSeek, and more",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/polyglot-ai/",
-    "published_at": "2026-08-31T01:25:17.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/code-atlas-mcp/0.10.4",
-    "technology": "Codex",
-    "title": "code-atlas-mcp 0.10.4",
-    "summary": "A code intelligence graph that gives AI coding agents deep, token-efficient understanding of your codebase.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/code-atlas-mcp/0.10.4/",
-    "published_at": "2026-08-31T01:14:08.000Z",
-    "score": 78,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/codex-lb/1.25.0b1",
-    "technology": "Codex",
-    "title": "codex-lb 1.25.0b1",
-    "summary": "Codex load balancer and proxy for ChatGPT accounts with usage dashboard",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/codex-lb/1.25.0b1/",
-    "published_at": "2026-08-31T01:11:32.000Z",
-    "score": 70,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.152.0-alpha.5",
-    "technology": "Codex",
-    "title": "0.152.0-alpha.5",
-    "summary": "Release 0.152.0-alpha.5",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.152.0-alpha.5",
-    "published_at": "2026-08-31T01:11:03.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/holix/1.1.5",
-    "technology": "Codex",
-    "title": "Holix 1.1.5",
-    "summary": "Self-improving AI agent with memory, skills, MCP, CLI, and TUI",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/holix/1.1.5/",
-    "published_at": "2026-08-31T01:08:38.000Z",
-    "score": 86,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/hol-guard/3.0.26",
-    "technology": "Codex",
-    "title": "hol-guard 3.0.26",
-    "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hol-guard/3.0.26/",
-    "published_at": "2026-08-31T00:57:21.000Z",
-    "score": 82,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/vmware-policy/1.12.1",
-    "technology": "Codex",
-    "title": "vmware-policy 1.12.1",
-    "summary": "Unified audit logging, policy enforcement, and sanitization for VMware MCP skills",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/vmware-policy/1.12.1/",
-    "published_at": "2026-08-31T00:49:43.000Z",
-    "score": 78,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/hol-guard/3.0.25",
-    "technology": "Codex",
-    "title": "hol-guard 3.0.25",
-    "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hol-guard/3.0.25/",
-    "published_at": "2026-08-31T00:40:52.000Z",
-    "score": 82,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/gemini-research-mcp/0.16.0b1",
-    "technology": "Gemini",
-    "title": "gemini-research-mcp 0.16.0b1",
-    "summary": "MCP server for AI-powered research using Gemini: quick grounded search + Deep Research Agent",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/gemini-research-mcp/0.16.0b1/",
-    "published_at": "2026-08-31T00:29:22.000Z",
-    "score": 78,
-    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
-  },
-  {
-    "key": "https://pypi.org/project/hol-guard/3.0.24",
-    "technology": "Codex",
-    "title": "hol-guard 3.0.24",
-    "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hol-guard/3.0.24/",
-    "published_at": "2026-08-31T00:27:57.000Z",
-    "score": 82,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/hol-guard/3.0.21",
-    "technology": "Codex",
-    "title": "hol-guard 3.0.21",
-    "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hol-guard/3.0.21/",
-    "published_at": "2026-08-30T21:50:50.000Z",
-    "score": 82,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   }
 ]
