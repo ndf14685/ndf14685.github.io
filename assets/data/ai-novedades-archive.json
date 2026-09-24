@@ -1,5 +1,49 @@
 [
   {
+    "key": "https://developers.googleblog.com/scaling-ai-agent-infrastructure-with-the-mcp-stateless-updates",
+    "technology": "Gemini",
+    "title": "Scaling AI Agent Infrastructure with the MCP Stateless updates",
+    "summary": "The 2026-07-28 Model Context Protocol (MCP) specification replaces legacy stateful constraints with a fully stateless core, enabling cloud-native horizontal scaling, serverless deployments, and standard round-robin load balancing. This architectural shift introduces standardized HTTP headers for efficient routing without deep packet inspe...",
+    "source": "Google Developers Blog",
+    "source_url": "https://developers.googleblog.com/scaling-ai-agent-infrastructure-with-the-mcp-stateless-updates/",
+    "published_at": "2026-09-24T14:08:38.942Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.8",
+    "technology": "Codex",
+    "title": "0.158.0-alpha.8",
+    "summary": "Release 0.158.0-alpha.8",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.8",
+    "published_at": "2026-09-24T07:12:02.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.7",
+    "technology": "Codex",
+    "title": "0.158.0-alpha.7",
+    "summary": "Release 0.158.0-alpha.7",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.7",
+    "published_at": "2026-09-24T05:28:27.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260924.g8e70c862f",
+    "technology": "Gemini",
+    "title": "Release v0.62.0-nightly.20260924.g8e70c862f",
+    "summary": "## What's Changed * Check for vsc integration test presence when attempting to run. by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/29462 * fix(cli): display retry progress indicator during connection recovery (#28340) by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29468 **Full Changelog**: https://g...",
+    "source": "GitHub: google-gemini/gemini-cli",
+    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260924.g8e70c862f",
+    "published_at": "2026-09-24T01:25:37.000Z",
+    "score": 58,
+    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.6",
     "technology": "Codex",
     "title": "0.158.0-alpha.6",
@@ -33,6 +77,17 @@
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   },
   {
+    "key": "https://the-decoder.com/chatgpt-voice-gets-closer-to-her-with-email-calendar-and-slack-access",
+    "technology": "ChatGPT / OpenAI",
+    "title": "ChatGPT Voice gets closer to \"Her\" with email, calendar, and Slack access",
+    "summary": "ChatGPT Voice now runs on OpenAI's new GPT-6 Astra, Sol, and Luna models and can tap into plugins like email, calendar, and Slack. Users can manage appointments, send emails, or build websites just by talking. The update moves OpenAI closer to the everyday AI assistant Sam Altman has long compared to the one in the sci-fi film \"Her.\" The...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/chatgpt-voice-gets-closer-to-her-with-email-calendar-and-slack-access/",
+    "published_at": "2026-09-23T17:57:37.000Z",
+    "score": 58,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
     "key": "https://the-decoder.com/googles-new-flash-tts-models-let-you-design-ai-voices-from-scratch-using-text-descriptions",
     "technology": "ChatGPT / OpenAI",
     "title": "Google's new Flash TTS models let you design AI voices from scratch using text descriptions",
@@ -64,6 +119,83 @@
     "published_at": "2026-09-23T14:42:38.000Z",
     "score": 74,
     "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
+    "key": "https://pypi.org/project/mockworld-mcp/0.3.3",
+    "technology": "Infra AI",
+    "title": "mockworld-mcp 0.3.3",
+    "summary": "A synthetic internet for agents — deterministic, LLM-free fake services (Stripe, Gmail, exchange, CRM, S3) as MCP servers.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mockworld-mcp/0.3.3/",
+    "published_at": "2026-09-23T14:07:21.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/simba-mcp/0.5.2",
+    "technology": "Infra AI",
+    "title": "simba-mcp 0.5.2",
+    "summary": "MCP server for Simba Marketing Mix Modeling — connect AI assistants to your MMM models",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/simba-mcp/0.5.2/",
+    "published_at": "2026-09-23T14:07:08.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/mycouncil/0.7.0",
+    "technology": "Claude",
+    "title": "mycouncil 0.7.0",
+    "summary": "MCP server for myCouncil — run multi-LLM debates from Claude Code, Claude Desktop, Cursor, and other MCP clients.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mycouncil/0.7.0/",
+    "published_at": "2026-09-23T14:06:16.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/codecortex/0.24.1",
+    "technology": "Codex",
+    "title": "codecortex 0.24.1",
+    "summary": "Local-first, MCP-native code-intelligence server — graph, LSP, and semantic search behind one safe code.query tool for coding agents.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/codecortex/0.24.1/",
+    "published_at": "2026-09-23T13:55:17.000Z",
+    "score": 82,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/ijuka-mcp/1.2.0",
+    "technology": "Infra AI",
+    "title": "ijuka-mcp 1.2.0",
+    "summary": "Ijuka MCP server — Python shim for uvx. Launches the bundled Ijuka helper.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/ijuka-mcp/1.2.0/",
+    "published_at": "2026-09-23T13:36:03.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/ijuka-mcp",
+    "technology": "Infra AI",
+    "title": "ijuka-mcp added to PyPI",
+    "summary": "Ijuka MCP server — Python shim for uvx. Launches the bundled Ijuka helper.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/ijuka-mcp/",
+    "published_at": "2026-09-23T13:35:59.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://biztoc.com/x/4030db5faa341218",
+    "technology": "Claude",
+    "title": "OpenAI, Anthropic To Brief UN Security Council On AI Risks",
+    "summary": "OpenAI, Anthropic To Brief UN Security Council On AI Risks Authored by Ezra Reguerra via Cointelegraph, Anthropic CEO Dario Amodei and OpenAI CEO Sam Altman are expected to brief the United Nations Security Council on Wednesday as the body examines artifici…",
+    "source": "Biztoc.com",
+    "source_url": "https://biztoc.com/x/4030db5faa341218",
+    "published_at": "2026-09-23T13:35:29.000Z",
+    "score": 64,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   },
   {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.2",
@@ -130,6 +262,17 @@
     "published_at": "2026-09-23T02:41:36.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260923.g62364cb20",
+    "technology": "Gemini",
+    "title": "Release v0.62.0-nightly.20260923.g62364cb20",
+    "summary": "## What's Changed * Feat/gemini 3.8 flash 3.5 flash lite by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/29443 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260922.gd5b3e3acc...v0.62.0-nightly.20260923.g62364cb20",
+    "source": "GitHub: google-gemini/gemini-cli",
+    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260923.g62364cb20",
+    "published_at": "2026-09-23T01:24:23.000Z",
+    "score": 58,
+    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
   },
   {
     "key": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing",
@@ -6455,148 +6598,5 @@
     "published_at": "2026-09-08T12:31:02.000Z",
     "score": 68,
     "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0-nightly.20260908.g85aca163f",
-    "technology": "Gemini",
-    "title": "Release v0.60.0-nightly.20260908.g85aca163f",
-    "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.60.0-nightly.20260907.g85aca163f...v0.60.0-nightly.20260908.g85aca163f",
-    "source": "GitHub: google-gemini/gemini-cli",
-    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0-nightly.20260908.g85aca163f",
-    "published_at": "2026-09-08T01:26:09.000Z",
-    "score": 54,
-    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
-  },
-  {
-    "key": "https://pypi.org/project/outlook-graph-mcp/1.18.0",
-    "technology": "Infra AI",
-    "title": "outlook-graph-mcp 1.18.0",
-    "summary": "MCP server for Microsoft Outlook via Microsoft Graph API",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/outlook-graph-mcp/1.18.0/",
-    "published_at": "2026-09-08T01:05:11.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/polyglot-ai/0.18.5",
-    "technology": "Claude",
-    "title": "polyglot-ai 0.18.5",
-    "summary": "AI-powered coding assistant desktop app for Linux — supports OpenAI, Anthropic, Google, DeepSeek, and more",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/polyglot-ai/0.18.5/",
-    "published_at": "2026-09-08T01:04:34.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/edge-agent-bridge/2.0.2",
-    "technology": "Infra AI",
-    "title": "edge-agent-bridge 2.0.2",
-    "summary": "Let AI agents drive your open Microsoft Edge tabs by element reference, over MCP, a CLI, or Python.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/edge-agent-bridge/2.0.2/",
-    "published_at": "2026-09-08T01:04:23.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://prtimes.jp/main/html/rd/p/000000029.000122141.html",
-    "technology": "Infra AI",
-    "title": "SEO/LLMOプラットフォーム「リテラ（BringRitera）」がMCP対応――生成AIから計測データを取得し、AIに選ばれるブランドの傾向を分析可能に",
-    "summary": "[株式会社BringFlower] [画像1: https://prcdn.freetls.fastly.net/release_image/122141/29/122141-29-2ebda5927349b79bb8f837e84292de34-1200x730.png?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&a...",
-    "source": "Prtimes.jp",
-    "source_url": "https://prtimes.jp/main/html/rd/p/000000029.000122141.html",
-    "published_at": "2026-09-08T01:00:00.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/parapetai-mcp/0.7.0",
-    "technology": "Claude",
-    "title": "parapetai-mcp 0.7.0",
-    "summary": "MCP server for Claude Code (and other MCP clients): device-code login to a Parapet control plane, provisioning agents, and pulling the exact quickstart config a codebase needs -- ships seven packaged skills: parapet-maf/parapet-adk/parapet-langgraph (retrofit…",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/parapetai-mcp/0.7.0/",
-    "published_at": "2026-09-08T00:55:43.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/polyglot-ai/0.18.4",
-    "technology": "Claude",
-    "title": "polyglot-ai 0.18.4",
-    "summary": "AI-powered coding assistant desktop app for Linux — supports OpenAI, Anthropic, Google, DeepSeek, and more",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/polyglot-ai/0.18.4/",
-    "published_at": "2026-09-08T00:39:19.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/longhand/1.2.0",
-    "technology": "Claude",
-    "title": "longhand 1.2.0",
-    "summary": "Persistent local memory for Claude Code. Total recall from your session files — no API calls, no summaries, no AI deciding what matters.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/longhand/1.2.0/",
-    "published_at": "2026-09-08T00:34:54.000Z",
-    "score": 58,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/outlook-graph-mcp/1.17.0",
-    "technology": "Infra AI",
-    "title": "outlook-graph-mcp 1.17.0",
-    "summary": "MCP server for Microsoft Outlook via Microsoft Graph API",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/outlook-graph-mcp/1.17.0/",
-    "published_at": "2026-09-08T00:27:12.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/polyglot-ai/0.18.3",
-    "technology": "Claude",
-    "title": "polyglot-ai 0.18.3",
-    "summary": "AI-powered coding assistant desktop app for Linux — supports OpenAI, Anthropic, Google, DeepSeek, and more",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/polyglot-ai/0.18.3/",
-    "published_at": "2026-09-08T00:24:55.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://openai.com/index/1password",
-    "technology": "Codex",
-    "title": "1Password increases engineering productivity 21% with Codex",
-    "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
-    "source": "OpenAI News",
-    "source_url": "https://openai.com/index/1password",
-    "published_at": "2026-09-08T00:00:00.000Z",
-    "score": 88,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/polyglot-ai/0.18.2",
-    "technology": "Claude",
-    "title": "polyglot-ai 0.18.2",
-    "summary": "AI-powered coding assistant desktop app for Linux — supports OpenAI, Anthropic, Google, DeepSeek, and more",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/polyglot-ai/0.18.2/",
-    "published_at": "2026-09-07T23:53:41.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/reclip-mcp/0.1.2",
-    "technology": "Infra AI",
-    "title": "reclip-mcp 0.1.2",
-    "summary": "Local-first CLI and MCP tools for inspecting and downloading permitted media",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/reclip-mcp/0.1.2/",
-    "published_at": "2026-09-07T23:47:02.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   }
 ]
