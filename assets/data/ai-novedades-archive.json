@@ -1,5 +1,38 @@
 [
   {
+    "key": "https://developers.googleblog.com/how-to-evaluate-live-voice-agents-in-adk",
+    "technology": "ChatGPT / OpenAI",
+    "title": "How to Evaluate Live & Voice Agents in ADK",
+    "summary": "Moving live voice agents from demo to production requires rigorous, automated testing to handle the unpredictability of real multi-turn conversations. ADK now provides native live evaluation, allowing developers to test graph-based agent workflows against LLM-driven simulated users that generate actual audio via Gemini TTS. By defining ev...",
+    "source": "Google Developers Blog",
+    "source_url": "https://developers.googleblog.com/how-to-evaluate-live-voice-agents-in-adk/",
+    "published_at": "2026-09-27T01:16:02.496Z",
+    "score": 82,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.15.2",
+    "technology": "Codex",
+    "title": "0.158.0-alpha.15.2",
+    "summary": "Release 0.158.0-alpha.15.2",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.15.2",
+    "published_at": "2026-09-27T00:02:58.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.6",
+    "technology": "Codex",
+    "title": "0.159.0-alpha.6",
+    "summary": "Release 0.159.0-alpha.6",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.6",
+    "published_at": "2026-09-26T20:07:52.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.5",
     "technology": "Codex",
     "title": "0.159.0-alpha.5",
@@ -66,6 +99,39 @@
     "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
   },
   {
+    "key": "https://pypi.org/project/openai-codex/0.157.1",
+    "technology": "Codex",
+    "title": "openai-codex 0.157.1",
+    "summary": "Python SDK for Codex",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/openai-codex/0.157.1/",
+    "published_at": "2026-09-26T01:14:33.000Z",
+    "score": 74,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/threadfox-lite/0.2.4",
+    "technology": "Claude",
+    "title": "threadfox-lite 0.2.4",
+    "summary": "Read a subreddit's rules and check whether a Reddit post is still up, from Claude Code, Codex or any MCP client. Free tools from ThreadFox.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/threadfox-lite/0.2.4/",
+    "published_at": "2026-09-26T01:06:51.000Z",
+    "score": 98,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/my-claude-code/7.56.2",
+    "technology": "Claude",
+    "title": "my-claude-code 7.56.2",
+    "summary": "Local multi-provider LLM proxy, model router and control plane for Claude Code, Codex, OpenCode, Gemini CLI and other AI coding agents: 57 providers, fallback routing, credential health, a native web-search tool proxy, and analytics with cost provenance",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/my-claude-code/7.56.2/",
+    "published_at": "2026-09-26T01:03:58.000Z",
+    "score": 100,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.157.1",
     "technology": "Codex",
     "title": "0.157.1",
@@ -75,6 +141,105 @@
     "published_at": "2026-09-26T01:02:31.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/ak5/1.0.13",
+    "technology": "OpenClaw",
+    "title": "ak5 1.0.13",
+    "summary": "AK5: Agent-Orchestrated Kanban System Gateway, MCP Server & CLI",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/ak5/1.0.13/",
+    "published_at": "2026-09-26T01:02:04.000Z",
+    "score": 82,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
+    "key": "https://pypi.org/project/sogni-client/5.56.3",
+    "technology": "ChatGPT / OpenAI",
+    "title": "sogni-client 5.56.3",
+    "summary": "Async Python SDK for image, video, audio, and LLM inference on the Sogni Supernet",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/sogni-client/5.56.3/",
+    "published_at": "2026-09-26T01:01:36.000Z",
+    "score": 82,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://pypi.org/project/nexus-sphere-mcp/0.2.0",
+    "technology": "Claude",
+    "title": "nexus-sphere-mcp 0.2.0",
+    "summary": "Nexus Sphere AI Meeting for coding agents: a multi-AI second opinion inside Claude Code, Codex and Cursor (MCP server + CLI).",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/nexus-sphere-mcp/0.2.0/",
+    "published_at": "2026-09-26T00:59:57.000Z",
+    "score": 100,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/nexus-sphere-mcp",
+    "technology": "Claude",
+    "title": "nexus-sphere-mcp added to PyPI",
+    "summary": "Nexus Sphere AI Meeting for coding agents: a multi-AI second opinion inside Claude Code, Codex and Cursor (MCP server + CLI).",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/nexus-sphere-mcp/",
+    "published_at": "2026-09-26T00:59:52.000Z",
+    "score": 100,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/bitranox-skills/7.25.4",
+    "technology": "Claude",
+    "title": "bitranox-skills 7.25.4",
+    "summary": "The bitranox Claude Code skill collection: 82 skills and 64 hooks, installable without the plugin marketplace.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/bitranox-skills/7.25.4/",
+    "published_at": "2026-09-26T00:58:01.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/thinqos/1.21.0",
+    "technology": "Claude",
+    "title": "thinqos 1.21.0",
+    "summary": "Connect Claude Code, Codex, Grok Build, VS Code, and Cline to your thinqOS Mind.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/thinqos/1.21.0/",
+    "published_at": "2026-09-26T00:54:50.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/mcpscraper-sdk/0.49.0",
+    "technology": "Infra AI",
+    "title": "mcpscraper-sdk 0.49.0",
+    "summary": "Official Python client for all 364 mcpscraper.dev MCP tools and the REST API",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcpscraper-sdk/0.49.0/",
+    "published_at": "2026-09-26T00:53:19.000Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/lectic/0.3.1",
+    "technology": "Claude",
+    "title": "lectic 0.3.1",
+    "summary": "Turn the talks, courses and transcripts you trust into expertise your AI assistants can apply, with evidence, across Claude Code, Codex, ChatGPT, Claude and Gemini.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/lectic/0.3.1/",
+    "published_at": "2026-09-26T00:16:32.000Z",
+    "score": 100,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/my-claude-code/7.56.1",
+    "technology": "Claude",
+    "title": "my-claude-code 7.56.1",
+    "summary": "Local multi-provider LLM proxy, model router and control plane for Claude Code, Codex, OpenCode, Gemini CLI and other AI coding agents: 57 providers, fallback routing, credential health, a native web-search tool proxy, and analytics with cost provenance",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/my-claude-code/7.56.1/",
+    "published_at": "2026-09-26T00:12:53.000Z",
+    "score": 100,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   },
   {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.3",
@@ -6433,170 +6598,5 @@
     "published_at": "2026-09-11T12:21:57.000Z",
     "score": 78,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://prtimes.jp/main/html/rd/p/000000182.000137731.html",
-    "technology": "Codex",
-    "title": "Uravation、非エンジニア向け「Codex実務ガイド」を拡充。使い方・VS Code・MCPなど入門5本を追加し、Codex記事は47本に",
-    "summary": "[株式会社Uravation] [画像1: https://prcdn.freetls.fastly.net/release_image/137731/182/137731-182-a42e5cd8657bdd40a2b498e6d17375ec-1920x1080.png?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bound...",
-    "source": "Prtimes.jp",
-    "source_url": "https://prtimes.jp/main/html/rd/p/000000182.000137731.html",
-    "published_at": "2026-09-11T12:12:53.000Z",
-    "score": 78,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/primeoutpost-mcp/0.0.2",
-    "technology": "Infra AI",
-    "title": "primeoutpost-mcp 0.0.2",
-    "summary": "Local MCP server exposing your PrimeOutpost security program, read-only, to the AI assistant of your choice.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/primeoutpost-mcp/0.0.2/",
-    "published_at": "2026-09-11T12:12:21.000Z",
-    "score": 72,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/macaroonnetwork-mcp-sanctions-pep-screening-v1",
-    "technology": "Infra AI",
-    "title": "macaroonnetwork-mcp-sanctions-pep-screening-v1 added to PyPI",
-    "summary": "Screen a name in one call against US OFAC SDN, the EU Consolidated Financial Sanctions List, UK OFSI, the UN Security Council Consolidated List, and Wikidata-derived Politically Exposed Persons (PEP) data -- with fuzzy name matching, not exact-only. Real comp…",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/macaroonnetwork-mcp-sanctions-pep-screening-v1/",
-    "published_at": "2026-09-11T12:08:22.000Z",
-    "score": 68,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/macaroonnetwork-mcp-sanctions-pep-screening-v1/1.0.0",
-    "technology": "Infra AI",
-    "title": "macaroonnetwork-mcp-sanctions-pep-screening-v1 1.0.0",
-    "summary": "Screen a name in one call against US OFAC SDN, the EU Consolidated Financial Sanctions List, UK OFSI, the UN Security Council Consolidated List, and Wikidata-derived Politically Exposed Persons (PEP) data -- with fuzzy name matching, not exact-only. Real comp…",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/macaroonnetwork-mcp-sanctions-pep-screening-v1/1.0.0/",
-    "published_at": "2026-09-11T12:08:22.000Z",
-    "score": 68,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/macaroonnetwork-mcp-companies-house-live-search-v1",
-    "technology": "Infra AI",
-    "title": "macaroonnetwork-mcp-companies-house-live-search-v1 added to PyPI",
-    "summary": "Search current public UK company metadata from the official Companies House Public Data API. Returns a bounded normalized result with company identity, status, type, creation date, registered-address summary, official record link, retrieval time, and content …",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/macaroonnetwork-mcp-companies-house-live-search-v1/",
-    "published_at": "2026-09-11T12:06:41.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/macaroonnetwork-mcp-companies-house-live-search-v1/1.0.0",
-    "technology": "Infra AI",
-    "title": "macaroonnetwork-mcp-companies-house-live-search-v1 1.0.0",
-    "summary": "Search current public UK company metadata from the official Companies House Public Data API. Returns a bounded normalized result with company identity, status, type, creation date, registered-address summary, official record link, retrieval time, and content …",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/macaroonnetwork-mcp-companies-house-live-search-v1/1.0.0/",
-    "published_at": "2026-09-11T12:06:41.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.9",
-    "technology": "Codex",
-    "title": "0.155.0-alpha.3.9",
-    "summary": "Release 0.155.0-alpha.3.9",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.9",
-    "published_at": "2026-09-11T11:51:30.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.8",
-    "technology": "Codex",
-    "title": "0.155.0-alpha.3.8",
-    "summary": "Release 0.155.0-alpha.3.8",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.8",
-    "published_at": "2026-09-11T09:18:04.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt",
-    "technology": "Codex",
-    "title": "OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT",
-    "summary": "OpenAI is releasing the Agents API as a public beta. It lets developers build cloud agents that run autonomously for hours, execute code, and hand off tasks to sub-agents. There are no extra fees beyond token usage. Cloudflare, Vercel, and Oracle offer additional sandbox environments. The article OpenAI's new Agents API gives developers t...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/",
-    "published_at": "2026-09-11T08:11:46.000Z",
-    "score": 78,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.7",
-    "technology": "Codex",
-    "title": "0.155.0-alpha.3.7",
-    "summary": "Release 0.155.0-alpha.3.7",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.7",
-    "published_at": "2026-09-11T07:58:14.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3",
-    "technology": "Codex",
-    "title": "0.155.0-alpha.3",
-    "summary": "Release 0.155.0-alpha.3",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3",
-    "published_at": "2026-09-11T02:35:52.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.6.2",
-    "technology": "Codex",
-    "title": "0.154.0-alpha.6.2",
-    "summary": "Release 0.154.0-alpha.6.2",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.6.2",
-    "published_at": "2026-09-11T01:25:48.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260911.ged2ac40df",
-    "technology": "Gemini",
-    "title": "Release v0.61.0-nightly.20260911.ged2ac40df",
-    "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260910.ged2ac40df...v0.61.0-nightly.20260911.ged2ac40df",
-    "source": "GitHub: google-gemini/gemini-cli",
-    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260911.ged2ac40df",
-    "published_at": "2026-09-11T01:25:36.000Z",
-    "score": 54,
-    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
-  },
-  {
-    "key": "https://botbin.io",
-    "technology": "Infra AI",
-    "title": "Show HN: Botbin.io – Pastebin for AI agent artifacts with MCP",
-    "summary": "Instant single-file HTML artifact publishing for AI agents. Render websites, interactive dashboards, and visual diffs without dumping raw HTML into chat.",
-    "source": "Botbin.io",
-    "source_url": "https://botbin.io/?mcp=true",
-    "published_at": "2026-09-11T00:56:02.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/cats-mcp/1.0.1",
-    "technology": "ChatGPT / OpenAI",
-    "title": "cats-mcp 1.0.1",
-    "summary": "MCP server for Charlotte Area Transit System (CATS) realtime bus and light rail data",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/cats-mcp/1.0.1/",
-    "published_at": "2026-09-11T00:55:20.000Z",
-    "score": 78,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
   }
 ]
