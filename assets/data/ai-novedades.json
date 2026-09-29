@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T15:37:05.776Z",
+  "generated_at": "2026-09-29T21:19:20.782Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -11,8 +11,8 @@
     "Infra AI"
   ],
   "source_counts": {
-    "rss": 36,
-    "github": 7,
+    "rss": 39,
+    "github": 9,
     "newsapi": 49
   },
   "digest": {
@@ -20,18 +20,53 @@
     "relevant_count": 8,
     "telegram_summary": [
       {
+        "technology": "OpenClaw",
+        "title": "chibi-bot 1.17.0",
+        "benefit": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+        "score": 100,
+        "url": "https://pypi.org/project/chibi-bot/1.17.0/"
+      },
+      {
         "technology": "Claude",
-        "title": "vicsia-studio-mcp 1.3.17b2",
+        "title": "lectic 0.3.2",
         "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
         "score": 100,
-        "url": "https://pypi.org/project/vicsia-studio-mcp/1.3.17b2/"
+        "url": "https://pypi.org/project/lectic/0.3.2/"
       },
       {
         "technology": "Codex",
-        "title": "0.158.0",
+        "title": "OpenAI expands Codex and its API at DevDay with security scans, a Decisions API, and Ultrafast",
         "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 100,
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0"
+        "score": 96,
+        "url": "https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/"
+      },
+      {
+        "technology": "Codex",
+        "title": "0.159.1",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 94,
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.159.1"
+      },
+      {
+        "technology": "Codex",
+        "title": "0.161.0-alpha.2",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 90,
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.2"
+      },
+      {
+        "technology": "Claude",
+        "title": "ChatGPT now reaches 1.2 billion people every week, OpenAI says",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 90,
+        "url": "https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/"
+      },
+      {
+        "technology": "Codex",
+        "title": "0.161.0-alpha.1",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 90,
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.1"
       },
       {
         "technology": "Codex",
@@ -39,41 +74,6 @@
         "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
         "score": 90,
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.159.0"
-      },
-      {
-        "technology": "Codex",
-        "title": "0.160.0-alpha.6",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 90,
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.160.0-alpha.6"
-      },
-      {
-        "technology": "Codex",
-        "title": "0.160.0-alpha.3",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 90,
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.160.0-alpha.3"
-      },
-      {
-        "technology": "Codex",
-        "title": "0.160.0-alpha.2",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 90,
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.160.0-alpha.2"
-      },
-      {
-        "technology": "OpenClaw",
-        "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
-        "benefit": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
-        "score": 86,
-        "url": "https://developers.googleblog.com/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway/"
-      },
-      {
-        "technology": "ChatGPT / OpenAI",
-        "title": "How to Evaluate Live & Voice Agents in ADK",
-        "benefit": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
-        "score": 82,
-        "url": "https://developers.googleblog.com/how-to-evaluate-live-voice-agents-in-adk/"
       }
     ]
   },
@@ -81,41 +81,129 @@
     {
       "id": 1,
       "kind": "newsapi",
-      "technology": "Claude",
-      "title": "vicsia-studio-mcp 1.3.17b2",
-      "summary": "MCP server for Vicsia Studio — control your voice agents from Claude",
+      "technology": "OpenClaw",
+      "title": "chibi-bot 1.17.0",
+      "summary": "Your Digital Companion. Self-hosted Telegram bot orchestrating multiple AI providers (OpenAI, Anthropic, Google, xAI, DeepSeek, Mistral, Alibaba, MiniMax) with autonomous agent capabilities, MCP integrations, and async task execution. Not a tool. A partner.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/vicsia-studio-mcp/1.3.17b2/",
-      "published_at": "2026-09-28T15:27:57.000Z",
+      "source_url": "https://pypi.org/project/chibi-bot/1.17.0/",
+      "published_at": "2026-09-28T21:14:00.000Z",
+      "score": 100,
+      "tags": [
+        "OpenClaw",
+        "Claude",
+        "ChatGPT / OpenAI",
+        "DeepSeek"
+      ],
+      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+      "relevant": true
+    },
+    {
+      "id": 2,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "lectic 0.3.2",
+      "summary": "Turn the talks, courses and transcripts you trust into expertise your AI assistants can apply, with evidence, across Claude Code, Codex, ChatGPT, Claude and Gemini.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/lectic/0.3.2/",
+      "published_at": "2026-09-28T20:44:48.000Z",
       "score": 100,
       "tags": [
         "Claude",
+        "Codex",
         "ChatGPT / OpenAI",
-        "Infra AI"
+        "Gemini"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
-      "id": 2,
-      "kind": "github_release",
+      "id": 3,
+      "kind": "rss",
       "technology": "Codex",
-      "title": "0.158.0",
-      "summary": "## New Features - Configure copy-on-select and right-click paste in the fullscreen TUI. Copied transcript selections now preserve Markdown formatting. (#47639, #47896, #48118) - Connect to MCP servers that require pre-registered OAuth client secrets, including through `codex mcp add --oauth-client-secret`. (#47891) - Secure direct exec-se...",
-      "source": "GitHub: openai/codex",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0",
-      "published_at": "2026-09-28T05:07:23.000Z",
-      "score": 100,
+      "title": "OpenAI expands Codex and its API at DevDay with security scans, a Decisions API, and Ultrafast",
+      "summary": "At DevDay 2026, OpenAI gave Codex reusable cloud environments, automatic security scans for GitHub repositories, and a code review view in the desktop app. The Agents API now supports Computer Use, and a new Decisions API handles fast, single decisions. The Ultrafast premium tier promises up to eight times the speed at six times the price...",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/",
+      "published_at": "2026-09-29T17:14:41.000Z",
+      "score": 96,
       "tags": [
         "Codex",
-        "ChatGPT / OpenAI",
-        "Infra AI"
+        "ChatGPT / OpenAI"
       ],
       "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
       "relevant": true
     },
     {
-      "id": 3,
+      "id": 4,
+      "kind": "github_release",
+      "technology": "Codex",
+      "title": "0.159.1",
+      "summary": "## New Features - Added GPT-6.1 Sol as the default model in the bundled catalog and Amazon Bedrock Mantle and Runtime catalogs. (#49323, #49342) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.159.0...rust-v0.159.1 - #49323 [0.159] Prepare 0.159.1 release backports @andrewgu-oai - #49342 [0.159] Backport GPT-6...",
+      "source": "GitHub: openai/codex",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.159.1",
+      "published_at": "2026-09-29T20:32:34.000Z",
+      "score": 94,
+      "tags": [
+        "Codex",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "relevant": true
+    },
+    {
+      "id": 5,
+      "kind": "github_release",
+      "technology": "Codex",
+      "title": "0.161.0-alpha.2",
+      "summary": "Release 0.161.0-alpha.2",
+      "source": "GitHub: openai/codex",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.2",
+      "published_at": "2026-09-29T18:32:11.000Z",
+      "score": 90,
+      "tags": [
+        "Codex",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "relevant": true
+    },
+    {
+      "id": 6,
+      "kind": "rss",
+      "technology": "Claude",
+      "title": "ChatGPT now reaches 1.2 billion people every week, OpenAI says",
+      "summary": "OpenAI's annualized revenue rate is nearing $70 billion, up about 70 percent since the start of Q3. Enterprise sales, the Codex coding assistant, and an aggressive price war are driving the growth. Anthropic is right on its heels with a similar run rate. The article ChatGPT now reaches 1.2 billion people every week, OpenAI says appeared f...",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/",
+      "published_at": "2026-09-29T18:10:34.000Z",
+      "score": 90,
+      "tags": [
+        "Claude",
+        "Codex",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 7,
+      "kind": "github_release",
+      "technology": "Codex",
+      "title": "0.161.0-alpha.1",
+      "summary": "Release 0.161.0-alpha.1",
+      "source": "GitHub: openai/codex",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.1",
+      "published_at": "2026-09-29T16:22:41.000Z",
+      "score": 90,
+      "tags": [
+        "Codex",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "relevant": true
+    },
+    {
+      "id": 8,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.159.0",
@@ -132,7 +220,7 @@
       "relevant": true
     },
     {
-      "id": 4,
+      "id": 9,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.160.0-alpha.6",
@@ -149,15 +237,50 @@
       "relevant": true
     },
     {
-      "id": 5,
-      "kind": "github_release",
-      "technology": "Codex",
-      "title": "0.160.0-alpha.3",
-      "summary": "Release 0.160.0-alpha.3",
-      "source": "GitHub: openai/codex",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.160.0-alpha.3",
-      "published_at": "2026-09-29T01:32:32.000Z",
+      "id": 10,
+      "kind": "newsapi",
+      "technology": "OpenClaw",
+      "title": "musubi-harness 1.7.0",
+      "summary": "Host-neutral Musubi memory runtime for Claude Code, Codex, Grok, LiveKit, Hermes, and OpenClaw adapters.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/musubi-harness/1.7.0/",
+      "published_at": "2026-09-28T21:18:19.000Z",
       "score": 90,
+      "tags": [
+        "OpenClaw",
+        "Claude",
+        "Codex"
+      ],
+      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+      "relevant": true
+    },
+    {
+      "id": 11,
+      "kind": "rss",
+      "technology": "ChatGPT / OpenAI",
+      "title": "OpenAI's reveals a new ChatGPT that looks less like a chatbot and more like an operating system",
+      "summary": "At DevDay, OpenAI announced a wave of updates that push ChatGPT well beyond its chatbot roots. The company is adding shared workspaces, collaborative documents and slides, an open plugin system with MCP event automation, Slack and Microsoft Teams integrations, an enterprise marketplace with 32 partners, and a new Pro 500 pricing tier. The...",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/",
+      "published_at": "2026-09-29T17:23:22.000Z",
+      "score": 88,
+      "tags": [
+        "ChatGPT / OpenAI",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "relevant": true
+    },
+    {
+      "id": 12,
+      "kind": "rss",
+      "technology": "Codex",
+      "title": "DevDay 2026 Recap",
+      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/devday-2026-recap",
+      "published_at": "2026-09-29T10:00:00.000Z",
+      "score": 88,
       "tags": [
         "Codex",
         "ChatGPT / OpenAI"
@@ -166,31 +289,14 @@
       "relevant": true
     },
     {
-      "id": 6,
-      "kind": "github_release",
-      "technology": "Codex",
-      "title": "0.160.0-alpha.2",
-      "summary": "Release 0.160.0-alpha.2",
-      "source": "GitHub: openai/codex",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.160.0-alpha.2",
-      "published_at": "2026-09-28T19:51:45.000Z",
-      "score": 90,
-      "tags": [
-        "Codex",
-        "ChatGPT / OpenAI"
-      ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
-      "id": 7,
+      "id": 13,
       "kind": "rss",
       "technology": "OpenClaw",
       "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
       "summary": "Google Cloud API Gateway now acts as a native remote Model Context Protocol (MCP) server, eliminating the need to build and maintain custom middleware to expose REST APIs to AI agents. By simply adding specific annotations (like x-google-api-management.mcp) to existing OpenAPI 3.x specifications, developers can instantly convert standard...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway/",
-      "published_at": "2026-09-29T15:37:04.256Z",
+      "published_at": "2026-09-29T21:19:19.640Z",
       "score": 86,
       "tags": [
         "OpenClaw",
@@ -200,14 +306,14 @@
       "relevant": true
     },
     {
-      "id": 8,
+      "id": 14,
       "kind": "rss",
       "technology": "ChatGPT / OpenAI",
       "title": "How to Evaluate Live & Voice Agents in ADK",
       "summary": "Moving live voice agents from demo to production requires rigorous, automated testing to handle the unpredictability of real multi-turn conversations. ADK now provides native live evaluation, allowing developers to test graph-based agent workflows against LLM-driven simulated users that generate actual audio via Gemini TTS. By defining ev...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/how-to-evaluate-live-voice-agents-in-adk/",
-      "published_at": "2026-09-29T15:37:04.256Z",
+      "published_at": "2026-09-29T21:19:19.641Z",
       "score": 82,
       "tags": [
         "ChatGPT / OpenAI",
@@ -217,14 +323,14 @@
       "relevant": true
     },
     {
-      "id": 9,
+      "id": 15,
       "kind": "rss",
       "technology": "Gemini",
       "title": "Agent Anomaly Detection, now in Private Preview on the Gemini Enterprise Agent Platform",
       "summary": "Agent Anomaly Detection is a new, out-of-band oversight layer for the Gemini Enterprise Agent Platform that analyzes OpenTelemetry traces and tool calls to catch behavioral risks without adding runtime latency to live requests. It utilizes a multi-tiered detection pipeline—combining lightweight statistical scanning with deep LLM-based rea...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/",
-      "published_at": "2026-09-29T15:37:04.256Z",
+      "published_at": "2026-09-29T21:19:19.641Z",
       "score": 78,
       "tags": [
         "Gemini",
@@ -234,117 +340,15 @@
       "relevant": true
     },
     {
-      "id": 10,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "studylife-mcp 1.14.37",
-      "summary": "MCP server exposing StudyLife (Blazor WASM + ASP.NET Core) to Claude and other MCP clients.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/studylife-mcp/1.14.37/",
-      "published_at": "2026-09-28T15:24:51.000Z",
-      "score": 78,
-      "tags": [
-        "Claude",
-        "Infra AI"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 11,
-      "kind": "newsapi",
-      "technology": "OpenClaw",
-      "title": "Show HN: Android-on-Device Harness – N8N Meets Tasker Meets AI",
-      "summary": "On-device workflow automation for Android — n8n meets Tasker. Every device capability is a node. Visual DAG editor, AI chat operator, 14 AI providers, on-device RAG, MCP support. - ankurCES/Mahout",
-      "source": "Github.com",
-      "source_url": "https://github.com/ankurCES/Mahout",
-      "published_at": "2026-09-28T15:24:07.000Z",
-      "score": 78,
-      "tags": [
-        "OpenClaw",
-        "Infra AI"
-      ],
-      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
-      "relevant": true
-    },
-    {
-      "id": 12,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "studylife-mcp 1.14.36",
-      "summary": "MCP server exposing StudyLife (Blazor WASM + ASP.NET Core) to Claude and other MCP clients.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/studylife-mcp/1.14.36/",
-      "published_at": "2026-09-28T15:20:29.000Z",
-      "score": 78,
-      "tags": [
-        "Claude",
-        "Infra AI"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 13,
-      "kind": "newsapi",
-      "technology": "ChatGPT / OpenAI",
-      "title": "chainlit-utils 0.2.9",
-      "summary": "Reusable chat, OpenAI, audio, MCP, OAuth, and persistence integrations for Chainlit",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/chainlit-utils/0.2.9/",
-      "published_at": "2026-09-28T15:13:52.000Z",
-      "score": 78,
-      "tags": [
-        "ChatGPT / OpenAI",
-        "Infra AI"
-      ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
-      "relevant": true
-    },
-    {
-      "id": 14,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "stdtel 0.5.0",
-      "summary": "Telemetry and metadata capture for standards-as-skills (Claude Code + Copilot)",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/stdtel/0.5.0/",
-      "published_at": "2026-09-28T15:29:52.000Z",
-      "score": 74,
-      "tags": [
-        "Claude",
-        "Codex"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 15,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "thearc 0.1.0",
-      "summary": "Agent-agnostic plugin & skill installer system for Codex, Claude, and Antigravity",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/thearc/0.1.0/",
-      "published_at": "2026-09-28T15:22:30.000Z",
-      "score": 74,
-      "tags": [
-        "Claude",
-        "Codex"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
       "id": 16,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "thearc added to PyPI",
-      "summary": "Agent-agnostic plugin & skill installer system for Codex, Claude, and Antigravity",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/thearc/",
-      "published_at": "2026-09-28T15:22:24.000Z",
-      "score": 74,
+      "title": "Show HN: A never-ending chess match between Claude and Codex",
+      "summary": "Article URL: https://claudevcodex.com/ Comments URL: https://news.ycombinator.com/item?id=49884291 Points: 2 # Comments: 0",
+      "source": "Claudevcodex.com",
+      "source_url": "https://claudevcodex.com/",
+      "published_at": "2026-09-28T21:02:46.000Z",
+      "score": 70,
       "tags": [
         "Claude",
         "Codex"
@@ -371,22 +375,6 @@
     },
     {
       "id": 18,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "nousergon-lib 0.124.156",
-      "summary": "Shared utilities for the Nous Ergon (Crucible) modules: preflight, logging, ArcticDB, dates, decision capture, cost telemetry, Anthropic payload chokepoint, artifact freshness, windowed artifact resolution, RAG, agent schemas, SSM secrets, Telegram + SNS aler…",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/nousergon-lib/0.124.156/",
-      "published_at": "2026-09-28T15:26:18.000Z",
-      "score": 68,
-      "tags": [
-        "Claude"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 19,
       "kind": "rss",
       "technology": "ChatGPT / OpenAI",
       "title": "ElevenLabs' new v4 speech model makes AI voices more expressive and consistent",
@@ -402,14 +390,14 @@
       "relevant": true
     },
     {
-      "id": 20,
+      "id": 19,
       "kind": "rss",
       "technology": "Gemini",
       "title": "4 engineering patterns behind the strongest AI Agents Challenge submissions",
       "summary": "The recent Google for Startups AI Agents Challenge revealed that the most successful multi-agent systems rely on foundational software engineering patterns rather than just raw model power. Winning architectures consistently implemented bidirectional MCP for seamless inter-agent communication, async event buses for parallel execution, str...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/",
-      "published_at": "2026-09-29T15:37:04.256Z",
+      "published_at": "2026-09-29T21:19:19.641Z",
       "score": 62,
       "tags": [
         "Infra AI"
@@ -418,47 +406,62 @@
       "relevant": true
     },
     {
-      "id": 21,
+      "id": 20,
       "kind": "rss",
-      "technology": "Claude",
-      "title": "Anthropic's Claude Sonnet 5.5 nearly matches Opus 5.5 on benchmarks while costing up to 30 percent less per task",
-      "summary": "Anthropic has released Claude Sonnet 5.5, the second model in its Claude 5.5 family. It generates output more than 30 percent faster, costs up to 30 percent less per task, and nearly matches Opus 5.5 on knowledge-work benchmarks. On Terminal-Bench, a coding benchmark, the model jumps from 10.3 to 70.6 percent. With Haiku 5.5 announced for...",
+      "technology": "ChatGPT / OpenAI",
+      "title": "OpenAI launches always-on Dots agents to rival Meta's Muse",
+      "summary": "OpenAI's new Dots are always-on agents that run on their own cloud computers, where they fix bugs or send out forgotten invoices, sometimes before anyone asks. Users can reach them through ChatGPT, Slack, and Microsoft Teams. When no one is working with them, Dots look for ways to help in the background using read-only access. The article...",
       "source": "The Decoder",
-      "source_url": "https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task/",
-      "published_at": "2026-09-28T18:02:10.000Z",
-      "score": 60,
+      "source_url": "https://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse/",
+      "published_at": "2026-09-29T17:14:45.000Z",
+      "score": 62,
       "tags": [
-        "Claude"
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "relevant": true
+    },
+    {
+      "id": 21,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "modern-collections 0.2.0",
+      "summary": "Official client, CLI, and MCP server for the Modern Collections external REST API",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/modern-collections/0.2.0/",
+      "published_at": "2026-09-28T21:17:18.000Z",
+      "score": 62,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
       "id": 22,
       "kind": "newsapi",
-      "technology": "Claude",
-      "title": "langchain-predictionguard 0.4.0",
-      "summary": "[DEPRECATED] Prediction Guard LangChain integration. No longer maintained; use langchain-openai or langchain-anthropic instead.",
+      "technology": "Infra AI",
+      "title": "terradev-cli 6.2.21",
+      "summary": "Cross-cloud GPU orchestration CLI with MCP, A2A, and secret management.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/langchain-predictionguard/0.4.0/",
-      "published_at": "2026-09-28T15:13:45.000Z",
-      "score": 60,
+      "source_url": "https://pypi.org/project/terradev-cli/6.2.21/",
+      "published_at": "2026-09-28T21:17:54.000Z",
+      "score": 58,
       "tags": [
-        "Claude",
-        "ChatGPT / OpenAI"
+        "Infra AI"
       ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
       "id": 23,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "hackerearth-mcp 0.2.2",
-      "summary": "Unofficial MCP server: give any AI assistant a code run button via HackerEarth's code execution API",
+      "title": "3tears-mcp 0.56.3",
+      "summary": "Shared MCP framework: McpServer + McpTool + PlatformHttpClient + per-tool RBAC backed by mcp_tool_grants and the task-02 epoch broadcast",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/hackerearth-mcp/0.2.2/",
-      "published_at": "2026-09-28T15:26:05.000Z",
+      "source_url": "https://pypi.org/project/3tears-mcp/0.56.3/",
+      "published_at": "2026-09-28T21:17:16.000Z",
       "score": 58,
       "tags": [
         "Infra AI"
@@ -470,11 +473,11 @@
       "id": 24,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "pgEdge Announces Starfleet, a New Postgres Cloud Platform",
-      "summary": "Starfleet is a managed or on-prem Postgres cloud service with built-in AI tooling (MCP + RAG), CoW database branching, and optional PostgREST API access. We've built it for dev-focused use, so come by and let us know what you think!",
-      "source": "Slashdot.org",
-      "source_url": "https://slashdot.org/submission/17351068/pgedge-announces-starfleet-a-new-postgres-cloud-platform",
-      "published_at": "2026-09-28T15:25:10.000Z",
+      "title": "math-ai-agent 0.0.11",
+      "summary": "Math AI Agent that uses LLM + Rubens calculator-mcp.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/math-ai-agent/0.0.11/",
+      "published_at": "2026-09-28T21:11:31.000Z",
       "score": 58,
       "tags": [
         "Infra AI"
