@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:14:24.404Z",
+  "generated_at": "2026-10-01T21:42:59.301Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -21,17 +21,17 @@
     "telegram_summary": [
       {
         "technology": "Claude",
-        "title": "janction-render 0.2.0",
+        "title": "agent-toolkit-cli 1.38.0",
         "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
         "score": 100,
-        "url": "https://pypi.org/project/janction-render/0.2.0/"
+        "url": "https://pypi.org/project/agent-toolkit-cli/1.38.0/"
       },
       {
-        "technology": "Claude",
-        "title": "heylead 0.10.424",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 100,
-        "url": "https://pypi.org/project/heylead/0.10.424/"
+        "technology": "Codex",
+        "title": "0.160.0",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 98,
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.160.0"
       },
       {
         "technology": "Claude",
@@ -42,10 +42,10 @@
       },
       {
         "technology": "Codex",
-        "title": "0.161.0-alpha.12",
+        "title": "Codex Pricing: Pro has unlimited 5.6 usage",
         "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 90,
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.12"
+        "score": 92,
+        "url": "https://chatgpt.com/codex/pricing/"
       },
       {
         "technology": "Codex",
@@ -82,16 +82,15 @@
       "id": 1,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "janction-render 0.2.0",
-      "summary": "Cloud GPU render farm for Blender, for AI agents: MCP server (remote + stdio) and CLI. Render Blender without a GPU from Claude, ChatGPT, Claude Code, Codex, Cursor.",
+      "title": "agent-toolkit-cli 1.38.0",
+      "summary": "Composable AI agent toolkit — loops, skills, profiles, and MCP for Claude Code, Cursor, OpenCode, Windsurf, and more",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/janction-render/0.2.0/",
-      "published_at": "2026-09-30T15:56:34.000Z",
+      "source_url": "https://pypi.org/project/agent-toolkit-cli/1.38.0/",
+      "published_at": "2026-09-30T21:32:53.000Z",
       "score": 100,
       "tags": [
         "Claude",
         "Codex",
-        "ChatGPT / OpenAI",
         "Infra AI"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
@@ -99,20 +98,19 @@
     },
     {
       "id": 2,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "heylead 0.10.424",
-      "summary": "AI agent for LinkedIn outreach: finds the right people, writes in your voice, follows up and handles replies. From Claude Code, Cursor, any MCP client or a web dashboard.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/heylead/0.10.424/",
-      "published_at": "2026-09-30T15:56:16.000Z",
-      "score": 100,
+      "kind": "github_release",
+      "technology": "Codex",
+      "title": "0.160.0",
+      "summary": "## New Features - Browse older tasks in the agent command center with a keyboard-accessible “Show more” action. (#49106) - Select transcript text and paste with middle-click in fullscreen mode on supported local Linux X11 terminals. (#49112) - Start sessions outside a project with workspace defaults when policy permits, and restore saved...",
+      "source": "GitHub: openai/codex",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.160.0",
+      "published_at": "2026-10-01T20:19:13.000Z",
+      "score": 98,
       "tags": [
-        "Claude",
-        "ChatGPT / OpenAI",
-        "Infra AI"
+        "Codex",
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
       "relevant": true
     },
     {
@@ -136,14 +134,14 @@
     },
     {
       "id": 4,
-      "kind": "github_release",
+      "kind": "newsapi",
       "technology": "Codex",
-      "title": "0.161.0-alpha.12",
-      "summary": "Release 0.161.0-alpha.12",
-      "source": "GitHub: openai/codex",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.12",
-      "published_at": "2026-10-01T14:43:50.000Z",
-      "score": 90,
+      "title": "Codex Pricing: Pro has unlimited 5.6 usage",
+      "summary": "Explore Codex pricing plans for every stage—from free trials to enterprise deployments. Get flexible usage, powerful AI coding models, and seamless workflow integration to help your team build and scale faster.",
+      "source": "Chatgpt.com",
+      "source_url": "https://chatgpt.com/codex/pricing/",
+      "published_at": "2026-09-30T21:13:02.000Z",
+      "score": 92,
       "tags": [
         "Codex",
         "ChatGPT / OpenAI"
@@ -244,7 +242,7 @@
       "summary": "Google Cloud API Gateway now acts as a native remote Model Context Protocol (MCP) server, eliminating the need to build and maintain custom middleware to expose REST APIs to AI agents. By simply adding specific annotations (like x-google-api-management.mcp) to existing OpenAPI 3.x specifications, developers can instantly convert standard...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway/",
-      "published_at": "2026-10-01T16:14:22.941Z",
+      "published_at": "2026-10-01T21:42:57.750Z",
       "score": 86,
       "tags": [
         "OpenClaw",
@@ -261,7 +259,7 @@
       "summary": "Moving live voice agents from demo to production requires rigorous, automated testing to handle the unpredictability of real multi-turn conversations. ADK now provides native live evaluation, allowing developers to test graph-based agent workflows against LLM-driven simulated users that generate actual audio via Gemini TTS. By defining ev...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/how-to-evaluate-live-voice-agents-in-adk/",
-      "published_at": "2026-10-01T16:14:22.942Z",
+      "published_at": "2026-10-01T21:42:57.751Z",
       "score": 82,
       "tags": [
         "ChatGPT / OpenAI",
@@ -278,7 +276,7 @@
       "summary": "Agent Anomaly Detection is a new, out-of-band oversight layer for the Gemini Enterprise Agent Platform that analyzes OpenTelemetry traces and tool calls to catch behavioral risks without adding runtime latency to live requests. It utilizes a multi-tiered detection pipeline—combining lightweight statistical scanning with deep LLM-based rea...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/",
-      "published_at": "2026-10-01T16:14:22.942Z",
+      "published_at": "2026-10-01T21:42:57.751Z",
       "score": 78,
       "tags": [
         "Gemini",
@@ -309,11 +307,11 @@
       "id": 14,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "jeanclode 1.8.1",
-      "summary": "Multi-plugin CLI — auto-detects what to do from URLs and invokes Claude Code skills",
+      "title": "callva-harness-runner 0.6.0",
+      "summary": "One headless turn of a coding agent (Claude Code or Codex) through the vendor SDKs: explicit knobs, a deadline that kills the tree, one result.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/jeanclode/1.8.1/",
-      "published_at": "2026-09-30T16:09:22.000Z",
+      "source_url": "https://pypi.org/project/callva-harness-runner/0.6.0/",
+      "published_at": "2026-09-30T21:06:07.000Z",
       "score": 78,
       "tags": [
         "Claude",
@@ -325,82 +323,46 @@
     {
       "id": 15,
       "kind": "newsapi",
-      "technology": "Claude",
-      "title": "studylife-mcp 1.14.43",
-      "summary": "MCP server exposing StudyLife (Blazor WASM + ASP.NET Core) to Claude and other MCP clients.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/studylife-mcp/1.14.43/",
-      "published_at": "2026-09-30T16:07:28.000Z",
-      "score": 78,
+      "technology": "ChatGPT / OpenAI",
+      "title": "Google Home update rolling out with better ‘Find My Phone’ voice commands, smart home improvements",
+      "summary": "A new Google Home update has arrived with various improvements including better support for the “Find My Phone” voice command on Gemini speakers. more…",
+      "source": "9to5google.com",
+      "source_url": "http://9to5google.com/2026/09/30/google-home-update-find-my-phone-improvements/",
+      "published_at": "2026-09-30T21:30:00.000Z",
+      "score": 74,
       "tags": [
-        "Claude",
-        "Infra AI"
+        "ChatGPT / OpenAI",
+        "Gemini"
       ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
       "relevant": true
     },
     {
       "id": 16,
       "kind": "newsapi",
-      "technology": "OpenClaw",
-      "title": "ocrroute 0.8.0",
-      "summary": "OCR gateway: one API in front of 56 OCR engines (Tesseract, PaddleOCR, EasyOCR, Surya, Mistral OCR, Google Vision, OCR.Space, Claude/GPT/Gemini and other vision models) with routing, automatic fallback, a web dashboard, a desktop app and multi-server clusters.",
+      "technology": "Claude",
+      "title": "matrx-batch 0.2.124",
+      "summary": "Cost-shield foundation for AI workloads: OpenAI + Anthropic Batch APIs, live/batch urgency router, shared embedding cache.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/ocrroute/0.8.0/",
-      "published_at": "2026-09-30T15:55:08.000Z",
-      "score": 78,
+      "source_url": "https://pypi.org/project/matrx-batch/0.2.124/",
+      "published_at": "2026-09-30T20:54:47.000Z",
+      "score": 68,
       "tags": [
-        "OpenClaw",
         "Claude",
-        "Gemini"
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 17,
-      "kind": "newsapi",
-      "technology": "OpenClaw",
-      "title": "ocrroute added to PyPI",
-      "summary": "OCR gateway: one API in front of 56 OCR engines (Tesseract, PaddleOCR, EasyOCR, Surya, Mistral OCR, Google Vision, OCR.Space, Claude/GPT/Gemini and other vision models) with routing, automatic fallback, a web dashboard, a desktop app and multi-server clusters.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/ocrroute/",
-      "published_at": "2026-09-30T15:55:02.000Z",
-      "score": 78,
-      "tags": [
-        "OpenClaw",
-        "Claude",
-        "Gemini"
-      ],
-      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
-      "relevant": true
-    },
-    {
-      "id": 18,
-      "kind": "newsapi",
-      "technology": "Codex",
-      "title": "Google details Gems to skills migration, including free access",
-      "summary": "As we spotted over the weekend, Gemini is replacing Gems with skills, and Google today fully detailed the migration. more…",
-      "source": "9to5google.com",
-      "source_url": "http://9to5google.com/2026/09/30/gemini-skills-free/",
-      "published_at": "2026-09-30T16:00:00.000Z",
-      "score": 64,
-      "tags": [
-        "Codex",
-        "Gemini"
-      ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
-      "id": 19,
       "kind": "rss",
       "technology": "Gemini",
       "title": "4 engineering patterns behind the strongest AI Agents Challenge submissions",
       "summary": "The recent Google for Startups AI Agents Challenge revealed that the most successful multi-agent systems rely on foundational software engineering patterns rather than just raw model power. Winning architectures consistently implemented bidirectional MCP for seamless inter-agent communication, async event buses for parallel execution, str...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/",
-      "published_at": "2026-10-01T16:14:22.942Z",
+      "published_at": "2026-10-01T21:42:57.751Z",
       "score": 62,
       "tags": [
         "Infra AI"
@@ -409,15 +371,47 @@
       "relevant": true
     },
     {
+      "id": 18,
+      "kind": "rss",
+      "technology": "Gemini",
+      "title": "Accelerating Spatio-Temporal Attention for Video Diffusion on TPUs",
+      "summary": "To address the quadratic latency bottleneck of self-attention in high-resolution video diffusion models, developers implemented Sparse VideoGen (SVG) to dynamically route attention heads to highly structured spatial or temporal sparse masks. Translating this algorithmic sparsity into physical hardware speedups on TPUs required optimizing...",
+      "source": "Google Developers Blog",
+      "source_url": "https://developers.googleblog.com/accelerating-spatio-temporal-attention-for-video-diffusion-on-tpus/",
+      "published_at": "2026-10-01T21:42:57.750Z",
+      "score": 58,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 19,
+      "kind": "rss",
+      "technology": "ChatGPT / OpenAI",
+      "title": "Nearly half of test subjects mistook Tavus' AI video avatar for a real person on a one-minute call",
+      "summary": "Tavus has introduced Griffin, what the company calls the first \"Human Interaction Model.\" The AI holds video calls in real time, processing facial expressions, tone of voice, and gestures. In a Tavus study, 48 percent of participants believed Griffin was a real person after a one-minute call. Previous systems maxed out at two percent. The...",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/nearly-half-of-test-subjects-mistook-tavus-ai-video-avatar-for-a-real-person-on-a-one-minute-call/",
+      "published_at": "2026-10-01T18:03:40.000Z",
+      "score": 58,
+      "tags": [
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "relevant": true
+    },
+    {
       "id": 20,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "vulcai-mcp-forge-cli 0.2.13",
-      "summary": "Generate MCP servers instantly from any OpenAPI, GraphQL, codebase, CLI or website",
+      "title": "repld-tool 0.11.4",
+      "summary": "Persistent Python runtime with MCP channel push. Dev shell and autonomous-agent substrate in one package.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/vulcai-mcp-forge-cli/0.2.13/",
-      "published_at": "2026-09-30T16:13:48.000Z",
-      "score": 62,
+      "source_url": "https://pypi.org/project/repld-tool/0.11.4/",
+      "published_at": "2026-09-30T21:34:23.000Z",
+      "score": 58,
       "tags": [
         "Infra AI"
       ],
@@ -426,13 +420,13 @@
     },
     {
       "id": 21,
-      "kind": "rss",
-      "technology": "Gemini",
-      "title": "Accelerating Spatio-Temporal Attention for Video Diffusion on TPUs",
-      "summary": "To address the quadratic latency bottleneck of self-attention in high-resolution video diffusion models, developers implemented Sparse VideoGen (SVG) to dynamically route attention heads to highly structured spatial or temporal sparse masks. Translating this algorithmic sparsity into physical hardware speedups on TPUs required optimizing...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/accelerating-spatio-temporal-attention-for-video-diffusion-on-tpus/",
-      "published_at": "2026-10-01T16:14:22.941Z",
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "decision-horizon 0.7.0",
+      "summary": "The system of record for what an AI agent knew, was allowed, and did — signed Agent Decision Records on the MCP tool path.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/decision-horizon/0.7.0/",
+      "published_at": "2026-09-30T21:21:05.000Z",
       "score": 58,
       "tags": [
         "Infra AI"
@@ -444,11 +438,11 @@
       "id": 22,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "stageflow-mcp added to PyPI",
-      "summary": "StageFlow over MCP: let an agent write, check and run pipelines on a StageFlow backend",
+      "title": "cascade-cms-rest-mcp 0.4.6",
+      "summary": "Read-only MCP server exposing a Hannon Hill Cascade CMS server to MCP clients",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/stageflow-mcp/",
-      "published_at": "2026-09-30T16:01:05.000Z",
+      "source_url": "https://pypi.org/project/cascade-cms-rest-mcp/0.4.6/",
+      "published_at": "2026-09-30T20:59:42.000Z",
       "score": 58,
       "tags": [
         "Infra AI"
@@ -474,19 +468,18 @@
     },
     {
       "id": 24,
-      "kind": "rss",
-      "technology": "Claude",
-      "title": "FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns",
-      "summary": "The FTC is formally investigating OpenAI, Anthropic, and other leading AI labs over potential consumer protection violations. The agency plans to force document handovers and executive testimony through legally binding demands. The probe was already underway before the Hugging Face hack and goes well beyond the FTC's earlier push to hold...",
-      "source": "The Decoder",
-      "source_url": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
-      "published_at": "2026-09-30T16:20:04.000Z",
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "cloudrift-mcp added to PyPI",
+      "summary": "Read-only MCP server exposing CloudRift cloud-waste findings and verified-savings receipts to AI assistants",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/cloudrift-mcp/",
+      "published_at": "2026-09-30T21:37:12.000Z",
       "score": 54,
       "tags": [
-        "Claude",
-        "ChatGPT / OpenAI"
+        "Infra AI"
       ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": false
     }
   ]
