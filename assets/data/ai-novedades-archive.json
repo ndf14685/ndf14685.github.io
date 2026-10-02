@@ -1,5 +1,38 @@
 [
   {
+    "key": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform",
+    "technology": "Gemini",
+    "title": "Agent Anomaly Detection, now in Private Preview on the Gemini Enterprise Agent Platform",
+    "summary": "Agent Anomaly Detection is a new, out-of-band oversight layer for the Gemini Enterprise Agent Platform that analyzes OpenTelemetry traces and tool calls to catch behavioral risks without adding runtime latency to live requests. It utilizes a multi-tiered detection pipeline—combining lightweight statistical scanning with deep LLM-based rea...",
+    "source": "Google Developers Blog",
+    "source_url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/",
+    "published_at": "2026-10-02T21:14:20.208Z",
+    "score": 78,
+    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
+  },
+  {
+    "key": "https://the-decoder.com/ai-music-generator-suno-can-now-create-spoken-audio-with-matching-background-music",
+    "technology": "ChatGPT / OpenAI",
+    "title": "AI music generator Suno can now create spoken audio with matching background music",
+    "summary": "Suno is adding a feature called \"Speech\" to its AI music generator that creates spoken text with matching background music in a single audio track. The company says it's built for things like poems, meditations, and bedtime stories. Suno hasn't said how the model was trained. The article AI music generator Suno can now create spoken audio...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/ai-music-generator-suno-can-now-create-spoken-audio-with-matching-background-music/",
+    "published_at": "2026-10-02T20:07:36.000Z",
+    "score": 58,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://openai.com/index/practical-guide-building-gpt-6",
+    "technology": "Codex",
+    "title": "A model guide for the GPT-6 family",
+    "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+    "source": "OpenAI News",
+    "source_url": "https://openai.com/index/practical-guide-building-gpt-6",
+    "published_at": "2026-10-02T16:15:00.000Z",
+    "score": 58,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.7",
     "technology": "Codex",
     "title": "0.162.0-alpha.7",
@@ -88,6 +121,17 @@
     "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
   },
   {
+    "key": "https://openai.com/index/chatham-financial",
+    "technology": "Codex",
+    "title": "Chatham scales its capital markets expertise with OpenAI",
+    "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+    "source": "OpenAI News",
+    "source_url": "https://openai.com/index/chatham-financial",
+    "published_at": "2026-10-02T00:00:00.000Z",
+    "score": 74,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.1",
     "technology": "Codex",
     "title": "0.162.0-alpha.1",
@@ -97,6 +141,94 @@
     "published_at": "2026-10-01T22:57:00.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/rubberduck-index/1.4.0",
+    "technology": "Infra AI",
+    "title": "rubberduck-index 1.4.0",
+    "summary": "Local project indexer for RubberDuck Semantic Intelligence MCP",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/rubberduck-index/1.4.0/",
+    "published_at": "2026-10-01T21:13:30.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/mcp-finance/0.5.0",
+    "technology": "Infra AI",
+    "title": "mcp-finance 0.5.0",
+    "summary": "An MCP server providing finance tools: a yfinance wrapper, computed analytics, and financial calculators.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcp-finance/0.5.0/",
+    "published_at": "2026-10-01T21:13:00.000Z",
+    "score": 54,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://biztoc.com/x/5625c954a3fc33b1",
+    "technology": "Claude",
+    "title": "AI’s biggest players promise to police themselves at the White House",
+    "summary": "Welcome to Eye on AI. Beatrice Nolan here. In today’s issue: AI “godfather” Yann LeCun has “zero concerns” about human extinction. Google launches Gemini 4 Argon. FTC opens a broad investigation into OpenAI and Anthropic over AI safety. And AI may push 11 mil…",
+    "source": "Biztoc.com",
+    "source_url": "https://biztoc.com/x/5625c954a3fc33b1",
+    "published_at": "2026-10-01T21:03:53.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/rubberduck-index/1.3.3",
+    "technology": "Infra AI",
+    "title": "rubberduck-index 1.3.3",
+    "summary": "Local project indexer for RubberDuck Semantic Intelligence MCP",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/rubberduck-index/1.3.3/",
+    "published_at": "2026-10-01T20:55:25.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/linkedin-ads-mcp/0.4.1",
+    "technology": "Infra AI",
+    "title": "linkedin-ads-mcp 0.4.1",
+    "summary": "LinkedIn Ads MCP — MCP server for the LinkedIn Marketing API. Read + write campaigns, analytics, and creatives from any MCP client. Maintained by Nuraveda Lab.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/linkedin-ads-mcp/0.4.1/",
+    "published_at": "2026-10-01T20:55:09.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/helixor/0.4.31",
+    "technology": "Infra AI",
+    "title": "helixor 0.4.31",
+    "summary": "Helixor Code CLI for local indexing, companion registration, workspace tools, and MCP configuration.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/helixor/0.4.31/",
+    "published_at": "2026-10-01T20:55:05.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/repld-tool/0.11.5",
+    "technology": "Infra AI",
+    "title": "repld-tool 0.11.5",
+    "summary": "Persistent Python runtime with MCP channel push. Dev shell and autonomous-agent substrate in one package.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/repld-tool/0.11.5/",
+    "published_at": "2026-10-01T20:43:34.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/crudecode",
+    "technology": "Infra AI",
+    "title": "crudecode added to PyPI",
+    "summary": "The method for oil & gas analysis with LLMs: guides, decline-curve forecast checks and well-level valuation economics. Pairs with the Crude Code MCP data server.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/crudecode/",
+    "published_at": "2026-10-01T20:40:19.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   },
   {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.160.0",
@@ -6466,137 +6598,5 @@
     "published_at": "2026-09-17T13:02:37.000Z",
     "score": 86,
     "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://the-decoder.com/ai-agent-swarms-are-a-massive-waste-of-tokens-with-zero-quality-gain-says-openai-codex-developer",
-    "technology": "Codex",
-    "title": "AI agent swarms are a massive waste of tokens with zero quality gain, says OpenAI Codex developer",
-    "summary": "OpenAI Codex developer Eric Provencher warns that running more than two parallel sub-agents almost always burns tokens without improving quality because agents don't trust each other and end up double-checking everyone's work. He calls this the \"coordination tax\" and points to a project where 1,393 agents spent $20,000 in tokens on a sing...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/ai-agent-swarms-are-a-massive-waste-of-tokens-with-zero-quality-gain-says-openai-codex-developer/",
-    "published_at": "2026-09-17T11:03:32.000Z",
-    "score": 74,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.16",
-    "technology": "Codex",
-    "title": "0.155.0-alpha.16",
-    "summary": "Release 0.155.0-alpha.16",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.16",
-    "published_at": "2026-09-17T04:34:06.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260917.g6a466a7e2",
-    "technology": "Gemini",
-    "title": "Release v0.62.0-nightly.20260917.g6a466a7e2",
-    "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260916.g6a466a7e2...v0.62.0-nightly.20260917.g6a466a7e2",
-    "source": "GitHub: google-gemini/gemini-cli",
-    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260917.g6a466a7e2",
-    "published_at": "2026-09-17T01:25:44.000Z",
-    "score": 54,
-    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.15",
-    "technology": "Codex",
-    "title": "0.155.0-alpha.15",
-    "summary": "Release 0.155.0-alpha.15",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.15",
-    "published_at": "2026-09-17T01:21:10.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/mention-template/0.1.0b1",
-    "technology": "Claude",
-    "title": "mention-template 0.1.0b1",
-    "summary": "Create a cloud application and continue setup with Claude Code or Codex.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/mention-template/0.1.0b1/",
-    "published_at": "2026-09-17T00:50:51.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/mention-template",
-    "technology": "Claude",
-    "title": "mention-template added to PyPI",
-    "summary": "Create a cloud application and continue setup with Claude Code or Codex.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/mention-template/",
-    "published_at": "2026-09-17T00:50:43.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/chibi-bot/1.15.0",
-    "technology": "OpenClaw",
-    "title": "chibi-bot 1.15.0",
-    "summary": "Your Digital Companion. Self-hosted Telegram bot orchestrating multiple AI providers (OpenAI, Anthropic, Google, xAI, DeepSeek, Mistral, Alibaba, MiniMax) with autonomous agent capabilities, MCP integrations, and async task execution. Not a tool. A partner.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/chibi-bot/1.15.0/",
-    "published_at": "2026-09-17T00:35:01.000Z",
-    "score": 100,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://www.cnet.com/tech/services-and-software/google-home-stuns-by-announcing-ai-support-for-claude-and-openclaw",
-    "technology": "OpenClaw",
-    "title": "Google Home Stuns by Announcing AI Support for Claude and OpenClaw",
-    "summary": "Google is expanding its tools so you can invoke a variety of AI agents in your smart home.",
-    "source": "CNET",
-    "source_url": "https://www.cnet.com/tech/services-and-software/google-home-stuns-by-announcing-ai-support-for-claude-and-openclaw/",
-    "published_at": "2026-09-17T00:33:34.000Z",
-    "score": 74,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/dsh-continuity/0.5.6",
-    "technology": "ChatGPT / OpenAI",
-    "title": "dsh-continuity 0.5.6",
-    "summary": "Asset consistency and output verification for agent-generated game media: image, voice, music and SFX from local Vulkan backends with zero VRAM when idle, or from any OpenAI-shaped image/ASR API instead.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/dsh-continuity/0.5.6/",
-    "published_at": "2026-09-17T00:31:52.000Z",
-    "score": 66,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
-  },
-  {
-    "key": "https://pypi.org/project/ratemyagent/1.4.2",
-    "technology": "Codex",
-    "title": "ratemyagent 1.4.2",
-    "summary": "Reliability scanner for MCP servers: fault injection, a scored policy, and a fix guide for coding agents.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/ratemyagent/1.4.2/",
-    "published_at": "2026-09-17T00:21:55.000Z",
-    "score": 78,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/agent-forge-installer/0.4.103",
-    "technology": "OpenClaw",
-    "title": "agent-forge-installer 0.4.103",
-    "summary": "AgentForge — multi-agent Telegram bot framework powered by Claude Code",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/agent-forge-installer/0.4.103/",
-    "published_at": "2026-09-17T00:15:04.000Z",
-    "score": 74,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/shipteam/0.14.241",
-    "technology": "Claude",
-    "title": "shipteam 0.14.241",
-    "summary": "Safety-first Claude Code and Codex CLI framework installer — `uvx shipteam init`",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/shipteam/0.14.241/",
-    "published_at": "2026-09-17T00:03:23.000Z",
-    "score": 74,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   }
 ]
