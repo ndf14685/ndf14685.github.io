@@ -1,5 +1,16 @@
 [
   {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.2",
+    "technology": "Codex",
+    "title": "0.163.0-alpha.2",
+    "summary": "Release 0.163.0-alpha.2",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.2",
+    "published_at": "2026-10-09T01:47:21.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge",
     "technology": "Gemini",
     "title": "ML Drift: Next-Gen GPU AI/ML Inference at the Edge",
@@ -44,6 +55,17 @@
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   },
   {
+    "key": "https://openai.com/index/legalon-halves-codex-costs",
+    "technology": "Codex",
+    "title": "LegalOn halves Codex costs while maintaining development speed",
+    "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+    "source": "OpenAI News",
+    "source_url": "https://openai.com/index/legalon-halves-codex-costs",
+    "published_at": "2026-10-08T12:00:00.000Z",
+    "score": 84,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.17.2",
     "technology": "Codex",
     "title": "0.162.0-alpha.17.2",
@@ -66,6 +88,72 @@
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   },
   {
+    "key": "https://pypi.org/project/mcp-digitalhuman/2026.10.8.1",
+    "technology": "ChatGPT / OpenAI",
+    "title": "mcp-digitalhuman 2026.10.8.1",
+    "summary": "MCP server for AceDataCloud Digital Human video, voice, and task APIs",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcp-digitalhuman/2026.10.8.1/",
+    "published_at": "2026-10-08T02:46:07.000Z",
+    "score": 82,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://pypi.org/project/pocketexpert-harness/0.3.0",
+    "technology": "Codex",
+    "title": "pocketexpert-harness 0.3.0",
+    "summary": "Open-source personal AI agent - same kernel as PocketExpert AI in production. Self-hosted web chat + CLI, MCP, skills, memory, vision.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/pocketexpert-harness/0.3.0/",
+    "published_at": "2026-10-08T02:45:30.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/yandex-cli/0.124.1",
+    "technology": "Infra AI",
+    "title": "yandex-cli 0.124.1",
+    "summary": "Interact with Yandex 360 services (Wiki, Tracker, Forms, …) from a CLI, an MCP server, or a Python SDK.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/yandex-cli/0.124.1/",
+    "published_at": "2026-10-08T02:44:31.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/pocketexpert-harness/0.2.1",
+    "technology": "Codex",
+    "title": "pocketexpert-harness 0.2.1",
+    "summary": "Open-source personal AI agent - same kernel as PocketExpert AI in production. Self-hosted web chat + CLI, MCP, skills, memory, vision.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/pocketexpert-harness/0.2.1/",
+    "published_at": "2026-10-08T02:40:08.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/retryhop/0.1.1",
+    "technology": "Claude",
+    "title": "retryhop 0.1.1",
+    "summary": "Retries, rate limiting and circuit breaking for LLM and HTTP API calls (OpenAI, Anthropic, httpx, requests).",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/retryhop/0.1.1/",
+    "published_at": "2026-10-08T02:36:15.000Z",
+    "score": 64,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/webscout-mcp/1.7.0",
+    "technology": "Infra AI",
+    "title": "webscout-mcp 1.7.0",
+    "summary": "Self-healing web access layer for AI Agents: search, fetch, extract, progressive content delivery, provider routing, recovery, browser fallback, caching, and observability over the Model Context Protocol (MCP). Optional Jev shadow evaluator and vector/AI/brow…",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/webscout-mcp/1.7.0/",
+    "published_at": "2026-10-08T02:30:34.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.20",
     "technology": "Codex",
     "title": "0.162.0-alpha.20",
@@ -74,6 +162,50 @@
     "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.20",
     "published_at": "2026-10-08T02:25:14.000Z",
     "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/trustops-security-data-lake/0.2.24",
+    "technology": "Infra AI",
+    "title": "trustops-security-data-lake 0.2.24",
+    "summary": "Open-source, self-hosted trust operations — SOC 2, NIST AI RMF, FedRAMP, ISO, HIPAA, PCI DSS. Read-only evidence collection, deterministic control tests, and audit-ready proof with an API-first, MCP-native design.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/trustops-security-data-lake/0.2.24/",
+    "published_at": "2026-10-08T02:14:11.000Z",
+    "score": 76,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/retryhop/0.1.0",
+    "technology": "Claude",
+    "title": "retryhop 0.1.0",
+    "summary": "Retries, rate limiting and circuit breaking for LLM and HTTP API calls (OpenAI, Anthropic, httpx, requests).",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/retryhop/0.1.0/",
+    "published_at": "2026-10-08T02:13:15.000Z",
+    "score": 64,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/retryhop",
+    "technology": "Claude",
+    "title": "retryhop added to PyPI",
+    "summary": "Retries, rate limiting and circuit breaking for LLM and HTTP API calls (OpenAI, Anthropic, httpx, requests).",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/retryhop/",
+    "published_at": "2026-10-08T02:13:09.000Z",
+    "score": 64,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/rdstudio/0.4.0",
+    "technology": "Codex",
+    "title": "rdstudio 0.4.0",
+    "summary": "Agentic research and development studio: OKF knowledge bundles, a read-only dashboard, MCP and skills.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/rdstudio/0.4.0/",
+    "published_at": "2026-10-08T02:07:02.000Z",
+    "score": 82,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   },
   {
@@ -6466,137 +6598,5 @@
     "published_at": "2026-09-23T13:55:17.000Z",
     "score": 82,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/ijuka-mcp/1.2.0",
-    "technology": "Infra AI",
-    "title": "ijuka-mcp 1.2.0",
-    "summary": "Ijuka MCP server — Python shim for uvx. Launches the bundled Ijuka helper.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/ijuka-mcp/1.2.0/",
-    "published_at": "2026-09-23T13:36:03.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/ijuka-mcp",
-    "technology": "Infra AI",
-    "title": "ijuka-mcp added to PyPI",
-    "summary": "Ijuka MCP server — Python shim for uvx. Launches the bundled Ijuka helper.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/ijuka-mcp/",
-    "published_at": "2026-09-23T13:35:59.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://biztoc.com/x/4030db5faa341218",
-    "technology": "Claude",
-    "title": "OpenAI, Anthropic To Brief UN Security Council On AI Risks",
-    "summary": "OpenAI, Anthropic To Brief UN Security Council On AI Risks Authored by Ezra Reguerra via Cointelegraph, Anthropic CEO Dario Amodei and OpenAI CEO Sam Altman are expected to brief the United Nations Security Council on Wednesday as the body examines artifici…",
-    "source": "Biztoc.com",
-    "source_url": "https://biztoc.com/x/4030db5faa341218",
-    "published_at": "2026-09-23T13:35:29.000Z",
-    "score": 64,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.2",
-    "technology": "Codex",
-    "title": "0.158.0-alpha.2",
-    "summary": "Release 0.158.0-alpha.2",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.2",
-    "published_at": "2026-09-23T13:07:10.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://the-decoder.com/alibaba-launches-qwen-audio-3-1-with-five-new-models-and-slashes-ai-audio-prices-by-up-to-95-percent",
-    "technology": "ChatGPT / OpenAI",
-    "title": "Alibaba launches Qwen Audio 3.1 with new models and slashes AI audio prices by up to 95 percent",
-    "summary": "Alibaba's AI team Qwen has released Qwen-Audio-3.1, a lineup of five models for speech recognition (ASR), text-to-speech (TTS), and real-time interaction. The ASR model improves multilingual and dialect recognition and automatically cleans up filler words and repetitions. ASR-Next adds multi-speaker identification with timestamps and dete...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/alibaba-launches-qwen-audio-3-1-with-five-new-models-and-slashes-ai-audio-prices-by-up-to-95-percent/",
-    "published_at": "2026-09-23T12:31:20.000Z",
-    "score": 70,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
-  },
-  {
-    "key": "https://openai.com/index/ringg",
-    "technology": "Codex",
-    "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-    "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-    "source": "OpenAI News",
-    "source_url": "https://openai.com/index/ringg",
-    "published_at": "2026-09-23T12:00:00.000Z",
-    "score": 72,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.157.0-alpha.11",
-    "technology": "Codex",
-    "title": "0.157.0-alpha.11",
-    "summary": "Release 0.157.0-alpha.11",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.157.0-alpha.11",
-    "published_at": "2026-09-23T04:50:17.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.16.3",
-    "technology": "Codex",
-    "title": "0.155.0-alpha.16.3",
-    "summary": "Release 0.155.0-alpha.16.3",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.16.3",
-    "published_at": "2026-09-23T03:41:37.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.156.1",
-    "technology": "Codex",
-    "title": "0.156.1",
-    "summary": "## New Features - Choose GPT-6 Sol or GPT-6 Luna from the model picker. The rate-limit switch prompt now recommends GPT-6 Luna. (#47405) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.156.0...rust-v0.156.1 - #47405 [hotfix 0.156.0] Add GPT-6 Sol and Luna to the model catalog (#47332) @imac-oai",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.156.1",
-    "published_at": "2026-09-23T02:41:36.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260923.g62364cb20",
-    "technology": "Gemini",
-    "title": "Release v0.62.0-nightly.20260923.g62364cb20",
-    "summary": "## What's Changed * Feat/gemini 3.8 flash 3.5 flash lite by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/29443 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260922.gd5b3e3acc...v0.62.0-nightly.20260923.g62364cb20",
-    "source": "GitHub: google-gemini/gemini-cli",
-    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260923.g62364cb20",
-    "published_at": "2026-09-23T01:24:23.000Z",
-    "score": 58,
-    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
-  },
-  {
-    "key": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing",
-    "technology": "OpenClaw",
-    "title": "Model routing with Google Cloud API Gateway",
-    "summary": "Google Cloud API Gateway now offers a model routing feature in Public Preview, allowing developers to dynamically route traffic to models like Gemini, Claude, or OpenAI OSS-GPT without hardcoding endpoints or managing open-source proxies. Developers can easily configure these routing rules directly within their OpenAPI 3.x specifications...",
-    "source": "Google Developers Blog",
-    "source_url": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing/",
-    "published_at": "2026-09-23T01:22:05.743Z",
-    "score": 98,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/bitranox-skills/7.10.0",
-    "technology": "Claude",
-    "title": "bitranox-skills 7.10.0",
-    "summary": "The bitranox Claude Code skill collection: 82 skills and 64 hooks, installable without the plugin marketplace.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/bitranox-skills/7.10.0/",
-    "published_at": "2026-09-23T01:01:42.000Z",
-    "score": 74,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   }
 ]
