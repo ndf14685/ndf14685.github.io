@@ -22,6 +22,83 @@
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   },
   {
+    "key": "https://pypi.org/project/judgevet/0.19.0",
+    "technology": "Infra AI",
+    "title": "judgevet 0.19.0",
+    "summary": "Typed client, CLI and MCP server for TypeSafe's Jev (System One) judgment model",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/judgevet/0.19.0/",
+    "published_at": "2026-10-09T20:22:49.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/my-claude-code/7.90.0",
+    "technology": "Claude",
+    "title": "my-claude-code 7.90.0",
+    "summary": "Local multi-provider LLM proxy, model router and control plane for Claude Code, Codex, OpenCode, Gemini CLI and other AI coding agents: 57 providers, fallback routing, credential health, a native web-search tool proxy, and analytics with cost provenance",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/my-claude-code/7.90.0/",
+    "published_at": "2026-10-09T20:19:19.000Z",
+    "score": 100,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/mcp-gtw/0.0.6",
+    "technology": "OpenClaw",
+    "title": "mcp-gtw 0.0.6",
+    "summary": "A generic MCP gateway whose tools are registered and executed asynchronously by browser applications over WebSocket.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcp-gtw/0.0.6/",
+    "published_at": "2026-10-09T20:13:44.000Z",
+    "score": 74,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
+    "key": "https://pypi.org/project/janction-render/0.4.35",
+    "technology": "Infra AI",
+    "title": "janction-render 0.4.35",
+    "summary": "Cloud GPU render farm for Blender, built for AI agents: MCP server (remote + stdio), HTTP API and CLI. Send a .blend, a bpy script or a 3D file (glTF/FBX/USD) and get frames or an MP4 back; no local Blender or GPU. Free up to 500 JPY of GPU time per new key, …",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/janction-render/0.4.35/",
+    "published_at": "2026-10-09T20:11:26.000Z",
+    "score": 70,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/statsmapped-mcp/0.3.1",
+    "technology": "Infra AI",
+    "title": "statsmapped-mcp 0.3.1",
+    "summary": "MCP server exposing StatsMapped's public data API for Ireland and the UK (housing, crime, health, economy, social welfare, by county/local authority) as tools for AI agents.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/statsmapped-mcp/0.3.1/",
+    "published_at": "2026-10-09T20:03:49.000Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/openai-codex/0.162.1",
+    "technology": "Codex",
+    "title": "openai-codex 0.162.1",
+    "summary": "Python SDK for Codex",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/openai-codex/0.162.1/",
+    "published_at": "2026-10-09T20:00:27.000Z",
+    "score": 74,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/openai-codex-cli-bin/0.162.1",
+    "technology": "Codex",
+    "title": "openai-codex-cli-bin 0.162.1",
+    "summary": "Pinned Codex CLI runtime for the Python SDK",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/openai-codex-cli-bin/0.162.1/",
+    "published_at": "2026-10-09T19:57:55.000Z",
+    "score": 78,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.162.1",
     "technology": "Codex",
     "title": "0.162.1",
@@ -6521,82 +6598,5 @@
     "published_at": "2026-09-24T16:00:18.000Z",
     "score": 68,
     "why_it_matters": "Puede abrir opciones costo/beneficio para razonamiento, fallback local/remoto o benchmarks contra modelos cerrados."
-  },
-  {
-    "key": "https://pypi.org/project/clinical-calc-mcp",
-    "technology": "Infra AI",
-    "title": "clinical-calc-mcp added to PyPI",
-    "summary": "Validated, local-only clinical calculation tools over MCP, with explicit units and safety notes.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/clinical-calc-mcp/",
-    "published_at": "2026-09-24T14:30:32.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/cleanlib-mcp-server/0.5.16",
-    "technology": "Infra AI",
-    "title": "cleanlib-mcp-server 0.5.16",
-    "summary": "CleanLibrary MCP server — exposes verdict-aware supply-chain risk assessment as Model Context Protocol tools for AI agent workflows",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/cleanlib-mcp-server/0.5.16/",
-    "published_at": "2026-09-24T14:30:17.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/swiss-weather-mcp/0.2.0rc1",
-    "technology": "Infra AI",
-    "title": "swiss-weather-mcp 0.2.0rc1",
-    "summary": "MCP server exposing MeteoSwiss local weather forecasts for Switzerland as callable tools",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/swiss-weather-mcp/0.2.0rc1/",
-    "published_at": "2026-09-24T14:26:29.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://www.yankodesign.com/2026/09/24/ray-ban-meta-audio-glasses-launched-without-the-controversial-camera",
-    "technology": "ChatGPT / OpenAI",
-    "title": "Ray-Ban Meta Audio Glasses launched without the controversial camera",
-    "summary": "As companies chase smart glasses with cameras, Meta, the frontrunner in the space, has gone a step ahead (or, if you will, backwards) to release the company’s first Ray-Ban Meta Audio Glasses embedded with Meta AI. The pair of smart audio glasses, which was l…",
-    "source": "Yanko Design",
-    "source_url": "https://www.yankodesign.com/2026/09/24/ray-ban-meta-audio-glasses-launched-without-the-controversial-camera/",
-    "published_at": "2026-09-24T14:20:29.000Z",
-    "score": 62,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
-  },
-  {
-    "key": "https://pypi.org/project/agentihooks/2.14.0",
-    "technology": "Claude",
-    "title": "agentihooks 2.14.0",
-    "summary": "Hook system and MCP tool server for Claude Code agents",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/agentihooks/2.14.0/",
-    "published_at": "2026-09-24T14:18:41.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/orchestrated-codex/0.1.13",
-    "technology": "Codex",
-    "title": "orchestrated-codex 0.1.13",
-    "summary": "Install Codex delivery and code-review skills with focused custom agents.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/orchestrated-codex/0.1.13/",
-    "published_at": "2026-09-24T14:16:41.000Z",
-    "score": 58,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://developers.googleblog.com/scaling-ai-agent-infrastructure-with-the-mcp-stateless-updates",
-    "technology": "Gemini",
-    "title": "Scaling AI Agent Infrastructure with the MCP Stateless updates",
-    "summary": "The 2026-07-28 Model Context Protocol (MCP) specification replaces legacy stateful constraints with a fully stateless core, enabling cloud-native horizontal scaling, serverless deployments, and standard round-robin load balancing. This architectural shift introduces standardized HTTP headers for efficient routing without deep packet inspe...",
-    "source": "Google Developers Blog",
-    "source_url": "https://developers.googleblog.com/scaling-ai-agent-infrastructure-with-the-mcp-stateless-updates/",
-    "published_at": "2026-09-24T14:08:38.942Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   }
 ]
