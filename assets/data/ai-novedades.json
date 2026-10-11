@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T01:45:14.318Z",
+  "generated_at": "2026-10-11T15:31:14.080Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -11,7 +11,7 @@
     "Infra AI"
   ],
   "source_counts": {
-    "rss": 35,
+    "rss": 33,
     "github": 7,
     "newsapi": 50
   },
@@ -20,11 +20,25 @@
     "relevant_count": 8,
     "telegram_summary": [
       {
-        "technology": "OpenClaw",
-        "title": "graphifyy 0.9.84",
-        "benefit": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+        "technology": "Claude",
+        "title": "prompt-receipts 7.1",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
         "score": 100,
-        "url": "https://pypi.org/project/graphifyy/0.9.84/"
+        "url": "https://pypi.org/project/prompt-receipts/7.1/"
+      },
+      {
+        "technology": "Claude",
+        "title": "prompt-receipts added to PyPI",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 100,
+        "url": "https://pypi.org/project/prompt-receipts/"
+      },
+      {
+        "technology": "Claude",
+        "title": "prompt-receipts 7.0",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 100,
+        "url": "https://pypi.org/project/prompt-receipts/7.0/"
       },
       {
         "technology": "Codex",
@@ -32,13 +46,6 @@
         "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
         "score": 96,
         "url": "https://openai.com/index/asana-browser-agent"
-      },
-      {
-        "technology": "OpenClaw",
-        "title": "gemini-mcp-gateway 0.8.1",
-        "benefit": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
-        "score": 94,
-        "url": "https://pypi.org/project/gemini-mcp-gateway/0.8.1/"
       },
       {
         "technology": "Codex",
@@ -67,13 +74,6 @@
         "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
         "score": 90,
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.4"
-      },
-      {
-        "technology": "Codex",
-        "title": "0.163.0-alpha.2",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 90,
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.2"
       }
     ]
   },
@@ -81,24 +81,59 @@
     {
       "id": 1,
       "kind": "newsapi",
-      "technology": "OpenClaw",
-      "title": "graphifyy 0.9.84",
-      "summary": "AI coding assistant skill (Claude Code, CodeBuddy, Codex, OpenCode, Kilo Code, Cursor, Gemini CLI, Aider, OpenClaw, Factory Droid, Trae, Hermes, Kiro, Pi, Devin CLI, Google Antigravity) - turn any folder of code, docs, papers, images, or videos into a queryab…",
+      "technology": "Claude",
+      "title": "prompt-receipts 7.1",
+      "summary": "Receipts for AI coding runs: what a Claude Code, Codex, OpenCode, Qwen Code, Gemini CLI or Copilot CLI session cost, took and did",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/graphifyy/0.9.84/",
-      "published_at": "2026-10-10T00:53:38.000Z",
+      "source_url": "https://pypi.org/project/prompt-receipts/7.1/",
+      "published_at": "2026-10-10T15:24:21.000Z",
       "score": 100,
       "tags": [
-        "OpenClaw",
         "Claude",
         "Codex",
         "Gemini"
       ],
-      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 2,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "prompt-receipts added to PyPI",
+      "summary": "Receipts for AI coding runs: what a Claude Code, Codex, OpenCode, Qwen Code, Gemini CLI or Copilot CLI session cost, took and did",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/prompt-receipts/",
+      "published_at": "2026-10-10T14:45:40.000Z",
+      "score": 100,
+      "tags": [
+        "Claude",
+        "Codex",
+        "Gemini"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 3,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "prompt-receipts 7.0",
+      "summary": "Receipts for AI coding runs: what a Claude Code, Codex, OpenCode, Qwen Code, Gemini CLI or Copilot CLI session cost, took and did",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/prompt-receipts/7.0/",
+      "published_at": "2026-10-10T14:45:40.000Z",
+      "score": 100,
+      "tags": [
+        "Claude",
+        "Codex",
+        "Gemini"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 4,
       "kind": "rss",
       "technology": "Codex",
       "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
@@ -115,25 +150,7 @@
       "relevant": true
     },
     {
-      "id": 3,
-      "kind": "newsapi",
-      "technology": "OpenClaw",
-      "title": "gemini-mcp-gateway 0.8.1",
-      "summary": "MCP gateway for massive-payload Gemini analysis on the AI Studio free tier: chunking with overlap, consolidation, thinking_level control, deep progress, rotating disk logs",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/gemini-mcp-gateway/0.8.1/",
-      "published_at": "2026-10-10T01:35:36.000Z",
-      "score": 94,
-      "tags": [
-        "OpenClaw",
-        "Gemini",
-        "Infra AI"
-      ],
-      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
-      "relevant": true
-    },
-    {
-      "id": 4,
+      "id": 5,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.162.0",
@@ -150,7 +167,7 @@
       "relevant": true
     },
     {
-      "id": 5,
+      "id": 6,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.163.0-alpha.5",
@@ -167,7 +184,7 @@
       "relevant": true
     },
     {
-      "id": 6,
+      "id": 7,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.162.1",
@@ -184,7 +201,7 @@
       "relevant": true
     },
     {
-      "id": 7,
+      "id": 8,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.163.0-alpha.4",
@@ -201,7 +218,7 @@
       "relevant": true
     },
     {
-      "id": 8,
+      "id": 9,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.163.0-alpha.2",
@@ -218,14 +235,14 @@
       "relevant": true
     },
     {
-      "id": 9,
+      "id": 10,
       "kind": "rss",
       "technology": "ChatGPT / OpenAI",
       "title": "Bring multimodal semantic search to the edge with EmbeddingGemma 2",
       "summary": "EmbeddingGemma 2 is a new 740M open-weight multimodal model that maps text, images, video, and audio into a unified vector space for privacy-first, on-device retrieval. Developers can easily integrate these capabilities cross-platform using MediaPipe Tasks or optimize fine-grained performance across CPU, GPU, and NPU accelerators with Lit...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/",
-      "published_at": "2026-10-11T01:45:12.790Z",
+      "published_at": "2026-10-11T15:31:12.446Z",
       "score": 86,
       "tags": [
         "ChatGPT / OpenAI",
@@ -235,37 +252,20 @@
       "relevant": true
     },
     {
-      "id": 10,
+      "id": 11,
       "kind": "rss",
       "technology": "OpenClaw",
       "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
       "summary": "Google Cloud API Gateway now acts as a native remote Model Context Protocol (MCP) server, eliminating the need to build and maintain custom middleware to expose REST APIs to AI agents. By simply adding specific annotations (like x-google-api-management.mcp) to existing OpenAPI 3.x specifications, developers can instantly convert standard...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway/",
-      "published_at": "2026-10-11T01:45:12.790Z",
+      "published_at": "2026-10-11T15:31:12.446Z",
       "score": 86,
       "tags": [
         "OpenClaw",
         "Infra AI"
       ],
       "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
-      "relevant": true
-    },
-    {
-      "id": 11,
-      "kind": "rss",
-      "technology": "Codex",
-      "title": "LegalOn halves Codex costs while maintaining development speed",
-      "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/legalon-halves-codex-costs",
-      "published_at": "2026-10-08T12:00:00.000Z",
-      "score": 84,
-      "tags": [
-        "Codex",
-        "ChatGPT / OpenAI"
-      ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
       "relevant": true
     },
     {
@@ -276,7 +276,7 @@
       "summary": "Agent Anomaly Detection is a new, out-of-band oversight layer for the Gemini Enterprise Agent Platform that analyzes OpenTelemetry traces and tool calls to catch behavioral risks without adding runtime latency to live requests. It utilizes a multi-tiered detection pipeline—combining lightweight statistical scanning with deep LLM-based rea...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/",
-      "published_at": "2026-10-11T01:45:12.790Z",
+      "published_at": "2026-10-11T15:31:12.447Z",
       "score": 78,
       "tags": [
         "Gemini",
@@ -289,15 +289,15 @@
       "id": 13,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "althing 1.8.0",
-      "summary": "Run synthetic focus groups using AI personas, with an MCP server for Claude Code / Cursor / Windsurf. CLI tool, Python library, any LLM.",
+      "title": "agent-loop-tool 0.1.1",
+      "summary": "Checkpoint-gated developer/reviewer loop across Claude Code, Codex, Grok, and Antigravity CLIs.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/althing/1.8.0/",
-      "published_at": "2026-10-10T01:09:47.000Z",
+      "source_url": "https://pypi.org/project/agent-loop-tool/0.1.1/",
+      "published_at": "2026-10-10T15:03:01.000Z",
       "score": 78,
       "tags": [
         "Claude",
-        "Infra AI"
+        "Codex"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
@@ -305,47 +305,46 @@
     {
       "id": 14,
       "kind": "newsapi",
-      "technology": "ChatGPT / OpenAI",
-      "title": "apcore-mcp 0.22.3",
-      "summary": "Automatic MCP Server & OpenAI Tools Bridge for apcore",
+      "technology": "Claude",
+      "title": "agents-chronicle 0.21.1",
+      "summary": "Record, archive, analyze and explore every coding-agent session (Claude Code, Codex, Copilot, Bob, Antigravity): a local knowledge vault built with Claude Code itself.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/apcore-mcp/0.22.3/",
-      "published_at": "2026-10-10T01:40:14.000Z",
-      "score": 74,
+      "source_url": "https://pypi.org/project/agents-chronicle/0.21.1/",
+      "published_at": "2026-10-10T14:49:10.000Z",
+      "score": 78,
       "tags": [
-        "ChatGPT / OpenAI",
-        "Infra AI"
+        "Claude",
+        "Codex"
       ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 15,
       "kind": "newsapi",
-      "technology": "ChatGPT / OpenAI",
-      "title": "openai-mcp-extensions 0.2.0",
-      "summary": "OpenAI extensions for MCP Python servers.",
+      "technology": "Infra AI",
+      "title": "ianua-broker 1.11.0",
+      "summary": "Local-first, offline-by-default security posture scanner for MCP servers and local AI-agent setups: configs, live tool manifests, tool poisoning, signed drift and SARIF.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/openai-mcp-extensions/",
-      "published_at": "2026-10-10T00:44:33.000Z",
-      "score": 74,
+      "source_url": "https://pypi.org/project/ianua-broker/1.11.0/",
+      "published_at": "2026-10-10T14:45:36.000Z",
+      "score": 76,
       "tags": [
-        "ChatGPT / OpenAI",
         "Infra AI"
       ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
       "id": 16,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "search-clanker-history added to PyPI",
-      "summary": "Search across Claude Code, Codex, OpenCode and Hermes session history",
+      "title": "fridica 0.7.5",
+      "summary": "Your Slack presence: a parent agent per person, a session per thread, and Claude Code / Codex workers on your machines",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/search-clanker-history/",
-      "published_at": "2026-10-10T01:07:11.000Z",
-      "score": 70,
+      "source_url": "https://pypi.org/project/fridica/0.7.5/",
+      "published_at": "2026-10-10T15:04:20.000Z",
+      "score": 74,
       "tags": [
         "Claude",
         "Codex"
@@ -355,6 +354,39 @@
     },
     {
       "id": 17,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "gsa-perdiem-mcp 1.2.2",
+      "summary": "MCP server for GSA Per Diem Rates API. Federal travel lodging and M&IE rates for IGCEs and travel cost estimation.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/gsa-perdiem-mcp/1.2.2/",
+      "published_at": "2026-10-10T15:23:47.000Z",
+      "score": 72,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 18,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "cswap-pin 0.1.334",
+      "summary": "Keep Claude Code's Remote Control and Artifacts on one account while inference follows cswap's account swap",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/cswap-pin/0.1.334/",
+      "published_at": "2026-10-10T15:29:12.000Z",
+      "score": 70,
+      "tags": [
+        "Claude",
+        "Infra AI"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 19,
       "kind": "rss",
       "technology": "Codex",
       "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
@@ -371,14 +403,31 @@
       "relevant": true
     },
     {
-      "id": 18,
+      "id": 20,
+      "kind": "rss",
+      "technology": "Claude",
+      "title": "Microsoft's Nadella bows to Trump's language diktat on \"Super Intelligence\" and uses it to attack OpenAI and Anthropic",
+      "summary": "Microsoft CEO Satya Nadella now calls artificial intelligence \"super intelligence\" instead of artificial intelligence, falling in line with Trump's preferred language. In his latest blog post, he frames AI models as insider security threats, taking yet another shot at OpenAI and Anthropic. The real motive is business: Microsoft risks fall...",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/microsofts-nadella-bows-to-trumps-language-diktat-on-super-intelligence-and-uses-it-to-attack-openai-and-anthropic/",
+      "published_at": "2026-10-11T09:08:35.000Z",
+      "score": 68,
+      "tags": [
+        "Claude",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 21,
       "kind": "rss",
       "technology": "Gemini",
       "title": "Supercharge your development with the Google Developer Knowledge API ecosystem",
       "summary": "Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date documentation across Firebase, Google Cloud, Android, and more. By using the official MCP server, developers can connect too...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/",
-      "published_at": "2026-10-11T01:45:12.790Z",
+      "published_at": "2026-10-11T15:31:12.446Z",
       "score": 66,
       "tags": [
         "Infra AI"
@@ -387,62 +436,14 @@
       "relevant": true
     },
     {
-      "id": 19,
+      "id": 22,
       "kind": "rss",
       "technology": "Gemini",
       "title": "4 engineering patterns behind the strongest AI Agents Challenge submissions",
       "summary": "The recent Google for Startups AI Agents Challenge revealed that the most successful multi-agent systems rely on foundational software engineering patterns rather than just raw model power. Winning architectures consistently implemented bidirectional MCP for seamless inter-agent communication, async event buses for parallel execution, str...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/",
-      "published_at": "2026-10-11T01:45:12.790Z",
-      "score": 62,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 20,
-      "kind": "rss",
-      "technology": "Infra AI",
-      "title": "Microsoft's Decision-1 model enters the fast-growing AI decision model race",
-      "summary": "With Decision-1, Microsoft enters the growing decision model space. Built on Qwen3.5-9B and optimized for fast classification and routing, it hits 83.5 percent accuracy with 85 ms latency across 36 benchmarks, according to the company's own tests. The article Microsoft's Decision-1 model enters the fast-growing AI decision model race appe...",
-      "source": "The Decoder",
-      "source_url": "https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/",
-      "published_at": "2026-10-10T14:57:33.000Z",
-      "score": 62,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 21,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "ruvector 0.1.1",
-      "summary": "Ultra-low-latency vector search (RaBitQ, Rust core) with a CLI and MCP server",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/ruvector/0.1.1/",
-      "published_at": "2026-10-10T01:02:41.000Z",
-      "score": 62,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 22,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "homedata-mcp 1.0.0",
-      "summary": "MCP server and CLI for the Homedata UK property data API: addresses and UPRNs, EPC, council tax, planning, environmental risk, schools, broadband and more.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/homedata-mcp/1.0.0/",
-      "published_at": "2026-10-10T00:19:15.000Z",
+      "published_at": "2026-10-11T15:31:12.447Z",
       "score": 62,
       "tags": [
         "Infra AI"
@@ -452,35 +453,34 @@
     },
     {
       "id": 23,
-      "kind": "rss",
-      "technology": "Gemini",
-      "title": "ML Drift: Next-Gen GPU AI/ML Inference at the Edge",
-      "summary": "Google AI Edge has introduced ML Drift, a high-performance, universal GPU compute framework designed to accelerate on-device AI and machine learning inference. By abstracting the complexities of hardware and low-level APIs—including OpenGL ES, OpenCL, Metal, and WebGPU—ML Drift enables developers to build real-time, interactive ML experie...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/",
-      "published_at": "2026-10-11T01:45:12.790Z",
-      "score": 58,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "gsa-calc-mcp 1.0.13",
+      "summary": "MCP server for the GSA CALC+ Labor Ceiling Rates API. GSA MAS schedule rate benchmarking for IGCEs and price analysis.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/gsa-calc-mcp/1.0.13/",
+      "published_at": "2026-10-10T15:23:52.000Z",
+      "score": 62,
       "tags": [
-        "Gemini",
         "Infra AI"
       ],
-      "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
       "id": 24,
-      "kind": "rss",
-      "technology": "ChatGPT / OpenAI",
-      "title": "EmbeddingGemma 2: The Developer Guide",
-      "summary": "EmbeddingGemma 2 is a compact, open-source multimodal embedding model that maps text, code, images, video, and audio into a unified 768-dimensional space. Developers can use the sentence-transformers library to selectively load modular modality encoders—ranging from 270M to 740M parameters—to optimize memory usage. Additionally, Matryoshk...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/embeddinggemma-2-the-developer-guide/",
-      "published_at": "2026-10-11T01:45:12.790Z",
-      "score": 58,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "bls-oews-mcp 1.1.2",
+      "summary": "MCP server for BLS Occupational Employment and Wage Statistics (OEWS) market wages for IGCEs and price analysis. Bundles the current release; no API key.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/bls-oews-mcp/1.1.2/",
+      "published_at": "2026-10-10T15:23:52.000Z",
+      "score": 62,
       "tags": [
-        "ChatGPT / OpenAI"
+        "Infra AI"
       ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     }
   ]
