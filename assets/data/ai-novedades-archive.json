@@ -1,5 +1,16 @@
 [
   {
+    "key": "https://developers.googleblog.com/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster",
+    "technology": "Gemini",
+    "title": "Announcing MCP support in Apigee hybrid: agentic tools that run in your own cluster",
+    "summary": "Apigee hybrid 1.17.0 introduces native Model Context Protocol (MCP) support, enabling the MCP data plane to run directly within your own Kubernetes cluster. This architecture ensures that AI agent request traffic and tool execution remain entirely inside your infrastructure while pulling configuration updates from the control plane. Devel...",
+    "source": "Google Developers Blog",
+    "source_url": "https://developers.googleblog.com/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster/",
+    "published_at": "2026-10-14T20:32:12.078Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
     "key": "https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap",
     "technology": "Claude",
     "title": "AI guardrails designed to stop hackers are now blocking defenders, and Orion-1 aims to fill the gap",
@@ -9,6 +20,17 @@
     "published_at": "2026-10-14T13:24:22.000Z",
     "score": 72,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://openai.com/index/third-moment-research",
+    "technology": "Codex",
+    "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+    "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+    "source": "OpenAI News",
+    "source_url": "https://openai.com/index/third-moment-research",
+    "published_at": "2026-10-14T07:00:00.000Z",
+    "score": 88,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   },
   {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11",
@@ -31,6 +53,72 @@
     "published_at": "2026-10-13T20:44:46.000Z",
     "score": 64,
     "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
+  },
+  {
+    "key": "https://pypi.org/project/vordium-mcp",
+    "technology": "Infra AI",
+    "title": "vordium-mcp added to PyPI",
+    "summary": "Model Context Protocol server for Vordium: market data, accounts and policy-limited agent trading for any MCP client",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/vordium-mcp/",
+    "published_at": "2026-10-13T20:23:18.000Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://agentmuster.app",
+    "technology": "Claude",
+    "title": "Show HN: Open-source Mac menu bar app for Claude, Codex and Cursor",
+    "summary": "See which Claude, Codex or Cursor session needs you, answer it from anywhere, and jump to it with ⌥Tab. Free and open source.",
+    "source": "Agentmuster.app",
+    "source_url": "https://agentmuster.app/",
+    "published_at": "2026-10-13T20:20:43.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/janction-render/0.4.94",
+    "technology": "Infra AI",
+    "title": "janction-render 0.4.94",
+    "summary": "Cloud GPU rendering for Blender scenes and 3D models (GLB, FBX, USD, OBJ, STL), built for AI agents: MCP server (remote + stdio), HTTP API and CLI. Product shots, 360-degree turntables, animations and stills; preview in seconds with a critic; no local Blender…",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/janction-render/0.4.94/",
+    "published_at": "2026-10-13T19:52:43.000Z",
+    "score": 74,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/callbus/0.3.1",
+    "technology": "Infra AI",
+    "title": "callbus 0.3.1",
+    "summary": "Tool retrieval for LLM agents with hundreds of tools: an embedding model plus small learned heads picks the few tools a request needs, served over MCP and REST.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/callbus/0.3.1/",
+    "published_at": "2026-10-13T19:52:21.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/callbus",
+    "technology": "Infra AI",
+    "title": "callbus added to PyPI",
+    "summary": "Tool retrieval for LLM agents with hundreds of tools: an embedding model plus small learned heads picks the few tools a request needs, served over MCP and REST.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/callbus/",
+    "published_at": "2026-10-13T19:52:15.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/mcp-gtm-audit/0.2.0",
+    "technology": "Claude",
+    "title": "mcp-gtm-audit 0.2.0",
+    "summary": "MCP server for Google Tag Manager: audit containers, validate GA4/Google Ads/Meta tracking, diff workspaces against versions, export importable container JSON and, in opt-in write mode, apply reviewed changes inside a workspace. Never publishes. For Claude, C…",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcp-gtm-audit/0.2.0/",
+    "published_at": "2026-10-13T19:51:56.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   },
   {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10",
@@ -6508,94 +6596,6 @@
     "source": "Pypi.org",
     "source_url": "https://pypi.org/project/noeta-sdk/0.6.32/",
     "published_at": "2026-09-27T17:31:57.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://forkast.news/openai-races-to-counter-grokbot-muse-with-persistent-codex-bot-no-launch-date",
-    "technology": "Codex",
-    "title": "OpenAI Races to Counter GrokBot & Muse With Persistent ‘Codex Bot’ – No Launch Date",
-    "summary": "The most important product in the personal agent race is the one that has not shipped. OpenAI is reportedly building persistent AI assistants — always-on “assistant teams” that handle routine tasks without being asked — to counter the momentum of GrokBot and …",
-    "source": "Forkast.news",
-    "source_url": "https://forkast.news/openai-races-to-counter-grokbot-muse-with-persistent-codex-bot-no-launch-date/",
-    "published_at": "2026-09-27T17:29:16.000Z",
-    "score": 78,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/mcp-review-board/2.4.2",
-    "technology": "Codex",
-    "title": "mcp-review-board 2.4.2",
-    "summary": "MCP review board that lets different coding agents review each other",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/mcp-review-board/2.4.2/",
-    "published_at": "2026-09-27T17:23:26.000Z",
-    "score": 78,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/my-claude-code/7.64.0",
-    "technology": "Claude",
-    "title": "my-claude-code 7.64.0",
-    "summary": "Local multi-provider LLM proxy, model router and control plane for Claude Code, Codex, OpenCode, Gemini CLI and other AI coding agents: 57 providers, fallback routing, credential health, a native web-search tool proxy, and analytics with cost provenance",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/my-claude-code/7.64.0/",
-    "published_at": "2026-09-27T17:22:54.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/orchvia/0.1.12",
-    "technology": "Claude",
-    "title": "orchvia 0.1.12",
-    "summary": "Python SDK for Orchvia: run Claude Code and Codex agents as a team",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/orchvia/0.1.12/",
-    "published_at": "2026-09-27T17:17:59.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/agent-loop-tool/0.1.0",
-    "technology": "Claude",
-    "title": "agent-loop-tool 0.1.0",
-    "summary": "Checkpoint-gated developer/reviewer loop across Claude Code, Codex, Grok, and Antigravity CLIs.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/agent-loop-tool/0.1.0/",
-    "published_at": "2026-09-27T17:17:22.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/musubi-harness/1.5.0",
-    "technology": "OpenClaw",
-    "title": "musubi-harness 1.5.0",
-    "summary": "Host-neutral Musubi memory runtime for Claude Code, Codex, Grok, LiveKit, Hermes, and OpenClaw adapters.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/musubi-harness/1.5.0/",
-    "published_at": "2026-09-27T17:14:47.000Z",
-    "score": 90,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://www.wowebook.org/agentic-devops-with-claude-code",
-    "technology": "Claude",
-    "title": "Agentic DevOps with Claude Code",
-    "summary": "eBook Details: Paperback: 322 pages Published: September 25, 2026 Language: English ISBN-10: 1808344197 ISBN-13: 978-1808344190 eBook Description: Agentic DevOps with Claude Code: Build governed AI platforms on Kubernetes with GitOps, observability, and self-…",
-    "source": "Wowebook.org",
-    "source_url": "https://www.wowebook.org/agentic-devops-with-claude-code/",
-    "published_at": "2026-09-27T17:10:58.000Z",
-    "score": 74,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/skillmem/0.12.0",
-    "technology": "Claude",
-    "title": "skillmem 0.12.0",
-    "summary": "Self-improving skills for Claude Code — your agent learns, recalls, reinforces, and forgets. SQLite + FTS5 + local embeddings + MCP.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/skillmem/0.12.0/",
-    "published_at": "2026-09-27T17:10:56.000Z",
     "score": 100,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   }
