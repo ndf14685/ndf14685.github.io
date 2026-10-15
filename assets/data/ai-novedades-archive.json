@@ -1,5 +1,16 @@
 [
   {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.1",
+    "technology": "Codex",
+    "title": "0.163.0-alpha.10.1",
+    "summary": "Release 0.163.0-alpha.10.1",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.1",
+    "published_at": "2026-10-14T20:45:55.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://developers.googleblog.com/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster",
     "technology": "Gemini",
     "title": "Announcing MCP support in Apigee hybrid: agentic tools that run in your own cluster",
@@ -42,6 +53,72 @@
     "published_at": "2026-10-14T03:27:29.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/heylead/0.10.453",
+    "technology": "Claude",
+    "title": "heylead 0.10.453",
+    "summary": "AI agent for LinkedIn outreach: finds the right people, writes in your voice, follows up and handles replies. From Claude Code, Cursor, any MCP client or a web dashboard.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/heylead/0.10.453/",
+    "published_at": "2026-10-14T01:18:31.000Z",
+    "score": 100,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/emo-cyber/0.2.2",
+    "technology": "Infra AI",
+    "title": "emo-cyber 0.2.2",
+    "summary": "Portable, model-agnostic cybersecurity sub-agent exposed via MCP, CLI, and Python API.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/emo-cyber/0.2.2/",
+    "published_at": "2026-10-14T01:15:50.000Z",
+    "score": 84,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/probe-research/0.249.2",
+    "technology": "Infra AI",
+    "title": "probe-research 0.249.2",
+    "summary": "CLI + SDK + read-only MCP client for Probe Research (experiment tracking).",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/probe-research/0.249.2/",
+    "published_at": "2026-10-14T01:14:15.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/probe-research/0.249.0",
+    "technology": "Infra AI",
+    "title": "probe-research 0.249.0",
+    "summary": "CLI + SDK + read-only MCP client for Probe Research (experiment tracking).",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/probe-research/0.249.0/",
+    "published_at": "2026-10-14T00:45:15.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/aegis-harness/2.9.0",
+    "technology": "Claude",
+    "title": "aegis-harness 2.9.0",
+    "summary": "A web-native workplace for coding agents: Claude Code sessions in browser tabs, with monitors, queues and handoffs over MCP.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/aegis-harness/2.9.0/",
+    "published_at": "2026-10-14T00:40:54.000Z",
+    "score": 98,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/mureo/0.26.0",
+    "technology": "Claude",
+    "title": "mureo 0.26.0",
+    "summary": "Your local-first AI ad ops crew. Works with Claude Code, Cursor, Codex & Gemini.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mureo/0.26.0/",
+    "published_at": "2026-10-14T00:38:13.000Z",
+    "score": 94,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   },
   {
     "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0",
@@ -6521,82 +6598,5 @@
     "published_at": "2026-09-28T01:25:58.000Z",
     "score": 58,
     "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://forkast.news/the-trust-paradox-agent-payment-infrastructure-is-outpacing-consumer-readiness",
-    "technology": "Infra AI",
-    "title": "The Trust Paradox: Agent Payment Infrastructure Is Outpacing Consumer Readiness",
-    "summary": "A month of plumbing September 2026 shipped more agentic commerce infrastructure in thirty days than the previous two years combined. Stripe flipped the switch on WebMCP across 7.8 million businesses. The OCC conditionally approved Catena Labs for a national t…",
-    "source": "Forkast.news",
-    "source_url": "https://forkast.news/the-trust-paradox-agent-payment-infrastructure-is-outpacing-consumer-readiness/",
-    "published_at": "2026-09-28T01:18:23.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/app-foundation/2026.9.28.307",
-    "technology": "Infra AI",
-    "title": "app-foundation 2026.9.28.307",
-    "summary": "Host-neutral MCP client and native credential-value primitives for applications.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/app-foundation/2026.9.28.307/",
-    "published_at": "2026-09-28T01:12:42.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.11",
-    "technology": "Codex",
-    "title": "0.159.0-alpha.11",
-    "summary": "Release 0.159.0-alpha.11",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.11",
-    "published_at": "2026-09-28T00:20:35.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://openai.com/form/codex-originals",
-    "technology": "Codex",
-    "title": "Are you a Codex Original?",
-    "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
-    "source": "OpenAI News",
-    "source_url": "https://openai.com/form/codex-originals",
-    "published_at": "2026-09-28T00:00:00.000Z",
-    "score": 70,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.10",
-    "technology": "Codex",
-    "title": "0.159.0-alpha.10",
-    "summary": "Release 0.159.0-alpha.10",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.10",
-    "published_at": "2026-09-27T21:09:15.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.15.3",
-    "technology": "Codex",
-    "title": "0.158.0-alpha.15.3",
-    "summary": "Release 0.158.0-alpha.15.3",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.15.3",
-    "published_at": "2026-09-27T19:18:13.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/noeta-sdk/0.6.32",
-    "technology": "Claude",
-    "title": "noeta-sdk 0.6.32",
-    "summary": "Python SDK for durable AI agents: survive crashes, pause for human approval at no cost, scale from a script to a multi-host cluster. Anthropic, OpenAI and any OpenAI-compatible model; MCP; self-hosted.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/noeta-sdk/0.6.32/",
-    "published_at": "2026-09-27T17:31:57.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   }
 ]
