@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T13:52:26.113Z",
+  "generated_at": "2026-10-16T19:51:09.872Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -13,18 +13,39 @@
   "source_counts": {
     "rss": 39,
     "github": 9,
-    "newsapi": 50
+    "newsapi": 48
   },
   "digest": {
     "has_relevant_items": true,
     "relevant_count": 8,
     "telegram_summary": [
       {
-        "technology": "ChatGPT / OpenAI",
-        "title": "frugal-llm 0.2.1",
-        "benefit": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
-        "score": 92,
-        "url": "https://pypi.org/project/frugal-llm/0.2.1/"
+        "technology": "Claude",
+        "title": "hexiel 0.3.15",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 100,
+        "url": "https://pypi.org/project/hexiel/0.3.15/"
+      },
+      {
+        "technology": "Claude",
+        "title": "hexiel 0.3.14",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 100,
+        "url": "https://pypi.org/project/hexiel/0.3.14/"
+      },
+      {
+        "technology": "Codex",
+        "title": "0.164.0-alpha.2",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 90,
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.2"
+      },
+      {
+        "technology": "Codex",
+        "title": "0.164.0-alpha.1",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 90,
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.1"
       },
       {
         "technology": "Codex",
@@ -35,24 +56,10 @@
       },
       {
         "technology": "Codex",
-        "title": "0.163.0-alpha.10.1",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 90,
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.1"
-      },
-      {
-        "technology": "Codex",
         "title": "0.163.0-alpha.11",
         "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
         "score": 90,
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11"
-      },
-      {
-        "technology": "Codex",
-        "title": "0.163.0-alpha.9",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 90,
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.9"
       },
       {
         "technology": "Codex",
@@ -67,13 +74,6 @@
         "benefit": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
         "score": 86,
         "url": "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/"
-      },
-      {
-        "technology": "OpenClaw",
-        "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
-        "benefit": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
-        "score": 86,
-        "url": "https://developers.googleblog.com/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway/"
       }
     ]
   },
@@ -81,22 +81,75 @@
     {
       "id": 1,
       "kind": "newsapi",
-      "technology": "ChatGPT / OpenAI",
-      "title": "frugal-llm 0.2.1",
-      "summary": "Benchmark latency, throughput, cost and quantisation quality loss of any OpenAI-compatible LLM endpoint.",
+      "technology": "Claude",
+      "title": "hexiel 0.3.15",
+      "summary": "Open-source AI coding agent for the terminal and browser — runs on local Ollama models (even on modest hardware) or any cloud LLM. A self-hostable alternative to Claude Code and opencode.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/frugal-llm/0.2.1/",
-      "published_at": "2026-10-15T13:50:20.000Z",
-      "score": 92,
+      "source_url": "https://pypi.org/project/hexiel/0.3.15/",
+      "published_at": "2026-10-15T19:22:31.000Z",
+      "score": 100,
       "tags": [
-        "ChatGPT / OpenAI",
+        "Claude",
+        "Codex",
         "Infra AI"
       ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 2,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "hexiel 0.3.14",
+      "summary": "Open-source AI coding agent for the terminal and browser — runs on local Ollama models (even on modest hardware) or any cloud LLM. A self-hostable alternative to Claude Code and opencode.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/hexiel/0.3.14/",
+      "published_at": "2026-10-15T19:15:28.000Z",
+      "score": 100,
+      "tags": [
+        "Claude",
+        "Codex",
+        "Infra AI"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 3,
+      "kind": "github_release",
+      "technology": "Codex",
+      "title": "0.164.0-alpha.2",
+      "summary": "Release 0.164.0-alpha.2",
+      "source": "GitHub: openai/codex",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.2",
+      "published_at": "2026-10-16T17:37:51.000Z",
+      "score": 90,
+      "tags": [
+        "Codex",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "relevant": true
+    },
+    {
+      "id": 4,
+      "kind": "github_release",
+      "technology": "Codex",
+      "title": "0.164.0-alpha.1",
+      "summary": "Release 0.164.0-alpha.1",
+      "source": "GitHub: openai/codex",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.1",
+      "published_at": "2026-10-16T14:49:55.000Z",
+      "score": 90,
+      "tags": [
+        "Codex",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "relevant": true
+    },
+    {
+      "id": 5,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.163.0-alpha.10.2",
@@ -113,24 +166,7 @@
       "relevant": true
     },
     {
-      "id": 3,
-      "kind": "github_release",
-      "technology": "Codex",
-      "title": "0.163.0-alpha.10.1",
-      "summary": "Release 0.163.0-alpha.10.1",
-      "source": "GitHub: openai/codex",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.1",
-      "published_at": "2026-10-14T20:45:55.000Z",
-      "score": 90,
-      "tags": [
-        "Codex",
-        "ChatGPT / OpenAI"
-      ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
-      "id": 4,
+      "id": 6,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.163.0-alpha.11",
@@ -147,24 +183,7 @@
       "relevant": true
     },
     {
-      "id": 5,
-      "kind": "github_release",
-      "technology": "Codex",
-      "title": "0.163.0-alpha.9",
-      "summary": "Release 0.163.0-alpha.9",
-      "source": "GitHub: openai/codex",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.9",
-      "published_at": "2026-10-13T15:47:20.000Z",
-      "score": 90,
-      "tags": [
-        "Codex",
-        "ChatGPT / OpenAI"
-      ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
-      "id": 6,
+      "id": 7,
       "kind": "rss",
       "technology": "Codex",
       "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
@@ -181,14 +200,14 @@
       "relevant": true
     },
     {
-      "id": 7,
+      "id": 8,
       "kind": "rss",
       "technology": "ChatGPT / OpenAI",
       "title": "Bring multimodal semantic search to the edge with EmbeddingGemma 2",
       "summary": "EmbeddingGemma 2 is a new 740M open-weight multimodal model that maps text, images, video, and audio into a unified vector space for privacy-first, on-device retrieval. Developers can easily integrate these capabilities cross-platform using MediaPipe Tasks or optimize fine-grained performance across CPU, GPU, and NPU accelerators with Lit...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/",
-      "published_at": "2026-10-16T13:52:24.883Z",
+      "published_at": "2026-10-16T19:51:08.592Z",
       "score": 86,
       "tags": [
         "ChatGPT / OpenAI",
@@ -198,14 +217,14 @@
       "relevant": true
     },
     {
-      "id": 8,
+      "id": 9,
       "kind": "rss",
       "technology": "OpenClaw",
       "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
       "summary": "Google Cloud API Gateway now acts as a native remote Model Context Protocol (MCP) server, eliminating the need to build and maintain custom middleware to expose REST APIs to AI agents. By simply adding specific annotations (like x-google-api-management.mcp) to existing OpenAPI 3.x specifications, developers can instantly convert standard...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway/",
-      "published_at": "2026-10-16T13:52:24.883Z",
+      "published_at": "2026-10-16T19:51:08.592Z",
       "score": 86,
       "tags": [
         "OpenClaw",
@@ -215,7 +234,7 @@
       "relevant": true
     },
     {
-      "id": 9,
+      "id": 10,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.163.0",
@@ -232,36 +251,20 @@
       "relevant": true
     },
     {
-      "id": 10,
+      "id": 11,
       "kind": "newsapi",
       "technology": "Codex",
-      "title": "BlueRock Launches Agentic Trust Registry to Analyze Agents, Skills, and MCP Servers",
-      "summary": "New Agentic Trust Registry outpaces existing scanning tools by 2 – 10X to help developers evaluate agentic code before they become autonomous and operational. SAN MATEO, Calif. — BlueRock, an agentic operations company that helps enterprises securely deploy a…",
-      "source": "Financial Post",
-      "source_url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/bluerock-launches-agentic-trust-registry-to-analyze-agents-skills-and-mcp-servers",
-      "published_at": "2026-10-15T13:34:22.000Z",
-      "score": 86,
+      "title": "hol-guard 3.46.0",
+      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/hol-guard/3.46.0/",
+      "published_at": "2026-10-15T19:34:50.000Z",
+      "score": 82,
       "tags": [
         "Codex",
         "Infra AI"
       ],
       "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
-      "id": 11,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "mcp-memory-service 12.1.0",
-      "summary": "Semantic memory layer for AI applications. REST API + MCP transport + knowledge graph + autonomous consolidation. Works with 14+ AI clients. Self-host, zero cloud cost.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/mcp-memory-service/12.1.0/",
-      "published_at": "2026-10-15T13:25:37.000Z",
-      "score": 80,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
@@ -272,7 +275,7 @@
       "summary": "Agent Anomaly Detection is a new, out-of-band oversight layer for the Gemini Enterprise Agent Platform that analyzes OpenTelemetry traces and tool calls to catch behavioral risks without adding runtime latency to live requests. It utilizes a multi-tiered detection pipeline—combining lightweight statistical scanning with deep LLM-based rea...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/",
-      "published_at": "2026-10-16T13:52:24.884Z",
+      "published_at": "2026-10-16T19:51:08.592Z",
       "score": 78,
       "tags": [
         "Gemini",
@@ -284,52 +287,51 @@
     {
       "id": 13,
       "kind": "newsapi",
-      "technology": "ChatGPT / OpenAI",
-      "title": "codemie-mcp-assistants 0.1.695",
-      "summary": "MCP server for connecting to CodeMie Assistants API",
+      "technology": "Gemini",
+      "title": "antigravity-mcp added to PyPI",
+      "summary": "Model Context Protocol (MCP) server connecting Google Gemini to Antigravity IDE and workspace workflows.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/codemie-mcp-assistants/0.1.695/",
-      "published_at": "2026-10-15T13:51:36.000Z",
+      "source_url": "https://pypi.org/project/antigravity-mcp/",
+      "published_at": "2026-10-15T19:34:22.000Z",
       "score": 78,
       "tags": [
-        "ChatGPT / OpenAI",
+        "Gemini",
         "Infra AI"
       ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
       "relevant": true
     },
     {
       "id": 14,
-      "kind": "newsapi",
-      "technology": "ChatGPT / OpenAI",
-      "title": "codemie-mcp-assistants 0.1.694",
-      "summary": "MCP server for connecting to CodeMie Assistants API",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/codemie-mcp-assistants/0.1.694/",
-      "published_at": "2026-10-15T13:33:45.000Z",
-      "score": 78,
+      "kind": "rss",
+      "technology": "Codex",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "published_at": "2026-10-16T00:00:00.000Z",
+      "score": 74,
       "tags": [
-        "ChatGPT / OpenAI",
-        "Infra AI"
+        "Codex",
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
       "relevant": true
     },
     {
       "id": 15,
-      "kind": "newsapi",
-      "technology": "ChatGPT / OpenAI",
-      "title": "codemie-mcp-assistants 0.1.693",
-      "summary": "MCP server for connecting to CodeMie Assistants API",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/codemie-mcp-assistants/0.1.693/",
-      "published_at": "2026-10-15T13:26:31.000Z",
-      "score": 78,
+      "kind": "rss",
+      "technology": "Gemini",
+      "title": "Supercharge your development with the Google Developer Knowledge API ecosystem",
+      "summary": "Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date documentation across Firebase, Google Cloud, Android, and more. By using the official MCP server, developers can connect too...",
+      "source": "Google Developers Blog",
+      "source_url": "https://developers.googleblog.com/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/",
+      "published_at": "2026-10-16T19:51:08.592Z",
+      "score": 66,
       "tags": [
-        "ChatGPT / OpenAI",
         "Infra AI"
       ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
@@ -340,7 +342,7 @@
       "summary": "Apigee hybrid 1.17.0 introduces native Model Context Protocol (MCP) support, enabling the MCP data plane to run directly within your own Kubernetes cluster. This architecture ensures that AI agent request traffic and tool execution remain entirely inside your infrastructure while pulling configuration updates from the control plane. Devel...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster/",
-      "published_at": "2026-10-16T13:52:24.883Z",
+      "published_at": "2026-10-16T19:51:08.591Z",
       "score": 66,
       "tags": [
         "Infra AI"
@@ -350,13 +352,13 @@
     },
     {
       "id": 17,
-      "kind": "rss",
-      "technology": "Gemini",
-      "title": "Supercharge your development with the Google Developer Knowledge API ecosystem",
-      "summary": "Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date documentation across Firebase, Google Cloud, Android, and more. By using the official MCP server, developers can connect too...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/",
-      "published_at": "2026-10-16T13:52:24.883Z",
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "kyoo 0.2.4",
+      "summary": "A local job queue for agents and people: enqueue commands with locks, dependencies and preflight checks; watch them from the CLI, an MCP server or a web page.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/kyoo/0.2.4/",
+      "published_at": "2026-10-15T19:20:16.000Z",
       "score": 66,
       "tags": [
         "Infra AI"
@@ -366,6 +368,22 @@
     },
     {
       "id": 18,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "kyoo 0.2.3",
+      "summary": "A local job queue for agents and people: enqueue commands with locks, dependencies and preflight checks; watch them from the CLI, an MCP server or a web page.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/kyoo/0.2.3/",
+      "published_at": "2026-10-15T19:15:02.000Z",
+      "score": 66,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 19,
       "kind": "rss",
       "technology": "ChatGPT / OpenAI",
       "title": "Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race",
@@ -381,7 +399,7 @@
       "relevant": true
     },
     {
-      "id": 19,
+      "id": 20,
       "kind": "github_release",
       "technology": "Gemini",
       "title": "Release v0.64.0",
@@ -397,86 +415,67 @@
       "relevant": true
     },
     {
-      "id": 20,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "Show HN: Imagor MCP – agent-written image layouts that compile to one URL",
-      "summary": "Article URL: https://github.com/cshum/imagor-mcp Comments URL: https://news.ycombinator.com/item?id=50103638 Points: 1 # Comments: 0",
-      "source": "Github.com",
-      "source_url": "https://github.com/cshum/imagor-mcp",
-      "published_at": "2026-10-15T13:45:18.000Z",
-      "score": 62,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
       "id": 21,
       "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "docling-rs-mcp 2.30.1",
-      "summary": "MCP server that converts documents to Markdown for AI agents: PDF with layout, tables and OCR, DOCX, PPTX, XLSX, HTML, scans. docling in Rust, MarkItDown's convert_to_markdown tool.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/docling-rs-mcp/2.30.1/",
-      "published_at": "2026-10-15T13:28:10.000Z",
+      "technology": "ChatGPT / OpenAI",
+      "title": "The next developer interface is ambient intelligence",
+      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Bl…",
+      "source": "Github.blog",
+      "source_url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
+      "published_at": "2026-10-15T19:39:31.000Z",
       "score": 62,
       "tags": [
-        "Infra AI"
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
       "relevant": true
     },
     {
       "id": 22,
-      "kind": "rss",
-      "technology": "Gemini",
-      "title": "Gemini 4 Argon for Robotics",
-      "summary": "Gemini 4 Argon is a general-purpose physical reasoning model designed to enhance workflows across the robotics stack with advanced capabilities in physical understanding, code generation, and visual-semantic reasoning. Developers can access and integrate Argon across Google's developer platforms—including Google AI Studio, the Gemini API,...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
-      "published_at": "2026-10-16T13:52:24.883Z",
-      "score": 58,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "singularis-mcp 0.1.2",
+      "summary": "Singularis is unlimited computation. Bring us your hardest problems. Free tryout. Results depend on your equipment. GPU optional for even greater results. MCP server for AI agents; free tryout credits up front. Client shell only, no engine code.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/singularis-mcp/0.1.2/",
+      "published_at": "2026-10-15T19:23:49.000Z",
+      "score": 62,
       "tags": [
-        "Gemini",
-        "DeepSeek"
+        "Infra AI"
       ],
-      "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
       "id": 23,
-      "kind": "rss",
-      "technology": "Codex",
-      "title": "Optimizing a 200,000-line Python codebase overnight with Gemini 4 Argon",
-      "summary": "How our engineering team ran Gemini 4 Argon unattended overnight with .agents/skills and /goal mode to cut in-memory session prep overhead by 40% in long sessions and speed up cold imports by 21% in Google's open-source Python Agent Development Kit (ADK).",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon/",
-      "published_at": "2026-10-16T13:52:24.883Z",
-      "score": 58,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "singularis-mcp 0.1.1",
+      "summary": "Singularis is unlimited computation. Bring us your hardest problems. Free tryout. Results depend on your equipment. GPU optional for even greater results. MCP server for AI agents; free tryout credits up front. Client shell only, no engine code.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/singularis-mcp/0.1.1/",
+      "published_at": "2026-10-15T19:18:29.000Z",
+      "score": 62,
       "tags": [
-        "Codex",
-        "Gemini"
+        "Infra AI"
       ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
       "id": 24,
       "kind": "rss",
-      "technology": "Gemini",
-      "title": "ML Drift: Next-Gen GPU AI/ML Inference at the Edge",
-      "summary": "Google AI Edge has introduced ML Drift, a high-performance, universal GPU compute framework designed to accelerate on-device AI and machine learning inference. By abstracting the complexities of hardware and low-level APIs—including OpenGL ES, OpenCL, Metal, and WebGPU—ML Drift enables developers to build real-time, interactive ML experie...",
+      "technology": "ChatGPT / OpenAI",
+      "title": "EmbeddingGemma 2: The Developer Guide",
+      "summary": "EmbeddingGemma 2 is a compact, open-source multimodal embedding model that maps text, code, images, video, and audio into a unified 768-dimensional space. Developers can use the sentence-transformers library to selectively load modular modality encoders—ranging from 270M to 740M parameters—to optimize memory usage. Additionally, Matryoshk...",
       "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/",
-      "published_at": "2026-10-16T13:52:24.883Z",
+      "source_url": "https://developers.googleblog.com/embeddinggemma-2-the-developer-guide/",
+      "published_at": "2026-10-16T19:51:08.592Z",
       "score": 58,
       "tags": [
-        "Gemini",
-        "Infra AI"
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
+      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
       "relevant": true
     }
   ]
