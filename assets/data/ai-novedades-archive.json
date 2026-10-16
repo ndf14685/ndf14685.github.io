@@ -1,5 +1,16 @@
 [
   {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.163.0",
+    "technology": "Codex",
+    "title": "0.163.0",
+    "summary": "## New Features - Open `/config` to search preferences across categories, change supported settings immediately, and see which changes require a restart. (#52990, #53429) - Send a follow-up while Codex is responding to steer it immediately. Interrupting a turn also stops active Code Mode cells and their nested tool calls. (#51812, #51835)...",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0",
+    "published_at": "2026-10-15T21:30:38.000Z",
+    "score": 86,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race",
     "technology": "ChatGPT / OpenAI",
     "title": "Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race",
@@ -20,6 +31,83 @@
     "published_at": "2026-10-15T18:26:31.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/yunshu/0.1.5",
+    "technology": "Claude",
+    "title": "yunshu 0.1.5",
+    "summary": "Fast local single-node LLM/VLM inference engine for Apple Silicon — speculative decoding, prefix reuse, OpenAI/Anthropic-compatible",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/yunshu/0.1.5/",
+    "published_at": "2026-10-15T00:58:31.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/brainlayer/1.5.57",
+    "technology": "Infra AI",
+    "title": "brainlayer 1.5.57",
+    "summary": "Persistent local memory for AI agents — 16 BrainBar MCP tools, semantic search, knowledge graph, SQLite",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/brainlayer/1.5.57/",
+    "published_at": "2026-10-15T00:52:05.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/desktidy/1.4.1",
+    "technology": "Claude",
+    "title": "desktidy 1.4.1",
+    "summary": "Keeps Downloads, Desktop and Documents tidy on Windows, macOS and Linux: understands what each file is about, renames it and files it in the right folder - offline first, with a free or paid AI (Groq, Gemini, Ollama, Claude, OpenAI...) only when needed.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/desktidy/1.4.1/",
+    "published_at": "2026-10-15T00:44:38.000Z",
+    "score": 100,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/desktidy",
+    "technology": "Claude",
+    "title": "desktidy added to PyPI",
+    "summary": "Keeps Downloads, Desktop and Documents tidy on Windows, macOS and Linux: understands what each file is about, renames it and files it in the right folder - offline first, with a free or paid AI (Groq, Gemini, Ollama, Claude, OpenAI...) only when needed.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/desktidy/",
+    "published_at": "2026-10-15T00:44:21.000Z",
+    "score": 100,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/lm15/1.4.0",
+    "technology": "Claude",
+    "title": "lm15 1.4.0",
+    "summary": "Provider-neutral, low-level foundation for LLM APIs: one canonical representation, exact serde, adapters for OpenAI/Anthropic/Gemini and every Chat Completions-compatible server — stdlib-only.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/lm15/1.4.0/",
+    "published_at": "2026-10-15T00:33:16.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/jevcrawl/0.2.0",
+    "technology": "Infra AI",
+    "title": "jevcrawl 0.2.0",
+    "summary": "MCP server and CLI that crawls websites for AI agents: a small decision model (Jev) picks the pages and passages, so the agent's LLM only reads what answers its question.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/jevcrawl/0.2.0/",
+    "published_at": "2026-10-15T00:10:36.000Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/mcp-stress-test/1.0.3",
+    "technology": "Infra AI",
+    "title": "mcp-stress-test 1.0.3",
+    "summary": "Stress testing framework for MCP security tools - simulating attacks, temporal degradation, and edge cases",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcp-stress-test/1.0.3/",
+    "published_at": "2026-10-15T00:06:00.000Z",
+    "score": 68,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   },
   {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.1",
@@ -6508,94 +6596,6 @@
     "source": "Pypi.org",
     "source_url": "https://pypi.org/project/stdtel/0.5.0/",
     "published_at": "2026-09-28T15:29:52.000Z",
-    "score": 74,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/vicsia-studio-mcp/1.3.17b2",
-    "technology": "Claude",
-    "title": "vicsia-studio-mcp 1.3.17b2",
-    "summary": "MCP server for Vicsia Studio — control your voice agents from Claude",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/vicsia-studio-mcp/1.3.17b2/",
-    "published_at": "2026-09-28T15:27:57.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/nousergon-lib/0.124.156",
-    "technology": "Claude",
-    "title": "nousergon-lib 0.124.156",
-    "summary": "Shared utilities for the Nous Ergon (Crucible) modules: preflight, logging, ArcticDB, dates, decision capture, cost telemetry, Anthropic payload chokepoint, artifact freshness, windowed artifact resolution, RAG, agent schemas, SSM secrets, Telegram + SNS aler…",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/nousergon-lib/0.124.156/",
-    "published_at": "2026-09-28T15:26:18.000Z",
-    "score": 68,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/hackerearth-mcp/0.2.2",
-    "technology": "Infra AI",
-    "title": "hackerearth-mcp 0.2.2",
-    "summary": "Unofficial MCP server: give any AI assistant a code run button via HackerEarth's code execution API",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hackerearth-mcp/0.2.2/",
-    "published_at": "2026-09-28T15:26:05.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://slashdot.org/submission/17351068/pgedge-announces-starfleet-a-new-postgres-cloud-platform",
-    "technology": "Infra AI",
-    "title": "pgEdge Announces Starfleet, a New Postgres Cloud Platform",
-    "summary": "Starfleet is a managed or on-prem Postgres cloud service with built-in AI tooling (MCP + RAG), CoW database branching, and optional PostgREST API access. We've built it for dev-focused use, so come by and let us know what you think!",
-    "source": "Slashdot.org",
-    "source_url": "https://slashdot.org/submission/17351068/pgedge-announces-starfleet-a-new-postgres-cloud-platform",
-    "published_at": "2026-09-28T15:25:10.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/studylife-mcp/1.14.37",
-    "technology": "Claude",
-    "title": "studylife-mcp 1.14.37",
-    "summary": "MCP server exposing StudyLife (Blazor WASM + ASP.NET Core) to Claude and other MCP clients.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/studylife-mcp/1.14.37/",
-    "published_at": "2026-09-28T15:24:51.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://github.com/ankurces/mahout",
-    "technology": "OpenClaw",
-    "title": "Show HN: Android-on-Device Harness – N8N Meets Tasker Meets AI",
-    "summary": "On-device workflow automation for Android — n8n meets Tasker. Every device capability is a node. Visual DAG editor, AI chat operator, 14 AI providers, on-device RAG, MCP support. - ankurCES/Mahout",
-    "source": "Github.com",
-    "source_url": "https://github.com/ankurCES/Mahout",
-    "published_at": "2026-09-28T15:24:07.000Z",
-    "score": 78,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/thearc/0.1.0",
-    "technology": "Claude",
-    "title": "thearc 0.1.0",
-    "summary": "Agent-agnostic plugin & skill installer system for Codex, Claude, and Antigravity",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/thearc/0.1.0/",
-    "published_at": "2026-09-28T15:22:30.000Z",
-    "score": 74,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/thearc",
-    "technology": "Claude",
-    "title": "thearc added to PyPI",
-    "summary": "Agent-agnostic plugin & skill installer system for Codex, Claude, and Antigravity",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/thearc/",
-    "published_at": "2026-09-28T15:22:24.000Z",
     "score": 74,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   }
