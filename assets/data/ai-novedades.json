@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T13:07:59.526Z",
+  "generated_at": "2026-10-18T19:21:01.387Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -11,9 +11,9 @@
     "Infra AI"
   ],
   "source_counts": {
-    "rss": 34,
-    "github": 8,
-    "newsapi": 49
+    "rss": 33,
+    "github": 7,
+    "newsapi": 50
   },
   "digest": {
     "has_relevant_items": true,
@@ -28,10 +28,10 @@
       },
       {
         "technology": "Claude",
-        "title": "recall-agents 0.5.1",
+        "title": "steamworks-mcp 0.4.0",
         "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
         "score": 98,
-        "url": "https://pypi.org/project/recall-agents/0.5.1/"
+        "url": "https://pypi.org/project/steamworks-mcp/0.4.0/"
       },
       {
         "technology": "Codex",
@@ -55,18 +55,11 @@
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.1"
       },
       {
-        "technology": "Codex",
-        "title": "0.163.0-alpha.10.2",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 90,
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.2"
-      },
-      {
-        "technology": "OpenClaw",
-        "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
-        "benefit": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
-        "score": 86,
-        "url": "https://developers.googleblog.com/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway/"
+        "technology": "Claude",
+        "title": "DeepSeek’s Post-Training Lead Declares “Entering the Era of Democratized Wish-Driven Coding” As V4.1-Flash-1017 Model Smokes OpenAI’s GPT-5.5 Sol",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 88,
+        "url": "https://wccftech.com/deepseeks-post-training-lead-declares-entering-the-era-of-democratized-wish-driven-coding-as-v4-1-flash-1017-model-smokes-openais-gpt-5-5-sol/"
       },
       {
         "technology": "ChatGPT / OpenAI",
@@ -74,6 +67,13 @@
         "benefit": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
         "score": 86,
         "url": "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/"
+      },
+      {
+        "technology": "OpenClaw",
+        "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
+        "benefit": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+        "score": 86,
+        "url": "https://developers.googleblog.com/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway/"
       }
     ]
   },
@@ -100,15 +100,15 @@
       "id": 2,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "recall-agents 0.5.1",
-      "summary": "One searchable memory of your Claude Code, Codex and Cursor chats, exposed to every agent over MCP.",
+      "title": "steamworks-mcp 0.4.0",
+      "summary": "Release assistant for Steam games, as an MCP server for Claude and ChatGPT: store page, achievements, checks against Valve's rules, market data, and Steamworks only after you approve.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/recall-agents/0.5.1/",
-      "published_at": "2026-10-17T12:54:00.000Z",
+      "source_url": "https://pypi.org/project/steamworks-mcp/0.4.0/",
+      "published_at": "2026-10-17T19:11:13.000Z",
       "score": 98,
       "tags": [
         "Claude",
-        "Codex",
+        "ChatGPT / OpenAI",
         "Infra AI"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
@@ -167,53 +167,54 @@
     },
     {
       "id": 6,
-      "kind": "github_release",
-      "technology": "Codex",
-      "title": "0.163.0-alpha.10.2",
-      "summary": "Release 0.163.0-alpha.10.2",
-      "source": "GitHub: openai/codex",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.2",
-      "published_at": "2026-10-15T18:26:31.000Z",
-      "score": 90,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "DeepSeek’s Post-Training Lead Declares “Entering the Era of Democratized Wish-Driven Coding” As V4.1-Flash-1017 Model Smokes OpenAI’s GPT-5.5 Sol",
+      "summary": "What does it say about DeepSeek's innate prowess if it is able to outmatch and outcompete the erstwhile workhorse models from OpenAI and Anthropic at a fraction of their compute and cost structure, as the new and tiny DeepSeek-V4.1-Flash-1017 model appears to…",
+      "source": "Wccftech",
+      "source_url": "https://wccftech.com/deepseeks-post-training-lead-declares-entering-the-era-of-democratized-wish-driven-coding-as-v4-1-flash-1017-model-smokes-openais-gpt-5-5-sol/",
+      "published_at": "2026-10-17T19:01:05.000Z",
+      "score": 88,
       "tags": [
-        "Codex",
-        "ChatGPT / OpenAI"
+        "Claude",
+        "ChatGPT / OpenAI",
+        "DeepSeek"
       ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 7,
-      "kind": "rss",
-      "technology": "OpenClaw",
-      "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
-      "summary": "Google Cloud API Gateway now acts as a native remote Model Context Protocol (MCP) server, eliminating the need to build and maintain custom middleware to expose REST APIs to AI agents. By simply adding specific annotations (like x-google-api-management.mcp) to existing OpenAPI 3.x specifications, developers can instantly convert standard...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway/",
-      "published_at": "2026-10-18T13:07:57.879Z",
-      "score": 86,
-      "tags": [
-        "OpenClaw",
-        "Infra AI"
-      ],
-      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
-      "relevant": true
-    },
-    {
-      "id": 8,
       "kind": "rss",
       "technology": "ChatGPT / OpenAI",
       "title": "Bring multimodal semantic search to the edge with EmbeddingGemma 2",
       "summary": "EmbeddingGemma 2 is a new 740M open-weight multimodal model that maps text, images, video, and audio into a unified vector space for privacy-first, on-device retrieval. Developers can easily integrate these capabilities cross-platform using MediaPipe Tasks or optimize fine-grained performance across CPU, GPU, and NPU accelerators with Lit...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/",
-      "published_at": "2026-10-18T13:07:57.878Z",
+      "published_at": "2026-10-18T19:20:59.797Z",
       "score": 86,
       "tags": [
         "ChatGPT / OpenAI",
         "Infra AI"
       ],
       "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "relevant": true
+    },
+    {
+      "id": 8,
+      "kind": "rss",
+      "technology": "OpenClaw",
+      "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
+      "summary": "Google Cloud API Gateway now acts as a native remote Model Context Protocol (MCP) server, eliminating the need to build and maintain custom middleware to expose REST APIs to AI agents. By simply adding specific annotations (like x-google-api-management.mcp) to existing OpenAPI 3.x specifications, developers can instantly convert standard...",
+      "source": "Google Developers Blog",
+      "source_url": "https://developers.googleblog.com/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway/",
+      "published_at": "2026-10-18T19:20:59.797Z",
+      "score": 86,
+      "tags": [
+        "OpenClaw",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
       "relevant": true
     },
     {
@@ -236,29 +237,45 @@
     {
       "id": 10,
       "kind": "newsapi",
-      "technology": "Codex",
-      "title": "hol-guard 3.50.0a1",
-      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+      "technology": "OpenClaw",
+      "title": "yaadgaar 0.1.4",
+      "summary": "The yadgar client: logs in once, then serves MCP to your agent by proxying to the gateway.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/hol-guard/3.50.0a1/",
-      "published_at": "2026-10-17T13:05:10.000Z",
+      "source_url": "https://pypi.org/project/yaadgaar/0.1.4/",
+      "published_at": "2026-10-17T19:07:42.000Z",
       "score": 82,
       "tags": [
-        "Codex",
+        "OpenClaw",
         "Infra AI"
       ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
       "relevant": true
     },
     {
       "id": 11,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "grc-lake 0.3.8",
+      "summary": "Open-source, self-hosted GRC: read-only security evidence, versioned control assessments, and reviewable audit workpapers via console, API, CLI, and MCP.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/grc-lake/0.3.8/",
+      "published_at": "2026-10-17T18:19:37.000Z",
+      "score": 80,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 12,
       "kind": "rss",
       "technology": "Gemini",
       "title": "Agent Anomaly Detection, now in Private Preview on the Gemini Enterprise Agent Platform",
       "summary": "Agent Anomaly Detection is a new, out-of-band oversight layer for the Gemini Enterprise Agent Platform that analyzes OpenTelemetry traces and tool calls to catch behavioral risks without adding runtime latency to live requests. It utilizes a multi-tiered detection pipeline—combining lightweight statistical scanning with deep LLM-based rea...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/",
-      "published_at": "2026-10-18T13:07:57.879Z",
+      "published_at": "2026-10-18T19:20:59.798Z",
       "score": 78,
       "tags": [
         "Gemini",
@@ -268,41 +285,41 @@
       "relevant": true
     },
     {
-      "id": 12,
-      "kind": "newsapi",
-      "technology": "Codex",
-      "title": "groovyscope 0.6.1",
-      "summary": "Groovy 5/6 code intelligence for AI coding agents: LSP and MCP front ends over one JVM engine",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/groovyscope/0.6.1/",
-      "published_at": "2026-10-17T13:03:36.000Z",
-      "score": 78,
-      "tags": [
-        "Codex",
-        "Infra AI"
-      ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
       "id": 13,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "session-buddy 0.35.0",
-      "summary": "A Session Management MCP Server for Claude Code",
+      "title": "ntasker 3.17.0",
+      "summary": "Put your coding agent on a kanban board: a local tracker that runs Claude Code, OpenCode or Pi on your tasks, unattended.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/session-buddy/0.35.0/",
-      "published_at": "2026-10-17T12:49:24.000Z",
-      "score": 74,
+      "source_url": "https://pypi.org/project/ntasker/3.17.0/",
+      "published_at": "2026-10-17T19:04:25.000Z",
+      "score": 78,
       "tags": [
         "Claude",
-        "Infra AI"
+        "Codex"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
       "id": 14,
+      "kind": "newsapi",
+      "technology": "DeepSeek",
+      "title": "deepseek-scout-mcp 0.1.4",
+      "summary": "FastMCP server wrapping DeepSeek's Search and Fetch APIs",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/deepseek-scout-mcp/0.1.4/",
+      "published_at": "2026-10-17T18:38:15.000Z",
+      "score": 78,
+      "tags": [
+        "DeepSeek",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede abrir opciones costo/beneficio para razonamiento, fallback local/remoto o benchmarks contra modelos cerrados.",
+      "relevant": true
+    },
+    {
+      "id": 15,
       "kind": "github_release",
       "technology": "Gemini",
       "title": "Release v0.66.0-nightly.20261017.ged96faedf",
@@ -318,7 +335,7 @@
       "relevant": true
     },
     {
-      "id": 15,
+      "id": 16,
       "kind": "rss",
       "technology": "Codex",
       "title": "Benefit Street Partners answers questions faster with Codex",
@@ -335,7 +352,7 @@
       "relevant": true
     },
     {
-      "id": 16,
+      "id": 17,
       "kind": "rss",
       "technology": "Codex",
       "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
@@ -352,31 +369,15 @@
       "relevant": true
     },
     {
-      "id": 17,
+      "id": 18,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "mcpsafetywarden 1.4.35",
-      "summary": "MCP proxy server with behavioral profiling, security scanning, risk gating, and safe execution",
+      "title": "mcp-magento-audit 0.3.0",
+      "summary": "MCP server for auditing Magento projects: update compatibility, module quality, dependency security",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/mcpsafetywarden/1.4.35/",
-      "published_at": "2026-10-17T12:48:52.000Z",
-      "score": 68,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 18,
-      "kind": "rss",
-      "technology": "Gemini",
-      "title": "Announcing MCP support in Apigee hybrid: agentic tools that run in your own cluster",
-      "summary": "Apigee hybrid 1.17.0 introduces native Model Context Protocol (MCP) support, enabling the MCP data plane to run directly within your own Kubernetes cluster. This architecture ensures that AI agent request traffic and tool execution remain entirely inside your infrastructure while pulling configuration updates from the control plane. Devel...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster/",
-      "published_at": "2026-10-18T13:07:57.878Z",
-      "score": 66,
+      "source_url": "https://pypi.org/project/mcp-magento-audit/0.3.0/",
+      "published_at": "2026-10-17T18:48:10.000Z",
+      "score": 72,
       "tags": [
         "Infra AI"
       ],
@@ -385,14 +386,14 @@
     },
     {
       "id": 19,
-      "kind": "rss",
-      "technology": "Gemini",
-      "title": "Supercharge your development with the Google Developer Knowledge API ecosystem",
-      "summary": "Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date documentation across Firebase, Google Cloud, Android, and more. By using the official MCP server, developers can connect too...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/",
-      "published_at": "2026-10-18T13:07:57.878Z",
-      "score": 66,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "mcp-magento-audit 0.2.0",
+      "summary": "MCP server for auditing Magento projects: update compatibility, module quality, dependency security",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/mcp-magento-audit/0.2.0/",
+      "published_at": "2026-10-17T18:15:40.000Z",
+      "score": 72,
       "tags": [
         "Infra AI"
       ],
@@ -402,12 +403,29 @@
     {
       "id": 20,
       "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "youtube-kit 0.3.0",
-      "summary": "A CLI (ytk) and MCP server for the YouTube Data and Analytics APIs, built for agents and humans.",
+      "technology": "Claude",
+      "title": "hatcheck added to PyPI",
+      "summary": "Claude Code and Codex accounts on one computer, each kept apart: recent sessions, plan usage, resume commands and moves across all of them.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/youtube-kit/0.3.0/",
-      "published_at": "2026-10-17T12:32:49.000Z",
+      "source_url": "https://pypi.org/project/hatcheck/",
+      "published_at": "2026-10-17T18:44:19.000Z",
+      "score": 70,
+      "tags": [
+        "Claude",
+        "Codex"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 21,
+      "kind": "rss",
+      "technology": "Gemini",
+      "title": "Announcing MCP support in Apigee hybrid: agentic tools that run in your own cluster",
+      "summary": "Apigee hybrid 1.17.0 introduces native Model Context Protocol (MCP) support, enabling the MCP data plane to run directly within your own Kubernetes cluster. This architecture ensures that AI agent request traffic and tool execution remain entirely inside your infrastructure while pulling configuration updates from the control plane. Devel...",
+      "source": "Google Developers Blog",
+      "source_url": "https://developers.googleblog.com/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster/",
+      "published_at": "2026-10-18T19:20:59.797Z",
       "score": 66,
       "tags": [
         "Infra AI"
@@ -416,31 +434,15 @@
       "relevant": true
     },
     {
-      "id": 21,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "cctrack 0.11.0",
-      "summary": "Claude Code cost tracker — scans JSONL logs and reports token usage + estimated cost",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/cctrack/0.11.0/",
-      "published_at": "2026-10-17T13:03:10.000Z",
-      "score": 64,
-      "tags": [
-        "Claude"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
       "id": 22,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "mcpscraper-memory-sdk 0.50.0",
-      "summary": "Official Python clients for the unified 347-tool MCP Scraper catalog, including Memory, Research, and CRM",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/mcpscraper-memory-sdk/0.50.0/",
-      "published_at": "2026-10-17T13:01:19.000Z",
-      "score": 62,
+      "kind": "rss",
+      "technology": "Gemini",
+      "title": "Supercharge your development with the Google Developer Knowledge API ecosystem",
+      "summary": "Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date documentation across Firebase, Google Cloud, Android, and more. By using the official MCP server, developers can connect too...",
+      "source": "Google Developers Blog",
+      "source_url": "https://developers.googleblog.com/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/",
+      "published_at": "2026-10-18T19:20:59.797Z",
+      "score": 66,
       "tags": [
         "Infra AI"
       ],
@@ -451,12 +453,12 @@
       "id": 23,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "exomem 0.124.0",
-      "summary": "Local knowledge substrate for owned markdown/Obsidian vaults, exposed through MCP, REST, and CLI with multimodal OCR/ASR/CLIP search",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/exomem/0.124.0/",
-      "published_at": "2026-10-17T12:51:19.000Z",
-      "score": 62,
+      "title": "Show HN: InBox Wall",
+      "summary": "An open-source, local-first MCP server designed to sanitize email HTML and protect local AI agents from hidden CSS/Unicode prompt injections before the LLM processes the data. Comments URL: https://news.ycombinator.com/item?id=50134132 Points: 1 # Comments: 0",
+      "source": "Github.com",
+      "source_url": "https://github.com/Annora998/inboxwall",
+      "published_at": "2026-10-17T19:15:11.000Z",
+      "score": 66,
       "tags": [
         "Infra AI"
       ],
@@ -465,18 +467,19 @@
     },
     {
       "id": 24,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "conning 0.6.0",
-      "summary": "A control room for your agent's test machines: an MCP server and CLI that run commands on remote targets without the agent ever seeing a secret.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/conning/0.6.0/",
-      "published_at": "2026-10-17T12:42:30.000Z",
-      "score": 62,
+      "kind": "rss",
+      "technology": "Gemini",
+      "title": "Gemini 4 Argon for Robotics",
+      "summary": "Gemini 4 Argon is a general-purpose physical reasoning model designed to enhance workflows across the robotics stack with advanced capabilities in physical understanding, code generation, and visual-semantic reasoning. Developers can access and integrate Argon across Google's developer platforms—including Google AI Studio, the Gemini API,...",
+      "source": "Google Developers Blog",
+      "source_url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+      "published_at": "2026-10-18T19:20:59.797Z",
+      "score": 58,
       "tags": [
-        "Infra AI"
+        "Gemini",
+        "DeepSeek"
       ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
       "relevant": true
     }
   ]
