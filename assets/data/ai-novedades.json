@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T20:27:29.466Z",
+  "generated_at": "2026-10-23T01:21:41.500Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -11,7 +11,7 @@
     "Infra AI"
   ],
   "source_counts": {
-    "rss": 46,
+    "rss": 45,
     "github": 10,
     "newsapi": 50
   },
@@ -20,11 +20,11 @@
     "relevant_count": 8,
     "telegram_summary": [
       {
-        "technology": "OpenClaw",
-        "title": "metergraph-core 0.6.1",
-        "benefit": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
-        "score": 100,
-        "url": "https://pypi.org/project/metergraph-core/0.6.1/"
+        "technology": "Claude",
+        "title": "tvsub-mcp 0.2.3",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 98,
+        "url": "https://pypi.org/project/tvsub-mcp/0.2.3/"
       },
       {
         "technology": "Codex",
@@ -81,20 +81,19 @@
     {
       "id": 1,
       "kind": "newsapi",
-      "technology": "OpenClaw",
-      "title": "metergraph-core 0.6.1",
-      "summary": "Open, effective-dated LLM pricing catalog and deterministic cost calculator for popular models across major providers and gateways, including OpenAI, Anthropic, Google Gemini, AWS Bedrock, OpenRouter, Vercel AI Gateway, and more.",
+      "technology": "Claude",
+      "title": "tvsub-mcp 0.2.3",
+      "summary": "Apple TV.app subtitle overlay with Anthropic API, Claude subscription, and ChatGPT subscription translation",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/metergraph-core/0.6.1/",
-      "published_at": "2026-10-21T20:02:21.000Z",
-      "score": 100,
+      "source_url": "https://pypi.org/project/tvsub-mcp/0.2.3/",
+      "published_at": "2026-10-22T01:08:29.000Z",
+      "score": 98,
       "tags": [
-        "OpenClaw",
         "Claude",
         "ChatGPT / OpenAI",
-        "Gemini"
+        "Infra AI"
       ],
-      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
@@ -208,7 +207,7 @@
       "summary": "EmbeddingGemma 2 is a new 740M open-weight multimodal model that maps text, images, video, and audio into a unified vector space for privacy-first, on-device retrieval. Developers can easily integrate these capabilities cross-platform using MediaPipe Tasks or optimize fine-grained performance across CPU, GPU, and NPU accelerators with Lit...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/",
-      "published_at": "2026-10-22T20:27:27.928Z",
+      "published_at": "2026-10-23T01:21:40.135Z",
       "score": 86,
       "tags": [
         "ChatGPT / OpenAI",
@@ -238,11 +237,11 @@
       "id": 10,
       "kind": "newsapi",
       "technology": "Codex",
-      "title": "bettermemory 9.0.0rc5",
-      "summary": "MCP memory server for coding agents. Memories are checked against your files and git history on every read. Signed change log, one local SQLite file, MIT.",
+      "title": "hol-guard 3.53.0",
+      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/bettermemory/9.0.0rc5/",
-      "published_at": "2026-10-21T20:12:49.000Z",
+      "source_url": "https://pypi.org/project/hol-guard/3.53.0/",
+      "published_at": "2026-10-22T01:01:40.000Z",
       "score": 82,
       "tags": [
         "Codex",
@@ -259,7 +258,7 @@
       "summary": "The open-source Agent Development Kit (ADK) and gemini-3.8-live enable developers to build responsive voice agents by implementing non-blocking tools in Python. Developers can use streaming tools to yield progress updates or background execution patterns to keep conversations fluid during long-running backend queries. Additionally, config...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk/",
-      "published_at": "2026-10-22T20:27:27.927Z",
+      "published_at": "2026-10-23T01:21:40.134Z",
       "score": 78,
       "tags": [
         "ChatGPT / OpenAI",
@@ -271,52 +270,52 @@
     {
       "id": 12,
       "kind": "newsapi",
-      "technology": "ChatGPT / OpenAI",
-      "title": "sonicmatch-mcp 0.2.1",
-      "summary": "Pick BGM that doesn't fight the voiceover. Watches the video, returns a hook + ffmpeg ducking spec, prints the license.",
+      "technology": "OpenClaw",
+      "title": "healthcloud-cli 3.2.4",
+      "summary": "Command-line interface for the HealthCloud MCP gateway, generated from the shared MCP tool manifest.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/sonicmatch-mcp/0.2.1/",
-      "published_at": "2026-10-21T20:12:08.000Z",
+      "source_url": "https://pypi.org/project/healthcloud-cli/3.2.4/",
+      "published_at": "2026-10-22T01:17:56.000Z",
       "score": 78,
       "tags": [
-        "ChatGPT / OpenAI",
+        "OpenClaw",
         "Infra AI"
       ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
       "relevant": true
     },
     {
       "id": 13,
       "kind": "newsapi",
-      "technology": "ChatGPT / OpenAI",
-      "title": "sonicmatch-mcp added to PyPI",
-      "summary": "Pick BGM that doesn't fight the voiceover. Watches the video, returns a hook + ffmpeg ducking spec, prints the license.",
+      "technology": "OpenClaw",
+      "title": "healthcloud-cli 3.2.3",
+      "summary": "Command-line interface for the HealthCloud MCP gateway, generated from the shared MCP tool manifest.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/sonicmatch-mcp/",
-      "published_at": "2026-10-21T20:11:43.000Z",
+      "source_url": "https://pypi.org/project/healthcloud-cli/3.2.3/",
+      "published_at": "2026-10-22T01:06:48.000Z",
+      "score": 78,
+      "tags": [
+        "OpenClaw",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+      "relevant": true
+    },
+    {
+      "id": 14,
+      "kind": "newsapi",
+      "technology": "ChatGPT / OpenAI",
+      "title": "mcp-server-appwrite 1.0.23",
+      "summary": "Build and deploy application backends. Add authentication, PostgreSQL/MySQL databases, vector databases, storage, serverless functions, realtime, messaging, hosting, domains, CDN and firewall.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/mcp-server-appwrite/1.0.23/",
+      "published_at": "2026-10-22T00:29:19.000Z",
       "score": 78,
       "tags": [
         "ChatGPT / OpenAI",
         "Infra AI"
       ],
       "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
-      "relevant": true
-    },
-    {
-      "id": 14,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "claude-explorer 1.1.6",
-      "summary": "Local archive + web viewer + MCP server for Claude Desktop and Claude Code conversations. Browse, search, export, and let Claude query its own history.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/claude-explorer/1.1.6/",
-      "published_at": "2026-10-21T20:10:18.000Z",
-      "score": 78,
-      "tags": [
-        "Claude",
-        "Infra AI"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
@@ -340,35 +339,33 @@
     {
       "id": 16,
       "kind": "newsapi",
-      "technology": "Claude",
-      "title": "grokbot-kit 0.3.0",
-      "summary": "Grok Bot integration kit: delegate tasks to headless coding agents (opencode, Claude Code, Codex) and wake the right Grok Bot routine when they finish or need input.",
+      "technology": "Infra AI",
+      "title": "mcp-server-for-oscal 0.6.2",
+      "summary": "AI agent tools for Open Security Controls Assessment Language (OSCAL).",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/grokbot-kit/0.3.0/",
-      "published_at": "2026-10-21T20:21:48.000Z",
-      "score": 74,
+      "source_url": "https://pypi.org/project/mcp-server-for-oscal/0.6.2/",
+      "published_at": "2026-10-22T01:15:16.000Z",
+      "score": 72,
       "tags": [
-        "Claude",
-        "Codex"
+        "Infra AI"
       ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
       "id": 17,
-      "kind": "newsapi",
-      "technology": "ChatGPT / OpenAI",
-      "title": "scavio 0.26.3",
-      "summary": "Python SDK for the Scavio Search API - real-time data from 38 sources (Google, ChatGPT, Gemini, Amazon, Walmart, Costco, Mercado Libre, eBay, Zillow, Redfin, Realtor.com, Rightmove, Booking, Airbnb, Yelp, Trustpilot, Indeed, Glassdoor, SEC EDGAR, G2, Meta Ad …",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/scavio/0.26.3/",
-      "published_at": "2026-10-21T19:52:13.000Z",
-      "score": 72,
+      "kind": "rss",
+      "technology": "Gemini",
+      "title": "Supercharge your development with the Google Developer Knowledge API ecosystem",
+      "summary": "Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date documentation across Firebase, Google Cloud, Android, and more. By using the official MCP server, developers can connect too...",
+      "source": "Google Developers Blog",
+      "source_url": "https://developers.googleblog.com/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/",
+      "published_at": "2026-10-23T01:21:40.135Z",
+      "score": 66,
       "tags": [
-        "ChatGPT / OpenAI",
-        "Gemini"
+        "Infra AI"
       ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
@@ -379,7 +376,7 @@
       "summary": "Apigee hybrid 1.17.0 introduces native Model Context Protocol (MCP) support, enabling the MCP data plane to run directly within your own Kubernetes cluster. This architecture ensures that AI agent request traffic and tool execution remain entirely inside your infrastructure while pulling configuration updates from the control plane. Devel...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster/",
-      "published_at": "2026-10-22T20:27:27.927Z",
+      "published_at": "2026-10-23T01:21:40.134Z",
       "score": 66,
       "tags": [
         "Infra AI"
@@ -389,13 +386,13 @@
     },
     {
       "id": 19,
-      "kind": "rss",
-      "technology": "Gemini",
-      "title": "Supercharge your development with the Google Developer Knowledge API ecosystem",
-      "summary": "Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date documentation across Firebase, Google Cloud, Android, and more. By using the official MCP server, developers can connect too...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/",
-      "published_at": "2026-10-22T20:27:27.927Z",
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "mcpscraper-sdk 0.54.1",
+      "summary": "Official Python client for all 347 mcpscraper.dev MCP tools and the REST API",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/mcpscraper-sdk/0.54.1/",
+      "published_at": "2026-10-22T00:25:52.000Z",
       "score": 66,
       "tags": [
         "Infra AI"
@@ -405,22 +402,6 @@
     },
     {
       "id": 20,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "Show HN: Yantra – Interactive step-by-step diagrams as one offline HTML file",
-      "summary": "Interactive, step-by-step diagrams and one-page answers as a single offline HTML file. Automatic layout, routed edges, validator, CLI, MCP and Python SDK. - niyankhadka/yantra",
-      "source": "Github.com",
-      "source_url": "https://github.com/niyankhadka/yantra",
-      "published_at": "2026-10-21T19:49:14.000Z",
-      "score": 66,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 21,
       "kind": "rss",
       "technology": "ChatGPT / OpenAI",
       "title": "OpenAI's GPT-5.6 Sol and Google's Gemini 4 Argon found critical PHP flaw affecting millions of websites",
@@ -437,14 +418,30 @@
       "relevant": true
     },
     {
+      "id": 21,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "git-into-gsoc 0.14.1",
+      "summary": "Find your first open-source contribution and prepare for Google Summer of Code: CLI, MCP server, and Agent Skill",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/git-into-gsoc/0.14.1/",
+      "published_at": "2026-10-22T01:00:49.000Z",
+      "score": 62,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
       "id": 22,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "Show HN: QAmcp – Automated test runner for MCP servers in your terminal",
-      "summary": "Test any MCP server in one command: tools, safety labels, hidden instructions, bad inputs, leaked secrets, OAuth login setup, resources and prompts. Hard facts, no AI judging. CLI + GitHub Action. ...",
-      "source": "Github.com",
-      "source_url": "https://github.com/QAmcp/qamcp-cli",
-      "published_at": "2026-10-21T20:14:37.000Z",
+      "title": "git-into-gsoc added to PyPI",
+      "summary": "Find your first open-source contribution and prepare for Google Summer of Code: CLI, MCP server, and Agent Skill",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/git-into-gsoc/",
+      "published_at": "2026-10-22T01:00:38.000Z",
       "score": 62,
       "tags": [
         "Infra AI"
@@ -456,11 +453,11 @@
       "id": 23,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "tavus-cli 0.11.0",
-      "summary": "Tavus CLI and MCP server for agentic PAL creation and editing.",
+      "title": "mcpscraper-memory-sdk 0.51.1",
+      "summary": "Official Python clients for the unified 347-tool MCP Scraper catalog, including Memory, Research, and CRM",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/tavus-cli/0.11.0/",
-      "published_at": "2026-10-21T20:03:10.000Z",
+      "source_url": "https://pypi.org/project/mcpscraper-memory-sdk/0.51.1/",
+      "published_at": "2026-10-22T00:25:50.000Z",
       "score": 62,
       "tags": [
         "Infra AI"
@@ -470,18 +467,18 @@
     },
     {
       "id": 24,
-      "kind": "rss",
-      "technology": "ChatGPT / OpenAI",
-      "title": "EmbeddingGemma 2: The Developer Guide",
-      "summary": "EmbeddingGemma 2 is a compact, open-source multimodal embedding model that maps text, code, images, video, and audio into a unified 768-dimensional space. Developers can use the sentence-transformers library to selectively load modular modality encoders—ranging from 270M to 740M parameters—to optimize memory usage. Additionally, Matryoshk...",
-      "source": "Google Developers Blog",
-      "source_url": "https://developers.googleblog.com/embeddinggemma-2-the-developer-guide/",
-      "published_at": "2026-10-22T20:27:27.928Z",
-      "score": 58,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "files-com-mcp 1.0.102",
+      "summary": "Local-only MCP server for the Files.com API",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/files-com-mcp/1.0.102/",
+      "published_at": "2026-10-22T00:16:32.000Z",
+      "score": 62,
       "tags": [
-        "ChatGPT / OpenAI"
+        "Infra AI"
       ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     }
   ]
