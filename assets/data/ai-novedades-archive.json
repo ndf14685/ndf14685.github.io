@@ -1,5 +1,16 @@
 [
   {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1",
+    "technology": "Codex",
+    "title": "0.165.0-alpha.1",
+    "summary": "Release 0.165.0-alpha.1",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1",
+    "published_at": "2026-10-23T14:09:53.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.164.0",
     "technology": "Codex",
     "title": "0.164.0",
@@ -31,6 +42,105 @@
     "published_at": "2026-10-23T01:35:10.000Z",
     "score": 58,
     "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
+  },
+  {
+    "key": "https://pypi.org/project/meridian-cli/0.12.0",
+    "technology": "Infra AI",
+    "title": "meridian-cli 0.12.0",
+    "summary": "Orchestrate CLI + MCP server for multi-model agent workflows",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/meridian-cli/0.12.0/",
+    "published_at": "2026-10-22T20:16:02.000Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/deus-witness/0.2.23",
+    "technology": "Claude",
+    "title": "deus-witness 0.2.23",
+    "summary": "Deus Witness: MCP proxy, Claude Code hook and SDK that put every agent tool call through an independent witness",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/deus-witness/0.2.23/",
+    "published_at": "2026-10-22T20:15:25.000Z",
+    "score": 82,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/mcpindex-gate/0.22.2",
+    "technology": "Infra AI",
+    "title": "mcpindex-gate 0.22.2",
+    "summary": "mcpindex gate - the in-path trust-to-act client for MCP tool calls, from mcpindex.ai (the MCP server index). The config-wire install wires a proxy that posts nothing; the Python SDK wrapper posts credential-blind call receipts by default (MCPINDEX_RECEIPT_ING…",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcpindex-gate/0.22.2/",
+    "published_at": "2026-10-22T20:07:07.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/gnosis-air/0.1.40",
+    "technology": "Claude",
+    "title": "gnosis-air 0.1.40",
+    "summary": "Ingest and analyze AI agent conversation logs (Claude Code, Codex): intent classification, friction analysis, and a cross-session knowledge graph — the gnosis CLI",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/gnosis-air/0.1.40/",
+    "published_at": "2026-10-22T20:04:30.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/sift-rag/1.2.1",
+    "technology": "Claude",
+    "title": "sift-rag 1.2.1",
+    "summary": "Local RAG search and MCP server for AI agents like Claude Code: hybrid BM25 + semantic search with reranking over Markdown and Obsidian notes, PDF, Office files and emails. Backlinks, metadata filters, browser UI. Runs on your own GPU or CPU: no cloud, no API…",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/sift-rag/1.2.1/",
+    "published_at": "2026-10-22T20:03:17.000Z",
+    "score": 86,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/docling-rs-mcp/2.49.0",
+    "technology": "Infra AI",
+    "title": "docling-rs-mcp 2.49.0",
+    "summary": "MCP server that converts documents to Markdown for AI agents: PDF with layout, tables and OCR, DOCX, PPTX, XLSX, HTML, scans. docling in Rust, MarkItDown's convert_to_markdown tool.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/docling-rs-mcp/2.49.0/",
+    "published_at": "2026-10-22T20:03:00.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/ntasker/3.20.0",
+    "technology": "Claude",
+    "title": "ntasker 3.20.0",
+    "summary": "Put your coding agent on a kanban board: a local tracker that runs Claude Code, OpenCode or Pi on your tasks, unattended.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/ntasker/3.20.0/",
+    "published_at": "2026-10-22T19:51:09.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/mcpspan/0.8.1",
+    "technology": "Infra AI",
+    "title": "mcpspan 0.8.1",
+    "summary": "Self-hosted analytics for MCP servers: which tools, resources and prompts get used, by which client, how fast, and why they fail.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcpspan/0.8.1/",
+    "published_at": "2026-10-22T19:50:45.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/agent-runtime-kit/0.5.5",
+    "technology": "Claude",
+    "title": "agent-runtime-kit 0.5.5",
+    "summary": "One typed runtime API for Claude, Codex, and Antigravity agent SDKs.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/agent-runtime-kit/0.5.5/",
+    "published_at": "2026-10-22T19:49:44.000Z",
+    "score": 82,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   },
   {
     "key": "https://pypi.org/project/orbit-crm/0.1.1",
@@ -6488,115 +6598,5 @@
     "published_at": "2026-10-05T15:18:36.000Z",
     "score": 78,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/yandex-music-mcp/0.2.0",
-    "technology": "Claude",
-    "title": "yandex-music-mcp 0.2.0",
-    "summary": "Unofficial Yandex Music MCP server: search, likes, history, My Wave, playlists for Claude and other MCP clients",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/yandex-music-mcp/0.2.0/",
-    "published_at": "2026-10-05T15:18:36.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/agentbridge-rs",
-    "technology": "Codex",
-    "title": "agentbridge-rs added to PyPI",
-    "summary": "Local-first CLI + MCP server that bridges session context across AI coding agents.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/agentbridge-rs/",
-    "published_at": "2026-10-05T15:17:01.000Z",
-    "score": 86,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.15",
-    "technology": "Codex",
-    "title": "0.162.0-alpha.15",
-    "summary": "Release 0.162.0-alpha.15",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.15",
-    "published_at": "2026-10-05T13:10:52.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/easyapi-django/1.10.1",
-    "technology": "Infra AI",
-    "title": "easyapi-django 1.10.1",
-    "summary": "Zero-effort REST API (and MCP server) generator from Django models.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/easyapi-django/1.10.1/",
-    "published_at": "2026-10-05T02:46:25.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/montaj/5.24.3",
-    "technology": "Infra AI",
-    "title": "montaj 5.24.3",
-    "summary": "The open-source engine behind Montaj, the free AI video editor for Mac. Video editing toolkit for AI agents: CLI, MCP and HTTP.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/montaj/5.24.3/",
-    "published_at": "2026-10-05T02:46:13.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/math-ai-agent/0.0.30",
-    "technology": "Infra AI",
-    "title": "math-ai-agent 0.0.30",
-    "summary": "Math AI Agent that uses LLM + Rubens calculator-mcp.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/math-ai-agent/0.0.30/",
-    "published_at": "2026-10-05T02:46:04.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://siliconangle.com/2026/10/04/sam-altman-says-people-need-to-accept-some-bad-things-are-going-to-happen-if-they-want-ai",
-    "technology": "Claude",
-    "title": "Sam Altman says people need to accept ‘some bad things’ are going to happen if they want AI",
-    "summary": "OpenAI Group PBC Chief Executive Sam Altman insists that the security risks of artificial intelligence need to be taken seriously. But unlike his counterpart Dario Amodei of Anthropic PBC, he believes that people need to accept that “some bad things” are goin…",
-    "source": "SiliconANGLE News",
-    "source_url": "https://siliconangle.com/2026/10/04/sam-altman-says-people-need-to-accept-some-bad-things-are-going-to-happen-if-they-want-ai/",
-    "published_at": "2026-10-05T02:45:04.000Z",
-    "score": 64,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/hol-guard/3.25.0",
-    "technology": "Codex",
-    "title": "hol-guard 3.25.0",
-    "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hol-guard/3.25.0/",
-    "published_at": "2026-10-05T02:42:06.000Z",
-    "score": 82,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/pr-council-mcp/0.5.0",
-    "technology": "Infra AI",
-    "title": "pr-council-mcp 0.5.0",
-    "summary": "Standalone local MCP server for durable, multi-model pull-request reviews over stdio.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/pr-council-mcp/0.5.0/",
-    "published_at": "2026-10-05T02:34:22.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/mantis-agent-sdk/2.65.0",
-    "technology": "Infra AI",
-    "title": "mantis-agent-sdk 2.65.0",
-    "summary": "Drop-in open-source agent SDK. Multi-model, streaming, MCP, sub-agents.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/mantis-agent-sdk/2.65.0/",
-    "published_at": "2026-10-05T02:33:31.000Z",
-    "score": 66,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   }
 ]
