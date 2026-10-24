@@ -1,5 +1,16 @@
 [
   {
+    "key": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds",
+    "technology": "Claude",
+    "title": "Fancy harnesses make coding agents more expensive but not better, study finds",
+    "summary": "A controlled study shows that switching between coding-agent harnesses like Claude Code, OpenCode, or mini-SWE-agent barely moves pass rates more than rerunning the same setup. Cost per task, however, can triple, driven mainly by the system prompt that gets resent with every step. The article Fancy harnesses make coding agents more expens...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/",
+    "published_at": "2026-10-24T09:21:39.000Z",
+    "score": 88,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1",
     "technology": "Codex",
     "title": "0.165.0-alpha.1",
@@ -9,6 +20,149 @@
     "published_at": "2026-10-23T14:09:53.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/github-agent/2.4.7",
+    "technology": "Infra AI",
+    "title": "github-agent 2.4.7",
+    "summary": "GitHub Agent for MCP",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/github-agent/2.4.7/",
+    "published_at": "2026-10-23T12:56:42.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/cswap-pin/0.1.367",
+    "technology": "Claude",
+    "title": "cswap-pin 0.1.367",
+    "summary": "Keep Claude Code's Remote Control and Artifacts on one account while inference follows cswap's account swap",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/cswap-pin/0.1.367/",
+    "published_at": "2026-10-23T12:55:26.000Z",
+    "score": 70,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/capitol-ledger-mcp",
+    "technology": "Infra AI",
+    "title": "capitol-ledger-mcp added to PyPI",
+    "summary": "Read-only congressional stock disclosure research for AI agents via Capitol Ledger",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/capitol-ledger-mcp/",
+    "published_at": "2026-10-23T12:53:05.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/mcpgawk/0.1.80",
+    "technology": "OpenClaw",
+    "title": "mcpgawk 0.1.80",
+    "summary": "One gateway in front of every MCP server your agents can reach — every call checked against a baseline you approved. Local-first: nothing leaves your machine.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcpgawk/0.1.80/",
+    "published_at": "2026-10-23T12:52:38.000Z",
+    "score": 82,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
+    "key": "https://pypi.org/project/stingward/0.1.9",
+    "technology": "Claude",
+    "title": "stingward 0.1.9",
+    "summary": "Security check for AI-built projects, Claude Code skills and MCP servers",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/stingward/0.1.9/",
+    "published_at": "2026-10-23T12:50:35.000Z",
+    "score": 100,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/jev-browser/0.4.0",
+    "technology": "Infra AI",
+    "title": "jev-browser 0.4.0",
+    "summary": "Jev browser execution for agents through Python, CLI, MCP, and Hermes.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/jev-browser/0.4.0/",
+    "published_at": "2026-10-23T12:49:58.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/jev-browser",
+    "technology": "Infra AI",
+    "title": "jev-browser added to PyPI",
+    "summary": "Jev browser execution for agents through Python, CLI, MCP, and Hermes.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/jev-browser/",
+    "published_at": "2026-10-23T12:49:55.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/greenpick/0.1.4",
+    "technology": "Infra AI",
+    "title": "greenpick 0.1.4",
+    "summary": "Design-time sustainability co-pilot (MCP server): greener, cheaper cloud infrastructure decisions with carbon + cost + latency tradeoffs.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/greenpick/0.1.4/",
+    "published_at": "2026-10-23T12:49:20.000Z",
+    "score": 72,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/aegis-harness/2.15.0",
+    "technology": "Claude",
+    "title": "aegis-harness 2.15.0",
+    "summary": "A web-native workplace for coding agents: Claude Code sessions in browser tabs, with monitors, queues and handoffs over MCP.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/aegis-harness/2.15.0/",
+    "published_at": "2026-10-23T12:37:26.000Z",
+    "score": 98,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/bitranox-skills/9.15.0",
+    "technology": "Claude",
+    "title": "bitranox-skills 9.15.0",
+    "summary": "The bitranox Claude Code skill collection: 82 skills and 64 hooks, installable without the plugin marketplace.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/bitranox-skills/9.15.0/",
+    "published_at": "2026-10-23T12:36:52.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/deus-witness/0.2.24",
+    "technology": "Claude",
+    "title": "deus-witness 0.2.24",
+    "summary": "Deus Witness: MCP proxy, Claude Code hook and SDK that put every agent tool call through an independent witness",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/deus-witness/0.2.24/",
+    "published_at": "2026-10-23T12:33:50.000Z",
+    "score": 82,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/glassflow-rius/1.5.2",
+    "technology": "Claude",
+    "title": "glassflow-rius 1.5.2",
+    "summary": "OpenTelemetry-native agent observability: trace every LLM call, tool call and agent step, with cost per call, alerts, and Claude Code / Codex / Cursor session tracing.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/glassflow-rius/1.5.2/",
+    "published_at": "2026-10-23T12:31:43.000Z",
+    "score": 100,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/zd-cli/1.3.6",
+    "technology": "Claude",
+    "title": "zd-cli 1.3.6",
+    "summary": "Zendesk CLI and MCP Server for Claude Code - Search tickets, manage support, and analyze metrics",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/zd-cli/1.3.6/",
+    "published_at": "2026-10-23T12:30:17.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   },
   {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.164.0",
@@ -6444,159 +6598,5 @@
     "published_at": "2026-10-06T00:49:59.000Z",
     "score": 82,
     "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/githeri/0.4.7",
-    "technology": "Claude",
-    "title": "githeri 0.4.7",
-    "summary": "Zero-Copy Contract Engine & Native MCP Protocol for AI Coding Agents (Cursor, Claude, Antigravity, Hermes).",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/githeri/0.4.7/",
-    "published_at": "2026-10-06T00:49:19.000Z",
-    "score": 98,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.16",
-    "technology": "Codex",
-    "title": "0.162.0-alpha.16",
-    "summary": "Release 0.162.0-alpha.16",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.16",
-    "published_at": "2026-10-05T21:37:19.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/yandex-cli/0.81.1",
-    "technology": "Infra AI",
-    "title": "yandex-cli 0.81.1",
-    "summary": "Interact with Yandex 360 services (Wiki, Tracker, Forms, …) from a CLI, an MCP server, or a Python SDK.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/yandex-cli/0.81.1/",
-    "published_at": "2026-10-05T21:31:44.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/qor-logic/0.176.0",
-    "technology": "Claude",
-    "title": "qor-logic 0.176.0",
-    "summary": "Qor-logic S.H.I.E.L.D. governance skills for Claude Code, Kilo Code, and future AI coding hosts",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/qor-logic/0.176.0/",
-    "published_at": "2026-10-05T21:31:10.000Z",
-    "score": 74,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/heylead/0.10.429",
-    "technology": "Claude",
-    "title": "heylead 0.10.429",
-    "summary": "AI agent for LinkedIn outreach: finds the right people, writes in your voice, follows up and handles replies. From Claude Code, Cursor, any MCP client or a web dashboard.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/heylead/0.10.429/",
-    "published_at": "2026-10-05T21:25:15.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/srift/4.3.2",
-    "technology": "Infra AI",
-    "title": "srift 4.3.2",
-    "summary": "Send any file as a download link from the CLI, Python or an AI agent (MCP server). Encrypted P2P file transfer and chat. No account. Bundles the SRIFT CLI.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/srift/4.3.2/",
-    "published_at": "2026-10-05T21:22:23.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/mcp-authscan/0.9.2",
-    "technology": "OpenClaw",
-    "title": "mcp-authscan 0.9.2",
-    "summary": "Static security scanner for self-rolled OAuth/auth failure classes in MCP servers, gateways, and OAuth clients. Rules seeded from live-reproduced, chain-of-custody-anchored VATA findings. SARIF output for GitHub code scanning.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/mcp-authscan/0.9.2/",
-    "published_at": "2026-10-05T21:17:28.000Z",
-    "score": 96,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://thenextweb.com/news/openai-text-watermarking-chatgpt-codex-eu-ai-act",
-    "technology": "Codex",
-    "title": "OpenAI starts watermarking ChatGPT and Codex text in the EU",
-    "summary": "OpenAI will add an invisible watermark to text from ChatGPT and Codex in the EU over the coming weeks. The change covers eligible users on all plans, but only in the EU, the company said in a blog post on Monday. OpenAI said it is acting in response to the EU…",
-    "source": "The Next Web",
-    "source_url": "https://thenextweb.com/news/openai-text-watermarking-chatgpt-codex-eu-ai-act",
-    "published_at": "2026-10-05T21:12:29.000Z",
-    "score": 70,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/mcp-authscan/0.9.1",
-    "technology": "OpenClaw",
-    "title": "mcp-authscan 0.9.1",
-    "summary": "Static security scanner for self-rolled OAuth/auth failure classes in MCP servers, gateways, and OAuth clients. Rules seeded from live-reproduced, chain-of-custody-anchored VATA findings. SARIF output for GitHub code scanning.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/mcp-authscan/0.9.1/",
-    "published_at": "2026-10-05T21:02:41.000Z",
-    "score": 96,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://biztoc.com/x/b8c385f1e0bc561d",
-    "technology": "Claude",
-    "title": "Cohere offers to put agents in lockdown mode with strict ACLs",
-    "summary": "While OpenAI and Anthropic stoke fears over rogue agents, Canadian model dev Cohere promises enterprises a safer and more consistent experience. On Monday, the company said it revamped its North agent harness, which launched early last year, to improve collab…",
-    "source": "Biztoc.com",
-    "source_url": "https://biztoc.com/x/b8c385f1e0bc561d",
-    "published_at": "2026-10-05T20:48:59.000Z",
-    "score": 62,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://biztoc.com/x/f17c147e5400fee0",
-    "technology": "Codex",
-    "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
-    "summary": "OpenAI will start adding an invisible watermark to text generated by ChatGPT and Codex in the European Union to comply with the EU AI Act, the company said Monday in a blog post. The EU AI Act’s transparency rules, which took effect on August 2, require AI co…",
-    "source": "Biztoc.com",
-    "source_url": "https://biztoc.com/x/f17c147e5400fee0",
-    "published_at": "2026-10-05T20:48:14.000Z",
-    "score": 70,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.160.1",
-    "technology": "Codex",
-    "title": "0.160.1",
-    "summary": "## Bug Fixes - Preserve `SYSTEMROOT`, `TEMP`, and `TMP` when launching remote stdio MCP servers with explicitly configured remote environment variables, allowing Unix hosts to retain the Windows executor's startup environment. ## Changelog - [#51121](https://github.com/openai/codex/pull/51121): Backport Windows remote MCP environment pres...",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.160.1",
-    "published_at": "2026-10-05T18:29:37.000Z",
-    "score": 100,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/signalwire-sdk/3.6.0",
-    "technology": "ChatGPT / OpenAI",
-    "title": "signalwire-sdk 3.6.0",
-    "summary": "SignalWire SDK for AI voice agents, live call control (RELAY) and REST. Run sw-pydocs for its documentation.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/signalwire-sdk/3.6.0/",
-    "published_at": "2026-10-05T15:39:51.000Z",
-    "score": 62,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
-  },
-  {
-    "key": "https://pypi.org/project/studylife-mcp/1.14.50",
-    "technology": "Claude",
-    "title": "studylife-mcp 1.14.50",
-    "summary": "MCP server exposing StudyLife (Blazor WASM + ASP.NET Core) to Claude and other MCP clients.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/studylife-mcp/1.14.50/",
-    "published_at": "2026-10-05T15:39:03.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   }
 ]
