@@ -1,5 +1,38 @@
 [
   {
+    "key": "https://developers.googleblog.com/fast-reliable-a2ui",
+    "technology": "Gemini",
+    "title": "Fast, reliable A2UI, with swappable inference formats",
+    "summary": "A2UI now supports swappable inference formats, introducing A2UI Express which uses up to 3x fewer tokens and cuts latency by compiling compact Python-style syntax into standard A2UI JSON via Agent SDKs. Developers can also use controlled generation with TypeSafe's Jev system-decision models to render known-shape screens in under 300 ms wh...",
+    "source": "Google Developers Blog",
+    "source_url": "https://developers.googleblog.com/fast-reliable-a2ui/",
+    "published_at": "2026-10-27T21:10:23.638Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.165.0",
+    "technology": "Codex",
+    "title": "0.165.0",
+    "summary": "## New Features - Added a built-in Google Cloud Vertex AI provider, configured with `model_provider = \"gcp\"`. (#56265) - Added GPT-6.1 Terra to the model catalogs. (#57337) - Added a repository filter to the session picker and directory grouping to the agent command center, making it easier to navigate sessions across linked worktrees. (#...",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0",
+    "published_at": "2026-10-27T20:09:38.000Z",
+    "score": 100,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.3",
+    "technology": "Codex",
+    "title": "0.166.0-alpha.3",
+    "summary": "Release 0.166.0-alpha.3",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.3",
+    "published_at": "2026-10-27T19:23:16.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
     "key": "https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge",
     "technology": "Gemini",
     "title": "ML Drift: Next-Gen GPU AI/ML Inference at the Edge",
@@ -108,6 +141,138 @@
     "published_at": "2026-10-26T21:31:04.475Z",
     "score": 66,
     "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/knowhow/0.2.0",
+    "technology": "Claude",
+    "title": "knowhow 0.2.0",
+    "summary": "Install and manage AI agent skills from any git repo (npx skills compatible) for Claude Code, Codex, OpenCode, Gemini and more",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/knowhow/0.2.0/",
+    "published_at": "2026-10-26T20:59:03.000Z",
+    "score": 98,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/knowhow",
+    "technology": "Claude",
+    "title": "knowhow added to PyPI",
+    "summary": "Install and manage AI agent skills from any git repo (npx skills compatible) for Claude Code, Codex, OpenCode, Gemini and more",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/knowhow/",
+    "published_at": "2026-10-26T20:58:55.000Z",
+    "score": 98,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/probe-research/0.329.4",
+    "technology": "Infra AI",
+    "title": "probe-research 0.329.4",
+    "summary": "CLI + SDK + read-only MCP client for Probe Research (experiment tracking).",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/probe-research/0.329.4/",
+    "published_at": "2026-10-26T20:51:36.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/mantis-agent-sdk/2.70.1",
+    "technology": "Infra AI",
+    "title": "mantis-agent-sdk 2.70.1",
+    "summary": "Drop-in open-source agent SDK. Multi-model, streaming, MCP, sub-agents.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mantis-agent-sdk/2.70.1/",
+    "published_at": "2026-10-26T20:50:49.000Z",
+    "score": 66,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/openrua/0.31.1",
+    "technology": "Claude",
+    "title": "openrua 0.31.1",
+    "summary": "Let your Claude Code or Codex control any robot, real or simulated, through the standard ROS 2 CLI and client library.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/openrua/0.31.1/",
+    "published_at": "2026-10-26T20:49:30.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/pubchem-finder/2.1.0",
+    "technology": "Infra AI",
+    "title": "pubchem-finder 2.1.0",
+    "summary": "Search PubChem by chemical structure: a local similarity and substructure index, live PubChem tools, a CLI and an MCP server",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/pubchem-finder/2.1.0/",
+    "published_at": "2026-10-26T20:48:43.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/bitranox-skills/10.2.5",
+    "technology": "Claude",
+    "title": "bitranox-skills 10.2.5",
+    "summary": "The bitranox Claude Code skill collection: 82 skills and 64 hooks, installable without the plugin marketplace.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/bitranox-skills/10.2.5/",
+    "published_at": "2026-10-26T20:47:31.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing",
+    "technology": "ChatGPT / OpenAI",
+    "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
+    "summary": "OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significantly less than its larger models. [...]",
+    "source": "BleepingComputer",
+    "source_url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+    "published_at": "2026-10-26T20:46:49.000Z",
+    "score": 68,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
+    "key": "https://pypi.org/project/amiga-re-kit/0.7.0",
+    "technology": "Codex",
+    "title": "amiga-re-kit 0.7.0",
+    "summary": "Measured reverse engineering of Amiga floppy games: ADF/HUNK/packers, a strict 68000 decoder and static recompiler, headless vAmiga capture, and an MCP server so coding agents can use all of it.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/amiga-re-kit/0.7.0/",
+    "published_at": "2026-10-26T20:46:31.000Z",
+    "score": 78,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/intentplane-mcp",
+    "technology": "OpenClaw",
+    "title": "intentplane-mcp added to PyPI",
+    "summary": "MCP proxy that puts the intentplane gateway in front of any MCP server: critical tool arguments are resolved against trusted sources and decided by a Cedar policy.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/intentplane-mcp/",
+    "published_at": "2026-10-26T20:44:07.000Z",
+    "score": 74,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
+    "key": "https://pypi.org/project/intentplane-mcp/0.5.1",
+    "technology": "OpenClaw",
+    "title": "intentplane-mcp 0.5.1",
+    "summary": "MCP proxy that puts the intentplane gateway in front of any MCP server: critical tool arguments are resolved against trusted sources and decided by a Cedar policy.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/intentplane-mcp/0.5.1/",
+    "published_at": "2026-10-26T20:44:07.000Z",
+    "score": 74,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
+  },
+  {
+    "key": "https://pypi.org/project/intentplane/0.5.1",
+    "technology": "OpenClaw",
+    "title": "intentplane 0.5.1",
+    "summary": "Intent control plane for LLM agents: the agent proposes, a deterministic gateway resolves every critical argument against trusted sources and decides (Cedar). Includes an MCP proxy.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/intentplane/0.5.1/",
+    "published_at": "2026-10-26T20:44:05.000Z",
+    "score": 78,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
   },
   {
     "key": "https://developers.googleblog.com/embeddinggemma-2-the-developer-guide",
@@ -6433,170 +6598,5 @@
     "published_at": "2026-10-10T15:23:47.000Z",
     "score": 72,
     "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/fridica/0.7.5",
-    "technology": "Claude",
-    "title": "fridica 0.7.5",
-    "summary": "Your Slack presence: a parent agent per person, a session per thread, and Claude Code / Codex workers on your machines",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/fridica/0.7.5/",
-    "published_at": "2026-10-10T15:04:20.000Z",
-    "score": 74,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/agent-loop-tool/0.1.1",
-    "technology": "Claude",
-    "title": "agent-loop-tool 0.1.1",
-    "summary": "Checkpoint-gated developer/reviewer loop across Claude Code, Codex, Grok, and Antigravity CLIs.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/agent-loop-tool/0.1.1/",
-    "published_at": "2026-10-10T15:03:01.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race",
-    "technology": "Infra AI",
-    "title": "Microsoft's Decision-1 model enters the fast-growing AI decision model race",
-    "summary": "With Decision-1, Microsoft enters the growing decision model space. Built on Qwen3.5-9B and optimized for fast classification and routing, it hits 83.5 percent accuracy with 85 ms latency across 36 benchmarks, according to the company's own tests. The article Microsoft's Decision-1 model enters the fast-growing AI decision model race appe...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/",
-    "published_at": "2026-10-10T14:57:33.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/agents-chronicle/0.21.1",
-    "technology": "Claude",
-    "title": "agents-chronicle 0.21.1",
-    "summary": "Record, archive, analyze and explore every coding-agent session (Claude Code, Codex, Copilot, Bob, Antigravity): a local knowledge vault built with Claude Code itself.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/agents-chronicle/0.21.1/",
-    "published_at": "2026-10-10T14:49:10.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/prompt-receipts",
-    "technology": "Claude",
-    "title": "prompt-receipts added to PyPI",
-    "summary": "Receipts for AI coding runs: what a Claude Code, Codex, OpenCode, Qwen Code, Gemini CLI or Copilot CLI session cost, took and did",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/prompt-receipts/",
-    "published_at": "2026-10-10T14:45:40.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/prompt-receipts/7.0",
-    "technology": "Claude",
-    "title": "prompt-receipts 7.0",
-    "summary": "Receipts for AI coding runs: what a Claude Code, Codex, OpenCode, Qwen Code, Gemini CLI or Copilot CLI session cost, took and did",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/prompt-receipts/7.0/",
-    "published_at": "2026-10-10T14:45:40.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/ianua-broker/1.11.0",
-    "technology": "Infra AI",
-    "title": "ianua-broker 1.11.0",
-    "summary": "Local-first, offline-by-default security posture scanner for MCP servers and local AI-agent setups: configs, live tool manifests, tool poisoning, signed drift and SARIF.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/ianua-broker/1.11.0/",
-    "published_at": "2026-10-10T14:45:36.000Z",
-    "score": 76,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/apcore-mcp/0.22.3",
-    "technology": "ChatGPT / OpenAI",
-    "title": "apcore-mcp 0.22.3",
-    "summary": "Automatic MCP Server & OpenAI Tools Bridge for apcore",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/apcore-mcp/0.22.3/",
-    "published_at": "2026-10-10T01:40:14.000Z",
-    "score": 74,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
-  },
-  {
-    "key": "https://pypi.org/project/gemini-mcp-gateway/0.8.1",
-    "technology": "OpenClaw",
-    "title": "gemini-mcp-gateway 0.8.1",
-    "summary": "MCP gateway for massive-payload Gemini analysis on the AI Studio free tier: chunking with overlap, consolidation, thinking_level control, deep progress, rotating disk logs",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/gemini-mcp-gateway/0.8.1/",
-    "published_at": "2026-10-10T01:35:36.000Z",
-    "score": 94,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/althing/1.8.0",
-    "technology": "Claude",
-    "title": "althing 1.8.0",
-    "summary": "Run synthetic focus groups using AI personas, with an MCP server for Claude Code / Cursor / Windsurf. CLI tool, Python library, any LLM.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/althing/1.8.0/",
-    "published_at": "2026-10-10T01:09:47.000Z",
-    "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/search-clanker-history",
-    "technology": "Claude",
-    "title": "search-clanker-history added to PyPI",
-    "summary": "Search across Claude Code, Codex, OpenCode and Hermes session history",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/search-clanker-history/",
-    "published_at": "2026-10-10T01:07:11.000Z",
-    "score": 70,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/ruvector/0.1.1",
-    "technology": "Infra AI",
-    "title": "ruvector 0.1.1",
-    "summary": "Ultra-low-latency vector search (RaBitQ, Rust core) with a CLI and MCP server",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/ruvector/0.1.1/",
-    "published_at": "2026-10-10T01:02:41.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/graphifyy/0.9.84",
-    "technology": "OpenClaw",
-    "title": "graphifyy 0.9.84",
-    "summary": "AI coding assistant skill (Claude Code, CodeBuddy, Codex, OpenCode, Kilo Code, Cursor, Gemini CLI, Aider, OpenClaw, Factory Droid, Trae, Hermes, Kiro, Pi, Devin CLI, Google Antigravity) - turn any folder of code, docs, papers, images, or videos into a queryab…",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/graphifyy/0.9.84/",
-    "published_at": "2026-10-10T00:53:38.000Z",
-    "score": 100,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/openai-mcp-extensions",
-    "technology": "ChatGPT / OpenAI",
-    "title": "openai-mcp-extensions 0.2.0",
-    "summary": "OpenAI extensions for MCP Python servers.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/openai-mcp-extensions/",
-    "published_at": "2026-10-10T00:44:33.000Z",
-    "score": 74,
-    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.5",
-    "technology": "Codex",
-    "title": "0.163.0-alpha.5",
-    "summary": "Release 0.163.0-alpha.5",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.5",
-    "published_at": "2026-10-10T00:26:59.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
   }
 ]
