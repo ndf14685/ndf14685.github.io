@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-10-29T17:09:55.337Z",
+  "generated_at": "2026-10-30T16:50:50.573Z",
   "items": [
     {
       "id": 1,
       "category": "cybersecurity",
-      "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-      "summary": "A flaw in the Linux kernel's TCP code, tracked as&nbsp;CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale....",
+      "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+      "summary": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer...",
       "source": "The Hacker News",
-      "source_url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-      "published_at": "2026-10-29T15:57:05.000Z"
+      "source_url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+      "published_at": "2026-10-30T15:17:28.000Z"
     },
     {
       "id": 2,
       "category": "devops",
-      "title": "pytest-agent-chaos added to PyPI",
-      "summary": "Deterministic chaos engineering and fault-injection plugin for multi-agent LLM workflows and tool-calling pipelines.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/pytest-agent-chaos/",
-      "published_at": "2026-10-28T16:56:06.000Z"
+      "title": "CVE-2026-119115 - Incorrect authorization in issuer resolution in AWS Private CA Connector for Kubernetes",
+      "summary": "Bulletin ID: 2026-156-AWS Publication Date: 10/29/2026 09:30 AM PDT \nDescription: \nWe are aware of CVE-2026-119115, an incorrect authorization issue in the issuer resolution logic. In affected versions, under certain con...",
+      "source": "Amazon.com",
+      "source_url": "https://aws.amazon.com/security/security-bulletins/2026-156-aws/",
+      "published_at": "2026-10-29T16:45:45.000Z"
     },
     {
       "id": 3,
       "category": "cybersecurity",
-      "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
-      "summary": "A massive search-hijacking campaign involving 319 Chrome extensions with a combined 13.4 million reported installations redirected users' searches through tracking servers to generate advertising revenue from Bing and Ya...",
+      "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
+      "summary": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]",
       "source": "BleepingComputer",
-      "source_url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
-      "published_at": "2026-10-29T16:10:31.000Z"
+      "source_url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+      "published_at": "2026-10-30T15:58:20.000Z"
     }
   ]
 }
