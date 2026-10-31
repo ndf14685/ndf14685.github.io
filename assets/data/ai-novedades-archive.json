@@ -1,5 +1,16 @@
 [
   {
+    "key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261031.g6814e00d6",
+    "technology": "Gemini",
+    "title": "Release v0.67.0-nightly.20261031.g6814e00d6",
+    "summary": "## What's Changed * fix(core): honor .git/info/exclude and core.excludesFile in shadow repo by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/30034 * fix(core): flush pending SSE event buffer at stream EOF in CodeAssistServer by @tadipavan in https://github.com/google-gemini/gemini-cli/pull/30050 * fix(core): handl...",
+    "source": "GitHub: google-gemini/gemini-cli",
+    "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261031.g6814e00d6",
+    "published_at": "2026-10-31T01:19:32.000Z",
+    "score": 54,
+    "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
+  },
+  {
     "key": "https://developers.googleblog.com/devfest-is-back",
     "technology": "Gemini",
     "title": "DevFest is back!",
@@ -9,6 +20,160 @@
     "published_at": "2026-10-30T21:24:49.927Z",
     "score": 78,
     "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google."
+  },
+  {
+    "key": "https://pypi.org/project/gracedb-mcp/0.2.2",
+    "technology": "Infra AI",
+    "title": "gracedb-mcp 0.2.2",
+    "summary": "MCP server exposing LIGO/Virgo gravitational-wave alerts (GraceDB) to LLM agents.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/gracedb-mcp/0.2.2/",
+    "published_at": "2026-10-30T15:12:50.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://www.thehindubusinessline.com/info-tech/cognizant-forms-openai-group-with-25000-professionals-to-deliver-ai-products-to-clients/article71646063.ece",
+    "technology": "Codex",
+    "title": "Cognizant forms OpenAI group with 25,000 professionals to deliver AI products to clients",
+    "summary": "Cognizant has formed a 25,000-member OpenAI group to help enterprises deploy Codex and ChatGPT across software engineering, modernisation and customer operations.",
+    "source": "BusinessLine",
+    "source_url": "https://www.thehindubusinessline.com/info-tech/cognizant-forms-openai-group-with-25000-professionals-to-deliver-ai-products-to-clients/article71646063.ece",
+    "published_at": "2026-10-30T15:07:47.000Z",
+    "score": 74,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://github.com/leonlee/cc-pair",
+    "technology": "Claude",
+    "title": "Show HN: Cc-pair – Claude Code and Codex review each other's work",
+    "summary": "Hi HN, I built cc-pair because I kept noticing that when a coding agent reviews its own work, it tends to go easy on it. cc-pair pairs the two agents I already use — Claude Code and Codex — so one authors a change and the other reviews it, and they iterate un…",
+    "source": "Github.com",
+    "source_url": "https://github.com/leonlee/cc-pair",
+    "published_at": "2026-10-30T15:06:54.000Z",
+    "score": 78,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/nimbus-mcp/0.14.19",
+    "technology": "Infra AI",
+    "title": "nimbus-mcp 0.14.19",
+    "summary": "MCP server bridging AI agents to Nimbus BCI pipelines (device-flow login, desktop auto-discovery, or API key)",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/nimbus-mcp/0.14.19/",
+    "published_at": "2026-10-30T15:05:16.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/axiomatics-ai-sdk/0.2.0",
+    "technology": "Infra AI",
+    "title": "axiomatics-ai-sdk 0.2.0",
+    "summary": "Externalized ABAC for AI applications: enforce PDP policies (XACML 3.0 JSON or OpenID AuthZEN) across agents, tools, MCP servers, A2A agents, and RAG",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/axiomatics-ai-sdk/0.2.0/",
+    "published_at": "2026-10-30T15:03:54.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://github.com/mandarvshinde/ai-bill-to-focus",
+    "technology": "Claude",
+    "title": "Show HN: Convert Anthropic and OpenAI bill exports to FinOps FOCUS (open source)",
+    "summary": "I needed to put our Anthropic and OpenAI spend next to our cloud bills, and found that the exports don't fit together.The Claude Console gives you two CSVs. The Cost export has dollars rounded to the cent, so a day of cache reads shows $0.00. The Usage export…",
+    "source": "Github.com",
+    "source_url": "https://github.com/mandarvshinde/ai-bill-to-focus",
+    "published_at": "2026-10-30T15:03:09.000Z",
+    "score": 72,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/cronometer-mcp/2.4.1",
+    "technology": "Infra AI",
+    "title": "cronometer-mcp 2.4.1",
+    "summary": "MCP server for Cronometer nutrition data — pull food logs, macros, and micronutrients via the Model Context Protocol",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/cronometer-mcp/2.4.1/",
+    "published_at": "2026-10-30T15:02:04.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/code-context-control/2.161.0",
+    "technology": "Infra AI",
+    "title": "code-context-control 2.161.0",
+    "summary": "Local MCP code-intelligence for AI coding tools: surgical search/read/edit, agent-config version history, path-level access + masking guards, and a multi-project hub.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/code-context-control/2.161.0/",
+    "published_at": "2026-10-30T15:00:02.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/bitranox-skills/10.8.1",
+    "technology": "Claude",
+    "title": "bitranox-skills 10.8.1",
+    "summary": "The bitranox Claude Code skill collection and its hooks, installable without the plugin marketplace.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/bitranox-skills/10.8.1/",
+    "published_at": "2026-10-30T14:58:53.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/jira-tempo-mcp/0.7.0",
+    "technology": "Infra AI",
+    "title": "jira-tempo-mcp 0.7.0",
+    "summary": "MCP server for self-hosted Jira + Tempo Timesheets: track time, list worklogs, generate weekly reports.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/jira-tempo-mcp/0.7.0/",
+    "published_at": "2026-10-30T14:51:31.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/gracedb-mcp/0.2.1",
+    "technology": "Infra AI",
+    "title": "gracedb-mcp 0.2.1",
+    "summary": "MCP server exposing LIGO/Virgo gravitational-wave alerts (GraceDB) to LLM agents.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/gracedb-mcp/0.2.1/",
+    "published_at": "2026-10-30T14:50:07.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/polyglot-ai/0.18.17",
+    "technology": "Claude",
+    "title": "polyglot-ai 0.18.17",
+    "summary": "AI-powered coding assistant desktop app for Linux — supports OpenAI, Anthropic, Google, DeepSeek, and more",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/polyglot-ai/0.18.17/",
+    "published_at": "2026-10-30T14:49:20.000Z",
+    "score": 70,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://nomorehappypath.com",
+    "technology": "Claude",
+    "title": "Show HN: AI agent needs process to build a commercial application",
+    "summary": "I decided to test this claim with my app, NoMoreHappyPath (NMHP), against Claude on a real project.Here is the test:I built Acremuse, a commercial real estate analysis platform, with Claude Desktop and Codex as a reviewer. It is deployed and used today by a c…",
+    "source": "Nomorehappypath.com",
+    "source_url": "https://nomorehappypath.com/",
+    "published_at": "2026-10-30T14:49:17.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/designaround",
+    "technology": "OpenClaw",
+    "title": "designaround added to PyPI",
+    "summary": "DesignAround CLI + local engine: design-patent screening, design-around, patent views and filing packages. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode, OpenClaw and Kiro via the bundled Skill.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/designaround/",
+    "published_at": "2026-10-30T14:44:15.000Z",
+    "score": 100,
+    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
   },
   {
     "key": "https://pypi.org/project/mcp-audit-scanner/0.25.0",
@@ -6432,171 +6597,6 @@
     "source_url": "https://pypi.org/project/ntasker/3.16.0/",
     "published_at": "2026-10-14T19:36:13.000Z",
     "score": 78,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/msty-admin-mcp/6.1.3",
-    "technology": "Infra AI",
-    "title": "msty-admin-mcp 6.1.3",
-    "summary": "Comprehensive MCP server for administering Msty Studio Desktop 2.9+ with 56 tools, Studio entity inventory, insights analytics, Nexus bridge, Bloom evaluation, and a Cursor-agent handoff for local models",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/msty-admin-mcp/6.1.3/",
-    "published_at": "2026-10-14T19:31:48.000Z",
-    "score": 66,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/meridian-cli/0.10.2",
-    "technology": "Infra AI",
-    "title": "meridian-cli 0.10.2",
-    "summary": "Orchestrate CLI + MCP server for multi-model agent workflows",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/meridian-cli/0.10.2/",
-    "published_at": "2026-10-14T19:22:44.000Z",
-    "score": 66,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/meridian-cli/0.9.12",
-    "technology": "Infra AI",
-    "title": "meridian-cli 0.9.12",
-    "summary": "Orchestrate CLI + MCP server for multi-model agent workflows",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/meridian-cli/0.9.12/",
-    "published_at": "2026-10-14T13:56:56.000Z",
-    "score": 66,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/brainlayer/1.5.56",
-    "technology": "Infra AI",
-    "title": "brainlayer 1.5.56",
-    "summary": "Persistent local memory for AI agents — 16 BrainBar MCP tools, semantic search, knowledge graph, SQLite",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/brainlayer/1.5.56/",
-    "published_at": "2026-10-14T13:48:27.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/vmware-privateai/2.0.0",
-    "technology": "Infra AI",
-    "title": "vmware-privateai 2.0.0",
-    "summary": "VMware Private AI Foundation with NVIDIA ops — GPU inventory, vGPU/DirectPath profiles, utilization, model-serving (MCP + CLI)",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/vmware-privateai/2.0.0/",
-    "published_at": "2026-10-14T13:44:59.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/dataproduct-builder-skills/2.0.3",
-    "technology": "Claude",
-    "title": "dataproduct-builder-skills 2.0.3",
-    "summary": "Agent skills for designing and building Vulcan/DataOS data products — run via uvx/pipx to scaffold .cursor/.claude/.codex/.github skills and docs into any project.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/dataproduct-builder-skills/2.0.3/",
-    "published_at": "2026-10-14T13:42:21.000Z",
-    "score": 82,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://www.adweek.com/adweek-wire/onaudience-launches-onaudience-mcp-bringing-audience-data-directly-into-agentic-advertising-workflows",
-    "technology": "Infra AI",
-    "title": "OnAudience launches OnAudience MCP, bringing audience data directly into agentic advertising workflows",
-    "summary": "OnAudience launches OnAudience MCP, bringing audience data directly into agentic advertising workflowsadweek.com",
-    "source": "Adweek",
-    "source_url": "https://www.adweek.com/adweek-wire/onaudience-launches-onaudience-mcp-bringing-audience-data-directly-into-agentic-advertising-workflows/",
-    "published_at": "2026-10-14T13:36:26.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap",
-    "technology": "Claude",
-    "title": "AI guardrails designed to stop hackers are now blocking defenders, and Orion-1 aims to fill the gap",
-    "summary": "Artemis Security's new Orion-1 model is purpose-built for cyber defense and beats Claude Opus 5.5 and GPT-6 Sol on the company's own benchmark. The model fills a growing gap as general-purpose frontier models lock down their cyber capabilities, blocking defenders in the process. The article AI guardrails designed to stop hackers are now b...",
-    "source": "The Decoder",
-    "source_url": "https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap/",
-    "published_at": "2026-10-14T13:24:22.000Z",
-    "score": 72,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://openai.com/index/third-moment-research",
-    "technology": "Codex",
-    "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-    "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-    "source": "OpenAI News",
-    "source_url": "https://openai.com/index/third-moment-research",
-    "published_at": "2026-10-14T07:00:00.000Z",
-    "score": 88,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11",
-    "technology": "Codex",
-    "title": "0.163.0-alpha.11",
-    "summary": "Release 0.163.0-alpha.11",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11",
-    "published_at": "2026-10-14T03:27:29.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/heylead/0.10.453",
-    "technology": "Claude",
-    "title": "heylead 0.10.453",
-    "summary": "AI agent for LinkedIn outreach: finds the right people, writes in your voice, follows up and handles replies. From Claude Code, Cursor, any MCP client or a web dashboard.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/heylead/0.10.453/",
-    "published_at": "2026-10-14T01:18:31.000Z",
-    "score": 100,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/emo-cyber/0.2.2",
-    "technology": "Infra AI",
-    "title": "emo-cyber 0.2.2",
-    "summary": "Portable, model-agnostic cybersecurity sub-agent exposed via MCP, CLI, and Python API.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/emo-cyber/0.2.2/",
-    "published_at": "2026-10-14T01:15:50.000Z",
-    "score": 84,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/probe-research/0.249.2",
-    "technology": "Infra AI",
-    "title": "probe-research 0.249.2",
-    "summary": "CLI + SDK + read-only MCP client for Probe Research (experiment tracking).",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/probe-research/0.249.2/",
-    "published_at": "2026-10-14T01:14:15.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/probe-research/0.249.0",
-    "technology": "Infra AI",
-    "title": "probe-research 0.249.0",
-    "summary": "CLI + SDK + read-only MCP client for Probe Research (experiment tracking).",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/probe-research/0.249.0/",
-    "published_at": "2026-10-14T00:45:15.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/aegis-harness/2.9.0",
-    "technology": "Claude",
-    "title": "aegis-harness 2.9.0",
-    "summary": "A web-native workplace for coding agents: Claude Code sessions in browser tabs, with monitors, queues and handoffs over MCP.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/aegis-harness/2.9.0/",
-    "published_at": "2026-10-14T00:40:54.000Z",
-    "score": 98,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
   }
 ]
