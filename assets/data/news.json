@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-10-31T15:54:11.664Z",
+  "generated_at": "2026-11-01T16:56:11.599Z",
   "items": [
     {
       "id": 1,
       "category": "cybersecurity",
-      "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
-      "summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data.\n\nHowever, the company noted that the breach did not result...",
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the tr...",
       "source": "The Hacker News",
-      "source_url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
-      "published_at": "2026-10-31T12:01:56.000Z"
+      "source_url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+      "published_at": "2026-11-01T08:51:31.000Z"
     },
     {
       "id": 2,
       "category": "devops",
-      "title": "open-code-review-toolkit 0.14.3",
-      "summary": "Unofficial GitLab CI integration layer for Open Code Review",
+      "title": "k8stools 4.6.1",
+      "summary": "Tools and an MCP server for building Kubernetes agents",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/open-code-review-toolkit/0.14.3/",
-      "published_at": "2026-10-30T15:39:23.000Z"
+      "source_url": "https://pypi.org/project/k8stools/4.6.1/",
+      "published_at": "2026-10-31T16:23:30.000Z"
     },
     {
       "id": 3,
       "category": "cybersecurity",
-      "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
-      "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or cr...",
+      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+      "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over conc...",
       "source": "BleepingComputer",
-      "source_url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
-      "published_at": "2026-10-31T15:35:11.000Z"
+      "source_url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+      "published_at": "2026-11-01T15:11:21.000Z"
     }
   ]
 }
