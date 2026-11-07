@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T02:38:31.517Z",
+  "generated_at": "2026-11-07T15:34:38.584Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -11,7 +11,7 @@
     "Infra AI"
   ],
   "source_counts": {
-    "rss": 43,
+    "rss": 40,
     "github": 7,
     "newsapi": 50
   },
@@ -21,45 +21,10 @@
     "telegram_summary": [
       {
         "technology": "Claude",
-        "title": "kindex 0.53.0",
+        "title": "imperal-mcp 0.9.5",
         "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
         "score": 100,
-        "url": "https://pypi.org/project/kindex/0.53.0/"
-      },
-      {
-        "technology": "Claude",
-        "title": "bantamkit 0.38.1",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 100,
-        "url": "https://pypi.org/project/bantamkit/0.38.1/"
-      },
-      {
-        "technology": "Claude",
-        "title": "switchboard-relay 0.2.10",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 100,
-        "url": "https://pypi.org/project/switchboard-relay/0.2.10/"
-      },
-      {
-        "technology": "Claude",
-        "title": "mobster-cli 0.4.3",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 98,
-        "url": "https://pypi.org/project/mobster-cli/0.4.3/"
-      },
-      {
-        "technology": "Claude",
-        "title": "mobster-cli added to PyPI",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 98,
-        "url": "https://pypi.org/project/mobster-cli/"
-      },
-      {
-        "technology": "Claude",
-        "title": "quicksilverpro 0.5.2",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 98,
-        "url": "https://pypi.org/project/quicksilverpro/0.5.2/"
+        "url": "https://pypi.org/project/imperal-mcp/0.9.5/"
       },
       {
         "technology": "Codex",
@@ -74,6 +39,41 @@
         "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
         "score": 90,
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.2"
+      },
+      {
+        "technology": "Codex",
+        "title": "0.168.0-alpha.7",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 90,
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.7"
+      },
+      {
+        "technology": "Codex",
+        "title": "0.168.0-alpha.6",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 90,
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.6"
+      },
+      {
+        "technology": "Codex",
+        "title": "0.168.0-alpha.3",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 90,
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.3"
+      },
+      {
+        "technology": "Codex",
+        "title": "kazi-mcp 0.1.13",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 82,
+        "url": "https://pypi.org/project/kazi-mcp/0.1.13/"
+      },
+      {
+        "technology": "Codex",
+        "title": "Cost per task: Using cheap classifiers to route across Gemini models and thinking levels",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 80,
+        "url": "https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/"
       }
     ]
   },
@@ -82,11 +82,11 @@
       "id": 1,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "kindex 0.53.0",
-      "summary": "Every agent is smart inside its own silo. Kindex lets them work together: a local-first knowledge graph and MCP server shared by Claude Code, Codex, Gemini CLI, Antigravity, OpenCode, and Cursor.",
+      "title": "imperal-mcp 0.9.5",
+      "summary": "The exoskeleton for your AI coding agent: memory across sessions, a live code map, undo for every change and a hallucination check. MCP server for Claude Code, Cursor, Codex, Gemini CLI.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/kindex/0.53.0/",
-      "published_at": "2026-11-06T02:37:40.000Z",
+      "source_url": "https://pypi.org/project/imperal-mcp/0.9.5/",
+      "published_at": "2026-11-06T15:16:22.000Z",
       "score": 100,
       "tags": [
         "Claude",
@@ -99,97 +99,6 @@
     },
     {
       "id": 2,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "bantamkit 0.38.1",
-      "summary": "Persistent memory for coding agents: an MCP server for Claude Code, Claude Desktop, Cursor and VS Code Copilot, plus a Python library that lifts small-model agents. Install once, run offline.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/bantamkit/0.38.1/",
-      "published_at": "2026-11-06T02:13:54.000Z",
-      "score": 100,
-      "tags": [
-        "Claude",
-        "Codex",
-        "Infra AI"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 3,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "switchboard-relay 0.2.10",
-      "summary": "A local MCP server that gives independent Codex, Claude Code, and other agent sessions a shared durable message bus.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/switchboard-relay/0.2.10/",
-      "published_at": "2026-11-06T01:54:07.000Z",
-      "score": 100,
-      "tags": [
-        "Claude",
-        "Codex",
-        "Infra AI"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 4,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "mobster-cli 0.4.3",
-      "summary": "MCP server and CLI that lets Claude Code, Cursor and Codex drive a real iPhone or iOS simulator: read the screen, tap, type, and get pass/fail verdicts from accessibility assertions",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/mobster-cli/0.4.3/",
-      "published_at": "2026-11-06T02:10:21.000Z",
-      "score": 98,
-      "tags": [
-        "Claude",
-        "Codex",
-        "Infra AI"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 5,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "mobster-cli added to PyPI",
-      "summary": "MCP server and CLI that lets Claude Code, Cursor and Codex drive a real iPhone or iOS simulator: read the screen, tap, type, and get pass/fail verdicts from accessibility assertions",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/mobster-cli/",
-      "published_at": "2026-11-06T02:10:15.000Z",
-      "score": 98,
-      "tags": [
-        "Claude",
-        "Codex",
-        "Infra AI"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 6,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "quicksilverpro 0.5.2",
-      "summary": "CLI for QuickSilver Pro — one OpenAI-compatible API for Claude, GPT, Gemini, Grok, GLM, DeepSeek, Qwen, Kimi and Muse chat plus FLUX image generation, on a single balance.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/quicksilverpro/0.5.2/",
-      "published_at": "2026-11-06T02:02:08.000Z",
-      "score": 98,
-      "tags": [
-        "Claude",
-        "ChatGPT / OpenAI",
-        "Gemini",
-        "DeepSeek"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 7,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.167.0",
@@ -206,7 +115,7 @@
       "relevant": true
     },
     {
-      "id": 8,
+      "id": 3,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.169.0-alpha.2",
@@ -223,7 +132,7 @@
       "relevant": true
     },
     {
-      "id": 9,
+      "id": 4,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.168.0-alpha.7",
@@ -240,7 +149,7 @@
       "relevant": true
     },
     {
-      "id": 10,
+      "id": 5,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.168.0-alpha.6",
@@ -257,7 +166,7 @@
       "relevant": true
     },
     {
-      "id": 11,
+      "id": 6,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.168.0-alpha.3",
@@ -274,31 +183,14 @@
       "relevant": true
     },
     {
-      "id": 12,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "loadn 0.7.76",
-      "summary": "loadn (load-n) agent engine: Claude Code-compatible stream-json CLI, pluggable providers, tools, MCP, subagents, and context compaction. Monorepo also hosts loadn webui.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/loadn/0.7.76/",
-      "published_at": "2026-11-06T02:34:34.000Z",
-      "score": 82,
-      "tags": [
-        "Claude",
-        "Infra AI"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 13,
+      "id": 7,
       "kind": "newsapi",
       "technology": "Codex",
-      "title": "hol-guard 3.60.0a9",
-      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+      "title": "kazi-mcp 0.1.13",
+      "summary": "MCP server for Kenya labour market coordination: job matching, wage benchmarks, skills gap analysis, a demo informal-sector registry and Employment Act rights. Demo data; nothing is verified.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/hol-guard/3.60.0a9/",
-      "published_at": "2026-11-06T02:19:29.000Z",
+      "source_url": "https://pypi.org/project/kazi-mcp/0.1.13/",
+      "published_at": "2026-11-06T15:28:27.000Z",
       "score": 82,
       "tags": [
         "Codex",
@@ -308,14 +200,14 @@
       "relevant": true
     },
     {
-      "id": 14,
+      "id": 8,
       "kind": "rss",
       "technology": "Codex",
       "title": "Cost per task: Using cheap classifiers to route across Gemini models and thinking levels",
       "summary": "Per-token API prices keep falling, yet engineering bills for autonomous coding agents keep climbing....",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/",
-      "published_at": "2026-11-07T02:38:30.130Z",
+      "published_at": "2026-11-07T15:34:36.883Z",
       "score": 80,
       "tags": [
         "Codex",
@@ -325,14 +217,14 @@
       "relevant": true
     },
     {
-      "id": 15,
+      "id": 9,
       "kind": "rss",
       "technology": "ChatGPT / OpenAI",
       "title": "Step by Step guide: Build a Voice Agent That Never Goes Silent using ADK",
       "summary": "The open-source Agent Development Kit (ADK) and gemini-3.8-live enable developers to build responsive voice agents by implementing non-blocking tools in Python. Developers can use streaming tools to yield progress updates or background execution patterns to keep conversations fluid during long-running backend queries. Additionally, config...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk/",
-      "published_at": "2026-11-07T02:38:30.131Z",
+      "published_at": "2026-11-07T15:34:36.884Z",
       "score": 78,
       "tags": [
         "ChatGPT / OpenAI",
@@ -342,14 +234,14 @@
       "relevant": true
     },
     {
-      "id": 16,
+      "id": 10,
       "kind": "rss",
       "technology": "Gemini",
       "title": "DevFest is back!",
       "summary": "DevFest 2026 runs from October 1 to December 31, bringing together nearly a million developers across more than 800 global events centered on the agentic AI era. Under the theme \"Build, Secure, Scale,\" participants gain hands-on experience with Google’s developer stack—including Gemini, Google AI Studio, Google Antigravity, and Web MCP—th...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/devfest-is-back/",
-      "published_at": "2026-11-07T02:38:30.130Z",
+      "published_at": "2026-11-07T15:34:36.883Z",
       "score": 78,
       "tags": [
         "Gemini",
@@ -359,76 +251,41 @@
       "relevant": true
     },
     {
-      "id": 17,
+      "id": 11,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "skilllint 1.23.1",
-      "summary": "Static analysis linter for Claude Code plugins, skills, and agents",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/skilllint/1.23.1/",
-      "published_at": "2026-11-06T02:35:19.000Z",
-      "score": 78,
+      "title": "Show HN: Upvoted – Up First but with HN stories",
+      "summary": "The three biggest Hacker News stories of the day in about twelve minutes, from an anchor and a correspondent for each story. Upvoted is AI-generated: the stories are picked automatically, the script is written by Claude, and the voices are synthetic. It is no…",
+      "source": "Upvoted.dev",
+      "source_url": "https://upvoted.dev/",
+      "published_at": "2026-11-06T15:34:05.000Z",
+      "score": 74,
       "tags": [
         "Claude",
-        "Codex"
+        "ChatGPT / OpenAI"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
-      "id": 18,
-      "kind": "newsapi",
-      "technology": "Codex",
-      "title": "openai-codex-cli-bin 0.167.0",
-      "summary": "Pinned Codex CLI runtime for the Python SDK",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/openai-codex-cli-bin/0.167.0/",
-      "published_at": "2026-11-06T01:51:56.000Z",
-      "score": 78,
-      "tags": [
-        "Codex",
-        "ChatGPT / OpenAI"
-      ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
-      "id": 19,
+      "id": 12,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "omegaprompt 2.2.7",
-      "summary": "Provider-neutral prompt calibration engine with sensitivity-ranked meta-axes, hard-gate x soft-score fitness, walk-forward ship gates, guarded/expedition profiles, and explicit capability/risk reporting across Anthropic, OpenAI, Gemini, and local OpenAI-compa…",
+      "title": "passageway 0.5.0",
+      "summary": "Retrieval for Claude over MCP: connectors feed passages, an eval harness keeps them honest",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/omegaprompt/2.2.7/",
-      "published_at": "2026-11-06T02:30:17.000Z",
+      "source_url": "https://pypi.org/project/passageway/0.5.0/",
+      "published_at": "2026-11-06T15:21:00.000Z",
       "score": 74,
       "tags": [
         "Claude",
-        "ChatGPT / OpenAI",
-        "Gemini"
+        "Infra AI"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
-      "id": 20,
-      "kind": "newsapi",
-      "technology": "Codex",
-      "title": "openai-codex 0.167.0",
-      "summary": "Python SDK for Codex",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/openai-codex/0.167.0/",
-      "published_at": "2026-11-06T01:53:36.000Z",
-      "score": 74,
-      "tags": [
-        "Codex",
-        "ChatGPT / OpenAI"
-      ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
-      "id": 21,
+      "id": 13,
       "kind": "rss",
       "technology": "Codex",
       "title": "Cult.fit builds operational muscle with Codex",
@@ -445,7 +302,7 @@
       "relevant": true
     },
     {
-      "id": 22,
+      "id": 14,
       "kind": "github_release",
       "technology": "Gemini",
       "title": "Release v0.68.0-preview.0",
@@ -461,7 +318,24 @@
       "relevant": true
     },
     {
-      "id": 23,
+      "id": 15,
+      "kind": "newsapi",
+      "technology": "ChatGPT / OpenAI",
+      "title": "passageway-embedder-openai 0.5.0",
+      "summary": "passageway embedder for OpenAI-compatible embedding services: Ollama, LM Studio, vLLM, OpenAI, Voyage",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/passageway-embedder-openai/0.5.0/",
+      "published_at": "2026-11-06T15:20:58.000Z",
+      "score": 70,
+      "tags": [
+        "ChatGPT / OpenAI",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "relevant": true
+    },
+    {
+      "id": 16,
       "kind": "rss",
       "technology": "Codex",
       "title": "Merge builds product and business tools with OpenAI technology",
@@ -478,20 +352,132 @@
       "relevant": true
     },
     {
+      "id": 17,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "kilimo-mcp 0.1.12",
+      "summary": "Kenya agriculture tools: crop calendar, fertilizer guide, pest and disease alerts, market timing, KALRO varieties, input cost calculator",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/kilimo-mcp/0.1.12/",
+      "published_at": "2026-11-06T15:30:45.000Z",
+      "score": 68,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 18,
+      "kind": "rss",
+      "technology": "Gemini",
+      "title": "Fast, reliable A2UI, with swappable inference formats",
+      "summary": "A2UI now supports swappable inference formats, introducing A2UI Express which uses up to 3x fewer tokens and cuts latency by compiling compact Python-style syntax into standard A2UI JSON via Agent SDKs. Developers can also use controlled generation with TypeSafe's Jev system-decision models to render known-shape screens in under 300 ms wh...",
+      "source": "Google Developers Blog",
+      "source_url": "https://developers.googleblog.com/fast-reliable-a2ui/",
+      "published_at": "2026-11-07T15:34:36.884Z",
+      "score": 66,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 19,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "objectstore-mcp 2.5.0",
+      "summary": "Object storage (S3/MinIO/R2, Google Cloud Storage, Azure Blob, local filesystem) API + MCP Server for Agentic AI!",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/objectstore-mcp/2.5.0/",
+      "published_at": "2026-11-06T15:19:03.000Z",
+      "score": 66,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 20,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "archivebox-api 2.6.0",
+      "summary": "Pythonic ArchiveBox API Wrapper and Fast MCP Server for Agentic AI use!",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/archivebox-api/2.6.0/",
+      "published_at": "2026-11-06T15:33:16.000Z",
+      "score": 62,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 21,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "trimtok 5.7.0",
+      "summary": "Deterministic, lossless-retrievable context compression for autonomous AI agents and MCP clients",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/trimtok/5.7.0/",
+      "published_at": "2026-11-06T15:31:57.000Z",
+      "score": 62,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 22,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "civic-agent-kit 0.2.6",
+      "summary": "Python SDK for building civic AI tools across Africa — M-Pesa, parliament, budgets, drought, MCP and A2A",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/civic-agent-kit/0.2.6/",
+      "published_at": "2026-11-06T15:31:42.000Z",
+      "score": 62,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 23,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "repoward 0.2.0",
+      "summary": "A GitHub MCP server that stops AI agents leaking private code when a malicious issue tells them to.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/repoward/0.2.0/",
+      "published_at": "2026-11-06T15:16:49.000Z",
+      "score": 62,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
       "id": 24,
       "kind": "rss",
-      "technology": "Codex",
-      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/openai-to-acquire-pierre",
-      "published_at": "2026-11-04T14:30:00.000Z",
-      "score": 70,
+      "technology": "Claude",
+      "title": "Perplexity now has its own always-on AI agent",
+      "summary": "Perplexity is launching \"Teammates,\" always-on agents that work through ongoing projects on their own virtual machines. The feature requires the Max plan at $200 per month, well above similar offerings from OpenAI or Anthropic. The market for always-on agents is getting crowded. The article Perplexity now has its own always-on AI agent ap...",
+      "source": "The Decoder",
+      "source_url": "https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/",
+      "published_at": "2026-11-06T16:47:28.000Z",
+      "score": 58,
       "tags": [
-        "Codex",
+        "Claude",
         "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     }
   ]
