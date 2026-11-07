@@ -1,5 +1,38 @@
 [
   {
+    "key": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.3",
+    "technology": "Codex",
+    "title": "0.169.0-alpha.3",
+    "summary": "Release 0.169.0-alpha.3",
+    "source": "GitHub: openai/codex",
+    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.3",
+    "published_at": "2026-11-07T19:31:41.000Z",
+    "score": 90,
+    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds",
+    "technology": "Claude",
+    "title": "AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds",
+    "summary": "AI models can often spot problematic behavior by other AI agents in logs, according to a study by Anthropic researcher Andy Hall. GPT-5 found about 98 percent of reward-hacking cases, but the more exhaustively the search is tuned, the more false alarms pile up. That's not yet enough for reliable safety checks. The article AI auditors catc...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
+    "published_at": "2026-11-07T16:56:38.000Z",
+    "score": 58,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking",
+    "technology": "ChatGPT / OpenAI",
+    "title": "The gap between open and closed AI models in cyber capabilities keeps shrinking",
+    "summary": "In the Vals AI benchmark, OpenAI's GPT-6 Sol Daybreak hits 80.8 percent of attack objectives in simulated corporate networks. Worse, the open-weight model DeepSeek V4.1 Flash reaches 72.8 percent at a tenth of the cost. Because open models can no longer be restricted, analysts say the window for defenders is shrinking fast. The article Th...",
+    "source": "The Decoder",
+    "source_url": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/",
+    "published_at": "2026-11-07T15:35:50.000Z",
+    "score": 72,
+    "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw."
+  },
+  {
     "key": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.2",
     "technology": "Codex",
     "title": "0.169.0-alpha.2",
@@ -9,6 +42,105 @@
     "published_at": "2026-11-06T22:13:30.000Z",
     "score": 90,
     "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
+  },
+  {
+    "key": "https://pypi.org/project/mcp-for-openfilters",
+    "technology": "Claude",
+    "title": "mcp-for-openfilters added to PyPI",
+    "summary": "MCP server that lets Claude design and optimize optical thin-film coatings with OpenFilters",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/mcp-for-openfilters/",
+    "published_at": "2026-11-06T20:27:46.000Z",
+    "score": 74,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/files-com-mcp/2.0.15",
+    "technology": "Infra AI",
+    "title": "files-com-mcp 2.0.15",
+    "summary": "Local-only MCP server for the Files.com API",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/files-com-mcp/2.0.15/",
+    "published_at": "2026-11-06T20:17:42.000Z",
+    "score": 62,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/autocad-mcp-pro/1.8.0",
+    "technology": "Infra AI",
+    "title": "autocad-mcp-pro 1.8.0",
+    "summary": "Production-grade AutoCAD MCP server — COM API + ezdxf dual engine",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/autocad-mcp-pro/1.8.0/",
+    "published_at": "2026-11-06T20:15:26.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/cortex-local/2.7.1",
+    "technology": "Infra AI",
+    "title": "cortex-local 2.7.1",
+    "summary": "Local semantic search MCP server — notes + code, embedded Qdrant, fastembed",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/cortex-local/2.7.1/",
+    "published_at": "2026-11-06T19:49:01.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/cortex-local/2.7.0",
+    "technology": "Infra AI",
+    "title": "cortex-local 2.7.0",
+    "summary": "Local semantic search MCP server — notes + code, embedded Qdrant, fastembed",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/cortex-local/2.7.0/",
+    "published_at": "2026-11-06T19:46:53.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/shortsflow/0.5.0",
+    "technology": "Claude",
+    "title": "shortsflow 0.5.0",
+    "summary": "Self-hosted Opus Clip alternative: long videos to captioned 9:16 Shorts (Whisper, face tracking, active-speaker cuts, Remotion captions). CLI, REST API and MCP server.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/shortsflow/0.5.0/",
+    "published_at": "2026-11-06T19:46:52.000Z",
+    "score": 86,
+    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
+  },
+  {
+    "key": "https://pypi.org/project/katalyst-taxonomy-mcp/4.0.1a15",
+    "technology": "Infra AI",
+    "title": "katalyst-taxonomy-mcp 4.0.1a15",
+    "summary": "MCP server and REST API for katalyst-taxonomy",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/katalyst-taxonomy-mcp/4.0.1a15/",
+    "published_at": "2026-11-06T19:45:23.000Z",
+    "score": 58,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/zoomit-mcp/0.2.0",
+    "technology": "Infra AI",
+    "title": "zoomit-mcp 0.2.0",
+    "summary": "Unofficial read-only MCP server for Zoomit (zoomit.ir/product, Zoobin): phone, laptop and GPU specs, shop prices in Toman, price history, comparisons.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/zoomit-mcp/0.2.0/",
+    "published_at": "2026-11-06T19:44:51.000Z",
+    "score": 54,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
+  },
+  {
+    "key": "https://pypi.org/project/torob-mcp/0.2.0",
+    "technology": "Infra AI",
+    "title": "torob-mcp 0.2.0",
+    "summary": "Unofficial read-only MCP server for Torob: search Iranian shops, compare seller prices, price history, deal checks, baskets, installments, shops.",
+    "source": "Pypi.org",
+    "source_url": "https://pypi.org/project/torob-mcp/0.2.0/",
+    "published_at": "2026-11-06T19:44:31.000Z",
+    "score": 54,
+    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
   },
   {
     "key": "https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent",
@@ -6466,137 +6598,5 @@
     "published_at": "2026-10-22T19:49:44.000Z",
     "score": 82,
     "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://pypi.org/project/orbit-crm/0.1.1",
-    "technology": "Infra AI",
-    "title": "orbit-crm 0.1.1",
-    "summary": "A personal CRM as a vault of Markdown notes, kept by a local MCP server for AI agents: people, organizations, interactions, tasks and topics, with duplicate checks and a source for every fact.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/orbit-crm/0.1.1/",
-    "published_at": "2026-10-22T14:03:21.000Z",
-    "score": 62,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/hoshimi/0.5.0",
-    "technology": "OpenClaw",
-    "title": "hoshimi 0.5.0",
-    "summary": "An OpenAI-compatible gateway in front of the free model stations (Cline, TRAE, ZCode, Qoder, MiniMax, Gemini, CodeBuddy, ...)",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/hoshimi/0.5.0/",
-    "published_at": "2026-10-22T14:02:46.000Z",
-    "score": 78,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
-  },
-  {
-    "key": "https://pypi.org/project/vibops-mcp/0.57.7",
-    "technology": "Infra AI",
-    "title": "vibops-mcp 0.57.7",
-    "summary": "VibOps MCP server — control your GPU infrastructure from any MCP-compatible client",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/vibops-mcp/0.57.7/",
-    "published_at": "2026-10-22T14:01:59.000Z",
-    "score": 58,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/grc-lake/0.3.10",
-    "technology": "Infra AI",
-    "title": "grc-lake 0.3.10",
-    "summary": "Open-source, self-hosted GRC: read-only security evidence, versioned control assessments, and reviewable audit workpapers via console, API, CLI, and MCP.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/grc-lake/0.3.10/",
-    "published_at": "2026-10-22T14:01:48.000Z",
-    "score": 80,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/xippios-core/0.1.0",
-    "technology": "Infra AI",
-    "title": "xippios-core 0.1.0",
-    "summary": "Shared core for the xippios Python SDK family: HTTP client, models, errors, MCP/HTTP adapters",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/xippios-core/0.1.0/",
-    "published_at": "2026-10-22T14:01:35.000Z",
-    "score": 66,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://pypi.org/project/xippios-core",
-    "technology": "Infra AI",
-    "title": "xippios-core added to PyPI",
-    "summary": "Shared core for the xippios Python SDK family: HTTP client, models, errors, MCP/HTTP adapters",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/xippios-core/",
-    "published_at": "2026-10-22T14:01:26.000Z",
-    "score": 66,
-    "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA."
-  },
-  {
-    "key": "https://www.prnewswire.co.uk/news-releases/tracelink-unveils-chorus-to-integrate-once-across-enterprise-and-internet-data-sources-with-mcp-or-api-access-302915966.html",
-    "technology": "Claude",
-    "title": "TraceLink Unveils Chorus to Integrate-Once™ Across Enterprise and Internet Data Sources with MCP or API Access",
-    "summary": "Chorus extends the OPUS Agentic Supply Chain Operating System with governed, real-time access to enterprise and internet data, enabling humans and OPUS Agents to work with information and take approved actions while records remain in their authoritative sourc…",
-    "source": "PR Newswire UK",
-    "source_url": "https://www.prnewswire.co.uk/news-releases/tracelink-unveils-chorus-to-integrate-once-across-enterprise-and-internet-data-sources-with-mcp-or-api-access-302915966.html",
-    "published_at": "2026-10-22T14:00:00.000Z",
-    "score": 82,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://thoughtcatalog.com/jeremy-london/2026/10/anthropics-new-claude-duet-agent-takes-on-metas-muse-by-focusing-on-work-instead-of-personal-errands",
-    "technology": "Claude",
-    "title": "Anthropic’s New Claude Duet Agent Takes On Meta’s Muse by Focusing on Work Instead of Personal Errands",
-    "summary": "Anthropic’s Claude Duet can prepare payroll, chase unpaid invoices and draft a client brief while your laptop’s shut. Announced October 21 as a research preview, the agent is built for …",
-    "source": "Thoughtcatalog.com",
-    "source_url": "https://thoughtcatalog.com/jeremy-london/2026/10/anthropics-new-claude-duet-agent-takes-on-metas-muse-by-focusing-on-work-instead-of-personal-errands/",
-    "published_at": "2026-10-22T13:56:00.000Z",
-    "score": 82,
-    "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.12",
-    "technology": "Codex",
-    "title": "0.164.0-alpha.12",
-    "summary": "Release 0.164.0-alpha.12",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.12",
-    "published_at": "2026-10-22T11:11:51.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11.2",
-    "technology": "Codex",
-    "title": "0.163.0-alpha.11.2",
-    "summary": "Release 0.163.0-alpha.11.2",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11.2",
-    "published_at": "2026-10-22T06:41:14.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.11",
-    "technology": "Codex",
-    "title": "0.164.0-alpha.11",
-    "summary": "Release 0.164.0-alpha.11",
-    "source": "GitHub: openai/codex",
-    "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.11",
-    "published_at": "2026-10-22T04:22:12.000Z",
-    "score": 90,
-    "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace."
-  },
-  {
-    "key": "https://pypi.org/project/healthcloud-cli/3.2.4",
-    "technology": "OpenClaw",
-    "title": "healthcloud-cli 3.2.4",
-    "summary": "Command-line interface for the HealthCloud MCP gateway, generated from the shared MCP tool manifest.",
-    "source": "Pypi.org",
-    "source_url": "https://pypi.org/project/healthcloud-cli/3.2.4/",
-    "published_at": "2026-10-22T01:17:56.000Z",
-    "score": 78,
-    "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local."
   }
 ]
