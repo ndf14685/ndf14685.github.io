@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T02:56:26.540Z",
+  "generated_at": "2026-11-22T17:00:47.587Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -11,7 +11,7 @@
     "Infra AI"
   ],
   "source_counts": {
-    "rss": 36,
+    "rss": 24,
     "github": 10,
     "newsapi": 50
   },
@@ -19,20 +19,6 @@
     "has_relevant_items": true,
     "relevant_count": 8,
     "telegram_summary": [
-      {
-        "technology": "Claude",
-        "title": "ai-voiceover-skills 0.1.20",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 100,
-        "url": "https://pypi.org/project/ai-voiceover-skills/0.1.20/"
-      },
-      {
-        "technology": "Claude",
-        "title": "duduclaw 1.83.0",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 100,
-        "url": "https://pypi.org/project/duduclaw/1.83.0/"
-      },
       {
         "technology": "OpenClaw",
         "title": "How to securely connect internal Cloud Run MCP servers to Gemini Enterprise",
@@ -74,56 +60,33 @@
         "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
         "score": 90,
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.2"
+      },
+      {
+        "technology": "Codex",
+        "title": "0.173.0-alpha.1",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 90,
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.1"
+      },
+      {
+        "technology": "OpenClaw",
+        "title": "The 2028 Hyundai Elantra Hybrid Targets 53 MPG and Puts an AI Assistant in the Dash",
+        "benefit": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
+        "score": 88,
+        "url": "https://the-gadgeteer.com/2026/11/21/2028-hyundai-elantra-hybrid-53-mpg-gleo-ai/"
       }
     ]
   },
   "items": [
     {
       "id": 1,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "ai-voiceover-skills 0.1.20",
-      "summary": "AI voiceover, voice cloning and video Agent Skills for Claude Code, Codex and Cursor: faceless Shorts/TikTok, auto captions, screen-recording narration, Remotion narration, hook A/B tests, AI clip maker (Opus Clip alternative), AI dubbing in your own voice, a…",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/ai-voiceover-skills/0.1.20/",
-      "published_at": "2026-11-21T02:04:48.000Z",
-      "score": 100,
-      "tags": [
-        "Claude",
-        "Codex",
-        "ChatGPT / OpenAI"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 2,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "duduclaw 1.83.0",
-      "summary": "Open-source AI Agent platform unifying Claude / Codex / Gemini CLIs. Multi-LLM routing, 249 MCP tools, 11 messaging channels.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/duduclaw/1.83.0/",
-      "published_at": "2026-11-21T01:59:34.000Z",
-      "score": 100,
-      "tags": [
-        "Claude",
-        "Codex",
-        "Gemini",
-        "Infra AI"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 3,
       "kind": "rss",
       "technology": "OpenClaw",
       "title": "How to securely connect internal Cloud Run MCP servers to Gemini Enterprise",
       "summary": "How to connect Gemini Enterprise privately to internal StreamableHTTP MCP servers on Cloud Run using Egress Agent Gateway, Private Service Connect, FQDN-scoped Private Cloud DNS, and dual-header OAuth 2.0 authentication.",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/how-to-securely-connect-internal-cloud-run-mcp-servers-to-gemini-enterprise/",
-      "published_at": "2026-11-22T02:56:25.075Z",
+      "published_at": "2026-11-22T17:00:35.403Z",
       "score": 98,
       "tags": [
         "OpenClaw",
@@ -134,7 +97,7 @@
       "relevant": true
     },
     {
-      "id": 4,
+      "id": 2,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.171.0",
@@ -151,14 +114,14 @@
       "relevant": true
     },
     {
-      "id": 5,
+      "id": 3,
       "kind": "rss",
       "technology": "ChatGPT / OpenAI",
       "title": "On-Device Speech Recognition and Text-to-Speech in Google AI Edge Gallery",
       "summary": "Google AI Edge Gallery now supports on-device, offline Automatic Speech Recognition (ASR) and Text-to-Speech (TTS) capabilities for building developer-friendly voice applications. Developers can leverage ML Kit for optimized Android performance, or use MediaPipe Tasks and LiteRT for cross-platform open-weight model integration. This local...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/",
-      "published_at": "2026-11-22T02:56:25.075Z",
+      "published_at": "2026-11-22T17:00:35.404Z",
       "score": 90,
       "tags": [
         "ChatGPT / OpenAI",
@@ -168,7 +131,7 @@
       "relevant": true
     },
     {
-      "id": 6,
+      "id": 4,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.173.0-alpha.4",
@@ -185,7 +148,7 @@
       "relevant": true
     },
     {
-      "id": 7,
+      "id": 5,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.173.0-alpha.3",
@@ -202,7 +165,7 @@
       "relevant": true
     },
     {
-      "id": 8,
+      "id": 6,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.173.0-alpha.2",
@@ -219,7 +182,7 @@
       "relevant": true
     },
     {
-      "id": 9,
+      "id": 7,
       "kind": "github_release",
       "technology": "Codex",
       "title": "0.173.0-alpha.1",
@@ -236,31 +199,31 @@
       "relevant": true
     },
     {
-      "id": 10,
+      "id": 8,
       "kind": "newsapi",
-      "technology": "Codex",
-      "title": "nomos-cli 4.29.0",
-      "summary": "Zero-dependency launcher for Nomos: Apache-2.0 static Go AST & Git execution substrate for AI coding agents (nomos xray, nomos init, nomos verify, nomos mcp).",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/nomos-cli/4.29.0/",
-      "published_at": "2026-11-21T02:42:34.000Z",
-      "score": 86,
+      "technology": "OpenClaw",
+      "title": "The 2028 Hyundai Elantra Hybrid Targets 53 MPG and Puts an AI Assistant in the Dash",
+      "summary": "Hyundai's eighth-generation Elantra Hybrid pairs a 155-hp hybrid powertrain with a target of up to 53 MPG combined, a battery-powered Stay Mode for parked comfort, and a new Pleos Connect dash with the Gleo AI voice assistant. Pricing and on-sale timing are s…",
+      "source": "The Gadgeteer",
+      "source_url": "https://the-gadgeteer.com/2026/11/21/2028-hyundai-elantra-hybrid-53-mpg-gleo-ai/",
+      "published_at": "2026-11-21T16:44:57.000Z",
+      "score": 88,
       "tags": [
-        "Codex",
-        "Infra AI"
+        "OpenClaw",
+        "ChatGPT / OpenAI"
       ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "why_it_matters": "Puede mejorar el router, las tareas recurrentes, la mensajeria Telegram o la experiencia de asistente local.",
       "relevant": true
     },
     {
-      "id": 11,
+      "id": 9,
       "kind": "newsapi",
       "technology": "Codex",
-      "title": "abom 0.0.5",
-      "summary": "Agent bill of materials manager for skills, prompts, MCP servers, and packages.",
+      "title": "dostuff 0.2.16",
+      "summary": "DoStuff - a terminal coding agent for any LLM: TUI and headless mode, permissions, MCP, skills, web tools, sessions and git worktrees",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/abom/0.0.5/",
-      "published_at": "2026-11-21T02:51:57.000Z",
+      "source_url": "https://pypi.org/project/dostuff/0.2.16/",
+      "published_at": "2026-11-21T16:42:48.000Z",
       "score": 82,
       "tags": [
         "Codex",
@@ -270,14 +233,31 @@
       "relevant": true
     },
     {
-      "id": 12,
+      "id": 10,
+      "kind": "newsapi",
+      "technology": "ChatGPT / OpenAI",
+      "title": "easy-searxng-mcp-server 2026.11.21.2",
+      "summary": "Open-source MCP server for SearXNG metasearch with VectorRAG reranking, audio transcription (FasterWhisper), and multi-format document support",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/easy-searxng-mcp-server/2026.11.21.2/",
+      "published_at": "2026-11-21T16:17:14.000Z",
+      "score": 82,
+      "tags": [
+        "ChatGPT / OpenAI",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "relevant": true
+    },
+    {
+      "id": 11,
       "kind": "rss",
       "technology": "ChatGPT / OpenAI",
       "title": "Build full-stack Android apps with Gemini in Google AI Studio",
       "summary": "Google AI Studio now lets developers build, test, and ship full-stack Kotlin Android apps from a single prompt—complete with Cloud Firestore, Firebase Authentication, Firebase AI Logic, a faster HD emulator with audio, visual screenshot debugging, and direct publishing to your personal Google Play library.",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/build-full-stack-android-apps-with-gemini-in-google-ai-studio/",
-      "published_at": "2026-11-22T02:56:25.075Z",
+      "published_at": "2026-11-22T17:00:35.404Z",
       "score": 78,
       "tags": [
         "ChatGPT / OpenAI",
@@ -287,48 +267,31 @@
       "relevant": true
     },
     {
-      "id": 13,
+      "id": 12,
       "kind": "newsapi",
       "technology": "Claude",
-      "title": "apple-health-mcp-server 0.6.2",
-      "summary": "Make Claude your personal health AI — locally.",
+      "title": "agroute 0.6.0",
+      "summary": "Configurable local agent router across Codex, Claude Code, and Antigravity with native usage-limit filtering and howhard integration.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/apple-health-mcp-server/0.6.2/",
-      "published_at": "2026-11-21T02:48:38.000Z",
+      "source_url": "https://pypi.org/project/agroute/0.6.0/",
+      "published_at": "2026-11-21T16:34:19.000Z",
       "score": 78,
       "tags": [
         "Claude",
-        "Infra AI"
+        "Codex"
       ],
       "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
       "relevant": true
     },
     {
-      "id": 14,
-      "kind": "newsapi",
-      "technology": "ChatGPT / OpenAI",
-      "title": "cmd-kural added to PyPI",
-      "summary": "Local-first voice typing and voice control for Windows. English and Tamil. GPU-accelerated Whisper, no cloud.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/cmd-kural/",
-      "published_at": "2026-11-21T02:13:23.000Z",
-      "score": 78,
-      "tags": [
-        "ChatGPT / OpenAI",
-        "Infra AI"
-      ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
-      "relevant": true
-    },
-    {
-      "id": 15,
+      "id": 13,
       "kind": "rss",
       "technology": "Gemini",
       "title": "How Agent Anomaly Detection scores on benchmarks we didn't write",
       "summary": "Agent Anomaly Detection (AAD) provides asynchronous, low-latency monitoring for AI agents by analyzing OpenTelemetry traces and logs to flag goal hijacks and tool misuse. Tested across five public security benchmarks, AAD successfully caught 87% of harmful instructions carried out by agents without adding runtime latency. Developers can i...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write/",
-      "published_at": "2026-11-22T02:56:25.075Z",
+      "published_at": "2026-11-22T17:00:35.404Z",
       "score": 76,
       "tags": [
         "Infra AI"
@@ -337,31 +300,66 @@
       "relevant": true
     },
     {
-      "id": 16,
-      "kind": "rss",
-      "technology": "Codex",
-      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-      "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "published_at": "2026-11-19T08:00:00.000Z",
+      "id": 14,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "shdwsdk 0.3.0",
+      "summary": "Non-blocking Scope 3 AI carbon telemetry and AI-BOM discovery for OpenAI, Anthropic, Gemini and LiteLLM.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/shdwsdk/0.3.0/",
+      "published_at": "2026-11-21T16:57:48.000Z",
       "score": 74,
       "tags": [
-        "Codex",
-        "ChatGPT / OpenAI"
+        "Claude",
+        "ChatGPT / OpenAI",
+        "Gemini"
       ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 15,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "ouroboros-ai 0.65.0",
+      "summary": "Pins an acceptance spec and omits any verify command or expected output from the worker's contract. Works with Claude Code, Codex CLI, OpenCode and 10 more runtimes.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/ouroboros-ai/0.65.0/",
+      "published_at": "2026-11-21T16:16:55.000Z",
+      "score": 74,
+      "tags": [
+        "Claude",
+        "Codex"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 16,
+      "kind": "newsapi",
+      "technology": "ChatGPT / OpenAI",
+      "title": "scavio 0.72.1",
+      "summary": "Python SDK for the Scavio Search API - real-time data from 92 sources (Google, ChatGPT, Gemini, Amazon, Walmart, Costco, Best Buy, TCGplayer, Nintendo, H&M, Zara, Uniqlo, ASOS, Fashion Nova, Argos, Vinted, Mercari, Depop, Poshmark, thredUP, Macy's, IKEA, Lowe…",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/scavio/0.72.1/",
+      "published_at": "2026-11-21T16:33:11.000Z",
+      "score": 72,
+      "tags": [
+        "ChatGPT / OpenAI",
+        "Gemini"
+      ],
+      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
       "relevant": true
     },
     {
       "id": 17,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "visualizer-cli 0.11.0",
-      "summary": "Web workspace for agent-built docs and content: agents author structured documents with charts and diagrams through a CLI, an HTTP API front, and an MCP server, and humans view them in the browser on desktop, phone, or remotely via a served site.",
+      "title": "kachedb-mcp 0.6.1",
+      "summary": "High-performance Model Context Protocol (MCP) server for KacheDB — in-memory cache & SIMD semantic memory for AI agents",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/visualizer-cli/0.11.0/",
-      "published_at": "2026-11-21T02:52:30.000Z",
+      "source_url": "https://pypi.org/project/kachedb-mcp/0.6.1/",
+      "published_at": "2026-11-21T16:21:27.000Z",
       "score": 66,
       "tags": [
         "Infra AI"
@@ -371,30 +369,29 @@
     },
     {
       "id": 18,
-      "kind": "rss",
-      "technology": "Claude",
-      "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
-      "summary": "Bytedance and several US universities introduce Axion 1.0, an AI agent that rivals top commercial models from OpenAI and Anthropic on benchmarks after just three training phases. The researchers attribute the gains to carefully curated training data rather than ever more training steps. The model, data, and code are freely available. The...",
-      "source": "The Decoder",
-      "source_url": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
-      "published_at": "2026-11-21T09:17:24.000Z",
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "kestrel-feature-mcp 0.21.0",
+      "summary": "Model Context Protocol (MCP) server management for Kestrel Sovereign agents",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/kestrel-feature-mcp/0.21.0/",
+      "published_at": "2026-11-21T16:55:58.000Z",
       "score": 62,
       "tags": [
-        "Claude",
-        "ChatGPT / OpenAI"
+        "Infra AI"
       ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
       "id": 19,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "gregsonworks-mcp added to PyPI",
-      "summary": "GregsonWorks for agents: live local demand signals (Signal Feed) and the agent capability board (Capability Index) in one MCP server.",
+      "title": "xfea-mcp 0.0.1",
+      "summary": "xfea for your AI assistant: an MCP server that builds, solves and shows finite element models. First release coming soon.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/gregsonworks-mcp/",
-      "published_at": "2026-11-21T02:53:26.000Z",
+      "source_url": "https://pypi.org/project/xfea-mcp/0.0.1/",
+      "published_at": "2026-11-21T16:51:53.000Z",
       "score": 62,
       "tags": [
         "Infra AI"
@@ -406,11 +403,11 @@
       "id": 20,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "gregsonworks-mcp 1.0.0",
-      "summary": "GregsonWorks for agents: live local demand signals (Signal Feed) and the agent capability board (Capability Index) in one MCP server.",
+      "title": "xfea-mcp added to PyPI",
+      "summary": "xfea for your AI assistant: an MCP server that builds, solves and shows finite element models. First release coming soon.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/gregsonworks-mcp/1.0.0/",
-      "published_at": "2026-11-21T02:53:26.000Z",
+      "source_url": "https://pypi.org/project/xfea-mcp/",
+      "published_at": "2026-11-21T16:51:53.000Z",
       "score": 62,
       "tags": [
         "Infra AI"
@@ -422,12 +419,12 @@
       "id": 21,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "finerx-mcp 2.2.1",
-      "summary": "FineRx for AI assistants: what US pharmacy chains were seen charging with the free FineRx discount card (with dates, near a ZIP), the card itself, and US equivalents of foreign-brand medicines, in 12 languages (thin client over the FineRx public REST API).",
+      "title": "mcp-stealth-chrome 0.27.1",
+      "summary": "MCP server with 170 tools: a real Chrome browser over CDP with nodriver, HTTP with Chrome's TLS fingerprint, Cloudflare Turnstile handling, session reuse, and web research without API keys",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/finerx-mcp/2.2.1/",
-      "published_at": "2026-11-21T02:34:59.000Z",
-      "score": 62,
+      "source_url": "https://pypi.org/project/mcp-stealth-chrome/0.27.1/",
+      "published_at": "2026-11-21T16:51:09.000Z",
+      "score": 58,
       "tags": [
         "Infra AI"
       ],
@@ -437,44 +434,44 @@
     {
       "id": 22,
       "kind": "newsapi",
-      "technology": "ChatGPT / OpenAI",
-      "title": "signalwire-sdk 3.13.0.dev154",
-      "summary": "SignalWire SDK for AI voice agents, live call control (RELAY) and REST. Run sw-pydocs for its documentation.",
+      "technology": "Infra AI",
+      "title": "mcp-cyberbro 0.0.7",
+      "summary": "Model Context Protocol server for Cyberbro IOC analysis and enrichment",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/signalwire-sdk/3.13.0.dev154/",
-      "published_at": "2026-11-21T02:22:40.000Z",
-      "score": 62,
+      "source_url": "https://pypi.org/project/mcp-cyberbro/0.0.7/",
+      "published_at": "2026-11-21T16:43:38.000Z",
+      "score": 58,
       "tags": [
-        "ChatGPT / OpenAI"
+        "Infra AI"
       ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
       "id": 23,
       "kind": "newsapi",
-      "technology": "ChatGPT / OpenAI",
-      "title": "signalwire-sdk 3.13.0",
-      "summary": "SignalWire SDK for AI voice agents, live call control (RELAY) and REST. Run sw-pydocs for its documentation.",
+      "technology": "Infra AI",
+      "title": "mcp-sdk-audit 0.1.2",
+      "summary": "Find MCP SDK versions with known advisories, and the code that stays exposed after you upgrade.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/signalwire-sdk/3.13.0/",
-      "published_at": "2026-11-21T02:22:38.000Z",
-      "score": 62,
+      "source_url": "https://pypi.org/project/mcp-sdk-audit/0.1.2/",
+      "published_at": "2026-11-21T16:31:59.000Z",
+      "score": 58,
       "tags": [
-        "ChatGPT / OpenAI"
+        "Infra AI"
       ],
-      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
       "relevant": true
     },
     {
       "id": 24,
       "kind": "newsapi",
       "technology": "Infra AI",
-      "title": "mt5-trading-mcp 1.8.5",
-      "summary": "MCP server for MetaTrader 5: let an AI agent read market data, watch trades, and place real trades - behind a consent/audit safety layer. Windows + Linux (Docker).",
+      "title": "mcp-sdk-audit added to PyPI",
+      "summary": "Find MCP SDK versions with known advisories, and the code that stays exposed after you upgrade.",
       "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/mt5-trading-mcp/1.8.5/",
-      "published_at": "2026-11-21T02:53:38.000Z",
+      "source_url": "https://pypi.org/project/mcp-sdk-audit/",
+      "published_at": "2026-11-21T16:31:55.000Z",
       "score": 58,
       "tags": [
         "Infra AI"
