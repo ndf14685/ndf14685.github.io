@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T20:03:26.489Z",
+  "generated_at": "2026-11-25T05:19:32.821Z",
   "lookback_hours": 72,
   "stack_focus": [
     "OpenClaw",
@@ -11,7 +11,7 @@
     "Infra AI"
   ],
   "source_counts": {
-    "rss": 39,
+    "rss": 40,
     "github": 10,
     "newsapi": 49
   },
@@ -19,20 +19,6 @@
     "has_relevant_items": true,
     "relevant_count": 8,
     "telegram_summary": [
-      {
-        "technology": "Codex",
-        "title": "0.172.0",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 100,
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0"
-      },
-      {
-        "technology": "Claude",
-        "title": "mnemohive 0.1.9",
-        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-        "score": 100,
-        "url": "https://pypi.org/project/mnemohive/0.1.9/"
-      },
       {
         "technology": "OpenClaw",
         "title": "How to securely connect internal Cloud Run MCP servers to Gemini Enterprise",
@@ -49,17 +35,31 @@
       },
       {
         "technology": "Codex",
+        "title": "0.174.0-alpha.5",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 90,
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.5"
+      },
+      {
+        "technology": "Codex",
+        "title": "0.174.0-alpha.4",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 90,
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.4"
+      },
+      {
+        "technology": "Codex",
+        "title": "0.174.0-alpha.3",
+        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+        "score": 90,
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.3"
+      },
+      {
+        "technology": "Codex",
         "title": "0.174.0-alpha.2",
         "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
         "score": 90,
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.2"
-      },
-      {
-        "technology": "Codex",
-        "title": "0.173.0-alpha.5",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 90,
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.5"
       },
       {
         "technology": "Codex",
@@ -69,60 +69,24 @@
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.1"
       },
       {
-        "technology": "Codex",
-        "title": "0.172.0-alpha.2.1",
-        "benefit": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-        "score": 90,
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0-alpha.2.1"
+        "technology": "Claude",
+        "title": "Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents",
+        "benefit": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+        "score": 86,
+        "url": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/"
       }
     ]
   },
   "items": [
     {
       "id": 1,
-      "kind": "github_release",
-      "technology": "Codex",
-      "title": "0.172.0",
-      "summary": "## New Features - Follow thread links from search results and transcripts to open saved conversations and nested agents in the terminal. (#62332) - Press `Tab` to complete arguments for supported slash commands. For example, `/mcp lo` completes to `/mcp login`. (#62343) - Jump between task groups in the agent command center with `Shift+Up...",
-      "source": "GitHub: openai/codex",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
-      "published_at": "2026-11-24T00:03:55.000Z",
-      "score": 100,
-      "tags": [
-        "Codex",
-        "ChatGPT / OpenAI",
-        "Infra AI"
-      ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
-      "id": 2,
-      "kind": "newsapi",
-      "technology": "Claude",
-      "title": "mnemohive 0.1.9",
-      "summary": "One shared, versioned memory for your coding agents (Claude Code, Codex, OpenCode) over MCP, in one local file.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/mnemohive/0.1.9/",
-      "published_at": "2026-11-23T19:35:15.000Z",
-      "score": 100,
-      "tags": [
-        "Claude",
-        "Codex",
-        "Infra AI"
-      ],
-      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
-      "relevant": true
-    },
-    {
-      "id": 3,
       "kind": "rss",
       "technology": "OpenClaw",
       "title": "How to securely connect internal Cloud Run MCP servers to Gemini Enterprise",
       "summary": "How to connect Gemini Enterprise privately to internal StreamableHTTP MCP servers on Cloud Run using Egress Agent Gateway, Private Service Connect, FQDN-scoped Private Cloud DNS, and dual-header OAuth 2.0 authentication.",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/how-to-securely-connect-internal-cloud-run-mcp-servers-to-gemini-enterprise/",
-      "published_at": "2026-11-24T20:03:25.572Z",
+      "published_at": "2026-11-25T05:19:31.854Z",
       "score": 98,
       "tags": [
         "OpenClaw",
@@ -133,14 +97,14 @@
       "relevant": true
     },
     {
-      "id": 4,
+      "id": 2,
       "kind": "rss",
       "technology": "ChatGPT / OpenAI",
       "title": "On-Device Speech Recognition and Text-to-Speech in Google AI Edge Gallery",
       "summary": "Google AI Edge Gallery now supports on-device, offline Automatic Speech Recognition (ASR) and Text-to-Speech (TTS) capabilities for building developer-friendly voice applications. Developers can leverage ML Kit for optimized Android performance, or use MediaPipe Tasks and LiteRT for cross-platform open-weight model integration. This local...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/",
-      "published_at": "2026-11-24T20:03:25.573Z",
+      "published_at": "2026-11-25T05:19:31.855Z",
       "score": 90,
       "tags": [
         "ChatGPT / OpenAI",
@@ -150,14 +114,48 @@
       "relevant": true
     },
     {
+      "id": 3,
+      "kind": "github_release",
+      "technology": "Codex",
+      "title": "0.174.0-alpha.5",
+      "summary": "Release 0.174.0-alpha.5",
+      "source": "GitHub: openai/codex",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.5",
+      "published_at": "2026-11-25T01:11:35.000Z",
+      "score": 90,
+      "tags": [
+        "Codex",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "relevant": true
+    },
+    {
+      "id": 4,
+      "kind": "github_release",
+      "technology": "Codex",
+      "title": "0.174.0-alpha.4",
+      "summary": "Release 0.174.0-alpha.4",
+      "source": "GitHub: openai/codex",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.4",
+      "published_at": "2026-11-24T23:01:51.000Z",
+      "score": 90,
+      "tags": [
+        "Codex",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "relevant": true
+    },
+    {
       "id": 5,
       "kind": "github_release",
       "technology": "Codex",
-      "title": "0.174.0-alpha.2",
-      "summary": "Release 0.174.0-alpha.2",
+      "title": "0.174.0-alpha.3",
+      "summary": "Release 0.174.0-alpha.3",
       "source": "GitHub: openai/codex",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.2",
-      "published_at": "2026-11-24T16:14:14.000Z",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.3",
+      "published_at": "2026-11-24T20:14:27.000Z",
       "score": 90,
       "tags": [
         "Codex",
@@ -170,11 +168,11 @@
       "id": 6,
       "kind": "github_release",
       "technology": "Codex",
-      "title": "0.173.0-alpha.5",
-      "summary": "Release 0.173.0-alpha.5",
+      "title": "0.174.0-alpha.2",
+      "summary": "Release 0.174.0-alpha.2",
       "source": "GitHub: openai/codex",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.5",
-      "published_at": "2026-11-24T06:44:18.000Z",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.2",
+      "published_at": "2026-11-24T16:14:14.000Z",
       "score": 90,
       "tags": [
         "Codex",
@@ -202,23 +200,6 @@
     },
     {
       "id": 8,
-      "kind": "github_release",
-      "technology": "Codex",
-      "title": "0.172.0-alpha.2.1",
-      "summary": "Release 0.172.0-alpha.2.1",
-      "source": "GitHub: openai/codex",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0-alpha.2.1",
-      "published_at": "2026-11-23T18:02:51.000Z",
-      "score": 90,
-      "tags": [
-        "Codex",
-        "ChatGPT / OpenAI"
-      ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
-      "id": 9,
       "kind": "rss",
       "technology": "Claude",
       "title": "Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents",
@@ -235,35 +216,52 @@
       "relevant": true
     },
     {
-      "id": 10,
-      "kind": "newsapi",
-      "technology": "Codex",
-      "title": "probe-research 0.624.0",
-      "summary": "Probe: experiment tracking for ML teams and their coding agents (SDK, CLI, read-only MCP).",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/probe-research/0.624.0/",
-      "published_at": "2026-11-23T19:35:20.000Z",
-      "score": 86,
-      "tags": [
-        "Codex",
-        "Infra AI"
-      ],
-      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
-      "relevant": true
-    },
-    {
-      "id": 11,
+      "id": 9,
       "kind": "rss",
       "technology": "ChatGPT / OpenAI",
       "title": "Build full-stack Android apps with Gemini in Google AI Studio",
       "summary": "Google AI Studio now lets developers build, test, and ship full-stack Kotlin Android apps from a single prompt—complete with Cloud Firestore, Firebase Authentication, Firebase AI Logic, a faster HD emulator with audio, visual screenshot debugging, and direct publishing to your personal Google Play library.",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/build-full-stack-android-apps-with-gemini-in-google-ai-studio/",
-      "published_at": "2026-11-24T20:03:25.572Z",
+      "published_at": "2026-11-25T05:19:31.855Z",
       "score": 78,
       "tags": [
         "ChatGPT / OpenAI",
         "Gemini"
+      ],
+      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "relevant": true
+    },
+    {
+      "id": 10,
+      "kind": "newsapi",
+      "technology": "ChatGPT / OpenAI",
+      "title": "glados-mcp 0.2.0",
+      "summary": "MCP server that speaks aloud as GLaDOS (or a neutral Kokoro voice) while your AI assistant works",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/glados-mcp/0.2.0/",
+      "published_at": "2026-11-24T05:04:43.000Z",
+      "score": 78,
+      "tags": [
+        "ChatGPT / OpenAI",
+        "Infra AI"
+      ],
+      "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
+      "relevant": true
+    },
+    {
+      "id": 11,
+      "kind": "newsapi",
+      "technology": "ChatGPT / OpenAI",
+      "title": "glados-mcp added to PyPI",
+      "summary": "MCP server that speaks aloud as GLaDOS (or a neutral Kokoro voice) while your AI assistant works",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/glados-mcp/",
+      "published_at": "2026-11-24T05:04:43.000Z",
+      "score": 78,
+      "tags": [
+        "ChatGPT / OpenAI",
+        "Infra AI"
       ],
       "why_it_matters": "Puede mejorar voz, latencia, reasoning, generacion multimodal o integraciones API del stack Jarvis/OpenClaw.",
       "relevant": true
@@ -276,7 +274,7 @@
       "summary": "Agent Anomaly Detection (AAD) provides asynchronous, low-latency monitoring for AI agents by analyzing OpenTelemetry traces and logs to flag goal hijacks and tool misuse. Tested across five public security benchmarks, AAD successfully caught 87% of harmful instructions carried out by agents without adding runtime latency. Developers can i...",
       "source": "Google Developers Blog",
       "source_url": "https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write/",
-      "published_at": "2026-11-24T20:03:25.573Z",
+      "published_at": "2026-11-25T05:19:31.855Z",
       "score": 76,
       "tags": [
         "Infra AI"
@@ -286,6 +284,40 @@
     },
     {
       "id": 13,
+      "kind": "newsapi",
+      "technology": "Claude",
+      "title": "revit-bridge 0.9.1",
+      "summary": "Intent bridge between designers and AI for Revit: MCP server + Claude Code plugin",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/revit-bridge/0.9.1/",
+      "published_at": "2026-11-24T04:56:52.000Z",
+      "score": 74,
+      "tags": [
+        "Claude",
+        "Infra AI"
+      ],
+      "why_it_matters": "Sirve para decidir cambios de modelo, delegacion de tareas complejas y mejores flujos de codigo/revision.",
+      "relevant": true
+    },
+    {
+      "id": 14,
+      "kind": "rss",
+      "technology": "Codex",
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "score": 74,
+      "tags": [
+        "Codex",
+        "ChatGPT / OpenAI"
+      ],
+      "why_it_matters": "Puede potenciar automatizaciones de repos, skills, refactors y tareas de desarrollo sobre tu workspace.",
+      "relevant": true
+    },
+    {
+      "id": 15,
       "kind": "rss",
       "technology": "Codex",
       "title": "Searching for distant planets with Astra",
@@ -302,39 +334,87 @@
       "relevant": true
     },
     {
-      "id": 14,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "exomem 0.201.0",
-      "summary": "Local knowledge substrate for owned markdown/Obsidian vaults, exposed through MCP, REST, and CLI with multimodal OCR/ASR/CLIP search",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/exomem/0.201.0/",
-      "published_at": "2026-11-23T20:01:00.000Z",
-      "score": 62,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 15,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "agentic-composite-memory 0.2.1",
-      "summary": "Enterprise Multi-Tenant Ontology-Grounded Composite Memory SDK, MCP Server & Platform Service for Google ADK Agents",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/agentic-composite-memory/0.2.1/",
-      "published_at": "2026-11-23T20:00:45.000Z",
-      "score": 62,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
       "id": 16,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "counselmode-licenses 2.14.0",
+      "summary": "Software, model and data license answers inside your AI assistant: an MCP server and agent skill. Not legal advice.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/counselmode-licenses/2.14.0/",
+      "published_at": "2026-11-24T05:09:49.000Z",
+      "score": 62,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 17,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "orinyx-mcp 0.1.6",
+      "summary": "Orinyx MCP server, command-line tool and REST client: a client of the Orinyx medication-claim verification API.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/orinyx-mcp/0.1.6/",
+      "published_at": "2026-11-24T05:08:45.000Z",
+      "score": 62,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 18,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "tencentcloud-agentobs-instrumentation-mcp 0.1.0b3",
+      "summary": "LoongSuite Model Context Protocol (MCP) instrumentation",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/tencentcloud-agentobs-instrumentation-mcp/0.1.0b3/",
+      "published_at": "2026-11-24T04:56:02.000Z",
+      "score": 62,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 19,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "tencentcloud-agentobs-instrumentation-mcp added to PyPI",
+      "summary": "LoongSuite Model Context Protocol (MCP) instrumentation",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/tencentcloud-agentobs-instrumentation-mcp/",
+      "published_at": "2026-11-24T04:56:02.000Z",
+      "score": 62,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 20,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "counselmode-licenses 2.13.4",
+      "summary": "Software, model and data license answers inside your AI assistant: an MCP server and agent skill. Not legal advice.",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/counselmode-licenses/2.13.4/",
+      "published_at": "2026-11-24T04:51:10.000Z",
+      "score": 62,
+      "tags": [
+        "Infra AI"
+      ],
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
+    },
+    {
+      "id": 21,
       "kind": "rss",
       "technology": "Claude",
       "title": "Dozens of insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures",
@@ -351,132 +431,52 @@
       "relevant": true
     },
     {
-      "id": 17,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "openzim-mcp 3.5.0",
-      "summary": "OpenZIM MCP - ZIM MCP Server that enables AI models to access and search ZIM format knowledge bases offline",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/openzim-mcp/3.5.0/",
-      "published_at": "2026-11-23T19:47:43.000Z",
-      "score": 58,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 18,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "gephi-ai 1.24.2",
-      "summary": "MCP Server for controlling Gephi Desktop via remote API",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/gephi-ai/1.24.2/",
-      "published_at": "2026-11-23T19:45:12.000Z",
-      "score": 58,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 19,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "codescope-ai added to PyPI",
-      "summary": "Understand a Python codebase: docs linked to the source, cited answers (RAG or an agent), change review, and MCP tools for AI apps.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/codescope-ai/",
-      "published_at": "2026-11-23T19:37:37.000Z",
-      "score": 58,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 20,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "pushpage-mcp added to PyPI",
-      "summary": "MCP server for pushpage: let AI agents publish HTML as shareable URLs.",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/pushpage-mcp/",
-      "published_at": "2026-11-23T19:36:14.000Z",
-      "score": 58,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
-      "id": 21,
-      "kind": "newsapi",
-      "technology": "Infra AI",
-      "title": "ai-editor-client-dev 1.0.249",
-      "summary": "Async JSON-RPC client for the ai-editor MCP server (mcp-proxy-adapter JsonRpcClient)",
-      "source": "Pypi.org",
-      "source_url": "https://pypi.org/project/ai-editor-client-dev/1.0.249/",
-      "published_at": "2026-11-23T19:31:58.000Z",
-      "score": 58,
-      "tags": [
-        "Infra AI"
-      ],
-      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
-      "relevant": true
-    },
-    {
       "id": 22,
-      "kind": "github_release",
-      "technology": "Gemini",
-      "title": "Release v0.71.1",
-      "summary": "## What's Changed * fix(patch): cherry-pick aafdfdf to release/v0.71.0-pr-30420 to patch version v0.71.0 and create version 0.71.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/30429 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.71.0...v0.71.1",
-      "source": "GitHub: google-gemini/gemini-cli",
-      "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.1",
-      "published_at": "2026-11-24T03:50:24.000Z",
-      "score": 54,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "physbox-mcp 0.75.2",
+      "summary": "PhysBox: MCP - Server for local simulation apps",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/physbox-mcp/0.75.2/",
+      "published_at": "2026-11-24T05:16:53.000Z",
+      "score": 58,
       "tags": [
-        "Gemini"
+        "Infra AI"
       ],
-      "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
-      "relevant": false
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
     },
     {
       "id": 23,
-      "kind": "github_release",
-      "technology": "Gemini",
-      "title": "Release v0.71.0",
-      "summary": "## What's Changed * Changelog for v0.70.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/30361 * chore(release): bump version to 0.71.0-nightly.20261118.g615d6bc8c by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/30366 * Changelog for v0.69.0 by @gemini-cli-robot in https://githu...",
-      "source": "GitHub: google-gemini/gemini-cli",
-      "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0",
-      "published_at": "2026-11-24T01:16:44.000Z",
-      "score": 54,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "rlm-tools 0.2.2",
+      "summary": "MCP server providing a persistent Python sandbox for token-efficient codebase exploration across MCP clients",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/rlm-tools/0.2.2/",
+      "published_at": "2026-11-24T05:12:14.000Z",
+      "score": 58,
       "tags": [
-        "Gemini"
+        "Infra AI"
       ],
-      "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
-      "relevant": false
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
     },
     {
       "id": 24,
-      "kind": "github_release",
-      "technology": "Gemini",
-      "title": "Release v0.71.0-nightly.20261124.gaafdfdfb5",
-      "summary": "## What's Changed * fix(a2a-server): enforce bearer token authentication and request input validation by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/30420 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.71.0-nightly.20261123.geecccfcd5...v0.71.0-nightly.20261124.gaafdfdfb5",
-      "source": "GitHub: google-gemini/gemini-cli",
-      "source_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261124.gaafdfdfb5",
-      "published_at": "2026-11-24T01:13:47.000Z",
-      "score": 54,
+      "kind": "newsapi",
+      "technology": "Infra AI",
+      "title": "physbox-mcp 0.75.1",
+      "summary": "PhysBox: MCP - Server for local simulation apps",
+      "source": "Pypi.org",
+      "source_url": "https://pypi.org/project/physbox-mcp/0.75.1/",
+      "published_at": "2026-11-24T05:01:03.000Z",
+      "score": 58,
       "tags": [
-        "Gemini"
+        "Infra AI"
       ],
-      "why_it_matters": "Util para contexto largo, segunda opinion, busqueda amplia y automatizaciones con herramientas Google.",
-      "relevant": false
+      "why_it_matters": "Impacta directo en despliegue, performance, observabilidad, seguridad o costos de la infra de IA.",
+      "relevant": true
     }
   ]
 }
